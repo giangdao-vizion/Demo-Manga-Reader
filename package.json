@@ -1,0 +1,21 @@
+{
+  "name": "image-links-extractor",
+  "version": "1.0.0",
+  "description": "Fetch a page and export all image URLs to JSON",
+  "type": "module",
+  "bin": {
+    "image-links": "./cli.js",
+    "batch-chapters": "./batch-chapters.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "batch": "node batch-chapters.js",
+    "reader": "npx --yes serve . -l 3456"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
+  }
+}

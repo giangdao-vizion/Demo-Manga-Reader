@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Reader</title>
+  <style>
+    :root {
+      --glass: rgba(255, 255, 255, 0.07);
+      --glass-strong: rgba(255, 255, 255, 0.11);
+      --stroke: rgba(255, 255, 255, 0.14);
+      --stroke-soft: rgba(255, 255, 255, 0.08);
+      --text: rgba(255, 255, 255, 0.92);
+      --text-dim: rgba(255, 255, 255, 0.55);
+      --accent: #7af2ff;
+      --accent-dim: rgba(122, 242, 255, 0.35);
+      --danger: #ff7a7a;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+      --radius-lg: 22px;
+      --radius-md: 14px;
+      --radius-sm: 10px;
+      --nav-w: 148px;
+      --blur: saturate(1.2) blur(28px);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+        "Segoe UI", Roboto, system-ui, sans-serif;
+      color: var(--text);
+      background: radial-gradient(120% 80% at 50% -10%, #1a2440 0%, #07080c 45%, #030306 100%);
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+    }
+    .glass {
+      background: var(--glass);
+      backdrop-filter: var(--blur);
+      -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--stroke);
+      box-shadow: var(--shadow);
+    }
+    header.shell {
+      margin: 10px 12px 0;
+      padding: 10px 14px;
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 14px;
+    }
+    header.shell h1 {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    header .meta {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    .toolbar {
+      margin-left: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .btn-ghost,
+    .toolbar label.file-btn {
+      cursor: pointer;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: var(--glass-strong);
+      color: var(--text);
+      letter-spacing: 0.02em;
+    }
+    .toolbar input[type="file"] {
+      display: none;
+    }
+    .layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: var(--nav-w) 1fr;
+      gap: 10px;
+      padding: 10px 12px 16px;
+      min-height: 0;
+    }
+    @media (max-width: 720px) {
+      .layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+      }
+    }
+    nav.chapter-rail {
+      border-radius: var(--radius-lg);
+      padding: 8px 6px;
+      overflow: auto;
+      max-height: calc(100dvh - 88px);
+    }
+    @media (max-width: 720px) {
+      nav.chapter-rail {
+        max-height: none;
+        padding: 8px;
+      }
+      nav.chapter-rail .rail-inner {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 6px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+        scrollbar-width: none;
+      }
+      nav.chapter-rail .rail-inner::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    @media (min-width: 721px) {
+      nav.chapter-rail .rail-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+    nav.chapter-rail h2 {
+      margin: 0 4px 6px;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+    @media (max-width: 720px) {
+      nav.chapter-rail h2 {
+        display: none;
+      }
+    }
+    nav.chapter-rail button.chap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      width: 100%;
+      min-height: 0;
+      padding: 5px 8px;
+      margin: 0;
+      border-radius: var(--radius-sm);
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text);
+      font-size: 0.72rem;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    @media (max-width: 720px) {
+      nav.chapter-rail button.chap {
+        width: auto;
+        flex: 0 0 auto;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--stroke-soft);
+        background: rgba(0, 0, 0, 0.2);
+      }
+    }
+    nav.chapter-rail button.chap:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+    nav.chapter-rail button.chap.active {
+      border-color: var(--accent-dim);
+      background: rgba(122, 242, 255, 0.1);
+      box-shadow: inset 0 0 0 1px rgba(122, 242, 255, 0.12);
+    }
+    nav.chapter-rail button.chap .n {
+      opacity: 0.9;
+    }
+    nav.chapter-rail button.chap .cnt {
+      font-size: 0.65rem;
+      font-weight: 600;
+      color: var(--text-dim);
+    }
+    nav.chapter-rail button.chap.has-error .cnt {
+      color: var(--danger);
+    }
+    main.reader {
+      border-radius: var(--radius-lg);
+      padding: 14px 12px 24px;
+      overflow: auto;
+      min-height: 0;
+    }
+    .chapter-head {
+      max-width: 820px;
+      margin: 0 auto 12px;
+      padding: 0 4px;
+    }
+    .chapter-head h2 {
+      margin: 0 0 4px;
+      font-size: 1.05rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .chapter-head p {
+      margin: 0;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    .pages {
+      max-width: 820px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      line-height: 0;
+    }
+    .page-slot {
+      position: relative;
+      border-radius: 0;
+      overflow: hidden;
+      background: #000;
+      border: none;
+      margin: 0;
+      padding: 0;
+      min-height: 120px;
+    }
+    .page-slot .shimmer {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        100deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.05) 45%,
+        transparent 90%
+      );
+      background-size: 200% 100%;
+      animation: sh 1.4s ease-in-out infinite;
+    }
+    @keyframes sh {
+      0% {
+        background-position: 100% 0;
+      }
+      100% {
+        background-position: -100% 0;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .page-slot .shimmer {
+        animation: none;
+        opacity: 0.2;
+      }
+    }
+    .page-slot img {
+      display: block;
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+    .page-slot img.is-visible {
+      opacity: 1;
+    }
+    .page-slot .err {
+      display: none;
+      position: absolute;
+      inset: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .page-slot.is-error .err {
+      display: flex;
+    }
+    .page-slot.is-error .shimmer {
+      display: none;
+    }
+    .page-slot .err span {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      max-width: 260px;
+      line-height: 1.4;
+    }
+    .page-slot .err button {
+      font: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: var(--glass-strong);
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .chapter-footer {
+      max-width: 820px;
+      margin: 20px auto 0;
+      padding: 12px;
+      border-radius: var(--radius-md);
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .chapter-footer button {
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.12);
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .chapter-footer button:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+    .empty,
+    .error-box {
+      max-width: 460px;
+      margin: 2rem auto;
+      padding: 1.1rem 1.2rem;
+      border-radius: var(--radius-md);
+      font-size: 0.8rem;
+      line-height: 1.55;
+      color: var(--text-dim);
+    }
+    .error-box {
+      border-color: rgba(255, 122, 122, 0.4);
+      color: var(--danger);
+    }
+    code {
+      font-size: 0.78em;
+      padding: 0.12em 0.35em;
+      border-radius: 6px;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--stroke-soft);
+    }
+  </style>
+  <!--
+    Static hosting (không cần backend):
+    1) Đặt index.html + file JSON cùng thư mục trên host; mở /index.html?c=38&data=ten-file.json
+    2) Hoặc nhúng JSON: <script type="application/json" id="reader-embedded-data">...</script>
+    3) Hoặc trước khi load: window.__READER_MANIFEST__ = { chapters: [...] };
+    4) file://: dùng nút "JSON" để chọn file (trình duyệt chặn fetch file local).
+  -->
+</head>
+<body>
+  <header class="shell glass">
+    <div>
+      <h1 id="appTitle">Reader</h1>
+      <div class="meta" id="appMeta"></div>
+    </div>
+    <div class="toolbar">
+      <label class="file-btn glass">Chọn JSON<input id="fileInput" type="file" accept=".json,application/json" /></label>
+    </div>
+  </header>
+  <div class="layout">
+    <nav class="chapter-rail glass" id="chapterNav" aria-label="Chapters"></nav>
+    <main class="reader glass" id="main">
+      <div class="empty glass" id="placeholder">
+        Đang tải dữ liệu… Nếu mở từ ổ đĩa (<code>file://</code>), hãy bấm <strong>Chọn JSON</strong>.
+        Trên host tĩnh: đặt file JSON cạnh <code>index.html</code> và mở
+        <code>?data=delusion-ch38-45.json&c=38</code>.
+      </div>
+    </main>
+  </div>
+  <script>
+    (function () {
+      const DEFAULT_DATA_FILE = "delusion-ch38-45.json";
+      const PARAM_DATA = "data";
+      const PARAM_CHAPTER = "c";
+      const PARAM_CHAPTER_ALT = "chapter";
+
+      const el = {
+        nav: document.getElementById("chapterNav"),
+        main: document.getElementById("main"),
+        title: document.getElementById("appTitle"),
+        meta: document.getElementById("appMeta"),
+        fileInput: document.getElementById("fileInput"),
+        placeholder: document.getElementById("placeholder"),
+      };
+
+      let data = null;
+      let activeIndex = -1;
+      let dataFileName = DEFAULT_DATA_FILE;
+      let sequentialToken = 0;
+      /** Khi true: chỉ ghi ?c= lên URL (không ghi ?data=), dùng cho JSON chọn từ máy / nhúng. */
+      let omitDataParamInUrl = false;
+
+      function currentParams() {
+        return new URLSearchParams(location.search);
+      }
+
+      function getDataFileFromUrl() {
+        const p = currentParams();
+        const d = p.get(PARAM_DATA);
+        return d && d.trim() ? d.trim() : DEFAULT_DATA_FILE;
+      }
+
+      function getChapterQueryNumber() {
+        const p = currentParams();
+        const raw = p.get(PARAM_CHAPTER) || p.get(PARAM_CHAPTER_ALT);
+        if (raw == null || raw === "") return null;
+        const n = parseInt(String(raw), 10);
+        return Number.isFinite(n) ? n : null;
+      }
+
+      function getChapterFromHash() {
+        const m = location.hash.match(/^#c(\d+)$/i);
+        return m ? parseInt(m[1], 10) : null;
+      }
+
+      function syncUrl() {
+        if (!data || activeIndex < 0) return;
+        const ch = data.chapters[activeIndex];
+        if (!ch || ch.chapter == null) return;
+        const u = new URL(location.href);
+        u.searchParams.set(PARAM_CHAPTER, String(ch.chapter));
+        if (omitDataParamInUrl) {
+          u.searchParams.delete(PARAM_DATA);
+        } else {
+          u.searchParams.set(PARAM_DATA, dataFileName);
+        }
+        u.hash = "";
+        const next = u.pathname + u.search;
+        if (next !== location.pathname + location.search) {
+          history.replaceState(null, "", next);
+        }
+      }
+
+      function parseJson(text) {
+        const j = JSON.parse(text);
+        if (!j || !Array.isArray(j.chapters)) {
+          throw new Error('JSON thiếu mảng "chapters".');
+        }
+        return j;
+      }
+
+      function escapeHtml(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function bustUrl(src) {
+        try {
+          const u = new URL(src, location.href);
+          u.searchParams.set("_r", String(Date.now()));
+          return u.href;
+        } catch {
+          return src + (src.indexOf("?") >= 0 ? "&" : "?") + "_r=" + Date.now();
+        }
+      }
+
+      function loadManifestEmbedded() {
+        const node = document.getElementById("reader-embedded-data");
+        if (!node || !node.textContent || !node.textContent.trim()) return null;
+        return parseJson(node.textContent.trim());
+      }
+
+      function loadManifestWindow() {
+        if (typeof window.__READER_MANIFEST__ === "object" && window.__READER_MANIFEST__ !== null) {
+          const j = window.__READER_MANIFEST__;
+          if (!Array.isArray(j.chapters)) throw new Error('__READER_MANIFEST__ thiếu "chapters".');
+          return j;
+        }
+        return null;
+      }
+
+      async function loadManifestFetch(fileName) {
+        const res = await fetch(encodeURI(fileName), { credentials: "same-origin" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return parseJson(await res.text());
+      }
+
+      function setActive(index) {
+        if (!data || index < 0 || index >= data.chapters.length) return;
+        activeIndex = index;
+        el.nav.querySelectorAll("button.chap").forEach((btn, i) => {
+          btn.classList.toggle("active", i === index);
+          if (i === index) btn.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+        });
+        sequentialToken += 1;
+        renderChapter(sequentialToken);
+        syncUrl();
+      }
+
+      function renderNav() {
+        el.nav.innerHTML = "";
+        const h2 = document.createElement("h2");
+        h2.textContent = "Chương";
+        el.nav.appendChild(h2);
+        const rail = document.createElement("div");
+        rail.className = "rail-inner";
+
+        data.chapters.forEach((ch, i) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "chap";
+          if (ch.error) btn.classList.add("has-error");
+          const num = ch.chapter != null ? ch.chapter : i + 1;
+          const total = typeof ch.total === "number" ? ch.total : (ch.images || []).length;
+          btn.innerHTML =
+            '<span class="n">Ch.' +
+            escapeHtml(String(num)) +
+            '</span><span class="cnt">' +
+            total +
+            (ch.error ? " !" : "") +
+            "</span>";
+          btn.addEventListener("click", () => setActive(i));
+          rail.appendChild(btn);
+        });
+        el.nav.appendChild(rail);
+      }
+
+      function renderChapter(token) {
+        if (!data || activeIndex < 0 || activeIndex >= data.chapters.length) return;
+
+        const ch = data.chapters[activeIndex];
+        const images = Array.isArray(ch.images) ? ch.images : [];
+        const title = ch.title || "Chapter " + (ch.chapter ?? activeIndex + 1);
+
+        el.main.innerHTML = "";
+
+        const head = document.createElement("div");
+        head.className = "chapter-head";
+        head.innerHTML =
+          "<h2>" +
+          escapeHtml(title) +
+          "</h2><p>" +
+          images.length +
+          " trang · tải tuần tự" +
+          (ch.error ? " · " + escapeHtml(ch.error) : "") +
+          "</p>";
+        el.main.appendChild(head);
+
+        if (images.length === 0) {
+          const empty = document.createElement("p");
+          empty.className = "empty glass";
+          empty.textContent = "Chapter không có ảnh.";
+          el.main.appendChild(empty);
+          return;
+        }
+
+        const pages = document.createElement("div");
+        pages.className = "pages";
+
+        function attempt(index, imageUrl) {
+          if (token !== sequentialToken) return;
+          if (index >= images.length) return;
+          const slot = pages.children[index];
+          if (!slot) return;
+          const shimmer = slot.querySelector(".shimmer");
+          slot.classList.remove("is-error");
+          if (shimmer) shimmer.style.display = "";
+
+          let img = slot.querySelector("img");
+          if (!img) {
+            img = document.createElement("img");
+            img.alt = title + " — " + (index + 1);
+            img.referrerPolicy = "no-referrer";
+            img.decoding = "async";
+            slot.appendChild(img);
+          }
+
+          img.onload = function () {
+            if (token !== sequentialToken) return;
+            if (shimmer) shimmer.style.display = "none";
+            img.classList.add("is-visible");
+            const next = index + 1;
+            if (next < images.length) {
+              attempt(next, images[next]);
+            }
+          };
+          img.onerror = function () {
+            if (token !== sequentialToken) return;
+            slot.classList.add("is-error");
+            img.classList.remove("is-visible");
+            if (shimmer) shimmer.style.display = "none";
+          };
+
+          img.removeAttribute("src");
+          img.src = imageUrl;
+        }
+
+        images.forEach((src, idx) => {
+          const slot = document.createElement("div");
+          slot.className = "page-slot";
+          slot.dataset.index = String(idx);
+
+          const shimmer = document.createElement("div");
+          shimmer.className = "shimmer";
+          slot.appendChild(shimmer);
+
+          const err = document.createElement("div");
+          err.className = "err";
+          err.innerHTML =
+            "<span>Không tải được trang " + (idx + 1) + ".</span>";
+          const retry = document.createElement("button");
+          retry.type = "button";
+          retry.textContent = "Tải lại ảnh này";
+          err.appendChild(retry);
+          slot.appendChild(err);
+
+          retry.addEventListener("click", function () {
+            attempt(idx, bustUrl(images[idx]));
+          });
+
+          pages.appendChild(slot);
+        });
+
+        el.main.appendChild(pages);
+
+        if (activeIndex < data.chapters.length - 1) {
+          const footer = document.createElement("div");
+          footer.className = "chapter-footer glass";
+          const nextBtn = document.createElement("button");
+          nextBtn.type = "button";
+          const nextCh = data.chapters[activeIndex + 1];
+          const nn = nextCh.chapter != null ? nextCh.chapter : activeIndex + 2;
+          nextBtn.textContent = "Chương tiếp — Ch." + nn;
+          nextBtn.addEventListener("click", () => setActive(activeIndex + 1));
+          footer.appendChild(nextBtn);
+          el.main.appendChild(footer);
+        }
+
+        attempt(0, images[0]);
+      }
+
+      function resolveStartChapter(j) {
+        const q = getChapterQueryNumber();
+        if (q != null) {
+          const found = j.chapters.findIndex((c) => c.chapter === q);
+          if (found >= 0) return found;
+        }
+        const h = getChapterFromHash();
+        if (h != null) {
+          const found = j.chapters.findIndex((c) => c.chapter === h);
+          if (found >= 0) return found;
+        }
+        return 0;
+      }
+
+      function applyData(j, opts) {
+        data = j;
+        if (opts && opts.fromFile) {
+          omitDataParamInUrl = true;
+          if (opts.fileName) dataFileName = opts.fileName;
+        } else if (opts && opts.fromWindowOrEmbed) {
+          omitDataParamInUrl = true;
+          dataFileName = "(nhúng)";
+        } else {
+          omitDataParamInUrl = false;
+          dataFileName = getDataFileFromUrl();
+        }
+
+        const from = j.fromChapter;
+        const to = j.toChapter;
+        el.title.textContent =
+          from != null && to != null ? "Ch." + from + " – " + to : "Reader";
+
+        const parts = [];
+        if (j.fetchedAt) {
+          parts.push(new Date(j.fetchedAt).toLocaleDateString());
+        }
+        parts.push(j.chapters.length + " chương");
+        parts.push("data=" + dataFileName);
+        el.meta.textContent = parts.join(" · ");
+
+        renderNav();
+        setActive(resolveStartChapter(j));
+      }
+
+      function showMainError(msg) {
+        el.main.innerHTML = '<div class="error-box glass">' + escapeHtml(msg) + "</div>";
+      }
+
+      async function init() {
+        dataFileName = getDataFileFromUrl();
+
+        try {
+          const w = loadManifestWindow();
+          if (w) {
+            applyData(w, { fromWindowOrEmbed: true });
+            return;
+          }
+        } catch (e) {
+          showMainError(e.message || String(e));
+          return;
+        }
+
+        try {
+          const emb = loadManifestEmbedded();
+          if (emb) {
+            applyData(emb, { fromWindowOrEmbed: true });
+            return;
+          }
+        } catch (e) {
+          showMainError(e.message || String(e));
+          return;
+        }
+
+        try {
+          const j = await loadManifestFetch(dataFileName);
+          applyData(j);
+          return;
+        } catch {
+          /* fetch thất bại — thường là file:// */
+        }
+
+        el.main.innerHTML = "";
+        el.main.appendChild(el.placeholder);
+        el.placeholder.innerHTML =
+          "Không fetch được <code>" +
+          escapeHtml(dataFileName) +
+          "</code> (bình thường khi mở <code>file://</code>). " +
+          "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
+          "<code>?data=ten-file.json&c=38</code>. " +
+          "Hoặc bấm <strong>Chọn JSON</strong> / nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code>.";
+      }
+
+      el.fileInput.addEventListener("change", function (e) {
+        const f = e.target.files && e.target.files[0];
+        if (!f) return;
+        const r = new FileReader();
+        r.onload = function () {
+          try {
+            applyData(parseJson(r.result), { fromFile: true, fileName: f.name });
+          } catch (err) {
+            showMainError(err.message || String(err));
+          }
+        };
+        r.readAsText(f, "UTF-8");
+      });
+
+      init();
+    })();
+  </script>
+</body>
+</html>
