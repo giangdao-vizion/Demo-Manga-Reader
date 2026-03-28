@@ -75,7 +75,8 @@
       align-items: center;
     }
     .btn-ghost,
-    .toolbar label.file-btn {
+    .toolbar label.file-btn,
+    .toolbar a.tool-link {
       cursor: pointer;
       font-size: 0.72rem;
       font-weight: 600;
@@ -85,6 +86,9 @@
       background: var(--glass-strong);
       color: var(--text);
       letter-spacing: 0.02em;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
     }
     .toolbar input[type="file"] {
       display: none;
@@ -98,9 +102,51 @@
       min-height: 0;
     }
     @media (max-width: 720px) {
+      body {
+        overflow-x: hidden;
+      }
       .layout {
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr;
+        padding: 8px 0 0;
+        gap: 8px;
+      }
+      header.shell {
+        margin-left: max(12px, env(safe-area-inset-left, 0px));
+        margin-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      nav.chapter-rail {
+        margin-left: max(12px, env(safe-area-inset-left, 0px));
+        margin-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      main.reader,
+      main.reader.glass {
+        border-radius: 0;
+        padding: 0 !important;
+        padding-bottom: max(20px, env(safe-area-inset-bottom, 0px)) !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      .chapter-head {
+        max-width: none;
+        margin: 0 0 10px;
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+      }
+      .pages {
+        max-width: none;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+      }
+      .chapter-footer {
+        max-width: none;
+        margin: 16px max(12px, env(safe-area-inset-left, 0px)) 0
+          max(12px, env(safe-area-inset-right, 0px));
+        border-radius: var(--radius-md);
       }
     }
     nav.chapter-rail {
@@ -195,9 +241,15 @@
     nav.chapter-rail button.chap.has-error .cnt {
       color: var(--danger);
     }
+    @media (min-width: 721px) {
+      main.reader {
+        border-radius: var(--radius-lg);
+        padding: 14px 12px 24px;
+        overflow: auto;
+        min-height: 0;
+      }
+    }
     main.reader {
-      border-radius: var(--radius-lg);
-      padding: 14px 12px 24px;
       overflow: auto;
       min-height: 0;
     }
@@ -372,6 +424,7 @@
       <div class="meta" id="appMeta"></div>
     </div>
     <div class="toolbar">
+      <a class="tool-link glass" href="home.html">Home</a>
       <label class="file-btn glass">Chọn JSON<input id="fileInput" type="file" accept=".json,application/json" /></label>
     </div>
   </header>
@@ -410,6 +463,28 @@
 
       function currentParams() {
         return new URLSearchParams(location.search);
+      }
+
+      /** Thư mục chứa index.html (GitHub Pages: /Repo vs /Repo/ đều ổn). */
+      function getManifestBaseDir() {
+        const path = location.pathname || "/";
+        if (path.endsWith("/")) {
+          return location.origin + path;
+        }
+        const slash = path.lastIndexOf("/");
+        const lastSeg = path.slice(slash + 1);
+        if (lastSeg.includes(".")) {
+          return location.origin + path.slice(0, slash + 1);
+        }
+        return location.origin + path + "/";
+      }
+
+      function resolveManifestUrl(fileName) {
+        const name = String(fileName || "").trim();
+        if (!name || /^https?:\/\//i.test(name)) {
+          return name;
+        }
+        return new URL(name, getManifestBaseDir()).href;
       }
 
       function getDataFileFromUrl() {
@@ -491,7 +566,11 @@
       }
 
       async function loadManifestFetch(fileName) {
-        const res = await fetch(encodeURI(fileName), { credentials: "same-origin" });
+        const url = resolveManifestUrl(fileName);
+        const res = await fetch(url, {
+          credentials: "same-origin",
+          cache: "no-store",
+        });
         if (!res.ok) throw new Error("HTTP " + res.status);
         return parseJson(await res.text());
       }
@@ -672,6 +751,9 @@
         } else if (opts && opts.fromWindowOrEmbed) {
           omitDataParamInUrl = true;
           dataFileName = "(nhúng)";
+        } else if (opts && opts.manifestFile) {
+          omitDataParamInUrl = false;
+          dataFileName = opts.manifestFile;
         } else {
           omitDataParamInUrl = false;
           dataFileName = getDataFileFromUrl();
@@ -724,8 +806,10 @@
         }
 
         try {
-          const j = await loadManifestFetch(dataFileName);
-          applyData(j);
+          const manifestFile = getDataFileFromUrl();
+          dataFileName = manifestFile;
+          const j = await loadManifestFetch(manifestFile);
+          applyData(j, { manifestFile: manifestFile });
           return;
         } catch {
           /* fetch thất bại — thường là file:// */

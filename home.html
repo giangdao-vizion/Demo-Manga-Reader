@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Chọn truyện</title>
+  <style>
+    :root {
+      --glass: rgba(255, 255, 255, 0.07);
+      --glass-strong: rgba(255, 255, 255, 0.11);
+      --stroke: rgba(255, 255, 255, 0.14);
+      --text: rgba(255, 255, 255, 0.92);
+      --text-dim: rgba(255, 255, 255, 0.55);
+      --accent: #7af2ff;
+      --accent-dim: rgba(122, 242, 255, 0.35);
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+      --radius-lg: 22px;
+      --radius-md: 14px;
+      --blur: saturate(1.2) blur(28px);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+        "Segoe UI", Roboto, system-ui, sans-serif;
+      color: var(--text);
+      background: radial-gradient(120% 80% at 50% -10%, #1a2440 0%, #07080c 45%, #030306 100%);
+      background-attachment: fixed;
+      padding: max(12px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px))
+        max(24px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+    }
+    .glass {
+      background: var(--glass);
+      backdrop-filter: var(--blur);
+      -webkit-backdrop-filter: var(--blur);
+      border: 1px solid var(--stroke);
+      box-shadow: var(--shadow);
+    }
+    header {
+      max-width: 520px;
+      margin: 0 auto 20px;
+      padding: 14px 18px;
+      border-radius: var(--radius-lg);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 6px 0 0;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      line-height: 1.4;
+    }
+    .list {
+      max-width: 520px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a.card {
+      display: block;
+      padding: 16px 18px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+    a.card:hover {
+      border-color: var(--accent-dim);
+      background: rgba(122, 242, 255, 0.08);
+    }
+    a.card h2 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      line-height: 1.3;
+    }
+    a.card .meta {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    a.card .arrow {
+      margin-top: 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header class="glass">
+    <h1>Thư viện</h1>
+    <p>Chọn một bộ để mở reader. Dữ liệu tải từ file JSON cùng thư mục (host tĩnh).</p>
+  </header>
+  <div class="list">
+    <a
+      class="card glass"
+      href="index.html?data=delusion-ch30-60.json&amp;c=30"
+    >
+      <h2>Delusion (60 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 30–60 · delusion-ch30-60.json</div>
+      <div class="arrow">Mở reader →</div>
+    </a>
+    <a
+      class="card glass"
+      href="index.html?data=a-returners-magic-ch60-269.json&amp;c=60"
+    >
+      <h2>A Returner’s Magic Should Be Special (269 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 60–269 · a-returners-magic-ch60-269.json</div>
+      <div class="arrow">Mở reader →</div>
+    </a>
+  </div>
+</body>
+</html>
