@@ -359,7 +359,7 @@
   </style>
   <!--
     Static hosting (không cần backend):
-    1) Đặt index.html + file JSON cùng thư mục trên host; mở /index.html?c=38&data=ten-file.json
+    1) Đặt index.html + file JSON cùng thư mục trên host; mở /index.html?c=30&data=ten-file.json
     2) Hoặc nhúng JSON: <script type="application/json" id="reader-embedded-data">...</script>
     3) Hoặc trước khi load: window.__READER_MANIFEST__ = { chapters: [...] };
     4) file://: dùng nút "JSON" để chọn file (trình duyệt chặn fetch file local).
@@ -381,13 +381,13 @@
       <div class="empty glass" id="placeholder">
         Đang tải dữ liệu… Nếu mở từ ổ đĩa (<code>file://</code>), hãy bấm <strong>Chọn JSON</strong>.
         Trên host tĩnh: đặt file JSON cạnh <code>index.html</code> và mở
-        <code>?data=delusion-ch38-45.json&c=38</code>.
+        <code>?data=delusion-ch30-60.json&c=30</code>.
       </div>
     </main>
   </div>
   <script>
     (function () {
-      const DEFAULT_DATA_FILE = "delusion-ch38-45.json";
+      const DEFAULT_DATA_FILE = "delusion-ch30-60.json";
       const PARAM_DATA = "data";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
@@ -738,7 +738,7 @@
           escapeHtml(dataFileName) +
           "</code> (bình thường khi mở <code>file://</code>). " +
           "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
-          "<code>?data=ten-file.json&c=38</code>. " +
+          "<code>?data=ten-file.json&c=30</code>. " +
           "Hoặc bấm <strong>Chọn JSON</strong> / nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code>.";
       }
 
