@@ -9,6 +9,7 @@
       --glass: rgba(255, 255, 255, 0.07);
       --glass-strong: rgba(255, 255, 255, 0.11);
       --stroke: rgba(255, 255, 255, 0.14);
+      --stroke-soft: rgba(255, 255, 255, 0.08);
       --text: rgba(255, 255, 255, 0.92);
       --text-dim: rgba(255, 255, 255, 0.55);
       --accent: #7af2ff;
@@ -40,7 +41,7 @@
       box-shadow: var(--shadow);
     }
     header {
-      max-width: 520px;
+      max-width: 560px;
       margin: 0 auto 20px;
       padding: 14px 18px;
       border-radius: var(--radius-lg);
@@ -57,67 +58,359 @@
       color: var(--text-dim);
       line-height: 1.4;
     }
+    .hidden {
+      display: none !important;
+    }
     .list {
-      max-width: 520px;
+      max-width: 560px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
-    a.card {
+    button.card {
       display: block;
+      width: 100%;
+      text-align: left;
       padding: 16px 18px;
       border-radius: var(--radius-md);
-      text-decoration: none;
+      border: 1px solid var(--stroke);
+      background: var(--glass);
+      backdrop-filter: var(--blur);
+      -webkit-backdrop-filter: var(--blur);
+      box-shadow: var(--shadow);
       color: inherit;
+      font: inherit;
+      cursor: pointer;
       transition: border-color 0.2s ease, background 0.2s ease;
     }
-    a.card:hover {
+    button.card:hover {
       border-color: var(--accent-dim);
       background: rgba(122, 242, 255, 0.08);
     }
-    a.card h2 {
+    button.card h2 {
       margin: 0 0 6px;
       font-size: 1rem;
       font-weight: 650;
       letter-spacing: -0.02em;
       line-height: 1.3;
     }
-    a.card .meta {
+    button.card .meta {
       font-size: 0.75rem;
       color: var(--text-dim);
       font-weight: 500;
     }
-    a.card .arrow {
+    button.card .arrow {
       margin-top: 10px;
       font-size: 0.72rem;
       font-weight: 600;
       color: var(--accent);
+    }
+    #view-chapters {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .picker-top {
+      padding: 14px 16px;
+      border-radius: var(--radius-lg);
+      margin-bottom: 14px;
+    }
+    .picker-top h2 {
+      margin: 10px 0 12px;
+      font-size: 1rem;
+      font-weight: 650;
+      line-height: 1.35;
+    }
+    .btn-back {
+      font: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: var(--glass-strong);
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .jump-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 10px;
+      margin-bottom: 4px;
+    }
+    .jump-row label {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+    .jump-row select {
+      flex: 1;
+      min-width: 140px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--stroke);
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+    .jump-row a.read-btn {
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.12);
+      color: var(--accent);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .jump-row a.read-btn[aria-disabled="true"] {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+    .chapter-grid-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin: 14px 0 8px;
+    }
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+      gap: 8px;
+    }
+    .chapter-grid a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 8px 6px;
+      border-radius: 10px;
+      border: 1px solid var(--stroke-soft);
+      background: rgba(0, 0, 0, 0.25);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+    .chapter-grid a:hover {
+      border-color: var(--accent-dim);
+      background: rgba(122, 242, 255, 0.1);
+    }
+    #loadOverlay {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .load-state {
+      text-align: center;
+      padding: 28px 16px;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      max-width: 360px;
+    }
+    .load-state.err {
+      color: #ff9a9a;
     }
   </style>
 </head>
 <body>
   <header class="glass">
     <h1>Thư viện</h1>
-    <p>Chọn một bộ để mở reader. Dữ liệu tải từ file JSON cùng thư mục (host tĩnh).</p>
+    <p id="headerHint">Chọn một bộ truyện để xem danh sách chương, rồi mở reader.</p>
   </header>
-  <div class="list">
-    <a
-      class="card glass"
-      href="index.html?data=delusion-ch30-60.json&amp;c=30"
-    >
+
+  <div id="view-series" class="list">
+    <button type="button" class="card" data-datafile="delusion-ch30-60.json" data-title="Delusion (60 chương)">
       <h2>Delusion (60 chương)</h2>
       <div class="meta">Phạm vi trong file: Ch. 30–60 · delusion-ch30-60.json</div>
-      <div class="arrow">Mở reader →</div>
-    </a>
-    <a
-      class="card glass"
-      href="index.html?data=a-returners-magic-ch60-269.json&amp;c=60"
+      <div class="arrow">Xem danh sách chương →</div>
+    </button>
+    <button
+      type="button"
+      class="card"
+      data-datafile="a-returners-magic-ch60-269.json"
+      data-title="A Returner’s Magic Should Be Special (269 chương)"
     >
       <h2>A Returner’s Magic Should Be Special (269 chương)</h2>
       <div class="meta">Phạm vi trong file: Ch. 60–269 · a-returners-magic-ch60-269.json</div>
-      <div class="arrow">Mở reader →</div>
-    </a>
+      <div class="arrow">Xem danh sách chương →</div>
+    </button>
+    <button
+      type="button"
+      class="card"
+      data-datafile="absolute-sword-sense-ch01-164.json"
+      data-title="Absolute Sword Sense (164 chương)"
+    >
+      <h2>Absolute Sword Sense (164 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 1–164 · absolute-sword-sense-ch01-164.json</div>
+      <div class="arrow">Xem danh sách chương →</div>
+    </button>
+    <button
+      type="button"
+      class="card"
+      data-datafile="nebulas-civilization-ch01-110.json"
+      data-title="Nebula’s Civilization (110 chương)"
+    >
+      <h2>Nebula’s Civilization (110 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 1–110 · nebulas-civilization-ch01-110.json</div>
+      <div class="arrow">Xem danh sách chương →</div>
+    </button>
   </div>
+
+  <div id="view-chapters" class="hidden">
+    <div class="picker-top glass">
+      <button type="button" class="btn-back" id="btnBack">← Chọn bộ khác</button>
+      <h2 id="pickerTitle"></h2>
+      <div class="jump-row">
+        <label for="jumpSelect">Chương</label>
+        <select id="jumpSelect" aria-label="Chọn số chương"></select>
+        <a class="read-btn" id="jumpRead" href="#">Đọc</a>
+      </div>
+    </div>
+    <div class="chapter-grid-label">Hoặc chọn nhanh</div>
+    <div id="chapterGrid" class="chapter-grid"></div>
+  </div>
+
+  <div id="loadOverlay" class="hidden">
+    <div class="load-state glass" id="loadMessage">Đang tải danh sách chương…</div>
+  </div>
+
+  <script>
+    (function () {
+      function getManifestBaseDir() {
+        const path = location.pathname || "/";
+        if (path.endsWith("/")) {
+          return location.origin + path;
+        }
+        const slash = path.lastIndexOf("/");
+        const lastSeg = path.slice(slash + 1);
+        if (lastSeg.includes(".")) {
+          return location.origin + path.slice(0, slash + 1);
+        }
+        return location.origin + path + "/";
+      }
+
+      function resolveManifestUrl(fileName) {
+        return new URL(String(fileName).trim(), getManifestBaseDir()).href;
+      }
+
+      const viewSeries = document.getElementById("view-series");
+      const viewChapters = document.getElementById("view-chapters");
+      const loadOverlay = document.getElementById("loadOverlay");
+      const loadMessage = document.getElementById("loadMessage");
+      const pickerTitle = document.getElementById("pickerTitle");
+      const jumpSelect = document.getElementById("jumpSelect");
+      const jumpRead = document.getElementById("jumpRead");
+      const chapterGrid = document.getElementById("chapterGrid");
+      const btnBack = document.getElementById("btnBack");
+      const headerHint = document.getElementById("headerHint");
+
+      let currentDataFile = "";
+
+      function readerUrl(chapterNum) {
+        const p = new URLSearchParams();
+        p.set("data", currentDataFile);
+        p.set("c", String(chapterNum));
+        return "index.html?" + p.toString();
+      }
+
+      function updateJumpReadHref() {
+        const v = jumpSelect.value;
+        if (!v) {
+          jumpRead.setAttribute("aria-disabled", "true");
+          jumpRead.removeAttribute("href");
+          return;
+        }
+        jumpRead.removeAttribute("aria-disabled");
+        jumpRead.href = readerUrl(v);
+      }
+
+      function showSeries() {
+        viewSeries.classList.remove("hidden");
+        viewChapters.classList.add("hidden");
+        loadOverlay.classList.add("hidden");
+        headerHint.textContent =
+          "Chọn một bộ truyện để xem danh sách chương, rồi mở reader.";
+      }
+
+      function showChapters(title, dataFile, chapters) {
+        currentDataFile = dataFile;
+        pickerTitle.textContent = title;
+        jumpSelect.innerHTML = "";
+        chapterGrid.innerHTML = "";
+
+        chapters.forEach(function (ch, i) {
+          const num = ch.chapter != null ? ch.chapter : i + 1;
+          const opt = document.createElement("option");
+          opt.value = String(num);
+          opt.textContent = ch.title || "Chapter " + num;
+          jumpSelect.appendChild(opt);
+
+          const a = document.createElement("a");
+          a.href = readerUrl(num);
+          a.textContent = "Ch." + num;
+          chapterGrid.appendChild(a);
+        });
+
+        updateJumpReadHref();
+
+        viewSeries.classList.add("hidden");
+        viewChapters.classList.remove("hidden");
+        loadOverlay.classList.add("hidden");
+        headerHint.textContent = "Chọn chương để mở reader, hoặc quay lại để đổi bộ truyện.";
+        window.scrollTo(0, 0);
+      }
+
+      async function openSeries(btn) {
+        const dataFile = btn.getAttribute("data-datafile");
+        const title = btn.getAttribute("data-title") || dataFile;
+        loadMessage.textContent = "Đang tải danh sách chương…";
+        loadMessage.classList.remove("err");
+        loadOverlay.classList.remove("hidden");
+
+        try {
+          const res = await fetch(resolveManifestUrl(dataFile), {
+            credentials: "same-origin",
+            cache: "no-store",
+          });
+          if (!res.ok) {
+            throw new Error("HTTP " + res.status);
+          }
+          const j = JSON.parse(await res.text());
+          if (!j || !Array.isArray(j.chapters)) {
+            throw new Error('File JSON không có mảng "chapters".');
+          }
+          showChapters(title, dataFile, j.chapters);
+        } catch (e) {
+          loadMessage.textContent =
+            "Không tải được " + dataFile + ". " + (e.message || "Lỗi không xác định.");
+          loadMessage.classList.add("err");
+        }
+      }
+
+      viewSeries.querySelectorAll("button.card").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          openSeries(btn);
+        });
+      });
+
+      btnBack.addEventListener("click", showSeries);
+
+      jumpSelect.addEventListener("change", updateJumpReadHref);
+    })();
+  </script>
 </body>
 </html>

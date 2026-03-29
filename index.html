@@ -575,16 +575,32 @@
         return parseJson(await res.text());
       }
 
+      function scrollReaderToTop() {
+        el.main.scrollTop = 0;
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+        requestAnimationFrame(function () {
+          el.main.scrollTop = 0;
+          window.scrollTo(0, 0);
+        });
+      }
+
       function setActive(index) {
         if (!data || index < 0 || index >= data.chapters.length) return;
         activeIndex = index;
+        let activeBtn = null;
         el.nav.querySelectorAll("button.chap").forEach((btn, i) => {
           btn.classList.toggle("active", i === index);
-          if (i === index) btn.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+          if (i === index) activeBtn = btn;
         });
         sequentialToken += 1;
         renderChapter(sequentialToken);
         syncUrl();
+        scrollReaderToTop();
+        if (activeBtn) {
+          activeBtn.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+        }
       }
 
       function renderNav() {
