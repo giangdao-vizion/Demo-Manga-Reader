@@ -270,6 +270,88 @@
       color: var(--text-dim);
       font-weight: 500;
     }
+    .chapter-load-progress {
+      position: sticky;
+      top: 0;
+      z-index: 25;
+      max-width: 820px;
+      margin: 0 auto 14px;
+      padding: 10px 4px 12px;
+      background: rgba(11, 13, 18, 0.9);
+      backdrop-filter: blur(18px) saturate(1.15);
+      -webkit-backdrop-filter: blur(18px) saturate(1.15);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.35);
+    }
+    @media (max-width: 720px) {
+      .chapter-load-progress {
+        width: 100vw;
+        max-width: none;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding-left: max(12px, env(safe-area-inset-left, 0px));
+        padding-right: max(12px, env(safe-area-inset-right, 0px));
+        padding-top: 10px;
+        padding-bottom: 12px;
+      }
+    }
+    .load-progress-track {
+      position: relative;
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      overflow: hidden;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.45);
+    }
+    .load-progress-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #2ab8e6, var(--accent));
+      transition: width 0.35s ease;
+      box-shadow: 0 0 14px rgba(122, 242, 255, 0.5);
+    }
+    .chapter-load-progress.is-loading .load-progress-fill {
+      box-shadow: 0 0 20px rgba(122, 242, 255, 0.75);
+    }
+    .load-progress-busy {
+      display: none;
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.35),
+        transparent
+      );
+      background-size: 220% 100%;
+      animation: loadbar-sweep 0.85s linear infinite;
+      pointer-events: none;
+    }
+    .chapter-load-progress.is-loading .load-progress-busy {
+      display: block;
+    }
+    @keyframes loadbar-sweep {
+      0% {
+        background-position: 220% 0;
+      }
+      100% {
+        background-position: -220% 0;
+      }
+    }
+    .load-progress-label {
+      margin: 8px 0 0;
+      font-size: 0.78rem;
+      font-weight: 650;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .load-progress-busy {
+        animation: none;
+        opacity: 0.35;
+      }
+    }
     .pages {
       max-width: 820px;
       margin: 0 auto;
@@ -316,11 +398,16 @@
     }
     .page-slot img {
       display: block;
+      position: relative;
+      z-index: 1;
       width: 100%;
       height: auto;
       vertical-align: middle;
       opacity: 0;
       transition: opacity 0.35s ease;
+    }
+    .page-slot.is-error img {
+      pointer-events: none;
     }
     .page-slot img.is-visible {
       opacity: 1;
@@ -328,6 +415,7 @@
     .page-slot .err {
       display: none;
       position: absolute;
+      z-index: 10;
       inset: 0;
       flex-direction: column;
       align-items: center;
@@ -660,6 +748,45 @@
           return;
         }
 
+        const progressWrap = document.createElement("div");
+        progressWrap.className = "chapter-load-progress is-loading";
+        const track = document.createElement("div");
+        track.className = "load-progress-track";
+        const fill = document.createElement("div");
+        fill.className = "load-progress-fill";
+        const busy = document.createElement("div");
+        busy.className = "load-progress-busy";
+        const progressLabel = document.createElement("p");
+        progressLabel.className = "load-progress-label";
+        track.appendChild(fill);
+        track.appendChild(busy);
+        progressWrap.appendChild(track);
+        progressWrap.appendChild(progressLabel);
+        el.main.appendChild(progressWrap);
+
+        function updateLoadProgress(doneCount, loadingIndexOrNull) {
+          const total = images.length;
+          const pct = total ? Math.min(100, (doneCount / total) * 100) : 0;
+          fill.style.width = pct + "%";
+          const loading =
+            loadingIndexOrNull !== null && loadingIndexOrNull !== undefined;
+          progressWrap.classList.toggle("is-loading", !!loading);
+          if (loading) {
+            progressLabel.textContent =
+              "Đang tải trang " + (loadingIndexOrNull + 1) + " / " + total + "…";
+          } else if (doneCount >= total) {
+            progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            progressWrap.classList.remove("is-loading");
+          } else {
+            progressLabel.textContent =
+              "Lỗi tại trang " +
+              (doneCount + 1) +
+              " / " +
+              total +
+              " — bấm Tải lại";
+          }
+        }
+
         const pages = document.createElement("div");
         pages.className = "pages";
 
@@ -668,18 +795,22 @@
           if (index >= images.length) return;
           const slot = pages.children[index];
           if (!slot) return;
+          const errEl = slot.querySelector(".err");
           const shimmer = slot.querySelector(".shimmer");
+
           slot.classList.remove("is-error");
           if (shimmer) shimmer.style.display = "";
 
-          let img = slot.querySelector("img");
-          if (!img) {
-            img = document.createElement("img");
-            img.alt = title + " — " + (index + 1);
-            img.referrerPolicy = "no-referrer";
-            img.decoding = "async";
-            slot.appendChild(img);
-          }
+          updateLoadProgress(index, index);
+
+          const prevImg = slot.querySelector("img");
+          if (prevImg) prevImg.remove();
+
+          const img = document.createElement("img");
+          img.alt = title + " — " + (index + 1);
+          img.referrerPolicy = "no-referrer";
+          img.decoding = "async";
+          slot.insertBefore(img, errEl);
 
           img.onload = function () {
             if (token !== sequentialToken) return;
@@ -688,6 +819,8 @@
             const next = index + 1;
             if (next < images.length) {
               attempt(next, images[next]);
+            } else {
+              updateLoadProgress(images.length, null);
             }
           };
           img.onerror = function () {
@@ -695,9 +828,10 @@
             slot.classList.add("is-error");
             img.classList.remove("is-visible");
             if (shimmer) shimmer.style.display = "none";
+            updateLoadProgress(index, null);
           };
 
-          img.removeAttribute("src");
+          img.src = "";
           img.src = imageUrl;
         }
 
@@ -720,7 +854,9 @@
           err.appendChild(retry);
           slot.appendChild(err);
 
-          retry.addEventListener("click", function () {
+          retry.addEventListener("click", function (ev) {
+            ev.preventDefault();
+            ev.stopPropagation();
             attempt(idx, bustUrl(images[idx]));
           });
 
