@@ -40,6 +40,9 @@
       display: flex;
       flex-direction: column;
     }
+    body.has-chapter-progress {
+      padding-top: var(--chapter-progress-offset, 0px);
+    }
     .glass {
       background: var(--glass);
       backdrop-filter: var(--blur);
@@ -75,6 +78,32 @@
       align-items: center;
     }
     .btn-ghost,
+    .toolbar label.concurrency-wrap {
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: var(--glass-strong);
+      color: var(--text);
+      letter-spacing: 0.02em;
+    }
+    .toolbar select#loadConcurrencySelect {
+      font: inherit;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 8px;
+      border: 1px solid var(--stroke-soft);
+      background: rgba(0, 0, 0, 0.4);
+      color: var(--text);
+      cursor: pointer;
+      max-width: 6.2rem;
+    }
     .toolbar label.file-btn,
     .toolbar a.tool-link {
       cursor: pointer;
@@ -94,12 +123,11 @@
       display: none;
     }
     .layout {
-      flex: 1;
+      flex: 0 0 auto;
       display: grid;
       grid-template-columns: var(--nav-w) 1fr;
       gap: 10px;
       padding: 10px 12px 16px;
-      min-height: 0;
     }
     @media (max-width: 720px) {
       body {
@@ -107,7 +135,7 @@
       }
       .layout {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto auto;
         padding: 8px 0 0;
         gap: 8px;
       }
@@ -245,13 +273,7 @@
       main.reader {
         border-radius: var(--radius-lg);
         padding: 14px 12px 24px;
-        overflow: auto;
-        min-height: 0;
       }
-    }
-    main.reader {
-      overflow: auto;
-      min-height: 0;
     }
     .chapter-head {
       max-width: 820px;
@@ -271,33 +293,28 @@
       font-weight: 500;
     }
     .chapter-load-progress {
-      position: sticky;
+      position: fixed;
+      left: 0;
+      right: 0;
       top: 0;
-      z-index: 25;
-      max-width: 820px;
-      margin: 0 auto 14px;
-      padding: 10px 4px 12px;
-      background: rgba(11, 13, 18, 0.9);
-      backdrop-filter: blur(18px) saturate(1.15);
-      -webkit-backdrop-filter: blur(18px) saturate(1.15);
+      z-index: 200;
+      box-sizing: border-box;
+      margin: 0;
+      padding: env(safe-area-inset-top, 0px) max(12px, env(safe-area-inset-right, 0px)) 6px
+        max(12px, env(safe-area-inset-left, 0px));
+      background: rgba(11, 13, 18, 0.92);
+      backdrop-filter: blur(16px) saturate(1.1);
+      -webkit-backdrop-filter: blur(16px) saturate(1.1);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     }
-    @media (max-width: 720px) {
-      .chapter-load-progress {
-        width: 100vw;
-        max-width: none;
-        margin-left: calc(50% - 50vw);
-        margin-right: calc(50% - 50vw);
-        padding-left: max(12px, env(safe-area-inset-left, 0px));
-        padding-right: max(12px, env(safe-area-inset-right, 0px));
-        padding-top: 10px;
-        padding-bottom: 12px;
-      }
+    .chapter-load-progress .load-progress-inner {
+      max-width: 820px;
+      margin: 0 auto;
     }
     .load-progress-track {
       position: relative;
-      height: 10px;
+      height: 5px;
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.12);
       overflow: hidden;
@@ -340,11 +357,12 @@
       }
     }
     .load-progress-label {
-      margin: 8px 0 0;
-      font-size: 0.78rem;
+      margin: 5px 0 0;
+      font-size: 0.68rem;
       font-weight: 650;
       color: var(--accent);
       letter-spacing: 0.02em;
+      line-height: 1.3;
     }
     @media (prefers-reduced-motion: reduce) {
       .load-progress-busy {
@@ -496,6 +514,56 @@
       background: rgba(0, 0, 0, 0.35);
       border: 1px solid var(--stroke-soft);
     }
+    .scroll-top-btn {
+      position: fixed;
+      z-index: 180;
+      right: max(12px, calc(env(safe-area-inset-right, 0px) + 4px));
+      bottom: max(14px, calc(env(safe-area-inset-bottom, 0px) + 8px));
+      width: 38px;
+      height: 38px;
+      margin: 0;
+      padding: 0;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: saturate(1.15) blur(16px);
+      -webkit-backdrop-filter: saturate(1.15) blur(16px);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+      color: var(--accent);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s,
+        background 0.15s ease, border-color 0.15s ease;
+      pointer-events: none;
+    }
+    .scroll-top-btn svg {
+      display: block;
+      flex-shrink: 0;
+    }
+    .scroll-top-btn.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+    .scroll-top-btn:hover {
+      background: rgba(122, 242, 255, 0.14);
+      border-color: var(--accent-dim);
+    }
+    .scroll-top-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .scroll-top-btn {
+        transition: none;
+      }
+    }
   </style>
   <!--
     Static hosting (không cần backend):
@@ -513,6 +581,15 @@
     </div>
     <div class="toolbar">
       <a class="tool-link glass" href="home.html">Home</a>
+      <label class="concurrency-wrap glass" for="loadConcurrencySelect"
+        ><span>Tải</span
+        ><select id="loadConcurrencySelect" aria-label="Số ảnh tải cùng lúc">
+          <option value="1">1 ảnh</option>
+          <option value="2">2 ảnh</option>
+          <option value="3">3 ảnh</option>
+          <option value="5">5 ảnh</option>
+        </select></label
+      >
       <label class="file-btn glass">Chọn JSON<input id="fileInput" type="file" accept=".json,application/json" /></label>
     </div>
   </header>
@@ -526,12 +603,68 @@
       </div>
     </main>
   </div>
+  <button
+    type="button"
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    aria-label="Lên đầu trang"
+    aria-hidden="true"
+    tabindex="-1"
+    title="Lên đầu"
+  >
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M12 19V5M5 12l7-7 7 7"
+      />
+    </svg>
+  </button>
   <script>
     (function () {
       const DEFAULT_DATA_FILE = "delusion-ch30-60.json";
       const PARAM_DATA = "data";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
+      const LS_LOAD_CONCURRENCY = "reader-load-concurrency";
+
+      function getLoadConcurrency() {
+        const raw = localStorage.getItem(LS_LOAD_CONCURRENCY);
+        const n = parseInt(raw, 10);
+        if (n === 2 || n === 3 || n === 5) return n;
+        return 1;
+      }
+
+      function setLoadConcurrency(n) {
+        const v = n === 2 || n === 3 || n === 5 ? n : 1;
+        localStorage.setItem(LS_LOAD_CONCURRENCY, String(v));
+        return v;
+      }
+
+      function removeChapterProgressBar() {
+        document.getElementById("chapterLoadProgress")?.remove();
+        document.body.classList.remove("has-chapter-progress");
+        document.documentElement.style.removeProperty("--chapter-progress-offset");
+      }
+
+      function syncChapterProgressBodyOffset() {
+        const bar = document.getElementById("chapterLoadProgress");
+        if (!bar || !document.body.classList.contains("has-chapter-progress")) {
+          document.documentElement.style.removeProperty("--chapter-progress-offset");
+          return;
+        }
+        const h = Math.ceil(bar.getBoundingClientRect().height);
+        document.documentElement.style.setProperty("--chapter-progress-offset", h + "px");
+      }
+
+      window.addEventListener("resize", syncChapterProgressBodyOffset);
+      window.addEventListener("orientationchange", syncChapterProgressBodyOffset);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(syncChapterProgressBodyOffset);
+      }
 
       const el = {
         nav: document.getElementById("chapterNav"),
@@ -540,7 +673,61 @@
         meta: document.getElementById("appMeta"),
         fileInput: document.getElementById("fileInput"),
         placeholder: document.getElementById("placeholder"),
+        concurrencySelect: document.getElementById("loadConcurrencySelect"),
+        scrollTopBtn: document.getElementById("scrollTopBtn"),
       };
+
+      const SCROLL_TOP_SHOW_AT = 120;
+
+      function prefersReducedMotion() {
+        return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      }
+
+      /** Cuộn thực tế: có thể là main.reader hoặc document (trước khi khóa body). */
+      function getReaderScrollY() {
+        const doc = document.documentElement;
+        const body = document.body;
+        const winY =
+          window.scrollY ?? window.pageYOffset ?? doc.scrollTop ?? body.scrollTop ?? 0;
+        return Math.max(el.main.scrollTop || 0, winY);
+      }
+
+      function syncScrollTopBtnVisibility() {
+        if (!el.scrollTopBtn) return;
+        const show = getReaderScrollY() > SCROLL_TOP_SHOW_AT;
+        el.scrollTopBtn.classList.toggle("is-visible", show);
+        el.scrollTopBtn.setAttribute("aria-hidden", show ? "false" : "true");
+        el.scrollTopBtn.tabIndex = show ? 0 : -1;
+      }
+
+      function scrollReaderToTopSmooth() {
+        const behavior = prefersReducedMotion() ? "auto" : "smooth";
+        el.main.scrollTo({ top: 0, left: 0, behavior });
+        window.scrollTo({ top: 0, left: 0, behavior });
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }
+
+      if (el.scrollTopBtn) {
+        el.scrollTopBtn.addEventListener("click", function () {
+          scrollReaderToTopSmooth();
+        });
+        el.main.addEventListener("scroll", syncScrollTopBtnVisibility, { passive: true });
+        window.addEventListener("scroll", syncScrollTopBtnVisibility, { passive: true });
+        window.addEventListener("resize", syncScrollTopBtnVisibility);
+        syncScrollTopBtnVisibility();
+      }
+
+      if (el.concurrencySelect) {
+        el.concurrencySelect.value = String(getLoadConcurrency());
+        el.concurrencySelect.addEventListener("change", function () {
+          const v = setLoadConcurrency(parseInt(el.concurrencySelect.value, 10));
+          el.concurrencySelect.value = String(v);
+          if (data != null && activeIndex >= 0) {
+            setActive(activeIndex);
+          }
+        });
+      }
 
       let data = null;
       let activeIndex = -1;
@@ -668,9 +855,11 @@
         window.scrollTo({ top: 0, left: 0, behavior: "auto" });
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
+        syncScrollTopBtnVisibility();
         requestAnimationFrame(function () {
           el.main.scrollTop = 0;
           window.scrollTo(0, 0);
+          syncScrollTopBtnVisibility();
         });
       }
 
@@ -722,6 +911,8 @@
       function renderChapter(token) {
         if (!data || activeIndex < 0 || activeIndex >= data.chapters.length) return;
 
+        removeChapterProgressBar();
+
         const ch = data.chapters[activeIndex];
         const images = Array.isArray(ch.images) ? ch.images : [];
         const title = ch.title || "Chapter " + (ch.chapter ?? activeIndex + 1);
@@ -730,17 +921,24 @@
 
         const head = document.createElement("div");
         head.className = "chapter-head";
+        const maxC = getLoadConcurrency();
+        const modeLabel =
+          maxC === 1
+            ? "tuần tự (1 ảnh)"
+            : "song song tối đa " + maxC + " ảnh";
         head.innerHTML =
           "<h2>" +
           escapeHtml(title) +
           "</h2><p>" +
           images.length +
-          " trang · tải tuần tự" +
+          " trang · " +
+          modeLabel +
           (ch.error ? " · " + escapeHtml(ch.error) : "") +
           "</p>";
         el.main.appendChild(head);
 
         if (images.length === 0) {
+          removeChapterProgressBar();
           const empty = document.createElement("p");
           empty.className = "empty glass";
           empty.textContent = "Chapter không có ảnh.";
@@ -749,7 +947,10 @@
         }
 
         const progressWrap = document.createElement("div");
+        progressWrap.id = "chapterLoadProgress";
         progressWrap.className = "chapter-load-progress is-loading";
+        const progressInner = document.createElement("div");
+        progressInner.className = "load-progress-inner";
         const track = document.createElement("div");
         track.className = "load-progress-track";
         const fill = document.createElement("div");
@@ -760,48 +961,89 @@
         progressLabel.className = "load-progress-label";
         track.appendChild(fill);
         track.appendChild(busy);
-        progressWrap.appendChild(track);
-        progressWrap.appendChild(progressLabel);
-        el.main.appendChild(progressWrap);
-
-        function updateLoadProgress(doneCount, loadingIndexOrNull) {
-          const total = images.length;
-          const pct = total ? Math.min(100, (doneCount / total) * 100) : 0;
-          fill.style.width = pct + "%";
-          const loading =
-            loadingIndexOrNull !== null && loadingIndexOrNull !== undefined;
-          progressWrap.classList.toggle("is-loading", !!loading);
-          if (loading) {
-            progressLabel.textContent =
-              "Đang tải trang " + (loadingIndexOrNull + 1) + " / " + total + "…";
-          } else if (doneCount >= total) {
-            progressLabel.textContent = "Đã tải xong " + total + " trang.";
-            progressWrap.classList.remove("is-loading");
-          } else {
-            progressLabel.textContent =
-              "Lỗi tại trang " +
-              (doneCount + 1) +
-              " / " +
-              total +
-              " — bấm Tải lại";
-          }
-        }
+        progressInner.appendChild(track);
+        progressInner.appendChild(progressLabel);
+        progressWrap.appendChild(progressInner);
+        document.body.appendChild(progressWrap);
+        document.body.classList.add("has-chapter-progress");
+        syncChapterProgressBodyOffset();
+        requestAnimationFrame(function () {
+          syncChapterProgressBodyOffset();
+        });
 
         const pages = document.createElement("div");
         pages.className = "pages";
 
-        function attempt(index, imageUrl) {
+        let nextSchedule = 0;
+        let inFlight = 0;
+        const completed = new Set();
+
+        function updateProgressUI() {
+          const total = images.length;
+          const done = completed.size;
+          const pct = total ? Math.min(100, (done / total) * 100) : 0;
+          fill.style.width = pct + "%";
+          const anyErr = pages.querySelector(".page-slot.is-error") !== null;
+          const stillGoing =
+            inFlight > 0 || (nextSchedule < total && done < total);
+
+          if (done >= total && inFlight === 0 && !anyErr) {
+            progressWrap.classList.remove("is-loading");
+            progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            return;
+          }
+
+          if (anyErr && !stillGoing && done < total) {
+            progressWrap.classList.remove("is-loading");
+            progressLabel.textContent =
+              "Đã " +
+              done +
+              " / " +
+              total +
+              " trang — có lỗi, bấm Tải lại tại trang đó";
+            return;
+          }
+
+          progressWrap.classList.toggle("is-loading", stillGoing);
+          if (stillGoing) {
+            progressLabel.textContent =
+              "Đang tải · " +
+              done +
+              " / " +
+              total +
+              " trang xong · tối đa " +
+              maxC +
+              " ảnh cùng lúc";
+          } else if (done >= total) {
+            progressWrap.classList.remove("is-loading");
+            progressLabel.textContent = "Đã tải xong " + total + " trang.";
+          }
+        }
+
+        function scheduleNext() {
           if (token !== sequentialToken) return;
-          if (index >= images.length) return;
+          while (inFlight < maxC && nextSchedule < images.length) {
+            const idx = nextSchedule++;
+            startLoadAt(idx, images[idx]);
+          }
+          updateProgressUI();
+        }
+
+        function startLoadAt(index, imageUrl) {
+          if (token !== sequentialToken) return;
+          inFlight++;
+
           const slot = pages.children[index];
-          if (!slot) return;
+          if (!slot) {
+            inFlight--;
+            scheduleNext();
+            return;
+          }
           const errEl = slot.querySelector(".err");
           const shimmer = slot.querySelector(".shimmer");
 
           slot.classList.remove("is-error");
           if (shimmer) shimmer.style.display = "";
-
-          updateLoadProgress(index, index);
 
           const prevImg = slot.querySelector("img");
           if (prevImg) prevImg.remove();
@@ -814,23 +1056,24 @@
 
           img.onload = function () {
             if (token !== sequentialToken) return;
+            inFlight--;
+            completed.add(index);
             if (shimmer) shimmer.style.display = "none";
             img.classList.add("is-visible");
-            const next = index + 1;
-            if (next < images.length) {
-              attempt(next, images[next]);
-            } else {
-              updateLoadProgress(images.length, null);
-            }
+            updateProgressUI();
+            scheduleNext();
           };
           img.onerror = function () {
             if (token !== sequentialToken) return;
+            inFlight--;
             slot.classList.add("is-error");
             img.classList.remove("is-visible");
             if (shimmer) shimmer.style.display = "none";
-            updateLoadProgress(index, null);
+            updateProgressUI();
+            scheduleNext();
           };
 
+          updateProgressUI();
           img.src = "";
           img.src = imageUrl;
         }
@@ -857,7 +1100,7 @@
           retry.addEventListener("click", function (ev) {
             ev.preventDefault();
             ev.stopPropagation();
-            attempt(idx, bustUrl(images[idx]));
+            startLoadAt(idx, bustUrl(images[idx]));
           });
 
           pages.appendChild(slot);
@@ -878,7 +1121,10 @@
           el.main.appendChild(footer);
         }
 
-        attempt(0, images[0]);
+        nextSchedule = 0;
+        inFlight = 0;
+        completed.clear();
+        scheduleNext();
       }
 
       function resolveStartChapter(j) {
@@ -929,7 +1175,9 @@
       }
 
       function showMainError(msg) {
+        removeChapterProgressBar();
         el.main.innerHTML = '<div class="error-box glass">' + escapeHtml(msg) + "</div>";
+        syncScrollTopBtnVisibility();
       }
 
       async function init() {
@@ -967,6 +1215,7 @@
           /* fetch thất bại — thường là file:// */
         }
 
+        removeChapterProgressBar();
         el.main.innerHTML = "";
         el.main.appendChild(el.placeholder);
         el.placeholder.innerHTML =
@@ -976,6 +1225,7 @@
           "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
           "<code>?data=ten-file.json&c=30</code>. " +
           "Hoặc bấm <strong>Chọn JSON</strong> / nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code>.";
+        syncScrollTopBtnVisibility();
       }
 
       el.fileInput.addEventListener("change", function (e) {
