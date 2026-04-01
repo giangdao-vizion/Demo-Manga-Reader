@@ -78,7 +78,8 @@
       align-items: center;
     }
     .btn-ghost,
-    .toolbar label.concurrency-wrap {
+    .toolbar label.concurrency-wrap,
+    .toolbar label.prefetch-wrap {
       cursor: pointer;
       display: inline-flex;
       align-items: center;
@@ -92,7 +93,8 @@
       color: var(--text);
       letter-spacing: 0.02em;
     }
-    .toolbar select#loadConcurrencySelect {
+    .toolbar select#loadConcurrencySelect,
+    .toolbar select#prefetchAheadSelect {
       font: inherit;
       font-size: 0.72rem;
       font-weight: 600;
@@ -104,7 +106,9 @@
       cursor: pointer;
       max-width: 6.2rem;
     }
-    .toolbar label.file-btn,
+    .toolbar select#prefetchAheadSelect {
+      max-width: 7.5rem;
+    }
     .toolbar a.tool-link {
       cursor: pointer;
       font-size: 0.72rem;
@@ -118,9 +122,6 @@
       text-decoration: none;
       display: inline-flex;
       align-items: center;
-    }
-    .toolbar input[type="file"] {
-      display: none;
     }
     .layout {
       flex: 0 0 auto;
@@ -570,7 +571,7 @@
     1) Đặt index.html + file JSON cùng thư mục trên host; mở /index.html?c=30&data=ten-file.json
     2) Hoặc nhúng JSON: <script type="application/json" id="reader-embedded-data">...</script>
     3) Hoặc trước khi load: window.__READER_MANIFEST__ = { chapters: [...] };
-    4) file://: dùng nút "JSON" để chọn file (trình duyệt chặn fetch file local).
+    4) file://: cần nhúng JSON hoặc mở qua host tĩnh / extension local server (trình duyệt chặn fetch file local).
   -->
 </head>
 <body>
@@ -590,16 +591,23 @@
           <option value="5">5 ảnh</option>
         </select></label
       >
-      <label class="file-btn glass">Chọn JSON<input id="fileInput" type="file" accept=".json,application/json" /></label>
+      <label class="prefetch-wrap glass" for="prefetchAheadSelect"
+        ><span>Tải trước</span
+        ><select id="prefetchAheadSelect" aria-label="Số chương tải trước (ảnh nền)">
+          <option value="0">0 chương</option>
+          <option value="1">1 chương</option>
+          <option value="2">2 chương</option>
+          <option value="3">3 chương</option>
+        </select></label
+      >
     </div>
   </header>
   <div class="layout">
     <nav class="chapter-rail glass" id="chapterNav" aria-label="Chapters"></nav>
     <main class="reader glass" id="main">
       <div class="empty glass" id="placeholder">
-        Đang tải dữ liệu… Nếu mở từ ổ đĩa (<code>file://</code>), hãy bấm <strong>Chọn JSON</strong>.
-        Trên host tĩnh: đặt file JSON cạnh <code>index.html</code> và mở
-        <code>?data=delusion-ch30-60.json&c=30</code>.
+        Đang tải dữ liệu… Trên host tĩnh: đặt file JSON cạnh <code>index.html</code> và mở
+        <code>?data=delusion-ch30-60.json&c=30</code>, hoặc mở từ <a href="home.html">Home</a> để chọn bộ truyện.
       </div>
     </main>
   </div>
@@ -630,6 +638,7 @@
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
       const LS_LOAD_CONCURRENCY = "reader-load-concurrency";
+      const LS_PREFETCH_AHEAD = "reader-prefetch-chapters-ahead";
 
       function getLoadConcurrency() {
         const raw = localStorage.getItem(LS_LOAD_CONCURRENCY);
@@ -641,6 +650,19 @@
       function setLoadConcurrency(n) {
         const v = n === 2 || n === 3 || n === 5 ? n : 1;
         localStorage.setItem(LS_LOAD_CONCURRENCY, String(v));
+        return v;
+      }
+
+      function getPrefetchChaptersAhead() {
+        const raw = localStorage.getItem(LS_PREFETCH_AHEAD);
+        const n = parseInt(raw, 10);
+        if (n === 1 || n === 2 || n === 3) return n;
+        return 0;
+      }
+
+      function setPrefetchChaptersAhead(n) {
+        const v = n === 1 || n === 2 || n === 3 ? n : 0;
+        localStorage.setItem(LS_PREFETCH_AHEAD, String(v));
         return v;
       }
 
@@ -671,9 +693,9 @@
         main: document.getElementById("main"),
         title: document.getElementById("appTitle"),
         meta: document.getElementById("appMeta"),
-        fileInput: document.getElementById("fileInput"),
         placeholder: document.getElementById("placeholder"),
         concurrencySelect: document.getElementById("loadConcurrencySelect"),
+        prefetchAheadSelect: document.getElementById("prefetchAheadSelect"),
         scrollTopBtn: document.getElementById("scrollTopBtn"),
       };
 
@@ -725,6 +747,17 @@
           el.concurrencySelect.value = String(v);
           if (data != null && activeIndex >= 0) {
             setActive(activeIndex);
+          }
+        });
+      }
+
+      if (el.prefetchAheadSelect) {
+        el.prefetchAheadSelect.value = String(getPrefetchChaptersAhead());
+        el.prefetchAheadSelect.addEventListener("change", function () {
+          const v = setPrefetchChaptersAhead(parseInt(el.prefetchAheadSelect.value, 10));
+          el.prefetchAheadSelect.value = String(v);
+          if (getPrefetchChaptersAhead() > 0 && isCurrentChapterViewFullyLoaded()) {
+            prefetchFollowingChapterImages(activeIndex, sequentialToken);
           }
         });
       }
@@ -908,6 +941,68 @@
         el.nav.appendChild(rail);
       }
 
+      /**
+       * Tải trước ảnh chương kế (Image ngoài DOM) để vào HTTP cache; không bơm URL mới khi cancelToken !== sequentialToken.
+       */
+      function prefetchChapterImages(urls, cancelToken) {
+        const list = [];
+        for (let u = 0; u < urls.length; u++) {
+          const s = urls[u];
+          if (typeof s !== "string" || !s.trim()) continue;
+          if (/^data:/i.test(s)) continue;
+          list.push(s);
+        }
+        if (!list.length) return;
+        const maxP = Math.max(1, Math.min(3, getLoadConcurrency()));
+        let i = 0;
+        let inflight = 0;
+        function pump() {
+          if (cancelToken !== sequentialToken) return;
+          while (inflight < maxP && i < list.length) {
+            const src = list[i++];
+            inflight++;
+            const im = new Image();
+            im.referrerPolicy = "no-referrer";
+            im.decoding = "async";
+            function step() {
+              if (cancelToken !== sequentialToken) return;
+              inflight--;
+              pump();
+            }
+            im.onload = step;
+            im.onerror = step;
+            im.src = src;
+          }
+        }
+        pump();
+      }
+
+      /** Ghép URL ảnh của tối đa k chương ngay sau fromActiveIndex, rồi prefetch (cache). */
+      function prefetchFollowingChapterImages(fromActiveIndex, cancelToken) {
+        const k = getPrefetchChaptersAhead();
+        if (k <= 0 || !data || fromActiveIndex < 0) return;
+        const flat = [];
+        for (let j = 1; j <= k; j++) {
+          const idx = fromActiveIndex + j;
+          if (idx >= data.chapters.length) break;
+          const imgs = Array.isArray(data.chapters[idx].images) ? data.chapters[idx].images : [];
+          for (let u = 0; u < imgs.length; u++) flat.push(imgs[u]);
+        }
+        prefetchChapterImages(flat, cancelToken);
+      }
+
+      function isCurrentChapterViewFullyLoaded() {
+        if (!data || activeIndex < 0) return false;
+        const slots = el.main.querySelectorAll(".page-slot");
+        if (!slots.length) return false;
+        for (let si = 0; si < slots.length; si++) {
+          const s = slots[si];
+          if (s.classList.contains("is-error")) return false;
+          if (!s.querySelector("img.is-visible")) return false;
+        }
+        return true;
+      }
+
       function renderChapter(token) {
         if (!data || activeIndex < 0 || activeIndex >= data.chapters.length) return;
 
@@ -977,6 +1072,23 @@
         let nextSchedule = 0;
         let inFlight = 0;
         const completed = new Set();
+        let prefetchNextStarted = false;
+
+        function tryPrefetchNextChapterIfComplete() {
+          if (prefetchNextStarted || token !== sequentialToken) return;
+          const total = images.length;
+          const done = completed.size;
+          const anyErr = pages.querySelector(".page-slot.is-error") !== null;
+          if (done < total || inFlight > 0 || anyErr) return;
+          if (getPrefetchChaptersAhead() <= 0) return;
+          if (!data || activeIndex + 1 >= data.chapters.length) return;
+          prefetchNextStarted = true;
+          const cancelToken = sequentialToken;
+          setTimeout(function () {
+            if (cancelToken !== sequentialToken) return;
+            prefetchFollowingChapterImages(activeIndex, cancelToken);
+          }, 0);
+        }
 
         function updateProgressUI() {
           const total = images.length;
@@ -990,6 +1102,7 @@
           if (done >= total && inFlight === 0 && !anyErr) {
             progressWrap.classList.remove("is-loading");
             progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            tryPrefetchNextChapterIfComplete();
             return;
           }
 
@@ -1017,6 +1130,7 @@
           } else if (done >= total) {
             progressWrap.classList.remove("is-loading");
             progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            tryPrefetchNextChapterIfComplete();
           }
         }
 
@@ -1224,23 +1338,9 @@
           "</code> (bình thường khi mở <code>file://</code>). " +
           "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
           "<code>?data=ten-file.json&c=30</code>. " +
-          "Hoặc bấm <strong>Chọn JSON</strong> / nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code>.";
+          "Hoặc nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code> / <code>window.__READER_MANIFEST__</code>.";
         syncScrollTopBtnVisibility();
       }
-
-      el.fileInput.addEventListener("change", function (e) {
-        const f = e.target.files && e.target.files[0];
-        if (!f) return;
-        const r = new FileReader();
-        r.onload = function () {
-          try {
-            applyData(parseJson(r.result), { fromFile: true, fileName: f.name });
-          } catch (err) {
-            showMainError(err.message || String(err));
-          }
-        };
-        r.readAsText(f, "UTF-8");
-      });
 
       init();
     })();
