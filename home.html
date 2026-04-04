@@ -197,10 +197,18 @@
       font-weight: 600;
       font-variant-numeric: tabular-nums;
       transition: border-color 0.15s ease, background 0.15s ease;
+      gap: 2px;
     }
     .chapter-grid a:hover {
       border-color: var(--accent-dim);
       background: rgba(122, 242, 255, 0.1);
+    }
+    .chapter-grid a .ch-read-check {
+      margin-right: 2px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent);
+      flex-shrink: 0;
     }
     #loadOverlay {
       position: fixed;
@@ -261,11 +269,21 @@
     <button
       type="button"
       class="card"
-      data-datafile="nebulas-civilization-ch01-110.json"
-      data-title="Nebula’s Civilization (110 chương)"
+      data-datafile="nebulas-civilization-ch01-122.json"
+      data-title="Nebula’s Civilization (122 chương)"
     >
-      <h2>Nebula’s Civilization (110 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 1–110 · nebulas-civilization-ch01-110.json</div>
+      <h2>Nebula’s Civilization (122 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 1–122 · nebulas-civilization-ch01-122.json</div>
+      <div class="arrow">Xem danh sách chương →</div>
+    </button>
+    <button
+      type="button"
+      class="card"
+      data-datafile="overgeared-ch250-316.json"
+      data-title="Overgeared (67 chương)"
+    >
+      <h2>Overgeared (67 chương)</h2>
+      <div class="meta">Phạm vi trong file: Ch. 250–316 · overgeared-ch250-316.json</div>
       <div class="arrow">Xem danh sách chương →</div>
     </button>
     <button
@@ -330,6 +348,26 @@
 
       let currentDataFile = "";
 
+      const LS_READ_CHAPTERS = "reader-read-chapters-v1";
+
+      function readChaptersLoadMap() {
+        try {
+          const raw = localStorage.getItem(LS_READ_CHAPTERS);
+          if (!raw) return {};
+          const j = JSON.parse(raw);
+          return j && typeof j === "object" && !Array.isArray(j) ? j : {};
+        } catch {
+          return {};
+        }
+      }
+
+      function readChaptersIsRead(manifestKey, chapterNum) {
+        const k = String(manifestKey || "").trim() || "_";
+        const c = String(chapterNum);
+        const book = readChaptersLoadMap()[k];
+        return !!(book && book[c]);
+      }
+
       function readerUrl(chapterNum) {
         const p = new URLSearchParams();
         p.set("data", currentDataFile);
@@ -364,14 +402,22 @@
 
         chapters.forEach(function (ch, i) {
           const num = ch.chapter != null ? ch.chapter : i + 1;
+          const read = readChaptersIsRead(dataFile, num);
           const opt = document.createElement("option");
           opt.value = String(num);
-          opt.textContent = ch.title || "Chapter " + num;
+          opt.textContent = (ch.title || "Chapter " + num) + (read ? " ✓" : "");
           jumpSelect.appendChild(opt);
 
           const a = document.createElement("a");
           a.href = readerUrl(num);
-          a.textContent = "Ch." + num;
+          if (read) {
+            const check = document.createElement("span");
+            check.className = "ch-read-check";
+            check.setAttribute("aria-hidden", "true");
+            check.textContent = "✓";
+            a.appendChild(check);
+          }
+          a.appendChild(document.createTextNode("Ch." + num));
           chapterGrid.appendChild(a);
         });
 

@@ -77,6 +77,117 @@ export function collectImageUrls(html, pageUrl) {
   return ordered;
 }
 
+/** CDN trang truyện Asura (không lấy /covers/); dừng tại đuôi ảnh để không nuốt chuỗi RSC (&quot;…). */
+const ASURA_CHAPTER_IMG_RE =
+  /https:\/\/cdn\.asurascans\.com\/asura-images\/chapters\/[a-z0-9/_.-]+\.(?:webp|jpe?g|png|gif)/gi;
+
+function collectAsuraChapterUrlsFromEmbeddedHtml(html) {
+  const seen = new Set();
+  const ordered = [];
+  let m;
+  ASURA_CHAPTER_IMG_RE.lastIndex = 0;
+  while ((m = ASURA_CHAPTER_IMG_RE.exec(html)) !== null) {
+    const u = m[0];
+    if (seen.has(u)) continue;
+    seen.add(u);
+    ordered.push(u);
+  }
+  return ordered;
+}
+
+/**
+ * Asura-style reader: <div data-page="0"><img src="..."/></div>
+ * Thứ tự theo số data-page; chỉ lấy img đầu tiên trong mỗi div.
+ * Trang thật thường chỉ SSR vài ảnh — khi thiếu so với payload RSC thì bổ sung URL /chapters/ trong HTML.
+ */
+export function collectAsuraPageImages(html, pageUrl) {
+  const $ = cheerio.load(html);
+  const items = [];
+
+  $("div[data-page]").each((_, el) => {
+    const $wrap = $(el);
+    const pageRaw = $wrap.attr("data-page");
+    const pageNum = pageRaw != null && pageRaw !== "" ? Number(pageRaw, 10) : NaN;
+    const $img = $wrap.find("img").first();
+    if (!$img.length) return;
+
+    let raw = null;
+    for (const attr of ["src", ...LAZY_IMG_ATTRS]) {
+      const v = $img.attr(attr);
+      if (v && String(v).trim()) {
+        raw = v;
+        break;
+      }
+    }
+    if (!raw) {
+      const ss = $img.attr("srcset");
+      if (ss) {
+        const first = parseSrcset(ss)[0];
+        if (first) raw = first;
+      }
+    }
+    if (!raw || typeof raw !== "string") return;
+
+    items.push({ page: pageNum, raw: raw.trim() });
+  });
+
+  items.sort((a, b) => {
+    const ap = Number.isFinite(a.page) ? a.page : Number.MAX_SAFE_INTEGER;
+    const bp = Number.isFinite(b.page) ? b.page : Number.MAX_SAFE_INTEGER;
+    if (ap !== bp) return ap - bp;
+    return 0;
+  });
+
+  const seen = new Set();
+  const fromDivs = [];
+  for (const { raw } of items) {
+    if (!raw || isSkippableScheme(raw)) continue;
+    const abs = normalizeUrl(raw, pageUrl);
+    if (!abs || isSkippableScheme(abs) || seen.has(abs)) continue;
+    seen.add(abs);
+    fromDivs.push(abs);
+  }
+
+  const fromEmbed = collectAsuraChapterUrlsFromEmbeddedHtml(html);
+  if (fromEmbed.length > fromDivs.length) return fromEmbed;
+  return fromDivs.length ? fromDivs : fromEmbed;
+}
+
+export async function fetchAsuraImagesFromUrl(pageUrl) {
+  const res = await fetch(pageUrl, {
+    headers: BROWSER_HEADERS,
+    redirect: "follow",
+  });
+
+  const finalUrl = res.url || pageUrl;
+  const contentType = res.headers.get("content-type") || "";
+
+  if (!res.ok) {
+    return {
+      ok: false,
+      status: res.status,
+      statusText: res.statusText,
+      sourceUrl: pageUrl,
+      finalUrl,
+      contentType,
+      images: [],
+    };
+  }
+
+  const html = await res.text();
+  const images = collectAsuraPageImages(html, finalUrl);
+
+  return {
+    ok: true,
+    status: res.status,
+    statusText: res.statusText,
+    sourceUrl: pageUrl,
+    finalUrl,
+    contentType,
+    images,
+  };
+}
+
 export async function fetchImagesFromUrl(pageUrl) {
   const res = await fetch(pageUrl, {
     headers: BROWSER_HEADERS,

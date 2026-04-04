@@ -270,6 +270,14 @@
     nav.chapter-rail button.chap.has-error .cnt {
       color: var(--danger);
     }
+    nav.chapter-rail button.chap .read-check {
+      flex-shrink: 0;
+      margin-right: 4px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+    }
     @media (min-width: 721px) {
       main.reader {
         border-radius: var(--radius-lg);
@@ -639,6 +647,63 @@
       const PARAM_CHAPTER_ALT = "chapter";
       const LS_LOAD_CONCURRENCY = "reader-load-concurrency";
       const LS_PREFETCH_AHEAD = "reader-prefetch-chapters-ahead";
+      const LS_READ_CHAPTERS = "reader-read-chapters-v1";
+
+      function readChaptersLoadMap() {
+        try {
+          const raw = localStorage.getItem(LS_READ_CHAPTERS);
+          if (!raw) return {};
+          const j = JSON.parse(raw);
+          return j && typeof j === "object" && !Array.isArray(j) ? j : {};
+        } catch {
+          return {};
+        }
+      }
+
+      function readChaptersSaveMap(map) {
+        try {
+          localStorage.setItem(LS_READ_CHAPTERS, JSON.stringify(map));
+        } catch {
+          /* quota / private mode */
+        }
+      }
+
+      function readChaptersMarkRead(manifestKey, chapterNum) {
+        const k = String(manifestKey || "").trim() || "_";
+        const c = String(chapterNum);
+        const map = readChaptersLoadMap();
+        if (!map[k]) map[k] = Object.create(null);
+        map[k][c] = 1;
+        readChaptersSaveMap(map);
+      }
+
+      function readChaptersIsRead(manifestKey, chapterNum) {
+        const k = String(manifestKey || "").trim() || "_";
+        const c = String(chapterNum);
+        const map = readChaptersLoadMap();
+        const book = map[k];
+        return !!(book && book[c]);
+      }
+
+      function refreshNavReadMarks() {
+        if (!data) return;
+        el.nav.querySelectorAll("button.chap").forEach((btn, i) => {
+          const ch = data.chapters[i];
+          if (!ch) return;
+          const num = ch.chapter != null ? ch.chapter : i + 1;
+          const has = readChaptersIsRead(dataFileName, num);
+          const existing = btn.querySelector(".read-check");
+          if (has && !existing) {
+            const sp = document.createElement("span");
+            sp.className = "read-check";
+            sp.setAttribute("aria-hidden", "true");
+            sp.textContent = "✓";
+            btn.insertBefore(sp, btn.firstChild);
+          } else if (!has && existing) {
+            existing.remove();
+          }
+        });
+      }
 
       function getLoadConcurrency() {
         const raw = localStorage.getItem(LS_LOAD_CONCURRENCY);
@@ -899,6 +964,9 @@
       function setActive(index) {
         if (!data || index < 0 || index >= data.chapters.length) return;
         activeIndex = index;
+        const chOpen = data.chapters[index];
+        const numOpen = chOpen.chapter != null ? chOpen.chapter : index + 1;
+        readChaptersMarkRead(dataFileName, numOpen);
         let activeBtn = null;
         el.nav.querySelectorAll("button.chap").forEach((btn, i) => {
           btn.classList.toggle("active", i === index);
@@ -911,6 +979,7 @@
         if (activeBtn) {
           activeBtn.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
         }
+        refreshNavReadMarks();
       }
 
       function renderNav() {
@@ -928,7 +997,12 @@
           if (ch.error) btn.classList.add("has-error");
           const num = ch.chapter != null ? ch.chapter : i + 1;
           const total = typeof ch.total === "number" ? ch.total : (ch.images || []).length;
+          const check =
+            readChaptersIsRead(dataFileName, num)
+              ? '<span class="read-check" aria-hidden="true">✓</span>'
+              : "";
           btn.innerHTML =
+            check +
             '<span class="n">Ch.' +
             escapeHtml(String(num)) +
             '</span><span class="cnt">' +

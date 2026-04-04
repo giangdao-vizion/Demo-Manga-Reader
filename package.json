@@ -5,11 +5,13 @@
   "type": "module",
   "bin": {
     "image-links": "./cli.js",
-    "batch-chapters": "./batch-chapters.js"
+    "batch-chapters": "./batch-chapters.js",
+    "batch-asura-chapters": "./batch-asura-chapters.js"
   },
   "scripts": {
     "start": "node cli.js",
     "batch": "node batch-chapters.js",
+    "batch-asura": "node batch-asura-chapters.js",
     "reader": "npx --yes serve . -l 3456"
   },
   "engines": {
