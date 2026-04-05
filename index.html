@@ -573,6 +573,31 @@
         transition: none;
       }
     }
+    .read-scroll-pill {
+      position: fixed;
+      z-index: 170;
+      left: max(12px, calc(env(safe-area-inset-left, 0px) + 4px));
+      bottom: max(14px, calc(env(safe-area-inset-bottom, 0px) + 8px));
+      margin: 0;
+      padding: 6px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(11, 13, 18, 0.88);
+      backdrop-filter: saturate(1.15) blur(14px);
+      -webkit-backdrop-filter: saturate(1.15) blur(14px);
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+      font-size: 0.72rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      pointer-events: none;
+      min-width: 2.75rem;
+      text-align: center;
+    }
+    .read-scroll-pill[hidden] {
+      display: none !important;
+    }
   </style>
   <!--
     Static hosting (không cần backend):
@@ -639,6 +664,9 @@
       />
     </svg>
   </button>
+  <div id="readScrollPercent" class="read-scroll-pill" role="status" aria-live="polite" hidden>
+    0%
+  </div>
   <script>
     (function () {
       const DEFAULT_DATA_FILE = "delusion-ch30-60.json";
@@ -762,7 +790,15 @@
         concurrencySelect: document.getElementById("loadConcurrencySelect"),
         prefetchAheadSelect: document.getElementById("prefetchAheadSelect"),
         scrollTopBtn: document.getElementById("scrollTopBtn"),
+        readScrollPercent: document.getElementById("readScrollPercent"),
       };
+
+      let data = null;
+      let activeIndex = -1;
+      let dataFileName = DEFAULT_DATA_FILE;
+      let sequentialToken = 0;
+      /** Khi true: chỉ ghi ?c= lên URL (không ghi ?data=), dùng cho JSON chọn từ máy / nhúng. */
+      let omitDataParamInUrl = false;
 
       const SCROLL_TOP_SHOW_AT = 120;
 
@@ -779,12 +815,79 @@
         return Math.max(el.main.scrollTop || 0, winY);
       }
 
+      /** % cuộn: so với document hoặc main — dùng nơi có vùng cuộn lớn hơn. */
+      function getChapterViewScrollPercent() {
+        const vh = window.innerHeight || 1;
+        const docEl = document.documentElement;
+        const docScroll =
+          window.scrollY ?? window.pageYOffset ?? docEl.scrollTop ?? document.body.scrollTop ?? 0;
+        const docTotal = Math.max(docEl.scrollHeight, document.body.scrollHeight);
+        const docMax = Math.max(0, docTotal - vh);
+
+        const main = el.main;
+        const mainScroll = main.scrollTop || 0;
+        const mainMax = Math.max(0, main.scrollHeight - main.clientHeight);
+
+        const useMain = mainMax > docMax;
+        const maxScroll = useMain ? mainMax : docMax;
+        const scrollPos = useMain ? mainScroll : docScroll;
+        if (maxScroll <= 0) return 100;
+        const pct = (scrollPos / maxScroll) * 100;
+        return Math.min(100, Math.max(0, Math.round(pct)));
+      }
+
+      let readScrollPercentRaf = 0;
+      let readScrollPercentRetryTimer = 0;
+
+      function syncReadScrollPercentCore() {
+        if (!el.readScrollPercent) return;
+        const inChapter =
+          data != null &&
+          activeIndex >= 0 &&
+          el.main.querySelector(".pages") != null;
+        if (!inChapter) {
+          el.readScrollPercent.hidden = true;
+          return;
+        }
+        el.readScrollPercent.hidden = false;
+        el.readScrollPercent.textContent = getChapterViewScrollPercent() + "%";
+      }
+
+      function syncReadScrollPercent() {
+        try {
+          syncReadScrollPercentCore();
+        } catch {
+          if (readScrollPercentRetryTimer) return;
+          readScrollPercentRetryTimer = window.setTimeout(function () {
+            readScrollPercentRetryTimer = 0;
+            try {
+              syncReadScrollPercentCore();
+            } catch {
+              /* không ảnh hưởng đọc truyện */
+            }
+          }, 150);
+        }
+      }
+
+      function scheduleReadScrollPercent() {
+        if (readScrollPercentRaf) return;
+        readScrollPercentRaf = requestAnimationFrame(function () {
+          readScrollPercentRaf = 0;
+          syncReadScrollPercent();
+        });
+      }
+
       function syncScrollTopBtnVisibility() {
         if (!el.scrollTopBtn) return;
         const show = getReaderScrollY() > SCROLL_TOP_SHOW_AT;
         el.scrollTopBtn.classList.toggle("is-visible", show);
         el.scrollTopBtn.setAttribute("aria-hidden", show ? "false" : "true");
         el.scrollTopBtn.tabIndex = show ? 0 : -1;
+      }
+
+      function onReaderScrollOrResize() {
+        syncScrollTopBtnVisibility();
+        scheduleReadScrollPercent();
       }
 
       function scrollReaderToTopSmooth() {
@@ -795,14 +898,20 @@
         document.body.scrollTop = 0;
       }
 
+      el.main.addEventListener("scroll", onReaderScrollOrResize, { passive: true });
+      window.addEventListener("scroll", onReaderScrollOrResize, { passive: true });
+      window.addEventListener("resize", onReaderScrollOrResize);
       if (el.scrollTopBtn) {
         el.scrollTopBtn.addEventListener("click", function () {
           scrollReaderToTopSmooth();
         });
-        el.main.addEventListener("scroll", syncScrollTopBtnVisibility, { passive: true });
-        window.addEventListener("scroll", syncScrollTopBtnVisibility, { passive: true });
-        window.addEventListener("resize", syncScrollTopBtnVisibility);
-        syncScrollTopBtnVisibility();
+      }
+      onReaderScrollOrResize();
+
+      if (typeof ResizeObserver !== "undefined") {
+        new ResizeObserver(function () {
+          scheduleReadScrollPercent();
+        }).observe(el.main);
       }
 
       if (el.concurrencySelect) {
@@ -826,13 +935,6 @@
           }
         });
       }
-
-      let data = null;
-      let activeIndex = -1;
-      let dataFileName = DEFAULT_DATA_FILE;
-      let sequentialToken = 0;
-      /** Khi true: chỉ ghi ?c= lên URL (không ghi ?data=), dùng cho JSON chọn từ máy / nhúng. */
-      let omitDataParamInUrl = false;
 
       function currentParams() {
         return new URLSearchParams(location.search);
@@ -953,11 +1055,11 @@
         window.scrollTo({ top: 0, left: 0, behavior: "auto" });
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
-        syncScrollTopBtnVisibility();
+        onReaderScrollOrResize();
         requestAnimationFrame(function () {
           el.main.scrollTop = 0;
           window.scrollTo(0, 0);
-          syncScrollTopBtnVisibility();
+          onReaderScrollOrResize();
         });
       }
 
@@ -1365,7 +1467,7 @@
       function showMainError(msg) {
         removeChapterProgressBar();
         el.main.innerHTML = '<div class="error-box glass">' + escapeHtml(msg) + "</div>";
-        syncScrollTopBtnVisibility();
+        onReaderScrollOrResize();
       }
 
       async function init() {
@@ -1413,7 +1515,7 @@
           "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
           "<code>?data=ten-file.json&c=30</code>. " +
           "Hoặc nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code> / <code>window.__READER_MANIFEST__</code>.";
-        syncScrollTopBtnVisibility();
+        onReaderScrollOrResize();
       }
 
       init();
