@@ -188,6 +188,130 @@ export async function fetchAsuraImagesFromUrl(pageUrl) {
   };
 }
 
+/** Lấy ảnh trong article img (site kiểu WordPress mirror). */
+export function collectArticleImageUrls(html, pageUrl) {
+  const $ = cheerio.load(html);
+  const seen = new Set();
+  const ordered = [];
+
+  function add(raw) {
+    if (!raw || typeof raw !== "string") return;
+    const trimmed = raw.trim();
+    if (!trimmed || isSkippableScheme(trimmed)) return;
+    const abs = normalizeUrl(trimmed, pageUrl);
+    if (!abs || isSkippableScheme(abs) || seen.has(abs)) return;
+    seen.add(abs);
+    ordered.push(abs);
+  }
+
+  $("article img").each((_, el) => {
+    const $img = $(el);
+    add($img.attr("src"));
+    for (const u of parseSrcset($img.attr("srcset"))) add(u);
+    for (const u of parseSrcset($img.attr("data-srcset"))) add(u);
+    for (const attr of LAZY_IMG_ATTRS) add($img.attr(attr));
+  });
+
+  return ordered;
+}
+
+export async function fetchArticleImagesFromUrl(pageUrl) {
+  const res = await fetch(pageUrl, {
+    headers: BROWSER_HEADERS,
+    redirect: "follow",
+  });
+
+  const finalUrl = res.url || pageUrl;
+  const contentType = res.headers.get("content-type") || "";
+
+  if (!res.ok) {
+    return {
+      ok: false,
+      status: res.status,
+      statusText: res.statusText,
+      sourceUrl: pageUrl,
+      finalUrl,
+      contentType,
+      images: [],
+    };
+  }
+
+  const html = await res.text();
+  const images = collectArticleImageUrls(html, finalUrl);
+
+  return {
+    ok: true,
+    status: res.status,
+    statusText: res.statusText,
+    sourceUrl: pageUrl,
+    finalUrl,
+    contentType,
+    images,
+  };
+}
+
+/** Lấy ảnh trong #chapter-reader img (mgeko.cc). */
+export function collectChapterReaderImageUrls(html, pageUrl) {
+  const $ = cheerio.load(html);
+  const seen = new Set();
+  const ordered = [];
+
+  function add(raw) {
+    if (!raw || typeof raw !== "string") return;
+    const trimmed = raw.trim();
+    if (!trimmed || isSkippableScheme(trimmed)) return;
+    const abs = normalizeUrl(trimmed, pageUrl);
+    if (!abs || isSkippableScheme(abs) || seen.has(abs)) return;
+    seen.add(abs);
+    ordered.push(abs);
+  }
+
+  $("#chapter-reader img").each((_, el) => {
+    const $img = $(el);
+    add($img.attr("src"));
+    for (const u of parseSrcset($img.attr("srcset"))) add(u);
+    for (const u of parseSrcset($img.attr("data-srcset"))) add(u);
+    for (const attr of LAZY_IMG_ATTRS) add($img.attr(attr));
+  });
+
+  return ordered;
+}
+
+export async function fetchMgekoImagesFromUrl(pageUrl) {
+  const res = await fetch(pageUrl, {
+    headers: BROWSER_HEADERS,
+    redirect: "follow",
+  });
+
+  const finalUrl = res.url || pageUrl;
+  const contentType = res.headers.get("content-type") || "";
+
+  if (!res.ok) {
+    return {
+      ok: false,
+      status: res.status,
+      statusText: res.statusText,
+      sourceUrl: pageUrl,
+      finalUrl,
+      contentType,
+      images: [],
+    };
+  }
+
+  const html = await res.text();
+  const images = collectChapterReaderImageUrls(html, finalUrl);
+
+  return {
+    ok: true,
+    status: res.status,
+    statusText: res.statusText,
+    sourceUrl: pageUrl,
+    finalUrl,
+    contentType,
+    images,
+  };
+}
+
 export async function fetchImagesFromUrl(pageUrl) {
   const res = await fetch(pageUrl, {
     headers: BROWSER_HEADERS,

@@ -6,12 +6,20 @@
   "bin": {
     "image-links": "./cli.js",
     "batch-chapters": "./batch-chapters.js",
-    "batch-asura-chapters": "./batch-asura-chapters.js"
+    "batch-asura-chapters": "./batch-asura-chapters.js",
+    "batch-returnersmagic-chapters": "./batch-returnersmagic-chapters.js",
+    "merge-chapter-sources": "./merge-chapter-sources.js",
+    "batch-mgeko-chapters": "./batch-mgeko-chapters.js",
+    "update-mgeko-json": "./update-mgeko-json.js"
   },
   "scripts": {
     "start": "node cli.js",
     "batch": "node batch-chapters.js",
     "batch-asura": "node batch-asura-chapters.js",
+    "batch-returnersmagic": "node batch-returnersmagic-chapters.js",
+    "merge-chapters": "node merge-chapter-sources.js",
+    "batch-mgeko": "node batch-mgeko-chapters.js",
+    "update-mgeko": "node update-mgeko-json.js",
     "reader": "npx --yes serve . -l 3456"
   },
   "engines": {
