@@ -432,6 +432,15 @@
       vertical-align: middle;
       opacity: 0;
       transition: opacity 0.35s ease;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .page-slot,
+    .page-slot * {
+      -webkit-user-select: none;
+      user-select: none;
     }
     .page-slot.is-error img {
       pointer-events: none;
@@ -1244,6 +1253,12 @@
 
         const pages = document.createElement("div");
         pages.className = "pages";
+        pages.style.touchAction = "pan-y";
+        ["contextmenu", "dragstart", "selectstart"].forEach(function (evName) {
+          pages.addEventListener(evName, function (ev) {
+            ev.preventDefault();
+          });
+        });
 
         let nextSchedule = 0;
         let inFlight = 0;
@@ -1342,6 +1357,7 @@
           img.alt = title + " — " + (index + 1);
           img.referrerPolicy = "no-referrer";
           img.decoding = "async";
+          img.draggable = false;
           slot.insertBefore(img, errEl);
 
           img.onload = function () {
