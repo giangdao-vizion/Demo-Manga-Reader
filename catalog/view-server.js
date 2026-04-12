@@ -121,13 +121,46 @@ function tableColumnExists(db, table, col) {
   }
 }
 
-function openDb() {
+/** Một connection đọc dùng chung — tránh mở/đóng mỗi request (better-sqlite3 thêm listener lên process). */
+let readonlyCatalogDb = null;
+let readonlyDbShutdownHooks = false;
+
+function closeReadonlyCatalogDb() {
+  if (readonlyCatalogDb) {
+    try {
+      readonlyCatalogDb.close();
+    } catch {
+      /* ignore */
+    }
+    readonlyCatalogDb = null;
+  }
+}
+
+function registerReadonlyDbShutdownHooks() {
+  if (readonlyDbShutdownHooks) return;
+  readonlyDbShutdownHooks = true;
+  process.once("exit", closeReadonlyCatalogDb);
+  process.once("SIGINT", () => {
+    closeReadonlyCatalogDb();
+    process.exit(130);
+  });
+  process.once("SIGTERM", () => {
+    closeReadonlyCatalogDb();
+    process.exit(143);
+  });
+}
+
+function getReadonlyCatalogDb() {
   if (!existsSync(DB_PATH)) {
+    closeReadonlyCatalogDb();
     return null;
   }
-  const db = new Database(DB_PATH, { readonly: true, fileMustExist: true });
-  db.pragma("foreign_keys = ON");
-  return db;
+  if (!readonlyCatalogDb) {
+    readonlyCatalogDb = new Database(DB_PATH, { readonly: true, fileMustExist: true });
+    readonlyCatalogDb.pragma("foreign_keys = ON");
+    registerReadonlyDbShutdownHooks();
+  }
+  return readonlyCatalogDb;
 }
 
 /**
@@ -638,9 +671,8 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.method === "GET" && url.startsWith("/api/")) {
-    let db;
     try {
-      db = openDb();
+      const db = getReadonlyCatalogDb();
       const payload = handleApi(db, "http://x" + url);
       if (!payload) {
         json(res, 404, { ok: false, error: "Not found" });
@@ -649,8 +681,6 @@ const server = http.createServer((req, res) => {
       json(res, 200, payload);
     } catch (e) {
       json(res, 500, { ok: false, error: String(e.message || e) });
-    } finally {
-      if (db) db.close();
     }
     return;
   }
