@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/return-of-the-mount-hua-sect-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 152,
-  "fetchedAt": "2026-04-12T07:54:36.519Z",
+  "fetchedAt": "2026-04-12T08:41:54.009Z",
   "source": "asura",
   "chapters": [
     {
@@ -3864,5 +3864,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/return-of-the-mount-hua-sect/152/014.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.34a1e2-400.webp"
 }

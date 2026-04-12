@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-world-after-the-end-26f76d6d/chapter/225",
   "fromChapter": 0,
   "toChapter": 228,
-  "fetchedAt": "2026-04-12T07:54:36.662Z",
+  "fetchedAt": "2026-04-12T08:41:54.072Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -5163,5 +5163,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/228/0c6642.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp"
 }

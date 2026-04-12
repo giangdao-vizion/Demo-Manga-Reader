@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/regressing-with-the-kings-power-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 136,
-  "fetchedAt": "2026-04-12T07:54:36.418Z",
+  "fetchedAt": "2026-04-12T08:41:53.960Z",
   "source": "asura",
   "chapters": [
     {
@@ -3356,5 +3356,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/regressing-with-the-kings-power/136/3963b0.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.b5f24c-400.webp"
 }

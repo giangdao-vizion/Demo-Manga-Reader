@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/academys-genius-swordmaster-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 129,
-  "fetchedAt": "2026-04-12T07:54:36.823Z",
+  "fetchedAt": "2026-04-12T08:41:54.141Z",
   "source": "asura",
   "chapters": [
     {
@@ -3015,5 +3015,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/academys-genius-swordmaster/129/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.09cdd2-400.webp"
 }

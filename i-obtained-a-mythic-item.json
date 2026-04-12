@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/i-obtained-a-mythic-item-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 174,
-  "fetchedAt": "2026-04-12T07:54:36.569Z",
+  "fetchedAt": "2026-04-12T08:41:54.038Z",
   "source": "asura",
   "chapters": [
     {
@@ -3942,5 +3942,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/i-obtained-a-mythic-item/174/f80bb0.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7-400.webp"
 }

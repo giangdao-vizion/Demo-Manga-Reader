@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/sleeping-ranker-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 119,
-  "fetchedAt": "2026-04-12T07:54:35.845Z",
+  "fetchedAt": "2026-04-12T08:41:53.740Z",
   "source": "asura",
   "chapters": [
     {
@@ -2592,5 +2592,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/sleeping-ranker/119/014.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.0540db-400.webp"
 }

@@ -2,7 +2,7 @@
   "sampleUrl": "https://www.mangoasis.com/en/absolute-sword-sense-en/absolute-sword-sense-en-chapter-1.html",
   "fromChapter": 1,
   "toChapter": 177,
-  "fetchedAt": "2026-04-12T07:54:36.832Z",
+  "fetchedAt": "2026-04-12T08:41:54.146Z",
   "chapters": [
     {
       "title": "Chapter 1",
@@ -21768,5 +21768,6 @@
       ]
     }
   ],
-  "source": "asura"
+  "source": "asura",
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.136aa2-400.webp"
 }

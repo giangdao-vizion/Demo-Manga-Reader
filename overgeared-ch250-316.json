@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/overgeared-26f76d6d/chapter/272",
   "fromChapter": 0,
   "toChapter": 316,
-  "fetchedAt": "2026-04-12T07:54:36.366Z",
+  "fetchedAt": "2026-04-12T08:41:53.926Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -22514,5 +22514,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/overgeared/316/2a588b.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp"
 }

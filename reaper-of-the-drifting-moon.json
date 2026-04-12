@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/reaper-of-the-drifting-moon-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 133,
-  "fetchedAt": "2026-04-12T07:54:36.611Z",
+  "fetchedAt": "2026-04-12T08:41:54.054Z",
   "source": "asura",
   "chapters": [
     {
@@ -3268,5 +3268,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/reaper-of-the-drifting-moon/133/799679.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp"
 }

@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-indomitable-martial-king-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 128,
-  "fetchedAt": "2026-04-12T07:54:36.530Z",
+  "fetchedAt": "2026-04-12T08:41:54.016Z",
   "source": "asura",
   "chapters": [
     {
@@ -2902,5 +2902,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/128/e9e2e2.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7-400.webp"
 }

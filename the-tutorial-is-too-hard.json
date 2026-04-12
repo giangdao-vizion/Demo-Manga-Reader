@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-tutorial-is-too-hard-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 264,
-  "fetchedAt": "2026-04-12T07:54:36.686Z",
+  "fetchedAt": "2026-04-12T08:41:54.082Z",
   "source": "asura",
   "chapters": [
     {
@@ -5768,5 +5768,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-tutorial-is-too-hard/264/fea7ac.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.a9f424-400.webp"
 }

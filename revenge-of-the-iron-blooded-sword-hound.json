@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/revenge-of-the-iron-blooded-sword-hound-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 157,
-  "fetchedAt": "2026-04-12T07:54:36.444Z",
+  "fetchedAt": "2026-04-12T08:41:53.973Z",
   "source": "asura",
   "chapters": [
     {
@@ -3774,5 +3774,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/revenge-of-the-iron-blooded-sword-hound/157/c37985.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb-400.webp"
 }

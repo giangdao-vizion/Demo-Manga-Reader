@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/heavenly-demon-instructor-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 105,
-  "fetchedAt": "2026-04-12T07:54:35.769Z",
+  "fetchedAt": "2026-04-12T08:41:53.695Z",
   "source": "asura",
   "chapters": [
     {
@@ -2426,5 +2426,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/heavenly-demon-instructor/105/017.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp"
 }

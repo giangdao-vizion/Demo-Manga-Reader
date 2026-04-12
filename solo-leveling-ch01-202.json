@@ -2,7 +2,7 @@
   "sampleUrl": "https://www.mangoasis.com/en/solo-leveling-en/solo-leveling-en-chapter-1.html",
   "fromChapter": 0,
   "toChapter": 202,
-  "fetchedAt": "2026-04-12T07:54:35.935Z",
+  "fetchedAt": "2026-04-12T08:41:53.748Z",
   "chapters": [
     {
       "title": "Chapter 0",
@@ -10192,5 +10192,6 @@
       ]
     }
   ],
-  "source": "asura"
+  "source": "asura",
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp"
 }

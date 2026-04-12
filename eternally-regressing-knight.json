@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/eternally-regressing-knight-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 104,
-  "fetchedAt": "2026-04-12T07:54:36.423Z",
+  "fetchedAt": "2026-04-12T08:41:53.964Z",
   "source": "asura",
   "chapters": [
     {
@@ -2504,5 +2504,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/eternally-regressing-knight/104/99ca6b.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.b0c5e0-400.webp"
 }

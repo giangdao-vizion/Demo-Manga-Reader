@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-extras-academy-survival-guide-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 101,
-  "fetchedAt": "2026-04-12T07:54:36.766Z",
+  "fetchedAt": "2026-04-12T08:41:54.128Z",
   "source": "asura",
   "chapters": [
     {
@@ -2850,5 +2850,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-extras-academy-survival-guide/101/7ac474.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e-400.webp"
 }

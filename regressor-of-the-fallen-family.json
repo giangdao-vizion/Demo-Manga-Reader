@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/regressor-of-the-fallen-family-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 127,
-  "fetchedAt": "2026-04-12T07:54:36.887Z",
+  "fetchedAt": "2026-04-12T08:41:54.170Z",
   "source": "asura",
   "chapters": [
     {
@@ -3304,5 +3304,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/regressor-of-the-fallen-family/127/2981c9.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950-400.webp"
 }

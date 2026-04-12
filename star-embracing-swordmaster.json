@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/star-embracing-swordmaster-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 117,
-  "fetchedAt": "2026-04-12T07:54:36.564Z",
+  "fetchedAt": "2026-04-12T08:41:54.035Z",
   "source": "asura",
   "chapters": [
     {
@@ -2824,5 +2824,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/117/e97781.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222-400.webp"
 }

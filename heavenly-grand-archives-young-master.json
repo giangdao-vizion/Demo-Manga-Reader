@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/heavenly-grand-archives-young-master-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 173,
-  "fetchedAt": "2026-04-12T07:54:36.505Z",
+  "fetchedAt": "2026-04-12T08:41:54.000Z",
   "source": "asura",
   "chapters": [
     {
@@ -4068,5 +4068,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/heavenly-grand-archives-young-master/173/60a156.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.31b71a-400.webp"
 }

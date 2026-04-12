@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/standard-of-reincarnation-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 175,
-  "fetchedAt": "2026-04-12T07:54:36.499Z",
+  "fetchedAt": "2026-04-12T08:41:53.996Z",
   "source": "asura",
   "chapters": [
     {
@@ -4274,5 +4274,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/standard-of-reincarnation/175/1af2db.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34-400.webp"
 }

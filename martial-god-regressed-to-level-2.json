@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/martial-god-regressed-to-level-2-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 113,
-  "fetchedAt": "2026-04-12T07:54:36.213Z",
+  "fetchedAt": "2026-04-12T08:41:53.860Z",
   "source": "asura",
   "chapters": [
     {
@@ -2531,5 +2531,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/martial-god-regressed-to-level-2/113/012.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51-400.webp"
 }

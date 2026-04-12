@@ -2,7 +2,7 @@
   "sampleUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-250-eng-li/",
   "fromChapter": 1,
   "toChapter": 250,
-  "fetchedAt": "2026-04-07T15:03:03.132Z",
+  "fetchedAt": "2026-04-12T08:41:53.841Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -6206,5 +6206,6 @@
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp"
 }

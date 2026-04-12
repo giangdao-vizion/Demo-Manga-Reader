@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/return-of-the-unrivaled-spear-knight-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 190,
-  "fetchedAt": "2026-04-12T07:54:36.906Z",
+  "fetchedAt": "2026-04-12T08:41:54.174Z",
   "source": "asura",
   "chapters": [
     {
@@ -4535,5 +4535,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/return-of-the-unrivaled-spear-knight/190/dcca77.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.12d9d8-400.webp"
 }

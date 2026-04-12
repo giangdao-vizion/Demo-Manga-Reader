@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/player-who-returned-10000-years-later-75e30c62/chapter/151",
   "fromChapter": 1,
   "toChapter": 151,
-  "fetchedAt": "2026-04-07T15:38:42.226Z",
+  "fetchedAt": "2026-04-12T08:41:53.981Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -3354,5 +3354,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/player-who-returned-10000-years-later/151/2e7170.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.d6a412-400.webp"
 }

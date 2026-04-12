@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-last-adventurer-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 116,
-  "fetchedAt": "2026-04-12T07:54:36.390Z",
+  "fetchedAt": "2026-04-12T08:41:53.949Z",
   "source": "asura",
   "chapters": [
     {
@@ -2282,5 +2282,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-last-adventurer/116/317e9a.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp"
 }

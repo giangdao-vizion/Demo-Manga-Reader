@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/sword-fanatic-wanders-through-the-night-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 131,
-  "fetchedAt": "2026-04-12T07:54:36.000Z",
+  "fetchedAt": "2026-04-12T08:41:53.774Z",
   "source": "asura",
   "chapters": [
     {
@@ -2808,5 +2808,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/sword-fanatic-wanders-through-the-night/131/011.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp"
 }

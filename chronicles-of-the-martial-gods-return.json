@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/chronicles-of-the-martial-gods-return-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 155,
-  "fetchedAt": "2026-04-12T07:54:36.512Z",
+  "fetchedAt": "2026-04-12T08:41:54.005Z",
   "source": "asura",
   "chapters": [
     {
@@ -3015,5 +3015,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/chronicles-of-the-martial-gods-return/155/c42f06.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01-400.webp"
 }

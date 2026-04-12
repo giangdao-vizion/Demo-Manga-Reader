@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/regressor-instruction-manual-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 181,
-  "fetchedAt": "2026-04-12T07:54:36.321Z",
+  "fetchedAt": "2026-04-12T08:41:53.916Z",
   "source": "asura",
   "chapters": [
     {
@@ -4304,5 +4304,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/regressor-instruction-manual/181/9995cc.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.dccab6-400.webp"
 }

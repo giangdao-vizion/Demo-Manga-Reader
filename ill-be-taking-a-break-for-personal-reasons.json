@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/ill-be-taking-a-break-for-personal-reasons-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 120,
-  "fetchedAt": "2026-04-12T07:54:35.989Z",
+  "fetchedAt": "2026-04-12T08:41:53.765Z",
   "source": "asura",
   "chapters": [
     {
@@ -2790,5 +2790,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/ill-be-taking-a-break-for-personal-reasons/120/012.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp"
 }

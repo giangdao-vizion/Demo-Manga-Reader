@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/infinite-mage-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 163,
-  "fetchedAt": "2026-04-12T07:54:36.558Z",
+  "fetchedAt": "2026-04-12T08:41:54.030Z",
   "source": "asura",
   "chapters": [
     {
@@ -3813,5 +3813,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/163/1afdd7.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed-400.webp"
 }

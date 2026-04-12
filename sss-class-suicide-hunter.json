@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/sss-class-suicide-hunter-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 151,
-  "fetchedAt": "2026-04-12T07:54:36.062Z",
+  "fetchedAt": "2026-04-12T08:41:53.809Z",
   "source": "asura",
   "chapters": [
     {
@@ -3262,5 +3262,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/sss-class-suicide-hunter/151/010.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.c8dc11-400.webp"
 }

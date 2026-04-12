@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/surviving-the-game-as-a-barbarian-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 149,
-  "fetchedAt": "2026-04-12T07:54:36.604Z",
+  "fetchedAt": "2026-04-12T08:41:54.051Z",
   "source": "asura",
   "chapters": [
     {
@@ -4062,5 +4062,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/surviving-the-game-as-a-barbarian/149/5a461a.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.09f151-400.webp"
 }

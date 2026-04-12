@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/reformation-of-the-deadbeat-noble-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 138,
-  "fetchedAt": "2026-04-12T07:54:36.012Z",
+  "fetchedAt": "2026-04-12T08:41:53.781Z",
   "source": "asura",
   "chapters": [
     {
@@ -3314,5 +3314,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/reformation-of-the-deadbeat-noble/138/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.c03ed0-400.webp"
 }

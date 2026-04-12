@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/doctors-rebirth-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 232,
-  "fetchedAt": "2026-04-12T07:54:36.695Z",
+  "fetchedAt": "2026-04-12T08:41:54.086Z",
   "source": "asura",
   "chapters": [
     {
@@ -4912,5 +4912,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/232/bcb1f8.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.e46d6d-400.webp"
 }

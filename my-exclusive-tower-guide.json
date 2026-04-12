@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/my-exclusive-tower-guide-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 113,
-  "fetchedAt": "2026-04-12T07:54:36.722Z",
+  "fetchedAt": "2026-04-12T08:41:54.099Z",
   "source": "asura",
   "chapters": [
     {
@@ -2655,5 +2655,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/my-exclusive-tower-guide/113/bd8313.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.f49132-400.webp"
 }

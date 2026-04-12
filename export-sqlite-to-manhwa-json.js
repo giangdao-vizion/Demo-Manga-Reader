@@ -3,6 +3,7 @@
  * Xuất chapter + ảnh từ catalog SQLite (series/*.sqlite) sang JSON reader (cùng format home/index).
  * - Ưu tiên bộ có chapter cập nhật gần nhất (MAX(images_fetched_at)).
  * - Chỉ thêm chapter thiếu; không ghi đè chapter đã có trong JSON.
+ * - Ảnh minh hoạ (cover): lấy catalog_series.cover_url → ghi coverUrl trong JSON manifest + manhwa-catalog.json.
  * - Tên file cố định: lấy từ manhwa-sqlite-mapping.json (dataFile) hoặc slug suy ra từ series_path.
  *
  *   node export-sqlite-to-manhwa-json.js
@@ -169,6 +170,11 @@ function chapterNum(ch) {
   return Number.isFinite(n) ? n : null;
 }
 
+function normCover(u) {
+  const s = u != null && String(u).trim();
+  return s ? String(s) : null;
+}
+
 function sqliteChapterToJson(row, imageUrls) {
   const n = row.chapter_num;
   return {
@@ -228,13 +234,21 @@ function exportOneSeries({ row, catalogDir, outDir, dataFile, dryRun }) {
       added++;
     }
 
-    if (added === 0 && existingChapters.length > 0) {
-      return { ok: true, dataFile, added: 0, skipped: "all_present" };
-    }
-
     const merged = [...existingChapters, ...toAppend].sort(
       (a, b) => (chapterNum(a) ?? 0) - (chapterNum(b) ?? 0)
     );
+    const prevCover = normCover(existing.coverUrl);
+    const mergedCover = normCover(row.cover_url) || prevCover;
+    const coverChanged = mergedCover !== prevCover;
+
+    if (added === 0 && existingChapters.length > 0 && !coverChanged) {
+      return { ok: true, dataFile, added: 0, skipped: "all_present" };
+    }
+
+    if (merged.length === 0) {
+      return { ok: true, dataFile, added: 0, skipped: "no_chapters" };
+    }
+
     const nums = merged.map(chapterNum).filter((n) => n != null);
     const fromChapter = nums.length ? Math.min(...nums) : null;
     const toChapter = nums.length ? Math.max(...nums) : null;
@@ -254,6 +268,11 @@ function exportOneSeries({ row, catalogDir, outDir, dataFile, dryRun }) {
       source: existing.source != null && existing.source !== "" ? existing.source : row.source_id,
       chapters: merged,
     };
+    if (mergedCover) {
+      outManifest.coverUrl = mergedCover;
+    } else {
+      delete outManifest.coverUrl;
+    }
 
     if (!dryRun) {
       writeJson(outPath, outManifest);
@@ -315,7 +334,7 @@ function rebuildManhwaCatalog({ outDir, catalogPath, mapping, catalogDb, dryRun 
     if (sqliteSeriesId != null && catalogDb) {
       dbRow = catalogDb
         .prepare(
-          `SELECT id, title, source_id, content_sync_complete, content_sync_completed_at, content_sync_note
+          `SELECT id, title, source_id, cover_url, content_sync_complete, content_sync_completed_at, content_sync_note
            FROM catalog_series WHERE id = ?`
         )
         .get(sqliteSeriesId);
@@ -330,6 +349,8 @@ function rebuildManhwaCatalog({ outDir, catalogPath, mapping, catalogDb, dryRun 
       fromC != null && toC != null
         ? `Ch. ${fromC}–${toC} · ${dataFile}`
         : `${j.chapters.length} chương · ${dataFile}`;
+    const coverUrl =
+      normCover(dbRow?.cover_url) || normCover(j.coverUrl) || null;
 
     series.push({
       dataFile,
@@ -343,6 +364,7 @@ function rebuildManhwaCatalog({ outDir, catalogPath, mapping, catalogDb, dryRun 
       sqliteSeriesId,
       contentSyncComplete: dbRow?.content_sync_complete === 1,
       contentSyncNote: dbRow?.content_sync_note || null,
+      ...(coverUrl ? { coverUrl } : {}),
     });
   }
 
@@ -406,7 +428,7 @@ function main() {
   }
 
   const catalogDir = catalogDirFromMainDbPath(dbPath);
-  let sql = `SELECT id, source_id, series_path, title, series_url, series_db_file,
+  let sql = `SELECT id, source_id, series_path, title, series_url, series_db_file, cover_url,
                     content_sync_complete, content_sync_completed_at, updated_at
              FROM catalog_series WHERE 1=1`;
   const params = [];

@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/of-all-things-i-became-a-crow-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 107,
-  "fetchedAt": "2026-04-12T07:54:35.795Z",
+  "fetchedAt": "2026-04-12T08:41:53.709Z",
   "source": "asura",
   "chapters": [
     {
@@ -2402,5 +2402,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/of-all-things-i-became-a-crow/107/020.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp"
 }

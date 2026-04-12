@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-live-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 167,
-  "fetchedAt": "2026-04-12T07:54:35.776Z",
+  "fetchedAt": "2026-04-12T08:41:53.698Z",
   "source": "asura",
   "chapters": [
     {
@@ -3688,5 +3688,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-live/167/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp"
 }

@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/i-reincarnated-as-the-crazed-heir-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 127,
-  "fetchedAt": "2026-04-12T07:54:35.816Z",
+  "fetchedAt": "2026-04-12T08:41:53.723Z",
   "source": "asura",
   "chapters": [
     {
@@ -3586,5 +3586,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/i-reincarnated-as-the-crazed-heir/127/019.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp"
 }

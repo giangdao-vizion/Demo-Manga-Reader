@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/worn-and-torn-newbie-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 159,
-  "fetchedAt": "2026-04-12T07:54:35.806Z",
+  "fetchedAt": "2026-04-12T08:41:53.718Z",
   "source": "asura",
   "chapters": [
     {
@@ -3498,5 +3498,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/worn-and-torn-newbie/159/012.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp"
 }

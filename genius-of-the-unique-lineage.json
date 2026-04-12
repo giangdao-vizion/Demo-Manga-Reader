@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/genius-of-the-unique-lineage-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 152,
-  "fetchedAt": "2026-04-12T07:54:36.220Z",
+  "fetchedAt": "2026-04-12T08:41:53.864Z",
   "source": "asura",
   "chapters": [
     {
@@ -3451,5 +3451,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/genius-of-the-unique-lineage/152/015.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp"
 }

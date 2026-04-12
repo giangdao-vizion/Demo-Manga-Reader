@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/reincarnation-of-the-suicidal-battle-god-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 101,
-  "fetchedAt": "2026-04-12T07:54:36.018Z",
+  "fetchedAt": "2026-04-12T08:41:53.785Z",
   "source": "asura",
   "chapters": [
     {
@@ -2201,5 +2201,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/reincarnation-of-the-suicidal-battle-god/101/009.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp"
 }

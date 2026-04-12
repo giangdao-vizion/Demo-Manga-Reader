@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/trash-of-the-counts-family-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 172,
-  "fetchedAt": "2026-04-12T07:54:36.084Z",
+  "fetchedAt": "2026-04-12T08:41:53.817Z",
   "source": "asura",
   "chapters": [
     {
@@ -4321,5 +4321,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/172/011.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.1478ed-400.webp"
 }

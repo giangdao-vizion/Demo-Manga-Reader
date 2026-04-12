@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/my-daughter-is-the-final-boss-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 128,
-  "fetchedAt": "2026-04-12T07:54:35.821Z",
+  "fetchedAt": "2026-04-12T08:41:53.727Z",
   "source": "asura",
   "chapters": [
     {
@@ -2748,5 +2748,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/my-daughter-is-the-final-boss/128/011.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp"
 }

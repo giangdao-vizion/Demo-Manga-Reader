@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/life-of-a-magic-academy-mage-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 133,
-  "fetchedAt": "2026-04-12T07:54:36.097Z",
+  "fetchedAt": "2026-04-12T08:41:53.823Z",
   "source": "asura",
   "chapters": [
     {
@@ -2712,5 +2712,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/life-of-a-magic-academy-mage/133/013.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp"
 }

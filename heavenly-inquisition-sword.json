@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/heavenly-inquisition-sword-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 153,
-  "fetchedAt": "2026-04-12T07:54:36.123Z",
+  "fetchedAt": "2026-04-12T08:41:53.833Z",
   "source": "asura",
   "chapters": [
     {
@@ -3711,5 +3711,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/heavenly-inquisition-sword/153/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp"
 }

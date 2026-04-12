@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/player-who-cant-level-up-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 220,
-  "fetchedAt": "2026-04-12T07:54:36.112Z",
+  "fetchedAt": "2026-04-12T08:41:53.829Z",
   "source": "asura",
   "chapters": [
     {
@@ -4693,5 +4693,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/player-who-cant-level-up/220/011.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.72b02f-400.webp"
 }

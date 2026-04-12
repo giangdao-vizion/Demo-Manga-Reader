@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/max-level-returner-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 117,
-  "fetchedAt": "2026-04-12T07:54:35.754Z",
+  "fetchedAt": "2026-04-12T08:41:53.685Z",
   "source": "asura",
   "chapters": [
     {
@@ -2656,5 +2656,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/max-level-returner/117/008.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp"
 }

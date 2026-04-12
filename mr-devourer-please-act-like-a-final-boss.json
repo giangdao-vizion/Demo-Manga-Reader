@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/mr-devourer-please-act-like-a-final-boss-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 120,
-  "fetchedAt": "2026-04-12T07:54:36.428Z",
+  "fetchedAt": "2026-04-12T08:41:53.967Z",
   "source": "asura",
   "chapters": [
     {
@@ -2294,5 +2294,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/mr-devourer-please-act-like-a-final-boss/120/e719ca.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6-400.webp"
 }

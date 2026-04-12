@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/my-school-life-pretending-to-be-a-worthless-person-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 113,
-  "fetchedAt": "2026-04-12T07:54:36.049Z",
+  "fetchedAt": "2026-04-12T08:41:53.801Z",
   "source": "asura",
   "chapters": [
     {
@@ -2329,5 +2329,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/my-school-life-pretending-to-be-a-worthless-person/113/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp"
 }

@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/return-of-the-disaster-class-hero-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 171,
-  "fetchedAt": "2026-04-12T07:54:36.651Z",
+  "fetchedAt": "2026-04-12T08:41:54.067Z",
   "source": "asura",
   "chapters": [
     {
@@ -4322,5 +4322,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/return-of-the-disaster-class-hero/171/fdeb11.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831-400.webp"
 }

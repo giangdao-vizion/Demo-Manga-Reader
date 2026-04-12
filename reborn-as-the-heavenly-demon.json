@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/reborn-as-the-heavenly-demon-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 116,
-  "fetchedAt": "2026-04-12T07:54:36.716Z",
+  "fetchedAt": "2026-04-12T08:41:54.097Z",
   "source": "asura",
   "chapters": [
     {
@@ -5089,5 +5089,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/reborn-as-the-heavenly-demon/116/008134.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242-400.webp"
 }

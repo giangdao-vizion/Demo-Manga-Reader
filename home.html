@@ -69,10 +69,13 @@
       gap: 12px;
     }
     button.card {
-      display: block;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      gap: 14px;
       width: 100%;
       text-align: left;
-      padding: 16px 18px;
+      padding: 12px 14px;
       border-radius: var(--radius-md);
       border: 1px solid var(--stroke);
       background: var(--glass);
@@ -83,6 +86,29 @@
       font: inherit;
       cursor: pointer;
       transition: border-color 0.2s ease, background 0.2s ease;
+    }
+    button.card .card-thumb-wrap {
+      flex-shrink: 0;
+      width: 76px;
+      height: 102px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--stroke-soft);
+      align-self: center;
+    }
+    button.card .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    button.card .card-body {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     button.card:hover {
       border-color: var(--accent-dim);
@@ -95,12 +121,12 @@
       letter-spacing: -0.02em;
       line-height: 1.3;
     }
-    button.card .meta {
+    button.card .card-body .meta {
       font-size: 0.75rem;
       color: var(--text-dim);
       font-weight: 500;
     }
-    button.card .arrow {
+    button.card .card-body .arrow {
       margin-top: 10px;
       font-size: 0.72rem;
       font-weight: 600;
@@ -420,6 +446,20 @@
         btn.className = "card";
         btn.setAttribute("data-datafile", item.dataFile);
         btn.setAttribute("data-title", item.displayTitle || item.title || item.dataFile);
+        const cover = item.coverUrl != null && String(item.coverUrl).trim();
+        if (cover) {
+          const tw = document.createElement("div");
+          tw.className = "card-thumb-wrap";
+          const img = document.createElement("img");
+          img.src = String(item.coverUrl).trim();
+          img.alt = "";
+          img.loading = "lazy";
+          img.decoding = "async";
+          tw.appendChild(img);
+          btn.appendChild(tw);
+        }
+        const body = document.createElement("div");
+        body.className = "card-body";
         const h2 = document.createElement("h2");
         h2.textContent = item.displayTitle || item.title || item.dataFile;
         const meta = document.createElement("div");
@@ -429,9 +469,10 @@
         const arrow = document.createElement("div");
         arrow.className = "arrow";
         arrow.textContent = "Xem danh sách chương →";
-        btn.appendChild(h2);
-        btn.appendChild(meta);
-        btn.appendChild(arrow);
+        body.appendChild(h2);
+        body.appendChild(meta);
+        body.appendChild(arrow);
+        btn.appendChild(body);
         btn.addEventListener("click", function () {
           openSeries(btn);
         });

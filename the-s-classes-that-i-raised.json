@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-s-classes-that-i-raised-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 153,
-  "fetchedAt": "2026-04-12T07:54:35.995Z",
+  "fetchedAt": "2026-04-12T08:41:53.771Z",
   "source": "asura",
   "chapters": [
     {
@@ -3336,5 +3336,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-s-classes-that-i-raised/153/013.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.da6289-400.webp"
 }

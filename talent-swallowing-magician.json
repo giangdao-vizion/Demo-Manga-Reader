@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/talent-swallowing-magician-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 137,
-  "fetchedAt": "2026-04-12T07:54:36.538Z",
+  "fetchedAt": "2026-04-12T08:41:54.020Z",
   "source": "asura",
   "chapters": [
     {
@@ -3103,5 +3103,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/talent-swallowing-magician/137/5983de.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.8d261c-400.webp"
 }

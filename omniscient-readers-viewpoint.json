@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/omniscient-readers-viewpoint-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 306,
-  "fetchedAt": "2026-04-12T07:54:36.590Z",
+  "fetchedAt": "2026-04-12T08:41:54.046Z",
   "source": "asura",
   "chapters": [
     {
@@ -6299,5 +6299,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/306/a2dceb.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp"
 }

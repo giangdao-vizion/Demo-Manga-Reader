@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/villain-to-kill-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 228,
-  "fetchedAt": "2026-04-12T07:54:36.454Z",
+  "fetchedAt": "2026-04-12T08:41:53.977Z",
   "source": "asura",
   "chapters": [
     {
@@ -5286,5 +5286,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/228/db9d86.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.47d5d8-400.webp"
 }

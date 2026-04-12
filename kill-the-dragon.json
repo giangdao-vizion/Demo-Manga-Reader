@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/kill-the-dragon-75e30c62/chapter/0",
   "fromChapter": 0,
   "toChapter": 114,
-  "fetchedAt": "2026-04-12T07:54:35.840Z",
+  "fetchedAt": "2026-04-12T08:41:53.737Z",
   "source": "asura",
   "chapters": [
     {
@@ -2774,5 +2774,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/kill-the-dragon/114/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.c2ff0c-400.webp"
 }

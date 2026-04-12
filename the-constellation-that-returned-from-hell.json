@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-constellation-that-returned-from-hell-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 161,
-  "fetchedAt": "2026-04-12T07:54:35.905Z",
+  "fetchedAt": "2026-04-12T08:41:53.744Z",
   "source": "asura",
   "chapters": [
     {
@@ -3274,5 +3274,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-constellation-that-returned-from-hell/161/012.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp"
 }

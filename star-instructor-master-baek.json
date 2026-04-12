@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/star-instructor-master-baek-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 145,
-  "fetchedAt": "2026-04-12T07:54:36.071Z",
+  "fetchedAt": "2026-04-12T08:41:53.813Z",
   "source": "asura",
   "chapters": [
     {
@@ -3443,5 +3443,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/star-instructor-master-baek/145/018.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.34d48f-400.webp"
 }

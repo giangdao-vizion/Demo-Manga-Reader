@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/overpowered-sword-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 144,
-  "fetchedAt": "2026-04-12T07:54:36.043Z",
+  "fetchedAt": "2026-04-12T08:41:53.797Z",
   "source": "asura",
   "chapters": [
     {
@@ -3084,5 +3084,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/overpowered-sword/144/013.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp"
 }

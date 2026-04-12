@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/return-to-player-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 138,
-  "fetchedAt": "2026-04-12T07:54:36.190Z",
+  "fetchedAt": "2026-04-12T08:41:53.850Z",
   "source": "asura",
   "chapters": [
     {
@@ -12684,5 +12684,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/return-to-player/138/016.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp"
 }

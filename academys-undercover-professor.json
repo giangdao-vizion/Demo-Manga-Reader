@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/academys-undercover-professor-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 163,
-  "fetchedAt": "2026-04-12T07:54:36.435Z",
+  "fetchedAt": "2026-04-12T08:41:53.970Z",
   "source": "asura",
   "chapters": [
     {
@@ -3718,5 +3718,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/academys-undercover-professor/163/6f71ed.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp"
 }

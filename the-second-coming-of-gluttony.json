@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-second-coming-of-gluttony-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 109,
-  "fetchedAt": "2026-04-12T07:54:35.799Z",
+  "fetchedAt": "2026-04-12T08:41:53.715Z",
   "source": "asura",
   "chapters": [
     {
@@ -2126,5 +2126,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-second-coming-of-gluttony/109/015.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp"
 }

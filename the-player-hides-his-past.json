@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-player-hides-his-past-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 114,
-  "fetchedAt": "2026-04-12T07:54:36.309Z",
+  "fetchedAt": "2026-04-12T08:41:53.905Z",
   "source": "asura",
   "chapters": [
     {
@@ -2905,5 +2905,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-player-hides-his-past/114/04b8af.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.98ad69-400.webp"
 }

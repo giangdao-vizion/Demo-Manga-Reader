@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/the-max-level-hero-has-returned-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 229,
-  "fetchedAt": "2026-04-12T07:54:36.251Z",
+  "fetchedAt": "2026-04-12T08:41:53.877Z",
   "source": "asura",
   "chapters": [
     {
@@ -4698,5 +4698,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/229/009.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.3fc2ae-400.webp"
 }

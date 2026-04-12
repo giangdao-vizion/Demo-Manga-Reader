@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/killer-pietro-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 122,
-  "fetchedAt": "2026-04-12T07:54:36.330Z",
+  "fetchedAt": "2026-04-12T08:41:53.920Z",
   "source": "asura",
   "chapters": [
     {
@@ -3706,5 +3706,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/killer-pietro/122/a0f564.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509-400.webp"
 }

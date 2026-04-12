@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/i-became-a-renowned-familys-sword-prodigy-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 116,
-  "fetchedAt": "2026-04-12T07:54:35.827Z",
+  "fetchedAt": "2026-04-12T08:41:53.731Z",
   "source": "asura",
   "chapters": [
     {
@@ -2742,5 +2742,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/i-became-a-renowned-familys-sword-prodigy/116/011.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp"
 }

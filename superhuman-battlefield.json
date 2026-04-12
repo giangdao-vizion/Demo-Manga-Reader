@@ -2,7 +2,7 @@
   "sampleUrl": "https://asurascans.com/comics/superhuman-battlefield-75e30c62/chapter/1",
   "fromChapter": 1,
   "toChapter": 151,
-  "fetchedAt": "2026-04-12T07:54:36.030Z",
+  "fetchedAt": "2026-04-12T08:41:53.789Z",
   "source": "asura",
   "chapters": [
     {
@@ -5737,5 +5737,6 @@
         "https://cdn.asurascans.com/asura-images/chapters/superhuman-battlefield/151/017.webp"
       ]
     }
-  ]
+  ],
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp"
 }
