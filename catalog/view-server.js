@@ -54,6 +54,8 @@ const ALLOW_ADMIN_CONTENT_SYNC = process.env.CATALOG_ALLOW_CONTENT_SYNC !== "0";
 /** @type {Set<import('node:http').ServerResponse>} */
 const contentSyncSseClients = new Set();
 let contentSyncInFlight = false;
+/** @type {AbortController | null} */
+let contentSyncAbortController = null;
 
 function broadcastContentSyncEvent(ev) {
   const payload = `data: ${JSON.stringify(ev)}\n\n`;
@@ -590,6 +592,8 @@ async function startContentSyncFromAdmin(body) {
     return { ok: false, error: String(e.message || e) };
   }
 
+  const controller = new AbortController();
+  contentSyncAbortController = controller;
   contentSyncInFlight = true;
   broadcastContentSyncEvent({ type: "run_queued", flags });
 
@@ -598,6 +602,7 @@ async function startContentSyncFromAdmin(body) {
       await runCatalogContentSync({
         cfg,
         flags,
+        abortSignal: controller.signal,
         onProgress: (ev) => broadcastContentSyncEvent(ev),
       });
     } catch (e) {
@@ -614,12 +619,24 @@ async function startContentSyncFromAdmin(body) {
         });
       }
     } finally {
+      contentSyncAbortController = null;
       contentSyncInFlight = false;
       broadcastContentSyncEvent({ type: "idle" });
     }
   })();
 
   return { ok: true, started: true };
+}
+
+function stopContentSyncFromAdmin() {
+  if (!ALLOW_ADMIN_CONTENT_SYNC) {
+    return { ok: false, error: "Đã tắt sync từ UI (CATALOG_ALLOW_CONTENT_SYNC=0)." };
+  }
+  if (!contentSyncInFlight || !contentSyncAbortController) {
+    return { ok: false, error: "Không có đồng bộ nội dung đang chạy." };
+  }
+  contentSyncAbortController.abort();
+  return { ok: true, stopping: true };
 }
 
 const server = http.createServer((req, res) => {
@@ -667,6 +684,12 @@ const server = http.createServer((req, res) => {
       .catch((e) => {
         json(res, 400, { ok: false, error: String(e.message || e) });
       });
+    return;
+  }
+
+  if (req.method === "POST" && u.pathname === "/api/content-sync/stop") {
+    const out = stopContentSyncFromAdmin();
+    json(res, out.ok ? 200 : 400, out);
     return;
   }
 

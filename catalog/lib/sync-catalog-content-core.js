@@ -19,8 +19,18 @@ import {
 } from "./asura-chapter-index.js";
 import { fetchAsuraImagesFromUrl, BROWSER_HEADERS } from "../../extract.mjs";
 
+const SYNC_ABORT_CODE = "ECATALOGSYNCABORTED";
+
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+function checkSyncAborted(signal) {
+  if (signal && signal.aborted) {
+    const err = new Error("Đã dừng theo yêu cầu.");
+    err.code = SYNC_ABORT_CODE;
+    throw err;
+  }
 }
 
 async function fetchSeriesHtml(seriesUrl, userAgent) {
@@ -58,11 +68,18 @@ function markSeriesContentComplete(db, seriesId, note) {
  * @param {boolean} [p.flags.resetSeriesSync]
  * @param {boolean} [p.flags.nextSeries] - một bộ tiếp theo trong hàng đợi (complete=0)
  * @param {(e: Record<string, unknown>) => void} [p.onProgress]
- * @returns {Promise<{ ok: boolean, message: string, seriesProcessed: number, chaptersDiscovered: number, chaptersImaged: number, lastError: string|null }>}
+ * @param {AbortSignal} [p.abortSignal] - hủy hợp tác (kiểm tra giữa chapter / sau fetch)
+ * @returns {Promise<{ ok: boolean, message: string, seriesProcessed: number, chaptersDiscovered: number, chaptersImaged: number, lastError: string|null, aborted?: boolean }>}
  */
-export async function runCatalogContentSync({ cfg, flags, onProgress }) {
+export async function runCatalogContentSync({ cfg, flags, onProgress, abortSignal }) {
   const delaySeries = cfg.delayMsSeriesPage ?? 700;
   const delayChapter = cfg.delayMsChapter ?? 550;
+  const rawChapterConc =
+    cfg.chapterConcurrency != null ? cfg.chapterConcurrency : cfg.parallelChapters;
+  const chapterConcurrency = Math.max(
+    1,
+    Math.min(8, Math.floor(Number(rawChapterConc)) || 1)
+  );
   const userAgent = cfg.userAgent || BROWSER_HEADERS["user-agent"];
   const fetchImages =
     flags.fetchImages === false
@@ -172,6 +189,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
     const runId = Number(runIns.lastInsertRowid);
 
     onProgress?.({ type: "run_start", runId, seriesTotal: seriesList.length });
+    checkSyncAborted(abortSignal);
 
     const finishRun = db.prepare(`
       UPDATE catalog_content_runs SET ended_at = ?, ok = ?, message = ?, series_processed = ?, chapters_discovered = ?, chapters_imaged = ?
@@ -180,6 +198,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
 
     try {
       for (let si = 0; si < seriesList.length; si++) {
+        checkSyncAborted(abortSignal);
         const s = seriesList[si];
         onProgress?.({
           type: "series_start",
@@ -201,9 +220,13 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
             seriesId: s.id,
             message: lastError,
           });
-          if (si < seriesList.length - 1 && delaySeries > 0) await sleep(delaySeries);
+          if (si < seriesList.length - 1 && delaySeries > 0) {
+            checkSyncAborted(abortSignal);
+            await sleep(delaySeries);
+          }
           continue;
         }
+        checkSyncAborted(abortSignal);
 
         onProgress?.({ type: "series_page_ok", seriesId: s.id });
 
@@ -225,7 +248,10 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
             note: "Không có link chapter trong HTML.",
           });
           seriesProcessed++;
-          if (si < seriesList.length - 1 && delaySeries > 0) await sleep(delaySeries);
+          if (si < seriesList.length - 1 && delaySeries > 0) {
+            checkSyncAborted(abortSignal);
+            await sleep(delaySeries);
+          }
           continue;
         }
 
@@ -288,11 +314,14 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
             pendingInRun: iterationList.length,
             alreadyCompleteInDb: skippedAlreadySynced,
             chapterNumsSample: ascendingNums.slice(0, 5),
+            chapterConcurrency,
           });
 
           const now = new Date().toISOString();
 
-          for (let ci = 0; ci < iterationList.length; ci++) {
+          let ci = 0;
+          while (ci < iterationList.length) {
+            checkSyncAborted(abortSignal);
             const n = iterationList[ci];
             const chapterUrl = buildAsuraChapterUrl(s.series_url, s.series_path, n);
             const title = "Chapter " + n;
@@ -326,7 +355,11 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
                 action: "stub",
                 images: 0,
               });
-              if (ci < iterationList.length - 1 && delayChapter > 0) await sleep(delayChapter);
+              if (ci < iterationList.length - 1 && delayChapter > 0) {
+                checkSyncAborted(abortSignal);
+                await sleep(delayChapter);
+              }
+              ci++;
               continue;
             }
 
@@ -343,63 +376,104 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
                   action: "skip",
                   images: existing.image_count,
                 });
+                ci++;
                 continue;
               }
             }
 
-            const result = await fetchAsuraImagesFromUrl(chapterUrl);
-            const images = result.images || [];
-            let err = null;
-            let ok = result.ok ? 1 : 0;
-            if (!result.ok) {
-              err = `HTTP ${result.status} ${result.statusText || ""}`.trim();
-            } else {
-              const final = result.finalUrl || "";
-              const m = final.match(/\/chapter\/(\d+)/i);
-              const finalCh = m ? Number(m[1], 10) : NaN;
-              if (Number.isFinite(finalCh) && finalCh !== n) {
-                ok = 0;
-                err = `Redirect chapter ${finalCh} ≠ ${n}`;
-              } else if (images.length === 0) {
-                ok = 0;
-                err = "Không parse được ảnh (data-page / CDN embed)";
+            const batch = [{ n, ci, chapterUrl, title }];
+            ci++;
+            while (batch.length < chapterConcurrency && ci < iterationList.length) {
+              checkSyncAborted(abortSignal);
+              const nn = iterationList[ci];
+              if (force) {
+                const ex = existingStmt.get(nn);
+                if (ex && ex.fetch_ok && ex.image_count > 0) {
+                  break;
+                }
+              }
+              const urlNn = buildAsuraChapterUrl(s.series_url, s.series_path, nn);
+              const titleNn = "Chapter " + nn;
+              onProgress?.({
+                type: "chapter_begin",
+                seriesId: s.id,
+                chapterNum: nn,
+                index: ci + 1,
+                total: iterationList.length,
+              });
+              batch.push({ n: nn, ci, chapterUrl: urlNn, title: titleNn });
+              ci++;
+            }
+
+            const fetched = await Promise.all(
+              batch.map(async ({ n: bn, chapterUrl: bu }) => {
+                checkSyncAborted(abortSignal);
+                const result = await fetchAsuraImagesFromUrl(bu);
+                checkSyncAborted(abortSignal);
+                return { n: bn, chapterUrl: bu, result };
+              })
+            );
+            const resultByN = new Map(fetched.map((x) => [x.n, x]));
+
+            for (let bi = 0; bi < batch.length; bi++) {
+              const { n: bn, ci: bc, chapterUrl: bu, title: bt } = batch[bi];
+              const { result } = resultByN.get(bn);
+              const images = result.images || [];
+              let err = null;
+              let ok = result.ok ? 1 : 0;
+              if (!result.ok) {
+                err = `HTTP ${result.status} ${result.statusText || ""}`.trim();
+              } else {
+                const final = result.finalUrl || "";
+                const m = final.match(/\/chapter\/(\d+)/i);
+                const finalCh = m ? Number(m[1], 10) : NaN;
+                if (Number.isFinite(finalCh) && finalCh !== bn) {
+                  ok = 0;
+                  err = `Redirect chapter ${finalCh} ≠ ${bn}`;
+                } else if (images.length === 0) {
+                  ok = 0;
+                  err = "Không parse được ảnh (data-page / CDN embed)";
+                }
+              }
+
+              if (ok) {
+                chaptersImaged++;
+                chapterImgOk++;
+              } else {
+                chapterImgFail++;
+              }
+
+              saveChapterWithImages(
+                {
+                  chapter_num: bn,
+                  title: bt,
+                  chapter_url: bu,
+                  final_url: result.finalUrl || null,
+                  image_count: images.length,
+                  fetch_ok: ok,
+                  error_message: err,
+                  chapters_list_fetched_at: now,
+                  images_fetched_at: ok ? now : null,
+                },
+                ok ? images : []
+              );
+
+              onProgress?.({
+                type: "chapter_done",
+                seriesId: s.id,
+                chapterNum: bn,
+                index: bc + 1,
+                total: iterationList.length,
+                action: ok ? "fetch_ok" : "fetch_fail",
+                images: images.length,
+                error: err || undefined,
+              });
+
+              if (bc < iterationList.length - 1 && delayChapter > 0) {
+                checkSyncAborted(abortSignal);
+                await sleep(delayChapter);
               }
             }
-
-            if (ok) {
-              chaptersImaged++;
-              chapterImgOk++;
-            } else {
-              chapterImgFail++;
-            }
-
-            saveChapterWithImages(
-              {
-                chapter_num: n,
-                title,
-                chapter_url: chapterUrl,
-                final_url: result.finalUrl || null,
-                image_count: images.length,
-                fetch_ok: ok,
-                error_message: err,
-                chapters_list_fetched_at: now,
-                images_fetched_at: ok ? now : null,
-              },
-              ok ? images : []
-            );
-
-            onProgress?.({
-              type: "chapter_done",
-              seriesId: s.id,
-              chapterNum: n,
-              index: ci + 1,
-              total: iterationList.length,
-              action: ok ? "fetch_ok" : "fetch_fail",
-              images: images.length,
-              error: err || undefined,
-            });
-
-            if (ci < iterationList.length - 1 && delayChapter > 0) await sleep(delayChapter);
           }
 
           updateSeriesSummaryFromChaptersDb(db, s.id, seriesDb);
@@ -433,7 +507,10 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
           }
         }
 
-        if (si < seriesList.length - 1 && delaySeries > 0) await sleep(delaySeries);
+        if (si < seriesList.length - 1 && delaySeries > 0) {
+          checkSyncAborted(abortSignal);
+          await sleep(delaySeries);
+        }
       }
 
       const msg = `Xong · ${seriesProcessed} bộ · ${chaptersDiscovered} chapter (lần đếm) · ${chaptersImaged} chapter có ảnh OK`;
@@ -464,6 +541,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
         lastError: null,
       };
     } catch (e) {
+      const aborted = !!(e && e.code === SYNC_ABORT_CODE);
       lastError = String(e.message || e);
       finishRun.run(
         new Date().toISOString(),
@@ -474,6 +552,16 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
         chaptersImaged,
         runId
       );
+      if (aborted) {
+        onProgress?.({
+          type: "run_aborted",
+          runId,
+          message: lastError,
+          seriesProcessed,
+          chaptersDiscovered,
+          chaptersImaged,
+        });
+      }
       onProgress?.({
         type: "run_finish",
         ok: false,
@@ -482,6 +570,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
         chaptersDiscovered,
         chaptersImaged,
         runId,
+        aborted,
       });
       return {
         ok: false,
@@ -490,6 +579,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress }) {
         chaptersDiscovered,
         chaptersImaged,
         lastError,
+        aborted,
       };
     }
   } finally {

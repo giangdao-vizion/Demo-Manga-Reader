@@ -512,9 +512,20 @@
     }
     .sync-actions button:disabled,
     .btn-sync-toolbar:disabled,
+    .btn-sync-stop:disabled,
     button.btn-sync-inline:disabled {
       opacity: 0.45;
       cursor: not-allowed;
+    }
+    .btn-sync-stop {
+      border-color: rgba(255, 120, 120, 0.55) !important;
+      background: rgba(255, 90, 90, 0.12) !important;
+      color: #ffb4b4 !important;
+    }
+    @media (hover: hover) {
+      .btn-sync-stop:hover:not(:disabled) {
+        filter: brightness(1.12);
+      }
     }
     th.th-sort {
       cursor: pointer;
@@ -720,7 +731,8 @@
         flex-direction: column;
         align-items: stretch;
       }
-      .sync-actions button {
+      .sync-actions button,
+      .toolbar__btn-row .btn-sync-stop {
         width: 100%;
       }
       .sync-continuous-label {
@@ -783,6 +795,9 @@
         </div>
         <div class="sync-actions">
           <button type="button" id="btnSyncNext">Đồng bộ bộ tiếp theo</button>
+          <button type="button" class="btn-sync-stop" id="btnSyncStop" disabled title="Dừng sau khi kết thúc bước hiện tại (fetch/sleep)">
+            Dừng
+          </button>
           <label class="sync-continuous-label">
             <input type="checkbox" id="chkSyncContinuous" />
             Chạy liên tục đến khi hết hàng đợi
@@ -835,6 +850,9 @@
         <button type="button" id="btnSearch">Tìm / làm mới</button>
         <button type="button" class="btn-sync-toolbar" id="btnSyncNextToolbar" title="Giống nút trong khung đồng bộ; chế độ liên tục theo checkbox ở đó">
           Bộ tiếp theo
+        </button>
+        <button type="button" class="btn-sync-toolbar btn-sync-stop" id="btnSyncStopToolbar" disabled title="Dừng đồng bộ (sau bước hiện tại)">
+          Dừng
         </button>
       </div>
       </div>
@@ -1010,6 +1028,8 @@
         syncLog: document.getElementById("syncLog"),
         btnSyncNext: document.getElementById("btnSyncNext"),
         btnSyncNextToolbar: document.getElementById("btnSyncNextToolbar"),
+        btnSyncStop: document.getElementById("btnSyncStop"),
+        btnSyncStopToolbar: document.getElementById("btnSyncStopToolbar"),
         chkSyncContinuous: document.getElementById("chkSyncContinuous"),
       };
 
@@ -1068,6 +1088,9 @@
         document.querySelectorAll(".btn-sync-series").forEach(function (b) {
           b.disabled = block;
         });
+        const stopOn = running && !adminSyncDisabled;
+        el.btnSyncStop.disabled = !stopOn;
+        el.btnSyncStopToolbar.disabled = !stopOn;
       }
 
       function applySyncEvent(data) {
@@ -1190,12 +1213,21 @@
           );
           return;
         }
+        if (t === "run_aborted") {
+          pushSyncLog("Đang dừng… " + String(data.message || ""));
+          return;
+        }
         if (t === "run_finish") {
           contentSyncRunning = false;
+          el.btnSyncStop.disabled = true;
+          el.btnSyncStopToolbar.disabled = true;
           lastRunFinishOk = !!data.ok;
           lastRunFinishSeriesProcessed =
             data.seriesProcessed != null ? Number(data.seriesProcessed) : 0;
-          if (syncQueueContinuous && !data.ok) {
+          if (data.aborted) {
+            clearSyncQueueChain();
+            pushSyncLog(String(data.message || "Đã dừng theo yêu cầu."));
+          } else if (syncQueueContinuous && !data.ok) {
             stopSyncQueueChain("Chuỗi dừng do lỗi đồng bộ.");
           } else if (
             syncQueueContinuous &&
@@ -1208,7 +1240,7 @@
             );
           }
           pushSyncLog(String(data.message || (data.ok ? "Xong" : "Lỗi")));
-          if (!data.ok) {
+          if (!data.ok && !data.aborted) {
             showErr(String(data.message || "Đồng bộ thất bại"));
           }
           return;
@@ -1220,6 +1252,23 @@
           method: "POST",
           headers: { "Content-Type": "application/json; charset=utf-8" },
           body: JSON.stringify(body),
+        });
+        const j = await res.json().catch(function () {
+          return {};
+        });
+        if (!res.ok) {
+          throw new Error(j.error || res.statusText || "Lỗi");
+        }
+        if (j.ok === false) {
+          throw new Error(j.error || "Lỗi");
+        }
+      }
+
+      async function postStopSync() {
+        const res = await fetch("/api/content-sync/stop", {
+          method: "POST",
+          headers: { "Content-Type": "application/json; charset=utf-8" },
+          body: "{}",
         });
         const j = await res.json().catch(function () {
           return {};
@@ -1900,6 +1949,26 @@
       el.btnSyncExplore.addEventListener("click", function () {
         if (exploreSeriesId == null) return;
         wireStartSync({ seriesId: exploreSeriesId });
+      });
+      el.btnSyncStop.addEventListener("click", function () {
+        postStopSync()
+          .then(function () {
+            pushSyncLog("Đã gửi lệnh dừng (áp dụng sau bước hiện tại).");
+          })
+          .catch(function (e) {
+            showErr(String(e.message || e));
+            pushSyncLog("Dừng: " + String(e.message || e));
+          });
+      });
+      el.btnSyncStopToolbar.addEventListener("click", function () {
+        postStopSync()
+          .then(function () {
+            pushSyncLog("Đã gửi lệnh dừng (áp dụng sau bước hiện tại).");
+          })
+          .catch(function (e) {
+            showErr(String(e.message || e));
+            pushSyncLog("Dừng: " + String(e.message || e));
+          });
       });
 
       el.chaptersBody.addEventListener("click", function (ev) {
