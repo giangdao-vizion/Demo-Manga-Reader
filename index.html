@@ -610,7 +610,7 @@
   </style>
   <!--
     Static hosting (không cần backend):
-    1) Đặt index.html + file JSON cùng thư mục trên host; mở /index.html?c=30&data=ten-file.json
+    1) Đặt index.html ở gốc site, JSON truyện trong thư mục data-json/; mở /index.html?c=30&data=ten-file.json
     2) Hoặc nhúng JSON: <script type="application/json" id="reader-embedded-data">...</script>
     3) Hoặc trước khi load: window.__READER_MANIFEST__ = { chapters: [...] };
     4) file://: cần nhúng JSON hoặc mở qua host tĩnh / extension local server (trình duyệt chặn fetch file local).
@@ -679,6 +679,8 @@
   <script>
     (function () {
       const DEFAULT_DATA_FILE = "delusion-ch30-60.json";
+      /** Thư mục chứa JSON manifest truyện; param URL vẫn chỉ là tên file (vd. ?data=murim-login.json). */
+      const DATA_JSON_DIR = "data-json/";
       const PARAM_DATA = "data";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
@@ -968,7 +970,12 @@
         if (!name || /^https?:\/\//i.test(name)) {
           return name;
         }
-        return new URL(name, getManifestBaseDir()).href;
+        const base = getManifestBaseDir();
+        const safe = name.split(/[/\\]/).pop() || name;
+        if (!safe) {
+          return new URL(DATA_JSON_DIR, base).href;
+        }
+        return new URL(DATA_JSON_DIR + safe, base).href;
       }
 
       function getDataFileFromUrl() {
@@ -1528,7 +1535,7 @@
           "Không fetch được <code>" +
           escapeHtml(dataFileName) +
           "</code> (bình thường khi mở <code>file://</code>). " +
-          "Trên hosting tĩnh, thêm file JSON cạnh <code>index.html</code> hoặc dùng " +
+          "Trên hosting tĩnh, đặt JSON trong <code>data-json/</code> (vd. <code>data-json/ten-file.json</code>) và mở " +
           "<code>?data=ten-file.json&c=30</code>. " +
           "Hoặc nhúng <code>&lt;script type=\"application/json\" id=\"reader-embedded-data\"&gt;</code> / <code>window.__READER_MANIFEST__</code>.";
         onReaderScrollOrResize();

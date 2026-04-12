@@ -7,7 +7,7 @@
  * - Tên file cố định: lấy từ manhwa-sqlite-mapping.json (dataFile) hoặc slug suy ra từ series_path.
  *
  *   node export-sqlite-to-manhwa-json.js
- *   node export-sqlite-to-manhwa-json.js --db=catalog/db/catalog.sqlite --out=. --dry-run
+ *   node export-sqlite-to-manhwa-json.js --db=catalog/db/catalog.sqlite --out=data-json --dry-run
  *   node export-sqlite-to-manhwa-json.js --catalog-rebuild   # chỉ quét *.json và ghi manhwa-catalog.json
  *
  * manhwa-sqlite-mapping.json:
@@ -39,7 +39,7 @@ function usage() {
 
 Options:
   --db=PATH              catalog.sqlite (default: catalog/db/catalog.sqlite)
-  --out=DIR              Thư mục ghi JSON + catalog (default: .)
+  --out=DIR              Thư mục chứa JSON truyện (default: data-json); manhwa-catalog.json vẫn theo --catalog
   --mapping=PATH         manhwa-sqlite-mapping.json
   --catalog=PATH         manhwa-catalog.json
   --source=LIST          Lọc source_id (vd: asura); nhiều nguồn cách phẩy
@@ -52,7 +52,7 @@ Options:
 function parseArgs(argv) {
   const out = {
     db: "catalog/db/catalog.sqlite",
-    outDir: ".",
+    outDir: "data-json",
     mapping: "manhwa-sqlite-mapping.json",
     catalog: "manhwa-catalog.json",
     sourceFilter: null,

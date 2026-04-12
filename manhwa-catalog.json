@@ -1,24 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-12T08:41:54.233Z",
+  "updatedAt": "2026-04-12T09:00:55.797Z",
   "series": [
     {
-      "dataFile": "a-returners-magic-ch60-269.json",
-      "title": "A Returners Magic",
-      "displayTitle": "A Returners Magic",
-      "subtitle": "Ch. 60–269 · a-returners-magic-ch60-269.json",
-      "source": "unknown",
-      "fromChapter": 60,
-      "toChapter": 269,
-      "chapterCount": 210,
-      "sqliteSeriesId": null,
-      "contentSyncComplete": false,
-      "contentSyncNote": null
-    },
-    {
       "dataFile": "a-returners-magic.json",
-      "title": "A Returners Magic",
-      "displayTitle": "A Returners Magic",
+      "title": "A Returner's Magic Should Be Special",
+      "displayTitle": "A Returner's Magic Should Be Special",
       "subtitle": "Ch. 60–269 · a-returners-magic.json",
       "source": "unknown",
       "fromChapter": 60,
@@ -26,7 +13,8 @@
       "chapterCount": 210,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": null
+      "contentSyncNote": null,
+      "coverUrl": null
     },
     {
       "dataFile": "absolute-sword-sense-ch01-164.json",
