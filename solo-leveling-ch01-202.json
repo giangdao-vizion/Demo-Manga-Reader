@@ -1,9 +1,30 @@
 {
   "sampleUrl": "https://www.mangoasis.com/en/solo-leveling-en/solo-leveling-en-chapter-1.html",
-  "fromChapter": 165,
+  "fromChapter": 0,
   "toChapter": 202,
-  "fetchedAt": "2026-03-29T15:28:20.142Z",
+  "fetchedAt": "2026-04-12T07:54:35.935Z",
   "chapters": [
+    {
+      "title": "Chapter 0",
+      "chapter": 0,
+      "url": "https://asurascans.com/comics/solo-leveling-75e30c62/chapter/0",
+      "finalUrl": "https://asurascans.com/comics/solo-leveling-75e30c62/chapter/0",
+      "total": 12,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/001.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/002.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/003.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/004.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/005.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/006.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/007.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/008.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/009.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/010.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/011.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-leveling/0/012.webp"
+      ]
+    },
     {
       "title": "Chapter 1",
       "chapter": 1,
@@ -10170,5 +10191,6 @@
         "https://cdn.mangoasis.com/cdn/english/Solo%20Leveling%20%28en%29/Chapter%20202/013.jpeg"
       ]
     }
-  ]
+  ],
+  "source": "asura"
 }
