@@ -2,6 +2,7 @@
  * Logic đồng bộ chapter/ảnh (dùng chung CLI + catalog view-server).
  * Thứ tự chapter trong scope: nhỏ → lớn. Khi tải ảnh (không --force), bỏ qua hẳn các chương đã
  * có ảnh OK trong DB — chỉ fetch các chương chưa có / lỗi trước đó (thường là chương mới).
+ * `cfg.chapterConcurrency` (1–8, mặc định 1): fetch nhiều trang chapter song song; ghi SQLite vẫn tuần tự.
  */
 import { join } from "node:path";
 import { openCatalogDb } from "./db.js";

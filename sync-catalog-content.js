@@ -8,6 +8,8 @@
  *   node sync-catalog-content.js --no-images
  *   node sync-catalog-content.js --series-id=5 --force
  *
+ * Trong JSON config: chapterConcurrency (1–8) = số chapter fetch song song (ghi DB vẫn lần lượt).
+ *
  * Hàng đợi theo DB: mặc định chỉ lấy bộ có content_sync_complete=0.
  * Chapter trong mỗi bộ được xử lý từ mới nhất → cũ (ưu tiên chương vừa ra).
  */

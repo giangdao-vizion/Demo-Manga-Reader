@@ -26,7 +26,9 @@
     "reader": "npx --yes serve . -l 3456",
     "catalog:sync": "node sync-catalog.js",
     "catalog:content": "node sync-catalog-content.js",
-    "catalog:view": "PORT=8080 node catalog/view-server.js"
+    "catalog:view": "PORT=8080 node catalog/view-server.js",
+    "manhwa:export": "node export-sqlite-to-manhwa-json.js",
+    "manhwa:catalog": "node export-sqlite-to-manhwa-json.js --catalog-rebuild"
   },
   "engines": {
     "node": ">=18"

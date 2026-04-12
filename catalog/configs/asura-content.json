@@ -5,6 +5,7 @@
   "seriesPerRun": 3,
   "delayMsSeriesPage": 700,
   "delayMsChapter": 550,
+  "chapterConcurrency": 5,
   "fetchImages": true,
   "force": false,
   "limitSeries": null,

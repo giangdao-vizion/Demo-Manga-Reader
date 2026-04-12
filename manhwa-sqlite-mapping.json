@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "bySeriesId": {
+    "5": {
+      "dataFile": "solo-max-level-newbie-ch180-252.json",
+      "slug": "solo-max-level-newbie"
+    },
+    "18": {
+      "dataFile": "the-world-after-the-end-ch150-225.json",
+      "slug": "the-world-after-the-end"
+    },
+    "30": {
+      "dataFile": "absolute-sword-sense-ch01-164.json",
+      "slug": "absolute-sword-sense"
+    },
+    "41": {
+      "dataFile": "player-return-10000-years-later.json",
+      "slug": "player-who-returned-10000-years-later"
+    },
+    "52": {
+      "dataFile": "nebulas-civilization-ch01-122.json",
+      "slug": "the-nebulas-civilization"
+    },
+    "53": {
+      "dataFile": "overgeared-ch250-316.json",
+      "slug": "overgeared"
+    },
+    "70": {
+      "dataFile": "murim-login.json",
+      "slug": "murim-login"
+    },
+    "94": {
+      "dataFile": "solo-leveling-ch01-202.json",
+      "slug": "solo-leveling"
+    }
+  },
+  "unmappedLegacy": [
+    {
+      "dataFile": "a-returners-magic.json",
+      "note": "Không có series tương ứng trong catalog.sqlite hiện tại (JSON từ nguồn khác Asura)."
+    },
+    {
+      "dataFile": "a-returners-magic-ch60-269.json",
+      "note": "Trùng nội dung với a-returners-magic.json; không có id catalog."
+    },
+    {
+      "dataFile": "delusion-ch30-60.json",
+      "note": "Không có trong catalog (Mangoasis / ngoài Asura)."
+    },
+    {
+      "dataFile": "returners-90-269.json",
+      "note": "Không có trong catalog.sqlite."
+    },
+    {
+      "dataFile": "returners-merged.json",
+      "note": "Không có trong catalog.sqlite."
+    }
+  ]
+}

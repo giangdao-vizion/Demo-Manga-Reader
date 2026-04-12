@@ -232,110 +232,26 @@
     .load-state.err {
       color: #ff9a9a;
     }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88em;
+      color: var(--accent);
+    }
   </style>
 </head>
 <body>
   <header class="glass">
     <h1>Thư viện</h1>
-    <p id="headerHint">Chọn một bộ truyện để xem danh sách chương, rồi mở reader.</p>
+    <p id="headerHint">
+      Chọn một bộ truyện để xem danh sách chương, rồi mở reader. Danh sách lấy từ
+      <span class="mono">manhwa-catalog.json</span> (cập nhật bằng
+      <span class="mono">npm run manhwa:catalog</span> hoặc
+      <span class="mono">npm run manhwa:export</span>).
+    </p>
   </header>
 
-  <div id="view-series" class="list">
-    <button type="button" class="card" data-datafile="delusion-ch30-60.json" data-title="Delusion (60 chương)">
-      <h2>Delusion (60 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 30–60 · delusion-ch30-60.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="a-returners-magic.json"
-      data-title="A Returner’s Magic Should Be Special (269 chương)"
-    >
-      <h2>A Returner’s Magic Should Be Special (269 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 60–269 · a-returners-magic.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="absolute-sword-sense-ch01-164.json"
-      data-title="Absolute Sword Sense (164 chương)"
-    >
-      <h2>Absolute Sword Sense (164 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 1–164 · absolute-sword-sense-ch01-164.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="nebulas-civilization-ch01-122.json"
-      data-title="Nebula’s Civilization (122 chương)"
-    >
-      <h2>Nebula’s Civilization (122 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 1–122 · nebulas-civilization-ch01-122.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="overgeared-ch250-316.json"
-      data-title="Overgeared (67 chương)"
-    >
-      <h2>Overgeared (67 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 250–316 · overgeared-ch250-316.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="solo-leveling-ch01-202.json"
-      data-title="Solo Leveling (202 chương)"
-    >
-      <h2>Solo Leveling (202 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 1–202 · solo-leveling-ch01-202.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="solo-max-level-newbie-ch180-252.json"
-      data-title="Solo Max-Level Newbie (73 chương)"
-    >
-      <h2>Solo Max-Level Newbie (73 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 180–252 · solo-max-level-newbie-ch180-252.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="the-world-after-the-end-ch150-225.json"
-      data-title="The World After The End (76 chương)"
-    >
-      <h2>The World After The End (76 chương)</h2>
-      <div class="meta">Phạm vi trong file: Ch. 150–225 · the-world-after-the-end-ch150-225.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="murim-login.json"
-      data-title="Murim Login"
-    >
-      <h2>Murim Login</h2>
-      <div class="meta">Dữ liệu: murim-login.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
-    <button
-      type="button"
-      class="card"
-      data-datafile="player-return-10000-years-later.json"
-      data-title="Player Return 10,000 Years Later"
-    >
-      <h2>Player Return 10,000 Years Later</h2>
-      <div class="meta">Dữ liệu: player-return-10000-years-later.json</div>
-      <div class="arrow">Xem danh sách chương →</div>
-    </button>
+  <div id="view-series" class="list" aria-busy="true">
+    <p class="load-state" id="catalogLoadMessage">Đang tải manhwa-catalog.json…</p>
   </div>
 
   <div id="view-chapters" class="hidden">
@@ -376,6 +292,7 @@
       }
 
       const viewSeries = document.getElementById("view-series");
+      const catalogLoadMessage = document.getElementById("catalogLoadMessage");
       const viewChapters = document.getElementById("view-chapters");
       const loadOverlay = document.getElementById("loadOverlay");
       const loadMessage = document.getElementById("loadMessage");
@@ -431,7 +348,7 @@
         viewChapters.classList.add("hidden");
         loadOverlay.classList.add("hidden");
         headerHint.textContent =
-          "Chọn một bộ truyện để xem danh sách chương, rồi mở reader.";
+          "Chọn một bộ truyện để xem danh sách chương, rồi mở reader (danh sách từ manhwa-catalog.json).";
       }
 
       function showChapters(title, dataFile, chapters) {
@@ -497,15 +414,76 @@
         }
       }
 
-      viewSeries.querySelectorAll("button.card").forEach(function (btn) {
+      function renderCatalogCard(item) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "card";
+        btn.setAttribute("data-datafile", item.dataFile);
+        btn.setAttribute("data-title", item.displayTitle || item.title || item.dataFile);
+        const h2 = document.createElement("h2");
+        h2.textContent = item.displayTitle || item.title || item.dataFile;
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        const src = item.source ? String(item.source) + " · " : "";
+        meta.textContent = src + (item.subtitle || item.dataFile);
+        const arrow = document.createElement("div");
+        arrow.className = "arrow";
+        arrow.textContent = "Xem danh sách chương →";
+        btn.appendChild(h2);
+        btn.appendChild(meta);
+        btn.appendChild(arrow);
         btn.addEventListener("click", function () {
           openSeries(btn);
         });
-      });
+        viewSeries.appendChild(btn);
+      }
+
+      async function loadManhwaCatalog() {
+        if (catalogLoadMessage) {
+          catalogLoadMessage.textContent = "Đang tải manhwa-catalog.json…";
+          catalogLoadMessage.classList.remove("err");
+        }
+        viewSeries.setAttribute("aria-busy", "true");
+        try {
+          const res = await fetch(resolveManifestUrl("manhwa-catalog.json"), {
+            credentials: "same-origin",
+            cache: "no-store",
+          });
+          if (!res.ok) {
+            throw new Error("HTTP " + res.status);
+          }
+          const catalog = JSON.parse(await res.text());
+          if (!catalog || !Array.isArray(catalog.series)) {
+            throw new Error('Thiếu mảng "series".');
+          }
+          viewSeries.innerHTML = "";
+          if (catalog.series.length === 0) {
+            const p = document.createElement("p");
+            p.className = "load-state";
+            p.textContent = "Catalog rỗng. Chạy npm run manhwa:catalog hoặc manhwa:export trên máy.";
+            viewSeries.appendChild(p);
+          } else {
+            catalog.series.forEach(renderCatalogCard);
+          }
+          viewSeries.removeAttribute("aria-busy");
+        } catch (e) {
+          viewSeries.innerHTML = "";
+          const p = document.createElement("p");
+          p.className = "load-state err";
+          p.textContent =
+            "Không đọc được manhwa-catalog.json (" +
+            (e.message || "lỗi") +
+            "). Trên GitHub Pages cần commit file này cạnh home.html.";
+          viewSeries.appendChild(p);
+          viewSeries.removeAttribute("aria-busy");
+        }
+      }
 
       btnBack.addEventListener("click", showSeries);
 
       jumpSelect.addEventListener("change", updateJumpReadHref);
+
+      void loadManhwaCatalog();
     })();
   </script>
 </body>
