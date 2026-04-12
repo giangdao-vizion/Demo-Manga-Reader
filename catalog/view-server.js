@@ -2,31 +2,51 @@
 /**
  * Trang quản lý catalog (đọc SQLite). Chỉ bind localhost.
  *
- *   CATALOG_DB=catalog/db/catalog.sqlite node catalog/view-server.js
- *   PORT=4567 npm run catalog:view
+ * File DB mặc định luôn là catalog/db/catalog.sqlite trong repo (cạnh thư mục catalog/),
+ * không phụ thuộc thư mục làm việc khi chạy node. Ghi đè bằng CATALOG_DB (tuyệt đối hoặc
+ * tương đối gốc repo).
+ *
+ *   PORT=4567 node catalog/view-server.js
+ *   CATALOG_DB=/path/to/catalog.sqlite node catalog/view-server.js
  */
 import http from "node:http";
 import { readFileSync, existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
-import { resolve, dirname, join } from "node:path";
+import { resolve, dirname, join, isAbsolute } from "node:path";
 import { fileURLToPath } from "node:url";
 import Database from "better-sqlite3";
 import { openSeriesDbReadonly } from "./lib/series-db.js";
 import { runCatalogContentSync } from "./lib/sync-catalog-content-core.js";
 
+/** Thư mục .../catalog (chứa view-server.js). */
 const __dirname = dirname(fileURLToPath(import.meta.url));
+/** Gốc repo (cha của thư mục catalog). */
+const REPO_ROOT = dirname(__dirname);
+/** catalog.sqlite mặc định, cố định trong source. */
+const DEFAULT_CATALOG_DB = join(__dirname, "db", "catalog.sqlite");
+
+function resolveFromRepo(relativeOrAbsolute) {
+  const p = String(relativeOrAbsolute).trim();
+  if (!p) return DEFAULT_CATALOG_DB;
+  return isAbsolute(p) ? resolve(p) : resolve(REPO_ROOT, p);
+}
+
+function resolveCatalogDbPath() {
+  const env = process.env.CATALOG_DB;
+  if (!env || !String(env).trim()) return DEFAULT_CATALOG_DB;
+  return resolveFromRepo(env);
+}
 
 const PORT = Number(process.env.PORT || 4567);
 const HOST = process.env.CATALOG_HOST || "127.0.0.1";
-const DB_PATH = resolve(process.cwd(), process.env.CATALOG_DB || "catalog/db/catalog.sqlite");
+const DB_PATH = resolveCatalogDbPath();
 const CATALOG_DIR = dirname(DB_PATH);
 const INDEX_HTML = join(__dirname, "view", "index.html");
-const READER_SQLITE_HTML = resolve(process.cwd(), "reader-sqlite.html");
-const READER_SQLITE_JS = resolve(process.cwd(), "reader-sqlite.js");
-const READER_SQLITE_LOCAL_HTML = resolve(process.cwd(), "reader-sqlite-local.html");
-const READER_SQLITE_LOCAL_JS = resolve(process.cwd(), "reader-sqlite-local.js");
-const CONTENT_CONFIG_PATH = resolve(
-  process.cwd(),
+const READER_SQLITE_HTML = join(REPO_ROOT, "reader-sqlite.html");
+const READER_SQLITE_JS = join(REPO_ROOT, "reader-sqlite.js");
+const READER_SQLITE_LOCAL_HTML = join(REPO_ROOT, "reader-sqlite-local.html");
+const READER_SQLITE_LOCAL_JS = join(REPO_ROOT, "reader-sqlite-local.js");
+const CONTENT_CONFIG_PATH = resolveFromRepo(
   process.env.CATALOG_CONTENT_CONFIG || "catalog/configs/asura-content.json"
 );
 const ALLOW_ADMIN_CONTENT_SYNC = process.env.CATALOG_ALLOW_CONTENT_SYNC !== "0";

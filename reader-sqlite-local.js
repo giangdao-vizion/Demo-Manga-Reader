@@ -974,7 +974,7 @@
           "<strong>GitHub Pages:</strong> commit file <code>.sqlite</code> vào repo (vd. <code>docs/gh-pages/series.sqlite</code>), " +
           "rồi mở <code>?db=gh-pages/series.sqlite&amp;c=1</code> — đường dẫn tính từ URL trang hiện tại, cùng origin. " +
           "SQL.js tải WASM từ CDN lần đầu. " +
-          '<a href="reader-sqlite.html">Reader qua API</a> · <a href="home.html">Home</a>';
+          '<a href="reader-sqlite.html">Reader qua API</a> · <a href="/">Catalog</a> (khi chạy <code>npm run catalog:view</code>)';
         onReaderScrollOrResize();
       }
 

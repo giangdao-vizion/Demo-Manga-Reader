@@ -328,6 +328,37 @@
     @media (hover: hover) {
       button.btn-inline:hover { background: rgba(122, 242, 255, 0.18); }
     }
+    a.catalog-btn-read {
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #061016 !important;
+      background: linear-gradient(165deg, #9ef6ff 0%, #5ae0f5 45%, #3ad4f0 100%);
+      border: 1px solid rgba(180, 255, 255, 0.65);
+      box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.35) inset,
+        0 4px 16px rgba(58, 212, 240, 0.35);
+      text-decoration: none !important;
+    }
+    @media (hover: hover) {
+      a.catalog-btn-read:hover {
+        filter: brightness(1.08);
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.45) inset,
+          0 6px 22px rgba(58, 212, 240, 0.45);
+      }
+    }
+    a.catalog-btn-read:focus-visible {
+      outline: 2px solid #b8fbff;
+      outline-offset: 2px;
+    }
+    .cell-actions a.catalog-btn-read {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border-radius: 10px;
+    }
     .detail-head {
       display: flex;
       flex-wrap: wrap;
@@ -536,62 +567,149 @@
       font-size: 0.74rem;
       line-height: 1.45;
     }
+    .series-hint-mobile {
+      display: none;
+      margin: 0 12px 12px;
+      padding: 0;
+    }
+    .series-cards-mobile {
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+      padding: 0 12px 14px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .series-card {
+      display: flex;
+      gap: 14px;
+      padding: 14px;
+      border-radius: var(--radius-sm);
+      background: rgba(0, 0, 0, 0.28);
+      border: 1px solid var(--stroke);
+      touch-action: manipulation;
+    }
+    .series-card__thumb {
+      flex-shrink: 0;
+      width: 76px;
+    }
+    .series-card__thumb img {
+      width: 76px;
+      height: 108px;
+      object-fit: cover;
+      border-radius: 10px;
+      background: #111;
+      display: block;
+    }
+    .series-card__thumb--empty {
+      width: 76px;
+      height: 108px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px dashed rgba(255, 255, 255, 0.12);
+    }
+    .series-card__body {
+      flex: 1;
+      min-width: 0;
+    }
+    .series-card__title {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+      font-weight: 650;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+    .series-card__title a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .series-card__chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .series-card__id {
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .series-card__sync {
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .series-card__note {
+      margin: 6px 0 0;
+      font-size: 0.68rem;
+      color: var(--muted);
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    .series-card__grid {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 6px 14px;
+      font-size: 0.78rem;
+      margin: 0 0 10px;
+    }
+    .series-card__grid dt {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .series-card__grid dd {
+      margin: 0;
+      color: var(--text);
+      word-break: break-word;
+    }
+    .series-card__path {
+      margin: 0 0 12px;
+      font-size: 0.7rem;
+      line-height: 1.45;
+      word-break: break-all;
+    }
+    .series-card__path a {
+      color: var(--accent);
+    }
+    .series-card__actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .series-card__actions .series-card__btn--read {
+      grid-column: 1 / -1;
+    }
+    .series-card__actions .btn-inline,
+    .series-card__actions .btn-sync-inline {
+      margin-right: 0 !important;
+      width: 100%;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      border-radius: 10px;
+    }
     @media (max-width: 768px) {
-      #seriesTable th:first-child,
-      #seriesTable td.cell-thumb {
-        position: sticky;
-        left: 0;
-        z-index: 3;
-        background: var(--surface);
-        box-shadow: 6px 0 14px rgba(0, 0, 0, 0.45);
+      .series-table-desktop {
+        display: none !important;
       }
-      #seriesTable th:nth-child(3),
-      #seriesTable td.cell-title {
-        position: sticky;
-        left: 4.85rem;
-        z-index: 2;
-        background: var(--surface);
-        box-shadow: 6px 0 12px rgba(0, 0, 0, 0.38);
-        max-width: 46vw;
+      .series-hint-desktop {
+        display: none !important;
       }
-      #seriesTable td.cell-title .cell-link {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+      .series-hint-mobile {
+        display: block;
       }
-      #seriesTable th:last-child,
-      #seriesTable td.cell-actions {
-        position: sticky;
-        right: 0;
-        z-index: 3;
-        background: var(--surface);
-        box-shadow: -8px 0 16px rgba(0, 0, 0, 0.45);
-        min-width: 5.5rem;
-      }
-      @media (hover: hover) {
-        tr:hover td.cell-thumb,
-        tr:hover td.cell-title,
-        tr:hover td.cell-actions {
-          background: rgba(255, 255, 255, 0.06);
-        }
-      }
-      th.th-sort {
-        min-height: 44px;
-        padding: 10px 8px;
-      }
-      .cell-actions {
+      .series-cards-mobile {
         display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 6px;
       }
-      .cell-actions .btn-inline,
-      .cell-actions .btn-sync-inline {
-        margin-right: 0 !important;
-        width: 100%;
-        text-align: center;
-        min-height: 40px;
+      .table-wrap--series {
+        mask-image: none;
+        -webkit-mask-image: none;
+      }
+    }
+    @media (min-width: 769px) {
+      .series-cards-mobile {
+        display: none !important;
       }
     }
     @media (max-width: 720px) {
@@ -722,12 +840,16 @@
       </div>
     </div>
 
-    <section aria-labelledby="seriesHeading">
+    <section id="seriesListSection" aria-labelledby="seriesHeading">
       <h2 id="seriesHeading">Danh sách series</h2>
-      <div class="table-wrap table-wrap--series">
-        <p class="muted series-table-hint">
-          Bấm tiêu đề cột để đổi chiều sắp xếp (xen kẽ hai chế độ). Thời gian cập nhật hiển thị theo múi giờ trình duyệt.
-        </p>
+      <p class="muted series-table-hint series-hint-desktop">
+        Bấm tiêu đề cột để đổi chiều sắp xếp (xen kẽ hai chế độ). Thời gian cập nhật hiển thị theo múi giờ trình duyệt.
+      </p>
+      <p class="muted series-table-hint series-hint-mobile">
+        Mỗi bộ hiển thị dạng thẻ: <strong>Đọc</strong> mở reader, <strong>Sync</strong> / <strong>Mở</strong> như trên máy tính. Sắp xếp và lọc dùng mục
+        <strong>Tìm&nbsp;&amp;&nbsp;lọc</strong> phía trên.
+      </p>
+      <div class="table-wrap table-wrap--series series-table-desktop">
         <table id="seriesTable">
           <thead>
             <tr>
@@ -768,6 +890,7 @@
           <tbody id="tbody"></tbody>
         </table>
       </div>
+      <div class="series-cards-mobile" id="seriesCardList" role="list"></div>
       <div class="pager">
         <span id="pagerInfo"></span>
         <span>
@@ -853,6 +976,8 @@
       const LIMIT = 40;
       let offset = 0;
       let total = 0;
+      let cachedSeriesItems = [];
+      let seriesResizeTimer = null;
 
       const el = {
         dbPath: document.getElementById("dbPath"),
@@ -865,6 +990,8 @@
         syncFilter: document.getElementById("syncFilter"),
         sort: document.getElementById("sort"),
         tbody: document.getElementById("tbody"),
+        seriesCardList: document.getElementById("seriesCardList"),
+        seriesListSection: document.getElementById("seriesListSection"),
         runsBody: document.getElementById("runsBody"),
         contentRunsBody: document.getElementById("contentRunsBody"),
         exploreHead: document.getElementById("exploreHead"),
@@ -1179,15 +1306,20 @@
           .replace(/"/g, "&quot;");
       }
 
-      /** ISO / chuỗi từ DB → hiển thị theo locale & timezone của trình duyệt. */
+      /** Ngày + giờ theo locale & timezone; không hiện năm (đủ cho nội dung mới). */
+      const LOCALE_DT_NO_YEAR = {
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+      };
+
       function formatLocalDateTimeHtml(iso) {
         if (iso == null || String(iso).trim() === "") return "—";
         const d = new Date(String(iso));
         if (Number.isNaN(d.getTime())) return esc(String(iso));
         try {
-          return esc(
-            d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
-          );
+          return esc(d.toLocaleString(undefined, LOCALE_DT_NO_YEAR));
         } catch {
           return esc(String(iso));
         }
@@ -1198,7 +1330,7 @@
         const d = new Date(String(iso));
         if (Number.isNaN(d.getTime())) return String(iso);
         try {
-          return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+          return d.toLocaleString(undefined, LOCALE_DT_NO_YEAR);
         } catch {
           return String(iso);
         }
@@ -1308,65 +1440,86 @@
         el.prev.disabled = offset <= 0;
         el.next.disabled = offset + LIMIT >= total;
 
-        el.tbody.innerHTML = (data.items || [])
-          .map(function (row) {
-            const cover = row.cover_url
-              ? '<img class="thumb" src="' + esc(row.cover_url) + '" alt="" loading="lazy" />'
-              : "";
-            const link =
-              '<a class="cell-link" href="' +
-              esc(row.series_url) +
-              '" target="_blank" rel="noopener noreferrer">' +
-              esc(row.title) +
-              "</a>";
-            const urlShort =
-              '<a class="cell-link mono" href="' +
-              esc(row.series_url) +
-              '" target="_blank" rel="noopener noreferrer">' +
-              esc(row.series_path) +
-              "</a>";
-            const nStored =
-              row.chapters_stored_count != null ? String(row.chapters_stored_count) : "—";
-            const latest =
-              row.latest_chapter_num != null ? String(row.latest_chapter_num) : "—";
-            const dbFile = row.series_db_file
-              ? String(row.series_db_file).replace(/^.*\//, "")
-              : "—";
-            const dbSummary =
-              nStored + " ch · mới " + latest + " · " + dbFile;
-            let syncCell = "—";
-            if (row.content_sync_complete != null) {
-              const done = Number(row.content_sync_complete) === 1;
-              const completedTitle =
-                done && row.content_sync_completed_at
-                  ? ' title="' +
-                    esc(
-                      "Hoàn tất sync (giờ địa phương): " +
-                        formatLocalUserTimePlain(row.content_sync_completed_at)
-                    ) +
-                    '"'
-                  : done
-                    ? ' title="' + esc("Đã đánh dấu đồng bộ nội dung") + '"'
-                    : ' title="' + esc("Chưa hoàn tất lần sync có ảnh") + '"';
-              const hint = row.content_sync_note
-                ? '<span class="mono" title="' +
-                  esc(row.content_sync_note) +
-                  '">' +
+        cachedSeriesItems = data.items || [];
+        renderSeriesList(cachedSeriesItems);
+      }
+
+      function renderSeriesList(items) {
+        const list = items || [];
+        const tableRows = [];
+        const cards = [];
+        for (let i = 0; i < list.length; i++) {
+          const row = list[i];
+          const cover = row.cover_url
+            ? '<img class="thumb" src="' + esc(row.cover_url) + '" alt="" loading="lazy" decoding="async" />'
+            : "";
+          const link =
+            '<a class="cell-link" href="' +
+            esc(row.series_url) +
+            '" target="_blank" rel="noopener noreferrer">' +
+            esc(row.title) +
+            "</a>";
+          const urlShort =
+            '<a class="cell-link mono" href="' +
+            esc(row.series_url) +
+            '" target="_blank" rel="noopener noreferrer">' +
+            esc(row.series_path) +
+            "</a>";
+          const nStored =
+            row.chapters_stored_count != null ? String(row.chapters_stored_count) : "—";
+          const latest =
+            row.latest_chapter_num != null ? String(row.latest_chapter_num) : "—";
+          const dbFile = row.series_db_file
+            ? String(row.series_db_file).replace(/^.*\//, "")
+            : "—";
+          const dbSummary =
+            nStored + " ch · mới " + latest + " · " + dbFile;
+          let syncCell = "—";
+          let syncCardBadge = "";
+          let syncCardNote = "";
+          if (row.content_sync_complete != null) {
+            const done = Number(row.content_sync_complete) === 1;
+            const completedTitle =
+              done && row.content_sync_completed_at
+                ? ' title="' +
                   esc(
-                    row.content_sync_note.length > 28
-                      ? row.content_sync_note.slice(0, 28) + "…"
-                      : row.content_sync_note
+                    "Hoàn tất sync (giờ địa phương): " +
+                      formatLocalUserTimePlain(row.content_sync_completed_at)
                   ) +
-                  "</span>"
-                : "";
-              syncCell =
-                (done
-                  ? '<span class="ok"' + completedTitle + ">Đã đồng bộ</span>"
-                  : '<span class="fail"' + completedTitle + ">Chưa xong</span>") +
-                (hint ? "<br/>" + hint : "");
+                  '"'
+                : done
+                  ? ' title="' + esc("Đã đánh dấu đồng bộ nội dung") + '"'
+                  : ' title="' + esc("Chưa hoàn tất lần sync có ảnh") + '"';
+            const hint = row.content_sync_note
+              ? '<span class="mono" title="' +
+                esc(row.content_sync_note) +
+                '">' +
+                esc(
+                  row.content_sync_note.length > 28
+                    ? row.content_sync_note.slice(0, 28) + "…"
+                    : row.content_sync_note
+                ) +
+                "</span>"
+              : "";
+            syncCell =
+              (done
+                ? '<span class="ok"' + completedTitle + ">Đã đồng bộ</span>"
+                : '<span class="fail"' + completedTitle + ">Chưa xong</span>") +
+              (hint ? "<br/>" + hint : "");
+            syncCardBadge =
+              (done
+                ? '<span class="series-card__sync ok"' + completedTitle + ">Đã đồng bộ</span>"
+                : '<span class="series-card__sync fail"' + completedTitle + ">Chưa xong</span>");
+            if (row.content_sync_note) {
+              const full = String(row.content_sync_note);
+              syncCardNote =
+                '<p class="series-card__note mono">' +
+                esc(full.length > 140 ? full.slice(0, 140) + "…" : full) +
+                "</p>";
             }
-            return (
-              "<tr>" +
+          }
+          tableRows.push(
+            "<tr>" +
               '<td class="cell-thumb">' +
               cover +
               "</td>" +
@@ -1403,7 +1556,7 @@
               urlShort +
               "</td>" +
               '<td class="cell-actions">' +
-              '<a class="btn-inline cell-link" href="/reader-sqlite.html?seriesId=' +
+              '<a class="btn-inline cell-link catalog-btn-read" href="/reader-sqlite.html?seriesId=' +
               esc(String(row.id)) +
               '">Đọc</a>' +
               '<button type="button" class="btn-sync-inline btn-sync-series" data-sid="' +
@@ -1414,9 +1567,66 @@
               '">Mở</button>' +
               "</td>" +
               "</tr>"
-            );
-          })
-          .join("");
+          );
+          const thumbBlock = row.cover_url
+            ? '<div class="series-card__thumb"><img src="' +
+              esc(row.cover_url) +
+              '" alt="" loading="lazy" decoding="async" /></div>'
+            : '<div class="series-card__thumb series-card__thumb--empty" aria-hidden="true"></div>';
+          cards.push(
+            '<article class="series-card" role="listitem" data-sid="' +
+              esc(String(row.id)) +
+              '">' +
+              thumbBlock +
+              '<div class="series-card__body">' +
+              '<p class="series-card__title">' +
+              link +
+              "</p>" +
+              '<div class="series-card__chips">' +
+              '<span class="badge">' +
+              esc(row.source_id) +
+              '</span><span class="series-card__id mono">#' +
+              esc(String(row.id)) +
+              "</span>" +
+              syncCardBadge +
+              "</div>" +
+              syncCardNote +
+              '<dl class="series-card__grid">' +
+              "<dt>Ch. web</dt><dd>" +
+              (row.chapter_count != null ? esc(row.chapter_count) : "—") +
+              "</dd>" +
+              '<dt>DB</dt><dd class="mono">' +
+              esc(dbSummary) +
+              "</dd>" +
+              "<dt>Trạng thái</dt><dd>" +
+              esc(row.status || "—") +
+              "</dd>" +
+              "<dt>Điểm</dt><dd>" +
+              (row.rating != null ? esc(row.rating) : "—") +
+              "</dd>" +
+              "<dt>Cập nhật</dt><dd>" +
+              formatLocalDateTimeHtml(row.updated_at) +
+              "</dd></dl>" +
+              '<p class="series-card__path mono">' +
+              urlShort +
+              "</p>" +
+              '<div class="series-card__actions">' +
+              '<a class="btn-inline cell-link catalog-btn-read series-card__btn--read" href="/reader-sqlite.html?seriesId=' +
+              esc(String(row.id)) +
+              '">Đọc</a>' +
+              '<button type="button" class="btn-sync-inline btn-sync-series" data-sid="' +
+              esc(String(row.id)) +
+              '">Sync</button>' +
+              '<button type="button" class="btn-inline btn-open-series" data-sid="' +
+              esc(String(row.id)) +
+              '">Mở</button>' +
+              "</div></div></article>"
+          );
+        }
+        el.tbody.innerHTML = tableRows.join("");
+        if (el.seriesCardList) {
+          el.seriesCardList.innerHTML = cards.join("");
+        }
         updateThSortState();
         setSyncUiRunning(contentSyncRunning);
       }
@@ -1640,7 +1850,7 @@
         }
       });
 
-      el.tbody.addEventListener("click", function (ev) {
+      (el.seriesListSection || el.tbody).addEventListener("click", function (ev) {
         const syncB = ev.target.closest(".btn-sync-series");
         if (syncB) {
           const sid = syncB.getAttribute("data-sid");
@@ -1651,11 +1861,26 @@
         if (!btn) return;
         const sid = btn.getAttribute("data-sid");
         const tr = btn.closest("tr");
-        const titleCell = tr ? tr.querySelector("td:nth-child(3) a") : null;
-        const title = titleCell ? titleCell.textContent.trim() : "";
+        const card = btn.closest(".series-card");
+        let title = "";
+        if (tr) {
+          const titleCell = tr.querySelector("td:nth-child(3) a");
+          title = titleCell ? titleCell.textContent.trim() : "";
+        } else if (card) {
+          const ta = card.querySelector(".series-card__title a");
+          title = ta ? ta.textContent.trim() : "";
+        }
         if (sid) loadChaptersForSeries(sid, title).catch(function (e) {
           showErr(String(e.message || e));
         });
+      });
+
+      window.addEventListener("resize", function () {
+        if (seriesResizeTimer) clearTimeout(seriesResizeTimer);
+        seriesResizeTimer = setTimeout(function () {
+          seriesResizeTimer = null;
+          renderSeriesList(cachedSeriesItems);
+        }, 200);
       });
 
       if (el.chkSyncContinuous) {
