@@ -10,7 +10,10 @@
     "batch-returnersmagic-chapters": "./batch-returnersmagic-chapters.js",
     "merge-chapter-sources": "./merge-chapter-sources.js",
     "batch-mgeko-chapters": "./batch-mgeko-chapters.js",
-    "update-mgeko-json": "./update-mgeko-json.js"
+    "update-mgeko-json": "./update-mgeko-json.js",
+    "sync-catalog": "./sync-catalog.js",
+    "sync-catalog-content": "./sync-catalog-content.js",
+    "catalog-view": "./catalog/view-server.js"
   },
   "scripts": {
     "start": "node cli.js",
@@ -20,12 +23,16 @@
     "merge-chapters": "node merge-chapter-sources.js",
     "batch-mgeko": "node batch-mgeko-chapters.js",
     "update-mgeko": "node update-mgeko-json.js",
-    "reader": "npx --yes serve . -l 3456"
+    "reader": "npx --yes serve . -l 3456",
+    "catalog:sync": "node sync-catalog.js",
+    "catalog:content": "node sync-catalog-content.js",
+    "catalog:view": "PORT=8080 node catalog/view-server.js"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
+    "better-sqlite3": "^11.7.0",
     "cheerio": "1.0.0-rc.12"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "dbPath": "catalog/db/catalog.sqlite",
+  "sourceIdFilter": "asura",
+  "skipCompletedSeries": true,
+  "seriesPerRun": 3,
+  "delayMsSeriesPage": 700,
+  "delayMsChapter": 550,
+  "fetchImages": true,
+  "force": false,
+  "limitSeries": null,
+  "maxChaptersPerSeries": null,
+  "chapterSlice": "last",
+  "seriesId": null,
+  "offsetSeries": 0,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}

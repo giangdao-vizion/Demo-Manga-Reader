@@ -1,0 +1,8 @@
+{
+  "sourceId": "asura",
+  "adapter": "asura-browse",
+  "listUrl": "https://asurascans.com/browse?type=manhwa&min_chapters=100",
+  "dbPath": "catalog/db/catalog.sqlite",
+  "delayMs": 650,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}

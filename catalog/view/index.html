@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0c0e14" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#1a2440" />
+  <title>Catalog — quản lý SQLite</title>
+  <style>
+    :root {
+      --bg: #0a0910;
+      --surface: #12141c;
+      --panel: rgba(255, 255, 255, 0.06);
+      --stroke: rgba(255, 255, 255, 0.12);
+      --text: rgba(255, 255, 255, 0.92);
+      --muted: rgba(255, 255, 255, 0.5);
+      --accent: #7af2ff;
+      --accent-dim: rgba(122, 242, 255, 0.25);
+      --danger: #ff8a8a;
+      --radius: 14px;
+      --radius-sm: 10px;
+      --touch: 44px;
+      --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      min-height: 100svh;
+      font-family: var(--font);
+      color: var(--text);
+      background: radial-gradient(120% 80% at 50% -10%, #1a2440 0%, #07080c 45%, #030306 100%);
+      background-attachment: fixed;
+      padding: 16px;
+      padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+        max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; }
+    @media (max-width: 720px) {
+      body { padding-top: max(12px, env(safe-area-inset-top)); }
+    }
+    .site-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 12px 20px;
+      margin-bottom: 16px;
+      padding: 16px 18px;
+      border-radius: var(--radius);
+      border: 1px solid var(--stroke);
+      background: var(--panel);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+    }
+    @media (max-width: 720px) {
+      .site-header {
+        flex-direction: column;
+        gap: 14px;
+        padding: 14px 16px;
+      }
+      .site-header .stats {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 10px;
+        border-top: 1px solid var(--stroke);
+      }
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    header .sub {
+      margin: 4px 0 0;
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.45;
+      word-break: break-all;
+    }
+    .stats {
+      margin-left: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .stats span {
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      background: rgba(0, 0, 0, 0.2);
+    }
+    .stats strong { color: var(--accent); font-weight: 650; }
+    .warn {
+      color: var(--danger);
+      font-size: 0.78rem;
+      margin-top: 8px;
+      width: 100%;
+    }
+    .toolbar-card {
+      margin-bottom: 16px;
+      padding: 14px 16px;
+      border-radius: var(--radius);
+      border: 1px solid var(--stroke);
+      background: var(--panel);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+    }
+    .toolbar-card__label {
+      margin: 0 0 10px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: stretch;
+    }
+    .toolbar input[type="search"],
+    .toolbar select {
+      font: inherit;
+      font-size: 0.85rem;
+      padding: 10px 14px;
+      min-height: var(--touch);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--stroke);
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text);
+      min-width: 200px;
+    }
+    .toolbar select { min-width: 140px; cursor: pointer; }
+    .toolbar input[type="search"]::placeholder { color: rgba(255, 255, 255, 0.35); }
+    .toolbar button {
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 10px 16px;
+      min-height: var(--touch);
+      border-radius: 999px;
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.12);
+      color: var(--accent);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .toolbar button:disabled { opacity: 0.45; cursor: not-allowed; }
+    .toolbar button:focus-visible,
+    .toolbar input:focus-visible,
+    .toolbar select:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    @media (max-width: 720px) {
+      .toolbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .toolbar input[type="search"] {
+        grid-column: 1 / -1;
+        min-width: 0;
+        width: 100%;
+        font-size: 16px;
+      }
+      .toolbar select {
+        min-width: 0;
+        width: 100%;
+        font-size: 16px;
+      }
+      .toolbar .toolbar__btn-row {
+        grid-column: 1 / -1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .toolbar .toolbar__btn-row button {
+        flex: 1;
+        min-width: calc(50% - 4px);
+      }
+    }
+    section {
+      border-radius: var(--radius);
+      border: 1px solid var(--stroke);
+      background: var(--panel);
+      backdrop-filter: blur(20px);
+      overflow: hidden;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 28px rgba(0, 0, 0, 0.16);
+    }
+    section h2 {
+      margin: 0;
+      padding: 12px 16px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--stroke);
+    }
+    .table-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      scrollbar-color: rgba(122, 242, 255, 0.35) rgba(0, 0, 0, 0.2);
+    }
+    .table-wrap--series {
+      position: relative;
+      margin: 0 -4px;
+      padding: 0 4px;
+    }
+    @media (max-width: 900px) {
+      .table-wrap--series {
+        mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+        -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12px, #000 calc(100% - 12px), transparent 100%);
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    @media (hover: hover) {
+      tr:hover td { background: rgba(255, 255, 255, 0.03); }
+    }
+    .thumb {
+      width: 44px;
+      height: 62px;
+      object-fit: cover;
+      border-radius: 6px;
+      background: #111;
+      display: block;
+    }
+    a.cell-link {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-word;
+    }
+    a.cell-link:hover { text-decoration: underline; }
+    .mono { font-family: ui-monospace, monospace; font-size: 0.72rem; color: var(--muted); }
+    .muted { color: var(--muted); }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.68rem;
+      font-weight: 600;
+      background: rgba(145, 63, 226, 0.25);
+      color: #c4a5ff;
+    }
+    .runs td { font-size: 0.76rem; }
+    .ok { color: #7dffb3; }
+    .fail { color: var(--danger); }
+    .pager {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 14px 16px;
+      border-top: 1px solid var(--stroke);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .pager button {
+      min-height: var(--touch);
+      min-width: 108px;
+      padding: 10px 16px;
+      font: inherit;
+      font-weight: 600;
+      font-size: 0.82rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.1);
+      color: var(--accent);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .pager button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .pager button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .err-banner {
+      padding: 12px 16px;
+      background: rgba(255, 100, 100, 0.12);
+      border: 1px solid rgba(255, 100, 100, 0.35);
+      border-radius: var(--radius);
+      color: var(--danger);
+      font-size: 0.85rem;
+      margin-bottom: 14px;
+      display: none;
+    }
+    .err-banner.show { display: block; }
+    button.btn-inline {
+      font: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 8px 12px;
+      min-height: 36px;
+      border-radius: 8px;
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.1);
+      color: var(--accent);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    @media (hover: hover) {
+      button.btn-inline:hover { background: rgba(122, 242, 255, 0.18); }
+    }
+    .detail-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 12px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--stroke);
+      font-size: 0.85rem;
+    }
+    .detail-head #btnSyncExplore {
+      margin-left: 0 !important;
+    }
+    .img-list {
+      max-height: 220px;
+      overflow: auto;
+      font-size: 0.72rem;
+      margin: 0;
+      padding: 10px 16px 16px;
+      list-style: decimal;
+      color: var(--muted);
+    }
+    .img-list a { color: var(--accent); word-break: break-all; }
+    .panel-disclosure { margin: 0; padding: 0; }
+    .panel-disclosure__summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 16px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--stroke);
+      cursor: pointer;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .panel-disclosure__summary::-webkit-details-marker { display: none; }
+    .panel-disclosure__summary:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: -2px;
+    }
+    .panel-disclosure__title { flex: 1; text-align: left; }
+    .panel-disclosure__chev {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 10px;
+      background: rgba(122, 242, 255, 0.1);
+      border: 1px solid var(--stroke);
+      position: relative;
+      flex-shrink: 0;
+    }
+    .panel-disclosure__chev::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 42%;
+      width: 7px;
+      height: 7px;
+      border-right: 2px solid var(--accent);
+      border-bottom: 2px solid var(--accent);
+      transform: translate(-50%, -50%) rotate(45deg);
+      transition: transform 0.2s ease;
+    }
+    .panel-disclosure:not([open]) .panel-disclosure__chev::after {
+      transform: translate(-50%, -20%) rotate(-135deg);
+    }
+    .panel-disclosure__body { padding: 0; }
+    .sync-panel .sync-panel-inner {
+      padding: 14px 16px 16px;
+      font-size: 0.82rem;
+    }
+    .sync-panel .sync-status-line {
+      margin: 0 0 10px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .sync-panel .sync-status-line strong { color: var(--accent); }
+    .progress-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .progress-bar {
+      flex: 1;
+      min-width: 120px;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid var(--stroke);
+      overflow: hidden;
+    }
+    .progress-bar > span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #5ae8ff, #7af2ff);
+      transition: width 0.2s ease;
+    }
+    .sync-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 14px;
+      margin-bottom: 10px;
+    }
+    .sync-actions .muted {
+      font-size: 0.74rem;
+      color: var(--muted);
+    }
+    .sync-continuous-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      cursor: pointer;
+      user-select: none;
+      min-height: var(--touch);
+      padding: 4px 0;
+    }
+    .sync-continuous-label input {
+      accent-color: var(--accent);
+      cursor: pointer;
+      width: 1.15rem;
+      height: 1.15rem;
+    }
+    .sync-actions button,
+    .btn-sync-toolbar {
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 10px 16px;
+      min-height: var(--touch);
+      border-radius: 999px;
+      border: 1px solid var(--accent-dim);
+      background: rgba(122, 242, 255, 0.14);
+      color: var(--accent);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sync-actions button:focus-visible,
+    .btn-sync-toolbar:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .sync-actions button:disabled,
+    .btn-sync-toolbar:disabled,
+    button.btn-sync-inline:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+    th.th-sort {
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    th.th-sort:hover .th-label {
+      color: var(--accent);
+    }
+    th.th-sort.sort-active .th-label {
+      color: var(--accent);
+      font-weight: 650;
+    }
+    th.th-sort .th-sort-ind {
+      font-size: 0.65em;
+      opacity: 0.85;
+    }
+    button.btn-sync-inline {
+      font: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 8px 12px;
+      min-height: 36px;
+      border-radius: 8px;
+      border: 1px solid rgba(122, 242, 255, 0.35);
+      background: rgba(122, 242, 255, 0.08);
+      color: #9cf5ff;
+      cursor: pointer;
+      margin-right: 6px;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sync-log {
+      margin: 0;
+      max-height: min(200px, 35vh);
+      overflow: auto;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid var(--stroke);
+      font-size: 0.72rem;
+      line-height: 1.45;
+      color: var(--muted);
+      white-space: pre-wrap;
+      word-break: break-word;
+      -webkit-overflow-scrolling: touch;
+    }
+    .series-table-hint {
+      margin: 0 0 10px;
+      padding: 0 4px;
+      font-size: 0.74rem;
+      line-height: 1.45;
+    }
+    @media (max-width: 768px) {
+      #seriesTable th:first-child,
+      #seriesTable td.cell-thumb {
+        position: sticky;
+        left: 0;
+        z-index: 3;
+        background: var(--surface);
+        box-shadow: 6px 0 14px rgba(0, 0, 0, 0.45);
+      }
+      #seriesTable th:nth-child(3),
+      #seriesTable td.cell-title {
+        position: sticky;
+        left: 4.85rem;
+        z-index: 2;
+        background: var(--surface);
+        box-shadow: 6px 0 12px rgba(0, 0, 0, 0.38);
+        max-width: 46vw;
+      }
+      #seriesTable td.cell-title .cell-link {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      #seriesTable th:last-child,
+      #seriesTable td.cell-actions {
+        position: sticky;
+        right: 0;
+        z-index: 3;
+        background: var(--surface);
+        box-shadow: -8px 0 16px rgba(0, 0, 0, 0.45);
+        min-width: 5.5rem;
+      }
+      @media (hover: hover) {
+        tr:hover td.cell-thumb,
+        tr:hover td.cell-title,
+        tr:hover td.cell-actions {
+          background: rgba(255, 255, 255, 0.06);
+        }
+      }
+      th.th-sort {
+        min-height: 44px;
+        padding: 10px 8px;
+      }
+      .cell-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+      }
+      .cell-actions .btn-inline,
+      .cell-actions .btn-sync-inline {
+        margin-right: 0 !important;
+        width: 100%;
+        text-align: center;
+        min-height: 40px;
+      }
+    }
+    @media (max-width: 720px) {
+      .detail-head #btnSyncExplore {
+        width: 100%;
+      }
+      .sync-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .sync-actions button {
+        width: 100%;
+      }
+      .sync-continuous-label {
+        padding: 8px 0;
+      }
+    }
+    button.btn-inline:focus-visible,
+    button.btn-sync-inline:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    th.th-sort:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: -2px;
+      border-radius: 4px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .progress-bar > span,
+      .panel-disclosure__chev::after {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div>
+        <h1>Catalog SQLite</h1>
+        <p class="sub" id="dbPath">Đang tải…</p>
+        <p class="warn" id="noDb" style="display: none">
+          Chưa có file database. Trong thư mục gốc project chạy
+          <span class="mono">npm run "catalog:sync"</span> hoặc
+          <span class="mono">node sync-catalog.js</span>, rồi tải lại trang.
+        </p>
+        <p class="warn" id="hintContent" style="display: none; color: var(--muted)">
+          Danh sách bộ: <span class="mono">npm run "catalog:sync"</span> · Chapter/ảnh:
+          <span class="mono">npm run "catalog:content"</span> hoặc nút đồng bộ bên dưới (bỏ qua chương đã có ảnh; tải chương thiếu theo thứ tự cũ → mới).
+        </p>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <div class="err-banner" id="errBanner"></div>
+
+    <section class="sync-panel" id="syncPanelSection">
+      <details class="panel-disclosure" open id="syncPanelDetails">
+        <summary class="panel-disclosure__summary">
+          <span class="panel-disclosure__title">Đồng bộ nội dung từ trang nguồn</span>
+          <span class="panel-disclosure__chev" aria-hidden="true"></span>
+        </summary>
+        <div class="sync-panel-inner panel-disclosure__body">
+        <p class="sync-status-line" id="syncStatusLine">
+          <strong id="syncStateLabel">—</strong>
+          <span id="syncDetailSpan"></span>
+        </p>
+        <div class="progress-wrap">
+          <div class="progress-bar" aria-hidden="true"><span id="syncProgressFill"></span></div>
+          <span class="mono" id="syncProgressLabel"></span>
+        </div>
+        <div class="sync-actions">
+          <button type="button" id="btnSyncNext">Đồng bộ bộ tiếp theo</button>
+          <label class="sync-continuous-label">
+            <input type="checkbox" id="chkSyncContinuous" />
+            Chạy liên tục đến khi hết hàng đợi
+          </label>
+          <span class="muted" id="syncHintMuted">
+            Một bộ trong hàng đợi (<span class="mono">content_sync_complete = 0</span>), theo
+            <span class="mono">sourceIdFilter</span> trong config.
+          </span>
+        </div>
+        <pre class="sync-log" id="syncLog"></pre>
+        </div>
+      </details>
+    </section>
+
+    <div class="toolbar-card" role="region" aria-label="Tìm và lọc danh sách series">
+      <p class="toolbar-card__label">Tìm &amp; lọc</p>
+      <div class="toolbar">
+      <input type="search" id="q" placeholder="Tìm theo tiêu đề hoặc đường dẫn…" enterkeyhint="search" autocomplete="off" />
+      <select id="source" aria-label="Nguồn">
+        <option value="">Mọi nguồn</option>
+      </select>
+      <select id="syncFilter" aria-label="Lọc đồng bộ nội dung">
+        <option value="all">Mọi trạng thái sync</option>
+        <option value="pending">Chưa sync nội dung xong</option>
+        <option value="done">Đã sync nội dung xong</option>
+      </select>
+      <select id="sort" aria-label="Sắp xếp">
+        <option value="title_asc">Tiêu đề A→Z</option>
+        <option value="title_desc">Tiêu đề Z→A</option>
+        <option value="updated_desc">Cập nhật · mới nhất trước</option>
+        <option value="updated_asc">Cập nhật · cũ nhất trước</option>
+        <option value="chapters_desc">Số ch trên web · giảm dần</option>
+        <option value="chapters_asc">Số ch trên web · tăng dần</option>
+        <option value="id_asc">ID · tăng</option>
+        <option value="id_desc">ID · giảm</option>
+        <option value="source_asc">Nguồn A→Z</option>
+        <option value="source_desc">Nguồn Z→A</option>
+        <option value="sync_pending_first">Sync nội dung · chưa xong trước</option>
+        <option value="sync_done_first">Sync nội dung · đã xong trước</option>
+        <option value="db_chapters_desc">Ch đã lưu DB · giảm</option>
+        <option value="db_chapters_asc">Ch đã lưu DB · tăng</option>
+        <option value="status_asc">Trạng thái A→Z</option>
+        <option value="status_desc">Trạng thái Z→A</option>
+        <option value="rating_desc">Điểm · cao trước</option>
+        <option value="rating_asc">Điểm · thấp trước</option>
+        <option value="path_asc">Đường dẫn A→Z</option>
+        <option value="path_desc">Đường dẫn Z→A</option>
+      </select>
+      <div class="toolbar__btn-row">
+        <button type="button" id="btnSearch">Tìm / làm mới</button>
+        <button type="button" class="btn-sync-toolbar" id="btnSyncNextToolbar" title="Giống nút trong khung đồng bộ; chế độ liên tục theo checkbox ở đó">
+          Bộ tiếp theo
+        </button>
+      </div>
+      </div>
+    </div>
+
+    <section aria-labelledby="seriesHeading">
+      <h2 id="seriesHeading">Danh sách series</h2>
+      <div class="table-wrap table-wrap--series">
+        <p class="muted series-table-hint">
+          Bấm tiêu đề cột để đổi chiều sắp xếp (xen kẽ hai chế độ). Thời gian cập nhật hiển thị theo múi giờ trình duyệt.
+        </p>
+        <table id="seriesTable">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th class="th-sort" scope="col" data-sort-group="id" tabindex="0" title="Sắp xếp theo ID">
+                <span class="th-label">ID</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="title" tabindex="0" title="Sắp xếp theo tiêu đề">
+                <span class="th-label">Tiêu đề</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="source" tabindex="0" title="Sắp xếp theo nguồn">
+                <span class="th-label">Nguồn</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="chapters" tabindex="0" title="Sắp xếp theo số chapter trên web">
+                <span class="th-label">Ch. web</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="sync" tabindex="0" title="Sắp xếp theo trạng thái sync nội dung">
+                <span class="th-label">Trạng thái sync</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="db" tabindex="0" title="Sắp xếp theo số chapter đã lưu DB">
+                <span class="th-label">DB (ch / mới nhất / file)</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="status" tabindex="0" title="Sắp xếp theo trạng thái">
+                <span class="th-label">Trạng thái</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="rating" tabindex="0" title="Sắp xếp theo điểm">
+                <span class="th-label">Điểm</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="updated" tabindex="0" title="Sắp xếp theo thời gian cập nhật (web)">
+                <span class="th-label">Cập nhật</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th class="th-sort" scope="col" data-sort-group="path" tabindex="0" title="Sắp xếp theo đường dẫn">
+                <span class="th-label">URL</span><span class="th-sort-ind mono" aria-hidden="true"></span>
+              </th>
+              <th scope="col">Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div class="pager">
+        <span id="pagerInfo"></span>
+        <span>
+          <button type="button" id="prev" disabled>← Trước</button>
+          <button type="button" id="next" disabled>Sau →</button>
+        </span>
+      </div>
+    </section>
+
+    <section id="exploreSection">
+      <h2>Chi tiết trong DB — chapter &amp; ảnh</h2>
+      <div class="detail-head" id="exploreHead">
+        <span id="exploreHeadText"
+          >Bấm <strong>Mở</strong> trên một dòng series để xem chapter đã lưu; bấm <strong>Ảnh</strong> để xem URL từng
+          trang.</span
+        >
+        <button type="button" class="btn-sync-toolbar" id="btnSyncExplore" style="display: none">
+          Sync bộ đang xem
+        </button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Ch.</th>
+              <th>Ảnh</th>
+              <th>OK</th>
+              <th>Lỗi</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="chaptersBody"></tbody>
+        </table>
+      </div>
+      <div id="imagesPanel" style="display: none">
+        <h2 style="border-top: 1px solid var(--stroke); margin: 0; padding: 12px 16px; font-size: 0.72rem">
+          URL ảnh (chapter đã chọn)
+        </h2>
+        <ol class="img-list" id="imagesList"></ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Lịch sử đồng bộ nội dung (catalog_content_runs)</h2>
+      <div class="table-wrap">
+        <table class="runs">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Thời gian</th>
+              <th>OK</th>
+              <th>Bộ / chapter / ảnh OK</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="contentRunsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Lịch sử đồng bộ (catalog_sync_runs)</h2>
+      <div class="table-wrap">
+        <table class="runs">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Thời gian</th>
+              <th>OK</th>
+              <th>Trang / dòng</th>
+              <th>List URL</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="runsBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    (function () {
+      const LIMIT = 40;
+      let offset = 0;
+      let total = 0;
+
+      const el = {
+        dbPath: document.getElementById("dbPath"),
+        noDb: document.getElementById("noDb"),
+        hintContent: document.getElementById("hintContent"),
+        stats: document.getElementById("stats"),
+        err: document.getElementById("errBanner"),
+        q: document.getElementById("q"),
+        source: document.getElementById("source"),
+        syncFilter: document.getElementById("syncFilter"),
+        sort: document.getElementById("sort"),
+        tbody: document.getElementById("tbody"),
+        runsBody: document.getElementById("runsBody"),
+        contentRunsBody: document.getElementById("contentRunsBody"),
+        exploreHead: document.getElementById("exploreHead"),
+        chaptersBody: document.getElementById("chaptersBody"),
+        imagesPanel: document.getElementById("imagesPanel"),
+        imagesList: document.getElementById("imagesList"),
+        pagerInfo: document.getElementById("pagerInfo"),
+        prev: document.getElementById("prev"),
+        next: document.getElementById("next"),
+        exploreHeadText: document.getElementById("exploreHeadText"),
+        btnSyncExplore: document.getElementById("btnSyncExplore"),
+        syncState: document.getElementById("syncStateLabel"),
+        syncDetail: document.getElementById("syncDetailSpan"),
+        syncFill: document.getElementById("syncProgressFill"),
+        syncLabel: document.getElementById("syncProgressLabel"),
+        syncLog: document.getElementById("syncLog"),
+        btnSyncNext: document.getElementById("btnSyncNext"),
+        btnSyncNextToolbar: document.getElementById("btnSyncNextToolbar"),
+        chkSyncContinuous: document.getElementById("chkSyncContinuous"),
+      };
+
+      let exploreSeriesId = null;
+      let exploreSeriesTitle = "";
+      let adminSyncDisabled = false;
+      let contentSyncRunning = false;
+      /** Chuỗi “bộ tiếp theo” sau mỗi lần idle; bật khi bấm sync kèm checkbox. */
+      let syncQueueContinuous = false;
+      let lastRunStartSeriesTotal = 0;
+      let lastRunFinishOk = true;
+      let lastRunFinishSeriesProcessed = 0;
+      const syncLogLines = [];
+      const MAX_SYNC_LOG = 40;
+
+      function pushSyncLog(text) {
+        syncLogLines.push(new Date().toLocaleTimeString() + " · " + text);
+        while (syncLogLines.length > MAX_SYNC_LOG) syncLogLines.shift();
+        el.syncLog.textContent = syncLogLines.join("\n");
+        el.syncLog.scrollTop = el.syncLog.scrollHeight;
+      }
+
+      function setProgressBar(pct) {
+        const x = Math.max(0, Math.min(100, pct));
+        el.syncFill.style.width = x + "%";
+      }
+
+      function clearSyncQueueChain() {
+        syncQueueContinuous = false;
+        if (el.chkSyncContinuous) el.chkSyncContinuous.checked = false;
+      }
+
+      function stopSyncQueueChain(reason) {
+        clearSyncQueueChain();
+        if (reason) pushSyncLog(reason);
+      }
+
+      function maybeContinueSyncQueue() {
+        if (
+          !syncQueueContinuous ||
+          adminSyncDisabled ||
+          !lastRunFinishOk ||
+          lastRunStartSeriesTotal <= 0 ||
+          lastRunFinishSeriesProcessed <= 0
+        ) {
+          return;
+        }
+        wireStartSync({ next: true });
+      }
+
+      function setSyncUiRunning(running) {
+        const block = running || adminSyncDisabled;
+        el.btnSyncNext.disabled = block;
+        el.btnSyncNextToolbar.disabled = block;
+        el.btnSyncExplore.disabled = block || exploreSeriesId == null;
+        document.querySelectorAll(".btn-sync-series").forEach(function (b) {
+          b.disabled = block;
+        });
+      }
+
+      function applySyncEvent(data) {
+        if (!data || !data.type) return;
+        const t = data.type;
+        if (t === "hello") {
+          adminSyncDisabled = data.allowSync === false;
+          contentSyncRunning = !!data.running;
+          if (adminSyncDisabled) {
+            clearSyncQueueChain();
+            el.syncState.textContent = "Đồng bộ từ UI đã tắt";
+            el.syncDetail.textContent = " (CATALOG_ALLOW_CONTENT_SYNC=0 trên server).";
+          } else {
+            el.syncState.textContent = contentSyncRunning ? "Đang chạy…" : "Sẵn sàng";
+            el.syncDetail.textContent = "";
+          }
+          setSyncUiRunning(contentSyncRunning);
+          return;
+        }
+        if (t === "idle") {
+          contentSyncRunning = false;
+          if (!adminSyncDisabled) {
+            el.syncState.textContent = "Sẵn sàng";
+            el.syncDetail.textContent = "";
+          }
+          setProgressBar(0);
+          el.syncLabel.textContent = "";
+          setSyncUiRunning(false);
+          refresh().catch(function () {});
+          maybeContinueSyncQueue();
+          return;
+        }
+        if (t === "lock_busy") {
+          stopSyncQueueChain("Chuỗi dừng — lock / tiến trình khác.");
+          pushSyncLog(String(data.message || "Lock"));
+          showErr(String(data.message || "Đang có tiến trình catalog:content khác (file lock)."));
+          return;
+        }
+        if (t === "run_error") {
+          stopSyncQueueChain("Chuỗi dừng do lỗi.");
+          pushSyncLog("Lỗi: " + String(data.message || ""));
+          showErr(String(data.message || "Lỗi đồng bộ"));
+          return;
+        }
+        if (t === "run_queued") {
+          contentSyncRunning = true;
+          setSyncUiRunning(true);
+          el.syncState.textContent = "Đang chạy…";
+          el.syncDetail.textContent = " Đã nhận lệnh.";
+          pushSyncLog("Đã gửi lệnh đồng bộ.");
+          setProgressBar(0);
+          return;
+        }
+        if (t === "run_start") {
+          lastRunStartSeriesTotal =
+            data.seriesTotal != null ? Number(data.seriesTotal) : 0;
+          if (syncQueueContinuous && lastRunStartSeriesTotal === 0) {
+            stopSyncQueueChain("Hết hàng đợi — dừng chuỗi.");
+          }
+          pushSyncLog("Run #" + data.runId + " · " + data.seriesTotal + " bộ trong lô.");
+          return;
+        }
+        if (t === "series_start") {
+          el.syncDetail.textContent =
+            " #" + data.seriesId + " · " + String(data.title || "");
+          pushSyncLog(
+            "[" + data.seriesIndex + "/" + data.seriesTotal + "] #" +
+              data.seriesId +
+              " — " +
+              String(data.title || "")
+          );
+          setProgressBar(0);
+          el.syncLabel.textContent = "Đang tải trang series…";
+          return;
+        }
+        if (t === "series_fetch_error") {
+          pushSyncLog("Lỗi tải series #" + data.seriesId + ": " + String(data.message || ""));
+          return;
+        }
+        if (t === "series_page_ok") {
+          el.syncLabel.textContent = "Đang đọc danh sách chapter…";
+          return;
+        }
+        if (t === "chapters_scope") {
+          const pend = data.pendingInRun != null ? data.pendingInRun : data.count;
+          const done = data.alreadyCompleteInDb != null ? data.alreadyCompleteInDb : 0;
+          el.syncLabel.textContent =
+            String(data.count || 0) +
+            " ch trong scope (cũ → mới) · cần tải: " +
+            pend +
+            " · đã có ảnh: " +
+            done;
+          return;
+        }
+        if (t === "chapter_begin") {
+          const tot = data.total || 1;
+          const i = data.index || 1;
+          setProgressBar(((i - 1) / tot) * 100);
+          el.syncLabel.textContent =
+            "Ch." + data.chapterNum + " · " + i + "/" + tot + " (chỉ các ch chưa đồng bộ)";
+          return;
+        }
+        if (t === "chapter_done") {
+          const tot = data.total || 1;
+          const i = data.index || 1;
+          setProgressBar((i / tot) * 100);
+          const act = data.action;
+          let line =
+            "ch." + data.chapterNum + ": " + (act === "skip" ? "bỏ qua (đã có)" : act);
+          if (act === "fetch_ok" || act === "fetch_fail") {
+            line += " · " + (data.images != null ? data.images : "?") + " ảnh";
+          }
+          if (data.error) line += " — " + data.error;
+          pushSyncLog(line);
+          return;
+        }
+        if (t === "series_marked_complete" || t === "series_complete") {
+          pushSyncLog(
+            "Series #" + data.seriesId + " · " + String(data.note || t)
+          );
+          return;
+        }
+        if (t === "run_finish") {
+          contentSyncRunning = false;
+          lastRunFinishOk = !!data.ok;
+          lastRunFinishSeriesProcessed =
+            data.seriesProcessed != null ? Number(data.seriesProcessed) : 0;
+          if (syncQueueContinuous && !data.ok) {
+            stopSyncQueueChain("Chuỗi dừng do lỗi đồng bộ.");
+          } else if (
+            syncQueueContinuous &&
+            data.ok &&
+            lastRunStartSeriesTotal > 0 &&
+            lastRunFinishSeriesProcessed === 0
+          ) {
+            stopSyncQueueChain(
+              "Chuỗi dừng — bộ trong hàng đợi không xử lý được (xem log phía trên)."
+            );
+          }
+          pushSyncLog(String(data.message || (data.ok ? "Xong" : "Lỗi")));
+          if (!data.ok) {
+            showErr(String(data.message || "Đồng bộ thất bại"));
+          }
+          return;
+        }
+      }
+
+      async function postStartSync(body) {
+        const res = await fetch("/api/content-sync/start", {
+          method: "POST",
+          headers: { "Content-Type": "application/json; charset=utf-8" },
+          body: JSON.stringify(body),
+        });
+        const j = await res.json().catch(function () {
+          return {};
+        });
+        if (!res.ok) {
+          throw new Error(j.error || res.statusText || "Lỗi");
+        }
+        if (j.ok === false) {
+          throw new Error(j.error || "Lỗi");
+        }
+      }
+
+      function wireStartSync(body) {
+        if (body && body.seriesId != null) {
+          clearSyncQueueChain();
+        }
+        postStartSync(body).catch(function (e) {
+          stopSyncQueueChain("Chuỗi dừng — không gửi được lệnh.");
+          showErr(String(e.message || e));
+          pushSyncLog("Lỗi: " + String(e.message || e));
+        });
+      }
+
+      function connectContentSyncStream() {
+        const es = new EventSource("/api/content-sync/stream");
+        es.onmessage = function (ev) {
+          try {
+            applySyncEvent(JSON.parse(ev.data));
+          } catch (err) {
+            pushSyncLog("SSE parse: " + String(err.message || err));
+          }
+        };
+        es.onerror = function () {
+          es.close();
+          pushSyncLog("Mất kết nối luồng tiến độ — thử nối lại sau 2,5s…");
+          setTimeout(connectContentSyncStream, 2500);
+        };
+      }
+
+      async function bootstrapContentSync() {
+        try {
+          const st = await getJSON("/api/content-sync/status");
+          adminSyncDisabled = st.allowSync === false;
+          contentSyncRunning = !!st.running;
+          if (adminSyncDisabled) {
+            clearSyncQueueChain();
+            el.syncState.textContent = "Đồng bộ từ UI đã tắt";
+            el.syncDetail.textContent = " (CATALOG_ALLOW_CONTENT_SYNC=0).";
+          } else {
+            el.syncState.textContent = contentSyncRunning ? "Đang chạy…" : "Sẵn sàng";
+            el.syncDetail.textContent = "";
+          }
+          setSyncUiRunning(contentSyncRunning);
+        } catch (e) {
+          pushSyncLog("Không đọc /api/content-sync/status: " + String(e.message || e));
+        }
+        connectContentSyncStream();
+      }
+
+      function showErr(msg) {
+        if (!msg) {
+          el.err.classList.remove("show");
+          el.err.textContent = "";
+          return;
+        }
+        el.err.textContent = msg;
+        el.err.classList.add("show");
+      }
+
+      async function getJSON(path) {
+        const res = await fetch(path, { cache: "no-store" });
+        const j = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(j.error || res.statusText || "Lỗi mạng");
+        if (j && j.ok === false) throw new Error(j.error || "Lỗi API");
+        return j;
+      }
+
+      function esc(s) {
+        if (s == null) return "";
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      /** ISO / chuỗi từ DB → hiển thị theo locale & timezone của trình duyệt. */
+      function formatLocalDateTimeHtml(iso) {
+        if (iso == null || String(iso).trim() === "") return "—";
+        const d = new Date(String(iso));
+        if (Number.isNaN(d.getTime())) return esc(String(iso));
+        try {
+          return esc(
+            d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+          );
+        } catch {
+          return esc(String(iso));
+        }
+      }
+
+      function formatLocalUserTimePlain(iso) {
+        if (iso == null || String(iso).trim() === "") return "";
+        const d = new Date(String(iso));
+        if (Number.isNaN(d.getTime())) return String(iso);
+        try {
+          return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+        } catch {
+          return String(iso);
+        }
+      }
+
+      const SORT_GROUPS = {
+        id: ["id_asc", "id_desc"],
+        title: ["title_asc", "title_desc"],
+        source: ["source_asc", "source_desc"],
+        chapters: ["chapters_desc", "chapters_asc"],
+        sync: ["sync_pending_first", "sync_done_first"],
+        db: ["db_chapters_desc", "db_chapters_asc"],
+        status: ["status_asc", "status_desc"],
+        rating: ["rating_desc", "rating_asc"],
+        updated: ["updated_desc", "updated_asc"],
+        path: ["path_asc", "path_desc"],
+      };
+
+      function cycleSortGroup(group) {
+        const opts = SORT_GROUPS[group];
+        if (!opts || !el.sort) return;
+        const cur = el.sort.value;
+        const idx = opts.indexOf(cur);
+        const next = idx >= 0 ? opts[(idx + 1) % opts.length] : opts[0];
+        el.sort.value = next;
+        offset = 0;
+        refresh();
+      }
+
+      function updateThSortState() {
+        const cur = el.sort ? el.sort.value : "";
+        const tr = document.querySelector("#seriesTable thead tr");
+        if (!tr) return;
+        tr.querySelectorAll("th.th-sort").forEach(function (th) {
+          const g = th.getAttribute("data-sort-group");
+          const opts = SORT_GROUPS[g];
+          const on = !!(opts && opts.indexOf(cur) >= 0);
+          th.classList.toggle("sort-active", on);
+          const ind = th.querySelector(".th-sort-ind");
+          if (on) {
+            const idx = opts.indexOf(cur);
+            if (ind) ind.textContent = idx === 0 ? " ▲" : " ▼";
+            th.setAttribute("aria-sort", idx === 0 ? "ascending" : "descending");
+          } else {
+            if (ind) ind.textContent = "";
+            th.removeAttribute("aria-sort");
+          }
+        });
+      }
+
+      async function loadStats() {
+        const s = await getJSON("/api/stats");
+        el.dbPath.textContent = s.dbPath || "";
+        el.noDb.style.display = s.exists ? "none" : "block";
+        el.hintContent.style.display = s.exists ? "block" : "none";
+        el.stats.innerHTML = s.exists
+          ? "<span><strong>" +
+            s.seriesCount +
+            "</strong> series</span>" +
+            (s.contentPendingSeries != null
+              ? "<span><strong>" + s.contentPendingSeries + "</strong> bộ chờ sync chapter/ảnh</span>"
+              : "") +
+            (s.contentRunsCount != null && s.contentRunsCount > 0
+              ? "<span><strong>" + s.contentRunsCount + "</strong> lần sync nội dung (log)</span>"
+              : "") +
+            "<span><strong>" + s.runsCount + "</strong> sync list</span>"
+          : "";
+
+        el.source.querySelectorAll("option:not(:first-child)").forEach(function (o) {
+          o.remove();
+        });
+        if (s.sources && s.sources.length) {
+          s.sources.forEach(function (x) {
+            const opt = document.createElement("option");
+            opt.value = x.id;
+            opt.textContent = x.id + " (" + x.n + ")";
+            el.source.appendChild(opt);
+          });
+        }
+      }
+
+      async function loadSeries() {
+        showErr("");
+        const q = el.q.value.trim();
+        const source = el.source.value;
+        const sort = el.sort.value;
+        const qs = new URLSearchParams({
+          limit: String(LIMIT),
+          offset: String(offset),
+          sort: sort,
+        });
+        if (q) qs.set("q", q);
+        if (source) qs.set("source", source);
+        if (el.syncFilter && el.syncFilter.value && el.syncFilter.value !== "all") {
+          qs.set("sync", el.syncFilter.value);
+        }
+
+        const data = await getJSON("/api/series?" + qs.toString());
+        total = data.total || 0;
+        const end = Math.min(offset + (data.items || []).length, total);
+
+        el.pagerInfo.textContent =
+          total === 0
+            ? "Không có bản ghi."
+            : "Hiển thị " + (offset + 1) + "–" + end + " / " + total;
+
+        el.prev.disabled = offset <= 0;
+        el.next.disabled = offset + LIMIT >= total;
+
+        el.tbody.innerHTML = (data.items || [])
+          .map(function (row) {
+            const cover = row.cover_url
+              ? '<img class="thumb" src="' + esc(row.cover_url) + '" alt="" loading="lazy" />'
+              : "";
+            const link =
+              '<a class="cell-link" href="' +
+              esc(row.series_url) +
+              '" target="_blank" rel="noopener noreferrer">' +
+              esc(row.title) +
+              "</a>";
+            const urlShort =
+              '<a class="cell-link mono" href="' +
+              esc(row.series_url) +
+              '" target="_blank" rel="noopener noreferrer">' +
+              esc(row.series_path) +
+              "</a>";
+            const nStored =
+              row.chapters_stored_count != null ? String(row.chapters_stored_count) : "—";
+            const latest =
+              row.latest_chapter_num != null ? String(row.latest_chapter_num) : "—";
+            const dbFile = row.series_db_file
+              ? String(row.series_db_file).replace(/^.*\//, "")
+              : "—";
+            const dbSummary =
+              nStored + " ch · mới " + latest + " · " + dbFile;
+            let syncCell = "—";
+            if (row.content_sync_complete != null) {
+              const done = Number(row.content_sync_complete) === 1;
+              const completedTitle =
+                done && row.content_sync_completed_at
+                  ? ' title="' +
+                    esc(
+                      "Hoàn tất sync (giờ địa phương): " +
+                        formatLocalUserTimePlain(row.content_sync_completed_at)
+                    ) +
+                    '"'
+                  : done
+                    ? ' title="' + esc("Đã đánh dấu đồng bộ nội dung") + '"'
+                    : ' title="' + esc("Chưa hoàn tất lần sync có ảnh") + '"';
+              const hint = row.content_sync_note
+                ? '<span class="mono" title="' +
+                  esc(row.content_sync_note) +
+                  '">' +
+                  esc(
+                    row.content_sync_note.length > 28
+                      ? row.content_sync_note.slice(0, 28) + "…"
+                      : row.content_sync_note
+                  ) +
+                  "</span>"
+                : "";
+              syncCell =
+                (done
+                  ? '<span class="ok"' + completedTitle + ">Đã đồng bộ</span>"
+                  : '<span class="fail"' + completedTitle + ">Chưa xong</span>") +
+                (hint ? "<br/>" + hint : "");
+            }
+            return (
+              "<tr>" +
+              '<td class="cell-thumb">' +
+              cover +
+              "</td>" +
+              '<td class="mono">' +
+              esc(row.id) +
+              "</td>" +
+              '<td class="cell-title">' +
+              link +
+              "</td>" +
+              '<td><span class="badge">' +
+              esc(row.source_id) +
+              "</span></td>" +
+              "<td>" +
+              (row.chapter_count != null ? esc(row.chapter_count) : "—") +
+              "</td>" +
+              "<td>" +
+              syncCell +
+              "</td>" +
+              '<td class="mono" title="' +
+              esc(row.series_db_file || "") +
+              '">' +
+              esc(dbSummary) +
+              "</td>" +
+              "<td>" +
+              esc(row.status || "—") +
+              "</td>" +
+              "<td>" +
+              (row.rating != null ? esc(row.rating) : "—") +
+              "</td>" +
+              '<td class="mono">' +
+              formatLocalDateTimeHtml(row.updated_at) +
+              "</td>" +
+              "<td>" +
+              urlShort +
+              "</td>" +
+              '<td class="cell-actions">' +
+              '<a class="btn-inline cell-link" href="/reader-sqlite.html?seriesId=' +
+              esc(String(row.id)) +
+              '">Đọc</a>' +
+              '<button type="button" class="btn-sync-inline btn-sync-series" data-sid="' +
+              esc(String(row.id)) +
+              '">Sync</button>' +
+              '<button type="button" class="btn-inline btn-open-series" data-sid="' +
+              esc(String(row.id)) +
+              '">Mở</button>' +
+              "</td>" +
+              "</tr>"
+            );
+          })
+          .join("");
+        updateThSortState();
+        setSyncUiRunning(contentSyncRunning);
+      }
+
+      async function loadChaptersForSeries(seriesId, title) {
+        exploreSeriesId = seriesId;
+        exploreSeriesTitle = title || "";
+        el.exploreHeadText.innerHTML =
+          "Series <strong>#" +
+          esc(String(seriesId)) +
+          "</strong> " +
+          esc(exploreSeriesTitle);
+        el.btnSyncExplore.style.display = "inline-block";
+        el.btnSyncExplore.disabled = false;
+        el.chaptersBody.innerHTML =
+          "<tr><td colspan=\"5\">Đang tải…</td></tr>";
+        el.imagesPanel.style.display = "none";
+        el.imagesList.innerHTML = "";
+
+        const data = await getJSON(
+          "/api/series-chapters?seriesId=" + encodeURIComponent(String(seriesId)) + "&limit=500"
+        );
+        if (!data.items || data.items.length === 0) {
+          el.chaptersBody.innerHTML =
+            "<tr><td colspan=\"5\">Chưa có chapter trong DB — chạy npm run &quot;catalog:content&quot; hoặc nút Sync.</td></tr>";
+          return;
+        }
+        el.chaptersBody.innerHTML = data.items
+          .map(function (c) {
+            const okTxt = c.fetch_ok ? "có" : "không";
+            const okCls = c.fetch_ok ? "ok" : "fail";
+            return (
+              "<tr>" +
+              "<td class=\"mono\">" +
+              esc(c.chapter_num) +
+              "</td>" +
+              "<td>" +
+              esc(c.image_count != null ? c.image_count : 0) +
+              "</td>" +
+              '<td class="' +
+              okCls +
+              '">' +
+              esc(okTxt) +
+              "</td>" +
+              "<td>" +
+              esc(c.error_message || "—") +
+              "</td>" +
+              '<td><button type="button" class="btn-inline btn-show-images" data-cid="' +
+              esc(String(c.id)) +
+              '">Ảnh</button></td>' +
+              "</tr>"
+            );
+          })
+          .join("");
+      }
+
+      async function loadImagesForChapter(seriesId, chapterId) {
+        el.imagesPanel.style.display = "block";
+        el.imagesList.innerHTML = "<li>Đang tải…</li>";
+        const qs = new URLSearchParams({
+          seriesId: String(seriesId),
+          chapterId: String(chapterId),
+        });
+        const data = await getJSON("/api/chapter-images?" + qs.toString());
+        if (!data.items || data.items.length === 0) {
+          el.imagesList.innerHTML = "<li>Không có URL ảnh (chapter chưa fetch ảnh hoặc lỗi).</li>";
+          return;
+        }
+        el.imagesList.innerHTML = data.items
+          .map(function (im) {
+            return (
+              "<li><a href=\"" +
+              esc(im.url) +
+              "\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+              esc(im.url) +
+              "</a></li>"
+            );
+          })
+          .join("");
+      }
+
+      async function loadContentRuns() {
+        const data = await getJSON("/api/content-runs?limit=25");
+        el.contentRunsBody.innerHTML = (data.items || [])
+          .map(function (r) {
+            const okCls = r.ok ? "ok" : "fail";
+            const okTxt = r.ok ? "có" : "không";
+            const meta =
+              (r.series_processed != null ? r.series_processed : "—") +
+              " bộ · " +
+              (r.chapters_discovered != null ? r.chapters_discovered : "—") +
+              " ch · " +
+              (r.chapters_imaged != null ? r.chapters_imaged : "—") +
+              " ảnh OK";
+            return (
+              "<tr>" +
+              "<td>" +
+              esc(r.id) +
+              "</td>" +
+              '<td class="mono">' +
+              formatLocalDateTimeHtml(r.started_at) +
+              (r.ended_at ? "<br/>→ " + formatLocalDateTimeHtml(r.ended_at) : "") +
+              "</td>" +
+              '<td class="' +
+              okCls +
+              '">' +
+              okTxt +
+              "</td>" +
+              "<td>" +
+              esc(meta) +
+              "</td>" +
+              "<td>" +
+              esc(r.message || "—") +
+              "</td>" +
+              "</tr>"
+            );
+          })
+          .join("");
+      }
+
+      async function loadRuns() {
+        const data = await getJSON("/api/runs?limit=40");
+        el.runsBody.innerHTML = (data.items || [])
+          .map(function (r) {
+            const okCls = r.ok ? "ok" : "fail";
+            const okTxt = r.ok ? "có" : "không";
+            const meta =
+              (r.pages_fetched != null ? r.pages_fetched : "—") +
+              " trang · " +
+              (r.rows_upserted != null ? r.rows_upserted : "—") +
+              " dòng";
+            return (
+              "<tr>" +
+              "<td>" +
+              esc(r.id) +
+              "</td>" +
+              '<td class="mono">' +
+              formatLocalDateTimeHtml(r.started_at) +
+              (r.ended_at ? "<br/>→ " + formatLocalDateTimeHtml(r.ended_at) : "") +
+              "</td>" +
+              '<td class="' +
+              okCls +
+              '">' +
+              okTxt +
+              "</td>" +
+              "<td>" +
+              esc(meta) +
+              "</td>" +
+              '<td class="mono">' +
+              esc(r.list_url) +
+              "</td>" +
+              "<td>" +
+              esc(r.message || "—") +
+              "</td>" +
+              "</tr>"
+            );
+          })
+          .join("");
+      }
+
+      async function refresh() {
+        try {
+          await loadStats();
+          await loadSeries();
+          await loadContentRuns();
+          await loadRuns();
+          if (exploreSeriesId != null) {
+            await loadChaptersForSeries(exploreSeriesId, exploreSeriesTitle);
+          }
+        } catch (e) {
+          showErr(String(e.message || e));
+        }
+      }
+
+      document.getElementById("btnSearch").addEventListener("click", function () {
+        offset = 0;
+        refresh();
+      });
+
+      el.sort.addEventListener("change", function () {
+        offset = 0;
+        refresh();
+      });
+      if (el.syncFilter) {
+        el.syncFilter.addEventListener("change", function () {
+          offset = 0;
+          refresh();
+        });
+      }
+
+      const seriesThead = document.querySelector("#seriesTable thead");
+      if (seriesThead) {
+        seriesThead.addEventListener("click", function (ev) {
+          const th = ev.target.closest("th.th-sort");
+          if (!th) return;
+          cycleSortGroup(th.getAttribute("data-sort-group"));
+        });
+        seriesThead.addEventListener("keydown", function (ev) {
+          if (ev.key !== "Enter" && ev.key !== " ") return;
+          const th = ev.target.closest("th.th-sort");
+          if (!th) return;
+          ev.preventDefault();
+          cycleSortGroup(th.getAttribute("data-sort-group"));
+        });
+      }
+
+      el.prev.addEventListener("click", function () {
+        offset = Math.max(0, offset - LIMIT);
+        refresh();
+      });
+
+      el.next.addEventListener("click", function () {
+        offset = offset + LIMIT;
+        refresh();
+      });
+
+      el.q.addEventListener("keydown", function (ev) {
+        if (ev.key === "Enter") {
+          offset = 0;
+          refresh();
+        }
+      });
+
+      el.tbody.addEventListener("click", function (ev) {
+        const syncB = ev.target.closest(".btn-sync-series");
+        if (syncB) {
+          const sid = syncB.getAttribute("data-sid");
+          if (sid) wireStartSync({ seriesId: Number(sid) });
+          return;
+        }
+        const btn = ev.target.closest(".btn-open-series");
+        if (!btn) return;
+        const sid = btn.getAttribute("data-sid");
+        const tr = btn.closest("tr");
+        const titleCell = tr ? tr.querySelector("td:nth-child(3) a") : null;
+        const title = titleCell ? titleCell.textContent.trim() : "";
+        if (sid) loadChaptersForSeries(sid, title).catch(function (e) {
+          showErr(String(e.message || e));
+        });
+      });
+
+      if (el.chkSyncContinuous) {
+        el.chkSyncContinuous.addEventListener("change", function () {
+          if (!this.checked) syncQueueContinuous = false;
+        });
+      }
+
+      el.btnSyncNext.addEventListener("click", function () {
+        syncQueueContinuous = !!(el.chkSyncContinuous && el.chkSyncContinuous.checked);
+        wireStartSync({ next: true });
+      });
+      el.btnSyncNextToolbar.addEventListener("click", function () {
+        syncQueueContinuous = !!(el.chkSyncContinuous && el.chkSyncContinuous.checked);
+        wireStartSync({ next: true });
+      });
+      el.btnSyncExplore.addEventListener("click", function () {
+        if (exploreSeriesId == null) return;
+        wireStartSync({ seriesId: exploreSeriesId });
+      });
+
+      el.chaptersBody.addEventListener("click", function (ev) {
+        const btn = ev.target.closest(".btn-show-images");
+        if (!btn) return;
+        const cid = btn.getAttribute("data-cid");
+        if (cid && exploreSeriesId != null) {
+          loadImagesForChapter(exploreSeriesId, cid).catch(function (e) {
+            showErr(String(e.message || e));
+          });
+        }
+      });
+
+      void bootstrapContentSync();
+      refresh();
+    })();
+  </script>
+</body>
+</html>
