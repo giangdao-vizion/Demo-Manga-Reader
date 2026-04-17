@@ -2,6 +2,7 @@ import Database from "better-sqlite3";
 import { dirname, resolve } from "node:path";
 import { mkdirSync } from "node:fs";
 import { migrateLegacyEmbeddedChaptersIfPresent } from "./migrate-legacy-embedded-chapters.js";
+import { canonicalKeyFromTitle } from "./title-canonical.js";
 
 /**
  * @param {string} dbPath - absolute or relative to process.cwd()
@@ -81,6 +82,8 @@ function migrate(db) {
   ensureColumn(db, "catalog_series", "series_db_file", "TEXT");
   ensureColumn(db, "catalog_series", "latest_chapter_num", "INTEGER");
   ensureColumn(db, "catalog_series", "chapters_stored_count", "INTEGER");
+  ensureColumn(db, "catalog_series", "canonical_key", "TEXT");
+  ensureColumn(db, "catalog_series", "preferred_fetch_catalog_id", "INTEGER");
 
   if (tableExists(db, "catalog_chapters")) {
     migrateLegacyEmbeddedChaptersIfPresent(db);
@@ -104,10 +107,10 @@ export function makeUpsertSeries(db) {
   const stmt = db.prepare(`
     INSERT INTO catalog_series (
       source_id, series_path, list_url, list_params_json, title, series_url,
-      cover_url, chapter_count, status, rating, extra_json, updated_at
+      cover_url, chapter_count, status, rating, extra_json, updated_at, canonical_key
     ) VALUES (
       @source_id, @series_path, @list_url, @list_params_json, @title, @series_url,
-      @cover_url, @chapter_count, @status, @rating, @extra_json, @updated_at
+      @cover_url, @chapter_count, @status, @rating, @extra_json, @updated_at, @canonical_key
     )
     ON CONFLICT(source_id, series_path) DO UPDATE SET
       list_url = excluded.list_url,
@@ -119,7 +122,14 @@ export function makeUpsertSeries(db) {
       status = excluded.status,
       rating = excluded.rating,
       extra_json = excluded.extra_json,
-      updated_at = excluded.updated_at
+      updated_at = excluded.updated_at,
+      canonical_key = COALESCE(NULLIF(TRIM(excluded.canonical_key), ''), catalog_series.canonical_key)
   `);
-  return (row) => stmt.run(row);
+  return (row) => {
+    const canonical_key =
+      row.canonical_key && String(row.canonical_key).trim()
+        ? String(row.canonical_key).trim()
+        : canonicalKeyFromTitle(row.title);
+    return stmt.run({ ...row, canonical_key });
+  };
 }

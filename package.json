@@ -25,8 +25,15 @@
     "update-mgeko": "node update-mgeko-json.js",
     "reader": "npx --yes serve . -l 3456",
     "catalog:sync": "node sync-catalog.js",
+    "catalog:sync:qimanhwa": "node sync-catalog.js catalog/configs/qimanhwa-browse-martial.json",
+    "playwright:install": "npx playwright install chromium",
     "catalog:content": "node sync-catalog-content.js",
+    "catalog:content:qimanhwa": "node sync-catalog-content.js catalog/configs/qimanhwa-content.json",
+    "catalog:content:all": "node sync-catalog-content.js catalog/configs/catalog-content-all-sources.json",
     "catalog:view": "PORT=8080 node catalog/view-server.js",
+    "qimanhwa:images": "node get-qimanhwa-chapter-images.js",
+    "qimanhwa:images:pw": "node get-qimanhwa-chapter-images.js --playwright",
+    "mgeko:images": "node get-mgeko-chapter-images.js",
     "manhwa:export": "node export-sqlite-to-manhwa-json.js",
     "manhwa:catalog": "node export-sqlite-to-manhwa-json.js --catalog-rebuild"
   },
@@ -35,6 +42,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
-    "cheerio": "1.0.0-rc.12"
+    "cheerio": "1.0.0-rc.12",
+    "playwright": "^1.59.1"
   }
 }

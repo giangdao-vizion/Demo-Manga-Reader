@@ -14,11 +14,9 @@ import {
   updateSeriesSummaryFromChaptersDb,
   seriesDbRelativePath,
 } from "./series-db.js";
-import {
-  extractChapterNumbersFromSeriesHtml,
-  buildAsuraChapterUrl,
-} from "./asura-chapter-index.js";
-import { fetchAsuraImagesFromUrl, BROWSER_HEADERS } from "../../extract.mjs";
+import { BROWSER_HEADERS } from "../../extract.mjs";
+import { getContentSource } from "./content-sources/registry.js";
+import { fetchQimanhwaImagesFromUrl } from "./content-sources/qimanhwa-chapter.js";
 
 const SYNC_ABORT_CODE = "ECATALOGSYNCABORTED";
 
@@ -34,12 +32,21 @@ function checkSyncAborted(signal) {
   }
 }
 
-async function fetchSeriesHtml(seriesUrl, userAgent) {
+function resolveContentCookie(cfg) {
+  const name = cfg.contentCookieEnv && String(cfg.contentCookieEnv).trim();
+  if (!name) return "";
+  return String(process.env[name] || "").trim();
+}
+
+async function fetchSeriesHtml(seriesUrl, userAgent, cookie) {
+  const headers = {
+    ...BROWSER_HEADERS,
+    "user-agent": userAgent || BROWSER_HEADERS["user-agent"],
+  };
+  const c = cookie && String(cookie).trim();
+  if (c) headers.Cookie = c;
   const res = await fetch(seriesUrl, {
-    headers: {
-      ...BROWSER_HEADERS,
-      "user-agent": userAgent || BROWSER_HEADERS["user-agent"],
-    },
+    headers,
     redirect: "follow",
   });
   if (!res.ok) {
@@ -82,6 +89,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
     Math.min(8, Math.floor(Number(rawChapterConc)) || 1)
   );
   const userAgent = cfg.userAgent || BROWSER_HEADERS["user-agent"];
+  const contentCookie = resolveContentCookie(cfg);
   const fetchImages =
     flags.fetchImages === false
       ? false
@@ -139,22 +147,30 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
       });
     }
 
-    let sql = `SELECT id, source_id, series_url, series_path, title, chapter_count, series_db_file,
-                      content_sync_complete, content_sync_completed_at, content_sync_note
-               FROM catalog_series WHERE 1=1`;
+    let sql = `SELECT s.id AS id, s.source_id AS source_id, s.series_url AS series_url, s.series_path AS series_path,
+                      s.title AS title, s.chapter_count AS chapter_count, s.series_db_file AS series_db_file,
+                      s.content_sync_complete AS content_sync_complete,
+                      s.content_sync_completed_at AS content_sync_completed_at,
+                      s.content_sync_note AS content_sync_note,
+                      COALESCE(f.series_url, s.series_url) AS fetch_series_url,
+                      COALESCE(f.series_path, s.series_path) AS fetch_series_path,
+                      COALESCE(f.source_id, s.source_id) AS fetch_source_id
+               FROM catalog_series s
+               LEFT JOIN catalog_series f ON f.id = COALESCE(s.preferred_fetch_catalog_id, s.id)
+               WHERE 1=1`;
     const params = [];
     if (cfg.sourceIdFilter !== "" && cfg.sourceIdFilter != null) {
-      sql += ` AND source_id = ?`;
+      sql += ` AND s.source_id = ?`;
       params.push(cfg.sourceIdFilter);
     }
     if (onlySeriesId != null) {
-      sql += ` AND id = ?`;
+      sql += ` AND s.id = ?`;
       params.push(onlySeriesId);
     }
     if (skipCompleted) {
-      sql += ` AND content_sync_complete = 0`;
+      sql += ` AND s.content_sync_complete = 0`;
     }
-    sql += ` ORDER BY id ASC`;
+    sql += ` ORDER BY s.id ASC`;
     if (limitSeries != null && limitSeries > 0) {
       sql += ` LIMIT ? OFFSET ?`;
       params.push(limitSeries, offsetSeries);
@@ -201,6 +217,16 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
       for (let si = 0; si < seriesList.length; si++) {
         checkSyncAborted(abortSignal);
         const s = seriesList[si];
+        const fetchSourceId = s.fetch_source_id;
+        const src = getContentSource(fetchSourceId);
+        const fetchChapterImages = async (url) => {
+          const sid = String(fetchSourceId || "").toLowerCase();
+          if (contentCookie && sid === "qimanhwa") {
+            return fetchQimanhwaImagesFromUrl(url, { cookie: contentCookie });
+          }
+          return src.fetchChapterImages(url);
+        };
+
         onProgress?.({
           type: "series_start",
           runId,
@@ -209,11 +235,13 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
           seriesId: s.id,
           title: s.title,
           seriesPath: s.series_path,
+          sourceId: s.source_id,
+          fetchSourceId,
         });
 
         let html;
         try {
-          html = await fetchSeriesHtml(s.series_url, userAgent);
+          html = await fetchSeriesHtml(s.fetch_series_url, userAgent, contentCookie);
         } catch (e) {
           lastError = String(e.message || e);
           onProgress?.({
@@ -231,7 +259,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
 
         onProgress?.({ type: "series_page_ok", seriesId: s.id });
 
-        let nums = extractChapterNumbersFromSeriesHtml(html, s.series_path);
+        let nums = src.extractChapterNumbersFromSeriesHtml(html, s.fetch_series_path);
         if (nums.length === 0) {
           const relEmpty = seriesDbRelativePath(s.id);
           db.prepare(
@@ -324,7 +352,11 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
           while (ci < iterationList.length) {
             checkSyncAborted(abortSignal);
             const n = iterationList[ci];
-            const chapterUrl = buildAsuraChapterUrl(s.series_url, s.series_path, n);
+            const chapterUrl = src.buildChapterUrl(
+              s.fetch_series_url,
+              s.fetch_series_path,
+              n
+            );
             const title = "Chapter " + n;
 
             onProgress?.({
@@ -393,7 +425,11 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
                   break;
                 }
               }
-              const urlNn = buildAsuraChapterUrl(s.series_url, s.series_path, nn);
+              const urlNn = src.buildChapterUrl(
+                s.fetch_series_url,
+                s.fetch_series_path,
+                nn
+              );
               const titleNn = "Chapter " + nn;
               onProgress?.({
                 type: "chapter_begin",
@@ -409,7 +445,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
             const fetched = await Promise.all(
               batch.map(async ({ n: bn, chapterUrl: bu }) => {
                 checkSyncAborted(abortSignal);
-                const result = await fetchAsuraImagesFromUrl(bu);
+                const result = await fetchChapterImages(bu);
                 checkSyncAborted(abortSignal);
                 return { n: bn, chapterUrl: bu, result };
               })
@@ -426,7 +462,7 @@ export async function runCatalogContentSync({ cfg, flags, onProgress, abortSigna
                 err = `HTTP ${result.status} ${result.statusText || ""}`.trim();
               } else {
                 const final = result.finalUrl || "";
-                const m = final.match(/\/chapter\/(\d+)/i);
+                const m = final.match(/(?:\/|^)(?:chapter|ch)[/-](\d+)/i);
                 const finalCh = m ? Number(m[1], 10) : NaN;
                 if (Number.isFinite(finalCh) && finalCh !== bn) {
                   ok = 0;

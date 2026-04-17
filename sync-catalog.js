@@ -6,15 +6,24 @@
  *   node sync-catalog.js [path/to/config.json]
  *
  * Mặc định: catalog/configs/asura-manhwa-min100.json
+ *
+ * Config tùy chọn: "cookieEnv": "QIMANHWA_COOKIE" — Cookie từ env (tùy chọn, Playwright thường không cần).
+ * QiManhwa + Cloudflare: "usePlaywright": true, npx playwright install chromium.
+ * Ổn định nhất: mở Chrome --remote-debugging-port=9222, vào qimanhwa, rồi PLAYWRIGHT_CDP_URL=http://127.0.0.1:9222.
+ * Hoặc "playwrightUserDataDir": ".cache/qimanhwa-playwright-profile" — lần đầu headed để lưu cookie.
+ * Sau mỗi lần sync catalog: gom trùng theo canonical_key và set preferred_fetch_catalog_id (bộ chapter_count cao hơn).
  */
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { openCatalogDb, makeUpsertSeries, backfillSeriesDbFiles } from "./catalog/lib/db.js";
+import { recomputePreferredFetchCatalog } from "./catalog/lib/catalog-duplicate-prefs.js";
 import { collectAllSeriesFromBrowse } from "./catalog/lib/adapters/asura-browse.js";
+import { collectAllSeriesFromQimanhwaBrowse } from "./catalog/lib/adapters/qimanhwa-browse.js";
 
 const ADAPTERS = {
   "asura-browse": collectAllSeriesFromBrowse,
+  "qimanhwa-browse": collectAllSeriesFromQimanhwaBrowse,
 };
 
 function usage() {
@@ -100,11 +109,25 @@ async function main() {
   console.error(`listUrl: ${config.listUrl}`);
   console.error(`db: ${resolve(process.cwd(), config.dbPath)}`);
 
+  const cookieEnv = config.cookieEnv && String(config.cookieEnv).trim();
+  const cookie =
+    cookieEnv && process.env[cookieEnv] ? String(process.env[cookieEnv]).trim() : "";
+
   try {
+    const usePlaywright =
+      config.usePlaywright === true ||
+      String(process.env.QIMANHWA_USE_PLAYWRIGHT || "").trim() === "1";
+
     const result = await runAdapter({
       listUrl: config.listUrl,
       delayMs: config.delayMs ?? 600,
       userAgent: config.userAgent,
+      ...(cookie ? { cookie } : {}),
+      usePlaywright,
+      playwrightHeadless: config.playwrightHeadless,
+      playwrightChannel: config.playwrightChannel,
+      playwrightCdpUrl: config.playwrightCdpUrl,
+      playwrightUserDataDir: config.playwrightUserDataDir,
     });
 
     const now = new Date().toISOString();
@@ -130,6 +153,7 @@ async function main() {
     }
 
     backfillSeriesDbFiles(db);
+    recomputePreferredFetchCatalog(db);
 
     const msg = `OK · ${n} series · ${result.pagesFetched} trang (≈${result.perPage}/trang) · total báo trên web: ${result.totalReported ?? "?"}`;
     finishOk.run(now, msg, result.pagesFetched, n, runId);

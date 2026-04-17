@@ -270,6 +270,76 @@
       color: rgba(255, 255, 255, 0.12);
       letter-spacing: -0.05em;
     }
+    .catalog-card-wrap {
+      position: relative;
+      border-radius: var(--radius);
+    }
+    .catalog-card-wrap > button.catalog-card {
+      width: 100%;
+    }
+    .catalog-card__fav {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      z-index: 4;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      margin: 0;
+      border: none;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: #fff;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .catalog-card__fav:hover {
+      background: rgba(0, 0, 0, 0.65);
+      transform: scale(1.06);
+    }
+    .catalog-card__fav:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .catalog-card__fav svg {
+      width: 22px;
+      height: 22px;
+      display: block;
+    }
+    .catalog-card__fav .heart-path {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 2;
+      stroke-linejoin: round;
+      transition: fill 0.15s ease, stroke 0.15s ease;
+    }
+    .catalog-card__fav[aria-pressed="true"] .heart-path {
+      fill: #e53935;
+      stroke: #e53935;
+    }
+
+    .catalog-section {
+      margin-bottom: 22px;
+    }
+    .favorites-empty {
+      margin: 0;
+      padding: 12px 4px 4px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+    .favorites-empty.hidden {
+      display: none;
+    }
+    .catalog-main-label {
+      margin-top: 4px;
+    }
+
     .catalog-card__src {
       position: absolute;
       top: 8px;
@@ -509,15 +579,16 @@
         <h1>Thư viện</h1>
         <span class="site-header__badge">Đọc offline</span>
       </div>
-      <p id="headerHint">
-        Danh sách từ <span class="mono">manhwa-catalog.json</span> · JSON từng bộ trong
-        <span class="mono">data-json/</span>. Cập nhật:
-        <span class="mono">npm run manhwa:catalog</span> hoặc
-        <span class="mono">npm run manhwa:export</span>.
-      </p>
+      <p id="headerHint">Chọn một bộ truyện để xem danh sách chương và đọc offline.</p>
     </header>
 
     <div id="view-series">
+      <section class="catalog-section" id="favoritesSection" hidden>
+        <div class="chapter-grid-label">Yêu thích</div>
+        <div id="favoritesGrid" class="catalog-grid" aria-label="Truyện yêu thích"></div>
+        <p class="favorites-empty hidden" id="favoritesEmpty">Chưa có truyện yêu thích. Nhấn biểu tượng trái tim trên bìa truyện để thêm.</p>
+      </section>
+      <div class="chapter-grid-label catalog-main-label" id="catalogMainLabel" hidden>Danh sách truyện</div>
       <div class="catalog-toolbar glass" id="catalogToolbar" hidden>
         <div class="search-wrap">
           <label for="catalogSearch">Tìm truyện</label>
@@ -594,7 +665,6 @@
         return new URL("manhwa-catalog.json", getManifestBaseDir()).href;
       }
 
-      /** JSON truyện nằm trong data-json/; param reader vẫn chỉ là tên file. */
       function resolveSeriesJsonUrl(fileName) {
         const base = getManifestBaseDir();
         const safe = String(fileName || "").trim().split(/[/\\]/).pop() || "";
@@ -618,14 +688,63 @@
       const chapterGrid = document.getElementById("chapterGrid");
       const btnBack = document.getElementById("btnBack");
       const headerHint = document.getElementById("headerHint");
+      const favoritesSection = document.getElementById("favoritesSection");
+      const favoritesGrid = document.getElementById("favoritesGrid");
+      const favoritesEmpty = document.getElementById("favoritesEmpty");
+      const catalogMainLabel = document.getElementById("catalogMainLabel");
 
       let currentDataFile = "";
       let allSeries = [];
       let filteredSeries = [];
       let currentPage = 1;
       let searchDebounce = 0;
+      let favoriteOrder = [];
 
       const LS_READ_CHAPTERS = "reader-read-chapters-v1";
+      const LS_FAVORITES = "reader-home-favorites-v1";
+
+      function favoritesLoadIds() {
+        try {
+          const raw = localStorage.getItem(LS_FAVORITES);
+          if (!raw) return [];
+          const j = JSON.parse(raw);
+          if (!Array.isArray(j)) return [];
+          return j
+            .map(function (x) {
+              return String(x || "").trim();
+            })
+            .filter(Boolean);
+        } catch {
+          return [];
+        }
+      }
+
+      function favoritesSaveIds(ids) {
+        try {
+          localStorage.setItem(LS_FAVORITES, JSON.stringify(ids));
+        } catch {
+          /* ignore quota */
+        }
+      }
+
+      function favoritesHas(dataFile) {
+        const f = String(dataFile || "").trim();
+        return favoriteOrder.indexOf(f) !== -1;
+      }
+
+      function favoritesToggle(dataFile) {
+        const f = String(dataFile || "").trim();
+        if (!f) return;
+        const i = favoriteOrder.indexOf(f);
+        if (i >= 0) {
+          favoriteOrder.splice(i, 1);
+        } else {
+          favoriteOrder.push(f);
+        }
+        favoritesSaveIds(favoriteOrder);
+        renderFavoritesSection();
+        renderCatalogPage();
+      }
 
       function readChaptersLoadMap() {
         try {
@@ -668,7 +787,7 @@
         viewChapters.classList.add("hidden");
         loadOverlay.classList.add("hidden");
         headerHint.textContent =
-          "Danh sách từ manhwa-catalog.json — tìm kiếm, sắp xếp và lật trang bên dưới.";
+          "Tìm kiếm, sắp xếp hoặc lật trang để duyệt thư viện.";
       }
 
       function showChapters(title, dataFile, chapters) {
@@ -703,7 +822,7 @@
         viewSeries.classList.add("hidden");
         viewChapters.classList.remove("hidden");
         loadOverlay.classList.add("hidden");
-        headerHint.textContent = "Chọn chương để mở reader, hoặc quay lại thư viện.";
+        headerHint.textContent = "Chọn chương để bắt đầu đọc, hoặc quay lại thư viện.";
         window.scrollTo(0, 0);
       }
 
@@ -786,6 +905,7 @@
           currentPage = totalPages;
         }
         renderCatalogPage();
+        renderFavoritesSection();
       }
 
       function pageSize() {
@@ -793,7 +913,72 @@
         return n === 12 || n === 24 || n === 48 || n === 96 ? n : 24;
       }
 
+      function createHeartSvg() {
+        const ns = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(ns, "svg");
+        svg.setAttribute("viewBox", "0 0 24 24");
+        svg.setAttribute("aria-hidden", "true");
+        const path = document.createElementNS(ns, "path");
+        path.setAttribute("class", "heart-path");
+        path.setAttribute(
+          "d",
+          "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+        );
+        svg.appendChild(path);
+        return svg;
+      }
+
+      function renderFavoritesSection() {
+        if (!allSeries.length) {
+          favoritesSection.hidden = true;
+          favoritesEmpty.classList.add("hidden");
+          return;
+        }
+        favoritesSection.hidden = false;
+        const byFile = new Map();
+        allSeries.forEach(function (s) {
+          const k = String(s.dataFile || "").trim();
+          if (k) byFile.set(k, s);
+        });
+        const items = [];
+        favoriteOrder.forEach(function (id) {
+          const row = byFile.get(id);
+          if (row) items.push(row);
+        });
+        favoritesGrid.innerHTML = "";
+        if (!items.length) {
+          favoritesEmpty.classList.remove("hidden");
+        } else {
+          favoritesEmpty.classList.add("hidden");
+          items.forEach(function (item) {
+            favoritesGrid.appendChild(renderCatalogCard(item));
+          });
+        }
+      }
+
       function renderCatalogCard(item) {
+        const dataFile = String(item.dataFile || "").trim();
+        const favorited = favoritesHas(dataFile);
+
+        const wrap = document.createElement("div");
+        wrap.className = "catalog-card-wrap";
+
+        const favBtn = document.createElement("button");
+        favBtn.type = "button";
+        favBtn.className = "catalog-card__fav";
+        favBtn.setAttribute("aria-pressed", favorited ? "true" : "false");
+        favBtn.setAttribute(
+          "aria-label",
+          favorited ? "Bỏ yêu thích" : "Thêm vào yêu thích"
+        );
+        favBtn.appendChild(createHeartSvg());
+        favBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          favoritesToggle(dataFile);
+        });
+        wrap.appendChild(favBtn);
+
         const btn = document.createElement("button");
         btn.type = "button";
         btn.className = "catalog-card";
@@ -861,7 +1046,8 @@
         btn.addEventListener("click", function () {
           openSeries(btn);
         });
-        return btn;
+        wrap.appendChild(btn);
+        return wrap;
       }
 
       function renderCatalogPage() {
@@ -934,10 +1120,13 @@
       async function loadManhwaCatalog() {
         catalogGrid.setAttribute("aria-busy", "true");
         catalogGrid.innerHTML =
-          '<p class="load-state" id="catalogLoadMessage">Đang tải manhwa-catalog.json…</p>';
+          '<p class="load-state" id="catalogLoadMessage">Đang tải danh mục truyện…</p>';
         catalogToolbar.hidden = true;
         catalogStats.hidden = true;
         catalogPager.hidden = true;
+        favoritesSection.hidden = true;
+        catalogMainLabel.hidden = true;
+        favoritesEmpty.classList.add("hidden");
 
         try {
           const res = await fetch(resolveCatalogUrl(), {
@@ -954,17 +1143,19 @@
           allSeries = catalog.series;
           if (allSeries.length === 0) {
             catalogGrid.innerHTML =
-              '<p class="load-state">Catalog rỗng. Chạy npm run manhwa:catalog hoặc manhwa:export.</p>';
+              '<p class="load-state">Chưa có truyện nào trong danh mục.</p>';
           } else {
+            favoriteOrder = favoritesLoadIds();
             catalogToolbar.hidden = false;
+            catalogMainLabel.hidden = false;
             currentPage = 1;
             applyFilterAndSort();
           }
         } catch (e) {
           catalogGrid.innerHTML =
-            '<p class="load-state err">Không đọc được manhwa-catalog.json (' +
+            '<p class="load-state err">Không tải được danh mục truyện. Hãy thử mở lại trang hoặc kiểm tra kết nối. (' +
             (e.message || "lỗi") +
-            "). Trên GitHub Pages: commit <code>manhwa-catalog.json</code> + thư mục <code>data-json/</code> cạnh home.html.</p>";
+            ")</p>";
         }
         catalogGrid.removeAttribute("aria-busy");
       }

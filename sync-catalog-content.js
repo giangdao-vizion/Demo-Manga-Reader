@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /**
- * Đổ vào DB: chapter + URL + (tuỳ chọn) toàn bộ URL ảnh từng chapter (Asura).
+ * Đổ vào DB: chapter + URL + (tuỳ chọn) URL ảnh — theo nguồn (asura / qimanhwa, v.v.).
+ * Cùng tựa trùng canonical_key: HTML chapter + URL lấy từ bộ preferred_fetch_catalog_id (chapter_count cao hơn).
+ * Config: "contentCookieEnv": "QIMANHWA_COOKIE" để gửi Cookie khi fetch (Cloudflare).
  * Dựa trên catalog_series đã có (chạy catalog:sync trước).
  *
  *   node sync-catalog-content.js [catalog/configs/asura-content.json]
@@ -91,8 +93,12 @@ function progressToStderr(ev) {
     return;
   }
   if (t === "series_start") {
+    const pref =
+      ev.fetchSourceId && ev.fetchSourceId !== ev.sourceId
+        ? ` · fetch:${ev.fetchSourceId}`
+        : "";
     process.stderr.write(
-      `\n[${ev.seriesIndex}/${ev.seriesTotal}] #${ev.seriesId} ${ev.title} (${ev.seriesPath})\n`
+      `\n[${ev.seriesIndex}/${ev.seriesTotal}] #${ev.seriesId} ${ev.title} (${ev.seriesPath})${pref}\n`
     );
     return;
   }

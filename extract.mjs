@@ -277,9 +277,16 @@ export function collectChapterReaderImageUrls(html, pageUrl) {
   return ordered;
 }
 
-export async function fetchMgekoImagesFromUrl(pageUrl) {
+/**
+ * @param {string} pageUrl
+ * @param {{ cookie?: string }} [opts]
+ */
+export async function fetchMgekoImagesFromUrl(pageUrl, opts) {
+  const headers = { ...BROWSER_HEADERS };
+  const c = opts && opts.cookie && String(opts.cookie).trim();
+  if (c) headers.Cookie = c;
   const res = await fetch(pageUrl, {
-    headers: BROWSER_HEADERS,
+    headers,
     redirect: "follow",
   });
 

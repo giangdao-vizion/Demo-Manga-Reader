@@ -5,3 +5,4 @@ package-lock.json
 catalog/db/*.sqlite
 catalog/db/*.sqlite-*
 catalog/db/.catalog-content.lock
+.cache/
