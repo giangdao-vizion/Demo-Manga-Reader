@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-12T09:00:55.797Z",
+  "updatedAt": "2026-04-18T14:47:15.000Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -588,6 +588,20 @@
       "contentSyncComplete": true,
       "contentSyncNote": "250 tải OK, 0 đã có trong DB, 0 lỗi / 250 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp"
+    },
+    {
+      "dataFile": "murim-rpg-simulation.json",
+      "title": "Murim RPG Simulation",
+      "displayTitle": "Murim RPG Simulation",
+      "subtitle": "Ch. 1–177 · murim-rpg-simulation.json",
+      "source": "kunmanga",
+      "fromChapter": 1,
+      "toChapter": 177,
+      "chapterCount": 177,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "KunManga: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
+      "coverUrl": "https://cdn4.zinmanga1.com/thumb/murim-rpg-simulation.webp"
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
