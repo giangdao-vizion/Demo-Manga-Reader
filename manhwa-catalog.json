@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T14:47:15.000Z",
+  "updatedAt": "2026-04-23T15:29:00.326Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
       "title": "A Returner's Magic Should Be Special",
       "displayTitle": "A Returner's Magic Should Be Special",
       "subtitle": "Ch. 60–269 · a-returners-magic.json",
-      "source": "unknown",
+      "source": "mangasis",
       "fromChapter": 60,
       "toChapter": 269,
       "chapterCount": 210,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": null
+      "coverUrl": "https://www.mangasis.com/wp-content/uploads/A-Returners-Magic-Should-Be-Special-464x722.jpg"
     },
     {
       "dataFile": "absolute-sword-sense-ch01-164.json",
@@ -591,17 +591,17 @@
     },
     {
       "dataFile": "murim-rpg-simulation.json",
-      "title": "Murim RPG Simulation",
-      "displayTitle": "Murim RPG Simulation",
-      "subtitle": "Ch. 1–177 · murim-rpg-simulation.json",
-      "source": "kunmanga",
+      "title": "Heavenly Demon Cultivation Simulation",
+      "displayTitle": "Heavenly Demon Cultivation Simulation",
+      "subtitle": "Ch. 1–178 · murim-rpg-simulation.json",
+      "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 177,
-      "chapterCount": 177,
+      "toChapter": 178,
+      "chapterCount": 178,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "KunManga: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
-      "coverUrl": "https://cdn4.zinmanga1.com/thumb/murim-rpg-simulation.webp"
+      "contentSyncNote": "mgeko: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg"
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
@@ -1333,15 +1333,15 @@
       "dataFile": "the-indomitable-martial-king.json",
       "title": "The Indomitable Martial King",
       "displayTitle": "The Indomitable Martial King",
-      "subtitle": "Ch. 1–128 · the-indomitable-martial-king.json",
-      "source": "asura",
+      "subtitle": "Ch. 1-130 · the-indomitable-martial-king.json",
+      "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 128,
-      "chapterCount": 128,
+      "toChapter": 130,
+      "chapterCount": 130,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7-400.webp"
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/resource-vertCUnetauto_scaleLevel3width-2000.jpg"
     },
     {
       "dataFile": "the-knight-king-who-returned-with-a-god.json",
@@ -1636,6 +1636,62 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.a6ec26-400.webp"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "lightning-degree-mg1.json",
+      "title": "Lightning Degree",
+      "displayTitle": "Lightning Degree",
+      "subtitle": "Ch. 1-220 · lightning-degree-mg1.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 220,
+      "chapterCount": 225,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/lightning-degree-mg1-2.jpg"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "apex-future-martial-arts2.json",
+      "title": "Logging 10,000 Years into the Future (Apex Future Martial Arts)",
+      "displayTitle": "Logging 10,000 Years into the Future (Apex Future Martial Arts)",
+      "subtitle": "Ch. 0-314 · apex-future-martial-arts2.json",
+      "source": "mgeko",
+      "fromChapter": 0,
+      "toChapter": 314,
+      "chapterCount": 318,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/apex-future-martial-arts.jpg"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "99-wooden-stick.json",
+      "title": "+99 Wooden stick",
+      "displayTitle": "+99 Wooden stick",
+      "subtitle": "Ch. 1-191 · 99-wooden-stick.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 191,
+      "chapterCount": 194,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/99-wooden-stick.webp"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "lord-of-money.json",
+      "title": "Lord of Money",
+      "displayTitle": "Lord of Money",
+      "subtitle": "Ch. 1-270 · lord-of-money.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 270,
+      "chapterCount": 270,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/59966.jpg"
     }
   ]
 }

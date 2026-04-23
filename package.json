@@ -12,6 +12,7 @@
     "batch-mgeko-chapters": "./batch-mgeko-chapters.js",
     "update-mgeko-json": "./update-mgeko-json.js",
     "crawl-kunmanga-series": "./crawl-kunmanga-series.js",
+    "crawl-mgeko-series": "./crawl-mgeko-series.js",
     "sync-catalog": "./sync-catalog.js",
     "sync-catalog-content": "./sync-catalog-content.js",
     "catalog-view": "./catalog/view-server.js"
@@ -36,6 +37,7 @@
     "qimanhwa:images:pw": "node get-qimanhwa-chapter-images.js --playwright",
     "mgeko:images": "node get-mgeko-chapter-images.js",
     "kunmanga:crawl": "node crawl-kunmanga-series.js",
+    "mgeko:crawl": "node crawl-mgeko-series.js",
     "manhwa:export": "node export-sqlite-to-manhwa-json.js",
     "manhwa:catalog": "node export-sqlite-to-manhwa-json.js --catalog-rebuild"
   },
