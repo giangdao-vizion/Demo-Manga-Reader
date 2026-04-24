@@ -106,9 +106,15 @@
       padding: 14px 16px;
       margin-bottom: 14px;
     }
+    .catalog-toolbar--search {
+      margin-bottom: 12px;
+    }
+    .catalog-toolbar--controls {
+      margin-top: 4px;
+    }
     @media (min-width: 640px) {
-      .catalog-toolbar {
-        grid-template-columns: 1fr auto auto;
+      .catalog-toolbar--controls {
+        grid-template-columns: 1fr 1fr;
         align-items: center;
       }
     }
@@ -325,6 +331,46 @@
 
     .catalog-section {
       margin-bottom: 22px;
+    }
+    .favorites-scroll {
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      margin: 0 -16px;
+      padding: 0 16px 10px;
+      scrollbar-gutter: stable;
+    }
+    .favorites-scroll__track {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      gap: 12px;
+      width: max-content;
+      min-height: 0;
+    }
+    .favorites-scroll .catalog-card-wrap {
+      flex: 0 0 auto;
+      width: min(34vw, 118px);
+      max-width: 118px;
+      scroll-snap-align: start;
+    }
+    .favorites-scroll .catalog-card__inner {
+      height: 100%;
+    }
+    .favorites-scroll .catalog-card__body {
+      padding: 8px 8px 10px;
+    }
+    .favorites-scroll .catalog-card__title {
+      font-size: 0.72rem;
+    }
+    .favorites-scroll .catalog-card__meta {
+      font-size: 0.62rem;
+    }
+    .favorites-scroll .catalog-card__chip {
+      font-size: 0.58rem;
     }
     .favorites-empty {
       margin: 0;
@@ -583,13 +629,7 @@
     </header>
 
     <div id="view-series">
-      <section class="catalog-section" id="favoritesSection" hidden>
-        <div class="chapter-grid-label">Yêu thích</div>
-        <div id="favoritesGrid" class="catalog-grid" aria-label="Truyện yêu thích"></div>
-        <p class="favorites-empty hidden" id="favoritesEmpty">Chưa có truyện yêu thích. Nhấn biểu tượng trái tim trên bìa truyện để thêm.</p>
-      </section>
-      <div class="chapter-grid-label catalog-main-label" id="catalogMainLabel" hidden>Danh sách truyện</div>
-      <div class="catalog-toolbar glass" id="catalogToolbar" hidden>
+      <div class="catalog-toolbar glass catalog-toolbar--search" id="catalogSearchWrap" hidden>
         <div class="search-wrap">
           <label for="catalogSearch">Tìm truyện</label>
           <input
@@ -600,6 +640,17 @@
             autocomplete="off"
           />
         </div>
+      </div>
+      <section class="catalog-section" id="favoritesSection" hidden>
+        <div class="chapter-grid-label">Yêu thích</div>
+        <div class="favorites-scroll" id="favoritesScroll">
+          <div id="favoritesGrid" class="favorites-scroll__track" aria-label="Truyện yêu thích"></div>
+        </div>
+        <p class="favorites-empty hidden" id="favoritesEmpty">Chưa có truyện yêu thích. Nhấn biểu tượng trái tim trên bìa truyện để thêm.</p>
+        <p class="favorites-empty hidden" id="favoritesNoMatch">Không có truyện yêu thích khớp tìm kiếm.</p>
+      </section>
+      <div class="chapter-grid-label catalog-main-label" id="catalogMainLabel" hidden>Danh sách truyện</div>
+      <div class="catalog-toolbar glass catalog-toolbar--controls" id="catalogToolbar" hidden>
         <div>
           <label for="catalogSort">Sắp xếp</label>
           <select id="catalogSort" aria-label="Sắp xếp danh sách">
@@ -691,7 +742,9 @@
       const favoritesSection = document.getElementById("favoritesSection");
       const favoritesGrid = document.getElementById("favoritesGrid");
       const favoritesEmpty = document.getElementById("favoritesEmpty");
+      const favoritesNoMatch = document.getElementById("favoritesNoMatch");
       const catalogMainLabel = document.getElementById("catalogMainLabel");
+      const catalogSearchWrap = document.getElementById("catalogSearchWrap");
 
       let currentDataFile = "";
       let allSeries = [];
@@ -699,6 +752,7 @@
       let currentPage = 1;
       let searchDebounce = 0;
       let favoriteOrder = [];
+      let lastSearchMatchCount = 0;
 
       const LS_READ_CHAPTERS = "reader-read-chapters-v1";
       const LS_FAVORITES = "reader-home-favorites-v1";
@@ -742,8 +796,7 @@
           favoriteOrder.push(f);
         }
         favoritesSaveIds(favoriteOrder);
-        renderFavoritesSection();
-        renderCatalogPage();
+        applyFilterAndSort();
       }
 
       function readChaptersLoadMap() {
@@ -860,20 +913,26 @@
           .replace(/\p{M}/gu, "");
       }
 
+      function itemMatchesQuery(item, qNorm) {
+        if (!qNorm) return true;
+        const title = norm(item.displayTitle || item.title || "");
+        const sub = norm(item.subtitle || "");
+        const src = norm(item.source || "");
+        const file = norm(item.dataFile || "");
+        return (
+          title.includes(qNorm) ||
+          sub.includes(qNorm) ||
+          src.includes(qNorm) ||
+          file.includes(qNorm)
+        );
+      }
+
       function applyFilterAndSort() {
         const q = norm(catalogSearch.value.trim());
-        let list = allSeries.slice();
-        if (q) {
-          list = list.filter(function (item) {
-            const title = norm(item.displayTitle || item.title || "");
-            const sub = norm(item.subtitle || "");
-            const src = norm(item.source || "");
-            const file = norm(item.dataFile || "");
-            return (
-              title.includes(q) || sub.includes(q) || src.includes(q) || file.includes(q)
-            );
-          });
-        }
+        let list = allSeries.slice().filter(function (item) {
+          return itemMatchesQuery(item, q);
+        });
+        lastSearchMatchCount = list.length;
         const sortKey = catalogSort.value;
         list.sort(function (a, b) {
           const ta = String(a.displayTitle || a.title || a.dataFile || "");
@@ -897,7 +956,9 @@
           }
           return ta.localeCompare(tb, "vi", { sensitivity: "base" });
         });
-        filteredSeries = list;
+        filteredSeries = list.filter(function (item) {
+          return !favoritesHas(String(item.dataFile || "").trim());
+        });
         const ps = pageSize();
         const total = filteredSeries.length;
         const totalPages = total > 0 ? Math.max(1, Math.ceil(total / ps)) : 1;
@@ -932,9 +993,11 @@
         if (!allSeries.length) {
           favoritesSection.hidden = true;
           favoritesEmpty.classList.add("hidden");
+          favoritesNoMatch.classList.add("hidden");
           return;
         }
         favoritesSection.hidden = false;
+        const q = norm(catalogSearch.value.trim());
         const byFile = new Map();
         allSeries.forEach(function (s) {
           const k = String(s.dataFile || "").trim();
@@ -943,13 +1006,20 @@
         const items = [];
         favoriteOrder.forEach(function (id) {
           const row = byFile.get(id);
-          if (row) items.push(row);
+          if (!row) return;
+          if (!itemMatchesQuery(row, q)) return;
+          items.push(row);
         });
         favoritesGrid.innerHTML = "";
-        if (!items.length) {
+        favoritesEmpty.classList.add("hidden");
+        favoritesNoMatch.classList.add("hidden");
+        if (!favoriteOrder.length) {
           favoritesEmpty.classList.remove("hidden");
+        } else if (!items.length) {
+          if (q) {
+            favoritesNoMatch.classList.remove("hidden");
+          }
         } else {
-          favoritesEmpty.classList.add("hidden");
           items.forEach(function (item) {
             favoritesGrid.appendChild(renderCatalogCard(item));
           });
@@ -1065,7 +1135,7 @@
         catalogStats.hidden = false;
         catalogStats.innerHTML =
           total === 0
-            ? "Không có kết quả. Đổi từ khóa hoặc xóa ô tìm kiếm."
+            ? "Không có kết quả trong danh sách này. Đổi từ khóa hoặc xóa ô tìm kiếm."
             : "Hiển thị <strong>" +
               (total === 0 ? 0 : start + 1) +
               "–" +
@@ -1073,8 +1143,8 @@
               "</strong> / <strong>" +
               total +
               "</strong> bộ" +
-              (allSeries.length !== total
-                ? " (lọc từ " + allSeries.length + ")"
+              (allSeries.length !== lastSearchMatchCount
+                ? " (khớp tìm kiếm: " + lastSearchMatchCount + ")"
                 : "");
 
         catalogPager.hidden = total === 0 || totalPages <= 1;
@@ -1122,11 +1192,13 @@
         catalogGrid.innerHTML =
           '<p class="load-state" id="catalogLoadMessage">Đang tải danh mục truyện…</p>';
         catalogToolbar.hidden = true;
+        catalogSearchWrap.hidden = true;
         catalogStats.hidden = true;
         catalogPager.hidden = true;
         favoritesSection.hidden = true;
         catalogMainLabel.hidden = true;
         favoritesEmpty.classList.add("hidden");
+        favoritesNoMatch.classList.add("hidden");
 
         try {
           const res = await fetch(resolveCatalogUrl(), {
@@ -1147,6 +1219,7 @@
           } else {
             favoriteOrder = favoritesLoadIds();
             catalogToolbar.hidden = false;
+            catalogSearchWrap.hidden = false;
             catalogMainLabel.hidden = false;
             currentPage = 1;
             applyFilterAndSort();

@@ -167,7 +167,8 @@
       "chapterCount": 31,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": null
+      "contentSyncNote": null,
+      "coverUrl": "https://www.mangasis.com/wp-content/uploads/Delusion-Hongjacga.jpeg"
     },
     {
       "dataFile": "doctors-rebirth.json",
@@ -1649,7 +1650,7 @@
       "fromChapter": 1,
       "toChapter": 220,
       "chapterCount": 225,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/lightning-degree-mg1-2.jpg"
+      "coverUrl": "https://imgsrv4.com/avatar/288x412/media/manga_covers/lightning-degree-mg1-2.jpg"
     },
     {
       "sqliteSeriesId": null,
