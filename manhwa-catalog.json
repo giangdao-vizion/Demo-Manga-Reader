@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-30T09:40:08.377Z",
+  "updatedAt": "2026-04-30T10:56:07.237Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -584,25 +584,27 @@
       "source": "mgeko",
       "fromChapter": 1,
       "toChapter": 250,
-      "chapterCount": 250,
+      "chapterCount": 253,
       "sqliteSeriesId": 70,
       "contentSyncComplete": true,
       "contentSyncNote": "250 tải OK, 0 đã có trong DB, 0 lỗi / 250 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp",
+      "featured": true
     },
     {
       "dataFile": "murim-rpg-simulation.json",
       "title": "Heavenly Demon Cultivation Simulation",
       "displayTitle": "Heavenly Demon Cultivation Simulation",
-      "subtitle": "Ch. 1–178 · murim-rpg-simulation.json",
+      "subtitle": "Ch. 1–179 · murim-rpg-simulation.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 178,
-      "chapterCount": 178,
+      "toChapter": 179,
+      "chapterCount": 179,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "mgeko: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg"
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg",
+      "featured": true
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
@@ -664,15 +666,16 @@
       "dataFile": "nano-machine.json",
       "title": "Nano Machine",
       "displayTitle": "Nano Machine",
-      "subtitle": "Ch. 1–307 · nano-machine.json",
+      "subtitle": "Ch. 1–310 · nano-machine.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 307,
-      "chapterCount": 307,
+      "toChapter": 310,
+      "chapterCount": 310,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
+      "featured": true
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -692,29 +695,31 @@
       "dataFile": "omniscient-readers-viewpoint.json",
       "title": "Omniscient Readers Viewpoint",
       "displayTitle": "Omniscient Readers Viewpoint",
-      "subtitle": "Ch. 0–306 · omniscient-readers-viewpoint.json",
+      "subtitle": "Ch. 0–309 · omniscient-readers-viewpoint.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 306,
-      "chapterCount": 307,
+      "toChapter": 309,
+      "chapterCount": 310,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp",
+      "featured": true
     },
     {
       "dataFile": "overgeared-ch250-316.json",
       "title": "Overgeared",
       "displayTitle": "Overgeared",
-      "subtitle": "Ch. 0–316 · overgeared-ch250-316.json",
+      "subtitle": "Ch. 0–320 · overgeared-ch250-316.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 316,
-      "chapterCount": 317,
+      "toChapter": 320,
+      "chapterCount": 321,
       "sqliteSeriesId": 53,
       "contentSyncComplete": true,
       "contentSyncNote": "317 tải OK, 0 đã có trong DB, 0 lỗi / 317 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
+      "featured": true
     },
     {
       "dataFile": "overpowered-sword.json",
@@ -969,32 +974,6 @@
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp"
     },
     {
-      "dataFile": "returners-90-269.json",
-      "title": "Returners 90 269",
-      "displayTitle": "Returners 90 269",
-      "subtitle": "Ch. 90–269 · returners-90-269.json",
-      "source": "returnersmagicshould",
-      "fromChapter": 90,
-      "toChapter": 269,
-      "chapterCount": 180,
-      "sqliteSeriesId": null,
-      "contentSyncComplete": false,
-      "contentSyncNote": null
-    },
-    {
-      "dataFile": "returners-merged.json",
-      "title": "Returners Merged",
-      "displayTitle": "Returners Merged",
-      "subtitle": "Ch. 60–269 · returners-merged.json",
-      "source": "unknown",
-      "fromChapter": 60,
-      "toChapter": 269,
-      "chapterCount": 210,
-      "sqliteSeriesId": null,
-      "contentSyncComplete": false,
-      "contentSyncNote": null
-    },
-    {
       "dataFile": "revenge-of-the-iron-blooded-sword-hound.json",
       "title": "Revenge Of The Iron Blooded Sword Hound",
       "displayTitle": "Revenge Of The Iron Blooded Sword Hound",
@@ -1054,15 +1033,16 @@
       "dataFile": "solo-max-level-newbie-ch180-252.json",
       "title": "Solo Max-Level Newbie",
       "displayTitle": "Solo Max-Level Newbie",
-      "subtitle": "Ch. 0–253 · solo-max-level-newbie-ch180-252.json",
+      "subtitle": "Ch. 0–255 · solo-max-level-newbie-ch180-252.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 253,
-      "chapterCount": 254,
+      "toChapter": 255,
+      "chapterCount": 256,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
       "contentSyncNote": "253 tải OK, 0 đã có trong DB, 1 lỗi / 254 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
+      "featured": true
     },
     {
       "dataFile": "spirit-farmer.json",
@@ -1152,15 +1132,16 @@
       "dataFile": "surviving-the-game-as-a-barbarian.json",
       "title": "Surviving The Game As A Barbarian",
       "displayTitle": "Surviving The Game As A Barbarian",
-      "subtitle": "Ch. 1–149 · surviving-the-game-as-a-barbarian.json",
+      "subtitle": "Ch. 1–152 · surviving-the-game-as-a-barbarian.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 149,
-      "chapterCount": 149,
+      "toChapter": 152,
+      "chapterCount": 152,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.09f151-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.09f151-400.webp",
+      "featured": true
     },
     {
       "dataFile": "sword-fanatic-wanders-through-the-night.json",
@@ -1426,7 +1407,8 @@
       "sqliteSeriesId": 52,
       "contentSyncComplete": true,
       "contentSyncNote": "122 tải OK, 0 đã có trong DB, 0 lỗi / 122 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp",
+      "featured": true
     },
     {
       "dataFile": "the-novels-extra-remake.json",
@@ -1544,15 +1526,16 @@
       "dataFile": "the-world-after-the-end-ch150-225.json",
       "title": "The World After The End",
       "displayTitle": "The World After The End",
-      "subtitle": "Ch. 0–228 · the-world-after-the-end-ch150-225.json",
+      "subtitle": "Ch. 0–230 · the-world-after-the-end-ch150-225.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 228,
-      "chapterCount": 229,
+      "toChapter": 230,
+      "chapterCount": 231,
       "sqliteSeriesId": 18,
       "contentSyncComplete": true,
       "contentSyncNote": "229 tải OK, 0 đã có trong DB, 1 lỗi / 230 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
+      "featured": true
     },
     {
       "dataFile": "trash-of-the-counts-family.json",
@@ -1608,7 +1591,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp",
+      "featured": true
     },
     {
       "dataFile": "worthless-regression.json",
@@ -1645,12 +1629,13 @@
       "dataFile": "lightning-degree-mg1.json",
       "title": "Lightning Degree",
       "displayTitle": "Lightning Degree",
-      "subtitle": "Ch. 1-220 · lightning-degree-mg1.json",
+      "subtitle": "Ch. 1–220 · lightning-degree-mg1.json",
       "source": "mgeko",
       "fromChapter": 1,
       "toChapter": 220,
       "chapterCount": 225,
-      "coverUrl": "https://imgsrv4.com/avatar/288x412/media/manga_covers/lightning-degree-mg1-2.jpg"
+      "coverUrl": "https://imgsrv4.com/avatar/288x412/media/manga_covers/lightning-degree-mg1-2.jpg",
+      "featured": true
     },
     {
       "sqliteSeriesId": null,
@@ -1673,12 +1658,13 @@
       "dataFile": "99-wooden-stick.json",
       "title": "+99 Wooden stick",
       "displayTitle": "+99 Wooden stick",
-      "subtitle": "Ch. 1-191 · 99-wooden-stick.json",
+      "subtitle": "Ch. 1–194 · 99-wooden-stick.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 191,
-      "chapterCount": 194,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/99-wooden-stick.webp"
+      "toChapter": 194,
+      "chapterCount": 197,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/99-wooden-stick.webp",
+      "featured": true
     },
     {
       "sqliteSeriesId": null,
@@ -1706,7 +1692,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp",
+      "featured": true
     }
   ]
 }

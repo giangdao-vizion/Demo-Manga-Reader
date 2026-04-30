@@ -1,12 +1,14 @@
 {
   "sampleUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-250-eng-li/",
+  "homeUrl": "https://www.mgeko.cc/manga/murim-login/",
+  "title": "Murim Login",
   "fromChapter": 1,
   "toChapter": 250,
-  "fetchedAt": "2026-04-12T08:41:53.841Z",
+  "fetchedAt": "2026-04-30T10:55:39.094Z",
   "source": "mgeko",
   "chapters": [
     {
-      "title": "Chapter 1",
+      "title": "Chapter 1-eng-li",
       "chapter": 1,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-1-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-1-eng-li/",
@@ -30,10 +32,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-1/016.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-1/017.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-1/018.jpg"
-      ]
+      ],
+      "chapterKey": "1",
+      "chapterLabel": "1-eng-li"
     },
     {
-      "title": "Chapter 2",
+      "title": "Chapter 2-eng-li",
       "chapter": 2,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-2-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-2-eng-li/",
@@ -57,10 +61,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-2/016.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-2/017.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-2/018.jpg"
-      ]
+      ],
+      "chapterKey": "2",
+      "chapterLabel": "2-eng-li"
     },
     {
-      "title": "Chapter 3",
+      "title": "Chapter 3-eng-li",
       "chapter": 3,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-3-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-3-eng-li/",
@@ -80,10 +86,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-3/012.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-3/013.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-3/014.jpg"
-      ]
+      ],
+      "chapterKey": "3",
+      "chapterLabel": "3-eng-li"
     },
     {
-      "title": "Chapter 4",
+      "title": "Chapter 4-eng-li",
       "chapter": 4,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-4-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-4-eng-li/",
@@ -102,10 +110,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-4/011.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-4/012.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-4/013.jpg"
-      ]
+      ],
+      "chapterKey": "4",
+      "chapterLabel": "4-eng-li"
     },
     {
-      "title": "Chapter 5",
+      "title": "Chapter 5-eng-li",
       "chapter": 5,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-5-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-5-eng-li/",
@@ -128,10 +138,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-5/015.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-5/016.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-5/017.jpg"
-      ]
+      ],
+      "chapterKey": "5",
+      "chapterLabel": "5-eng-li"
     },
     {
-      "title": "Chapter 6",
+      "title": "Chapter 6-eng-li",
       "chapter": 6,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-6-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-6-eng-li/",
@@ -153,10 +165,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-6/014.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-6/015.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-6/016.jpg"
-      ]
+      ],
+      "chapterKey": "6",
+      "chapterLabel": "6-eng-li"
     },
     {
-      "title": "Chapter 7",
+      "title": "Chapter 7-eng-li",
       "chapter": 7,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-7-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-7-eng-li/",
@@ -178,10 +192,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-7/014.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-7/015.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-7/016.jpg"
-      ]
+      ],
+      "chapterKey": "7",
+      "chapterLabel": "7-eng-li"
     },
     {
-      "title": "Chapter 8",
+      "title": "Chapter 8-eng-li",
       "chapter": 8,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-8-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-8-eng-li/",
@@ -201,10 +217,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-8/012.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-8/013.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-8/014.jpg"
-      ]
+      ],
+      "chapterKey": "8",
+      "chapterLabel": "8-eng-li"
     },
     {
-      "title": "Chapter 9",
+      "title": "Chapter 9-eng-li",
       "chapter": 9,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-9-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-9-eng-li/",
@@ -224,10 +242,12 @@
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-9/012.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-9/013.jpg",
         "https://imgsrv4.com/mg1/backup/cdn_mangaraw/murim-login/chapter-9/014.jpg"
-      ]
+      ],
+      "chapterKey": "9",
+      "chapterLabel": "9-eng-li"
     },
     {
-      "title": "Chapter 10",
+      "title": "Chapter 10-eng-li",
       "chapter": 10,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-10-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-10-eng-li/",
@@ -248,10 +268,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-10/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-10/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-10/015.jpg"
-      ]
+      ],
+      "chapterKey": "10",
+      "chapterLabel": "10-eng-li"
     },
     {
-      "title": "Chapter 11",
+      "title": "Chapter 11-eng-li",
       "chapter": 11,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-11-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-11-eng-li/",
@@ -271,10 +293,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-11/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-11/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-11/014.jpg"
-      ]
+      ],
+      "chapterKey": "11",
+      "chapterLabel": "11-eng-li"
     },
     {
-      "title": "Chapter 12",
+      "title": "Chapter 12-eng-li",
       "chapter": 12,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-12-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-12-eng-li/",
@@ -292,10 +316,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-12/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-12/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-12/012.jpg"
-      ]
+      ],
+      "chapterKey": "12",
+      "chapterLabel": "12-eng-li"
     },
     {
-      "title": "Chapter 13",
+      "title": "Chapter 13-eng-li",
       "chapter": 13,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-13-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-13-eng-li/",
@@ -315,10 +341,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-13/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-13/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-13/014.jpg"
-      ]
+      ],
+      "chapterKey": "13",
+      "chapterLabel": "13-eng-li"
     },
     {
-      "title": "Chapter 14",
+      "title": "Chapter 14-eng-li",
       "chapter": 14,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-14-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-14-eng-li/",
@@ -337,10 +365,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-14/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-14/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-14/013.jpg"
-      ]
+      ],
+      "chapterKey": "14",
+      "chapterLabel": "14-eng-li"
     },
     {
-      "title": "Chapter 15",
+      "title": "Chapter 15-eng-li",
       "chapter": 15,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-15-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-15-eng-li/",
@@ -359,10 +389,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-15/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-15/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-15/013.jpg"
-      ]
+      ],
+      "chapterKey": "15",
+      "chapterLabel": "15-eng-li"
     },
     {
-      "title": "Chapter 16",
+      "title": "Chapter 16-eng-li",
       "chapter": 16,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-16-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-16-eng-li/",
@@ -381,10 +413,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-16/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-16/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-16/013.jpg"
-      ]
+      ],
+      "chapterKey": "16",
+      "chapterLabel": "16-eng-li"
     },
     {
-      "title": "Chapter 17",
+      "title": "Chapter 17-eng-li",
       "chapter": 17,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-17-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-17-eng-li/",
@@ -406,10 +440,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-17/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-17/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-17/016.jpg"
-      ]
+      ],
+      "chapterKey": "17",
+      "chapterLabel": "17-eng-li"
     },
     {
-      "title": "Chapter 18",
+      "title": "Chapter 18-eng-li",
       "chapter": 18,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-18-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-18-eng-li/",
@@ -429,10 +465,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-18/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-18/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-18/014.jpg"
-      ]
+      ],
+      "chapterKey": "18",
+      "chapterLabel": "18-eng-li"
     },
     {
-      "title": "Chapter 19",
+      "title": "Chapter 19-eng-li",
       "chapter": 19,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-19-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-19-eng-li/",
@@ -453,10 +491,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-19/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-19/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-19/015.jpg"
-      ]
+      ],
+      "chapterKey": "19",
+      "chapterLabel": "19-eng-li"
     },
     {
-      "title": "Chapter 20",
+      "title": "Chapter 20-eng-li",
       "chapter": 20,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-20-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-20-eng-li/",
@@ -477,10 +517,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-20/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-20/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-20/015.jpg"
-      ]
+      ],
+      "chapterKey": "20",
+      "chapterLabel": "20-eng-li"
     },
     {
-      "title": "Chapter 21",
+      "title": "Chapter 21-eng-li",
       "chapter": 21,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-21-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-21-eng-li/",
@@ -502,10 +544,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-21/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-21/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-21/016.jpg"
-      ]
+      ],
+      "chapterKey": "21",
+      "chapterLabel": "21-eng-li"
     },
     {
-      "title": "Chapter 22",
+      "title": "Chapter 22-eng-li",
       "chapter": 22,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-22-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-22-eng-li/",
@@ -526,10 +570,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-22/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-22/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-22/015.jpg"
-      ]
+      ],
+      "chapterKey": "22",
+      "chapterLabel": "22-eng-li"
     },
     {
-      "title": "Chapter 23",
+      "title": "Chapter 23-eng-li",
       "chapter": 23,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-23-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-23-eng-li/",
@@ -549,10 +595,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-23/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-23/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-23/014.jpg"
-      ]
+      ],
+      "chapterKey": "23",
+      "chapterLabel": "23-eng-li"
     },
     {
-      "title": "Chapter 24",
+      "title": "Chapter 24-eng-li",
       "chapter": 24,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-24-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-24-eng-li/",
@@ -573,10 +621,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-24/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-24/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-24/015.jpg"
-      ]
+      ],
+      "chapterKey": "24",
+      "chapterLabel": "24-eng-li"
     },
     {
-      "title": "Chapter 25",
+      "title": "Chapter 25-eng-li",
       "chapter": 25,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-25-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-25-eng-li/",
@@ -596,10 +646,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-25/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-25/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-25/014.jpg"
-      ]
+      ],
+      "chapterKey": "25",
+      "chapterLabel": "25-eng-li"
     },
     {
-      "title": "Chapter 26",
+      "title": "Chapter 26-eng-li",
       "chapter": 26,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-26-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-26-eng-li/",
@@ -620,10 +672,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-26/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-26/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-26/015.jpg"
-      ]
+      ],
+      "chapterKey": "26",
+      "chapterLabel": "26-eng-li"
     },
     {
-      "title": "Chapter 27",
+      "title": "Chapter 27-eng-li",
       "chapter": 27,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-27-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-27-eng-li/",
@@ -645,10 +699,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-27/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-27/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-27/016.jpg"
-      ]
+      ],
+      "chapterKey": "27",
+      "chapterLabel": "27-eng-li"
     },
     {
-      "title": "Chapter 28",
+      "title": "Chapter 28-eng-li",
       "chapter": 28,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-28-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-28-eng-li/",
@@ -665,10 +721,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-28/09.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-28/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-28/011.jpg"
-      ]
+      ],
+      "chapterKey": "28",
+      "chapterLabel": "28-eng-li"
     },
     {
-      "title": "Chapter 29",
+      "title": "Chapter 29-eng-li",
       "chapter": 29,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-29-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-29-eng-li/",
@@ -689,10 +747,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-29/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-29/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-29/015.jpg"
-      ]
+      ],
+      "chapterKey": "29",
+      "chapterLabel": "29-eng-li"
     },
     {
-      "title": "Chapter 30",
+      "title": "Chapter 30-eng-li",
       "chapter": 30,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-30-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-30-eng-li/",
@@ -712,10 +772,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-30/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-30/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-30/014.jpg"
-      ]
+      ],
+      "chapterKey": "30",
+      "chapterLabel": "30-eng-li"
     },
     {
-      "title": "Chapter 31",
+      "title": "Chapter 31-eng-li",
       "chapter": 31,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-31-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-31-eng-li/",
@@ -735,10 +797,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-31/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-31/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-31/014.jpg"
-      ]
+      ],
+      "chapterKey": "31",
+      "chapterLabel": "31-eng-li"
     },
     {
-      "title": "Chapter 32",
+      "title": "Chapter 32-eng-li",
       "chapter": 32,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-32-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-32-eng-li/",
@@ -758,10 +822,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-32/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-32/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-32/014.jpg"
-      ]
+      ],
+      "chapterKey": "32",
+      "chapterLabel": "32-eng-li"
     },
     {
-      "title": "Chapter 33",
+      "title": "Chapter 33-eng-li",
       "chapter": 33,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-33-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-33-eng-li/",
@@ -779,10 +845,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-33/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-33/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-33/012.jpg"
-      ]
+      ],
+      "chapterKey": "33",
+      "chapterLabel": "33-eng-li"
     },
     {
-      "title": "Chapter 34",
+      "title": "Chapter 34-eng-li",
       "chapter": 34,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-34-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-34-eng-li/",
@@ -800,10 +868,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-34/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-34/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-34/012.jpg"
-      ]
+      ],
+      "chapterKey": "34",
+      "chapterLabel": "34-eng-li"
     },
     {
-      "title": "Chapter 35",
+      "title": "Chapter 35-eng-li",
       "chapter": 35,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-35-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-35-eng-li/",
@@ -819,10 +889,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-35/08.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-35/09.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-35/010.jpg"
-      ]
+      ],
+      "chapterKey": "35",
+      "chapterLabel": "35-eng-li"
     },
     {
-      "title": "Chapter 36",
+      "title": "Chapter 36-eng-li",
       "chapter": 36,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-36-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-36-eng-li/",
@@ -841,10 +913,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-36/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-36/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-36/013.jpg"
-      ]
+      ],
+      "chapterKey": "36",
+      "chapterLabel": "36-eng-li"
     },
     {
-      "title": "Chapter 37",
+      "title": "Chapter 37-eng-li",
       "chapter": 37,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-37-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-37-eng-li/",
@@ -864,10 +938,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-37/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-37/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-37/014.jpg"
-      ]
+      ],
+      "chapterKey": "37",
+      "chapterLabel": "37-eng-li"
     },
     {
-      "title": "Chapter 38",
+      "title": "Chapter 38-eng-li",
       "chapter": 38,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-38-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-38-eng-li/",
@@ -886,10 +962,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-38/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-38/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-38/013.jpg"
-      ]
+      ],
+      "chapterKey": "38",
+      "chapterLabel": "38-eng-li"
     },
     {
-      "title": "Chapter 39",
+      "title": "Chapter 39-eng-li",
       "chapter": 39,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-39-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-39-eng-li/",
@@ -907,10 +985,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-39/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-39/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-39/012.jpg"
-      ]
+      ],
+      "chapterKey": "39",
+      "chapterLabel": "39-eng-li"
     },
     {
-      "title": "Chapter 40",
+      "title": "Chapter 40-eng-li",
       "chapter": 40,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-40-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-40-eng-li/",
@@ -929,10 +1009,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-40/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-40/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-40/013.jpg"
-      ]
+      ],
+      "chapterKey": "40",
+      "chapterLabel": "40-eng-li"
     },
     {
-      "title": "Chapter 41",
+      "title": "Chapter 41-eng-li",
       "chapter": 41,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-41-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-41-eng-li/",
@@ -950,10 +1032,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-41/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-41/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-41/012.jpg"
-      ]
+      ],
+      "chapterKey": "41",
+      "chapterLabel": "41-eng-li"
     },
     {
-      "title": "Chapter 42",
+      "title": "Chapter 42-eng-li",
       "chapter": 42,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-42-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-42-eng-li/",
@@ -974,10 +1058,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-42/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-42/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-42/015.jpg"
-      ]
+      ],
+      "chapterKey": "42",
+      "chapterLabel": "42-eng-li"
     },
     {
-      "title": "Chapter 43",
+      "title": "Chapter 43-eng-li",
       "chapter": 43,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-43-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-43-eng-li/",
@@ -998,10 +1084,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-43/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-43/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-43/015.jpg"
-      ]
+      ],
+      "chapterKey": "43",
+      "chapterLabel": "43-eng-li"
     },
     {
-      "title": "Chapter 44",
+      "title": "Chapter 44-eng-li",
       "chapter": 44,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-44-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-44-eng-li/",
@@ -1021,10 +1109,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-44/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-44/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-44/014.jpg"
-      ]
+      ],
+      "chapterKey": "44",
+      "chapterLabel": "44-eng-li"
     },
     {
-      "title": "Chapter 45",
+      "title": "Chapter 45-eng-li",
       "chapter": 45,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-45-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-45-eng-li/",
@@ -1044,10 +1134,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-45/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-45/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-45/014.jpg"
-      ]
+      ],
+      "chapterKey": "45",
+      "chapterLabel": "45-eng-li"
     },
     {
-      "title": "Chapter 46",
+      "title": "Chapter 46-eng-li",
       "chapter": 46,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-46-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-46-eng-li/",
@@ -1067,10 +1159,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-46/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-46/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-46/014.jpg"
-      ]
+      ],
+      "chapterKey": "46",
+      "chapterLabel": "46-eng-li"
     },
     {
-      "title": "Chapter 47",
+      "title": "Chapter 47-eng-li",
       "chapter": 47,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-47-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-47-eng-li/",
@@ -1091,10 +1185,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-47/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-47/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-47/015.jpg"
-      ]
+      ],
+      "chapterKey": "47",
+      "chapterLabel": "47-eng-li"
     },
     {
-      "title": "Chapter 48",
+      "title": "Chapter 48-eng-li",
       "chapter": 48,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-48-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-48-eng-li/",
@@ -1113,10 +1209,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-48/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-48/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-48/013.jpg"
-      ]
+      ],
+      "chapterKey": "48",
+      "chapterLabel": "48-eng-li"
     },
     {
-      "title": "Chapter 49",
+      "title": "Chapter 49-eng-li",
       "chapter": 49,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-49-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-49-eng-li/",
@@ -1135,10 +1233,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-49/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-49/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-49/013.jpg"
-      ]
+      ],
+      "chapterKey": "49",
+      "chapterLabel": "49-eng-li"
     },
     {
-      "title": "Chapter 50",
+      "title": "Chapter 50-eng-li",
       "chapter": 50,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-50-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-50-eng-li/",
@@ -1157,10 +1257,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-50/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-50/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-50/013.jpg"
-      ]
+      ],
+      "chapterKey": "50",
+      "chapterLabel": "50-eng-li"
     },
     {
-      "title": "Chapter 51",
+      "title": "Chapter 51-eng-li",
       "chapter": 51,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-51-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-51-eng-li/",
@@ -1180,10 +1282,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-51/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-51/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-51/014.jpg"
-      ]
+      ],
+      "chapterKey": "51",
+      "chapterLabel": "51-eng-li"
     },
     {
-      "title": "Chapter 52",
+      "title": "Chapter 52-eng-li",
       "chapter": 52,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-52-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-52-eng-li/",
@@ -1202,10 +1306,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-52/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-52/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-52/013.jpg"
-      ]
+      ],
+      "chapterKey": "52",
+      "chapterLabel": "52-eng-li"
     },
     {
-      "title": "Chapter 53",
+      "title": "Chapter 53-eng-li",
       "chapter": 53,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-53-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-53-eng-li/",
@@ -1222,10 +1328,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login-en/chapter-53/09.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login-en/chapter-53/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login-en/chapter-53/011.jpg"
-      ]
+      ],
+      "chapterKey": "53",
+      "chapterLabel": "53-eng-li"
     },
     {
-      "title": "Chapter 54",
+      "title": "Chapter 54-eng-li",
       "chapter": 54,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-54-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-54-eng-li/",
@@ -1243,10 +1351,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-54/010.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-54/011.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-54/012.jpg"
-      ]
+      ],
+      "chapterKey": "54",
+      "chapterLabel": "54-eng-li"
     },
     {
-      "title": "Chapter 55",
+      "title": "Chapter 55-eng-li",
       "chapter": 55,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-55-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-55-eng-li/",
@@ -1266,10 +1376,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-55/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-55/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-55/014.jpg"
-      ]
+      ],
+      "chapterKey": "55",
+      "chapterLabel": "55-eng-li"
     },
     {
-      "title": "Chapter 56",
+      "title": "Chapter 56-eng-li",
       "chapter": 56,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-56-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-56-eng-li/",
@@ -1285,10 +1397,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-56/08.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-56/09.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-56/010.jpg"
-      ]
+      ],
+      "chapterKey": "56",
+      "chapterLabel": "56-eng-li"
     },
     {
-      "title": "Chapter 57",
+      "title": "Chapter 57-eng-li",
       "chapter": 57,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-57-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-57-eng-li/",
@@ -1311,10 +1425,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-57/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-57/016.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-57/017.jpg"
-      ]
+      ],
+      "chapterKey": "57",
+      "chapterLabel": "57-eng-li"
     },
     {
-      "title": "Chapter 58",
+      "title": "Chapter 58-eng-li",
       "chapter": 58,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-58-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-58-eng-li/",
@@ -1334,10 +1450,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-58/012.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-58/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-58/014.jpg"
-      ]
+      ],
+      "chapterKey": "58",
+      "chapterLabel": "58-eng-li"
     },
     {
-      "title": "Chapter 59",
+      "title": "Chapter 59-eng-li",
       "chapter": 59,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-59-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-59-eng-li/",
@@ -1359,10 +1477,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-59/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-59/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-59/016.jpg"
-      ]
+      ],
+      "chapterKey": "59",
+      "chapterLabel": "59-eng-li"
     },
     {
-      "title": "Chapter 60",
+      "title": "Chapter 60-eng-li",
       "chapter": 60,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-60-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-60-eng-li/",
@@ -1383,10 +1503,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-60/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-60/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-60/015.jpg"
-      ]
+      ],
+      "chapterKey": "60",
+      "chapterLabel": "60-eng-li"
     },
     {
-      "title": "Chapter 61",
+      "title": "Chapter 61-eng-li",
       "chapter": 61,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-61-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-61-eng-li/",
@@ -1410,10 +1532,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-61/016.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-61/017.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-61/018.jpg"
-      ]
+      ],
+      "chapterKey": "61",
+      "chapterLabel": "61-eng-li"
     },
     {
-      "title": "Chapter 62",
+      "title": "Chapter 62-eng-li",
       "chapter": 62,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-62-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-62-eng-li/",
@@ -1437,10 +1561,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-62/016.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-62/017.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-62/018.jpg"
-      ]
+      ],
+      "chapterKey": "62",
+      "chapterLabel": "62-eng-li"
     },
     {
-      "title": "Chapter 63",
+      "title": "Chapter 63-eng-li",
       "chapter": 63,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-63-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-63-eng-li/",
@@ -1466,10 +1592,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-63/018.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-63/019.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-63/020.jpg"
-      ]
+      ],
+      "chapterKey": "63",
+      "chapterLabel": "63-eng-li"
     },
     {
-      "title": "Chapter 64",
+      "title": "Chapter 64-eng-li",
       "chapter": 64,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-64-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-64-eng-li/",
@@ -1492,10 +1620,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-64/015.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-64/016.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-64/017.jpg"
-      ]
+      ],
+      "chapterKey": "64",
+      "chapterLabel": "64-eng-li"
     },
     {
-      "title": "Chapter 65",
+      "title": "Chapter 65-eng-li",
       "chapter": 65,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-65-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-65-eng-li/",
@@ -1516,10 +1646,12 @@
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-65/013.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-65/014.jpg",
         "https://imgsrv4.com/mg1/cdn_mangaraw/murim-login/chapter-65/015.jpg"
-      ]
+      ],
+      "chapterKey": "65",
+      "chapterLabel": "65-eng-li"
     },
     {
-      "title": "Chapter 66",
+      "title": "Chapter 66-eng-li",
       "chapter": 66,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-66-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-66-eng-li/",
@@ -1538,10 +1670,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-66/011.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-66/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-66/013.jpg"
-      ]
+      ],
+      "chapterKey": "66",
+      "chapterLabel": "66-eng-li"
     },
     {
-      "title": "Chapter 67",
+      "title": "Chapter 67-eng-li",
       "chapter": 67,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-67-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-67-eng-li/",
@@ -1559,10 +1693,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-67/010.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-67/011.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-67/012.jpg"
-      ]
+      ],
+      "chapterKey": "67",
+      "chapterLabel": "67-eng-li"
     },
     {
-      "title": "Chapter 68",
+      "title": "Chapter 68-eng-li",
       "chapter": 68,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-68-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-68-eng-li/",
@@ -1583,10 +1719,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-68/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-68/014.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-68/015.jpg"
-      ]
+      ],
+      "chapterKey": "68",
+      "chapterLabel": "68-eng-li"
     },
     {
-      "title": "Chapter 69",
+      "title": "Chapter 69-eng-li",
       "chapter": 69,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-69-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-69-eng-li/",
@@ -1606,10 +1744,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-69/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-69/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-69/014.jpg"
-      ]
+      ],
+      "chapterKey": "69",
+      "chapterLabel": "69-eng-li"
     },
     {
-      "title": "Chapter 70",
+      "title": "Chapter 70-eng-li",
       "chapter": 70,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-70-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-70-eng-li/",
@@ -1629,10 +1769,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-70/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-70/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-70/014.jpg"
-      ]
+      ],
+      "chapterKey": "70",
+      "chapterLabel": "70-eng-li"
     },
     {
-      "title": "Chapter 71",
+      "title": "Chapter 71-eng-li",
       "chapter": 71,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-71-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-71-eng-li/",
@@ -1653,10 +1795,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-71/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-71/014.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-71/015.jpg"
-      ]
+      ],
+      "chapterKey": "71",
+      "chapterLabel": "71-eng-li"
     },
     {
-      "title": "Chapter 72",
+      "title": "Chapter 72-eng-li",
       "chapter": 72,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-72-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-72-eng-li/",
@@ -1679,10 +1823,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-72/015.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-72/016.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-72/017.jpg"
-      ]
+      ],
+      "chapterKey": "72",
+      "chapterLabel": "72-eng-li"
     },
     {
-      "title": "Chapter 73",
+      "title": "Chapter 73-eng-li",
       "chapter": 73,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-73-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-73-eng-li/",
@@ -1702,10 +1848,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-73/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-73/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-73/014.jpg"
-      ]
+      ],
+      "chapterKey": "73",
+      "chapterLabel": "73-eng-li"
     },
     {
-      "title": "Chapter 74",
+      "title": "Chapter 74-eng-li",
       "chapter": 74,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-74-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-74-eng-li/",
@@ -1726,10 +1874,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-74/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-74/014.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-74/015.jpg"
-      ]
+      ],
+      "chapterKey": "74",
+      "chapterLabel": "74-eng-li"
     },
     {
-      "title": "Chapter 75",
+      "title": "Chapter 75-eng-li",
       "chapter": 75,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-75-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-75-eng-li/",
@@ -1748,10 +1898,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-75/011.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-75/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-75/013.jpg"
-      ]
+      ],
+      "chapterKey": "75",
+      "chapterLabel": "75-eng-li"
     },
     {
-      "title": "Chapter 76",
+      "title": "Chapter 76-eng-li",
       "chapter": 76,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-76-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-76-eng-li/",
@@ -1769,10 +1921,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-76/010.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-76/011.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-76/012.jpg"
-      ]
+      ],
+      "chapterKey": "76",
+      "chapterLabel": "76-eng-li"
     },
     {
-      "title": "Chapter 77",
+      "title": "Chapter 77-eng-li",
       "chapter": 77,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-77-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-77-eng-li/",
@@ -1795,10 +1949,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-77/015.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-77/016.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-77/017.jpg"
-      ]
+      ],
+      "chapterKey": "77",
+      "chapterLabel": "77-eng-li"
     },
     {
-      "title": "Chapter 78",
+      "title": "Chapter 78-eng-li",
       "chapter": 78,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-78-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-78-eng-li/",
@@ -1816,10 +1972,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-78/010.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-78/011.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-78/012.jpg"
-      ]
+      ],
+      "chapterKey": "78",
+      "chapterLabel": "78-eng-li"
     },
     {
-      "title": "Chapter 79",
+      "title": "Chapter 79-eng-li",
       "chapter": 79,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-79-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-79-eng-li/",
@@ -1839,10 +1997,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-79/012.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-79/013.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-79/014.jpg"
-      ]
+      ],
+      "chapterKey": "79",
+      "chapterLabel": "79-eng-li"
     },
     {
-      "title": "Chapter 80",
+      "title": "Chapter 80-eng-li",
       "chapter": 80,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-80-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-80-eng-li/",
@@ -1875,10 +2035,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-80/24.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-80/25.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-80/26.jpg"
-      ]
+      ],
+      "chapterKey": "80",
+      "chapterLabel": "80-eng-li"
     },
     {
-      "title": "Chapter 81",
+      "title": "Chapter 81-eng-li",
       "chapter": 81,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-81-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-81-eng-li/",
@@ -1906,10 +2068,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-81/19.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-81/20.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-81/21.jpg"
-      ]
+      ],
+      "chapterKey": "81",
+      "chapterLabel": "81-eng-li"
     },
     {
-      "title": "Chapter 82",
+      "title": "Chapter 82-eng-li",
       "chapter": 82,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-82-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-82-eng-li/",
@@ -1938,10 +2102,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-82/20.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-82/21.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-82/22.jpg"
-      ]
+      ],
+      "chapterKey": "82",
+      "chapterLabel": "82-eng-li"
     },
     {
-      "title": "Chapter 83",
+      "title": "Chapter 83-eng-li",
       "chapter": 83,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-83-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-83-eng-li/",
@@ -1972,10 +2138,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-83/23.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-83/24.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-83/25.jpg"
-      ]
+      ],
+      "chapterKey": "83",
+      "chapterLabel": "83-eng-li"
     },
     {
-      "title": "Chapter 84",
+      "title": "Chapter 84-eng-li",
       "chapter": 84,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-84-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-84-eng-li/",
@@ -2003,10 +2171,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-84/20.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-84/21.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-84/22.jpg"
-      ]
+      ],
+      "chapterKey": "84",
+      "chapterLabel": "84-eng-li"
     },
     {
-      "title": "Chapter 85",
+      "title": "Chapter 85-eng-li",
       "chapter": 85,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-85-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-85-eng-li/",
@@ -2026,10 +2196,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-85/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-85/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-85/14.jpg"
-      ]
+      ],
+      "chapterKey": "85",
+      "chapterLabel": "85-eng-li"
     },
     {
-      "title": "Chapter 86",
+      "title": "Chapter 86-eng-li",
       "chapter": 86,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-86-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-86-eng-li/",
@@ -2049,10 +2221,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-86/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-86/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-86/14.jpg"
-      ]
+      ],
+      "chapterKey": "86",
+      "chapterLabel": "86-eng-li"
     },
     {
-      "title": "Chapter 87",
+      "title": "Chapter 87-eng-li",
       "chapter": 87,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-87-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-87-eng-li/",
@@ -2075,10 +2249,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-87/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-87/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-87/17.jpg"
-      ]
+      ],
+      "chapterKey": "87",
+      "chapterLabel": "87-eng-li"
     },
     {
-      "title": "Chapter 88",
+      "title": "Chapter 88-eng-li",
       "chapter": 88,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-88-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-88-eng-li/",
@@ -2100,10 +2276,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-88/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-88/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-88/16.jpg"
-      ]
+      ],
+      "chapterKey": "88",
+      "chapterLabel": "88-eng-li"
     },
     {
-      "title": "Chapter 89",
+      "title": "Chapter 89-eng-li",
       "chapter": 89,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-89-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-89-eng-li/",
@@ -2126,10 +2304,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-89/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-89/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-89/17.jpg"
-      ]
+      ],
+      "chapterKey": "89",
+      "chapterLabel": "89-eng-li"
     },
     {
-      "title": "Chapter 90",
+      "title": "Chapter 90-eng-li",
       "chapter": 90,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-90-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-90-eng-li/",
@@ -2190,10 +2370,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-90/53.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-90/54.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-90/55.jpg"
-      ]
+      ],
+      "chapterKey": "90",
+      "chapterLabel": "90-eng-li"
     },
     {
-      "title": "Chapter 91",
+      "title": "Chapter 91-eng-li",
       "chapter": 91,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-91-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-91-eng-li/",
@@ -2214,10 +2396,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-91/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-91/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-91/15.jpg"
-      ]
+      ],
+      "chapterKey": "91",
+      "chapterLabel": "91-eng-li"
     },
     {
-      "title": "Chapter 92",
+      "title": "Chapter 92-eng-li",
       "chapter": 92,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-92-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-92-eng-li/",
@@ -2239,10 +2423,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-92/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-92/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-92/16.jpg"
-      ]
+      ],
+      "chapterKey": "92",
+      "chapterLabel": "92-eng-li"
     },
     {
-      "title": "Chapter 93",
+      "title": "Chapter 93-eng-li",
       "chapter": 93,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-93-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-93-eng-li/",
@@ -2266,10 +2452,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-93/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-93/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-93/18.jpg"
-      ]
+      ],
+      "chapterKey": "93",
+      "chapterLabel": "93-eng-li"
     },
     {
-      "title": "Chapter 94",
+      "title": "Chapter 94-eng-li",
       "chapter": 94,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-94-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-94-eng-li/",
@@ -2291,10 +2479,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-94/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-94/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-94/16.jpg"
-      ]
+      ],
+      "chapterKey": "94",
+      "chapterLabel": "94-eng-li"
     },
     {
-      "title": "Chapter 95",
+      "title": "Chapter 95-eng-li",
       "chapter": 95,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-95-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-95-eng-li/",
@@ -2315,10 +2505,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-95/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-95/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-95/15.jpg"
-      ]
+      ],
+      "chapterKey": "95",
+      "chapterLabel": "95-eng-li"
     },
     {
-      "title": "Chapter 96",
+      "title": "Chapter 96-eng-li",
       "chapter": 96,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-96-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-96-eng-li/",
@@ -2340,10 +2532,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-96/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-96/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-96/16.jpg"
-      ]
+      ],
+      "chapterKey": "96",
+      "chapterLabel": "96-eng-li"
     },
     {
-      "title": "Chapter 97",
+      "title": "Chapter 97-eng-li",
       "chapter": 97,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-97-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-97-eng-li/",
@@ -2362,10 +2556,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-97/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-97/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-97/13.jpg"
-      ]
+      ],
+      "chapterKey": "97",
+      "chapterLabel": "97-eng-li"
     },
     {
-      "title": "Chapter 98",
+      "title": "Chapter 98-eng-li",
       "chapter": 98,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-98-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-98-eng-li/",
@@ -2387,10 +2583,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-98/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-98/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-98/16.jpg"
-      ]
+      ],
+      "chapterKey": "98",
+      "chapterLabel": "98-eng-li"
     },
     {
-      "title": "Chapter 99",
+      "title": "Chapter 99-eng-li",
       "chapter": 99,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-99-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-99-eng-li/",
@@ -2413,10 +2611,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-99/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-99/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-99/17.jpg"
-      ]
+      ],
+      "chapterKey": "99",
+      "chapterLabel": "99-eng-li"
     },
     {
-      "title": "Chapter 100",
+      "title": "Chapter 100-eng-li",
       "chapter": 100,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-100-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-100-eng-li/",
@@ -2437,10 +2637,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-100/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-100/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-100/15.jpg"
-      ]
+      ],
+      "chapterKey": "100",
+      "chapterLabel": "100-eng-li"
     },
     {
-      "title": "Chapter 101",
+      "title": "Chapter 101-eng-li",
       "chapter": 101,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-101-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-101-eng-li/",
@@ -2463,10 +2665,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-101/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-101/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-101/17.jpg"
-      ]
+      ],
+      "chapterKey": "101",
+      "chapterLabel": "101-eng-li"
     },
     {
-      "title": "Chapter 102",
+      "title": "Chapter 102-eng-li",
       "chapter": 102,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-102-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-102-eng-li/",
@@ -2490,10 +2694,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-102/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-102/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-102/18.jpg"
-      ]
+      ],
+      "chapterKey": "102",
+      "chapterLabel": "102-eng-li"
     },
     {
-      "title": "Chapter 103",
+      "title": "Chapter 103-eng-li",
       "chapter": 103,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-103-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-103-eng-li/",
@@ -2515,10 +2721,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-103/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-103/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-103/16.jpg"
-      ]
+      ],
+      "chapterKey": "103",
+      "chapterLabel": "103-eng-li"
     },
     {
-      "title": "Chapter 104",
+      "title": "Chapter 104-eng-li",
       "chapter": 104,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-104-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-104-eng-li/",
@@ -2539,10 +2747,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-104/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-104/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-104/15.jpg"
-      ]
+      ],
+      "chapterKey": "104",
+      "chapterLabel": "104-eng-li"
     },
     {
-      "title": "Chapter 105",
+      "title": "Chapter 105-eng-li",
       "chapter": 105,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-105-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-105-eng-li/",
@@ -2564,10 +2774,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-logi/chapter-105/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-logi/chapter-105/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-logi/chapter-105/16.jpg"
-      ]
+      ],
+      "chapterKey": "105",
+      "chapterLabel": "105-eng-li"
     },
     {
-      "title": "Chapter 106",
+      "title": "Chapter 106-eng-li",
       "chapter": 106,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-106-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-106-eng-li/",
@@ -2591,10 +2803,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-106/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-106/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-106/18.jpg"
-      ]
+      ],
+      "chapterKey": "106",
+      "chapterLabel": "106-eng-li"
     },
     {
-      "title": "Chapter 107",
+      "title": "Chapter 107-eng-li",
       "chapter": 107,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-107-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-107-eng-li/",
@@ -2617,10 +2831,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-107/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-107/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-107/17.jpg"
-      ]
+      ],
+      "chapterKey": "107",
+      "chapterLabel": "107-eng-li"
     },
     {
-      "title": "Chapter 108",
+      "title": "Chapter 108-eng-li",
       "chapter": 108,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-108-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-108-eng-li/",
@@ -2641,10 +2857,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-108/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-108/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-108/15.jpg"
-      ]
+      ],
+      "chapterKey": "108",
+      "chapterLabel": "108-eng-li"
     },
     {
-      "title": "Chapter 109",
+      "title": "Chapter 109-eng-li",
       "chapter": 109,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-109-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-109-eng-li/",
@@ -2665,10 +2883,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-109/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-109/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-109/15.jpg"
-      ]
+      ],
+      "chapterKey": "109",
+      "chapterLabel": "109-eng-li"
     },
     {
-      "title": "Chapter 110",
+      "title": "Chapter 110-eng-li",
       "chapter": 110,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-110-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-110-eng-li/",
@@ -2690,10 +2910,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-110/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-110/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-110/16.jpg"
-      ]
+      ],
+      "chapterKey": "110",
+      "chapterLabel": "110-eng-li"
     },
     {
-      "title": "Chapter 111",
+      "title": "Chapter 111-eng-li",
       "chapter": 111,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-111-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-111-eng-li/",
@@ -2714,10 +2936,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-111/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-111/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-111/15.jpg"
-      ]
+      ],
+      "chapterKey": "111",
+      "chapterLabel": "111-eng-li"
     },
     {
-      "title": "Chapter 112",
+      "title": "Chapter 112-eng-li",
       "chapter": 112,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-112-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-112-eng-li/",
@@ -2738,10 +2962,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-112/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-112/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-112/15.jpg"
-      ]
+      ],
+      "chapterKey": "112",
+      "chapterLabel": "112-eng-li"
     },
     {
-      "title": "Chapter 113",
+      "title": "Chapter 113-eng-li",
       "chapter": 113,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-113-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-113-eng-li/",
@@ -2763,10 +2989,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-113/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-113/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-113/16.jpg"
-      ]
+      ],
+      "chapterKey": "113",
+      "chapterLabel": "113-eng-li"
     },
     {
-      "title": "Chapter 114",
+      "title": "Chapter 114-eng-li",
       "chapter": 114,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-114-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-114-eng-li/",
@@ -2781,10 +3009,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-114/7.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-114/8.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-114/9.jpg"
-      ]
+      ],
+      "chapterKey": "114",
+      "chapterLabel": "114-eng-li"
     },
     {
-      "title": "Chapter 115",
+      "title": "Chapter 115-eng-li",
       "chapter": 115,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-115-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-115-eng-li/",
@@ -2803,10 +3033,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-115/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-115/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-115/13.jpg"
-      ]
+      ],
+      "chapterKey": "115",
+      "chapterLabel": "115-eng-li"
     },
     {
-      "title": "Chapter 116",
+      "title": "Chapter 116-eng-li",
       "chapter": 116,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-116-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-116-eng-li/",
@@ -2827,10 +3059,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-116/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-116/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-116/15.jpg"
-      ]
+      ],
+      "chapterKey": "116",
+      "chapterLabel": "116-eng-li"
     },
     {
-      "title": "Chapter 117",
+      "title": "Chapter 117-eng-li",
       "chapter": 117,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-117-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-117-eng-li/",
@@ -2849,10 +3083,25 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-117/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-117/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-117/13.jpg"
+      ],
+      "chapterKey": "117",
+      "chapterLabel": "117-eng-li"
+    },
+    {
+      "title": "Chapter 117-5-s1-end-eng-li",
+      "chapter": 117,
+      "chapterKey": "117-5-s1-end",
+      "chapterLabel": "117-5-s1-end-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-117-5-s1-end-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-117-5-s1-end-eng-li/",
+      "total": 2,
+      "images": [
+        "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-117-5-s1-end/1.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
       ]
     },
     {
-      "title": "Chapter 118",
+      "title": "Chapter 118-eng-li",
       "chapter": 118,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-118-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-118-eng-li/",
@@ -2874,10 +3123,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-118/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-118/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-118/16.jpg"
-      ]
+      ],
+      "chapterKey": "118",
+      "chapterLabel": "118-eng-li"
     },
     {
-      "title": "Chapter 119",
+      "title": "Chapter 119-eng-li",
       "chapter": 119,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-119-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-119-eng-li/",
@@ -2899,10 +3150,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-119/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-119/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-119/16.jpg"
-      ]
+      ],
+      "chapterKey": "119",
+      "chapterLabel": "119-eng-li"
     },
     {
-      "title": "Chapter 120",
+      "title": "Chapter 120-eng-li",
       "chapter": 120,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-120-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-120-eng-li/",
@@ -2920,10 +3173,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-120/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-120/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-120/12.jpg"
-      ]
+      ],
+      "chapterKey": "120",
+      "chapterLabel": "120-eng-li"
     },
     {
-      "title": "Chapter 121",
+      "title": "Chapter 121-eng-li",
       "chapter": 121,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-121-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-121-eng-li/",
@@ -2945,10 +3200,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-121/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-121/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-121/16.jpg"
-      ]
+      ],
+      "chapterKey": "121",
+      "chapterLabel": "121-eng-li"
     },
     {
-      "title": "Chapter 122",
+      "title": "Chapter 122-eng-li",
       "chapter": 122,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-122-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-122-eng-li/",
@@ -2969,10 +3226,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-122/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-122/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-122/15.jpg"
-      ]
+      ],
+      "chapterKey": "122",
+      "chapterLabel": "122-eng-li"
     },
     {
-      "title": "Chapter 123",
+      "title": "Chapter 123-eng-li",
       "chapter": 123,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-123-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-123-eng-li/",
@@ -2993,10 +3252,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-123/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-123/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-123/15.jpg"
-      ]
+      ],
+      "chapterKey": "123",
+      "chapterLabel": "123-eng-li"
     },
     {
-      "title": "Chapter 124",
+      "title": "Chapter 124-eng-li",
       "chapter": 124,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-124-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-124-eng-li/",
@@ -3016,10 +3277,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-124/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-124/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-124/14.jpg"
-      ]
+      ],
+      "chapterKey": "124",
+      "chapterLabel": "124-eng-li"
     },
     {
-      "title": "Chapter 125",
+      "title": "Chapter 125-eng-li",
       "chapter": 125,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-125-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-125-eng-li/",
@@ -3040,10 +3303,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-125/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-125/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-125/15.jpg"
-      ]
+      ],
+      "chapterKey": "125",
+      "chapterLabel": "125-eng-li"
     },
     {
-      "title": "Chapter 126",
+      "title": "Chapter 126-eng-li",
       "chapter": 126,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-126-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-126-eng-li/",
@@ -3066,10 +3331,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-126/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-126/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-126/17.jpg"
-      ]
+      ],
+      "chapterKey": "126",
+      "chapterLabel": "126-eng-li"
     },
     {
-      "title": "Chapter 127",
+      "title": "Chapter 127-eng-li",
       "chapter": 127,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-127-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-127-eng-li/",
@@ -3090,10 +3357,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-127/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-127/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-127/15.jpg"
-      ]
+      ],
+      "chapterKey": "127",
+      "chapterLabel": "127-eng-li"
     },
     {
-      "title": "Chapter 128",
+      "title": "Chapter 128-eng-li",
       "chapter": 128,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-128-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-128-eng-li/",
@@ -3113,10 +3382,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-128/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-128/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-128/14.jpg"
-      ]
+      ],
+      "chapterKey": "128",
+      "chapterLabel": "128-eng-li"
     },
     {
-      "title": "Chapter 129",
+      "title": "Chapter 129-eng-li",
       "chapter": 129,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-129-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-129-eng-li/",
@@ -3141,10 +3412,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-129/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-129/18.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-129/19.jpg"
-      ]
+      ],
+      "chapterKey": "129",
+      "chapterLabel": "129-eng-li"
     },
     {
-      "title": "Chapter 130",
+      "title": "Chapter 130-eng-li",
       "chapter": 130,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-130-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-130-eng-li/",
@@ -3165,10 +3438,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-130/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-130/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-130/15.jpg"
-      ]
+      ],
+      "chapterKey": "130",
+      "chapterLabel": "130-eng-li"
     },
     {
-      "title": "Chapter 131",
+      "title": "Chapter 131-eng-li",
       "chapter": 131,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-131-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-131-eng-li/",
@@ -3190,10 +3465,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-131/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-131/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-131/16.jpg"
-      ]
+      ],
+      "chapterKey": "131",
+      "chapterLabel": "131-eng-li"
     },
     {
-      "title": "Chapter 132",
+      "title": "Chapter 132-eng-li",
       "chapter": 132,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-132-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-132-eng-li/",
@@ -3213,10 +3490,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-132/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-132/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-132/14.jpg"
-      ]
+      ],
+      "chapterKey": "132",
+      "chapterLabel": "132-eng-li"
     },
     {
-      "title": "Chapter 133",
+      "title": "Chapter 133-eng-li",
       "chapter": 133,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-133-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-133-eng-li/",
@@ -3236,10 +3515,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-133/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-133/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-133/14.jpg"
-      ]
+      ],
+      "chapterKey": "133",
+      "chapterLabel": "133-eng-li"
     },
     {
-      "title": "Chapter 134",
+      "title": "Chapter 134-eng-li",
       "chapter": 134,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-134-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-134-eng-li/",
@@ -3263,10 +3544,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-134/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-134/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-134/18.jpg"
-      ]
+      ],
+      "chapterKey": "134",
+      "chapterLabel": "134-eng-li"
     },
     {
-      "title": "Chapter 135",
+      "title": "Chapter 135-eng-li",
       "chapter": 135,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-135-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-135-eng-li/",
@@ -3286,10 +3569,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-135/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-135/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-135/14.jpg"
-      ]
+      ],
+      "chapterKey": "135",
+      "chapterLabel": "135-eng-li"
     },
     {
-      "title": "Chapter 136",
+      "title": "Chapter 136-eng-li",
       "chapter": 136,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-136-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-136-eng-li/",
@@ -3309,10 +3594,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-136/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-136/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-136/14.jpg"
-      ]
+      ],
+      "chapterKey": "136",
+      "chapterLabel": "136-eng-li"
     },
     {
-      "title": "Chapter 137",
+      "title": "Chapter 137-eng-li",
       "chapter": 137,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-137-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-137-eng-li/",
@@ -3331,10 +3618,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-137/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-137/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-137/13.jpg"
-      ]
+      ],
+      "chapterKey": "137",
+      "chapterLabel": "137-eng-li"
     },
     {
-      "title": "Chapter 138",
+      "title": "Chapter 138-eng-li",
       "chapter": 138,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-138-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-138-eng-li/",
@@ -3353,10 +3642,25 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-138/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-138/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-138/13.jpg"
+      ],
+      "chapterKey": "138",
+      "chapterLabel": "138-eng-li"
+    },
+    {
+      "title": "Chapter 138-5-eng-li",
+      "chapter": 138,
+      "chapterKey": "138-5",
+      "chapterLabel": "138-5-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-138-5-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-138-5-eng-li/",
+      "total": 2,
+      "images": [
+        "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-138-5/1.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
       ]
     },
     {
-      "title": "Chapter 139",
+      "title": "Chapter 139-eng-li",
       "chapter": 139,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-139-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-139-eng-li/",
@@ -3374,10 +3678,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-139/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-139/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-139/12.jpg"
-      ]
+      ],
+      "chapterKey": "139",
+      "chapterLabel": "139-eng-li"
     },
     {
-      "title": "Chapter 140",
+      "title": "Chapter 140-eng-li",
       "chapter": 140,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-140-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-140-eng-li/",
@@ -3394,10 +3700,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-140/9.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-140/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-140/11.jpg"
-      ]
+      ],
+      "chapterKey": "140",
+      "chapterLabel": "140-eng-li"
     },
     {
-      "title": "Chapter 141",
+      "title": "Chapter 141-eng-li",
       "chapter": 141,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-141-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-141-eng-li/",
@@ -3415,10 +3723,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-141/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-141/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-141/12.jpg"
-      ]
+      ],
+      "chapterKey": "141",
+      "chapterLabel": "141-eng-li"
     },
     {
-      "title": "Chapter 142",
+      "title": "Chapter 142-eng-li",
       "chapter": 142,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-142-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-142-eng-li/",
@@ -3449,10 +3759,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-142/23.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-142/24.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-142/25.jpg"
-      ]
+      ],
+      "chapterKey": "142",
+      "chapterLabel": "142-eng-li"
     },
     {
-      "title": "Chapter 143",
+      "title": "Chapter 143-eng-li",
       "chapter": 143,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-143-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-143-eng-li/",
@@ -3471,10 +3783,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-143/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-143/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-143/13.jpg"
-      ]
+      ],
+      "chapterKey": "143",
+      "chapterLabel": "143-eng-li"
     },
     {
-      "title": "Chapter 144",
+      "title": "Chapter 144-eng-li",
       "chapter": 144,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-144-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-144-eng-li/",
@@ -3494,10 +3808,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-144/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-144/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-144/14.jpg"
-      ]
+      ],
+      "chapterKey": "144",
+      "chapterLabel": "144-eng-li"
     },
     {
-      "title": "Chapter 145",
+      "title": "Chapter 145-eng-li",
       "chapter": 145,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-145-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-145-eng-li/",
@@ -3515,10 +3831,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-145/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-145/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-log/chapter-145/12.jpg"
-      ]
+      ],
+      "chapterKey": "145",
+      "chapterLabel": "145-eng-li"
     },
     {
-      "title": "Chapter 146",
+      "title": "Chapter 146-eng-li",
       "chapter": 146,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-146-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-146-eng-li/",
@@ -3537,10 +3855,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-146/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-146/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-146/13.jpg"
-      ]
+      ],
+      "chapterKey": "146",
+      "chapterLabel": "146-eng-li"
     },
     {
-      "title": "Chapter 147",
+      "title": "Chapter 147-eng-li",
       "chapter": 147,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-147-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-147-eng-li/",
@@ -3560,10 +3880,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-147/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-147/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-147/14.jpg"
-      ]
+      ],
+      "chapterKey": "147",
+      "chapterLabel": "147-eng-li"
     },
     {
-      "title": "Chapter 148",
+      "title": "Chapter 148-eng-li",
       "chapter": 148,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-148-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-148-eng-li/",
@@ -3583,10 +3905,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-148/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-148/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-148/14.jpg"
-      ]
+      ],
+      "chapterKey": "148",
+      "chapterLabel": "148-eng-li"
     },
     {
-      "title": "Chapter 149",
+      "title": "Chapter 149-eng-li",
       "chapter": 149,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-149-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-149-eng-li/",
@@ -3610,10 +3934,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-149/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-149/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-149/18.jpg"
-      ]
+      ],
+      "chapterKey": "149",
+      "chapterLabel": "149-eng-li"
     },
     {
-      "title": "Chapter 150",
+      "title": "Chapter 150-eng-li",
       "chapter": 150,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-150-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-150-eng-li/",
@@ -3630,10 +3956,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-150/9.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-150/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-150/11.jpg"
-      ]
+      ],
+      "chapterKey": "150",
+      "chapterLabel": "150-eng-li"
     },
     {
-      "title": "Chapter 151",
+      "title": "Chapter 151-eng-li",
       "chapter": 151,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-151-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-151-eng-li/",
@@ -3652,10 +3980,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-151/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-151/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-151/13.jpg"
-      ]
+      ],
+      "chapterKey": "151",
+      "chapterLabel": "151-eng-li"
     },
     {
-      "title": "Chapter 152",
+      "title": "Chapter 152-eng-li",
       "chapter": 152,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-152-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-152-eng-li/",
@@ -3674,10 +4004,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-152/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-152/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-152/13.jpg"
-      ]
+      ],
+      "chapterKey": "152",
+      "chapterLabel": "152-eng-li"
     },
     {
-      "title": "Chapter 153",
+      "title": "Chapter 153-eng-li",
       "chapter": 153,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-153-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-153-eng-li/",
@@ -3698,10 +4030,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-login/chapter-153/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-login/chapter-153/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-login/chapter-153/15.jpg"
-      ]
+      ],
+      "chapterKey": "153",
+      "chapterLabel": "153-eng-li"
     },
     {
-      "title": "Chapter 154",
+      "title": "Chapter 154-eng-li",
       "chapter": 154,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-154-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-154-eng-li/",
@@ -3721,10 +4055,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-logi/chapter-154/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-logi/chapter-154/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-logi/chapter-154/14.jpg"
-      ]
+      ],
+      "chapterKey": "154",
+      "chapterLabel": "154-eng-li"
     },
     {
-      "title": "Chapter 155",
+      "title": "Chapter 155-eng-li",
       "chapter": 155,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-155-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-155-eng-li/",
@@ -3741,10 +4077,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-155/9.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-155/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-155/11.jpg"
-      ]
+      ],
+      "chapterKey": "155",
+      "chapterLabel": "155-eng-li"
     },
     {
-      "title": "Chapter 156",
+      "title": "Chapter 156-eng-li",
       "chapter": 156,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-156-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-156-eng-li/",
@@ -3767,10 +4105,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-156/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-156/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-156/17.jpg"
-      ]
+      ],
+      "chapterKey": "156",
+      "chapterLabel": "156-eng-li"
     },
     {
-      "title": "Chapter 157",
+      "title": "Chapter 157-eng-li",
       "chapter": 157,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-157-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-157-eng-li/",
@@ -3787,10 +4127,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-157/9.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-157/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-157/11.jpg"
-      ]
+      ],
+      "chapterKey": "157",
+      "chapterLabel": "157-eng-li"
     },
     {
-      "title": "Chapter 158",
+      "title": "Chapter 158-eng-li",
       "chapter": 158,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-158-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-158-eng-li/",
@@ -3806,10 +4148,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-158/8.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-158/9.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-158/10.jpg"
-      ]
+      ],
+      "chapterKey": "158",
+      "chapterLabel": "158-eng-li"
     },
     {
-      "title": "Chapter 159",
+      "title": "Chapter 159-eng-li",
       "chapter": 159,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-159-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-159-eng-li/",
@@ -3828,10 +4172,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-159/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-159/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-159/13.jpg"
-      ]
+      ],
+      "chapterKey": "159",
+      "chapterLabel": "159-eng-li"
     },
     {
-      "title": "Chapter 160",
+      "title": "Chapter 160-eng-li",
       "chapter": 160,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-160-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-160-eng-li/",
@@ -3849,10 +4195,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-log/chapter-160/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-log/chapter-160/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/im-log/chapter-160/12.jpg"
-      ]
+      ],
+      "chapterKey": "160",
+      "chapterLabel": "160-eng-li"
     },
     {
-      "title": "Chapter 161",
+      "title": "Chapter 161-eng-li",
       "chapter": 161,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-161-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-161-eng-li/",
@@ -3872,10 +4220,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-161/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-161/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-161/14.jpg"
-      ]
+      ],
+      "chapterKey": "161",
+      "chapterLabel": "161-eng-li"
     },
     {
-      "title": "Chapter 162",
+      "title": "Chapter 162-eng-li",
       "chapter": 162,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-162-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-162-eng-li/",
@@ -3896,10 +4246,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-162/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-162/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-162/15.jpg"
-      ]
+      ],
+      "chapterKey": "162",
+      "chapterLabel": "162-eng-li"
     },
     {
-      "title": "Chapter 163",
+      "title": "Chapter 163-eng-li",
       "chapter": 163,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-163-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-163-eng-li/",
@@ -3918,10 +4270,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-163/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-163/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-163/13.jpg"
-      ]
+      ],
+      "chapterKey": "163",
+      "chapterLabel": "163-eng-li"
     },
     {
-      "title": "Chapter 164",
+      "title": "Chapter 164-eng-li",
       "chapter": 164,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-164-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-164-eng-li/",
@@ -3939,10 +4293,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-164/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-164/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-164/12.jpg"
-      ]
+      ],
+      "chapterKey": "164",
+      "chapterLabel": "164-eng-li"
     },
     {
-      "title": "Chapter 165",
+      "title": "Chapter 165-eng-li",
       "chapter": 165,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-165-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-165-eng-li/",
@@ -3963,10 +4319,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-165/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-165/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-165/15.jpg"
-      ]
+      ],
+      "chapterKey": "165",
+      "chapterLabel": "165-eng-li"
     },
     {
-      "title": "Chapter 166",
+      "title": "Chapter 166-eng-li",
       "chapter": 166,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-166-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-166-eng-li/",
@@ -3990,10 +4348,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-166/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-166/17.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-166/18.jpg"
-      ]
+      ],
+      "chapterKey": "166",
+      "chapterLabel": "166-eng-li"
     },
     {
-      "title": "Chapter 167",
+      "title": "Chapter 167-eng-li",
       "chapter": 167,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-167-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-167-eng-li/",
@@ -4012,10 +4372,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-167/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-167/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-logi/chapter-167/13.jpg"
-      ]
+      ],
+      "chapterKey": "167",
+      "chapterLabel": "167-eng-li"
     },
     {
-      "title": "Chapter 168",
+      "title": "Chapter 168-eng-li",
       "chapter": 168,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-168-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-168-eng-li/",
@@ -4033,10 +4395,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/2091190535-murim-logi/chapter-168/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/2091190535-murim-logi/chapter-168/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/2091190535-murim-logi/chapter-168/12.jpg"
-      ]
+      ],
+      "chapterKey": "168",
+      "chapterLabel": "168-eng-li"
     },
     {
-      "title": "Chapter 169",
+      "title": "Chapter 169-eng-li",
       "chapter": 169,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-169-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-169-eng-li/",
@@ -4056,10 +4420,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-169/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-169/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/urim-login/chapter-169/14.jpg"
-      ]
+      ],
+      "chapterKey": "169",
+      "chapterLabel": "169-eng-li"
     },
     {
-      "title": "Chapter 170",
+      "title": "Chapter 170-eng-li",
       "chapter": 170,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-170-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-170-eng-li/",
@@ -4081,10 +4447,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-170/14.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-170/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-170/16.jpg"
-      ]
+      ],
+      "chapterKey": "170",
+      "chapterLabel": "170-eng-li"
     },
     {
-      "title": "Chapter 171",
+      "title": "Chapter 171-eng-li",
       "chapter": 171,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-171-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-171-eng-li/",
@@ -4104,10 +4472,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-171/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-171/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-171/14.jpg"
-      ]
+      ],
+      "chapterKey": "171",
+      "chapterLabel": "171-eng-li"
     },
     {
-      "title": "Chapter 172",
+      "title": "Chapter 172-eng-li",
       "chapter": 172,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-172-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-172-eng-li/",
@@ -4136,10 +4506,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-172/21.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-172/22.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-172/23.jpg"
-      ]
+      ],
+      "chapterKey": "172",
+      "chapterLabel": "172-eng-li"
     },
     {
-      "title": "Chapter 173",
+      "title": "Chapter 173-eng-li",
       "chapter": 173,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-173-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-173-eng-li/",
@@ -4159,10 +4531,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-173/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-173/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/murim-login/chapter-173/14.jpg"
-      ]
+      ],
+      "chapterKey": "173",
+      "chapterLabel": "173-eng-li"
     },
     {
-      "title": "Chapter 174",
+      "title": "Chapter 174-eng-li",
       "chapter": 174,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-174-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-174-eng-li/",
@@ -4181,10 +4555,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-174/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-174/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-174/12.jpg"
-      ]
+      ],
+      "chapterKey": "174",
+      "chapterLabel": "174-eng-li"
     },
     {
-      "title": "Chapter 175",
+      "title": "Chapter 175-eng-li",
       "chapter": 175,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-175-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-175-eng-li/",
@@ -4204,10 +4580,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-175/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-175/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-175/13.jpg"
-      ]
+      ],
+      "chapterKey": "175",
+      "chapterLabel": "175-eng-li"
     },
     {
-      "title": "Chapter 176",
+      "title": "Chapter 176-eng-li",
       "chapter": 176,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-176-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-176-eng-li/",
@@ -4221,10 +4599,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-176/5.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-176/6.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-176/7.jpg"
-      ]
+      ],
+      "chapterKey": "176",
+      "chapterLabel": "176-eng-li"
     },
     {
-      "title": "Chapter 177",
+      "title": "Chapter 177-eng-li",
       "chapter": 177,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-177-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-177-eng-li/",
@@ -4240,10 +4620,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-177/7.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-177/8.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-177/9.jpg"
-      ]
+      ],
+      "chapterKey": "177",
+      "chapterLabel": "177-eng-li"
     },
     {
-      "title": "Chapter 178",
+      "title": "Chapter 178-eng-li",
       "chapter": 178,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-178-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-178-eng-li/",
@@ -4262,10 +4644,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-178/10.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-178/11.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-178/12.jpg"
-      ]
+      ],
+      "chapterKey": "178",
+      "chapterLabel": "178-eng-li"
     },
     {
-      "title": "Chapter 179",
+      "title": "Chapter 179-eng-li",
       "chapter": 179,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-179-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-179-eng-li/",
@@ -4288,10 +4672,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-179/15.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-179/16.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/murim-login/chapter-179/17.jpg"
-      ]
+      ],
+      "chapterKey": "179",
+      "chapterLabel": "179-eng-li"
     },
     {
-      "title": "Chapter 180",
+      "title": "Chapter 180-eng-li",
       "chapter": 180,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-180-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-180-eng-li/",
@@ -4312,10 +4698,12 @@
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-180/12.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-180/13.jpg",
         "https://imgsrv4.com/mg2/cdn_mangaraw/buv9/bumin/murim-login/chapter-180/14.jpg"
-      ]
+      ],
+      "chapterKey": "180",
+      "chapterLabel": "180-eng-li"
     },
     {
-      "title": "Chapter 181",
+      "title": "Chapter 181-eng-li",
       "chapter": 181,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-181-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-181-eng-li/",
@@ -4342,10 +4730,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-181/19.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-181/20.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-181/21.jpg"
-      ]
+      ],
+      "chapterKey": "181",
+      "chapterLabel": "181-eng-li"
     },
     {
-      "title": "Chapter 182",
+      "title": "Chapter 182-eng-li",
       "chapter": 182,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-182-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-182-eng-li/",
@@ -4361,10 +4751,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-182/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-182/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-182/10.jpg"
-      ]
+      ],
+      "chapterKey": "182",
+      "chapterLabel": "182-eng-li"
     },
     {
-      "title": "Chapter 183",
+      "title": "Chapter 183-eng-li",
       "chapter": 183,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-183-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-183-eng-li/",
@@ -4384,10 +4776,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-183/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-183/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-183/14.jpg"
-      ]
+      ],
+      "chapterKey": "183",
+      "chapterLabel": "183-eng-li"
     },
     {
-      "title": "Chapter 184",
+      "title": "Chapter 184-eng-li",
       "chapter": 184,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-184-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-184-eng-li/",
@@ -4408,10 +4802,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-184/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-184/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-184/15.jpg"
-      ]
+      ],
+      "chapterKey": "184",
+      "chapterLabel": "184-eng-li"
     },
     {
-      "title": "Chapter 185",
+      "title": "Chapter 185-eng-li",
       "chapter": 185,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-185-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-185-eng-li/",
@@ -4428,10 +4824,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-185/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-185/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-185/11.jpg"
-      ]
+      ],
+      "chapterKey": "185",
+      "chapterLabel": "185-eng-li"
     },
     {
-      "title": "Chapter 186",
+      "title": "Chapter 186-eng-li",
       "chapter": 186,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-186-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-186-eng-li/",
@@ -4448,19 +4846,41 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-186/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-186/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-186/10.jpg"
+      ],
+      "chapterKey": "186",
+      "chapterLabel": "186-eng-li"
+    },
+    {
+      "title": "Chapter 187.full-eng-li",
+      "chapter": 187,
+      "chapterKey": "187-full",
+      "chapterLabel": "187.full-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-187-full-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-187-full-eng-li/",
+      "total": 18,
+      "images": [
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/0.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/1.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/2.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/3.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/4.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/5.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/6.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/7.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/8.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/9.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/10.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/11.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/12.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/13.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/14.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/15.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-187.full/16.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
       ]
     },
     {
-      "title": "Chapter 187",
-      "chapter": 187,
-      "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-187-eng-li/",
-      "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-187-eng-li/",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 404 Not Found"
-    },
-    {
-      "title": "Chapter 188",
+      "title": "Chapter 188-eng-li",
       "chapter": 188,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-188-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-188-eng-li/",
@@ -4478,10 +4898,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-188/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-188/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-188/11.jpg"
-      ]
+      ],
+      "chapterKey": "188",
+      "chapterLabel": "188-eng-li"
     },
     {
-      "title": "Chapter 189",
+      "title": "Chapter 189-eng-li",
       "chapter": 189,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-189-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-189-eng-li/",
@@ -4498,10 +4920,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-189/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-189/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-189/10.jpg"
-      ]
+      ],
+      "chapterKey": "189",
+      "chapterLabel": "189-eng-li"
     },
     {
-      "title": "Chapter 190",
+      "title": "Chapter 190-eng-li",
       "chapter": 190,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-190-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-190-eng-li/",
@@ -4524,10 +4948,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-190/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-190/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-190/16.jpg"
-      ]
+      ],
+      "chapterKey": "190",
+      "chapterLabel": "190-eng-li"
     },
     {
-      "title": "Chapter 191",
+      "title": "Chapter 191-eng-li",
       "chapter": 191,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-191-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-191-eng-li/",
@@ -4549,10 +4975,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-191/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-191/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-191/15.jpg"
-      ]
+      ],
+      "chapterKey": "191",
+      "chapterLabel": "191-eng-li"
     },
     {
-      "title": "Chapter 192",
+      "title": "Chapter 192-eng-li",
       "chapter": 192,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-192-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-192-eng-li/",
@@ -4579,10 +5007,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-192/18.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-192/19.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-192/20.jpg"
-      ]
+      ],
+      "chapterKey": "192",
+      "chapterLabel": "192-eng-li"
     },
     {
-      "title": "Chapter 193",
+      "title": "Chapter 193-eng-li",
       "chapter": 193,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-193-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-193-eng-li/",
@@ -4600,10 +5030,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-193/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-193/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-193/11.jpg"
-      ]
+      ],
+      "chapterKey": "193",
+      "chapterLabel": "193-eng-li"
     },
     {
-      "title": "Chapter 194",
+      "title": "Chapter 194-eng-li",
       "chapter": 194,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-194-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-194-eng-li/",
@@ -4622,10 +5054,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-194/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-194/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-194/12.jpg"
-      ]
+      ],
+      "chapterKey": "194",
+      "chapterLabel": "194-eng-li"
     },
     {
-      "title": "Chapter 195",
+      "title": "Chapter 195-eng-li",
       "chapter": 195,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-195-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-195-eng-li/",
@@ -4645,10 +5079,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-195/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-195/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-195/13.jpg"
-      ]
+      ],
+      "chapterKey": "195",
+      "chapterLabel": "195-eng-li"
     },
     {
-      "title": "Chapter 196",
+      "title": "Chapter 196-eng-li",
       "chapter": 196,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-196-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-196-eng-li/",
@@ -4669,10 +5105,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-196/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-196/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-196/14.jpg"
-      ]
+      ],
+      "chapterKey": "196",
+      "chapterLabel": "196-eng-li"
     },
     {
-      "title": "Chapter 197",
+      "title": "Chapter 197-eng-li",
       "chapter": 197,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-197-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-197-eng-li/",
@@ -4693,10 +5131,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-197/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-197/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-197/14.jpg"
-      ]
+      ],
+      "chapterKey": "197",
+      "chapterLabel": "197-eng-li"
     },
     {
-      "title": "Chapter 198",
+      "title": "Chapter 198-eng-li",
       "chapter": 198,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-198-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-198-eng-li/",
@@ -4720,10 +5160,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-198/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-198/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-198/17.jpg"
-      ]
+      ],
+      "chapterKey": "198",
+      "chapterLabel": "198-eng-li"
     },
     {
-      "title": "Chapter 199",
+      "title": "Chapter 199-eng-li",
       "chapter": 199,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-199-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-199-eng-li/",
@@ -4742,10 +5184,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-199/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-199/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-199/12.jpg"
-      ]
+      ],
+      "chapterKey": "199",
+      "chapterLabel": "199-eng-li"
     },
     {
-      "title": "Chapter 200",
+      "title": "Chapter 200-eng-li",
       "chapter": 200,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-200-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-200-eng-li/",
@@ -4767,10 +5211,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-200/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-200/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-200/15.jpg"
-      ]
+      ],
+      "chapterKey": "200",
+      "chapterLabel": "200-eng-li"
     },
     {
-      "title": "Chapter 201",
+      "title": "Chapter 201-eng-li",
       "chapter": 201,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-201-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-201-eng-li/",
@@ -4788,10 +5234,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-201/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-201/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-201/11.jpg"
-      ]
+      ],
+      "chapterKey": "201",
+      "chapterLabel": "201-eng-li"
     },
     {
-      "title": "Chapter 202",
+      "title": "Chapter 202-eng-li",
       "chapter": 202,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-202-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-202-eng-li/",
@@ -4810,10 +5258,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-202/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-202/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-202/12.jpg"
-      ]
+      ],
+      "chapterKey": "202",
+      "chapterLabel": "202-eng-li"
     },
     {
-      "title": "Chapter 203",
+      "title": "Chapter 203-eng-li",
       "chapter": 203,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-203-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-203-eng-li/",
@@ -4836,10 +5286,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-203/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-203/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-203/16.jpg"
-      ]
+      ],
+      "chapterKey": "203",
+      "chapterLabel": "203-eng-li"
     },
     {
-      "title": "Chapter 204",
+      "title": "Chapter 204-eng-li",
       "chapter": 204,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-204-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-204-eng-li/",
@@ -4860,10 +5312,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login-1/chapter-204/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login-1/chapter-204/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login-1/chapter-204/15.jpg"
-      ]
+      ],
+      "chapterKey": "204",
+      "chapterLabel": "204-eng-li"
     },
     {
-      "title": "Chapter 205",
+      "title": "Chapter 205-eng-li",
       "chapter": 205,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-205-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-205-eng-li/",
@@ -4882,10 +5336,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-205/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-205/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-205/12.jpg"
-      ]
+      ],
+      "chapterKey": "205",
+      "chapterLabel": "205-eng-li"
     },
     {
-      "title": "Chapter 206",
+      "title": "Chapter 206-eng-li",
       "chapter": 206,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-206-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-206-eng-li/",
@@ -4906,10 +5362,28 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206/14.jpg"
+      ],
+      "chapterKey": "206",
+      "chapterLabel": "206-eng-li"
+    },
+    {
+      "title": "Chapter 206-5-eng-li",
+      "chapter": 206,
+      "chapterKey": "206-5",
+      "chapterLabel": "206-5-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-206-5-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-206-5-eng-li/",
+      "total": 5,
+      "images": [
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206-5/0.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206-5/1.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206-5/2.jpg",
+        "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-206-5/3.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
       ]
     },
     {
-      "title": "Chapter 207",
+      "title": "Chapter 207-eng-li",
       "chapter": 207,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-207-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-207-eng-li/",
@@ -4931,10 +5405,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-207/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-207/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-207/15.jpg"
-      ]
+      ],
+      "chapterKey": "207",
+      "chapterLabel": "207-eng-li"
     },
     {
-      "title": "Chapter 208",
+      "title": "Chapter 208-eng-li",
       "chapter": 208,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-208-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-208-eng-li/",
@@ -4955,10 +5431,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-208/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-208/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-208/14.jpg"
-      ]
+      ],
+      "chapterKey": "208",
+      "chapterLabel": "208-eng-li"
     },
     {
-      "title": "Chapter 209",
+      "title": "Chapter 209-eng-li",
       "chapter": 209,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-209-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-209-eng-li/",
@@ -4977,10 +5455,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-209/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-209/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-209/12.jpg"
-      ]
+      ],
+      "chapterKey": "209",
+      "chapterLabel": "209-eng-li"
     },
     {
-      "title": "Chapter 210",
+      "title": "Chapter 210-eng-li",
       "chapter": 210,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-210-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-210-eng-li/",
@@ -4997,10 +5477,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-210/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-210/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-210/10.jpg"
-      ]
+      ],
+      "chapterKey": "210",
+      "chapterLabel": "210-eng-li"
     },
     {
-      "title": "Chapter 211",
+      "title": "Chapter 211-eng-li",
       "chapter": 211,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-211-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-211-eng-li/",
@@ -5021,10 +5503,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-211/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-211/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-211/14.jpg"
-      ]
+      ],
+      "chapterKey": "211",
+      "chapterLabel": "211-eng-li"
     },
     {
-      "title": "Chapter 212",
+      "title": "Chapter 212-eng-li",
       "chapter": 212,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-212-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-212-eng-li/",
@@ -5046,10 +5530,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-212/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-212/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-212/15.jpg"
-      ]
+      ],
+      "chapterKey": "212",
+      "chapterLabel": "212-eng-li"
     },
     {
-      "title": "Chapter 213",
+      "title": "Chapter 213-eng-li",
       "chapter": 213,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-213-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-213-eng-li/",
@@ -5067,10 +5553,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-213/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-213/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-213/11.jpg"
-      ]
+      ],
+      "chapterKey": "213",
+      "chapterLabel": "213-eng-li"
     },
     {
-      "title": "Chapter 214",
+      "title": "Chapter 214-eng-li",
       "chapter": 214,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-214-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-214-eng-li/",
@@ -5091,10 +5579,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-214/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-214/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-214/14.jpg"
-      ]
+      ],
+      "chapterKey": "214",
+      "chapterLabel": "214-eng-li"
     },
     {
-      "title": "Chapter 215",
+      "title": "Chapter 215-eng-li",
       "chapter": 215,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-215-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-215-eng-li/",
@@ -5113,10 +5603,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-215/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-215/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-215/12.jpg"
-      ]
+      ],
+      "chapterKey": "215",
+      "chapterLabel": "215-eng-li"
     },
     {
-      "title": "Chapter 216",
+      "title": "Chapter 216-eng-li",
       "chapter": 216,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-216-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-216-eng-li/",
@@ -5137,10 +5629,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-216/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-216/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-216/14.jpg"
-      ]
+      ],
+      "chapterKey": "216",
+      "chapterLabel": "216-eng-li"
     },
     {
-      "title": "Chapter 217",
+      "title": "Chapter 217-eng-li",
       "chapter": 217,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-217-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-217-eng-li/",
@@ -5158,10 +5652,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-217/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-217/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-217/11.jpg"
-      ]
+      ],
+      "chapterKey": "217",
+      "chapterLabel": "217-eng-li"
     },
     {
-      "title": "Chapter 218",
+      "title": "Chapter 218-eng-li",
       "chapter": 218,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-218-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-218-eng-li/",
@@ -5181,10 +5677,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-218/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-218/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-218/13.jpg"
-      ]
+      ],
+      "chapterKey": "218",
+      "chapterLabel": "218-eng-li"
     },
     {
-      "title": "Chapter 219",
+      "title": "Chapter 219-eng-li",
       "chapter": 219,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-219-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-219-eng-li/",
@@ -5202,10 +5700,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/1-murim-login/chapter-219/10.png",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/1-murim-login/chapter-219/11.png",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/1-murim-login/chapter-219/12.png"
-      ]
+      ],
+      "chapterKey": "219",
+      "chapterLabel": "219-eng-li"
     },
     {
-      "title": "Chapter 220",
+      "title": "Chapter 220-eng-li",
       "chapter": 220,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-220-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-220-eng-li/",
@@ -5227,10 +5727,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-220/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-220/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-220/15.jpg"
-      ]
+      ],
+      "chapterKey": "220",
+      "chapterLabel": "220-eng-li"
     },
     {
-      "title": "Chapter 221",
+      "title": "Chapter 221-eng-li",
       "chapter": 221,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-221-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-221-eng-li/",
@@ -5250,10 +5752,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-221/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-221/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-221/13.jpg"
-      ]
+      ],
+      "chapterKey": "221",
+      "chapterLabel": "221-eng-li"
     },
     {
-      "title": "Chapter 222",
+      "title": "Chapter 222-eng-li",
       "chapter": 222,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-222-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-222-eng-li/",
@@ -5274,10 +5778,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-222/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-222/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-222/14.jpg"
-      ]
+      ],
+      "chapterKey": "222",
+      "chapterLabel": "222-eng-li"
     },
     {
-      "title": "Chapter 223",
+      "title": "Chapter 223-eng-li",
       "chapter": 223,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-223-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-223-eng-li/",
@@ -5296,10 +5802,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-223/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-223/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-223/12.jpg"
-      ]
+      ],
+      "chapterKey": "223",
+      "chapterLabel": "223-eng-li"
     },
     {
-      "title": "Chapter 224",
+      "title": "Chapter 224-eng-li",
       "chapter": 224,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-224-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-224-eng-li/",
@@ -5322,10 +5830,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-224/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-224/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-224/16.jpg"
-      ]
+      ],
+      "chapterKey": "224",
+      "chapterLabel": "224-eng-li"
     },
     {
-      "title": "Chapter 225",
+      "title": "Chapter 225-eng-li",
       "chapter": 225,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-225-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-225-eng-li/",
@@ -5349,10 +5859,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-225/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-225/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-225/17.jpg"
-      ]
+      ],
+      "chapterKey": "225",
+      "chapterLabel": "225-eng-li"
     },
     {
-      "title": "Chapter 226",
+      "title": "Chapter 226-eng-li",
       "chapter": 226,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-226-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-226-eng-li/",
@@ -5375,10 +5887,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-226/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-226/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-226/16.jpg"
-      ]
+      ],
+      "chapterKey": "226",
+      "chapterLabel": "226-eng-li"
     },
     {
-      "title": "Chapter 227",
+      "title": "Chapter 227-eng-li",
       "chapter": 227,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-227-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-227-eng-li/",
@@ -5400,10 +5914,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-227/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-227/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-227/15.jpg"
-      ]
+      ],
+      "chapterKey": "227",
+      "chapterLabel": "227-eng-li"
     },
     {
-      "title": "Chapter 228",
+      "title": "Chapter 228-eng-li",
       "chapter": 228,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-228-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-228-eng-li/",
@@ -5426,10 +5942,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-228/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-228/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-228/16.jpg"
-      ]
+      ],
+      "chapterKey": "228",
+      "chapterLabel": "228-eng-li"
     },
     {
-      "title": "Chapter 229",
+      "title": "Chapter 229-eng-li",
       "chapter": 229,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-229-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-229-eng-li/",
@@ -5452,10 +5970,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-229/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-229/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-229/16.jpg"
-      ]
+      ],
+      "chapterKey": "229",
+      "chapterLabel": "229-eng-li"
     },
     {
-      "title": "Chapter 230",
+      "title": "Chapter 230-eng-li",
       "chapter": 230,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-230-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-230-eng-li/",
@@ -5476,10 +5996,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-230/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-230/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-230/14.jpg"
-      ]
+      ],
+      "chapterKey": "230",
+      "chapterLabel": "230-eng-li"
     },
     {
-      "title": "Chapter 231",
+      "title": "Chapter 231-eng-li",
       "chapter": 231,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-231-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-231-eng-li/",
@@ -5503,10 +6025,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-231/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-231/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-231/17.jpg"
-      ]
+      ],
+      "chapterKey": "231",
+      "chapterLabel": "231-eng-li"
     },
     {
-      "title": "Chapter 232",
+      "title": "Chapter 232-eng-li",
       "chapter": 232,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-232-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-232-eng-li/",
@@ -5527,10 +6051,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-232/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-232/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-232/14.jpg"
-      ]
+      ],
+      "chapterKey": "232",
+      "chapterLabel": "232-eng-li"
     },
     {
-      "title": "Chapter 233",
+      "title": "Chapter 233-eng-li",
       "chapter": 233,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-233-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-233-eng-li/",
@@ -5548,10 +6074,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-233/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-233/10.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-233/11.jpg"
-      ]
+      ],
+      "chapterKey": "233",
+      "chapterLabel": "233-eng-li"
     },
     {
-      "title": "Chapter 234",
+      "title": "Chapter 234-eng-li",
       "chapter": 234,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-234-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-234-eng-li/",
@@ -5571,10 +6099,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-234/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-234/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-234/13.jpg"
-      ]
+      ],
+      "chapterKey": "234",
+      "chapterLabel": "234-eng-li"
     },
     {
-      "title": "Chapter 235",
+      "title": "Chapter 235-eng-li",
       "chapter": 235,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-235-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-235-eng-li/",
@@ -5591,10 +6121,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-235/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-235/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-235/10.jpg"
-      ]
+      ],
+      "chapterKey": "235",
+      "chapterLabel": "235-eng-li"
     },
     {
-      "title": "Chapter 236",
+      "title": "Chapter 236-eng-li",
       "chapter": 236,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-236-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-236-eng-li/",
@@ -5615,10 +6147,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-236/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-236/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-236/14.jpg"
-      ]
+      ],
+      "chapterKey": "236",
+      "chapterLabel": "236-eng-li"
     },
     {
-      "title": "Chapter 237",
+      "title": "Chapter 237-eng-li",
       "chapter": 237,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-237-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-237-eng-li/",
@@ -5638,10 +6172,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-237/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-237/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-237/13.jpg"
-      ]
+      ],
+      "chapterKey": "237",
+      "chapterLabel": "237-eng-li"
     },
     {
-      "title": "Chapter 238",
+      "title": "Chapter 238-eng-li",
       "chapter": 238,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-238-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-238-eng-li/",
@@ -5665,10 +6201,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-238/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-238/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-238/17.jpg"
-      ]
+      ],
+      "chapterKey": "238",
+      "chapterLabel": "238-eng-li"
     },
     {
-      "title": "Chapter 239",
+      "title": "Chapter 239-eng-li",
       "chapter": 239,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-239-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-239-eng-li/",
@@ -5689,10 +6227,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-239/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-239/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-239/14.jpg"
-      ]
+      ],
+      "chapterKey": "239",
+      "chapterLabel": "239-eng-li"
     },
     {
-      "title": "Chapter 240",
+      "title": "Chapter 240-eng-li",
       "chapter": 240,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-240-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-240-eng-li/",
@@ -5716,10 +6256,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-240/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-240/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-240/17.jpg"
-      ]
+      ],
+      "chapterKey": "240",
+      "chapterLabel": "240-eng-li"
     },
     {
-      "title": "Chapter 241",
+      "title": "Chapter 241-eng-li",
       "chapter": 241,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-241-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-241-eng-li/",
@@ -5739,10 +6281,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-241/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-241/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-241/13.jpg"
-      ]
+      ],
+      "chapterKey": "241",
+      "chapterLabel": "241-eng-li"
     },
     {
-      "title": "Chapter 242",
+      "title": "Chapter 242-eng-li",
       "chapter": 242,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-242-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-242-eng-li/",
@@ -5762,10 +6306,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-242/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-242/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-242/13.jpg"
-      ]
+      ],
+      "chapterKey": "242",
+      "chapterLabel": "242-eng-li"
     },
     {
-      "title": "Chapter 243",
+      "title": "Chapter 243-eng-li",
       "chapter": 243,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-243-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-243-eng-li/",
@@ -5782,10 +6328,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-243/8.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-243/9.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-243/10.jpg"
-      ]
+      ],
+      "chapterKey": "243",
+      "chapterLabel": "243-eng-li"
     },
     {
-      "title": "Chapter 244",
+      "title": "Chapter 244-eng-li",
       "chapter": 244,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-244-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-244-eng-li/",
@@ -5807,10 +6355,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-244/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-244/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-244/15.jpg"
-      ]
+      ],
+      "chapterKey": "244",
+      "chapterLabel": "244-eng-li"
     },
     {
-      "title": "Chapter 245",
+      "title": "Chapter 245-eng-li",
       "chapter": 245,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-245-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-245-eng-li/",
@@ -5832,10 +6382,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-245/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-245/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-245/15.jpg"
-      ]
+      ],
+      "chapterKey": "245",
+      "chapterLabel": "245-eng-li"
     },
     {
-      "title": "Chapter 246",
+      "title": "Chapter 246-eng-li",
       "chapter": 246,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-246-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-246-eng-li/",
@@ -5857,10 +6409,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-246/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-246/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-246/15.jpg"
-      ]
+      ],
+      "chapterKey": "246",
+      "chapterLabel": "246-eng-li"
     },
     {
-      "title": "Chapter 247",
+      "title": "Chapter 247-eng-li",
       "chapter": 247,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-247-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-247-eng-li/",
@@ -5884,10 +6438,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-247/15.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-247/16.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-247/17.jpg"
-      ]
+      ],
+      "chapterKey": "247",
+      "chapterLabel": "247-eng-li"
     },
     {
-      "title": "Chapter 248",
+      "title": "Chapter 248-eng-li",
       "chapter": 248,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-248-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-248-eng-li/",
@@ -5907,10 +6463,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-248/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-248/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-248/13.jpg"
-      ]
+      ],
+      "chapterKey": "248",
+      "chapterLabel": "248-eng-li"
     },
     {
-      "title": "Chapter 249",
+      "title": "Chapter 249-eng-li",
       "chapter": 249,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-249-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-249-eng-li/",
@@ -5932,10 +6490,12 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-249/13.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-249/14.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-249/15.jpg"
-      ]
+      ],
+      "chapterKey": "249",
+      "chapterLabel": "249-eng-li"
     },
     {
-      "title": "Chapter 250",
+      "title": "Chapter 250-eng-li",
       "chapter": 250,
       "url": "https://www.mgeko.cc/reader/en/murim-login-chapter-250-eng-li/",
       "finalUrl": "https://www.mgeko.cc/reader/en/murim-login-chapter-250-eng-li/",
@@ -5955,8 +6515,9 @@
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-250/11.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-250/12.jpg",
         "https://imgsrv4.com/mg1/fastcdn/cdn_mangaraw/murim-login/chapter-250/13.jpg"
-      ]
+      ],
+      "chapterKey": "250",
+      "chapterLabel": "250-eng-li"
     }
-  ],
-  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp"
+  ]
 }

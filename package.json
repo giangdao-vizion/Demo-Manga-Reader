@@ -15,7 +15,8 @@
     "crawl-mgeko-series": "./crawl-mgeko-series.js",
     "sync-catalog": "./sync-catalog.js",
     "sync-catalog-content": "./sync-catalog-content.js",
-    "catalog-view": "./catalog/view-server.js"
+    "catalog-view": "./catalog/view-server.js",
+    "sync-featured-updates": "./sync-featured-updates.js"
   },
   "scripts": {
     "start": "node cli.js",
@@ -33,6 +34,7 @@
     "catalog:content:qimanhwa": "node sync-catalog-content.js catalog/configs/qimanhwa-content.json",
     "catalog:content:all": "node sync-catalog-content.js catalog/configs/catalog-content-all-sources.json",
     "catalog:view": "PORT=8080 node catalog/view-server.js",
+    "featured:sync": "node sync-featured-updates.js",
     "qimanhwa:images": "node get-qimanhwa-chapter-images.js",
     "qimanhwa:images:pw": "node get-qimanhwa-chapter-images.js --playwright",
     "mgeko:images": "node get-mgeko-chapter-images.js",
