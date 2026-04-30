@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-23T15:29:00.326Z",
+  "updatedAt": "2026-04-30T09:40:08.377Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1693,6 +1693,20 @@
       "toChapter": 270,
       "chapterCount": 270,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/59966.jpg"
+    },
+    {
+      "dataFile": "absolute-regression.json",
+      "title": "Absolute Regression",
+      "displayTitle": "Absolute Regression",
+      "subtitle": "Ch. 1–98 · absolute-regression.json",
+      "source": "asura",
+      "fromChapter": 1,
+      "toChapter": 98,
+      "chapterCount": 98,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp"
     }
   ]
 }

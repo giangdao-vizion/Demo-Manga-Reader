@@ -678,7 +678,7 @@
       <div class="meta" id="appMeta"></div>
     </div>
     <div class="toolbar">
-      <a class="tool-link glass" href="home.html">Home</a>
+      <a class="tool-link glass" id="backToDetailLink" href="home.html">Back</a>
       <label class="concurrency-wrap glass" for="loadConcurrencySelect"
         ><span>Tải</span
         ><select id="loadConcurrencySelect" aria-label="Số ảnh tải cùng lúc">
@@ -858,6 +858,7 @@
         main: document.getElementById("main"),
         title: document.getElementById("appTitle"),
         meta: document.getElementById("appMeta"),
+        backToDetailLink: document.getElementById("backToDetailLink"),
         placeholder: document.getElementById("placeholder"),
         concurrencySelect: document.getElementById("loadConcurrencySelect"),
         prefetchAheadSelect: document.getElementById("prefetchAheadSelect"),
@@ -1138,6 +1139,24 @@
         if (next !== location.pathname + location.search) {
           history.replaceState(null, "", next);
         }
+        syncBackToDetailLink();
+      }
+
+      function syncBackToDetailLink() {
+        if (!el.backToDetailLink) return;
+        const dataName = String(dataFileName || "").trim();
+        if (!dataName || dataName === "(nhúng)") {
+          el.backToDetailLink.href = "home.html";
+          return;
+        }
+        const p = new URLSearchParams();
+        p.set("data", dataName);
+        if (data && activeIndex >= 0) {
+          const ch = data.chapters[activeIndex];
+          const chapterNum = ch && ch.chapter != null ? ch.chapter : activeIndex + 1;
+          p.set("c", String(chapterNum));
+        }
+        el.backToDetailLink.href = "detail.html?" + p.toString();
       }
 
       function parseJson(text) {
@@ -1620,6 +1639,7 @@
 
         renderNav();
         setActive(resolveStartChapter(j));
+        syncBackToDetailLink();
       }
 
       function showMainError(msg) {

@@ -493,74 +493,6 @@
       color: #ff9a9a;
     }
 
-    /* —— Chapter picker —— */
-    #view-chapters {
-      max-width: var(--max);
-      margin: 0 auto;
-    }
-    .picker-top {
-      padding: 18px 20px;
-      margin-bottom: 18px;
-    }
-    .picker-top h2 {
-      margin: 12px 0 14px;
-      font-size: clamp(1rem, 2.5vw, 1.2rem);
-      font-weight: 750;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-    }
-    .btn-back {
-      font: inherit;
-      font-size: 0.8rem;
-      font-weight: 600;
-      padding: 10px 16px;
-      border-radius: 999px;
-      border: 1px solid var(--stroke);
-      background: rgba(255, 255, 255, 0.06);
-      color: var(--accent);
-      cursor: pointer;
-    }
-    .btn-back:hover {
-      border-color: var(--stroke-strong);
-      background: var(--accent-soft);
-    }
-    .jump-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 10px 12px;
-    }
-    .jump-row label {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      font-weight: 600;
-    }
-    .jump-row select {
-      flex: 1;
-      min-width: 160px;
-      min-height: var(--touch);
-      padding: 0 12px;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--stroke);
-      background: rgba(0, 0, 0, 0.35);
-      color: var(--text);
-      font-size: 0.88rem;
-    }
-    .jump-row a.read-btn {
-      font-size: 0.8rem;
-      font-weight: 600;
-      padding: 10px 20px;
-      border-radius: 999px;
-      border: 1px solid var(--stroke-strong);
-      background: var(--accent-soft);
-      color: var(--accent);
-      text-decoration: none;
-      white-space: nowrap;
-    }
-    .jump-row a.read-btn[aria-disabled="true"] {
-      opacity: 0.4;
-      pointer-events: none;
-    }
     .chapter-grid-label {
       font-size: 0.65rem;
       font-weight: 700;
@@ -568,53 +500,6 @@
       text-transform: uppercase;
       color: var(--text-muted);
       margin: 18px 0 10px;
-    }
-    .chapter-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
-      gap: 8px;
-    }
-    .chapter-grid a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 42px;
-      padding: 8px 6px;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--stroke);
-      background: rgba(0, 0, 0, 0.28);
-      color: var(--text);
-      text-decoration: none;
-      font-size: 0.78rem;
-      font-weight: 600;
-      font-variant-numeric: tabular-nums;
-      transition: border-color 0.15s ease, background 0.15s ease;
-    }
-    .chapter-grid a:hover {
-      border-color: var(--stroke-strong);
-      background: var(--accent-soft);
-    }
-    .chapter-grid a .ch-read-check {
-      margin-right: 2px;
-      font-size: 0.7rem;
-      color: var(--accent);
-    }
-
-    #loadOverlay {
-      position: fixed;
-      inset: 0;
-      z-index: 200;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-      background: rgba(0, 0, 0, 0.55);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-    }
-    #loadOverlay .load-state {
-      padding: 28px 24px;
-      border-radius: var(--radius);
     }
   </style>
 </head>
@@ -676,23 +561,6 @@
       <nav class="catalog-pager glass" id="catalogPager" hidden aria-label="Phân trang"></nav>
     </div>
 
-    <div id="view-chapters" class="hidden">
-      <div class="picker-top glass">
-        <button type="button" class="btn-back" id="btnBack">← Thư viện</button>
-        <h2 id="pickerTitle"></h2>
-        <div class="jump-row">
-          <label for="jumpSelect">Chương</label>
-          <select id="jumpSelect" aria-label="Chọn số chương"></select>
-          <a class="read-btn" id="jumpRead" href="#">Đọc</a>
-        </div>
-      </div>
-      <div class="chapter-grid-label">Chọn nhanh</div>
-      <div id="chapterGrid" class="chapter-grid"></div>
-    </div>
-  </div>
-
-  <div id="loadOverlay" class="hidden">
-    <div class="load-state glass" id="loadMessage">Đang tải danh sách chương…</div>
   </div>
 
   <script>
@@ -710,19 +578,10 @@
         return location.origin + path + "/";
       }
 
-      const DATA_JSON_DIR = "data-json/";
-
       function resolveCatalogUrl() {
         return new URL("manhwa-catalog.json", getManifestBaseDir()).href;
       }
 
-      function resolveSeriesJsonUrl(fileName) {
-        const base = getManifestBaseDir();
-        const safe = String(fileName || "").trim().split(/[/\\]/).pop() || "";
-        return new URL(DATA_JSON_DIR + safe, base).href;
-      }
-
-      const viewSeries = document.getElementById("view-series");
       const catalogToolbar = document.getElementById("catalogToolbar");
       const catalogGrid = document.getElementById("catalogGrid");
       const catalogSearch = document.getElementById("catalogSearch");
@@ -730,14 +589,6 @@
       const catalogPageSize = document.getElementById("catalogPageSize");
       const catalogStats = document.getElementById("catalogStats");
       const catalogPager = document.getElementById("catalogPager");
-      const viewChapters = document.getElementById("view-chapters");
-      const loadOverlay = document.getElementById("loadOverlay");
-      const loadMessage = document.getElementById("loadMessage");
-      const pickerTitle = document.getElementById("pickerTitle");
-      const jumpSelect = document.getElementById("jumpSelect");
-      const jumpRead = document.getElementById("jumpRead");
-      const chapterGrid = document.getElementById("chapterGrid");
-      const btnBack = document.getElementById("btnBack");
       const headerHint = document.getElementById("headerHint");
       const favoritesSection = document.getElementById("favoritesSection");
       const favoritesGrid = document.getElementById("favoritesGrid");
@@ -746,7 +597,6 @@
       const catalogMainLabel = document.getElementById("catalogMainLabel");
       const catalogSearchWrap = document.getElementById("catalogSearchWrap");
 
-      let currentDataFile = "";
       let allSeries = [];
       let filteredSeries = [];
       let currentPage = 1;
@@ -754,7 +604,6 @@
       let favoriteOrder = [];
       let lastSearchMatchCount = 0;
 
-      const LS_READ_CHAPTERS = "reader-read-chapters-v1";
       const LS_FAVORITES = "reader-home-favorites-v1";
 
       function favoritesLoadIds() {
@@ -799,111 +648,18 @@
         applyFilterAndSort();
       }
 
-      function readChaptersLoadMap() {
-        try {
-          const raw = localStorage.getItem(LS_READ_CHAPTERS);
-          if (!raw) return {};
-          const j = JSON.parse(raw);
-          return j && typeof j === "object" && !Array.isArray(j) ? j : {};
-        } catch {
-          return {};
-        }
-      }
-
-      function readChaptersIsRead(manifestKey, chapterNum) {
-        const k = String(manifestKey || "").trim() || "_";
-        const c = String(chapterNum);
-        const book = readChaptersLoadMap()[k];
-        return !!(book && book[c]);
-      }
-
-      function readerUrl(chapterNum) {
+      function detailUrl(dataFile, chapterNum) {
         const p = new URLSearchParams();
-        p.set("data", currentDataFile);
-        p.set("c", String(chapterNum));
-        return "index.html?" + p.toString();
-      }
-
-      function updateJumpReadHref() {
-        const v = jumpSelect.value;
-        if (!v) {
-          jumpRead.setAttribute("aria-disabled", "true");
-          jumpRead.removeAttribute("href");
-          return;
+        p.set("data", String(dataFile || "").trim());
+        if (chapterNum != null) {
+          p.set("c", String(chapterNum));
         }
-        jumpRead.removeAttribute("aria-disabled");
-        jumpRead.href = readerUrl(v);
+        return "detail.html?" + p.toString();
       }
 
-      function showSeries() {
-        viewSeries.classList.remove("hidden");
-        viewChapters.classList.add("hidden");
-        loadOverlay.classList.add("hidden");
-        headerHint.textContent =
-          "Tìm kiếm, sắp xếp hoặc lật trang để duyệt thư viện.";
-      }
-
-      function showChapters(title, dataFile, chapters) {
-        currentDataFile = dataFile;
-        pickerTitle.textContent = title;
-        jumpSelect.innerHTML = "";
-        chapterGrid.innerHTML = "";
-
-        chapters.forEach(function (ch, i) {
-          const num = ch.chapter != null ? ch.chapter : i + 1;
-          const read = readChaptersIsRead(dataFile, num);
-          const opt = document.createElement("option");
-          opt.value = String(num);
-          opt.textContent = (ch.title || "Chapter " + num) + (read ? " ✓" : "");
-          jumpSelect.appendChild(opt);
-
-          const a = document.createElement("a");
-          a.href = readerUrl(num);
-          if (read) {
-            const check = document.createElement("span");
-            check.className = "ch-read-check";
-            check.setAttribute("aria-hidden", "true");
-            check.textContent = "✓";
-            a.appendChild(check);
-          }
-          a.appendChild(document.createTextNode("Ch." + num));
-          chapterGrid.appendChild(a);
-        });
-
-        updateJumpReadHref();
-
-        viewSeries.classList.add("hidden");
-        viewChapters.classList.remove("hidden");
-        loadOverlay.classList.add("hidden");
-        headerHint.textContent = "Chọn chương để bắt đầu đọc, hoặc quay lại thư viện.";
-        window.scrollTo(0, 0);
-      }
-
-      async function openSeries(btn) {
+      function openSeries(btn) {
         const dataFile = btn.getAttribute("data-datafile");
-        const title = btn.getAttribute("data-title") || dataFile;
-        loadMessage.textContent = "Đang tải danh sách chương…";
-        loadMessage.classList.remove("err");
-        loadOverlay.classList.remove("hidden");
-
-        try {
-          const res = await fetch(resolveSeriesJsonUrl(dataFile), {
-            credentials: "same-origin",
-            cache: "no-store",
-          });
-          if (!res.ok) {
-            throw new Error("HTTP " + res.status);
-          }
-          const j = JSON.parse(await res.text());
-          if (!j || !Array.isArray(j.chapters)) {
-            throw new Error('File JSON không có mảng "chapters".');
-          }
-          showChapters(title, dataFile, j.chapters);
-        } catch (e) {
-          loadMessage.textContent =
-            "Không tải được " + dataFile + ". " + (e.message || "Lỗi không xác định.");
-          loadMessage.classList.add("err");
-        }
+        location.href = detailUrl(dataFile, null);
       }
 
       function norm(s) {
@@ -1242,9 +998,6 @@
         currentPage = 1;
         applyFilterAndSort();
       });
-
-      btnBack.addEventListener("click", showSeries);
-      jumpSelect.addEventListener("change", updateJumpReadHref);
 
       void loadManhwaCatalog();
     })();

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Chi tiết truyện</title>
+  <style>
+    :root {
+      --bg-deep: #08090f;
+      --stroke: rgba(255, 255, 255, 0.12);
+      --text: rgba(255, 255, 255, 0.94);
+      --text-muted: rgba(255, 255, 255, 0.55);
+      --accent: #5ee7ff;
+      --accent-soft: rgba(94, 231, 255, 0.14);
+      --radius: 14px;
+      --radius-sm: 10px;
+      --touch: 44px;
+      --max: 980px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: var(--bg-deep);
+      background-image:
+        radial-gradient(ellipse 100% 80% at 50% -30%, rgba(60, 100, 180, 0.22), transparent 55%),
+        linear-gradient(180deg, #0c0e16 0%, var(--bg-deep) 40%);
+      padding: max(12px, env(safe-area-inset-top, 0px)) 16px max(24px, env(safe-area-inset-bottom, 0px));
+    }
+    .shell { max-width: var(--max); margin: 0 auto; }
+    .glass {
+      background: rgba(18, 22, 34, 0.75);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid var(--stroke);
+      border-radius: var(--radius);
+    }
+    .top {
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+    .home-btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: var(--touch);
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+    h1 {
+      margin: 12px 0 8px;
+      font-size: clamp(1.05rem, 2.6vw, 1.35rem);
+      letter-spacing: -0.02em;
+    }
+    .meta { margin: 0; color: var(--text-muted); font-size: 0.8rem; }
+    .jump-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 12px;
+      margin-top: 16px;
+    }
+    .jump-row label { font-size: 0.75rem; color: var(--text-muted); font-weight: 600; }
+    .jump-row select {
+      flex: 1;
+      min-width: 180px;
+      min-height: var(--touch);
+      padding: 0 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--stroke);
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text);
+      font-size: 0.88rem;
+    }
+    .read-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: var(--touch);
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 1px solid rgba(94, 231, 255, 0.4);
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 650;
+    }
+    .read-btn[aria-disabled="true"] { opacity: 0.4; pointer-events: none; }
+    .chapter-grid-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 18px 0 10px;
+    }
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+      gap: 8px;
+    }
+    .chapter-grid a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 8px 6px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--stroke);
+      background: rgba(0, 0, 0, 0.28);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .chapter-grid a:hover { border-color: rgba(94, 231, 255, 0.45); background: var(--accent-soft); }
+    .ch-read-check { margin-right: 2px; font-size: 0.7rem; color: var(--accent); }
+    .load-state { text-align: center; padding: 48px 20px; font-size: 0.9rem; color: var(--text-muted); }
+    .err { color: #ff9a9a; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="top glass">
+      <a class="home-btn" href="home.html">← Home</a>
+      <h1 id="title">Đang tải…</h1>
+      <p class="meta" id="meta"></p>
+      <div class="jump-row">
+        <label for="jumpSelect">Chương</label>
+        <select id="jumpSelect" aria-label="Chọn chương"></select>
+        <a class="read-btn" id="jumpRead" href="#" aria-disabled="true">Đọc</a>
+      </div>
+    </div>
+    <div class="chapter-grid-label">Danh sách chương</div>
+    <div id="chapterGrid" class="chapter-grid"></div>
+    <p id="state" class="load-state">Đang tải danh sách chương…</p>
+  </div>
+  <script>
+    (function () {
+      const LS_READ_CHAPTERS = "reader-read-chapters-v1";
+
+      function getManifestBaseDir() {
+        const path = location.pathname || "/";
+        if (path.endsWith("/")) return location.origin + path;
+        const slash = path.lastIndexOf("/");
+        const lastSeg = path.slice(slash + 1);
+        if (lastSeg.includes(".")) return location.origin + path.slice(0, slash + 1);
+        return location.origin + path + "/";
+      }
+
+      function getDataFile() {
+        const p = new URLSearchParams(location.search);
+        const d = String(p.get("data") || "").trim().split(/[/\\]/).pop() || "";
+        return d;
+      }
+
+      function getStartChapter() {
+        const p = new URLSearchParams(location.search);
+        const c = parseInt(String(p.get("c") || ""), 10);
+        return Number.isFinite(c) ? c : null;
+      }
+
+      function resolveSeriesJsonUrl(fileName) {
+        return new URL("data-json/" + fileName, getManifestBaseDir()).href;
+      }
+
+      function readChaptersLoadMap() {
+        try {
+          const raw = localStorage.getItem(LS_READ_CHAPTERS);
+          if (!raw) return {};
+          const j = JSON.parse(raw);
+          return j && typeof j === "object" && !Array.isArray(j) ? j : {};
+        } catch {
+          return {};
+        }
+      }
+
+      function readChaptersIsRead(manifestKey, chapterNum) {
+        const k = String(manifestKey || "").trim() || "_";
+        const c = String(chapterNum);
+        const book = readChaptersLoadMap()[k];
+        return !!(book && book[c]);
+      }
+
+      function readerUrl(dataFile, chapterNum) {
+        const p = new URLSearchParams();
+        p.set("data", dataFile);
+        p.set("c", String(chapterNum));
+        return "index.html?" + p.toString();
+      }
+
+      const el = {
+        title: document.getElementById("title"),
+        meta: document.getElementById("meta"),
+        jumpSelect: document.getElementById("jumpSelect"),
+        jumpRead: document.getElementById("jumpRead"),
+        chapterGrid: document.getElementById("chapterGrid"),
+        state: document.getElementById("state"),
+      };
+
+      const dataFile = getDataFile();
+      if (!dataFile) {
+        el.state.textContent = "Thiếu tham số data.";
+        el.state.classList.add("err");
+        return;
+      }
+
+      function updateJumpReadHref() {
+        const v = el.jumpSelect.value;
+        if (!v) {
+          el.jumpRead.setAttribute("aria-disabled", "true");
+          el.jumpRead.removeAttribute("href");
+          return;
+        }
+        el.jumpRead.removeAttribute("aria-disabled");
+        el.jumpRead.href = readerUrl(dataFile, v);
+      }
+
+      async function init() {
+        try {
+          const res = await fetch(resolveSeriesJsonUrl(dataFile), {
+            credentials: "same-origin",
+            cache: "no-store",
+          });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const j = JSON.parse(await res.text());
+          if (!j || !Array.isArray(j.chapters)) throw new Error('File JSON không có mảng "chapters".');
+
+          el.title.textContent = j.title || j.displayTitle || dataFile;
+          el.meta.textContent = j.chapters.length + " chương · data=" + dataFile;
+          el.chapterGrid.innerHTML = "";
+          el.jumpSelect.innerHTML = "";
+
+          const startChapter = getStartChapter();
+          let selected = false;
+          j.chapters.forEach(function (ch, i) {
+            const num = ch.chapter != null ? ch.chapter : i + 1;
+            const read = readChaptersIsRead(dataFile, num);
+
+            const opt = document.createElement("option");
+            opt.value = String(num);
+            opt.textContent = (ch.title || "Chapter " + num) + (read ? " ✓" : "");
+            if (!selected && startChapter != null && Number(num) === startChapter) {
+              opt.selected = true;
+              selected = true;
+            }
+            el.jumpSelect.appendChild(opt);
+
+            const a = document.createElement("a");
+            a.href = readerUrl(dataFile, num);
+            if (read) {
+              const check = document.createElement("span");
+              check.className = "ch-read-check";
+              check.setAttribute("aria-hidden", "true");
+              check.textContent = "✓";
+              a.appendChild(check);
+            }
+            a.appendChild(document.createTextNode("Ch." + num));
+            el.chapterGrid.appendChild(a);
+          });
+
+          if (!selected && el.jumpSelect.options.length) {
+            el.jumpSelect.selectedIndex = 0;
+          }
+          updateJumpReadHref();
+          el.state.remove();
+        } catch (e) {
+          el.state.textContent = "Không tải được danh sách chương: " + (e.message || "lỗi");
+          el.state.classList.add("err");
+        }
+      }
+
+      el.jumpSelect.addEventListener("change", updateJumpReadHref);
+      void init();
+    })();
+  </script>
+</body>
+</html>
