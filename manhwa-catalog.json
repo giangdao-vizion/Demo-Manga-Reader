@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-08T13:25:16.298Z",
+  "updatedAt": "2026-05-08T13:58:39.866Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1723,6 +1723,21 @@
       "toChapter": 258,
       "chapterCount": 270,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/61609.png",
+      "featured": true
+    },
+    {
+      "dataFile": "one-punch-man-onepunchmantruyen.json",
+      "title": "ONE-PUNCH MAN",
+      "displayTitle": "ONE-PUNCH MAN",
+      "subtitle": "Ch. 1–369 · one-punch-man-onepunchmantruyen.json",
+      "source": "onepunchmantruyen",
+      "fromChapter": 1,
+      "toChapter": 369,
+      "chapterCount": 369,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "coverUrl": "https://onepunchmantruyen.com/wp-content/uploads/2025/11/one-punch-manz.png",
       "featured": true
     }
   ]
