@@ -244,6 +244,7 @@
           let selected = false;
           j.chapters.forEach(function (ch, i) {
             const num = ch.chapter != null ? ch.chapter : i + 1;
+            const chapterLabel = String(ch.chapterKey || "").trim() || String(num);
             const read = readChaptersIsRead(dataFile, num);
 
             const opt = document.createElement("option");
@@ -264,7 +265,7 @@
               check.textContent = "✓";
               a.appendChild(check);
             }
-            a.appendChild(document.createTextNode("Ch." + num));
+            a.appendChild(document.createTextNode("Ch." + chapterLabel));
             el.chapterGrid.appendChild(a);
           });
 

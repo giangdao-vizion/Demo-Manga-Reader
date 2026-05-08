@@ -1258,6 +1258,7 @@
           btn.className = "chap";
           if (ch.error) btn.classList.add("has-error");
           const num = ch.chapter != null ? ch.chapter : i + 1;
+          const chapterLabel = String(ch.chapterKey || "").trim() || String(num);
           const total = typeof ch.total === "number" ? ch.total : (ch.images || []).length;
           const check =
             readChaptersIsRead(dataFileName, num)
@@ -1266,7 +1267,7 @@
           btn.innerHTML =
             check +
             '<span class="n">Ch.' +
-            escapeHtml(String(num)) +
+            escapeHtml(chapterLabel) +
             '</span><span class="cnt">' +
             total +
             (ch.error ? " !" : "") +

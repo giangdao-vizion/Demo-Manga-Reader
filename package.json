@@ -40,6 +40,7 @@
     "mgeko:images": "node get-mgeko-chapter-images.js",
     "kunmanga:crawl": "node crawl-kunmanga-series.js",
     "mgeko:crawl": "node crawl-mgeko-series.js",
+    "chapters:normalize-titles": "node normalize-chapter-titles.js",
     "manhwa:export": "node export-sqlite-to-manhwa-json.js",
     "manhwa:catalog": "node export-sqlite-to-manhwa-json.js --catalog-rebuild"
   },
