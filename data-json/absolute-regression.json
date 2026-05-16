@@ -1,8 +1,8 @@
 {
   "sampleUrl": "https://asurascans.com/comics/absolute-regression-0984835a/chapter/98",
   "fromChapter": 1,
-  "toChapter": 100,
-  "fetchedAt": "2026-05-08T13:17:22.822Z",
+  "toChapter": 101,
+  "fetchedAt": "2026-05-16T03:37:32.423Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -2283,6 +2283,31 @@
         "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/100/4c2993.webp",
         "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/100/151752.webp",
         "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/100/48b90d.webp"
+      ]
+    },
+    {
+      "title": "Chapter 101",
+      "chapter": 101,
+      "url": "https://asurascans.com/comics/absolute-regression-0984835a/chapter/101",
+      "finalUrl": "https://asurascans.com/comics/absolute-regression-030ff47a/chapter/101",
+      "total": 16,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/c7ac32.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/37bcc4.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/5e9b8e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/5e9e54.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/f65652.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/391692.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/3f556d.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/d02f50.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/5e9d8b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/4ec232.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/b2ed9e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/a46553.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/7209ba.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/f541f7.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/1d22e9.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/absolute-regression/101/0e6293.webp"
       ]
     }
   ]
