@@ -808,12 +808,12 @@
       function getLoadConcurrency() {
         const raw = localStorage.getItem(LS_LOAD_CONCURRENCY);
         const n = parseInt(raw, 10);
-        if (n === 2 || n === 3 || n === 5) return n;
-        return 1;
+        if (n === 1 || n === 2 || n === 3 || n === 5) return n;
+        return 3;
       }
 
       function setLoadConcurrency(n) {
-        const v = n === 2 || n === 3 || n === 5 ? n : 1;
+        const v = n === 1 || n === 2 || n === 3 || n === 5 ? n : 3;
         localStorage.setItem(LS_LOAD_CONCURRENCY, String(v));
         return v;
       }
@@ -821,12 +821,12 @@
       function getPrefetchChaptersAhead() {
         const raw = localStorage.getItem(LS_PREFETCH_AHEAD);
         const n = parseInt(raw, 10);
-        if (n === 1 || n === 2 || n === 3) return n;
-        return 0;
+        if (n === 0 || n === 1 || n === 2 || n === 3) return n;
+        return 1;
       }
 
       function setPrefetchChaptersAhead(n) {
-        const v = n === 1 || n === 2 || n === 3 ? n : 0;
+        const v = n === 0 || n === 1 || n === 2 || n === 3 ? n : 1;
         localStorage.setItem(LS_PREFETCH_AHEAD, String(v));
         return v;
       }
