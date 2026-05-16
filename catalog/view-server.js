@@ -800,8 +800,9 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, HOST, () => {
   console.error(`Catalog UI: http://${HOST}:${PORT}/`);
-  console.error(`Reader SQLite (API): http://${HOST}:${PORT}/reader-sqlite.html?seriesId=ID&c=CHAPTER`);
-  console.error(`Reader SQLite (file+SQL.js): http://${HOST}:${PORT}/reader-sqlite-local.html`);
+  console.error(`Comic Hub · SQLite (API): http://${HOST}:${PORT}/reader-sqlite.html?seriesId=ID&c=CHAPTER`);
+  console.error(`Comic Hub · SQLite (local): http://${HOST}:${PORT}/reader-sqlite-local.html`);
+  console.error(`Comic Hub (catalog): http://${HOST}:${PORT}/home.html`);
   console.error(`Database: ${DB_PATH}${existsSync(DB_PATH) ? "" : " (chưa có file — chạy npm run catalog:sync trước)"}`);
   console.error(
     `Đồng bộ nội dung từ UI: ${ALLOW_ADMIN_CONTENT_SYNC ? "bật" : "tắt"} · config ${CONTENT_CONFIG_PATH}`

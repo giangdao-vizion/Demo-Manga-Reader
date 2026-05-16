@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Reader · SQLite (file cục bộ)</title>
+  <title>Comic Hub · SQLite (local)</title>
   <style>
     :root {
       --glass: rgba(255, 255, 255, 0.07);
@@ -623,7 +623,7 @@
 <body>
   <header class="shell glass">
     <div>
-      <h1 id="appTitle">Reader</h1>
+      <h1 id="appTitle">Comic Hub</h1>
       <div class="meta" id="appMeta"></div>
     </div>
     <div class="toolbar">
@@ -634,7 +634,8 @@
         hidden
       />
       <button type="button" class="tool-link glass" id="sqliteFileBtn">Chọn .sqlite</button>
-      <a class="tool-link glass" href="/" title="Về danh sách catalog (SQLite)">← Catalog</a>
+      <a class="tool-link glass" href="home.html" title="Thư viện Comic Hub">Comic Hub</a>
+      <a class="tool-link glass" href="/" title="Quản lý catalog SQLite">← Catalog</a>
       <label class="concurrency-wrap glass" for="loadConcurrencySelect"
         ><span>Tải</span
         ><select id="loadConcurrencySelect" aria-label="Số ảnh tải cùng lúc">

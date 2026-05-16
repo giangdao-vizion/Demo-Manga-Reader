@@ -1,4 +1,5 @@
 (function () {
+      const APP_NAME = "Comic Hub";
       const PARAM_SERIES_ID = "seriesId";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
@@ -799,11 +800,12 @@
         const from = j.fromChapter;
         const to = j.toChapter;
         const seriesTitle = j.title && String(j.title).trim();
-        el.title.textContent = seriesTitle
-          ? seriesTitle
-          : from != null && to != null
-            ? "Ch." + from + " – " + to
-            : "Reader · SQLite";
+        const chapterLabel =
+          from != null && to != null ? "Ch." + from + " – " + to : "";
+        el.title.textContent = seriesTitle || chapterLabel || APP_NAME;
+        document.title = [seriesTitle, chapterLabel, APP_NAME + " · SQLite"]
+          .filter(Boolean)
+          .join(" · ");
 
         const parts = [];
         if (j.fetchedAt) {

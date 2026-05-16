@@ -1,5 +1,6 @@
 /* global initSqlJs */
 (function () {
+      const APP_NAME = "Comic Hub";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
       const LS_LOAD_CONCURRENCY = "reader-load-concurrency";
@@ -812,11 +813,12 @@
         const from = j.fromChapter;
         const to = j.toChapter;
         const seriesTitle = j.title && String(j.title).trim();
-        el.title.textContent = seriesTitle
-          ? seriesTitle
-          : from != null && to != null
-            ? "Ch." + from + " – " + to
-            : "Reader · SQLite (local)";
+        const chapterLabel =
+          from != null && to != null ? "Ch." + from + " – " + to : "";
+        el.title.textContent = seriesTitle || chapterLabel || APP_NAME;
+        document.title = [seriesTitle, chapterLabel, APP_NAME + " · SQLite (local)"]
+          .filter(Boolean)
+          .join(" · ");
 
         const parts = [];
         if (j.fetchedAt) {
@@ -974,7 +976,7 @@
           "<strong>GitHub Pages:</strong> commit file <code>.sqlite</code> vào repo (vd. <code>docs/gh-pages/series.sqlite</code>), " +
           "rồi mở <code>?db=gh-pages/series.sqlite&amp;c=1</code> — đường dẫn tính từ URL trang hiện tại, cùng origin. " +
           "SQL.js tải WASM từ CDN lần đầu. " +
-          '<a href="reader-sqlite.html">Reader qua API</a> · <a href="/">Catalog</a> (khi chạy <code>npm run catalog:view</code>)';
+          '<a href="reader-sqlite.html">Comic Hub · SQLite (API)</a> · <a href="home.html">Comic Hub</a> · <a href="/">Catalog</a> (khi chạy <code>npm run catalog:view</code>)';
         onReaderScrollOrResize();
       }
 

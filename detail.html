@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Chi tiết truyện</title>
+  <meta name="application-name" content="Comic Hub" />
+  <title>Comic Hub</title>
   <style>
     :root {
       --bg-deep: #08090f;
@@ -131,7 +132,7 @@
 <body>
   <div class="shell">
     <div class="top glass">
-      <a class="home-btn" href="home.html">← Home</a>
+      <a class="home-btn" href="home.html">← Comic Hub</a>
       <h1 id="title">Đang tải…</h1>
       <p class="meta" id="meta"></p>
       <div class="jump-row">
@@ -235,7 +236,9 @@
           const j = JSON.parse(await res.text());
           if (!j || !Array.isArray(j.chapters)) throw new Error('File JSON không có mảng "chapters".');
 
-          el.title.textContent = j.title || j.displayTitle || dataFile;
+          const seriesTitle = j.title || j.displayTitle || dataFile;
+          el.title.textContent = seriesTitle;
+          document.title = seriesTitle + " · Comic Hub";
           el.meta.textContent = j.chapters.length + " chương · data=" + dataFile;
           el.chapterGrid.innerHTML = "";
           el.jumpSelect.innerHTML = "";

@@ -1,7 +1,7 @@
 {
   "name": "image-links-extractor",
   "version": "1.0.0",
-  "description": "Fetch a page and export all image URLs to JSON",
+  "description": "Comic Hub — offline comic reader and chapter image crawlers",
   "type": "module",
   "bin": {
     "image-links": "./cli.js",

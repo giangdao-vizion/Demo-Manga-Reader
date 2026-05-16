@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Reader</title>
+  <meta name="application-name" content="Comic Hub" />
+  <title>Comic Hub</title>
   <style>
     :root {
       --glass: rgba(255, 255, 255, 0.07);
@@ -674,7 +675,7 @@
 <body>
   <header class="shell glass">
     <div>
-      <h1 id="appTitle">Reader</h1>
+      <h1 id="appTitle">Comic Hub</h1>
       <div class="meta" id="appMeta"></div>
     </div>
     <div class="toolbar">
@@ -704,7 +705,7 @@
     <main class="reader glass" id="main">
       <div class="empty glass" id="placeholder">
         Đang tải dữ liệu… Trên host tĩnh: đặt file JSON cạnh <code>index.html</code> và mở
-        <code>?data=delusion-ch30-60.json&c=30</code>, hoặc mở từ <a href="home.html">Home</a> để chọn bộ truyện.
+        <code>?data=delusion-ch30-60.json&c=30</code>, hoặc mở từ <a href="home.html">Comic Hub</a> để chọn bộ truyện.
       </div>
     </main>
   </div>
@@ -745,6 +746,7 @@
       const PARAM_DATA = "data";
       const PARAM_CHAPTER = "c";
       const PARAM_CHAPTER_ALT = "chapter";
+      const APP_NAME = "Comic Hub";
       const LS_LOAD_CONCURRENCY = "reader-load-concurrency";
       const LS_PREFETCH_AHEAD = "reader-prefetch-chapters-ahead";
       const LS_READ_CHAPTERS = "reader-read-chapters-v1";
@@ -1627,8 +1629,11 @@
 
         const from = j.fromChapter;
         const to = j.toChapter;
-        el.title.textContent =
-          from != null && to != null ? "Ch." + from + " – " + to : "Reader";
+        const seriesTitle = j.title && String(j.title).trim();
+        const chapterLabel =
+          from != null && to != null ? "Ch." + from + " – " + to : "";
+        el.title.textContent = seriesTitle || chapterLabel || APP_NAME;
+        document.title = [seriesTitle, chapterLabel, APP_NAME].filter(Boolean).join(" · ");
 
         const parts = [];
         if (j.fetchedAt) {
