@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="application-name" content="Comic Hub" />
+  <meta name="theme-color" content="#08090f" />
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/icons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <title>Comic Hub</title>
   <style>
     :root {
@@ -59,6 +65,26 @@
       flex-wrap: wrap;
       align-items: center;
       gap: 8px 14px;
+    }
+    .shell-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .shell-brand-link {
+      flex-shrink: 0;
+      line-height: 0;
+    }
+    .shell-brand-logo {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      border-radius: 8px;
+      display: block;
+    }
+    .shell-brand-text {
+      min-width: 0;
     }
     header.shell h1 {
       margin: 0;
@@ -674,9 +700,21 @@
 </head>
 <body>
   <header class="shell glass">
-    <div>
-      <h1 id="appTitle">Comic Hub</h1>
-      <div class="meta" id="appMeta"></div>
+    <div class="shell-brand">
+      <a class="shell-brand-link" href="home.html" title="Comic Hub">
+        <img
+          class="shell-brand-logo"
+          src="assets/brand/logo-header.png"
+          srcset="assets/brand/logo-header.png 1x, assets/brand/logo-header@2x.png 2x"
+          width="36"
+          height="36"
+          alt=""
+        />
+      </a>
+      <div class="shell-brand-text">
+        <h1 id="appTitle">Comic Hub</h1>
+        <div class="meta" id="appMeta"></div>
+      </div>
     </div>
     <div class="toolbar">
       <a class="tool-link glass" id="backToDetailLink" href="home.html">Back</a>

@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0c0e14" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#1a2440" />
+    <meta name="theme-color" content="#08090f" />
+  <link rel="icon" href="../../favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/brand/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/brand/icons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/brand/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="../../site.webmanifest" />
   <title>Comic Hub · Catalog</title>
   <style>
     :root {
@@ -66,6 +72,18 @@
         padding-top: 10px;
         border-top: 1px solid var(--stroke);
       }
+    }
+    .catalog-brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .catalog-brand-logo {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      border-radius: 10px;
+      flex-shrink: 0;
     }
     header h1 {
       margin: 0;
@@ -761,7 +779,10 @@
   <div class="wrap">
     <header class="site-header">
       <div>
-        <h1>Comic Hub · Catalog</h1>
+        <div class="catalog-brand-row">
+          <img class="catalog-brand-logo" src="../../assets/brand/logo-header.png" srcset="../../assets/brand/logo-header.png 1x, ../../assets/brand/logo-header@2x.png 2x" width="44" height="44" alt="" />
+          <h1>Comic Hub · Catalog</h1>
+        </div>
         <p class="sub" id="dbPath">Đang tải…</p>
         <p class="warn" id="noDb" style="display: none">
           Chưa có file database. Trong thư mục gốc project chạy
