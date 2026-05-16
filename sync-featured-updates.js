@@ -57,6 +57,7 @@ function normalizeSource(source) {
   if (s === "mgeko") return "mgeko";
   if (s === "kunmanga") return "kunmanga";
   if (s === "onepunchmantruyen" || s === "one-punch-man-truyen") return "onepunchmantruyen";
+  if (s === "truyenonepiece" || s === "truyen-one-piece") return "truyenonepiece";
   return s;
 }
 
@@ -292,6 +293,33 @@ async function main() {
       }
       await runNodeScript([
         "crawl-onepunchmantruyen-series.js",
+        seriesUrl,
+        "--out",
+        `data-json/${dataFile}`,
+        "--no-catalog",
+        "--concurrency",
+        String(args.concurrency),
+      ]);
+      doc = await readJson(dataAbs);
+      const added = Math.max(0, Number(doc.toChapter || 0) - beforeTo);
+      if (added > 0) {
+        touchedSeries++;
+        totalAdded += added;
+      }
+    } else if (source === "truyenonepiece") {
+      const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
+      const home = String(doc.homeUrl || "").trim();
+      const seriesUrl = home || sample;
+      if (!seriesUrl) {
+        process.stderr.write("  ! skip: thiếu homeUrl/sampleUrl trong data json\n");
+        continue;
+      }
+      if (args.dryRun) {
+        process.stderr.write("  ~ dry-run: bỏ qua crawl truyenonepiece (không ghi file)\n");
+        continue;
+      }
+      await runNodeScript([
+        "crawl-truyen-one-piece-series.js",
         seriesUrl,
         "--out",
         `data-json/${dataFile}`,
