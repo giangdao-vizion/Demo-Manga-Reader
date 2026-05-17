@@ -175,8 +175,11 @@
     <div id="chapterGrid" class="chapter-grid"></div>
     <p id="state" class="load-state">Đang tải danh sách chương…</p>
   </div>
+  <script src="chapter-id.js"></script>
+  <script src="reader-history.js"></script>
   <script>
     (function () {
+      const cid = window.ComicHubChapterId;
       const LS_READ_CHAPTERS = "reader-read-chapters-v1";
 
       function getManifestBaseDir() {
@@ -196,8 +199,13 @@
 
       function getStartChapter() {
         const p = new URLSearchParams(location.search);
-        const c = parseInt(String(p.get("c") || ""), 10);
-        return Number.isFinite(c) ? c : null;
+        const raw = p.get("c");
+        if (raw == null || String(raw).trim() === "") return null;
+        return cid ? cid.parseChapterQuery(raw) : String(raw).trim();
+      }
+
+      function chapterIdOf(ch, i) {
+        return cid ? cid.chapterReadId(ch, i) : String(ch.chapter != null ? ch.chapter : i + 1);
       }
 
       function resolveSeriesJsonUrl(fileName) {
@@ -222,11 +230,15 @@
         return !!(book && book[c]);
       }
 
-      function readerUrl(dataFile, chapterNum) {
+      function readerUrl(dataFile, chapterId) {
         const p = new URLSearchParams();
         p.set("data", dataFile);
-        p.set("c", String(chapterNum));
-        return "index.html?" + p.toString();
+        p.set("c", String(chapterId));
+        if (window.ComicHubHistory) {
+          const h = ComicHubHistory.getResumeForReader(dataFile, chapterId);
+          if (h) p.set("resume", "1");
+        }
+        return "reader.html?" + p.toString();
       }
 
       const el = {
@@ -243,6 +255,10 @@
         el.state.textContent = "Thiếu tham số data.";
         el.state.classList.add("err");
         return;
+      }
+
+      if (window.ComicHubHistory) {
+        ComicHubHistory.bindClearOnHomeLinks(".detail-top-brand[href]");
       }
 
       function updateJumpReadHref() {
@@ -273,24 +289,48 @@
           el.chapterGrid.innerHTML = "";
           el.jumpSelect.innerHTML = "";
 
+          if (window.ComicHubHistory) {
+            ComicHubHistory.saveDetail(dataFile);
+          }
+
           const startChapter = getStartChapter();
+          const preferredChapter = window.ComicHubHistory
+            ? ComicHubHistory.pickDetailChapter(dataFile, j.chapters, readChaptersLoadMap())
+            : null;
           let selected = false;
           j.chapters.forEach(function (ch, i) {
-            const num = ch.chapter != null ? ch.chapter : i + 1;
-            const chapterLabel = String(ch.chapterKey || "").trim() || String(num);
-            const read = readChaptersIsRead(dataFile, num);
+            const readId = chapterIdOf(ch, i);
+            const chapterLabel = String(ch.chapterKey || "").trim() || readId;
+            const read = readChaptersIsRead(dataFile, readId);
 
             const opt = document.createElement("option");
-            opt.value = String(num);
-            opt.textContent = (ch.title || "Chapter " + num) + (read ? " ✓" : "");
-            if (!selected && startChapter != null && Number(num) === startChapter) {
+            opt.value = readId;
+            opt.textContent = (ch.title || "Chapter " + chapterLabel) + (read ? " ✓" : "");
+            const normStart =
+              startChapter != null && cid
+                ? cid.normalizeChapterId(startChapter)
+                : startChapter;
+            const normPreferred =
+              preferredChapter != null && cid
+                ? cid.normalizeChapterId(preferredChapter)
+                : preferredChapter;
+            const normReadId = cid ? cid.normalizeChapterId(readId) : readId;
+            if (!selected && normStart != null && normReadId === normStart) {
+              opt.selected = true;
+              selected = true;
+            } else if (
+              !selected &&
+              startChapter == null &&
+              normPreferred != null &&
+              normReadId === normPreferred
+            ) {
               opt.selected = true;
               selected = true;
             }
             el.jumpSelect.appendChild(opt);
 
             const a = document.createElement("a");
-            a.href = readerUrl(dataFile, num);
+            a.href = readerUrl(dataFile, readId);
             if (read) {
               const check = document.createElement("span");
               check.className = "ch-read-check";

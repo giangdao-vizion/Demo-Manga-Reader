@@ -2,7 +2,7 @@
   "name": "Comic Hub",
   "short_name": "Comic Hub",
   "description": "Đọc truyện tranh offline",
-  "start_url": "./home.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#08090f",
   "theme_color": "#08090f",

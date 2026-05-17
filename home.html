@@ -597,8 +597,13 @@
 
   </div>
 
+  <script src="reader-history.js"></script>
   <script>
     (function () {
+      if (window.ComicHubHistory && ComicHubHistory.tryRedirectFromHome()) {
+        return;
+      }
+
       function getManifestBaseDir() {
         const path = location.pathname || "/";
         if (path.endsWith("/")) {
@@ -786,7 +791,6 @@
           favoritesNoMatch.classList.add("hidden");
           return;
         }
-        favoritesSection.hidden = false;
         const q = norm(catalogSearch.value.trim());
         const byFile = new Map();
         allSeries.forEach(function (s) {
@@ -804,8 +808,11 @@
         favoritesEmpty.classList.add("hidden");
         favoritesNoMatch.classList.add("hidden");
         if (!favoriteOrder.length) {
-          favoritesEmpty.classList.remove("hidden");
-        } else if (!items.length) {
+          favoritesSection.hidden = true;
+          return;
+        }
+        favoritesSection.hidden = false;
+        if (!items.length) {
           if (q) {
             favoritesNoMatch.classList.remove("hidden");
           }
