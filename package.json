@@ -42,6 +42,7 @@
     "mgeko:images": "node get-mgeko-chapter-images.js",
     "kunmanga:crawl": "node crawl-kunmanga-series.js",
     "mgeko:crawl": "node crawl-mgeko-series.js",
+    "mgeko:crawl:opm-eng": "node crawl-mgeko-series.js \"https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-231-eng-li/\" --out data-json/one-punch-man-mgeko-eng.json --catalog-title \"One-Punch Man (ENG)\" --featured --concurrency 5",
     "onepunchmantruyen:crawl": "node crawl-onepunchmantruyen-series.js",
     "truyenonepiece:crawl": "node crawl-truyen-one-piece-series.js",
     "chapters:normalize-titles": "node normalize-chapter-titles.js",

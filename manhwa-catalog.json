@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T16:46:42.295Z",
+  "updatedAt": "2026-05-22T06:05:38.915Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1753,6 +1753,21 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
+      "featured": true
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "one-punch-man-mgeko-eng.json",
+      "title": "One-Punch Man (ENG)",
+      "displayTitle": "One-Punch Man (ENG)",
+      "subtitle": "Ch. 1-231 · one-punch-man-mgeko-eng.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 231,
+      "chapterCount": 275,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/onepunch-man-mg1.png",
       "featured": true
     }
   ]

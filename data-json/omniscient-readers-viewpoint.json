@@ -1,8 +1,8 @@
 {
   "sampleUrl": "https://asurascans.com/comics/omniscient-readers-viewpoint-75e30c62/chapter/0",
   "fromChapter": 0,
-  "toChapter": 310,
-  "fetchedAt": "2026-05-16T03:37:15.313Z",
+  "toChapter": 311,
+  "fetchedAt": "2026-05-22T06:04:19.896Z",
   "source": "asura",
   "chapters": [
     {
@@ -6384,6 +6384,37 @@
         "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/310/1f52a5.webp",
         "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/310/d8a13c.webp",
         "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/310/cee2f8.webp"
+      ]
+    },
+    {
+      "title": "Chapter 311",
+      "chapter": 311,
+      "url": "https://asurascans.com/comics/omniscient-readers-viewpoint-75e30c62/chapter/311",
+      "finalUrl": "https://asurascans.com/comics/omniscient-readers-viewpoint-9a7a1ac5/chapter/311",
+      "total": 22,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/7c89e0.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/df33bf.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/287da5.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/8c251b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/548294.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/730b44.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/5127a7.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/a43c7a.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/94d229.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/07e7bf.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/8a15f7.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/5a5c42.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/4263ae.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/3f706b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/a779ab.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/34622e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/d5cc0a.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/c08b7e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/5d2b3d.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/4d0111.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/1094c0.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/omniscient-readers-viewpoint/311/708862.webp"
       ]
     }
   ],

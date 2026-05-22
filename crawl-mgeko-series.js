@@ -13,6 +13,8 @@
  *   node crawl-mgeko-series.js "<chapter-url>"
  *   node crawl-mgeko-series.js "<chapter-url>" --out data-json/lightning-degree.json
  *   node crawl-mgeko-series.js "<chapter-url>" --concurrency 5 --force
+ *   node crawl-mgeko-series.js "<chapter-url>" --out data-json/foo.json --featured
+ *   node crawl-mgeko-series.js "<chapter-url>" --limit-chapters 10 --catalog-title "One-Punch Man (ENG)"
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
@@ -33,6 +35,9 @@ Options:
   --no-catalog        Không cập nhật catalog
   --concurrency N     Fetch song song N chapter (mặc định: ${DEFAULT_CONCURRENCY})
   --force             Fetch lại toàn bộ chapter (bỏ merge chapter cũ)
+  --limit-chapters N  Chỉ crawl N chapter đầu (sau khi sort theo thứ tự đọc)
+  --featured          Gắn featured=true trong catalog
+  --catalog-title T   Tiêu đề catalog (tránh trùng bộ khác cùng tên)
   --cookie "a=b"      Hoặc env MGEKO_COOKIE
 `);
 }
@@ -45,6 +50,9 @@ function parseArgs(argv) {
     updateCatalog: true,
     concurrency: DEFAULT_CONCURRENCY,
     force: false,
+    limitChapters: null,
+    featured: false,
+    catalogTitle: "",
     cookie: "",
     help: false,
   };
@@ -58,7 +66,12 @@ function parseArgs(argv) {
     else if (a === "--no-catalog") out.updateCatalog = false;
     else if (a === "--concurrency" && argv[i + 1]) out.concurrency = Number(argv[++i], 10);
     else if (a === "--force") out.force = true;
-    else if (a === "--cookie" && argv[i + 1]) out.cookie = String(argv[++i]).trim();
+    else if (a === "--limit-chapters" && argv[i + 1]) {
+      out.limitChapters = Number(argv[++i], 10);
+    } else if (a === "--featured") out.featured = true;
+    else if (a === "--catalog-title" && argv[i + 1]) {
+      out.catalogTitle = String(argv[++i]).trim();
+    } else if (a === "--cookie" && argv[i + 1]) out.cookie = String(argv[++i]).trim();
     else if (!a.startsWith("-")) positional.push(a);
   }
 
@@ -460,10 +473,15 @@ async function main() {
   const existing = args.force ? null : await readJsonIfExists(outPath);
   const { byUrl, byKey } = existingChapterLookup(existing);
 
-  const ordered = chapterList.map((item, idx) => ({
+  let ordered = chapterList.map((item, idx) => ({
     ...item,
     chapter: Number.isFinite(item.chapterNumber) ? item.chapterNumber : idx + 1,
   }));
+
+  if (args.limitChapters != null && Number.isFinite(args.limitChapters) && args.limitChapters > 0) {
+    ordered = ordered.slice(0, Math.floor(args.limitChapters));
+    console.error(`--limit-chapters ${ordered.length}: chỉ crawl ${ordered.length} chapter đầu.`);
+  }
 
   let skipped = 0;
   const targets = [];
@@ -551,16 +569,20 @@ async function main() {
   if (errors > 0) console.error(`Cảnh báo: ${errors} chapter lỗi hoặc thiếu ảnh.`);
 
   if (args.updateCatalog) {
+    const outFileName = outPath.split(/[/\\]/).pop();
+    const catalogTitle =
+      args.catalogTitle || title || outFileName.replace(/\.json$/i, "");
     const catalogEntry = {
-      dataFile: outPath.split(/[/\\]/).pop(),
-      title: title || outPath.split(/[/\\]/).pop().replace(/\.json$/i, ""),
-      displayTitle: title || outPath.split(/[/\\]/).pop().replace(/\.json$/i, ""),
-      subtitle: `Ch. ${fromChapter}-${toChapter} · ${outPath.split(/[/\\]/).pop()}`,
+      dataFile: outFileName,
+      title: catalogTitle,
+      displayTitle: catalogTitle,
+      subtitle: `Ch. ${fromChapter}-${toChapter} · ${outFileName}`,
       source: DEFAULT_SOURCE,
       fromChapter,
       toChapter,
       chapterCount: finalChapters.length,
       coverUrl: coverUrl || undefined,
+      featured: args.featured === true ? true : undefined,
     };
     await upsertCatalog(args.catalogPath, catalogEntry);
     console.error(`Updated catalog: ${args.catalogPath}`);

@@ -1,8 +1,8 @@
 {
   "sampleUrl": "https://asurascans.com/comics/solo-max-level-newbie-26f76d6d/chapter/185",
   "fromChapter": 0,
-  "toChapter": 258,
-  "fetchedAt": "2026-05-16T03:37:18.890Z",
+  "toChapter": 259,
+  "fetchedAt": "2026-05-22T06:04:22.455Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -6128,6 +6128,37 @@
         "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/258/fb8784.webp",
         "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/258/dfed62.webp",
         "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/258/59ded2.webp"
+      ]
+    },
+    {
+      "title": "Chapter 259",
+      "chapter": 259,
+      "url": "https://asurascans.com/comics/solo-max-level-newbie-26f76d6d/chapter/259",
+      "finalUrl": "https://asurascans.com/comics/solo-max-level-newbie-9a7a1ac5/chapter/259",
+      "total": 22,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/1dc3fc.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/05f3d2.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/2d945c.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/562d08.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/deb404.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/adcd8b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/91751c.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/78bfd1.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/4400b1.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/9318f5.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/31ecc2.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/127575.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/407433.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/79482d.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/8d98dc.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/e4480b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/9f7c74.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/27d5d1.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/8c5090.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/07fe73.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/e92394.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/solo-max-level-newbie/259/5a9b3d.webp"
       ]
     }
   ],
