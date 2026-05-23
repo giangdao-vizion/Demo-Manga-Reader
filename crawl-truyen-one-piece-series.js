@@ -20,6 +20,7 @@ Options:
   --featured          Gắn featured=true trong catalog
   --limit-chapters N   Chỉ crawl N chapter đầu (sau khi sort)
   --from-chapter N    Bắt đầu từ chapter number >= N (mặc định: 1)
+  --force             Tải lại toàn bộ, bỏ qua chapter đã có ảnh trong JSON
 `);
 }
 
@@ -33,6 +34,7 @@ function parseArgs(argv) {
     featured: false,
     limitChapters: null,
     fromChapter: 1,
+    force: false,
     help: false,
   };
   const positional = [];
@@ -46,6 +48,7 @@ function parseArgs(argv) {
     else if (a === "--featured") out.featured = true;
     else if (a === "--limit-chapters" && argv[i + 1]) out.limitChapters = Number(argv[++i], 10);
     else if (a === "--from-chapter" && argv[i + 1]) out.fromChapter = Number(argv[++i], 10);
+    else if (a === "--force") out.force = true;
     else if (!a.startsWith("-")) positional.push(a);
   }
   if (positional[0]) out.seriesUrl = positional[0];
@@ -66,6 +69,43 @@ function normalizeUrl(u) {
   } catch {
     return String(u || "").trim();
   }
+}
+
+function canonicalChapterUrl(url) {
+  try {
+    const u = new URL(url);
+    u.hash = "";
+    let path = u.pathname || "/";
+    if (!path.endsWith("/")) path += "/";
+    u.pathname = path;
+    return u.href;
+  } catch {
+    return normalizeUrl(url);
+  }
+}
+
+async function readJsonIfExists(path) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function existingChapterLookup(existingDoc) {
+  const byUrl = new Map();
+  const byKey = new Map();
+  if (!existingDoc || !Array.isArray(existingDoc.chapters)) return { byUrl, byKey };
+  for (const ch of existingDoc.chapters) {
+    if (ch && ch.url) byUrl.set(canonicalChapterUrl(ch.url), ch);
+    if (ch && ch.finalUrl) byUrl.set(canonicalChapterUrl(ch.finalUrl), ch);
+    if (ch && ch.chapterKey) byKey.set(String(ch.chapterKey), ch);
+    else if (ch && ch.url) {
+      const info = chapterInfoFromUrl(ch.url);
+      if (info.chapterKey) byKey.set(info.chapterKey, ch);
+    }
+  }
+  return { byUrl, byKey };
 }
 
 function slugify(value) {
@@ -314,52 +354,129 @@ async function main() {
   const slug = slugify(meta.title) || "one-piece-dao-hai-tac";
   const outRel = args.outPath || `data-json/${slug}.json`;
   const outAbs = resolve(process.cwd(), outRel);
-  const outFileName = outRel.split("/").pop();
+  const outFileName = outRel.split(/[/\\]/).pop();
 
-  console.error(
-    `Cần fetch ${chapterLinks.length} chapter (concurrency=${args.concurrency}, from=${args.fromChapter})${
-      args.limitChapters != null ? `, limit=${args.limitChapters}` : ""
-    }`
-  );
+  const existing = args.force ? null : await readJsonIfExists(outAbs);
+  const { byUrl, byKey } = existingChapterLookup(existing);
+
+  let skipped = 0;
+  const targets = [];
+  const carry = new Map();
+  for (const ch of chapterLinks) {
+    const keyUrl = canonicalChapterUrl(ch.url);
+    const old = byUrl.get(keyUrl) || byKey.get(ch.chapterKey) || null;
+    if (!args.force && old && Array.isArray(old.images) && old.images.length > 0) {
+      skipped++;
+      carry.set(keyUrl, old);
+      continue;
+    }
+    targets.push(ch);
+  }
+
+  if (skipped > 0) {
+    console.error(`Merge mode: giữ lại ${skipped} chapter đã có ảnh.`);
+  }
+  if (!targets.length) {
+    console.error(
+      `Không có chương mới cần tải (${skipped}/${chapterLinks.length} chương đã có trong JSON).`
+    );
+    if (existing && Array.isArray(existing.chapters) && existing.chapters.length) {
+      console.error("Skip write: không có chương mới cần cập nhật JSON.");
+      return;
+    }
+  } else {
+    console.error(
+      `Cần fetch ${targets.length}/${chapterLinks.length} chapter (concurrency=${args.concurrency}, from=${args.fromChapter})${
+        args.limitChapters != null ? `, limit=${args.limitChapters}` : ""
+      }`
+    );
+  }
 
   let progress = 0;
-  const results = await runPool(chapterLinks, args.concurrency, async (ch) => {
-    const r = await fetchHtml(ch.url);
-    const images = filterChapterImages(collectArticleImageUrls(r.html, r.finalUrl));
-    progress++;
-    process.stderr.write(`\r[${progress}/${chapterLinks.length}] Ch.${ch.chapterTitle} (${images.length} ảnh)`);
-    return { ...ch, finalUrl: r.finalUrl, images };
-  });
-  process.stderr.write("\n");
+  const results = targets.length
+    ? await runPool(targets, args.concurrency, async (ch) => {
+        const r = await fetchHtml(ch.url);
+        const images = filterChapterImages(collectArticleImageUrls(r.html, r.finalUrl));
+        progress++;
+        process.stderr.write(
+          `\r[${progress}/${targets.length}] Ch.${ch.chapterTitle} (${images.length} ảnh)`
+        );
+        return { ...ch, finalUrl: r.finalUrl, images };
+      })
+    : [];
+  if (targets.length > 0) process.stderr.write("\n");
 
-  const chapters = results
-    .map((r) => {
-      if (!r || !Array.isArray(r.images) || !r.images.length) return null;
-      return {
-        title: r.chapterTitle,
-        chapter: Number.isFinite(r.chapterNumber) ? r.chapterNumber : undefined,
-        chapterKey: r.chapterKey,
-        chapterLabel: r.chapterLabel,
-        url: r.url,
-        finalUrl: r.finalUrl,
-        total: r.images.length,
-        images: r.images,
-      };
-    })
-    .filter(Boolean);
+  const newWithImages = results.filter(
+    (r) => r && Array.isArray(r.images) && r.images.length > 0
+  );
+  if (
+    targets.length > 0 &&
+    !newWithImages.length &&
+    existing &&
+    Array.isArray(existing.chapters) &&
+    existing.chapters.length
+  ) {
+    console.error("Skip write: không tải được ảnh chương mới — giữ nguyên JSON.");
+    return;
+  }
+
+  const fetchedByUrl = new Map(
+    results
+      .filter((r) => r && !r.error)
+      .map((r) => [canonicalChapterUrl(r.url), r])
+  );
+
+  const chapters = [];
+  for (const ch of chapterLinks) {
+    const keyUrl = canonicalChapterUrl(ch.url);
+    const fromFetch = fetchedByUrl.get(keyUrl);
+    const fromCarry = carry.get(keyUrl);
+    const r = fromFetch || fromCarry;
+    if (!r) continue;
+
+    const images = fromFetch
+      ? Array.isArray(r.images)
+        ? r.images
+        : []
+      : Array.isArray(r.images)
+        ? r.images
+        : [];
+    if (!images.length) {
+      if (fromFetch) {
+        console.error(`\n  ! Ch.${ch.chapterTitle}: chương chưa có ảnh trên site`);
+      }
+      continue;
+    }
+
+    const base = fromCarry || {};
+    chapters.push({
+      title: base.title || ch.chapterTitle,
+      chapter: Number.isFinite(ch.chapterNumber)
+        ? ch.chapterNumber
+        : Number.isFinite(base.chapter)
+          ? base.chapter
+          : undefined,
+      chapterKey: ch.chapterKey,
+      chapterLabel: ch.chapterLabel,
+      url: ch.url,
+      finalUrl: (fromFetch && r.finalUrl) || base.finalUrl || ch.url,
+      total: images.length,
+      images,
+    });
+  }
 
   if (!chapters.length) throw new Error("Không lấy được ảnh chapter nào");
 
   const nums = chapters.map((c, i) => chapterNumberOf(c, i)).filter(Number.isFinite);
   const doc = {
-    sampleUrl: chapters[0].url,
+    sampleUrl: existing?.sampleUrl || chapters[0].url,
     homeUrl: seriesUrl,
-    title: meta.title,
+    title: meta.title || existing?.title || "One Piece",
     fromChapter: nums.length ? Math.min(...nums) : 1,
     toChapter: nums.length ? Math.max(...nums) : nums.length,
     fetchedAt: new Date().toISOString(),
     source: DEFAULT_SOURCE,
-    coverUrl: meta.coverUrl || "",
+    coverUrl: meta.coverUrl || existing?.coverUrl || "",
     chapters,
   };
 

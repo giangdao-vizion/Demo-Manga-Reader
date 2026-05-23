@@ -503,7 +503,7 @@ async function main() {
             "--concurrency",
             String(args.concurrency),
           ],
-          "Crawl lại từ Truyen-One-Piece.com"
+          "Kiểm tra chương mới trên Truyen-One-Piece.com (giữ nguyên chương đã có ảnh)"
         );
         doc = await readJson(dataAbs);
         const after = chapterStats(doc);
