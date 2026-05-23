@@ -500,7 +500,17 @@ async function main() {
   if (skipped > 0) {
     console.error(`Merge mode: giữ lại ${skipped} chapter đã có ảnh.`);
   }
-  console.error(`Cần fetch ${targets.length}/${ordered.length} chapter (concurrency=${args.concurrency}).`);
+  if (!targets.length) {
+    console.error(
+      `Không có chương mới cần tải (${skipped}/${ordered.length} chương đã có trong JSON).`
+    );
+    if (existing && Array.isArray(existing.chapters) && existing.chapters.length) {
+      console.error("Skip write: không có chương mới cần cập nhật JSON.");
+      return;
+    }
+  } else {
+    console.error(`Cần fetch ${targets.length}/${ordered.length} chapter (concurrency=${args.concurrency}).`);
+  }
 
   const fetched = await runParallel(args.concurrency, targets, async (item, idx) => {
     process.stderr.write(
@@ -526,6 +536,20 @@ async function main() {
     return entry;
   });
   if (targets.length > 0) process.stderr.write("\n");
+
+  const newWithImages = fetched.filter(
+    (c) => Array.isArray(c.images) && c.images.length > 0
+  );
+  if (
+    targets.length > 0 &&
+    !newWithImages.length &&
+    existing &&
+    Array.isArray(existing.chapters) &&
+    existing.chapters.length
+  ) {
+    console.error("Skip write: không tải được ảnh chương mới — giữ nguyên JSON.");
+    return;
+  }
 
   const fetchedByUrl = new Map(fetched.map((c) => [normalizeUrl(c.url), c]));
   const finalChapters = [];

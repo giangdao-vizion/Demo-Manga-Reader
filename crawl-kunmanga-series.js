@@ -234,6 +234,11 @@ async function main() {
   const skipped = inRange.length - toFetch.length;
   if (skipped) console.error(`--merge: bỏ qua ${skipped} chapter đã có trong file.`);
 
+  if (!toFetch.length && existingByNum.size > 0) {
+    console.error("Skip write: không có chương mới cần cập nhật JSON.");
+    return;
+  }
+
   for (let i = 0; i < toFetch.length; i++) {
     const row = toFetch[i];
     const pageUrl = chapterPageUrl(origin, slug, row.chapter_slug);
@@ -269,6 +274,11 @@ async function main() {
   }
 
   process.stderr.write("\n");
+
+  if (toFetch.length > 0 && newEntries.size === 0 && existingByNum.size > 0) {
+    console.error("Skip write: không tải được ảnh chương mới — giữ nguyên JSON.");
+    return;
+  }
 
   const sorted = [];
   for (const row of inRange) {
