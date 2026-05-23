@@ -1,0 +1,41 @@
+{
+  "dataFile": "data-json/one-punch-man-onepunchmantruyen.json",
+  "title": "ONE-PUNCH MAN",
+  "pagesMode": "sample5",
+  "method": "sha256",
+  "maxHamming": null,
+  "minOverlap": 0.88,
+  "chaptersScanned": 369,
+  "imagesHashed": 1841,
+  "hashErrors": 39,
+  "duplicatePairs": [
+    {
+      "chapterA": "67-2",
+      "chapterB": "70-5",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 31,
+      "pageCountB": 31,
+      "overlapRatio": 1,
+      "orderedMatchRatio": 1,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        8,
+        15,
+        23,
+        30
+      ],
+      "sampleIndicesB": [
+        0,
+        8,
+        15,
+        23,
+        30
+      ],
+      "sharedHashCount": 5,
+      "method": "sha256"
+    }
+  ],
+  "generatedAt": "2026-05-23T08:12:00.727Z"
+}

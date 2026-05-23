@@ -1,0 +1,584 @@
+{
+  "dataFile": "data-json/one-punch-man-onepunchmantruyen.json",
+  "title": "ONE-PUNCH MAN",
+  "pagesMode": "sample5",
+  "minOverlap": 1,
+  "chaptersScanned": 369,
+  "imagesHashed": 1841,
+  "hashErrors": 39,
+  "duplicatePairs": [
+    {
+      "chapterA": "67-2",
+      "chapterB": "70-5",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 31,
+      "pageCountB": 31,
+      "overlapRatio": 1,
+      "orderedMatchRatio": 1,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        8,
+        15,
+        23,
+        30
+      ],
+      "sampleIndicesB": [
+        0,
+        8,
+        15,
+        23,
+        30
+      ],
+      "sharedHashCount": 5
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "295",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 73,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "296",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "297",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 174,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "298",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "300",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 54,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "294",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 64,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        16,
+        32,
+        47,
+        63
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "295",
+      "chapterB": "296",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 73,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "295",
+      "chapterB": "297",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 73,
+      "pageCountB": 174,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sampleIndicesB": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "295",
+      "chapterB": "298",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 73,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "295",
+      "chapterB": "300",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 73,
+      "pageCountB": 54,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sampleIndicesB": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "295",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 73,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        54,
+        72
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "296",
+      "chapterB": "297",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 174,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "296",
+      "chapterB": "298",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "296",
+      "chapterB": "300",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 54,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "296",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "297",
+      "chapterB": "298",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 174,
+      "pageCountB": 72,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sampleIndicesB": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "297",
+      "chapterB": "300",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 174,
+      "pageCountB": 54,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sampleIndicesB": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "297",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 174,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        43,
+        87,
+        130,
+        173
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "298",
+      "chapterB": "300",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 54,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "298",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 72,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        18,
+        36,
+        53,
+        71
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    },
+    {
+      "chapterA": "300",
+      "chapterB": "298-fixed-299",
+      "pagesCheckedA": 5,
+      "pagesCheckedB": 5,
+      "pageCountA": 54,
+      "pageCountB": 145,
+      "overlapRatio": 0,
+      "orderedMatchRatio": 0,
+      "exactSequence": true,
+      "sampleIndicesA": [
+        0,
+        13,
+        27,
+        40,
+        53
+      ],
+      "sampleIndicesB": [
+        0,
+        36,
+        72,
+        108,
+        144
+      ],
+      "sharedHashCount": 0
+    }
+  ],
+  "generatedAt": "2026-05-23T08:10:03.826Z"
+}

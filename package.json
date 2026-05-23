@@ -14,6 +14,7 @@
     "crawl-kunmanga-series": "./crawl-kunmanga-series.js",
     "crawl-mgeko-series": "./crawl-mgeko-series.js",
     "crawl-onepunchmantruyen-series": "./crawl-onepunchmantruyen-series.js",
+    "crawl-onepunchmanmau-series": "./crawl-onepunchmanmau-series.js",
     "crawl-truyen-one-piece-series": "./crawl-truyen-one-piece-series.js",
     "sync-catalog": "./sync-catalog.js",
     "sync-catalog-content": "./sync-catalog-content.js",
@@ -42,10 +43,12 @@
     "mgeko:images": "node get-mgeko-chapter-images.js",
     "kunmanga:crawl": "node crawl-kunmanga-series.js",
     "mgeko:crawl": "node crawl-mgeko-series.js",
-    "mgeko:crawl:opm-eng": "node crawl-mgeko-series.js \"https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-231-eng-li/\" --out data-json/one-punch-man-mgeko-eng.json --catalog-title \"One-Punch Man (ENG)\" --featured --concurrency 5",
+    "mgeko:crawl:opm-eng": "node crawl-mgeko-series.js \"https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-231-eng-li/\" --out data-json/one-punch-man-mgeko-eng.json --catalog-title \"ONE-PUNCH MAN (EN)\" --featured --concurrency 5",
     "onepunchmantruyen:crawl": "node crawl-onepunchmantruyen-series.js",
+    "onepunchmanmau:crawl": "node crawl-onepunchmanmau-series.js \"https://onepunchmanmau.com/one-punch-man-chapter-262/\" --out data-json/one-punch-man-onepunchmanmau.json --featured --concurrency 6",
     "truyenonepiece:crawl": "node crawl-truyen-one-piece-series.js",
     "chapters:normalize-titles": "node normalize-chapter-titles.js",
+    "chapters:audit-images": "node audit-chapter-images.js",
     "manhwa:export": "node export-sqlite-to-manhwa-json.js",
     "manhwa:catalog": "node export-sqlite-to-manhwa-json.js --catalog-rebuild"
   },
@@ -56,5 +59,8 @@
     "better-sqlite3": "^11.7.0",
     "cheerio": "1.0.0-rc.12",
     "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
   }
 }

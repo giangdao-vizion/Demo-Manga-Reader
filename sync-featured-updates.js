@@ -57,6 +57,7 @@ function normalizeSource(source) {
   if (s === "mgeko") return "mgeko";
   if (s === "kunmanga") return "kunmanga";
   if (s === "onepunchmantruyen" || s === "one-punch-man-truyen") return "onepunchmantruyen";
+  if (s === "onepunchmanmau" || s === "one-punch-man-mau") return "onepunchmanmau";
   if (s === "truyenonepiece" || s === "truyen-one-piece") return "truyenonepiece";
   return s;
 }
@@ -299,6 +300,32 @@ async function main() {
         "--no-catalog",
         "--concurrency",
         String(args.concurrency),
+      ]);
+      doc = await readJson(dataAbs);
+      const added = Math.max(0, Number(doc.toChapter || 0) - beforeTo);
+      if (added > 0) {
+        touchedSeries++;
+        totalAdded += added;
+      }
+    } else if (source === "onepunchmanmau") {
+      const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
+      if (!sample) {
+        process.stderr.write("  ! skip: thiếu sampleUrl trong data json\n");
+        continue;
+      }
+      if (args.dryRun) {
+        process.stderr.write("  ~ dry-run: bỏ qua crawl onepunchmanmau (không ghi file)\n");
+        continue;
+      }
+      await runNodeScript([
+        "crawl-onepunchmanmau-series.js",
+        sample,
+        "--out",
+        `data-json/${dataFile}`,
+        "--no-catalog",
+        "--concurrency",
+        String(args.concurrency),
+        "--keep-legacy",
       ]);
       doc = await readJson(dataAbs);
       const added = Math.max(0, Number(doc.toChapter || 0) - beforeTo);
