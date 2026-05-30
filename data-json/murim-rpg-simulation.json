@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/heavenly-demon-cultivation-simulation-mg1/",
   "title": "Heavenly Demon Cultivation Simulation",
   "fromChapter": 1,
-  "toChapter": 182,
-  "fetchedAt": "2026-05-23T08:43:59.734Z",
+  "toChapter": 183,
+  "fetchedAt": "2026-05-30T04:12:21.442Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -8396,6 +8396,31 @@
         "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-182/9.jpg",
         "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-182/10.jpg",
         "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-182/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 183-eng-li",
+      "chapter": 183,
+      "chapterKey": "183",
+      "chapterLabel": "183-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-183-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-183-eng-li/",
+      "total": 14,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/0.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/1.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/2.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/3.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/4.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/5.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/6.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/7.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/8.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/9.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/10.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/11.jpg",
+        "https://imgsrv4.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-183/12.jpg",
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }

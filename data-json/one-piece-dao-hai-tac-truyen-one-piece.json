@@ -3,8 +3,8 @@
   "homeUrl": "https://truyen-one-piece.com/",
   "title": "One Piece",
   "fromChapter": 1,
-  "toChapter": 1182,
-  "fetchedAt": "2026-05-23T08:43:03.451Z",
+  "toChapter": 1184,
+  "fetchedAt": "2026-05-30T04:12:45.892Z",
   "source": "truyenonepiece",
   "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
   "chapters": [
@@ -34379,6 +34379,47 @@
         "https://truyen-one-piece.com/wp-content/uploads/2026/05/one-piece-13-768x1118.jpg",
         "https://truyen-one-piece.com/wp-content/uploads/2026/05/one-piece-14-768x1141.jpg",
         "https://truyen-one-piece.com/wp-content/uploads/2026/05/one-piece-15-768x1141.jpg"
+      ]
+    },
+    {
+      "title": "1183",
+      "chapter": 1183,
+      "chapterKey": "1183",
+      "chapterLabel": "1183",
+      "url": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1183/",
+      "finalUrl": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1183/",
+      "total": 18,
+      "images": [
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_003.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_004.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_005.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_006.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_007.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_008.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_009.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_010.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_011.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_012.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_013.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_014.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_015.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_016.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_017.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_018.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_019.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_020.jpg"
+      ]
+    },
+    {
+      "title": "1184",
+      "chapter": 1184,
+      "chapterKey": "1184",
+      "chapterLabel": "1184",
+      "url": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1184/",
+      "finalUrl": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1184/",
+      "total": 1,
+      "images": [
+        "https://truyen-one-piece.com/wp-content/uploads/2026/05/707532769_1533265231495883_3744136480114655699_n-768x927.jpg"
       ]
     }
   ]
