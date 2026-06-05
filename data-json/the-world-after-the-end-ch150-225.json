@@ -1,8 +1,8 @@
 {
   "sampleUrl": "https://asurascans.com/comics/the-world-after-the-end-26f76d6d/chapter/225",
   "fromChapter": 0,
-  "toChapter": 236,
-  "fetchedAt": "2026-05-30T04:12:30.313Z",
+  "toChapter": 237,
+  "fetchedAt": "2026-06-05T11:01:40.475Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -5362,6 +5362,35 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/236/d4c16d.webp",
         "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/236/c26f42.webp",
         "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/236/6a02bf.webp"
+      ]
+    },
+    {
+      "title": "Chapter 237",
+      "chapter": 237,
+      "url": "https://asurascans.com/comics/the-world-after-the-end-26f76d6d/chapter/237",
+      "finalUrl": "https://asurascans.com/comics/the-world-after-the-end-46f09241/chapter/237",
+      "total": 20,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/0223c6.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/fa4e4e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/335ec4.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/b82a4d.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/640c8e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/e9a391.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/bc75b6.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/666d5d.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/95356b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/605b75.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/808d66.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/57edde.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/17af29.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/ea7f1b.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/c2fc43.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/911e88.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/b69677.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/e9a4b9.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/35dafc.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/the-world-after-the-end/237/86d33f.webp"
       ]
     }
   ],
