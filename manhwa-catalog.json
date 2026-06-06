@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-05T11:01:55.270Z",
+  "updatedAt": "2026-06-06T02:30:21.898Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1768,6 +1768,21 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn onepunchmanmau.com (thay onepunchmantruyen).",
       "coverUrl": "https://onepunchmanmau.com/wp-content/uploads/2025/12/opm/onepunch_chap_0262/onepunch_chapter_0262-1.png",
+      "featured": true
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "the-investor-who-sees-the-future.json",
+      "title": "The Investor Who Sees The Future",
+      "displayTitle": "The Investor Who Sees The Future",
+      "subtitle": "Ch. 1-97 · the-investor-who-sees-the-future.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 97,
+      "chapterCount": 96,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/mnWKOX.jpg",
       "featured": true
     }
   ]
