@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/the-investor-who-sees-the-future/",
   "title": "The Investor Who Sees The Future",
   "fromChapter": 1,
-  "toChapter": 97,
-  "fetchedAt": "2026-06-06T02:30:21.881Z",
+  "toChapter": 98,
+  "fetchedAt": "2026-06-10T08:19:21.010Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -3533,6 +3533,30 @@
         "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-97/10.jpg",
         "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-97/11.jpg",
         "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-97/12.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 98-eng-li",
+      "chapter": 98,
+      "chapterKey": "98",
+      "chapterLabel": "98-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/the-investor-who-sees-the-future-chapter-98-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/the-investor-who-sees-the-future-chapter-98-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/0.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/1.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/2.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/3.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/4.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/5.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/6.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/7.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/8.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/9.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/10.jpg",
+        "https://imgsrv4.com/sv2/comic/the-investor-who-sees-the-future/chapter-98/11.jpg",
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }

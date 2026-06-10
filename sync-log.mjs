@@ -189,6 +189,65 @@ export function logSeriesHeader(index, total, title, source, dataFile) {
   logLine(`  Nguồn: ${source} · File: ${dataFile}`);
 }
 
+/** @returns {{ sourceOk: boolean, newChapterLabels: string[], loaded: { label: string, status: string, error?: string }[], retryWithoutImages: string[], jsonUpdated: boolean, jsonSkipped: boolean, error: string|null }} */
+export function createSeriesSyncReport() {
+  return {
+    sourceOk: false,
+    newChapterLabels: [],
+    loaded: [],
+    retryWithoutImages: [],
+    jsonUpdated: false,
+    jsonSkipped: false,
+    error: null,
+  };
+}
+
+export function chapterLabelFromCrawlerExtra(extra) {
+  const s = String(extra || "").trim();
+  const m = s.match(/Ch\.([^\s(]+)/i);
+  if (m) return m[1];
+  const m2 = s.match(/^Ch\.([^\s(]+)/i);
+  if (m2) return m2[1];
+  return s.replace(/\s*\([^)]*\)\s*$/, "").trim() || "?";
+}
+
+export function logSeriesSyncReport(report) {
+  const checked = report.sourceOk ? "yes" : "no";
+  logLine(`  Kiểm tra dữ liệu từ nguồn: ${checked}`);
+
+  if (report.newChapterLabels.length) {
+    logLine(`  Chương mới: ${report.newChapterLabels.join(", ")}`);
+  } else {
+    logLine("  Chương mới: N/A");
+  }
+
+  for (const row of report.loaded) {
+    if (row.status === "done") {
+      logLine(`  Load chương ${row.label}: Done`);
+    } else {
+      logLine(
+        `  Load chương ${row.label}: ${row.error || "Failed"}`
+      );
+    }
+  }
+
+  if (report.retryWithoutImages && report.retryWithoutImages.length) {
+    logLine(
+      `  Thử tải lại (site chưa có ảnh): ${report.retryWithoutImages.join(", ")}`
+    );
+  }
+
+  if (report.jsonUpdated) {
+    logLine("  Đã cập nhật JSON");
+  } else {
+    logLine("  Ko cần cập nhật JSON");
+  }
+
+  if (report.error) {
+    logLine(`  Lỗi: ${humanizeErrorMessage(report.error)}`);
+  }
+}
+
 export function describeAsuraStop(reason) {
   const s = String(reason || "").trim();
   let m = s.match(/^HTTP\s+(\d+)\s+at\s+chapter\s+(\d+)/i);

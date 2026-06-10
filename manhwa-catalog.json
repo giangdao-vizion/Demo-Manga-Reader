@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T06:21:45.537Z",
+  "updatedAt": "2026-06-10T08:19:21.026Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1526,16 +1526,17 @@
       "dataFile": "the-world-after-the-end-ch150-225.json",
       "title": "The World After The End",
       "displayTitle": "The World After The End",
-      "subtitle": "Ch. 0–237 · the-world-after-the-end-ch150-225.json",
+      "subtitle": "Ch. 0–238 · the-world-after-the-end-ch150-225.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 237,
-      "chapterCount": 238,
+      "toChapter": 238,
+      "chapterCount": 239,
       "sqliteSeriesId": 18,
       "contentSyncComplete": true,
       "contentSyncNote": "229 tải OK, 0 đã có trong DB, 1 lỗi / 230 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-10T08:19:02.997Z"
     },
     {
       "dataFile": "trash-of-the-counts-family.json",
@@ -1777,13 +1778,14 @@
       "dataFile": "the-investor-who-sees-the-future.json",
       "title": "The Investor Who Sees The Future",
       "displayTitle": "The Investor Who Sees The Future",
-      "subtitle": "Ch. 1-97 · the-investor-who-sees-the-future.json",
+      "subtitle": "Ch. 1–98 · the-investor-who-sees-the-future.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 97,
-      "chapterCount": 96,
+      "toChapter": 98,
+      "chapterCount": 97,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/mnWKOX.jpg",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-10T08:19:21.010Z"
     }
   ]
 }

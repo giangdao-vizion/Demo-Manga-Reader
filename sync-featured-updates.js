@@ -1,17 +1,17 @@
 #!/usr/bin/env node
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
 import { fetchAsuraImagesFromUrl } from "./extract.mjs";
 import {
   SOURCE_LABELS,
-  describeAsuraStop,
-  formatCrawlerLine,
+  chapterLabelFromCrawlerExtra,
+  createSeriesSyncReport,
   humanizeErrorMessage,
   logLine,
   logSeriesHeader,
-  summarizeChapterDelta,
+  logSeriesSyncReport,
 } from "./sync-log.mjs";
 
 const DEFAULT_CONCURRENCY = 5;
@@ -93,23 +93,63 @@ function chapterNumberOf(ch, idx) {
   return idx + 1;
 }
 
-function syncSeriesMetaFromDoc(seriesEntry, doc) {
+function chapterIdentity(ch) {
+  if (ch && ch.chapterKey != null && String(ch.chapterKey).trim()) {
+    return String(ch.chapterKey).trim();
+  }
+  if (ch && Number.isFinite(ch.chapter)) return String(ch.chapter);
+  if (ch && ch.url) return String(ch.url).trim();
+  return String(ch?.title || "").trim();
+}
+
+function chapterDisplayLabel(ch) {
+  if (ch.chapterLabel != null && String(ch.chapterLabel).trim()) {
+    return String(ch.chapterLabel).trim();
+  }
+  if (ch.chapterKey != null && String(ch.chapterKey).trim()) {
+    return String(ch.chapterKey).trim();
+  }
+  if (Number.isFinite(ch.chapter)) return String(ch.chapter);
+  return String(ch.title || "").trim() || "?";
+}
+
+function sortChapterLabels(labels) {
+  return labels.slice().sort((a, b) => {
+    const na = Number(a);
+    const nb = Number(b);
+    if (Number.isFinite(na) && Number.isFinite(nb) && na !== nb) return na - nb;
+    return String(a).localeCompare(String(b), "vi", { numeric: true, sensitivity: "base" });
+  });
+}
+
+function findNewChapterLabels(beforeDoc, afterDoc) {
+  const before = new Set((beforeDoc.chapters || []).map(chapterIdentity));
+  const labels = [];
+  for (const ch of afterDoc.chapters || []) {
+    if (!before.has(chapterIdentity(ch))) {
+      labels.push(chapterDisplayLabel(ch));
+    }
+  }
+  return sortChapterLabels(labels);
+}
+
+function syncSeriesMetaFromDoc(seriesEntry, doc, { updateTimestamp = false } = {}) {
   const nums = (doc.chapters || [])
     .map((c, i) => chapterNumberOf(c, i))
     .filter((n) => Number.isFinite(n));
   const from = nums.length ? Math.min(...nums) : seriesEntry.fromChapter;
   const to = nums.length ? Math.max(...nums) : seriesEntry.toChapter;
   const count = (doc.chapters || []).length || Number(seriesEntry.chapterCount || 0);
-  const contentUpdatedAt =
-    doc.fetchedAt || seriesEntry.contentUpdatedAt || seriesEntry.updatedAt || null;
-  return {
-    ...seriesEntry,
+  const patch = {
     fromChapter: from,
     toChapter: to,
     chapterCount: count,
     subtitle: `Ch. ${from}\u2013${to} · ${seriesEntry.dataFile}`,
-    ...(contentUpdatedAt ? { contentUpdatedAt } : {}),
   };
+  if (updateTimestamp && doc.fetchedAt) {
+    patch.contentUpdatedAt = doc.fetchedAt;
+  }
+  return { ...seriesEntry, ...patch };
 }
 
 async function readJson(path) {
@@ -120,10 +160,21 @@ async function writeJson(path, value) {
   await writeFile(path, JSON.stringify(value, null, 2) + "\n", "utf8");
 }
 
-async function updateAsuraDoc(doc, delayMs) {
+async function fileMtimeMs(path) {
+  try {
+    const st = await stat(path);
+    return st.mtimeMs;
+  } catch {
+    return null;
+  }
+}
+
+async function updateAsuraDoc(doc, delayMs, report) {
   if (!doc || !Array.isArray(doc.chapters) || !doc.sampleUrl) {
     return { added: 0, stoppedReason: "missing sampleUrl/chapters" };
   }
+  report.sourceOk = true;
+
   const nums = doc.chapters.map((c, i) => chapterNumberOf(c, i)).filter(Number.isFinite);
   let currentMax = nums.length ? Math.max(...nums) : Number(doc.toChapter || 0);
   if (!Number.isFinite(currentMax) || currentMax < 0) currentMax = 0;
@@ -147,6 +198,7 @@ async function updateAsuraDoc(doc, delayMs) {
       stoppedReason = `no images at chapter ${n}`;
       break;
     }
+    const label = String(n);
     doc.chapters.push({
       title: `Chapter ${n}`,
       chapter: n,
@@ -156,7 +208,8 @@ async function updateAsuraDoc(doc, delayMs) {
       images,
     });
     added++;
-    logLine(`  + Ch.${n} · ${images.length} ảnh`);
+    report.newChapterLabels.push(label);
+    report.loaded.push({ label, status: "done" });
     if (delayMs > 0) await sleep(delayMs);
   }
 
@@ -166,6 +219,7 @@ async function updateAsuraDoc(doc, delayMs) {
     doc.fromChapter = Math.min(...newNums);
     doc.toChapter = Math.max(...newNums);
     doc.fetchedAt = new Date().toISOString();
+    report.newChapterLabels = sortChapterLabels(report.newChapterLabels);
   }
   return { added, stoppedReason };
 }
@@ -180,13 +234,64 @@ function slugFromKunmangaSampleUrl(sampleUrl) {
   }
 }
 
-function runNodeScript(args, actionLabel) {
-  logLine(`  ▶ ${actionLabel}`);
-  const started = Date.now();
-  let lastProgress = "";
-  let lastHeartbeat = started;
+function ingestCrawlerLine(line, result) {
+  const raw = String(line || "")
+    .replace(/^\r+/, "")
+    .trim();
+  if (!raw) return;
 
+  if (
+    /^Fetch (series|chapter|reader|home)/i.test(raw) ||
+    /^Merge mode:/i.test(raw) ||
+    /^Cần fetch/i.test(raw) ||
+    /^Không có chương mới cần tải/i.test(raw) ||
+    /^--merge:/i.test(raw)
+  ) {
+    result.sourceOk = true;
+  }
+
+  if (/^Skip write:/i.test(raw)) {
+    result.skipWrite = true;
+    result.sourceOk = true;
+  }
+  if (/^Wrote\s+\d+/i.test(raw)) {
+    result.wrote = true;
+    result.sourceOk = true;
+  }
+
+  const failM = raw.match(/^!\s*Ch\.([^:]+):\s*(.+)$/i);
+  if (failM) {
+    if (!result.failedAttempts) result.failedAttempts = [];
+    result.failedAttempts.push({
+      label: failM[1].trim(),
+      error: failM[2].trim(),
+    });
+    result.sourceOk = true;
+    return;
+  }
+
+  const progressM = raw.match(/^\[(\d+)\/(\d+)\]\s*(.*)$/);
+  if (progressM) {
+    const label = chapterLabelFromCrawlerExtra(progressM[3]);
+    if (!result.attemptedFetchLabels) result.attemptedFetchLabels = [];
+    if (!result.attemptedFetchLabels.includes(label)) {
+      result.attemptedFetchLabels.push(label);
+    }
+    result.sourceOk = true;
+  }
+}
+
+function runNodeScript(args) {
   return new Promise((resolve, reject) => {
+    const result = {
+      sourceOk: false,
+      skipWrite: false,
+      wrote: false,
+      failedAttempts: [],
+      attemptedFetchLabels: [],
+      error: null,
+    };
+
     const child = spawn("node", args, {
       cwd: process.cwd(),
       stdio: ["ignore", "pipe", "pipe"],
@@ -194,28 +299,9 @@ function runNodeScript(args, actionLabel) {
     });
 
     const handleChunk = (chunk) => {
-      const now = Date.now();
-      if (now - lastHeartbeat > 15000 && !lastProgress) {
-        const sec = Math.round((now - started) / 1000);
-        logLine(`  · Vẫn đang chạy… (${sec}s — thường đang đọc danh sách chương từ site)`);
-        lastHeartbeat = now;
-      }
-
       const text = String(chunk || "");
       for (const part of text.split(/\r|\n/)) {
-        const formatted = formatCrawlerLine(part);
-        if (!formatted) continue;
-        lastHeartbeat = now;
-        if (formatted.kind === "progress") {
-          process.stderr.write(`\r${formatted.text.padEnd(72)}`);
-          lastProgress = formatted.text;
-        } else {
-          if (lastProgress) {
-            process.stderr.write("\n");
-            lastProgress = "";
-          }
-          logLine(formatted.text);
-        }
+        ingestCrawlerLine(part, result);
       }
     };
 
@@ -223,16 +309,17 @@ function runNodeScript(args, actionLabel) {
     child.stderr.on("data", handleChunk);
 
     child.on("error", (err) => {
+      result.error = err.message || String(err);
       reject(err);
     });
 
     child.on("close", (code) => {
-      if (lastProgress) process.stderr.write("\n");
       if (code === 0) {
-        resolve();
+        resolve(result);
         return;
       }
-      reject(new Error(`Crawler kết thúc với mã lỗi ${code}`));
+      result.error = result.error || `Crawler kết thúc với mã lỗi ${code}`;
+      reject(new Error(result.error));
     });
   });
 }
@@ -244,6 +331,37 @@ function chapterStats(doc) {
     count: chapters.length,
     to: nums.length ? Math.max(...nums) : Number(doc.toChapter || 0),
   };
+}
+
+function finalizeCrawlerReport(report, beforeDoc, afterDoc, crawlResult, jsonWasWritten) {
+  report.sourceOk = crawlResult.sourceOk;
+  if (crawlResult.error) report.error = crawlResult.error;
+
+  const newLabels = jsonWasWritten ? findNewChapterLabels(beforeDoc, afterDoc) : [];
+  report.newChapterLabels = newLabels.length ? newLabels : [];
+  report.loaded = report.newChapterLabels.map((label) => ({
+    label,
+    status: "done",
+  }));
+
+  if (!report.newChapterLabels.length) {
+    if (crawlResult.failedAttempts?.length) {
+      report.retryWithoutImages = sortChapterLabels(
+        crawlResult.failedAttempts.map((row) => row.label)
+      );
+    } else if (
+      crawlResult.skipWrite &&
+      crawlResult.attemptedFetchLabels?.length
+    ) {
+      report.retryWithoutImages = sortChapterLabels(
+        crawlResult.attemptedFetchLabels
+      );
+    }
+  }
+
+  report.jsonUpdated = jsonWasWritten && report.newChapterLabels.length > 0;
+  report.jsonSkipped = !report.jsonUpdated;
+  logSeriesSyncReport(report);
 }
 
 async function main() {
@@ -286,7 +404,14 @@ async function main() {
 
     if (!dataFile) {
       logSeriesHeader(si + 1, featured.length, title, sourceLabel(source), "(thiếu dataFile)");
-      logLine("  ⊘ Bỏ qua: catalog không có tên file JSON");
+      logSeriesSyncReport({
+        sourceOk: false,
+        newChapterLabels: [],
+        loaded: [],
+        jsonUpdated: false,
+        jsonSkipped: true,
+        error: "catalog không có tên file JSON",
+      });
       skipped++;
       continue;
     }
@@ -298,84 +423,101 @@ async function main() {
     try {
       doc = await readJson(dataAbs);
     } catch {
-      logLine(`  ⊘ Bỏ qua: không đọc được data-json/${dataFile}`);
+      logSeriesSyncReport({
+        sourceOk: false,
+        newChapterLabels: [],
+        loaded: [],
+        jsonUpdated: false,
+        jsonSkipped: true,
+        error: `không đọc được data-json/${dataFile}`,
+      });
       skipped++;
       continue;
     }
 
+    const beforeDoc = doc;
     const before = chapterStats(doc);
     const beforeTo = before.to;
     const beforeCount = before.count;
     let seriesChanged = false;
+    const report = createSeriesSyncReport();
 
     try {
       if (source === "asura") {
         if (!doc.sampleUrl) {
-          logLine("  ⊘ Bỏ qua: thiếu sampleUrl trong file JSON");
+          report.error = "thiếu sampleUrl trong file JSON";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ quét chương mới Asura (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
-        logLine("  ▶ Quét chương mới trên Asura…");
-        const rs = await updateAsuraDoc(doc, args.delayMs);
-        logLine(`  → ${describeAsuraStop(rs.stoppedReason)}`);
+        const rs = await updateAsuraDoc(doc, args.delayMs, report);
         if (rs.added > 0) {
           await writeJson(dataAbs, doc);
+          report.jsonUpdated = true;
+          report.jsonSkipped = false;
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += rs.added;
-          seriesChanged = true;
-          catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, doc.toChapter, beforeCount, doc.chapters.length)}`);
         } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
+          report.jsonUpdated = false;
+          report.jsonSkipped = true;
+          report.loaded = [];
         }
+        logSeriesSyncReport(report);
       } else if (source === "mgeko") {
         if (!doc.sampleUrl) {
-          logLine("  ⊘ Bỏ qua: thiếu sampleUrl trong file JSON");
+          report.error = "thiếu sampleUrl trong file JSON";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ đồng bộ từ MGEKO (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
-        await runNodeScript(
-          [
-            "crawl-mgeko-series.js",
-            doc.sampleUrl,
-            "--out",
-            `data-json/${dataFile}`,
-            "--no-catalog",
-            "--concurrency",
-            String(args.concurrency),
-          ],
-          "Kiểm tra chương mới trên MGEKO (giữ nguyên chương đã có ảnh)"
-        );
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-mgeko-series.js",
+          doc.sampleUrl,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
         const after = chapterStats(doc);
-        const added = Math.max(0, after.to - beforeTo, after.count - beforeCount);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
         if (added > 0) {
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          seriesChanged = true;
           catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, after.to, beforeCount, after.count)}`);
-        } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
         }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "kunmanga") {
         const sample = String(doc.sampleUrl || "").trim();
         const slug = slugFromKunmangaSampleUrl(sample);
         if (!slug) {
-          logLine("  ⊘ Bỏ qua: không đọc được slug KunManga từ sampleUrl");
+          report.error = "không đọc được slug KunManga từ sampleUrl";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ đồng bộ từ KunManga (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
         let origin = "https://www.kunmanga.online";
@@ -384,156 +526,169 @@ async function main() {
         } catch {
           /* default */
         }
-        await runNodeScript(
-          [
-            "crawl-kunmanga-series.js",
-            "--slug",
-            slug,
-            "--origin",
-            origin,
-            "--out",
-            `data-json/${dataFile}`,
-            "--merge",
-            "--no-catalog",
-          ],
-          "Đồng bộ chapter từ KunManga (merge)"
-        );
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-kunmanga-series.js",
+          "--slug",
+          slug,
+          "--origin",
+          origin,
+          "--out",
+          `data-json/${dataFile}`,
+          "--merge",
+          "--no-catalog",
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
-        const after = chapterStats(doc);
-        const added = Math.max(0, after.to - beforeTo, after.count - beforeCount);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
         if (added > 0) {
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          seriesChanged = true;
           catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, after.to, beforeCount, after.count)}`);
-        } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
         }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "onepunchmantruyen") {
         const sample = String(doc.sampleUrl || "").trim();
         const home = String(doc.homeUrl || "").trim();
         const seriesUrl = home || sample;
         if (!seriesUrl) {
-          logLine("  ⊘ Bỏ qua: thiếu homeUrl hoặc sampleUrl");
+          report.error = "thiếu homeUrl hoặc sampleUrl";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ crawl OnePunchManTruyen (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
-        await runNodeScript(
-          [
-            "crawl-onepunchmantruyen-series.js",
-            seriesUrl,
-            "--out",
-            `data-json/${dataFile}`,
-            "--no-catalog",
-            "--concurrency",
-            String(args.concurrency),
-          ],
-          "Crawl lại từ OnePunchManTruyen"
-        );
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-onepunchmantruyen-series.js",
+          seriesUrl,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
-        const after = chapterStats(doc);
-        const added = Math.max(0, after.to - beforeTo, after.count - beforeCount);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
         if (added > 0) {
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          seriesChanged = true;
           catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, after.to, beforeCount, after.count)}`);
-        } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
         }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "onepunchmanmau") {
         const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
         if (!sample) {
-          logLine("  ⊘ Bỏ qua: thiếu sampleUrl trong file JSON");
+          report.error = "thiếu sampleUrl trong file JSON";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ crawl OnePunchManMau.com (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
-        await runNodeScript(
-          [
-            "crawl-onepunchmanmau-series.js",
-            sample,
-            "--out",
-            `data-json/${dataFile}`,
-            "--no-catalog",
-            "--concurrency",
-            String(args.concurrency),
-            "--keep-legacy",
-          ],
-          "Kiểm tra chương mới trên OnePunchManMau.com (giữ nguyên chương đã có ảnh)"
-        );
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-onepunchmanmau-series.js",
+          sample,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+          "--keep-legacy",
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
-        const after = chapterStats(doc);
-        const added = Math.max(0, after.to - beforeTo, after.count - beforeCount);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
         if (added > 0) {
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          seriesChanged = true;
           catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, after.to, beforeCount, after.count)}`);
-        } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
         }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "truyenonepiece") {
         const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
         const home = String(doc.homeUrl || "").trim();
         const seriesUrl = home || sample;
         if (!seriesUrl) {
-          logLine("  ⊘ Bỏ qua: thiếu homeUrl hoặc sampleUrl");
+          report.error = "thiếu homeUrl hoặc sampleUrl";
+          logSeriesSyncReport(report);
           skipped++;
           continue;
         }
         if (args.dryRun) {
-          logLine("  ○ Dry-run: sẽ crawl Truyen-One-Piece (không ghi file)");
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
           continue;
         }
-        await runNodeScript(
-          [
-            "crawl-truyen-one-piece-series.js",
-            seriesUrl,
-            "--out",
-            `data-json/${dataFile}`,
-            "--no-catalog",
-            "--concurrency",
-            String(args.concurrency),
-          ],
-          "Kiểm tra chương mới trên Truyen-One-Piece.com (giữ nguyên chương đã có ảnh)"
-        );
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-truyen-one-piece-series.js",
+          seriesUrl,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
-        const after = chapterStats(doc);
-        const added = Math.max(0, after.to - beforeTo, after.count - beforeCount);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
         if (added > 0) {
+          seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          seriesChanged = true;
           catalogDirty = true;
-          logLine(`  ✓ ${summarizeChapterDelta(beforeTo, after.to, beforeCount, after.count)}`);
-        } else {
-          logLine("  · Không có chương mới — giữ nguyên file JSON");
         }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else {
-        logLine(`  ⊘ Bỏ qua: nguồn "${s.source}" chưa được hỗ trợ trong featured:sync`);
+        report.error = `nguồn "${s.source}" chưa được hỗ trợ`;
+        logSeriesSyncReport(report);
         skipped++;
         continue;
       }
-    } catch {
+    } catch (err) {
       failed++;
-      logLine("  ✗ Lỗi khi cập nhật bộ này (xem chi tiết phía trên)");
+      report.sourceOk = report.sourceOk || false;
+      report.error = err.message || String(err);
+      report.jsonUpdated = false;
+      report.jsonSkipped = true;
+      logSeriesSyncReport(report);
       continue;
     }
 
     const idx = catalog.series.findIndex((it) => it.dataFile === dataFile);
     if (idx >= 0 && !args.dryRun && seriesChanged) {
-      catalog.series[idx] = syncSeriesMetaFromDoc(catalog.series[idx], doc);
+      catalog.series[idx] = syncSeriesMetaFromDoc(catalog.series[idx], doc, {
+        updateTimestamp: true,
+      });
     }
   }
 

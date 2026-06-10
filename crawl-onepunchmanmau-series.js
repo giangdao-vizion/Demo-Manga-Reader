@@ -394,6 +394,13 @@ async function main() {
     Array.isArray(existing.chapters) &&
     existing.chapters.length
   ) {
+    for (const r of fetched) {
+      if (!Array.isArray(r.images) || !r.images.length) {
+        console.error(
+          `  ! Ch.${r.chapterTitle}: chương chưa có ảnh trên site`
+        );
+      }
+    }
     console.error("Skip write: không tải được ảnh chương mới — giữ nguyên JSON.");
     return;
   }
