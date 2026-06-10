@@ -100,12 +100,15 @@ function syncSeriesMetaFromDoc(seriesEntry, doc) {
   const from = nums.length ? Math.min(...nums) : seriesEntry.fromChapter;
   const to = nums.length ? Math.max(...nums) : seriesEntry.toChapter;
   const count = (doc.chapters || []).length || Number(seriesEntry.chapterCount || 0);
+  const contentUpdatedAt =
+    doc.fetchedAt || seriesEntry.contentUpdatedAt || seriesEntry.updatedAt || null;
   return {
     ...seriesEntry,
     fromChapter: from,
     toChapter: to,
     chapterCount: count,
     subtitle: `Ch. ${from}\u2013${to} · ${seriesEntry.dataFile}`,
+    ...(contentUpdatedAt ? { contentUpdatedAt } : {}),
   };
 }
 

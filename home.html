@@ -573,6 +573,8 @@
         <div>
           <label for="catalogSort">Sắp xếp</label>
           <select id="catalogSort" aria-label="Sắp xếp danh sách">
+            <option value="updated_desc" selected>Cập nhật mới nhất</option>
+            <option value="updated_asc">Cập nhật cũ nhất</option>
             <option value="title_asc">Tên A → Z</option>
             <option value="title_desc">Tên Z → A</option>
             <option value="chapters_desc">Nhiều chương nhất</option>
@@ -722,6 +724,123 @@
         );
       }
 
+      function seriesTitle(item) {
+        return String(item.displayTitle || item.title || item.dataFile || "");
+      }
+
+      function seriesUpdatedAtMs(item) {
+        const raw =
+          item.contentUpdatedAt || item.fetchedAt || item.updatedAt || "";
+        if (!raw) return 0;
+        const t = Date.parse(String(raw));
+        return Number.isFinite(t) ? t : 0;
+      }
+
+      function compareSeries(a, b, sortKey) {
+        const ta = seriesTitle(a);
+        const tb = seriesTitle(b);
+        const ca = Number(a.chapterCount) || 0;
+        const cb = Number(b.chapterCount) || 0;
+        const sa = String(a.source || "");
+        const sb = String(b.source || "");
+        const titleCmp = ta.localeCompare(tb, "vi", { sensitivity: "base" });
+        if (sortKey === "updated_desc") {
+          return seriesUpdatedAtMs(b) - seriesUpdatedAtMs(a) || titleCmp;
+        }
+        if (sortKey === "updated_asc") {
+          return seriesUpdatedAtMs(a) - seriesUpdatedAtMs(b) || titleCmp;
+        }
+        if (sortKey === "title_desc") {
+          return tb.localeCompare(ta, "vi", { sensitivity: "base" });
+        }
+        if (sortKey === "chapters_desc") {
+          return cb - ca || titleCmp;
+        }
+        if (sortKey === "chapters_asc") {
+          return ca - cb || titleCmp;
+        }
+        if (sortKey === "source_asc") {
+          return (
+            sa.localeCompare(sb, "vi", { sensitivity: "base" }) || titleCmp
+          );
+        }
+        return titleCmp;
+      }
+
+      function sortSeriesList(list, sortKey) {
+        list.sort(function (a, b) {
+          return compareSeries(a, b, sortKey);
+        });
+        return list;
+      }
+
+      async function enrichSeriesTimestamps(series) {
+        const base = getManifestBaseDir();
+        const pending = series.filter(function (item) {
+          return item && item.dataFile && !seriesUpdatedAtMs(item);
+        });
+        if (!pending.length) return;
+
+        const concurrency = 12;
+        let i = 0;
+        async function worker() {
+          while (i < pending.length) {
+            const item = pending[i++];
+            const dataFile = String(item.dataFile || "").trim();
+            if (!dataFile) continue;
+            const url = new URL(
+              "data-json/" + encodeURIComponent(dataFile),
+              base
+            ).href;
+            try {
+              const res = await fetch(url, {
+                credentials: "same-origin",
+                cache: "no-store",
+                headers: { Range: "bytes=0-767" },
+              });
+              if (!res.ok) continue;
+              let text = "";
+              const len = Number(res.headers.get("content-length") || 0);
+              const ranged =
+                res.status === 206 || Boolean(res.headers.get("content-range"));
+              if (ranged || len <= 2048) {
+                text = await res.text();
+              } else if (res.body && typeof res.body.getReader === "function") {
+                const reader = res.body.getReader();
+                const parts = [];
+                let total = 0;
+                while (total < 768) {
+                  const chunk = await reader.read();
+                  if (chunk.done) break;
+                  parts.push(chunk.value);
+                  total += chunk.value.length;
+                }
+                try {
+                  await reader.cancel();
+                } catch {
+                  /* ignore */
+                }
+                const merged = new Uint8Array(total);
+                let offset = 0;
+                for (let p = 0; p < parts.length; p++) {
+                  merged.set(parts[p], offset);
+                  offset += parts[p].length;
+                }
+                text = new TextDecoder().decode(merged);
+              }
+              const m = text.match(/"fetchedAt"\s*:\s*"([^"]+)"/);
+              if (m) item.contentUpdatedAt = m[1];
+            } catch {
+              /* bỏ qua nếu không đọc được */
+            }
+          }
+        }
+        const workers = [];
+        const n = Math.min(concurrency, pending.length);
+        for (let w = 0; w < n; w++) workers.push(worker());
+        await Promise.all(workers);
+      }
+
       function applyFilterAndSort() {
         const q = norm(catalogSearch.value.trim());
         let list = allSeries.slice().filter(function (item) {
@@ -729,28 +848,7 @@
         });
         lastSearchMatchCount = list.length;
         const sortKey = catalogSort.value;
-        list.sort(function (a, b) {
-          const ta = String(a.displayTitle || a.title || a.dataFile || "");
-          const tb = String(b.displayTitle || b.title || b.dataFile || "");
-          const ca = Number(a.chapterCount) || 0;
-          const cb = Number(b.chapterCount) || 0;
-          const sa = String(a.source || "");
-          const sb = String(b.source || "");
-          if (sortKey === "title_desc") {
-            return tb.localeCompare(ta, "vi", { sensitivity: "base" });
-          }
-          if (sortKey === "chapters_desc") {
-            return cb - ca || ta.localeCompare(tb, "vi", { sensitivity: "base" });
-          }
-          if (sortKey === "chapters_asc") {
-            return ca - cb || ta.localeCompare(tb, "vi", { sensitivity: "base" });
-          }
-          if (sortKey === "source_asc") {
-            return sa.localeCompare(sb, "vi", { sensitivity: "base" }) ||
-              ta.localeCompare(tb, "vi", { sensitivity: "base" });
-          }
-          return ta.localeCompare(tb, "vi", { sensitivity: "base" });
-        });
+        sortSeriesList(list, sortKey);
         filteredSeries = list.filter(function (item) {
           return !favoritesHas(String(item.dataFile || "").trim());
         });
@@ -804,6 +902,7 @@
           if (!itemMatchesQuery(row, q)) return;
           items.push(row);
         });
+        sortSeriesList(items, catalogSort.value);
         favoritesGrid.innerHTML = "";
         favoritesEmpty.classList.add("hidden");
         favoritesNoMatch.classList.add("hidden");
@@ -1014,6 +1113,11 @@
             catalogGrid.innerHTML =
               '<p class="load-state">Chưa có truyện nào trong danh mục.</p>';
           } else {
+            const loadMsg = document.getElementById("catalogLoadMessage");
+            if (loadMsg) {
+              loadMsg.textContent = "Đang lấy thời gian cập nhật truyện…";
+            }
+            await enrichSeriesTimestamps(allSeries);
             favoriteOrder = favoritesLoadIds();
             catalogToolbar.hidden = false;
             catalogSearchWrap.hidden = false;
