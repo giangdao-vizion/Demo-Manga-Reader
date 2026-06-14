@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-10T08:19:21.026Z",
+  "updatedAt": "2026-06-14T03:25:44.908Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -595,16 +595,17 @@
       "dataFile": "murim-rpg-simulation.json",
       "title": "Heavenly Demon Cultivation Simulation",
       "displayTitle": "Heavenly Demon Cultivation Simulation",
-      "subtitle": "Ch. 1–184 · murim-rpg-simulation.json",
+      "subtitle": "Ch. 1–185 · murim-rpg-simulation.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 184,
-      "chapterCount": 184,
+      "toChapter": 185,
+      "chapterCount": 185,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "mgeko: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-14T03:25:19.584Z"
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
@@ -666,16 +667,17 @@
       "dataFile": "nano-machine.json",
       "title": "Nano Machine",
       "displayTitle": "Nano Machine",
-      "subtitle": "Ch. 1–315 · nano-machine.json",
+      "subtitle": "Ch. 1–316 · nano-machine.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 315,
-      "chapterCount": 315,
+      "toChapter": 316,
+      "chapterCount": 316,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-14T03:25:21.302Z"
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -710,16 +712,17 @@
       "dataFile": "overgeared-ch250-316.json",
       "title": "Overgeared",
       "displayTitle": "Overgeared",
-      "subtitle": "Ch. 0–326 · overgeared-ch250-316.json",
+      "subtitle": "Ch. 0–327 · overgeared-ch250-316.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 326,
-      "chapterCount": 327,
+      "toChapter": 327,
+      "chapterCount": 328,
       "sqliteSeriesId": 53,
       "contentSyncComplete": true,
       "contentSyncNote": "317 tải OK, 0 đã có trong DB, 0 lỗi / 317 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-14T03:25:23.000Z"
     },
     {
       "dataFile": "overpowered-sword.json",
@@ -1033,16 +1036,17 @@
       "dataFile": "solo-max-level-newbie-ch180-252.json",
       "title": "Solo Max-Level Newbie",
       "displayTitle": "Solo Max-Level Newbie",
-      "subtitle": "Ch. 0–262 · solo-max-level-newbie-ch180-252.json",
+      "subtitle": "Ch. 0–263 · solo-max-level-newbie-ch180-252.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 262,
-      "chapterCount": 263,
+      "toChapter": 263,
+      "chapterCount": 264,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
       "contentSyncNote": "253 tải OK, 0 đã có trong DB, 1 lỗi / 254 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-14T03:25:24.272Z"
     },
     {
       "dataFile": "spirit-farmer.json",
@@ -1659,13 +1663,14 @@
       "dataFile": "99-wooden-stick.json",
       "title": "+99 Wooden stick",
       "displayTitle": "+99 Wooden stick",
-      "subtitle": "Ch. 1–202 · 99-wooden-stick.json",
+      "subtitle": "Ch. 1–203 · 99-wooden-stick.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 202,
-      "chapterCount": 205,
+      "toChapter": 203,
+      "chapterCount": 206,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/99-wooden-stick.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-14T03:25:32.231Z"
     },
     {
       "sqliteSeriesId": null,

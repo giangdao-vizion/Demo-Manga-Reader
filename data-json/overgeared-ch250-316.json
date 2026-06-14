@@ -1,8 +1,8 @@
 {
   "sampleUrl": "https://asurascans.com/comics/overgeared-26f76d6d/chapter/272",
   "fromChapter": 0,
-  "toChapter": 326,
-  "fetchedAt": "2026-06-09T06:20:49.829Z",
+  "toChapter": 327,
+  "fetchedAt": "2026-06-14T03:25:23.000Z",
   "source": "asurascans",
   "chapters": [
     {
@@ -22792,6 +22792,38 @@
         "https://cdn.asurascans.com/asura-images/chapters/overgeared/326/0268e3.webp",
         "https://cdn.asurascans.com/asura-images/chapters/overgeared/326/42e787.webp",
         "https://cdn.asurascans.com/asura-images/chapters/overgeared/326/2f77f9.webp"
+      ]
+    },
+    {
+      "title": "Chapter 327",
+      "chapter": 327,
+      "url": "https://asurascans.com/comics/overgeared-26f76d6d/chapter/327",
+      "finalUrl": "https://asurascans.com/comics/overgeared-89829cb7/chapter/327",
+      "total": 23,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/840b37.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/134423.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/51b7db.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/b1c747.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/534a1e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/b9dd41.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/5cb88e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/94e477.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/e3a666.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/e31944.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/281033.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/c50731.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/4088a9.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/c70288.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/6d7675.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/5ba22c.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/8a2021.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/74e4f2.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/7385c3.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/dd32c6.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/e48b44.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/47779e.webp",
+        "https://cdn.asurascans.com/asura-images/chapters/overgeared/327/a697e2.webp"
       ]
     }
   ],
