@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-14T03:25:44.908Z",
+  "updatedAt": "2026-06-18T15:17:31.866Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -595,17 +595,17 @@
       "dataFile": "murim-rpg-simulation.json",
       "title": "Heavenly Demon Cultivation Simulation",
       "displayTitle": "Heavenly Demon Cultivation Simulation",
-      "subtitle": "Ch. 1–185 · murim-rpg-simulation.json",
+      "subtitle": "Ch. 1–186 · murim-rpg-simulation.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 185,
-      "chapterCount": 185,
+      "toChapter": 186,
+      "chapterCount": 186,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "mgeko: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg",
       "featured": true,
-      "contentUpdatedAt": "2026-06-14T03:25:19.584Z"
+      "contentUpdatedAt": "2026-06-18T15:16:58.566Z"
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
@@ -667,17 +667,17 @@
       "dataFile": "nano-machine.json",
       "title": "Nano Machine",
       "displayTitle": "Nano Machine",
-      "subtitle": "Ch. 1–316 · nano-machine.json",
+      "subtitle": "Ch. 1–317 · nano-machine.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 316,
-      "chapterCount": 316,
+      "toChapter": 317,
+      "chapterCount": 317,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-06-14T03:25:21.302Z"
+      "contentUpdatedAt": "2026-06-18T15:17:01.972Z"
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -1530,17 +1530,17 @@
       "dataFile": "the-world-after-the-end-ch150-225.json",
       "title": "The World After The End",
       "displayTitle": "The World After The End",
-      "subtitle": "Ch. 0–238 · the-world-after-the-end-ch150-225.json",
+      "subtitle": "Ch. 0–239 · the-world-after-the-end-ch150-225.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 238,
-      "chapterCount": 239,
+      "toChapter": 239,
+      "chapterCount": 240,
       "sqliteSeriesId": 18,
       "contentSyncComplete": true,
       "contentSyncNote": "229 tải OK, 0 đã có trong DB, 1 lỗi / 230 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-06-10T08:19:02.997Z"
+      "contentUpdatedAt": "2026-06-18T15:17:06.637Z"
     },
     {
       "dataFile": "trash-of-the-counts-family.json",
@@ -1690,16 +1690,17 @@
       "dataFile": "absolute-regression.json",
       "title": "Absolute Regression",
       "displayTitle": "Absolute Regression",
-      "subtitle": "Ch. 1–105 · absolute-regression.json",
+      "subtitle": "Ch. 1–106 · absolute-regression.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 105,
-      "chapterCount": 105,
+      "toChapter": 106,
+      "chapterCount": 106,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-18T15:17:12.183Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1723,13 +1724,14 @@
       "dataFile": "infinite-level-up-in-murim.json",
       "title": "Infinite Level Up in Murim",
       "displayTitle": "Infinite Level Up in Murim",
-      "subtitle": "Ch. 1–260 · infinite-level-up-in-murim.json",
+      "subtitle": "Ch. 1–261 · infinite-level-up-in-murim.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 260,
-      "chapterCount": 272,
+      "toChapter": 261,
+      "chapterCount": 273,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/61609.png",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-18T15:17:16.101Z"
     },
     {
       "dataFile": "one-piece-dao-hai-tac-truyen-one-piece.json",
@@ -1750,16 +1752,17 @@
       "dataFile": "one-punch-man-mgeko-eng.json",
       "title": "ONE-PUNCH MAN (EN)",
       "displayTitle": "ONE-PUNCH MAN (EN)",
-      "subtitle": "Ch. 1–232 · one-punch-man-mgeko-eng.json",
+      "subtitle": "Ch. 1–233 · one-punch-man-mgeko-eng.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 232,
-      "chapterCount": 276,
+      "toChapter": 233,
+      "chapterCount": 277,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/onepunch-man-mg1.png",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-18T15:17:25.311Z"
     },
     {
       "dataFile": "one-punch-man-onepunchmanmau.json",
@@ -1783,14 +1786,14 @@
       "dataFile": "the-investor-who-sees-the-future.json",
       "title": "The Investor Who Sees The Future",
       "displayTitle": "The Investor Who Sees The Future",
-      "subtitle": "Ch. 1–98 · the-investor-who-sees-the-future.json",
+      "subtitle": "Ch. 1–99 · the-investor-who-sees-the-future.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 98,
-      "chapterCount": 97,
+      "toChapter": 99,
+      "chapterCount": 98,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/mnWKOX.jpg",
       "featured": true,
-      "contentUpdatedAt": "2026-06-10T08:19:21.010Z"
+      "contentUpdatedAt": "2026-06-18T15:17:31.784Z"
     }
   ]
 }
