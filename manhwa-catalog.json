@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-18T15:17:31.866Z",
+  "updatedAt": "2026-06-19T15:07:44.187Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1036,17 +1036,17 @@
       "dataFile": "solo-max-level-newbie-ch180-252.json",
       "title": "Solo Max-Level Newbie",
       "displayTitle": "Solo Max-Level Newbie",
-      "subtitle": "Ch. 0–263 · solo-max-level-newbie-ch180-252.json",
+      "subtitle": "Ch. 0–264 · solo-max-level-newbie-ch180-252.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 263,
-      "chapterCount": 264,
+      "toChapter": 264,
+      "chapterCount": 265,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
       "contentSyncNote": "253 tải OK, 0 đã có trong DB, 1 lỗi / 254 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-06-14T03:25:24.272Z"
+      "contentUpdatedAt": "2026-06-19T15:07:18.143Z"
     },
     {
       "dataFile": "spirit-farmer.json",
@@ -1403,15 +1403,16 @@
       "dataFile": "nebulas-civilization-ch01-122.json",
       "title": "The Nebula's Civilization",
       "displayTitle": "The Nebula's Civilization",
-      "subtitle": "Ch. 1–122 · nebulas-civilization-ch01-122.json",
+      "subtitle": "Ch. 1–134 · nebulas-civilization-ch01-122.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 122,
-      "chapterCount": 122,
+      "toChapter": 134,
+      "chapterCount": 134,
       "sqliteSeriesId": 52,
-      "contentSyncComplete": true,
-      "contentSyncNote": "122 tải OK, 0 đã có trong DB, 0 lỗi / 122 ch trong scope",
+      "contentSyncComplete": false,
+      "contentSyncNote": "Ch.123–134 từ asurascans.com/comics/the-nebulas-civilization-19cdf401; Ch.1–122 giữ ảnh Mangoasis, sampleUrl Asura cho sync.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp",
+      "contentUpdatedAt": "2026-06-19T15:15:02.498Z",
       "featured": true
     },
     {
@@ -1724,14 +1725,14 @@
       "dataFile": "infinite-level-up-in-murim.json",
       "title": "Infinite Level Up in Murim",
       "displayTitle": "Infinite Level Up in Murim",
-      "subtitle": "Ch. 1–261 · infinite-level-up-in-murim.json",
+      "subtitle": "Ch. 1–262 · infinite-level-up-in-murim.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 261,
-      "chapterCount": 273,
+      "toChapter": 262,
+      "chapterCount": 274,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/61609.png",
       "featured": true,
-      "contentUpdatedAt": "2026-06-18T15:17:16.101Z"
+      "contentUpdatedAt": "2026-06-19T15:07:29.130Z"
     },
     {
       "dataFile": "one-piece-dao-hai-tac-truyen-one-piece.json",
