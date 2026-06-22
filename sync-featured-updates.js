@@ -133,23 +133,72 @@ function findNewChapterLabels(beforeDoc, afterDoc) {
   return sortChapterLabels(labels);
 }
 
+function chapterMetaFromDoc(doc) {
+  const chapters = Array.isArray(doc.chapters) ? doc.chapters : [];
+  const nums = chapters.map((c, i) => chapterNumberOf(c, i)).filter(Number.isFinite);
+  const from = nums.length
+    ? Math.min(...nums)
+    : Number.isFinite(Number(doc.fromChapter))
+      ? Number(doc.fromChapter)
+      : 1;
+  const to = nums.length
+    ? Math.max(...nums)
+    : Number.isFinite(Number(doc.toChapter))
+      ? Number(doc.toChapter)
+      : from;
+  const count = chapters.length || Number(doc.chapterCount) || 0;
+  return { from, to, count };
+}
+
+function catalogMetaDiffers(entry, meta) {
+  if (!entry || !meta) return false;
+  return (
+    Number(entry.fromChapter) !== meta.from ||
+    Number(entry.toChapter) !== meta.to ||
+    Number(entry.chapterCount) !== meta.count
+  );
+}
+
 function syncSeriesMetaFromDoc(seriesEntry, doc, { contentUpdatedAt = null } = {}) {
-  const nums = (doc.chapters || [])
-    .map((c, i) => chapterNumberOf(c, i))
-    .filter((n) => Number.isFinite(n));
-  const from = nums.length ? Math.min(...nums) : seriesEntry.fromChapter;
-  const to = nums.length ? Math.max(...nums) : seriesEntry.toChapter;
-  const count = (doc.chapters || []).length || Number(seriesEntry.chapterCount || 0);
+  const meta = chapterMetaFromDoc(doc);
   const patch = {
-    fromChapter: from,
-    toChapter: to,
-    chapterCount: count,
-    subtitle: `Ch. ${from}\u2013${to} · ${seriesEntry.dataFile}`,
+    fromChapter: meta.from,
+    toChapter: meta.to,
+    chapterCount: meta.count,
+    subtitle: `Ch. ${meta.from}\u2013${meta.to} · ${seriesEntry.dataFile}`,
   };
   if (contentUpdatedAt) {
     patch.contentUpdatedAt = contentUpdatedAt;
   }
   return { ...seriesEntry, ...patch };
+}
+
+function applyCatalogSeriesFromDoc(catalog, dataFile, doc, { bumpTimestamp = false } = {}) {
+  const idx = catalog.series.findIndex((it) => it.dataFile === dataFile);
+  if (idx < 0) return false;
+  const stale = catalogMetaDiffers(catalog.series[idx], chapterMetaFromDoc(doc));
+  if (!stale && !bumpTimestamp) return false;
+  catalog.series[idx] = syncSeriesMetaFromDoc(catalog.series[idx], doc, {
+    contentUpdatedAt: bumpTimestamp ? new Date().toISOString() : null,
+  });
+  return true;
+}
+
+async function reconcileFeaturedCatalogFromJson(catalog, featured) {
+  let updated = 0;
+  for (const s of featured) {
+    const dataFile = String(s?.dataFile || "").trim();
+    if (!dataFile) continue;
+    const dataAbs = resolve(process.cwd(), "data-json", dataFile);
+    let doc;
+    try {
+      doc = await readJson(dataAbs);
+    } catch {
+      continue;
+    }
+    if (applyCatalogSeriesFromDoc(catalog, dataFile, doc)) updated++;
+  }
+  return updated;
 }
 
 async function readJson(path) {
@@ -395,6 +444,16 @@ async function main() {
   let skipped = 0;
   let failed = 0;
   let catalogDirty = false;
+  let catalogReconciled = 0;
+
+  if (!args.dryRun) {
+    catalogReconciled = await reconcileFeaturedCatalogFromJson(catalog, featured);
+    if (catalogReconciled > 0) {
+      catalogDirty = true;
+      logLine("");
+      logLine(`  Đồng bộ catalog từ JSON: ${catalogReconciled} bộ featured cần chỉnh số chương`);
+    }
+  }
 
   for (let si = 0; si < featured.length; si++) {
     const s = featured[si];
@@ -680,11 +739,11 @@ async function main() {
     }
 
     const idx = catalog.series.findIndex((it) => it.dataFile === dataFile);
-    if (idx >= 0 && !args.dryRun && seriesChanged) {
-      catalog.series[idx] = syncSeriesMetaFromDoc(catalog.series[idx], doc, {
-        contentUpdatedAt: new Date().toISOString(),
+    if (idx >= 0 && !args.dryRun) {
+      const bumped = applyCatalogSeriesFromDoc(catalog, dataFile, doc, {
+        bumpTimestamp: seriesChanged,
       });
-      catalogDirty = true;
+      if (bumped) catalogDirty = true;
     }
   }
 

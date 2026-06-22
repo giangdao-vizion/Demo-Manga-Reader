@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-19T15:07:44.187Z",
+  "updatedAt": "2026-06-22T06:17:08.995Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -760,11 +760,11 @@
       "dataFile": "overgeared-ch250-316.json",
       "title": "Overgeared",
       "displayTitle": "Overgeared",
-      "subtitle": "Ch. 0–327 · overgeared-ch250-316.json",
+      "subtitle": "Ch. 0–328 · overgeared-ch250-316.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 327,
-      "chapterCount": 328,
+      "toChapter": 328,
+      "chapterCount": 329,
       "sqliteSeriesId": 53,
       "contentSyncComplete": true,
       "contentSyncNote": "317 tải OK, 0 đã có trong DB, 0 lỗi / 317 ch trong scope",
