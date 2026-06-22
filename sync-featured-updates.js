@@ -133,7 +133,7 @@ function findNewChapterLabels(beforeDoc, afterDoc) {
   return sortChapterLabels(labels);
 }
 
-function syncSeriesMetaFromDoc(seriesEntry, doc, { updateTimestamp = false } = {}) {
+function syncSeriesMetaFromDoc(seriesEntry, doc, { contentUpdatedAt = null } = {}) {
   const nums = (doc.chapters || [])
     .map((c, i) => chapterNumberOf(c, i))
     .filter((n) => Number.isFinite(n));
@@ -146,8 +146,8 @@ function syncSeriesMetaFromDoc(seriesEntry, doc, { updateTimestamp = false } = {
     chapterCount: count,
     subtitle: `Ch. ${from}\u2013${to} · ${seriesEntry.dataFile}`,
   };
-  if (updateTimestamp && doc.fetchedAt) {
-    patch.contentUpdatedAt = doc.fetchedAt;
+  if (contentUpdatedAt) {
+    patch.contentUpdatedAt = contentUpdatedAt;
   }
   return { ...seriesEntry, ...patch };
 }
@@ -503,7 +503,6 @@ async function main() {
           seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          catalogDirty = true;
         }
         finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "kunmanga") {
@@ -549,7 +548,6 @@ async function main() {
           seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          catalogDirty = true;
         }
         finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "onepunchmantruyen") {
@@ -588,7 +586,6 @@ async function main() {
           seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          catalogDirty = true;
         }
         finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "onepunchmanmau") {
@@ -626,7 +623,6 @@ async function main() {
           seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          catalogDirty = true;
         }
         finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else if (source === "truyenonepiece") {
@@ -665,7 +661,6 @@ async function main() {
           seriesChanged = true;
           touchedSeries++;
           totalAdded += added;
-          catalogDirty = true;
         }
         finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
       } else {
@@ -687,8 +682,9 @@ async function main() {
     const idx = catalog.series.findIndex((it) => it.dataFile === dataFile);
     if (idx >= 0 && !args.dryRun && seriesChanged) {
       catalog.series[idx] = syncSeriesMetaFromDoc(catalog.series[idx], doc, {
-        updateTimestamp: true,
+        contentUpdatedAt: new Date().toISOString(),
       });
+      catalogDirty = true;
     }
   }
 

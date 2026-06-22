@@ -14,7 +14,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://www.mangasis.com/wp-content/uploads/A-Returners-Magic-Should-Be-Special-464x722.jpg"
+      "coverUrl": "https://www.mangasis.com/wp-content/uploads/A-Returners-Magic-Should-Be-Special-464x722.jpg",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "absolute-sword-sense-ch01-164.json",
@@ -28,7 +29,8 @@
       "sqliteSeriesId": 30,
       "contentSyncComplete": true,
       "contentSyncNote": "177 tải OK, 0 đã có trong DB, 0 lỗi / 177 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.136aa2-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.136aa2-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "academys-genius-swordmaster.json",
@@ -42,7 +44,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.09cdd2-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.09cdd2-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "academys-undercover-professor.json",
@@ -56,7 +59,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "archmage-transcending-through-regression.json",
@@ -70,7 +74,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/archmage-transcending-through-regression.b63f09-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/archmage-transcending-through-regression.b63f09-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "bloodhounds-regression-instinct.json",
@@ -84,7 +89,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bloodhounds-regression-instinct.e13bfc-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bloodhounds-regression-instinct.e13bfc-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "boundless-necromancer.json",
@@ -98,7 +104,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/boundless-necromancer.a3e502-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/boundless-necromancer.a3e502-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "childhood-friend-of-the-zenith.json",
@@ -112,7 +119,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/childhood-friend-of-the-zenith.6c0f26-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/childhood-friend-of-the-zenith.6c0f26-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "chronicles-of-the-demon-faction.json",
@@ -126,7 +134,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.cae885-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.cae885-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "chronicles-of-the-martial-gods-return.json",
@@ -140,7 +149,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "death-is-the-only-ending-for-the-villainess.json",
@@ -154,7 +164,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-is-the-only-ending-for-the-villainess.3b541b-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-is-the-only-ending-for-the-villainess.3b541b-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "delusion-ch30-60.json",
@@ -168,7 +179,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://www.mangasis.com/wp-content/uploads/Delusion-Hongjacga.jpeg"
+      "coverUrl": "https://www.mangasis.com/wp-content/uploads/Delusion-Hongjacga.jpeg",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "doctors-rebirth.json",
@@ -182,7 +194,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.e46d6d-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.e46d6d-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "dragon-devouring-mage.json",
@@ -196,7 +209,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dragon-devouring-mage.83a703-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dragon-devouring-mage.83a703-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "duke-pendragon.json",
@@ -210,7 +224,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/duke-pendragon.d42626-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/duke-pendragon.d42626-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "dungeon-odyssey.json",
@@ -224,7 +239,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "eternally-regressing-knight.json",
@@ -238,7 +254,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.b0c5e0-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.b0c5e0-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "genius-archers-streaming.json",
@@ -252,7 +269,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.56325b-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.56325b-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "genius-martial-arts-trainer.json",
@@ -266,7 +284,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-martial-arts-trainer.7a9f27-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-martial-arts-trainer.7a9f27-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "genius-of-the-unique-lineage.json",
@@ -280,7 +299,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "heavenly-demon-instructor.json",
@@ -294,7 +314,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "heavenly-grand-archives-young-master.json",
@@ -308,7 +329,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.31b71a-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.31b71a-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "heavenly-inquisition-sword.json",
@@ -322,7 +344,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "helmut-the-forsaken-child.json",
@@ -336,7 +359,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/helmut-the-forsaken-child.451ed0-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/helmut-the-forsaken-child.451ed0-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "how-to-live-as-a-villain.json",
@@ -350,7 +374,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/how-to-live-as-a-villain.24847b-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/how-to-live-as-a-villain.24847b-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "i-became-a-renowned-familys-sword-prodigy.json",
@@ -364,7 +389,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "i-killed-an-academy-player.json",
@@ -378,7 +404,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-killed-an-academy-player.9aa03c-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-killed-an-academy-player.9aa03c-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "i-obtained-a-mythic-item.json",
@@ -392,7 +419,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "i-reincarnated-as-the-crazed-heir.json",
@@ -406,7 +434,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "ill-be-taking-a-break-for-personal-reasons.json",
@@ -420,7 +449,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "im-not-that-kind-of-talent.json",
@@ -434,7 +464,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-that-kind-of-talent.cfca35-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-that-kind-of-talent.cfca35-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "infinite-mage.json",
@@ -448,7 +479,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "insanely-talented-player.json",
@@ -462,7 +494,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/insanely-talented-player.35ed36-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/insanely-talented-player.35ed36-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "kill-the-dragon.json",
@@ -476,7 +509,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.c2ff0c-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.c2ff0c-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "killer-pietro.json",
@@ -490,7 +524,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "legend-of-asura-the-venom-dragon.json",
@@ -504,7 +539,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-asura-the-venom-dragon.ee9db7-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-asura-the-venom-dragon.ee9db7-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "life-of-a-magic-academy-mage.json",
@@ -518,7 +554,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "margraves-bastard-son-was-the-emperor.json",
@@ -532,7 +569,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/margraves-bastard-son-was-the-emperor.eb7f94-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/margraves-bastard-son-was-the-emperor.eb7f94-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "martial-god-regressed-to-level-2.json",
@@ -546,7 +584,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "max-level-returner.json",
@@ -560,7 +599,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "mr-devourer-please-act-like-a-final-boss.json",
@@ -574,7 +614,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "murim-login.json",
@@ -589,7 +630,8 @@
       "contentSyncComplete": true,
       "contentSyncNote": "250 tải OK, 0 đã có trong DB, 0 lỗi / 250 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "murim-rpg-simulation.json",
@@ -619,7 +661,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "my-exclusive-tower-guide.json",
@@ -633,7 +676,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.f49132-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.f49132-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "my-school-life-pretending-to-be-a-worthless-person.json",
@@ -647,7 +691,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "myst-might-mayhem.json",
@@ -661,7 +706,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/myst-might-mayhem.98fc44-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/myst-might-mayhem.98fc44-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "nano-machine.json",
@@ -691,7 +737,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "omniscient-readers-viewpoint.json",
@@ -706,7 +753,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "overgeared-ch250-316.json",
@@ -736,7 +784,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "pick-me-up-infinite-gacha.json",
@@ -750,7 +799,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.8c5d12-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.8c5d12-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "player-who-cant-level-up.json",
@@ -764,7 +814,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.72b02f-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.72b02f-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "player-return-10000-years-later.json",
@@ -778,7 +829,8 @@
       "sqliteSeriesId": 41,
       "contentSyncComplete": true,
       "contentSyncNote": "151 tải OK, 0 đã có trong DB, 0 lỗi / 151 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.d6a412-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.d6a412-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "reaper-of-the-drifting-moon.json",
@@ -792,7 +844,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "reborn-as-the-heavenly-demon.json",
@@ -806,7 +859,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "reformation-of-the-deadbeat-noble.json",
@@ -820,7 +874,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.c03ed0-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.c03ed0-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "regressing-with-the-kings-power.json",
@@ -834,7 +889,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.b5f24c-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.b5f24c-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "regressor-instruction-manual.json",
@@ -848,7 +904,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.dccab6-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.dccab6-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "regressor-of-the-fallen-family.json",
@@ -862,7 +919,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "reincarnation-of-the-suicidal-battle-god.json",
@@ -876,7 +934,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "reincarnator.json",
@@ -890,7 +949,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-of-the-disaster-class-hero.json",
@@ -904,7 +964,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-of-the-mount-hua-sect.json",
@@ -918,7 +979,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.34a1e2-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.34a1e2-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-of-the-shattered-constellation.json",
@@ -932,7 +994,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-shattered-constellation.61c903-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-shattered-constellation.61c903-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-of-the-sss-class-ranker.json",
@@ -946,7 +1009,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-sss-class-ranker.5c938f-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-sss-class-ranker.5c938f-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-of-the-unrivaled-spear-knight.json",
@@ -960,7 +1024,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.12d9d8-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.12d9d8-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "return-to-player.json",
@@ -974,7 +1039,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "revenge-of-the-iron-blooded-sword-hound.json",
@@ -988,7 +1054,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "sleeping-ranker.json",
@@ -1002,7 +1069,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.0540db-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.0540db-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "solo-farming-in-the-tower.json",
@@ -1016,7 +1084,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "solo-leveling-ch01-202.json",
@@ -1030,7 +1099,8 @@
       "sqliteSeriesId": 94,
       "contentSyncComplete": true,
       "contentSyncNote": "26 tải OK, 175 đã có trong DB, 0 lỗi / 201 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "solo-max-level-newbie-ch180-252.json",
@@ -1060,7 +1130,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/spirit-farmer.6081c0-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/spirit-farmer.6081c0-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "sss-class-suicide-hunter.json",
@@ -1074,7 +1145,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.c8dc11-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.c8dc11-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "standard-of-reincarnation.json",
@@ -1088,7 +1160,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "star-embracing-swordmaster.json",
@@ -1102,7 +1175,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "star-instructor-master-baek.json",
@@ -1116,7 +1190,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.34d48f-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.34d48f-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "superhuman-battlefield.json",
@@ -1130,7 +1205,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "surviving-the-game-as-a-barbarian.json",
@@ -1145,7 +1221,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.09f151-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "sword-fanatic-wanders-through-the-night.json",
@@ -1159,7 +1236,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "swordmasters-youngest-son.json",
@@ -1173,7 +1251,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/swordmasters-youngest-son.420c4d-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/swordmasters-youngest-son.420c4d-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "talent-swallowing-magician.json",
@@ -1187,7 +1266,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.8d261c-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.8d261c-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "taming-master.json",
@@ -1201,7 +1281,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/taming-master.988f49-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/taming-master.988f49-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "terminally-ill-genius-dark-knight.json",
@@ -1215,7 +1296,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-constellation-that-returned-from-hell.json",
@@ -1229,7 +1311,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-dark-magician-transmigrates-after-66666-years.json",
@@ -1243,7 +1326,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-magician-transmigrates-after-66666-years.0800e8-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-magician-transmigrates-after-66666-years.0800e8-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-extras-academy-survival-guide.json",
@@ -1257,7 +1341,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-great-mage-returns-after-4000-years.json",
@@ -1271,7 +1356,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-great-mage-returns-after-4000-years.c5b622-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-great-mage-returns-after-4000-years.c5b622-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-greatest-estate-developer.json",
@@ -1285,7 +1371,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-greatest-estate-developer.ad682d-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-greatest-estate-developer.ad682d-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-heavenly-demon-cant-live-a-normal-life.json",
@@ -1299,7 +1386,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-cant-live-a-normal-life.e3f13a-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-cant-live-a-normal-life.e3f13a-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-hero-returns.json",
@@ -1313,7 +1401,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.87c539-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.87c539-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-indomitable-martial-king.json",
@@ -1327,7 +1416,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/resource-vertCUnetauto_scaleLevel3width-2000.jpg"
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/resource-vertCUnetauto_scaleLevel3width-2000.jpg",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-knight-king-who-returned-with-a-god.json",
@@ -1341,7 +1431,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-knight-king-who-returned-with-a-god.04a2c1-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-knight-king-who-returned-with-a-god.04a2c1-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-last-adventurer.json",
@@ -1355,7 +1446,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-live.json",
@@ -1369,7 +1461,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-lords-coins-arent-decreasing.json",
@@ -1383,7 +1476,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-lords-coins-arent-decreasing.f13242-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-lords-coins-arent-decreasing.f13242-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-max-level-hero-has-returned.json",
@@ -1397,7 +1491,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.3fc2ae-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.3fc2ae-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "nebulas-civilization-ch01-122.json",
@@ -1427,7 +1522,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-novels-extra-remake.e249e9-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-novels-extra-remake.e249e9-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-player-hides-his-past.json",
@@ -1441,7 +1537,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.98ad69-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.98ad69-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-regressed-son-of-a-duke-is-an-assassin.json",
@@ -1455,7 +1552,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-son-of-a-duke-is-an-assassin.b4385d-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-son-of-a-duke-is-an-assassin.b4385d-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-return-of-the-crazy-demon.json",
@@ -1469,7 +1567,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.efa689-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.efa689-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-s-classes-that-i-raised.json",
@@ -1483,7 +1582,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.da6289-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.da6289-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-second-coming-of-gluttony.json",
@@ -1497,7 +1597,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-tutorial-is-too-hard.json",
@@ -1511,7 +1612,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.a9f424-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.a9f424-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-tutorial-tower-of-the-advanced-player.json",
@@ -1525,7 +1627,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-tower-of-the-advanced-player.82e053-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-tower-of-the-advanced-player.82e053-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "the-world-after-the-end-ch150-225.json",
@@ -1555,7 +1658,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.1478ed-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.1478ed-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "villain-to-kill.json",
@@ -1569,7 +1673,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.47d5d8-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.47d5d8-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "wandering-warrior-of-wudang.json",
@@ -1583,7 +1688,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.0ed317-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.0ed317-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "worn-and-torn-newbie.json",
@@ -1598,7 +1704,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "worthless-regression.json",
@@ -1612,7 +1719,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worthless-regression.e2bea5-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worthless-regression.e2bea5-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "youngest-scion-of-the-mages.json",
@@ -1626,7 +1734,8 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.a6ec26-400.webp"
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.a6ec26-400.webp",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1641,7 +1750,8 @@
       "toChapter": 220,
       "chapterCount": 225,
       "coverUrl": "https://imgsrv4.com/avatar/288x412/media/manga_covers/lightning-degree-mg1-2.jpg",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1655,7 +1765,8 @@
       "fromChapter": 0,
       "toChapter": 314,
       "chapterCount": 318,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/apex-future-martial-arts.jpg"
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/apex-future-martial-arts.jpg",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1685,7 +1796,8 @@
       "fromChapter": 1,
       "toChapter": 270,
       "chapterCount": 270,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/59966.jpg"
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/59966.jpg",
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "absolute-regression.json",
@@ -1716,7 +1828,8 @@
       "toChapter": 252,
       "chapterCount": 253,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/z8BXN1RoQEdn7MO4EZSqR6jhXX0B35RuqlYFnu3T.png",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1747,7 +1860,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "dataFile": "one-punch-man-mgeko-eng.json",
@@ -1778,7 +1892,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn onepunchmanmau.com (thay onepunchmantruyen).",
       "coverUrl": "https://onepunchmanmau.com/wp-content/uploads/2025/12/opm/onepunch_chap_0262/onepunch_chapter_0262-1.png",
-      "featured": true
+      "featured": true,
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
       "sqliteSeriesId": null,

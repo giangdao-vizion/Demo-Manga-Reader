@@ -729,8 +729,7 @@
       }
 
       function seriesUpdatedAtMs(item) {
-        const raw =
-          item.contentUpdatedAt || item.fetchedAt || item.updatedAt || "";
+        const raw = item.contentUpdatedAt || "";
         if (!raw) return 0;
         const t = Date.parse(String(raw));
         return Number.isFinite(t) ? t : 0;
@@ -772,73 +771,6 @@
           return compareSeries(a, b, sortKey);
         });
         return list;
-      }
-
-      async function enrichSeriesTimestamps(series) {
-        const base = getManifestBaseDir();
-        const pending = series.filter(function (item) {
-          return item && item.dataFile && !seriesUpdatedAtMs(item);
-        });
-        if (!pending.length) return;
-
-        const concurrency = 12;
-        let i = 0;
-        async function worker() {
-          while (i < pending.length) {
-            const item = pending[i++];
-            const dataFile = String(item.dataFile || "").trim();
-            if (!dataFile) continue;
-            const url = new URL(
-              "data-json/" + encodeURIComponent(dataFile),
-              base
-            ).href;
-            try {
-              const res = await fetch(url, {
-                credentials: "same-origin",
-                cache: "no-store",
-                headers: { Range: "bytes=0-767" },
-              });
-              if (!res.ok) continue;
-              let text = "";
-              const len = Number(res.headers.get("content-length") || 0);
-              const ranged =
-                res.status === 206 || Boolean(res.headers.get("content-range"));
-              if (ranged || len <= 2048) {
-                text = await res.text();
-              } else if (res.body && typeof res.body.getReader === "function") {
-                const reader = res.body.getReader();
-                const parts = [];
-                let total = 0;
-                while (total < 768) {
-                  const chunk = await reader.read();
-                  if (chunk.done) break;
-                  parts.push(chunk.value);
-                  total += chunk.value.length;
-                }
-                try {
-                  await reader.cancel();
-                } catch {
-                  /* ignore */
-                }
-                const merged = new Uint8Array(total);
-                let offset = 0;
-                for (let p = 0; p < parts.length; p++) {
-                  merged.set(parts[p], offset);
-                  offset += parts[p].length;
-                }
-                text = new TextDecoder().decode(merged);
-              }
-              const m = text.match(/"fetchedAt"\s*:\s*"([^"]+)"/);
-              if (m) item.contentUpdatedAt = m[1];
-            } catch {
-              /* bỏ qua nếu không đọc được */
-            }
-          }
-        }
-        const workers = [];
-        const n = Math.min(concurrency, pending.length);
-        for (let w = 0; w < n; w++) workers.push(worker());
-        await Promise.all(workers);
       }
 
       function applyFilterAndSort() {
@@ -1113,11 +1045,6 @@
             catalogGrid.innerHTML =
               '<p class="load-state">Chưa có truyện nào trong danh mục.</p>';
           } else {
-            const loadMsg = document.getElementById("catalogLoadMessage");
-            if (loadMsg) {
-              loadMsg.textContent = "Đang lấy thời gian cập nhật truyện…";
-            }
-            await enrichSeriesTimestamps(allSeries);
             favoriteOrder = favoritesLoadIds();
             catalogToolbar.hidden = false;
             catalogSearchWrap.hidden = false;
