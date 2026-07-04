@@ -66,6 +66,7 @@ function normalizeSource(source) {
   if (s === "onepunchmantruyen" || s === "one-punch-man-truyen") return "onepunchmantruyen";
   if (s === "onepunchmanmau" || s === "one-punch-man-mau") return "onepunchmanmau";
   if (s === "truyenonepiece" || s === "truyen-one-piece") return "truyenonepiece";
+  if (s === "dilib") return "dilib";
   return s;
 }
 
@@ -703,6 +704,42 @@ async function main() {
         const crawl = await runNodeScript([
           "crawl-truyen-one-piece-series.js",
           seriesUrl,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
+        doc = await readJson(dataAbs);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
+        if (added > 0) {
+          seriesChanged = true;
+          touchedSeries++;
+          totalAdded += added;
+        }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
+      } else if (source === "dilib") {
+        const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
+        if (!sample) {
+          report.error = "thiếu sampleUrl trong file JSON";
+          logSeriesSyncReport(report);
+          skipped++;
+          continue;
+        }
+        if (args.dryRun) {
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
+          continue;
+        }
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-dilib-series.js",
+          sample,
           "--out",
           `data-json/${dataFile}`,
           "--no-catalog",

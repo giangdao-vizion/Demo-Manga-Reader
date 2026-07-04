@@ -1,34 +1,32 @@
 #!/usr/bin/env node
 /**
- * Crawl One-Punch Man (màu) từ onepunchmanmau.com
+ * Crawl truyện tranh từ dilib.vn (select chapter + /img/comic/…)
  *
  * Usage:
- *   node crawl-onepunchmanmau-series.js "https://onepunchmanmau.com/one-punch-man-chapter-262/"
- *   node crawl-onepunchmanmau-series.js "<chapter-url>" --out data-json/one-punch-man-onepunchmanmau.json --featured
+ *   node crawl-dilib-series.js "https://dilib.vn/truyen-tranh/gantz-14751-chap-1.html"
+ *   node crawl-dilib-series.js "<chapter-url>" --out data-json/gantz-dilib.json --featured
  */
-import { readFile, writeFile, unlink } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
-import { BROWSER_HEADERS, collectArticleImageUrls } from "./extract.mjs";
+import { BROWSER_HEADERS, collectImageUrls } from "./extract.mjs";
 
 const DEFAULT_CONCURRENCY = 5;
-const DEFAULT_SOURCE = "onepunchmanmau";
-const DEFAULT_HOME = "https://onepunchmanmau.com/";
-const LEGACY_DATA_FILE = "one-punch-man-onepunchmantruyen.json";
+const DEFAULT_SOURCE = "dilib";
+const DEFAULT_HOME = "https://dilib.vn/truyen-tranh/";
 
 function usage() {
   const self = fileURLToPath(import.meta.url);
   console.error(`Usage: node ${self} <chapter-url> [options]
 
 Options:
-  --out PATH          Mặc định: data-json/one-punch-man-onepunchmanmau.json
+  --out PATH          Mặc định: data-json/<slug>-dilib.json
   --catalog PATH      Mặc định: manhwa-catalog.json
   --no-catalog        Không cập nhật catalog
   --concurrency N     Fetch song song N chapter (mặc định: ${DEFAULT_CONCURRENCY})
   --featured          Gắn featured=true trong catalog
   --force             Tải lại toàn bộ chapter (bỏ merge)
-  --keep-legacy       Không xóa file JSON nguồn cũ (${LEGACY_DATA_FILE})
 `);
 }
 
@@ -41,7 +39,6 @@ function parseArgs(argv) {
     concurrency: DEFAULT_CONCURRENCY,
     featured: false,
     force: false,
-    keepLegacy: false,
     help: false,
   };
   const positional = [];
@@ -54,7 +51,6 @@ function parseArgs(argv) {
     else if (a === "--concurrency" && argv[i + 1]) out.concurrency = Number(argv[++i], 10);
     else if (a === "--featured") out.featured = true;
     else if (a === "--force") out.force = true;
-    else if (a === "--keep-legacy") out.keepLegacy = true;
     else if (!a.startsWith("-")) positional.push(a);
   }
   if (positional[0]) out.chapterUrl = positional[0];
@@ -73,14 +69,10 @@ function normalizeUrl(u) {
   }
 }
 
-/** URL ổn định để so khớp chapter cũ trong JSON. */
 function canonicalChapterUrl(url) {
   try {
     const u = new URL(url);
     u.hash = "";
-    let path = u.pathname || "/";
-    if (!path.endsWith("/")) path += "/";
-    u.pathname = path;
     return u.href;
   } catch {
     return normalizeUrl(url);
@@ -111,6 +103,42 @@ function sortChapterKeyStrings(keys) {
   });
 }
 
+function seriesSlugFromUrl(chapterUrl) {
+  try {
+    const m = new URL(chapterUrl).pathname.match(/\/truyen-tranh\/(.+)-chap-\d+\.html$/i);
+    return m ? String(m[1]).trim() : "";
+  } catch {
+    return "";
+  }
+}
+
+function chapterInfoFromUrl(chapterUrl) {
+  const clean = normalizeUrl(chapterUrl);
+  let raw = "";
+  try {
+    const m = new URL(clean).pathname.match(/-chap-(\d+)\.html$/i);
+    raw = m ? String(m[1]).trim() : "";
+  } catch {
+    raw = "";
+  }
+  const num = Number(raw);
+  return {
+    chapterKey: raw || clean,
+    chapterLabel: raw || clean,
+    chapterTitle: raw || clean,
+    chapterNumber: Number.isFinite(num) ? num : NaN,
+  };
+}
+
+function buildChapterUrl(baseChapterUrl, optionValue) {
+  const slug = seriesSlugFromUrl(baseChapterUrl);
+  if (!slug) throw new Error("Không đọc được slug series từ URL chapter");
+  const origin = new URL(baseChapterUrl).origin;
+  const suffix = String(optionValue || "").trim();
+  if (!/^-chap-\d+$/i.test(suffix)) return "";
+  return `${origin}/truyen-tranh/${slug}${suffix}.html`;
+}
+
 function existingChapterLookup(existingDoc) {
   const byUrl = new Map();
   const byKey = new Map();
@@ -127,25 +155,6 @@ function existingChapterLookup(existingDoc) {
   return { byUrl, byKey };
 }
 
-function chapterInfoFromUrl(chapterUrl) {
-  const clean = normalizeUrl(chapterUrl);
-  let raw = "";
-  try {
-    const p = new URL(clean).pathname;
-    const m = p.match(/\/one-punch-man-chapter-([^/]+)\/?$/i);
-    raw = m ? String(m[1]).trim() : "";
-  } catch {
-    raw = "";
-  }
-  const num = Number(raw);
-  return {
-    chapterKey: raw || clean,
-    chapterLabel: raw || clean,
-    chapterTitle: raw || clean,
-    chapterNumber: Number.isFinite(num) ? num : NaN,
-  };
-}
-
 async function fetchHtml(url) {
   const res = await fetch(url, { headers: BROWSER_HEADERS, redirect: "follow" });
   if (!res.ok) throw new Error(`HTTP ${res.status} @ ${url}`);
@@ -157,8 +166,9 @@ function extractSeriesMeta(html, baseUrl) {
   const title =
     String($("h1").first().text() || "")
       .replace(/\s+/g, " ")
+      .replace(/\s+-\s*CHAPTER\s+\d+\s*$/i, "")
       .replace(/\s+Chapter\s+\d+\s*$/i, "")
-      .trim() || "ONE-PUNCH MAN";
+      .trim() || "Unknown";
 
   let coverUrl = "";
   const og = String($("meta[property='og:image']").attr("content") || "").trim();
@@ -168,20 +178,6 @@ function extractSeriesMeta(html, baseUrl) {
     } catch {
       /* ignore */
     }
-  }
-  if (!coverUrl) {
-    $("img").each((_, el) => {
-      if (coverUrl) return;
-      const src = String($(el).attr("src") || "").trim();
-      if (!src || /chevron|logo|icon/i.test(src)) return;
-      try {
-        const abs = new URL(src, baseUrl).href;
-        if (/\/opm\//i.test(abs) || /onepunch/i.test(abs)) return;
-        if (/\/wp-content\/uploads\//i.test(abs)) coverUrl = abs;
-      } catch {
-        /* ignore */
-      }
-    });
   }
   return { title, coverUrl };
 }
@@ -193,23 +189,18 @@ function extractChaptersFromSelect(html, baseUrl) {
 
   $("select option").each((_, el) => {
     const raw = String($(el).attr("value") || "").trim();
-    if (!raw) return;
-    let abs = "";
-    try {
-      abs = new URL(raw, baseUrl).href;
-    } catch {
-      return;
-    }
-    if (!/\/one-punch-man-chapter-/i.test(abs)) return;
-    const key = normalizeUrl(abs);
+    if (!raw || !/^-chap-\d+$/i.test(raw)) return;
+    const abs = buildChapterUrl(baseUrl, raw);
+    if (!abs) return;
+    const key = canonicalChapterUrl(abs);
     if (seen.has(key)) return;
     seen.add(key);
     const info = chapterInfoFromUrl(abs);
     const label = String($(el).text() || "")
-      .replace(/^chapter\s*/i, "")
+      .replace(/^chap\s*/i, "")
       .trim();
     list.push({
-      url: abs.endsWith("/") ? abs : abs.replace(/\/?$/, "/"),
+      url: abs,
       chapterKey: info.chapterKey,
       chapterLabel: label || info.chapterLabel,
       chapterTitle: label || info.chapterTitle,
@@ -234,11 +225,7 @@ function filterChapterImages(urls) {
     let ok = false;
     try {
       const p = new URL(u).pathname.toLowerCase();
-      ok =
-        p.includes("/wp-content/uploads/") &&
-        (p.includes("/opm/") || p.includes("onepunch_chap")) &&
-        /\.(?:jpe?g|png|webp|gif)$/.test(p);
-      if (p.includes("/plugins/")) ok = false;
+      ok = /\/img\/comic\//i.test(p) && /\.(?:jpe?g|png|webp|gif)$/.test(p);
     } catch {
       ok = false;
     }
@@ -284,6 +271,14 @@ function chapterNumberOf(ch, idx) {
   return idx + 1;
 }
 
+function defaultOutPath(slug, title) {
+  const base = slug || String(title || "series")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  return `data-json/${base}-dilib.json`;
+}
+
 async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
   const catalog = JSON.parse(await readFile(catalogAbs, "utf8"));
   if (!catalog || !Array.isArray(catalog.series)) throw new Error("catalog thiếu mảng series");
@@ -291,24 +286,22 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
   const nums = doc.chapters.map((c, i) => chapterNumberOf(c, i)).filter(Number.isFinite);
   const from = nums.length ? Math.min(...nums) : 1;
   const to = nums.length ? Math.max(...nums) : from;
-  const displayTitle = "ONE-PUNCH MAN";
+  const displayTitle = doc.title || "Unknown";
   const entry = {
     dataFile: outFileName,
     title: displayTitle,
     displayTitle,
-    subtitle: `Ch. ${from}\u2013${to} · ${outFileName} · màu`,
+    subtitle: `Ch. ${from}\u2013${to} · ${outFileName}`,
     source: DEFAULT_SOURCE,
     fromChapter: from,
     toChapter: to,
     chapterCount: doc.chapters.length,
     sqliteSeriesId: null,
     contentSyncComplete: false,
-    contentSyncNote: "Nguồn onepunchmanmau.com (thay onepunchmantruyen).",
+    contentSyncNote: "Nguồn dilib.vn.",
     coverUrl: doc.coverUrl || null,
     featured: opts.featured === true,
   };
-
-  catalog.series = catalog.series.filter((s) => s && s.dataFile !== LEGACY_DATA_FILE);
 
   let idx = catalog.series.findIndex((s) => s && s.dataFile === outFileName);
   if (idx < 0) {
@@ -317,8 +310,8 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
         s &&
         String(s.title || "")
           .trim()
-          .toUpperCase() === displayTitle &&
-        s.dataFile !== "one-punch-man-mgeko-eng.json"
+          .toLowerCase() === displayTitle.toLowerCase() &&
+        normalizeSourceForMatch(s.source) === DEFAULT_SOURCE
     );
   }
   if (idx >= 0) {
@@ -329,6 +322,10 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
 
   catalog.updatedAt = new Date().toISOString();
   await writeFile(catalogAbs, JSON.stringify(catalog, null, 2) + "\n", "utf8");
+}
+
+function normalizeSourceForMatch(source) {
+  return String(source || "").trim().toLowerCase();
 }
 
 async function main() {
@@ -345,7 +342,8 @@ async function main() {
   const chapterLinks = extractChaptersFromSelect(seed.html, seed.finalUrl);
   if (!chapterLinks.length) throw new Error("Không tìm thấy chapter trong <select>");
 
-  const outRel = args.outPath || "data-json/one-punch-man-onepunchmanmau.json";
+  const slug = seriesSlugFromUrl(seed.finalUrl);
+  const outRel = args.outPath || defaultOutPath(slug, meta.title);
   const outAbs = resolve(process.cwd(), outRel);
   const outFileName = outRel.split(/[/\\]/).pop();
 
@@ -399,7 +397,7 @@ async function main() {
   const fetched = targets.length
     ? await runPool(targets, args.concurrency, async (ch) => {
         const r = await fetchHtml(ch.url);
-        const images = filterChapterImages(collectArticleImageUrls(r.html, r.finalUrl));
+        const images = filterChapterImages(collectImageUrls(r.html, r.finalUrl));
         progress++;
         process.stderr.write(`\r[${progress}/${targets.length}] Ch.${ch.chapterTitle}`);
         return {
@@ -424,9 +422,7 @@ async function main() {
   ) {
     for (const r of fetched) {
       if (!Array.isArray(r.images) || !r.images.length) {
-        console.error(
-          `  ! Ch.${r.chapterTitle}: chương chưa có ảnh trên site`
-        );
+        console.error(`  ! Ch.${r.chapterTitle}: chương chưa có ảnh trên site`);
       }
     }
     const nextEmpty = new Set(siteEmpty);
@@ -521,16 +517,6 @@ async function main() {
 
   await writeFile(outAbs, JSON.stringify(doc, null, 2) + "\n", "utf8");
   console.log(`Wrote ${chapters.length} chapter(s) -> ${outAbs}`);
-
-  if (!args.keepLegacy) {
-    const legacyAbs = resolve(process.cwd(), "data-json", LEGACY_DATA_FILE);
-    try {
-      await unlink(legacyAbs);
-      console.error(`Removed legacy data: ${LEGACY_DATA_FILE}`);
-    } catch (e) {
-      if (e && e.code !== "ENOENT") console.error(`Cảnh báo: không xóa ${LEGACY_DATA_FILE}: ${e.message}`);
-    }
-  }
 
   if (args.updateCatalog) {
     const catalogAbs = resolve(process.cwd(), args.catalogPath);

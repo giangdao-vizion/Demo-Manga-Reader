@@ -233,7 +233,7 @@ export function logSeriesSyncReport(report) {
 
   if (report.retryWithoutImages && report.retryWithoutImages.length) {
     logLine(
-      `  Thử tải lại (site chưa có ảnh): ${report.retryWithoutImages.join(", ")}`
+      `  Site có mục chương chưa có ảnh (chưa trong JSON): ${report.retryWithoutImages.join(", ")}`
     );
   }
 
@@ -291,4 +291,5 @@ export const SOURCE_LABELS = {
   onepunchmantruyen: "OnePunchManTruyen (cũ)",
   onepunchmanmau: "OnePunchManMau.com",
   truyenonepiece: "Truyen-One-Piece.com",
+  dilib: "dilib.vn",
 };
