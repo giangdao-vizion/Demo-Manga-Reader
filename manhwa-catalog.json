@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-04T16:13:48.350Z",
+  "updatedAt": "2026-07-10T07:15:39.378Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -713,17 +713,17 @@
       "dataFile": "nano-machine.json",
       "title": "Nano Machine",
       "displayTitle": "Nano Machine",
-      "subtitle": "Ch. 1–319 · nano-machine.json",
+      "subtitle": "Ch. 1–320 · nano-machine.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 319,
-      "chapterCount": 319,
+      "toChapter": 320,
+      "chapterCount": 320,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:26.547Z"
+      "contentUpdatedAt": "2026-07-10T07:14:56.493Z"
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -1106,17 +1106,17 @@
       "dataFile": "solo-max-level-newbie-ch180-252.json",
       "title": "Solo Max-Level Newbie",
       "displayTitle": "Solo Max-Level Newbie",
-      "subtitle": "Ch. 0–266 · solo-max-level-newbie-ch180-252.json",
+      "subtitle": "Ch. 0–267 · solo-max-level-newbie-ch180-252.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 266,
-      "chapterCount": 267,
+      "toChapter": 267,
+      "chapterCount": 268,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
       "contentSyncNote": "253 tải OK, 0 đã có trong DB, 1 lỗi / 254 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-04T16:13:26.215Z"
+      "contentUpdatedAt": "2026-07-10T07:14:58.480Z"
     },
     {
       "dataFile": "spirit-farmer.json",
@@ -1498,16 +1498,16 @@
       "dataFile": "nebulas-civilization-ch01-122.json",
       "title": "The Nebula's Civilization",
       "displayTitle": "The Nebula's Civilization",
-      "subtitle": "Ch. 1–136 · nebulas-civilization-ch01-122.json",
+      "subtitle": "Ch. 1–137 · nebulas-civilization-ch01-122.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 136,
-      "chapterCount": 136,
+      "toChapter": 137,
+      "chapterCount": 137,
       "sqliteSeriesId": 52,
       "contentSyncComplete": false,
       "contentSyncNote": "Ch.123–134 từ asurascans.com/comics/the-nebulas-civilization-19cdf401; Ch.1–122 giữ ảnh Mangoasis, sampleUrl Asura cho sync.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp",
-      "contentUpdatedAt": "2026-07-02T08:40:32.694Z",
+      "contentUpdatedAt": "2026-07-10T07:15:00.179Z",
       "featured": true
     },
     {
@@ -1634,17 +1634,17 @@
       "dataFile": "the-world-after-the-end-ch150-225.json",
       "title": "The World After The End",
       "displayTitle": "The World After The End",
-      "subtitle": "Ch. 0–241 · the-world-after-the-end-ch150-225.json",
+      "subtitle": "Ch. 0–242 · the-world-after-the-end-ch150-225.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 241,
-      "chapterCount": 242,
+      "toChapter": 242,
+      "chapterCount": 243,
       "sqliteSeriesId": 18,
       "contentSyncComplete": true,
       "contentSyncNote": "229 tải OK, 0 đã có trong DB, 1 lỗi / 230 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:35.652Z"
+      "contentUpdatedAt": "2026-07-10T07:15:01.452Z"
     },
     {
       "dataFile": "trash-of-the-counts-family.json",
@@ -1803,17 +1803,17 @@
       "dataFile": "absolute-regression.json",
       "title": "Absolute Regression",
       "displayTitle": "Absolute Regression",
-      "subtitle": "Ch. 1–108 · absolute-regression.json",
+      "subtitle": "Ch. 1–109 · absolute-regression.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 108,
-      "chapterCount": 108,
+      "toChapter": 109,
+      "chapterCount": 109,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:44.736Z"
+      "contentUpdatedAt": "2026-07-10T07:15:05.407Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1838,30 +1838,30 @@
       "dataFile": "infinite-level-up-in-murim.json",
       "title": "Infinite Level Up in Murim",
       "displayTitle": "Infinite Level Up in Murim",
-      "subtitle": "Ch. 1–263 · infinite-level-up-in-murim.json",
+      "subtitle": "Ch. 1–264 · infinite-level-up-in-murim.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 263,
-      "chapterCount": 275,
+      "toChapter": 264,
+      "chapterCount": 276,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/61609.png",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:48.277Z"
+      "contentUpdatedAt": "2026-07-10T07:15:08.820Z"
     },
     {
       "dataFile": "one-piece-dao-hai-tac-truyen-one-piece.json",
       "title": "One Piece",
       "displayTitle": "One Piece",
-      "subtitle": "Ch. 1–1186 · one-piece-dao-hai-tac-truyen-one-piece.json",
+      "subtitle": "Ch. 1–1187 · one-piece-dao-hai-tac-truyen-one-piece.json",
       "source": "truyenonepiece",
       "fromChapter": 1,
-      "toChapter": 1186,
-      "chapterCount": 1186,
+      "toChapter": 1187,
+      "chapterCount": 1187,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:49.940Z"
+      "contentUpdatedAt": "2026-07-10T07:15:10.319Z"
     },
     {
       "dataFile": "one-punch-man-mgeko-eng.json",
@@ -1924,7 +1924,7 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn dilib.vn.",
       "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14751-gantz-1.webp?v=6333",
-      "featured": true
+      "featured": false
     }
   ]
 }
