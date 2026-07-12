@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T15:50:59.537Z",
+  "updatedAt": "2026-07-12T16:20:57.870Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -760,17 +760,17 @@
       "dataFile": "overgeared-ch250-316.json",
       "title": "Overgeared",
       "displayTitle": "Overgeared",
-      "subtitle": "Ch. 0–329 · overgeared-ch250-316.json",
+      "subtitle": "Ch. 0–330 · overgeared-ch250-316.json",
       "source": "asurascans",
       "fromChapter": 0,
-      "toChapter": 329,
-      "chapterCount": 330,
+      "toChapter": 330,
+      "chapterCount": 331,
       "sqliteSeriesId": 53,
       "contentSyncComplete": true,
       "contentSyncNote": "317 tải OK, 0 đã có trong DB, 0 lỗi / 317 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-04T16:13:24.906Z"
+      "contentUpdatedAt": "2026-07-12T16:20:25.396Z"
     },
     {
       "dataFile": "overpowered-sword.json",
