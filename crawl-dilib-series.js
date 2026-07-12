@@ -22,6 +22,7 @@ function usage() {
 
 Options:
   --out PATH          Mặc định: data-json/<slug>-dilib.json
+  --title TITLE       Tên hiển thị trong JSON + catalog
   --catalog PATH      Mặc định: manhwa-catalog.json
   --no-catalog        Không cập nhật catalog
   --concurrency N     Fetch song song N chapter (mặc định: ${DEFAULT_CONCURRENCY})
@@ -34,6 +35,7 @@ function parseArgs(argv) {
   const out = {
     chapterUrl: "",
     outPath: "",
+    title: "",
     catalogPath: "manhwa-catalog.json",
     updateCatalog: true,
     concurrency: DEFAULT_CONCURRENCY,
@@ -46,6 +48,7 @@ function parseArgs(argv) {
     const a = argv[i];
     if (a === "-h" || a === "--help") out.help = true;
     else if (a === "--out" && argv[i + 1]) out.outPath = String(argv[++i]).trim();
+    else if (a === "--title" && argv[i + 1]) out.title = String(argv[++i]).trim();
     else if (a === "--catalog" && argv[i + 1]) out.catalogPath = String(argv[++i]).trim();
     else if (a === "--no-catalog") out.updateCatalog = false;
     else if (a === "--concurrency" && argv[i + 1]) out.concurrency = Number(argv[++i], 10);
@@ -501,7 +504,7 @@ async function main() {
   const doc = {
     sampleUrl: seedUrl,
     homeUrl: DEFAULT_HOME,
-    title: meta.title,
+    title: args.title || meta.title,
     fromChapter: nums.length ? Math.min(...nums) : 1,
     toChapter: nums.length ? Math.max(...nums) : nums.length,
     fetchedAt: new Date().toISOString(),

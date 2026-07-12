@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T07:15:39.378Z",
+  "updatedAt": "2026-07-12T15:50:59.537Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1924,6 +1924,51 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn dilib.vn.",
       "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14751-gantz-1.webp?v=6333",
+      "featured": false
+    },
+    {
+      "dataFile": "jindo-phan-1-kattobi-itto-dilib.json",
+      "title": "JINDO Phần 1 - Kattobi Itto",
+      "displayTitle": "JINDO Phần 1 - Kattobi Itto",
+      "subtitle": "Ch. 1–411 · jindo-phan-1-kattobi-itto-dilib.json",
+      "source": "dilib",
+      "fromChapter": 1,
+      "toChapter": 411,
+      "chapterCount": 411,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn dilib.vn.",
+      "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14765-jindo-duong-dan-den-khung-thanh-1.webp?v=8339",
+      "featured": false
+    },
+    {
+      "dataFile": "jindo-phan-2-buttobi-itto-dilib.json",
+      "title": "JINDO Phần 2 - Buttobi Itto",
+      "displayTitle": "JINDO Phần 2 - Buttobi Itto",
+      "subtitle": "Ch. 1–254 · jindo-phan-2-buttobi-itto-dilib.json",
+      "source": "dilib",
+      "fromChapter": 1,
+      "toChapter": 254,
+      "chapterCount": 254,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn dilib.vn.",
+      "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14803-song-gio-cau-truong-buttobi-itto-1.webp?v=7194",
+      "featured": false
+    },
+    {
+      "dataFile": "shin-kotaro-makaritoru-juudouhen-dilib.json",
+      "title": "SHIN KOTARO MAKARITORU! JUUDOUHEN",
+      "displayTitle": "SHIN KOTARO MAKARITORU! JUUDOUHEN",
+      "subtitle": "Ch. 1–249 · shin-kotaro-makaritoru-juudouhen-dilib.json",
+      "source": "dilib",
+      "fromChapter": 1,
+      "toChapter": 249,
+      "chapterCount": 249,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn dilib.vn.",
+      "coverUrl": "https://dilib.vn/img/news/2025/08/larger/5733-dai-ca-di-hoc-judo-shin-kotaro-makaritoru-juudouhen-1.webp?v=9833",
       "featured": false
     }
   ]
