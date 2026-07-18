@@ -1,11 +1,12 @@
 {
-  "sampleUrl": "https://asurascans.com/comics/the-nebulas-civilization-19cdf401/chapter/1",
-  "homeUrl": "https://asurascans.com/comics/the-nebulas-civilization-19cdf401",
+  "sampleUrl": "https://asurascans.com/comics/the-nebulas-civilization-1d35e5bd/chapter/1",
+  "homeUrl": "https://asurascans.com/comics/the-nebulas-civilization-1d35e5bd",
   "title": "The Nebula's Civilization",
   "fromChapter": 1,
-  "toChapter": 137,
-  "fetchedAt": "2026-07-10T07:15:00.167Z",
+  "toChapter": 138,
+  "fetchedAt": "2026-07-18T10:39:17.811Z",
   "source": "asura",
+  "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12.webp",
   "chapters": [
     {
       "title": "1",
@@ -10007,6 +10008,43 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/137/5d957d.webp?v=1783467698",
         "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/137/17a83a.webp?v=1783467698",
         "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/137/665044.webp?v=1783467698"
+      ]
+    },
+    {
+      "title": "Chapter 138",
+      "chapter": 138,
+      "url": "https://asurascans.com/comics/the-nebulas-civilization-1d35e5bd/chapter/138",
+      "finalUrl": "https://asurascans.com/comics/the-nebulas-civilization-1d35e5bd/chapter/138",
+      "total": 28,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/122842.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/e3c3e0.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/5c7265.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/665429.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/9b4535.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/35c8c0.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/a07d61.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/81c3ad.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/e008f2.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/55205d.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/c8b855.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/edb4dd.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/fb0b5a.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/1de3f3.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/ae06a4.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/208a77.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/2e1fa0.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/35f2de.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/8f5e27.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/bd7c57.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/e601ba.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/48593a.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/0e5aa8.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/5038ec.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/5b3768.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/9a7a66.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/242db6.webp?v=1784041518",
+        "https://cdn.asurascans.com/asura-images/chapters/the-nebulas-civilization/138/df4e44.webp?v=1784041518"
       ]
     }
   ]
