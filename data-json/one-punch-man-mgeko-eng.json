@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/mangaptaos-123xmj/",
   "title": "One-Punch Man",
   "fromChapter": 1,
-  "toChapter": 234,
-  "fetchedAt": "2026-07-02T08:40:51.849Z",
+  "toChapter": 235,
+  "fetchedAt": "2026-07-25T07:16:01.715Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -11476,6 +11476,36 @@
         "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-234/15.jpg",
         "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-234/16.jpg",
         "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-234/17.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 235-eng-li",
+      "chapter": 235,
+      "chapterKey": "235",
+      "chapterLabel": "235-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-235-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-235-eng-li/",
+      "total": 19,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/0.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/1.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/2.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/3.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/4.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/5.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/6.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/7.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/8.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/9.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/10.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/11.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/12.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/13.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/14.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/15.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/16.jpg",
+        "https://imgsrv4.com/sv2/comic/mangaptaos-123xmj/chapter-235/17.jpg",
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }

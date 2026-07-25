@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T10:39:46.193Z",
+  "updatedAt": "2026-07-25T07:16:28.285Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -15,39 +15,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://www.mangasis.com/wp-content/uploads/A-Returners-Magic-Should-Be-Special-464x722.jpg",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": true
     },
     {
       "dataFile": "absolute-sword-sense-ch01-164.json",
       "title": "Absolute Sword Sense",
       "displayTitle": "Absolute Sword Sense",
-      "subtitle": "Ch. 1–192 · absolute-sword-sense-ch01-164.json",
+      "subtitle": "Ch. 1–193 · absolute-sword-sense-ch01-164.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 192,
-      "chapterCount": 192,
+      "toChapter": 193,
+      "chapterCount": 193,
       "sqliteSeriesId": 30,
       "contentSyncComplete": true,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.136aa2.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:26.954Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:34.690Z",
+      "featured": true
     },
     {
       "dataFile": "academys-genius-swordmaster.json",
       "title": "Academys Genius Swordmaster",
       "displayTitle": "Academys Genius Swordmaster",
-      "subtitle": "Ch. 1–145 · academys-genius-swordmaster.json",
+      "subtitle": "Ch. 1–146 · academys-genius-swordmaster.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 145,
-      "chapterCount": 145,
+      "toChapter": 146,
+      "chapterCount": 146,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.1aecaa.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:22.669Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:35.857Z",
+      "featured": true
     },
     {
       "dataFile": "academys-undercover-professor.json",
@@ -62,7 +63,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "archmage-transcending-through-regression.json",
@@ -77,7 +79,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/archmage-transcending-through-regression.b63f09-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "bloodhounds-regression-instinct.json",
@@ -92,7 +95,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bloodhounds-regression-instinct.e13bfc-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "boundless-necromancer.json",
@@ -107,7 +111,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/boundless-necromancer.a3e502-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "childhood-friend-of-the-zenith.json",
@@ -122,39 +127,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/childhood-friend-of-the-zenith.6c0f26-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "chronicles-of-the-demon-faction.json",
       "title": "Chronicles Of The Demon Faction",
       "displayTitle": "Chronicles Of The Demon Faction",
-      "subtitle": "Ch. 1–180 · chronicles-of-the-demon-faction.json",
+      "subtitle": "Ch. 1–181 · chronicles-of-the-demon-faction.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 180,
-      "chapterCount": 180,
+      "toChapter": 181,
+      "chapterCount": 181,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.d4dcb8.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:19.764Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:37.026Z",
+      "featured": true
     },
     {
       "dataFile": "chronicles-of-the-martial-gods-return.json",
       "title": "Chronicles Of The Martial Gods Return",
       "displayTitle": "Chronicles Of The Martial Gods Return",
-      "subtitle": "Ch. 1–167 · chronicles-of-the-martial-gods-return.json",
+      "subtitle": "Ch. 1–168 · chronicles-of-the-martial-gods-return.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 167,
-      "chapterCount": 167,
+      "toChapter": 168,
+      "chapterCount": 168,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:04.173Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:38.360Z",
+      "featured": true
     },
     {
       "dataFile": "death-is-the-only-ending-for-the-villainess.json",
@@ -170,7 +176,7 @@
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-is-the-only-ending-for-the-villainess.af9ab0.webp",
       "contentUpdatedAt": "2026-07-18T10:39:11.952Z",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "delusion-ch30-60.json",
@@ -185,7 +191,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://www.mangasis.com/wp-content/uploads/Delusion-Hongjacga.jpeg",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "doctors-rebirth.json",
@@ -201,7 +208,7 @@
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.283895.webp",
       "contentUpdatedAt": "2026-07-18T10:39:16.227Z",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "dragon-devouring-mage.json",
@@ -216,7 +223,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dragon-devouring-mage.83a703-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "duke-pendragon.json",
@@ -231,23 +239,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/duke-pendragon.d42626-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "dungeon-odyssey.json",
       "title": "Dungeon Odyssey",
       "displayTitle": "Dungeon Odyssey",
-      "subtitle": "Ch. 1–161 · dungeon-odyssey.json",
+      "subtitle": "Ch. 1–162 · dungeon-odyssey.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 161,
-      "chapterCount": 161,
+      "toChapter": 162,
+      "chapterCount": 162,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:14.513Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:40.195Z",
+      "featured": true
     },
     {
       "dataFile": "eternally-regressing-knight.json",
@@ -262,39 +271,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.b0c5e0-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "genius-archers-streaming.json",
       "title": "Genius Archers Streaming",
       "displayTitle": "Genius Archers Streaming",
-      "subtitle": "Ch. 1–100 · genius-archers-streaming.json",
+      "subtitle": "Ch. 1–102 · genius-archers-streaming.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 100,
-      "chapterCount": 100,
+      "toChapter": 102,
+      "chapterCount": 102,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.fda7ec.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:42.284Z",
+      "featured": true
     },
     {
       "dataFile": "genius-martial-arts-trainer.json",
       "title": "Genius Martial Arts Trainer",
       "displayTitle": "Genius Martial Arts Trainer",
-      "subtitle": "Ch. 1–122 · genius-martial-arts-trainer.json",
+      "subtitle": "Ch. 1–123 · genius-martial-arts-trainer.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 122,
-      "chapterCount": 122,
+      "toChapter": 123,
+      "chapterCount": 123,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-martial-arts-trainer.7a9f27.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:36.904Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:43.740Z",
+      "featured": true
     },
     {
       "dataFile": "genius-of-the-unique-lineage.json",
@@ -309,7 +319,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "heavenly-demon-instructor.json",
@@ -324,7 +335,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "heavenly-grand-archives-young-master.json",
@@ -339,7 +351,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.31b71a-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "heavenly-inquisition-sword.json",
@@ -354,7 +367,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "helmut-the-forsaken-child.json",
@@ -369,7 +383,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/helmut-the-forsaken-child.451ed0-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "how-to-live-as-a-villain.json",
@@ -384,7 +399,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/how-to-live-as-a-villain.24847b-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "i-became-a-renowned-familys-sword-prodigy.json",
@@ -399,39 +415,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "i-killed-an-academy-player.json",
       "title": "I Killed An Academy Player",
       "displayTitle": "I Killed An Academy Player",
-      "subtitle": "Ch. 1–133 · i-killed-an-academy-player.json",
+      "subtitle": "Ch. 1–134 · i-killed-an-academy-player.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 133,
-      "chapterCount": 133,
+      "toChapter": 134,
+      "chapterCount": 134,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-killed-an-academy-player.9aa03c.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:38.084Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:44.930Z",
+      "featured": true
     },
     {
       "dataFile": "i-obtained-a-mythic-item.json",
       "title": "I Obtained A Mythic Item",
       "displayTitle": "I Obtained A Mythic Item",
-      "subtitle": "Ch. 0–188 · i-obtained-a-mythic-item.json",
+      "subtitle": "Ch. 0–189 · i-obtained-a-mythic-item.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 188,
-      "chapterCount": 189,
+      "toChapter": 189,
+      "chapterCount": 190,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:44.204Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:46.529Z",
+      "featured": true
     },
     {
       "dataFile": "i-reincarnated-as-the-crazed-heir.json",
@@ -446,7 +463,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "ill-be-taking-a-break-for-personal-reasons.json",
@@ -461,7 +479,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "im-not-that-kind-of-talent.json",
@@ -476,23 +495,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-that-kind-of-talent.cfca35-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "infinite-mage.json",
       "title": "Infinite Mage",
       "displayTitle": "Infinite Mage",
-      "subtitle": "Ch. 1–177 · infinite-mage.json",
+      "subtitle": "Ch. 1–178 · infinite-mage.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 177,
-      "chapterCount": 177,
+      "toChapter": 178,
+      "chapterCount": 178,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:54.467Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:47.820Z",
+      "featured": true
     },
     {
       "dataFile": "insanely-talented-player.json",
@@ -507,7 +527,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/insanely-talented-player.35ed36-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "kill-the-dragon.json",
@@ -522,23 +543,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.c2ff0c-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "killer-pietro.json",
       "title": "Killer Pietro",
       "displayTitle": "Killer Pietro",
-      "subtitle": "Ch. 1–139 · killer-pietro.json",
+      "subtitle": "Ch. 1–140 · killer-pietro.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 139,
-      "chapterCount": 139,
+      "toChapter": 140,
+      "chapterCount": 140,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:14.290Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:49.309Z",
+      "featured": true
     },
     {
       "dataFile": "legend-of-asura-the-venom-dragon.json",
@@ -553,7 +575,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-asura-the-venom-dragon.ee9db7-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "life-of-a-magic-academy-mage.json",
@@ -568,39 +591,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "margraves-bastard-son-was-the-emperor.json",
       "title": "Margraves Bastard Son Was The Emperor",
       "displayTitle": "Margraves Bastard Son Was The Emperor",
-      "subtitle": "Ch. 1–116 · margraves-bastard-son-was-the-emperor.json",
+      "subtitle": "Ch. 1–117 · margraves-bastard-son-was-the-emperor.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 116,
-      "chapterCount": 116,
+      "toChapter": 117,
+      "chapterCount": 117,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/margraves-bastard-son-was-the-emperor.190eca.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:15.290Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:50.594Z",
+      "featured": true
     },
     {
       "dataFile": "martial-god-regressed-to-level-2.json",
       "title": "Martial God Regressed To Level 2",
       "displayTitle": "Martial God Regressed To Level 2",
-      "subtitle": "Ch. 1–124 · martial-god-regressed-to-level-2.json",
+      "subtitle": "Ch. 1–125 · martial-god-regressed-to-level-2.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 124,
-      "chapterCount": 124,
+      "toChapter": 125,
+      "chapterCount": 125,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:08.530Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:51.749Z",
+      "featured": true
     },
     {
       "dataFile": "max-level-returner.json",
@@ -615,7 +639,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "mr-devourer-please-act-like-a-final-boss.json",
@@ -631,7 +656,7 @@
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6.webp",
       "contentUpdatedAt": "2026-07-18T10:38:35.697Z",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "murim-login.json",
@@ -653,17 +678,17 @@
       "dataFile": "murim-rpg-simulation.json",
       "title": "Heavenly Demon Cultivation Simulation",
       "displayTitle": "Heavenly Demon Cultivation Simulation",
-      "subtitle": "Ch. 1–189 · murim-rpg-simulation.json",
+      "subtitle": "Ch. 1–191 · murim-rpg-simulation.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 189,
-      "chapterCount": 189,
+      "toChapter": 191,
+      "chapterCount": 191,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "mgeko: Ch. 1–50 và 174–177 từ slug heavenly-demon-cultivation-simulation; Ch. 51–173 từ murim-rpg-simulation.",
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/heavenly-demon-cultivation-simulation.jpg",
       "featured": true,
-      "contentUpdatedAt": "2026-07-04T16:13:22.482Z"
+      "contentUpdatedAt": "2026-07-25T07:14:55.161Z"
     },
     {
       "dataFile": "my-daughter-is-the-final-boss.json",
@@ -678,23 +703,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "my-exclusive-tower-guide.json",
       "title": "My Exclusive Tower Guide",
       "displayTitle": "My Exclusive Tower Guide",
-      "subtitle": "Ch. 1–128 · my-exclusive-tower-guide.json",
+      "subtitle": "Ch. 1–129 · my-exclusive-tower-guide.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 128,
-      "chapterCount": 128,
+      "toChapter": 129,
+      "chapterCount": 129,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.f49132.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:46.560Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:56.431Z",
+      "featured": true
     },
     {
       "dataFile": "my-school-life-pretending-to-be-a-worthless-person.json",
@@ -709,7 +735,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "myst-might-mayhem.json",
@@ -724,23 +751,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/myst-might-mayhem.98fc44-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "nano-machine.json",
       "title": "Nano Machine",
       "displayTitle": "Nano Machine",
-      "subtitle": "Ch. 1–321 · nano-machine.json",
+      "subtitle": "Ch. 1–322 · nano-machine.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 321,
-      "chapterCount": 321,
+      "toChapter": 322,
+      "chapterCount": 322,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-18T10:39:19.399Z"
+      "contentUpdatedAt": "2026-07-25T07:14:57.593Z"
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -755,7 +783,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "omniscient-readers-viewpoint.json",
@@ -770,7 +799,7 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp",
-      "featured": true,
+      "featured": false,
       "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
@@ -786,7 +815,7 @@
       "contentSyncComplete": true,
       "contentSyncNote": "317 tải OK, 0 đã có trong DB, 0 lỗi / 317 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
-      "featured": true,
+      "featured": false,
       "contentUpdatedAt": "2026-07-12T16:20:25.396Z"
     },
     {
@@ -802,39 +831,40 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "pick-me-up-infinite-gacha.json",
       "title": "Pick Me Up Infinite Gacha",
       "displayTitle": "Pick Me Up Infinite Gacha",
-      "subtitle": "Ch. 1–210 · pick-me-up-infinite-gacha.json",
+      "subtitle": "Ch. 1–211 · pick-me-up-infinite-gacha.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 210,
-      "chapterCount": 210,
+      "toChapter": 211,
+      "chapterCount": 211,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.3ebe61.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:48.928Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:58.723Z",
+      "featured": true
     },
     {
       "dataFile": "player-who-cant-level-up.json",
       "title": "Player Who Cant Level Up",
       "displayTitle": "Player Who Cant Level Up",
-      "subtitle": "Ch. 1–236 · player-who-cant-level-up.json",
+      "subtitle": "Ch. 1–237 · player-who-cant-level-up.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 236,
-      "chapterCount": 236,
+      "toChapter": 237,
+      "chapterCount": 237,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.970ad4.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:24.267Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:14:59.851Z",
+      "featured": true
     },
     {
       "dataFile": "player-return-10000-years-later.json",
@@ -849,7 +879,8 @@
       "contentSyncComplete": true,
       "contentSyncNote": "151 tải OK, 0 đã có trong DB, 0 lỗi / 151 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.d6a412-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "reaper-of-the-drifting-moon.json",
@@ -864,87 +895,88 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "reborn-as-the-heavenly-demon.json",
       "title": "Reborn As The Heavenly Demon",
       "displayTitle": "Reborn As The Heavenly Demon",
-      "subtitle": "Ch. 1–130 · reborn-as-the-heavenly-demon.json",
+      "subtitle": "Ch. 1–131 · reborn-as-the-heavenly-demon.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 130,
-      "chapterCount": 130,
+      "toChapter": 131,
+      "chapterCount": 131,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:18.589Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:01.223Z",
+      "featured": true
     },
     {
       "dataFile": "reformation-of-the-deadbeat-noble.json",
       "title": "Reformation Of The Deadbeat Noble",
       "displayTitle": "Reformation Of The Deadbeat Noble",
-      "subtitle": "Ch. 1–150 · reformation-of-the-deadbeat-noble.json",
+      "subtitle": "Ch. 1–152 · reformation-of-the-deadbeat-noble.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 150,
-      "chapterCount": 150,
+      "toChapter": 152,
+      "chapterCount": 152,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.35b8e9.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:06.574Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:03.210Z",
+      "featured": true
     },
     {
       "dataFile": "regressing-with-the-kings-power.json",
       "title": "Regressing With The Kings Power",
       "displayTitle": "Regressing With The Kings Power",
-      "subtitle": "Ch. 1–151 · regressing-with-the-kings-power.json",
+      "subtitle": "Ch. 1–152 · regressing-with-the-kings-power.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 151,
-      "chapterCount": 151,
+      "toChapter": 152,
+      "chapterCount": 152,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.b5f24c.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:47.875Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:04.645Z",
+      "featured": true
     },
     {
       "dataFile": "regressor-instruction-manual.json",
       "title": "Regressor Instruction Manual",
       "displayTitle": "Regressor Instruction Manual",
-      "subtitle": "Ch. 1–194 · regressor-instruction-manual.json",
+      "subtitle": "Ch. 1–195 · regressor-instruction-manual.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 194,
-      "chapterCount": 194,
+      "toChapter": 195,
+      "chapterCount": 195,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.e2dfe7.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:53.405Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:05.798Z",
+      "featured": true
     },
     {
       "dataFile": "regressor-of-the-fallen-family.json",
       "title": "Regressor Of The Fallen Family",
       "displayTitle": "Regressor Of The Fallen Family",
-      "subtitle": "Ch. 1–142 · regressor-of-the-fallen-family.json",
+      "subtitle": "Ch. 1–143 · regressor-of-the-fallen-family.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 142,
-      "chapterCount": 142,
+      "toChapter": 143,
+      "chapterCount": 143,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:40.592Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:07.045Z",
+      "featured": true
     },
     {
       "dataFile": "reincarnation-of-the-suicidal-battle-god.json",
@@ -959,55 +991,56 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "reincarnator.json",
       "title": "Reincarnator",
       "displayTitle": "Reincarnator",
-      "subtitle": "Ch. 0–142 · reincarnator.json",
+      "subtitle": "Ch. 0–143 · reincarnator.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 142,
-      "chapterCount": 143,
+      "toChapter": 143,
+      "chapterCount": 144,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:15.846Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:08.338Z",
+      "featured": true
     },
     {
       "dataFile": "return-of-the-disaster-class-hero.json",
       "title": "Return Of The Disaster Class Hero",
       "displayTitle": "Return Of The Disaster Class Hero",
-      "subtitle": "Ch. 0–181 · return-of-the-disaster-class-hero.json",
+      "subtitle": "Ch. 0–182 · return-of-the-disaster-class-hero.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 181,
-      "chapterCount": 182,
+      "toChapter": 182,
+      "chapterCount": 183,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:10.916Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:09.587Z",
+      "featured": true
     },
     {
       "dataFile": "return-of-the-mount-hua-sect.json",
       "title": "Return Of The Mount Hua Sect",
       "displayTitle": "Return Of The Mount Hua Sect",
-      "subtitle": "Ch. 1–171 · return-of-the-mount-hua-sect.json",
+      "subtitle": "Ch. 1–172 · return-of-the-mount-hua-sect.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 171,
-      "chapterCount": 171,
+      "toChapter": 172,
+      "chapterCount": 172,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.c0cbf9.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:11.444Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:10.846Z",
+      "featured": true
     },
     {
       "dataFile": "return-of-the-shattered-constellation.json",
@@ -1022,7 +1055,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-shattered-constellation.61c903-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "return-of-the-sss-class-ranker.json",
@@ -1037,23 +1071,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-sss-class-ranker.5c938f-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "return-of-the-unrivaled-spear-knight.json",
       "title": "Return Of The Unrivaled Spear Knight",
       "displayTitle": "Return Of The Unrivaled Spear Knight",
-      "subtitle": "Ch. 1–206 · return-of-the-unrivaled-spear-knight.json",
+      "subtitle": "Ch. 1–207 · return-of-the-unrivaled-spear-knight.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 206,
-      "chapterCount": 206,
+      "toChapter": 207,
+      "chapterCount": 207,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.f4e89f.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:25.688Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:12.034Z",
+      "featured": true
     },
     {
       "dataFile": "return-to-player.json",
@@ -1068,23 +1103,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "revenge-of-the-iron-blooded-sword-hound.json",
       "title": "Revenge Of The Iron Blooded Sword Hound",
       "displayTitle": "Revenge Of The Iron Blooded Sword Hound",
-      "subtitle": "Ch. 1–171 · revenge-of-the-iron-blooded-sword-hound.json",
+      "subtitle": "Ch. 1–172 · revenge-of-the-iron-blooded-sword-hound.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 171,
-      "chapterCount": 171,
+      "toChapter": 172,
+      "chapterCount": 172,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:52.279Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:13.250Z",
+      "featured": true
     },
     {
       "dataFile": "sleeping-ranker.json",
@@ -1099,23 +1135,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.0540db-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "solo-farming-in-the-tower.json",
       "title": "Solo Farming In The Tower",
       "displayTitle": "Solo Farming In The Tower",
-      "subtitle": "Ch. 1–135 · solo-farming-in-the-tower.json",
+      "subtitle": "Ch. 1–136 · solo-farming-in-the-tower.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 135,
-      "chapterCount": 135,
+      "toChapter": 136,
+      "chapterCount": 136,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:33.355Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:14.411Z",
+      "featured": true
     },
     {
       "dataFile": "solo-leveling-ch01-202.json",
@@ -1130,23 +1167,24 @@
       "contentSyncComplete": true,
       "contentSyncNote": "26 tải OK, 175 đã có trong DB, 0 lỗi / 201 ch trong scope",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "solo-max-level-newbie-ch180-252.json",
       "title": "Solo Max-Level Newbie",
       "displayTitle": "Solo Max-Level Newbie",
-      "subtitle": "Ch. 0–268 · solo-max-level-newbie-ch180-252.json",
+      "subtitle": "Ch. 0–269 · solo-max-level-newbie-ch180-252.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 268,
-      "chapterCount": 269,
+      "toChapter": 269,
+      "chapterCount": 270,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-18T10:39:18.425Z"
+      "contentUpdatedAt": "2026-07-25T07:15:15.730Z"
     },
     {
       "dataFile": "spirit-farmer.json",
@@ -1161,7 +1199,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/spirit-farmer.6081c0-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "sss-class-suicide-hunter.json",
@@ -1176,7 +1215,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.c8dc11-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "standard-of-reincarnation.json",
@@ -1192,39 +1232,39 @@
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34.webp",
       "contentUpdatedAt": "2026-07-18T10:38:45.353Z",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "star-embracing-swordmaster.json",
       "title": "Star Embracing Swordmaster",
       "displayTitle": "Star Embracing Swordmaster",
-      "subtitle": "Ch. 1–129 · star-embracing-swordmaster.json",
+      "subtitle": "Ch. 1–130 · star-embracing-swordmaster.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 129,
-      "chapterCount": 129,
+      "toChapter": 130,
+      "chapterCount": 130,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:03.046Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:17.265Z",
+      "featured": true
     },
     {
       "dataFile": "star-instructor-master-baek.json",
       "title": "Star Instructor Master Baek",
       "displayTitle": "Star Instructor Master Baek",
-      "subtitle": "Ch. 1–152 · star-instructor-master-baek.json",
+      "subtitle": "Ch. 1–153 · star-instructor-master-baek.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 152,
-      "chapterCount": 152,
+      "toChapter": 153,
+      "chapterCount": 153,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.f79c8a.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:13.862Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:18.596Z",
+      "featured": true
     },
     {
       "dataFile": "superhuman-battlefield.json",
@@ -1239,7 +1279,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "surviving-the-game-as-a-barbarian.json",
@@ -1254,7 +1295,7 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.09f151-400.webp",
-      "featured": true,
+      "featured": false,
       "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
@@ -1270,7 +1311,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "swordmasters-youngest-son.json",
@@ -1285,7 +1327,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/swordmasters-youngest-son.420c4d-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "talent-swallowing-magician.json",
@@ -1300,7 +1343,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.8d261c-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "taming-master.json",
@@ -1315,23 +1359,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/taming-master.988f49-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "terminally-ill-genius-dark-knight.json",
       "title": "Terminally Ill Genius Dark Knight",
       "displayTitle": "Terminally Ill Genius Dark Knight",
-      "subtitle": "Ch. 1–157 · terminally-ill-genius-dark-knight.json",
+      "subtitle": "Ch. 1–158 · terminally-ill-genius-dark-knight.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 157,
-      "chapterCount": 157,
+      "toChapter": 158,
+      "chapterCount": 158,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:58.195Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:19.708Z",
+      "featured": true
     },
     {
       "dataFile": "the-constellation-that-returned-from-hell.json",
@@ -1346,55 +1391,56 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-dark-magician-transmigrates-after-66666-years.json",
       "title": "The Dark Magician Transmigrates After 66666 Years",
       "displayTitle": "The Dark Magician Transmigrates After 66666 Years",
-      "subtitle": "Ch. 1–191 · the-dark-magician-transmigrates-after-66666-years.json",
+      "subtitle": "Ch. 1–192 · the-dark-magician-transmigrates-after-66666-years.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 191,
-      "chapterCount": 191,
+      "toChapter": 192,
+      "chapterCount": 192,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-magician-transmigrates-after-66666-years.0800e8.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:01.929Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:20.981Z",
+      "featured": true
     },
     {
       "dataFile": "the-extras-academy-survival-guide.json",
       "title": "The Extras Academy Survival Guide",
       "displayTitle": "The Extras Academy Survival Guide",
-      "subtitle": "Ch. 0–115 · the-extras-academy-survival-guide.json",
+      "subtitle": "Ch. 0–116 · the-extras-academy-survival-guide.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 115,
-      "chapterCount": 116,
+      "toChapter": 116,
+      "chapterCount": 117,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:51.043Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:22.141Z",
+      "featured": true
     },
     {
       "dataFile": "the-great-mage-returns-after-4000-years.json",
       "title": "The Great Mage Returns After 4000 Years",
       "displayTitle": "The Great Mage Returns After 4000 Years",
-      "subtitle": "Ch. 1–265 · the-great-mage-returns-after-4000-years.json",
+      "subtitle": "Ch. 1–266 · the-great-mage-returns-after-4000-years.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 265,
-      "chapterCount": 265,
+      "toChapter": 266,
+      "chapterCount": 266,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-great-mage-returns-after-4000-years.c5b622.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:55.964Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:23.333Z",
+      "featured": true
     },
     {
       "dataFile": "the-greatest-estate-developer.json",
@@ -1409,7 +1455,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-greatest-estate-developer.ad682d-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-heavenly-demon-cant-live-a-normal-life.json",
@@ -1425,55 +1472,55 @@
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-cant-live-a-normal-life.e3f13a.webp",
       "contentUpdatedAt": "2026-07-18T10:38:17.246Z",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "the-hero-returns.json",
       "title": "The Hero Returns",
       "displayTitle": "The Hero Returns",
-      "subtitle": "Ch. 1–162 · the-hero-returns.json",
+      "subtitle": "Ch. 1–163 · the-hero-returns.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 162,
-      "chapterCount": 162,
+      "toChapter": 163,
+      "chapterCount": 163,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.87c539.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:59.585Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:24.988Z",
+      "featured": true
     },
     {
       "dataFile": "the-indomitable-martial-king.json",
       "title": "The Indomitable Martial King",
       "displayTitle": "The Indomitable Martial King",
-      "subtitle": "Ch. 1–142 · the-indomitable-martial-king.json",
+      "subtitle": "Ch. 1–143 · the-indomitable-martial-king.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 142,
-      "chapterCount": 142,
+      "toChapter": 143,
+      "chapterCount": 143,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:07.584Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:26.430Z",
+      "featured": true
     },
     {
       "dataFile": "the-knight-king-who-returned-with-a-god.json",
       "title": "The Knight King Who Returned With A God",
       "displayTitle": "The Knight King Who Returned With A God",
-      "subtitle": "Ch. 1–173 · the-knight-king-who-returned-with-a-god.json",
+      "subtitle": "Ch. 1–174 · the-knight-king-who-returned-with-a-god.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 173,
-      "chapterCount": 173,
+      "toChapter": 174,
+      "chapterCount": 174,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-knight-king-who-returned-with-a-god.04a2c1.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:42.751Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:27.813Z",
+      "featured": true
     },
     {
       "dataFile": "the-last-adventurer.json",
@@ -1488,7 +1535,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-live.json",
@@ -1503,7 +1551,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-lords-coins-arent-decreasing.json",
@@ -1518,119 +1567,120 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-lords-coins-arent-decreasing.f13242-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-max-level-hero-has-returned.json",
       "title": "The Max Level Hero Has Returned",
       "displayTitle": "The Max Level Hero Has Returned",
-      "subtitle": "Ch. 1–240 · the-max-level-hero-has-returned.json",
+      "subtitle": "Ch. 1–241 · the-max-level-hero-has-returned.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 240,
-      "chapterCount": 240,
+      "toChapter": 241,
+      "chapterCount": 241,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.9cc9f9.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:09.806Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:29.244Z",
+      "featured": true
     },
     {
       "dataFile": "nebulas-civilization-ch01-122.json",
       "title": "The Nebula's Civilization",
       "displayTitle": "The Nebula's Civilization",
-      "subtitle": "Ch. 1–138 · nebulas-civilization-ch01-122.json",
+      "subtitle": "Ch. 1–139 · nebulas-civilization-ch01-122.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 138,
-      "chapterCount": 138,
+      "toChapter": 139,
+      "chapterCount": 139,
       "sqliteSeriesId": 52,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:17.815Z",
+      "contentUpdatedAt": "2026-07-25T07:15:30.391Z",
       "featured": true
     },
     {
       "dataFile": "the-novels-extra-remake.json",
       "title": "The Novels Extra Remake",
       "displayTitle": "The Novels Extra Remake",
-      "subtitle": "Ch. 1–164 · the-novels-extra-remake.json",
+      "subtitle": "Ch. 1–165 · the-novels-extra-remake.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 164,
-      "chapterCount": 164,
+      "toChapter": 165,
+      "chapterCount": 165,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-novels-extra-remake.8d8ec7.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:05.514Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:31.626Z",
+      "featured": true
     },
     {
       "dataFile": "the-player-hides-his-past.json",
       "title": "The Player Hides His Past",
       "displayTitle": "The Player Hides His Past",
-      "subtitle": "Ch. 1–129 · the-player-hides-his-past.json",
+      "subtitle": "Ch. 1–130 · the-player-hides-his-past.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 129,
-      "chapterCount": 129,
+      "toChapter": 130,
+      "chapterCount": 130,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.98ad69.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:34.645Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:32.902Z",
+      "featured": true
     },
     {
       "dataFile": "the-regressed-son-of-a-duke-is-an-assassin.json",
       "title": "The Regressed Son Of A Duke Is An Assassin",
       "displayTitle": "The Regressed Son Of A Duke Is An Assassin",
-      "subtitle": "Ch. 1–135 · the-regressed-son-of-a-duke-is-an-assassin.json",
+      "subtitle": "Ch. 1–136 · the-regressed-son-of-a-duke-is-an-assassin.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 135,
-      "chapterCount": 135,
+      "toChapter": 136,
+      "chapterCount": 136,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-son-of-a-duke-is-an-assassin.b4385d.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:57.176Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:34.022Z",
+      "featured": true
     },
     {
       "dataFile": "the-return-of-the-crazy-demon.json",
       "title": "The Return Of The Crazy Demon",
       "displayTitle": "The Return Of The Crazy Demon",
-      "subtitle": "Ch. 1–205 · the-return-of-the-crazy-demon.json",
+      "subtitle": "Ch. 1–206 · the-return-of-the-crazy-demon.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 205,
-      "chapterCount": 205,
+      "toChapter": 206,
+      "chapterCount": 206,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.2a8522.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:50.222Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:35.170Z",
+      "featured": true
     },
     {
       "dataFile": "the-s-classes-that-i-raised.json",
       "title": "The S Classes That I Raised",
       "displayTitle": "The S Classes That I Raised",
-      "subtitle": "Ch. 1–173 · the-s-classes-that-i-raised.json",
+      "subtitle": "Ch. 1–174 · the-s-classes-that-i-raised.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 173,
-      "chapterCount": 173,
+      "toChapter": 174,
+      "chapterCount": 174,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.494ef4.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:12.861Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:36.278Z",
+      "featured": true
     },
     {
       "dataFile": "the-second-coming-of-gluttony.json",
@@ -1645,23 +1695,24 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-tutorial-is-too-hard.json",
       "title": "The Tutorial Is Too Hard",
       "displayTitle": "The Tutorial Is Too Hard",
-      "subtitle": "Ch. 0–279 · the-tutorial-is-too-hard.json",
+      "subtitle": "Ch. 0–280 · the-tutorial-is-too-hard.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 279,
-      "chapterCount": 280,
+      "toChapter": 280,
+      "chapterCount": 281,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.a9f424.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:39.345Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:37.399Z",
+      "featured": true
     },
     {
       "dataFile": "the-tutorial-tower-of-the-advanced-player.json",
@@ -1676,71 +1727,72 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-tower-of-the-advanced-player.82e053-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "the-world-after-the-end-ch150-225.json",
       "title": "The World After The End",
       "displayTitle": "The World After The End",
-      "subtitle": "Ch. 0–243 · the-world-after-the-end-ch150-225.json",
+      "subtitle": "Ch. 0–244 · the-world-after-the-end-ch150-225.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 243,
-      "chapterCount": 244,
+      "toChapter": 244,
+      "chapterCount": 245,
       "sqliteSeriesId": 18,
       "contentSyncComplete": true,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-18T10:39:19.031Z"
+      "contentUpdatedAt": "2026-07-25T07:15:38.529Z"
     },
     {
       "dataFile": "trash-of-the-counts-family.json",
       "title": "Trash Of The Counts Family",
       "displayTitle": "Trash Of The Counts Family",
-      "subtitle": "Ch. 0–181 · trash-of-the-counts-family.json",
+      "subtitle": "Ch. 0–182 · trash-of-the-counts-family.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 181,
-      "chapterCount": 182,
+      "toChapter": 182,
+      "chapterCount": 183,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:13.070Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:39.678Z",
+      "featured": true
     },
     {
       "dataFile": "villain-to-kill.json",
       "title": "Villain To Kill",
       "displayTitle": "Villain To Kill",
-      "subtitle": "Ch. 0–244 · villain-to-kill.json",
+      "subtitle": "Ch. 0–245 · villain-to-kill.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 244,
-      "chapterCount": 245,
+      "toChapter": 245,
+      "chapterCount": 246,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.e7589f.webp",
-      "contentUpdatedAt": "2026-07-18T10:38:21.413Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:40.886Z",
+      "featured": true
     },
     {
       "dataFile": "wandering-warrior-of-wudang.json",
       "title": "Wandering Warrior Of Wudang",
       "displayTitle": "Wandering Warrior Of Wudang",
-      "subtitle": "Ch. 1–170 · wandering-warrior-of-wudang.json",
+      "subtitle": "Ch. 1–171 · wandering-warrior-of-wudang.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 170,
-      "chapterCount": 170,
+      "toChapter": 171,
+      "chapterCount": 171,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.9fb55b.webp",
-      "contentUpdatedAt": "2026-07-18T10:39:00.828Z",
-      "featured": false
+      "contentUpdatedAt": "2026-07-25T07:15:42.021Z",
+      "featured": true
     },
     {
       "dataFile": "worn-and-torn-newbie.json",
@@ -1755,7 +1807,7 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp",
-      "featured": true,
+      "featured": false,
       "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
     {
@@ -1771,7 +1823,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worthless-regression.e2bea5-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "dataFile": "youngest-scion-of-the-mages.json",
@@ -1786,7 +1839,8 @@
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.a6ec26-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "featured": false
     },
     {
       "sqliteSeriesId": null,
@@ -1811,13 +1865,14 @@
       "dataFile": "apex-future-martial-arts2.json",
       "title": "Logging 10,000 Years into the Future (Apex Future Martial Arts)",
       "displayTitle": "Logging 10,000 Years into the Future (Apex Future Martial Arts)",
-      "subtitle": "Ch. 0-314 · apex-future-martial-arts2.json",
+      "subtitle": "Ch. 0–339 · apex-future-martial-arts2.json",
       "source": "mgeko",
       "fromChapter": 0,
-      "toChapter": 314,
-      "chapterCount": 318,
+      "toChapter": 339,
+      "chapterCount": 344,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/apex-future-martial-arts.jpg",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-07-25T07:15:47.963Z",
+      "featured": true
     },
     {
       "sqliteSeriesId": null,
@@ -1826,14 +1881,14 @@
       "dataFile": "99-wooden-stick.json",
       "title": "+99 Wooden stick",
       "displayTitle": "+99 Wooden stick",
-      "subtitle": "Ch. 1–206 · 99-wooden-stick.json",
+      "subtitle": "Ch. 1–207 · 99-wooden-stick.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 206,
-      "chapterCount": 209,
+      "toChapter": 207,
+      "chapterCount": 210,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/99-wooden-stick.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-04T16:13:31.001Z"
+      "contentUpdatedAt": "2026-07-25T07:15:49.587Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1842,29 +1897,30 @@
       "dataFile": "lord-of-money.json",
       "title": "Lord of Money",
       "displayTitle": "Lord of Money",
-      "subtitle": "Ch. 1-270 · lord-of-money.json",
+      "subtitle": "Ch. 1–295 · lord-of-money.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 270,
-      "chapterCount": 270,
+      "toChapter": 295,
+      "chapterCount": 295,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/59966.jpg",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
+      "contentUpdatedAt": "2026-07-25T07:15:52.965Z",
+      "featured": true
     },
     {
       "dataFile": "absolute-regression.json",
       "title": "Absolute Regression",
       "displayTitle": "Absolute Regression",
-      "subtitle": "Ch. 1–110 · absolute-regression.json",
+      "subtitle": "Ch. 1–111 · absolute-regression.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 110,
-      "chapterCount": 110,
+      "toChapter": 111,
+      "chapterCount": 111,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-18T10:39:17.178Z"
+      "contentUpdatedAt": "2026-07-25T07:15:54.536Z"
     },
     {
       "sqliteSeriesId": null,
@@ -1889,46 +1945,46 @@
       "dataFile": "infinite-level-up-in-murim.json",
       "title": "Infinite Level Up in Murim",
       "displayTitle": "Infinite Level Up in Murim",
-      "subtitle": "Ch. 1–264 · infinite-level-up-in-murim.json",
+      "subtitle": "Ch. 1–276 · infinite-level-up-in-murim.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 264,
-      "chapterCount": 276,
+      "toChapter": 276,
+      "chapterCount": 288,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/61609.png",
       "featured": true,
-      "contentUpdatedAt": "2026-07-10T07:15:08.820Z"
+      "contentUpdatedAt": "2026-07-25T07:15:58.342Z"
     },
     {
       "dataFile": "one-piece-dao-hai-tac-truyen-one-piece.json",
       "title": "One Piece",
       "displayTitle": "One Piece",
-      "subtitle": "Ch. 1–1187 · one-piece-dao-hai-tac-truyen-one-piece.json",
+      "subtitle": "Ch. 1–1188 · one-piece-dao-hai-tac-truyen-one-piece.json",
       "source": "truyenonepiece",
       "fromChapter": 1,
-      "toChapter": 1187,
-      "chapterCount": 1187,
+      "toChapter": 1188,
+      "chapterCount": 1188,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-07-10T07:15:10.319Z"
+      "contentUpdatedAt": "2026-07-25T07:16:00.055Z"
     },
     {
       "dataFile": "one-punch-man-mgeko-eng.json",
       "title": "ONE-PUNCH MAN (EN)",
       "displayTitle": "ONE-PUNCH MAN (EN)",
-      "subtitle": "Ch. 1–234 · one-punch-man-mgeko-eng.json",
+      "subtitle": "Ch. 1–235 · one-punch-man-mgeko-eng.json",
       "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 234,
-      "chapterCount": 278,
+      "toChapter": 235,
+      "chapterCount": 279,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/onepunch-man-mg1.png",
       "featured": true,
-      "contentUpdatedAt": "2026-07-02T08:40:51.879Z"
+      "contentUpdatedAt": "2026-07-25T07:16:01.739Z"
     },
     {
       "dataFile": "one-punch-man-onepunchmanmau.json",
@@ -1990,7 +2046,7 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn dilib.vn.",
       "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14765-jindo-duong-dan-den-khung-thanh-1.webp?v=8339",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "jindo-phan-2-buttobi-itto-dilib.json",
@@ -2029,28 +2085,30 @@
       "dataFile": "the-necromancer-of-a-noble-sword-family.json",
       "title": "The Necromancer of a Noble Sword Family",
       "displayTitle": "The Necromancer of a Noble Sword Family",
-      "subtitle": "Ch. 0-18 · the-necromancer-of-a-noble-sword-family.json",
+      "subtitle": "Ch. 0–19 · the-necromancer-of-a-noble-sword-family.json",
       "source": "mgeko",
       "fromChapter": 0,
-      "toChapter": 18,
-      "chapterCount": 19,
+      "toChapter": 19,
+      "chapterCount": 20,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/zx66.jpg",
-      "featured": false
+      "featured": true,
+      "contentUpdatedAt": "2026-07-25T07:16:25.276Z"
     },
     {
       "dataFile": "i-am-the-fated-villain.json",
       "title": "I Am the Fated Villain",
       "displayTitle": "I Am the Fated Villain",
-      "subtitle": "Ch. 1–344 · i-am-the-fated-villain.json",
+      "subtitle": "Ch. 1–345 · i-am-the-fated-villain.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 344,
-      "chapterCount": 344,
+      "toChapter": 345,
+      "chapterCount": 345,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-am-the-fated-villain.e8d6b3.webp",
-      "featured": false
+      "featured": true,
+      "contentUpdatedAt": "2026-07-25T07:16:26.755Z"
     },
     {
       "dataFile": "magic-academys-genius-blinker.json",
@@ -2065,22 +2123,23 @@
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/magic-academys-genius-blinker.bebbd0.webp",
-      "featured": false
+      "featured": true
     },
     {
       "dataFile": "steel-eating-player.json",
       "title": "Steel-Eating Player",
       "displayTitle": "Steel-Eating Player",
-      "subtitle": "Ch. 1–102 · steel-eating-player.json",
+      "subtitle": "Ch. 1–103 · steel-eating-player.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 102,
-      "chapterCount": 102,
+      "toChapter": 103,
+      "chapterCount": 103,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/steel-eating-player.411627.webp",
-      "featured": false
+      "featured": true,
+      "contentUpdatedAt": "2026-07-25T07:16:28.285Z"
     }
   ]
 }

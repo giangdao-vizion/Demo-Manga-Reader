@@ -3,12 +3,12 @@
   "homeUrl": "https://www.mgeko.cc/manga/lord-of-money/",
   "title": "Lord of Money",
   "fromChapter": 1,
-  "toChapter": 270,
-  "fetchedAt": "2026-04-23T15:29:00.312Z",
+  "toChapter": 295,
+  "fetchedAt": "2026-07-25T07:15:52.925Z",
   "source": "mgeko",
   "chapters": [
     {
-      "title": "1",
+      "title": "Chapter 1-eng-li",
       "chapter": 1,
       "chapterKey": "1",
       "chapterLabel": "1-eng-li",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "title": "2",
+      "title": "Chapter 2-eng-li",
       "chapter": 2,
       "chapterKey": "2",
       "chapterLabel": "2-eng-li",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "title": "3",
+      "title": "Chapter 3-eng-li",
       "chapter": 3,
       "chapterKey": "3",
       "chapterLabel": "3-eng-li",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "4",
+      "title": "Chapter 4-eng-li",
       "chapter": 4,
       "chapterKey": "4",
       "chapterLabel": "4-eng-li",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "title": "5",
+      "title": "Chapter 5-eng-li",
       "chapter": 5,
       "chapterKey": "5",
       "chapterLabel": "5-eng-li",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "title": "6",
+      "title": "Chapter 6-eng-li",
       "chapter": 6,
       "chapterKey": "6",
       "chapterLabel": "6-eng-li",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "title": "7",
+      "title": "Chapter 7-eng-li",
       "chapter": 7,
       "chapterKey": "7",
       "chapterLabel": "7-eng-li",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "title": "8",
+      "title": "Chapter 8-eng-li",
       "chapter": 8,
       "chapterKey": "8",
       "chapterLabel": "8-eng-li",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "title": "9",
+      "title": "Chapter 9-eng-li",
       "chapter": 9,
       "chapterKey": "9",
       "chapterLabel": "9-eng-li",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "title": "10",
+      "title": "Chapter 10-eng-li",
       "chapter": 10,
       "chapterKey": "10",
       "chapterLabel": "10-eng-li",
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "title": "11",
+      "title": "Chapter 11-eng-li",
       "chapter": 11,
       "chapterKey": "11",
       "chapterLabel": "11-eng-li",
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "title": "12",
+      "title": "Chapter 12-eng-li",
       "chapter": 12,
       "chapterKey": "12",
       "chapterLabel": "12-eng-li",
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "title": "13",
+      "title": "Chapter 13-eng-li",
       "chapter": 13,
       "chapterKey": "13",
       "chapterLabel": "13-eng-li",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "title": "14",
+      "title": "Chapter 14-eng-li",
       "chapter": 14,
       "chapterKey": "14",
       "chapterLabel": "14-eng-li",
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "title": "15",
+      "title": "Chapter 15-eng-li",
       "chapter": 15,
       "chapterKey": "15",
       "chapterLabel": "15-eng-li",
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "title": "16",
+      "title": "Chapter 16-eng-li",
       "chapter": 16,
       "chapterKey": "16",
       "chapterLabel": "16-eng-li",
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "title": "17",
+      "title": "Chapter 17-eng-li",
       "chapter": 17,
       "chapterKey": "17",
       "chapterLabel": "17-eng-li",
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "title": "18",
+      "title": "Chapter 18-eng-li",
       "chapter": 18,
       "chapterKey": "18",
       "chapterLabel": "18-eng-li",
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "title": "19",
+      "title": "Chapter 19-eng-li",
       "chapter": 19,
       "chapterKey": "19",
       "chapterLabel": "19-eng-li",
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "title": "20",
+      "title": "Chapter 20-eng-li",
       "chapter": 20,
       "chapterKey": "20",
       "chapterLabel": "20-eng-li",
@@ -414,7 +414,7 @@
       ]
     },
     {
-      "title": "21",
+      "title": "Chapter 21-eng-li",
       "chapter": 21,
       "chapterKey": "21",
       "chapterLabel": "21-eng-li",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "title": "22",
+      "title": "Chapter 22-eng-li",
       "chapter": 22,
       "chapterKey": "22",
       "chapterLabel": "22-eng-li",
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "title": "23",
+      "title": "Chapter 23-eng-li",
       "chapter": 23,
       "chapterKey": "23",
       "chapterLabel": "23-eng-li",
@@ -473,7 +473,7 @@
       ]
     },
     {
-      "title": "24",
+      "title": "Chapter 24-eng-li",
       "chapter": 24,
       "chapterKey": "24",
       "chapterLabel": "24-eng-li",
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "title": "25",
+      "title": "Chapter 25-eng-li",
       "chapter": 25,
       "chapterKey": "25",
       "chapterLabel": "25-eng-li",
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "title": "26",
+      "title": "Chapter 26-eng-li",
       "chapter": 26,
       "chapterKey": "26",
       "chapterLabel": "26-eng-li",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "title": "27",
+      "title": "Chapter 27-eng-li",
       "chapter": 27,
       "chapterKey": "27",
       "chapterLabel": "27-eng-li",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "title": "28",
+      "title": "Chapter 28-eng-li",
       "chapter": 28,
       "chapterKey": "28",
       "chapterLabel": "28-eng-li",
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "title": "29",
+      "title": "Chapter 29-eng-li",
       "chapter": 29,
       "chapterKey": "29",
       "chapterLabel": "29-eng-li",
@@ -591,7 +591,7 @@
       ]
     },
     {
-      "title": "30",
+      "title": "Chapter 30-eng-li",
       "chapter": 30,
       "chapterKey": "30",
       "chapterLabel": "30-eng-li",
@@ -610,7 +610,7 @@
       ]
     },
     {
-      "title": "31",
+      "title": "Chapter 31-eng-li",
       "chapter": 31,
       "chapterKey": "31",
       "chapterLabel": "31-eng-li",
@@ -628,7 +628,7 @@
       ]
     },
     {
-      "title": "32",
+      "title": "Chapter 32-eng-li",
       "chapter": 32,
       "chapterKey": "32",
       "chapterLabel": "32-eng-li",
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "title": "33",
+      "title": "Chapter 33-eng-li",
       "chapter": 33,
       "chapterKey": "33",
       "chapterLabel": "33-eng-li",
@@ -666,7 +666,7 @@
       ]
     },
     {
-      "title": "34",
+      "title": "Chapter 34-eng-li",
       "chapter": 34,
       "chapterKey": "34",
       "chapterLabel": "34-eng-li",
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "title": "35",
+      "title": "Chapter 35-eng-li",
       "chapter": 35,
       "chapterKey": "35",
       "chapterLabel": "35-eng-li",
@@ -704,7 +704,7 @@
       ]
     },
     {
-      "title": "36",
+      "title": "Chapter 36-eng-li",
       "chapter": 36,
       "chapterKey": "36",
       "chapterLabel": "36-eng-li",
@@ -722,7 +722,7 @@
       ]
     },
     {
-      "title": "37",
+      "title": "Chapter 37-eng-li",
       "chapter": 37,
       "chapterKey": "37",
       "chapterLabel": "37-eng-li",
@@ -740,7 +740,7 @@
       ]
     },
     {
-      "title": "38",
+      "title": "Chapter 38-eng-li",
       "chapter": 38,
       "chapterKey": "38",
       "chapterLabel": "38-eng-li",
@@ -758,7 +758,7 @@
       ]
     },
     {
-      "title": "39",
+      "title": "Chapter 39-eng-li",
       "chapter": 39,
       "chapterKey": "39",
       "chapterLabel": "39-eng-li",
@@ -777,7 +777,7 @@
       ]
     },
     {
-      "title": "40",
+      "title": "Chapter 40-eng-li",
       "chapter": 40,
       "chapterKey": "40",
       "chapterLabel": "40-eng-li",
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "title": "41",
+      "title": "Chapter 41-eng-li",
       "chapter": 41,
       "chapterKey": "41",
       "chapterLabel": "41-eng-li",
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "title": "42",
+      "title": "Chapter 42-eng-li",
       "chapter": 42,
       "chapterKey": "42",
       "chapterLabel": "42-eng-li",
@@ -833,7 +833,7 @@
       ]
     },
     {
-      "title": "43",
+      "title": "Chapter 43-eng-li",
       "chapter": 43,
       "chapterKey": "43",
       "chapterLabel": "43-eng-li",
@@ -851,7 +851,7 @@
       ]
     },
     {
-      "title": "44",
+      "title": "Chapter 44-eng-li",
       "chapter": 44,
       "chapterKey": "44",
       "chapterLabel": "44-eng-li",
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "title": "45",
+      "title": "Chapter 45-eng-li",
       "chapter": 45,
       "chapterKey": "45",
       "chapterLabel": "45-eng-li",
@@ -888,7 +888,7 @@
       ]
     },
     {
-      "title": "46",
+      "title": "Chapter 46-eng-li",
       "chapter": 46,
       "chapterKey": "46",
       "chapterLabel": "46-eng-li",
@@ -906,7 +906,7 @@
       ]
     },
     {
-      "title": "47",
+      "title": "Chapter 47-eng-li",
       "chapter": 47,
       "chapterKey": "47",
       "chapterLabel": "47-eng-li",
@@ -929,7 +929,7 @@
       ]
     },
     {
-      "title": "48",
+      "title": "Chapter 48-eng-li",
       "chapter": 48,
       "chapterKey": "48",
       "chapterLabel": "48-eng-li",
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "title": "49",
+      "title": "Chapter 49-eng-li",
       "chapter": 49,
       "chapterKey": "49",
       "chapterLabel": "49-eng-li",
@@ -965,7 +965,7 @@
       ]
     },
     {
-      "title": "50",
+      "title": "Chapter 50-eng-li",
       "chapter": 50,
       "chapterKey": "50",
       "chapterLabel": "50-eng-li",
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "title": "51",
+      "title": "Chapter 51-eng-li",
       "chapter": 51,
       "chapterKey": "51",
       "chapterLabel": "51-eng-li",
@@ -1009,7 +1009,7 @@
       ]
     },
     {
-      "title": "52",
+      "title": "Chapter 52-eng-li",
       "chapter": 52,
       "chapterKey": "52",
       "chapterLabel": "52-eng-li",
@@ -1031,7 +1031,7 @@
       ]
     },
     {
-      "title": "53",
+      "title": "Chapter 53-eng-li",
       "chapter": 53,
       "chapterKey": "53",
       "chapterLabel": "53-eng-li",
@@ -1053,7 +1053,7 @@
       ]
     },
     {
-      "title": "54",
+      "title": "Chapter 54-eng-li",
       "chapter": 54,
       "chapterKey": "54",
       "chapterLabel": "54-eng-li",
@@ -1075,7 +1075,7 @@
       ]
     },
     {
-      "title": "55",
+      "title": "Chapter 55-eng-li",
       "chapter": 55,
       "chapterKey": "55",
       "chapterLabel": "55-eng-li",
@@ -1097,7 +1097,7 @@
       ]
     },
     {
-      "title": "56",
+      "title": "Chapter 56-eng-li",
       "chapter": 56,
       "chapterKey": "56",
       "chapterLabel": "56-eng-li",
@@ -1118,7 +1118,7 @@
       ]
     },
     {
-      "title": "57",
+      "title": "Chapter 57-eng-li",
       "chapter": 57,
       "chapterKey": "57",
       "chapterLabel": "57-eng-li",
@@ -1140,7 +1140,7 @@
       ]
     },
     {
-      "title": "58",
+      "title": "Chapter 58-eng-li",
       "chapter": 58,
       "chapterKey": "58",
       "chapterLabel": "58-eng-li",
@@ -1163,7 +1163,7 @@
       ]
     },
     {
-      "title": "59",
+      "title": "Chapter 59-eng-li",
       "chapter": 59,
       "chapterKey": "59",
       "chapterLabel": "59-eng-li",
@@ -1186,7 +1186,7 @@
       ]
     },
     {
-      "title": "60",
+      "title": "Chapter 60-eng-li",
       "chapter": 60,
       "chapterKey": "60",
       "chapterLabel": "60-eng-li",
@@ -1209,7 +1209,7 @@
       ]
     },
     {
-      "title": "61",
+      "title": "Chapter 61-eng-li",
       "chapter": 61,
       "chapterKey": "61",
       "chapterLabel": "61-eng-li",
@@ -1233,7 +1233,7 @@
       ]
     },
     {
-      "title": "62",
+      "title": "Chapter 62-eng-li",
       "chapter": 62,
       "chapterKey": "62",
       "chapterLabel": "62-eng-li",
@@ -1256,7 +1256,7 @@
       ]
     },
     {
-      "title": "63",
+      "title": "Chapter 63-eng-li",
       "chapter": 63,
       "chapterKey": "63",
       "chapterLabel": "63-eng-li",
@@ -1278,7 +1278,7 @@
       ]
     },
     {
-      "title": "64",
+      "title": "Chapter 64-eng-li",
       "chapter": 64,
       "chapterKey": "64",
       "chapterLabel": "64-eng-li",
@@ -1304,7 +1304,7 @@
       ]
     },
     {
-      "title": "65",
+      "title": "Chapter 65-eng-li",
       "chapter": 65,
       "chapterKey": "65",
       "chapterLabel": "65-eng-li",
@@ -1328,7 +1328,7 @@
       ]
     },
     {
-      "title": "66",
+      "title": "Chapter 66-eng-li",
       "chapter": 66,
       "chapterKey": "66",
       "chapterLabel": "66-eng-li",
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "title": "67",
+      "title": "Chapter 67-eng-li",
       "chapter": 67,
       "chapterKey": "67",
       "chapterLabel": "67-eng-li",
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "title": "68",
+      "title": "Chapter 68-eng-li",
       "chapter": 68,
       "chapterKey": "68",
       "chapterLabel": "68-eng-li",
@@ -1399,7 +1399,7 @@
       ]
     },
     {
-      "title": "69",
+      "title": "Chapter 69-eng-li",
       "chapter": 69,
       "chapterKey": "69",
       "chapterLabel": "69-eng-li",
@@ -1422,7 +1422,7 @@
       ]
     },
     {
-      "title": "70",
+      "title": "Chapter 70-eng-li",
       "chapter": 70,
       "chapterKey": "70",
       "chapterLabel": "70-eng-li",
@@ -1445,7 +1445,7 @@
       ]
     },
     {
-      "title": "71",
+      "title": "Chapter 71-eng-li",
       "chapter": 71,
       "chapterKey": "71",
       "chapterLabel": "71-eng-li",
@@ -1469,7 +1469,7 @@
       ]
     },
     {
-      "title": "72",
+      "title": "Chapter 72-eng-li",
       "chapter": 72,
       "chapterKey": "72",
       "chapterLabel": "72-eng-li",
@@ -1491,7 +1491,7 @@
       ]
     },
     {
-      "title": "73",
+      "title": "Chapter 73-eng-li",
       "chapter": 73,
       "chapterKey": "73",
       "chapterLabel": "73-eng-li",
@@ -1518,7 +1518,7 @@
       ]
     },
     {
-      "title": "74",
+      "title": "Chapter 74-eng-li",
       "chapter": 74,
       "chapterKey": "74",
       "chapterLabel": "74-eng-li",
@@ -1544,7 +1544,7 @@
       ]
     },
     {
-      "title": "75",
+      "title": "Chapter 75-eng-li",
       "chapter": 75,
       "chapterKey": "75",
       "chapterLabel": "75-eng-li",
@@ -1572,7 +1572,7 @@
       ]
     },
     {
-      "title": "76",
+      "title": "Chapter 76-eng-li",
       "chapter": 76,
       "chapterKey": "76",
       "chapterLabel": "76-eng-li",
@@ -1599,7 +1599,7 @@
       ]
     },
     {
-      "title": "77",
+      "title": "Chapter 77-eng-li",
       "chapter": 77,
       "chapterKey": "77",
       "chapterLabel": "77-eng-li",
@@ -1625,7 +1625,7 @@
       ]
     },
     {
-      "title": "78",
+      "title": "Chapter 78-eng-li",
       "chapter": 78,
       "chapterKey": "78",
       "chapterLabel": "78-eng-li",
@@ -1651,7 +1651,7 @@
       ]
     },
     {
-      "title": "79",
+      "title": "Chapter 79-eng-li",
       "chapter": 79,
       "chapterKey": "79",
       "chapterLabel": "79-eng-li",
@@ -1676,7 +1676,7 @@
       ]
     },
     {
-      "title": "80",
+      "title": "Chapter 80-eng-li",
       "chapter": 80,
       "chapterKey": "80",
       "chapterLabel": "80-eng-li",
@@ -1702,7 +1702,7 @@
       ]
     },
     {
-      "title": "81",
+      "title": "Chapter 81-eng-li",
       "chapter": 81,
       "chapterKey": "81",
       "chapterLabel": "81-eng-li",
@@ -1727,7 +1727,7 @@
       ]
     },
     {
-      "title": "82",
+      "title": "Chapter 82-eng-li",
       "chapter": 82,
       "chapterKey": "82",
       "chapterLabel": "82-eng-li",
@@ -1754,7 +1754,7 @@
       ]
     },
     {
-      "title": "83",
+      "title": "Chapter 83-eng-li",
       "chapter": 83,
       "chapterKey": "83",
       "chapterLabel": "83-eng-li",
@@ -1780,7 +1780,7 @@
       ]
     },
     {
-      "title": "84",
+      "title": "Chapter 84-eng-li",
       "chapter": 84,
       "chapterKey": "84",
       "chapterLabel": "84-eng-li",
@@ -1808,7 +1808,7 @@
       ]
     },
     {
-      "title": "85",
+      "title": "Chapter 85-eng-li",
       "chapter": 85,
       "chapterKey": "85",
       "chapterLabel": "85-eng-li",
@@ -1834,7 +1834,7 @@
       ]
     },
     {
-      "title": "86",
+      "title": "Chapter 86-eng-li",
       "chapter": 86,
       "chapterKey": "86",
       "chapterLabel": "86-eng-li",
@@ -1860,7 +1860,7 @@
       ]
     },
     {
-      "title": "87",
+      "title": "Chapter 87-eng-li",
       "chapter": 87,
       "chapterKey": "87",
       "chapterLabel": "87-eng-li",
@@ -1887,7 +1887,7 @@
       ]
     },
     {
-      "title": "88",
+      "title": "Chapter 88-eng-li",
       "chapter": 88,
       "chapterKey": "88",
       "chapterLabel": "88-eng-li",
@@ -1912,7 +1912,7 @@
       ]
     },
     {
-      "title": "89",
+      "title": "Chapter 89-eng-li",
       "chapter": 89,
       "chapterKey": "89",
       "chapterLabel": "89-eng-li",
@@ -1937,7 +1937,7 @@
       ]
     },
     {
-      "title": "90",
+      "title": "Chapter 90-eng-li",
       "chapter": 90,
       "chapterKey": "90",
       "chapterLabel": "90-eng-li",
@@ -1963,7 +1963,7 @@
       ]
     },
     {
-      "title": "91",
+      "title": "Chapter 91-eng-li",
       "chapter": 91,
       "chapterKey": "91",
       "chapterLabel": "91-eng-li",
@@ -1988,7 +1988,7 @@
       ]
     },
     {
-      "title": "92",
+      "title": "Chapter 92-eng-li",
       "chapter": 92,
       "chapterKey": "92",
       "chapterLabel": "92-eng-li",
@@ -2013,7 +2013,7 @@
       ]
     },
     {
-      "title": "93",
+      "title": "Chapter 93-eng-li",
       "chapter": 93,
       "chapterKey": "93",
       "chapterLabel": "93-eng-li",
@@ -2038,7 +2038,7 @@
       ]
     },
     {
-      "title": "94",
+      "title": "Chapter 94-eng-li",
       "chapter": 94,
       "chapterKey": "94",
       "chapterLabel": "94-eng-li",
@@ -2063,7 +2063,7 @@
       ]
     },
     {
-      "title": "95",
+      "title": "Chapter 95-eng-li",
       "chapter": 95,
       "chapterKey": "95",
       "chapterLabel": "95-eng-li",
@@ -2087,7 +2087,7 @@
       ]
     },
     {
-      "title": "96",
+      "title": "Chapter 96-eng-li",
       "chapter": 96,
       "chapterKey": "96",
       "chapterLabel": "96-eng-li",
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "title": "97",
+      "title": "Chapter 97-eng-li",
       "chapter": 97,
       "chapterKey": "97",
       "chapterLabel": "97-eng-li",
@@ -2139,7 +2139,7 @@
       ]
     },
     {
-      "title": "98",
+      "title": "Chapter 98-eng-li",
       "chapter": 98,
       "chapterKey": "98",
       "chapterLabel": "98-eng-li",
@@ -2165,7 +2165,7 @@
       ]
     },
     {
-      "title": "99",
+      "title": "Chapter 99-eng-li",
       "chapter": 99,
       "chapterKey": "99",
       "chapterLabel": "99-eng-li",
@@ -2190,7 +2190,7 @@
       ]
     },
     {
-      "title": "100",
+      "title": "Chapter 100-eng-li",
       "chapter": 100,
       "chapterKey": "100",
       "chapterLabel": "100-eng-li",
@@ -2214,7 +2214,7 @@
       ]
     },
     {
-      "title": "101",
+      "title": "Chapter 101-eng-li",
       "chapter": 101,
       "chapterKey": "101",
       "chapterLabel": "101-eng-li",
@@ -2252,7 +2252,7 @@
       ]
     },
     {
-      "title": "102",
+      "title": "Chapter 102-eng-li",
       "chapter": 102,
       "chapterKey": "102",
       "chapterLabel": "102-eng-li",
@@ -2278,7 +2278,7 @@
       ]
     },
     {
-      "title": "103",
+      "title": "Chapter 103-eng-li",
       "chapter": 103,
       "chapterKey": "103",
       "chapterLabel": "103-eng-li",
@@ -2303,7 +2303,7 @@
       ]
     },
     {
-      "title": "104",
+      "title": "Chapter 104-eng-li",
       "chapter": 104,
       "chapterKey": "104",
       "chapterLabel": "104-eng-li",
@@ -2331,7 +2331,7 @@
       ]
     },
     {
-      "title": "105",
+      "title": "Chapter 105-eng-li",
       "chapter": 105,
       "chapterKey": "105",
       "chapterLabel": "105-eng-li",
@@ -2355,7 +2355,7 @@
       ]
     },
     {
-      "title": "106",
+      "title": "Chapter 106-eng-li",
       "chapter": 106,
       "chapterKey": "106",
       "chapterLabel": "106-eng-li",
@@ -2384,7 +2384,7 @@
       ]
     },
     {
-      "title": "107",
+      "title": "Chapter 107-eng-li",
       "chapter": 107,
       "chapterKey": "107",
       "chapterLabel": "107-eng-li",
@@ -2413,7 +2413,7 @@
       ]
     },
     {
-      "title": "108",
+      "title": "Chapter 108-eng-li",
       "chapter": 108,
       "chapterKey": "108",
       "chapterLabel": "108-eng-li",
@@ -2442,7 +2442,7 @@
       ]
     },
     {
-      "title": "109",
+      "title": "Chapter 109-eng-li",
       "chapter": 109,
       "chapterKey": "109",
       "chapterLabel": "109-eng-li",
@@ -2471,7 +2471,7 @@
       ]
     },
     {
-      "title": "110",
+      "title": "Chapter 110-eng-li",
       "chapter": 110,
       "chapterKey": "110",
       "chapterLabel": "110-eng-li",
@@ -2491,7 +2491,7 @@
       ]
     },
     {
-      "title": "111",
+      "title": "Chapter 111-eng-li",
       "chapter": 111,
       "chapterKey": "111",
       "chapterLabel": "111-eng-li",
@@ -2511,7 +2511,7 @@
       ]
     },
     {
-      "title": "112",
+      "title": "Chapter 112-eng-li",
       "chapter": 112,
       "chapterKey": "112",
       "chapterLabel": "112-eng-li",
@@ -2531,7 +2531,7 @@
       ]
     },
     {
-      "title": "113",
+      "title": "Chapter 113-eng-li",
       "chapter": 113,
       "chapterKey": "113",
       "chapterLabel": "113-eng-li",
@@ -2551,7 +2551,7 @@
       ]
     },
     {
-      "title": "114",
+      "title": "Chapter 114-eng-li",
       "chapter": 114,
       "chapterKey": "114",
       "chapterLabel": "114-eng-li",
@@ -2572,7 +2572,7 @@
       ]
     },
     {
-      "title": "115",
+      "title": "Chapter 115-eng-li",
       "chapter": 115,
       "chapterKey": "115",
       "chapterLabel": "115-eng-li",
@@ -2593,7 +2593,7 @@
       ]
     },
     {
-      "title": "116",
+      "title": "Chapter 116-eng-li",
       "chapter": 116,
       "chapterKey": "116",
       "chapterLabel": "116-eng-li",
@@ -2630,7 +2630,7 @@
       ]
     },
     {
-      "title": "117",
+      "title": "Chapter 117-eng-li",
       "chapter": 117,
       "chapterKey": "117",
       "chapterLabel": "117-eng-li",
@@ -2650,7 +2650,7 @@
       ]
     },
     {
-      "title": "118",
+      "title": "Chapter 118-eng-li",
       "chapter": 118,
       "chapterKey": "118",
       "chapterLabel": "118-eng-li",
@@ -2686,7 +2686,7 @@
       ]
     },
     {
-      "title": "119",
+      "title": "Chapter 119-eng-li",
       "chapter": 119,
       "chapterKey": "119",
       "chapterLabel": "119-eng-li",
@@ -2707,7 +2707,7 @@
       ]
     },
     {
-      "title": "120",
+      "title": "Chapter 120-eng-li",
       "chapter": 120,
       "chapterKey": "120",
       "chapterLabel": "120-eng-li",
@@ -2733,7 +2733,7 @@
       ]
     },
     {
-      "title": "121",
+      "title": "Chapter 121-eng-li",
       "chapter": 121,
       "chapterKey": "121",
       "chapterLabel": "121-eng-li",
@@ -2827,7 +2827,7 @@
       ]
     },
     {
-      "title": "122",
+      "title": "Chapter 122-eng-li",
       "chapter": 122,
       "chapterKey": "122",
       "chapterLabel": "122-eng-li",
@@ -2932,7 +2932,7 @@
       ]
     },
     {
-      "title": "123",
+      "title": "Chapter 123-eng-li",
       "chapter": 123,
       "chapterKey": "123",
       "chapterLabel": "123-eng-li",
@@ -3022,7 +3022,7 @@
       ]
     },
     {
-      "title": "124",
+      "title": "Chapter 124-eng-li",
       "chapter": 124,
       "chapterKey": "124",
       "chapterLabel": "124-eng-li",
@@ -3119,7 +3119,7 @@
       ]
     },
     {
-      "title": "125",
+      "title": "Chapter 125-eng-li",
       "chapter": 125,
       "chapterKey": "125",
       "chapterLabel": "125-eng-li",
@@ -3218,7 +3218,7 @@
       ]
     },
     {
-      "title": "126",
+      "title": "Chapter 126-eng-li",
       "chapter": 126,
       "chapterKey": "126",
       "chapterLabel": "126-eng-li",
@@ -3322,7 +3322,7 @@
       ]
     },
     {
-      "title": "127",
+      "title": "Chapter 127-eng-li",
       "chapter": 127,
       "chapterKey": "127",
       "chapterLabel": "127-eng-li",
@@ -3432,7 +3432,7 @@
       ]
     },
     {
-      "title": "128",
+      "title": "Chapter 128-eng-li",
       "chapter": 128,
       "chapterKey": "128",
       "chapterLabel": "128-eng-li",
@@ -3522,7 +3522,7 @@
       ]
     },
     {
-      "title": "129",
+      "title": "Chapter 129-eng-li",
       "chapter": 129,
       "chapterKey": "129",
       "chapterLabel": "129-eng-li",
@@ -3619,7 +3619,7 @@
       ]
     },
     {
-      "title": "130",
+      "title": "Chapter 130-eng-li",
       "chapter": 130,
       "chapterKey": "130",
       "chapterLabel": "130-eng-li",
@@ -3706,7 +3706,7 @@
       ]
     },
     {
-      "title": "131",
+      "title": "Chapter 131-eng-li",
       "chapter": 131,
       "chapterKey": "131",
       "chapterLabel": "131-eng-li",
@@ -3794,7 +3794,7 @@
       ]
     },
     {
-      "title": "132",
+      "title": "Chapter 132-eng-li",
       "chapter": 132,
       "chapterKey": "132",
       "chapterLabel": "132-eng-li",
@@ -3886,7 +3886,7 @@
       ]
     },
     {
-      "title": "133",
+      "title": "Chapter 133-eng-li",
       "chapter": 133,
       "chapterKey": "133",
       "chapterLabel": "133-eng-li",
@@ -3994,7 +3994,7 @@
       ]
     },
     {
-      "title": "134",
+      "title": "Chapter 134-eng-li",
       "chapter": 134,
       "chapterKey": "134",
       "chapterLabel": "134-eng-li",
@@ -4093,7 +4093,7 @@
       ]
     },
     {
-      "title": "135",
+      "title": "Chapter 135-eng-li",
       "chapter": 135,
       "chapterKey": "135",
       "chapterLabel": "135-eng-li",
@@ -4206,7 +4206,7 @@
       ]
     },
     {
-      "title": "136",
+      "title": "Chapter 136-eng-li",
       "chapter": 136,
       "chapterKey": "136",
       "chapterLabel": "136-eng-li",
@@ -4293,7 +4293,7 @@
       ]
     },
     {
-      "title": "137",
+      "title": "Chapter 137-eng-li",
       "chapter": 137,
       "chapterKey": "137",
       "chapterLabel": "137-eng-li",
@@ -4381,7 +4381,7 @@
       ]
     },
     {
-      "title": "138",
+      "title": "Chapter 138-eng-li",
       "chapter": 138,
       "chapterKey": "138",
       "chapterLabel": "138-eng-li",
@@ -4476,7 +4476,7 @@
       ]
     },
     {
-      "title": "139",
+      "title": "Chapter 139-eng-li",
       "chapter": 139,
       "chapterKey": "139",
       "chapterLabel": "139-eng-li",
@@ -4569,7 +4569,7 @@
       ]
     },
     {
-      "title": "140",
+      "title": "Chapter 140-eng-li",
       "chapter": 140,
       "chapterKey": "140",
       "chapterLabel": "140-eng-li",
@@ -4662,7 +4662,7 @@
       ]
     },
     {
-      "title": "141",
+      "title": "Chapter 141-eng-li",
       "chapter": 141,
       "chapterKey": "141",
       "chapterLabel": "141-eng-li",
@@ -4750,7 +4750,7 @@
       ]
     },
     {
-      "title": "142",
+      "title": "Chapter 142-eng-li",
       "chapter": 142,
       "chapterKey": "142",
       "chapterLabel": "142-eng-li",
@@ -4846,7 +4846,7 @@
       ]
     },
     {
-      "title": "143",
+      "title": "Chapter 143-eng-li",
       "chapter": 143,
       "chapterKey": "143",
       "chapterLabel": "143-eng-li",
@@ -4945,7 +4945,7 @@
       ]
     },
     {
-      "title": "144",
+      "title": "Chapter 144-eng-li",
       "chapter": 144,
       "chapterKey": "144",
       "chapterLabel": "144-eng-li",
@@ -5043,7 +5043,7 @@
       ]
     },
     {
-      "title": "145",
+      "title": "Chapter 145-eng-li",
       "chapter": 145,
       "chapterKey": "145",
       "chapterLabel": "145-eng-li",
@@ -5134,7 +5134,7 @@
       ]
     },
     {
-      "title": "146",
+      "title": "Chapter 146-eng-li",
       "chapter": 146,
       "chapterKey": "146",
       "chapterLabel": "146-eng-li",
@@ -5227,7 +5227,7 @@
       ]
     },
     {
-      "title": "147",
+      "title": "Chapter 147-eng-li",
       "chapter": 147,
       "chapterKey": "147",
       "chapterLabel": "147-eng-li",
@@ -5321,7 +5321,7 @@
       ]
     },
     {
-      "title": "148",
+      "title": "Chapter 148-eng-li",
       "chapter": 148,
       "chapterKey": "148",
       "chapterLabel": "148-eng-li",
@@ -5410,7 +5410,7 @@
       ]
     },
     {
-      "title": "149",
+      "title": "Chapter 149-eng-li",
       "chapter": 149,
       "chapterKey": "149",
       "chapterLabel": "149-eng-li",
@@ -5501,7 +5501,7 @@
       ]
     },
     {
-      "title": "150",
+      "title": "Chapter 150-eng-li",
       "chapter": 150,
       "chapterKey": "150",
       "chapterLabel": "150-eng-li",
@@ -5592,7 +5592,7 @@
       ]
     },
     {
-      "title": "151",
+      "title": "Chapter 151-eng-li",
       "chapter": 151,
       "chapterKey": "151",
       "chapterLabel": "151-eng-li",
@@ -5682,7 +5682,7 @@
       ]
     },
     {
-      "title": "152",
+      "title": "Chapter 152-eng-li",
       "chapter": 152,
       "chapterKey": "152",
       "chapterLabel": "152-eng-li",
@@ -5775,7 +5775,7 @@
       ]
     },
     {
-      "title": "153",
+      "title": "Chapter 153-eng-li",
       "chapter": 153,
       "chapterKey": "153",
       "chapterLabel": "153-eng-li",
@@ -5865,7 +5865,7 @@
       ]
     },
     {
-      "title": "154",
+      "title": "Chapter 154-eng-li",
       "chapter": 154,
       "chapterKey": "154",
       "chapterLabel": "154-eng-li",
@@ -5970,7 +5970,7 @@
       ]
     },
     {
-      "title": "155",
+      "title": "Chapter 155-eng-li",
       "chapter": 155,
       "chapterKey": "155",
       "chapterLabel": "155-eng-li",
@@ -6059,7 +6059,7 @@
       ]
     },
     {
-      "title": "156",
+      "title": "Chapter 156-eng-li",
       "chapter": 156,
       "chapterKey": "156",
       "chapterLabel": "156-eng-li",
@@ -6173,7 +6173,7 @@
       ]
     },
     {
-      "title": "157",
+      "title": "Chapter 157-eng-li",
       "chapter": 157,
       "chapterKey": "157",
       "chapterLabel": "157-eng-li",
@@ -6268,7 +6268,7 @@
       ]
     },
     {
-      "title": "158",
+      "title": "Chapter 158-eng-li",
       "chapter": 158,
       "chapterKey": "158",
       "chapterLabel": "158-eng-li",
@@ -6363,7 +6363,7 @@
       ]
     },
     {
-      "title": "159",
+      "title": "Chapter 159-eng-li",
       "chapter": 159,
       "chapterKey": "159",
       "chapterLabel": "159-eng-li",
@@ -6451,7 +6451,7 @@
       ]
     },
     {
-      "title": "160",
+      "title": "Chapter 160-eng-li",
       "chapter": 160,
       "chapterKey": "160",
       "chapterLabel": "160-eng-li",
@@ -6547,7 +6547,7 @@
       ]
     },
     {
-      "title": "161",
+      "title": "Chapter 161-eng-li",
       "chapter": 161,
       "chapterKey": "161",
       "chapterLabel": "161-eng-li",
@@ -6640,7 +6640,7 @@
       ]
     },
     {
-      "title": "162",
+      "title": "Chapter 162-eng-li",
       "chapter": 162,
       "chapterKey": "162",
       "chapterLabel": "162-eng-li",
@@ -6733,7 +6733,7 @@
       ]
     },
     {
-      "title": "163",
+      "title": "Chapter 163-eng-li",
       "chapter": 163,
       "chapterKey": "163",
       "chapterLabel": "163-eng-li",
@@ -6828,7 +6828,7 @@
       ]
     },
     {
-      "title": "164",
+      "title": "Chapter 164-eng-li",
       "chapter": 164,
       "chapterKey": "164",
       "chapterLabel": "164-eng-li",
@@ -6922,7 +6922,7 @@
       ]
     },
     {
-      "title": "165",
+      "title": "Chapter 165-eng-li",
       "chapter": 165,
       "chapterKey": "165",
       "chapterLabel": "165-eng-li",
@@ -7015,7 +7015,7 @@
       ]
     },
     {
-      "title": "166",
+      "title": "Chapter 166-eng-li",
       "chapter": 166,
       "chapterKey": "166",
       "chapterLabel": "166-eng-li",
@@ -7109,7 +7109,7 @@
       ]
     },
     {
-      "title": "167",
+      "title": "Chapter 167-eng-li",
       "chapter": 167,
       "chapterKey": "167",
       "chapterLabel": "167-eng-li",
@@ -7214,7 +7214,7 @@
       ]
     },
     {
-      "title": "168",
+      "title": "Chapter 168-eng-li",
       "chapter": 168,
       "chapterKey": "168",
       "chapterLabel": "168-eng-li",
@@ -7311,7 +7311,7 @@
       ]
     },
     {
-      "title": "169",
+      "title": "Chapter 169-eng-li",
       "chapter": 169,
       "chapterKey": "169",
       "chapterLabel": "169-eng-li",
@@ -7407,7 +7407,7 @@
       ]
     },
     {
-      "title": "170",
+      "title": "Chapter 170-eng-li",
       "chapter": 170,
       "chapterKey": "170",
       "chapterLabel": "170-eng-li",
@@ -7499,7 +7499,7 @@
       ]
     },
     {
-      "title": "171",
+      "title": "Chapter 171-eng-li",
       "chapter": 171,
       "chapterKey": "171",
       "chapterLabel": "171-eng-li",
@@ -7595,7 +7595,7 @@
       ]
     },
     {
-      "title": "172",
+      "title": "Chapter 172-eng-li",
       "chapter": 172,
       "chapterKey": "172",
       "chapterLabel": "172-eng-li",
@@ -7685,7 +7685,7 @@
       ]
     },
     {
-      "title": "173",
+      "title": "Chapter 173-eng-li",
       "chapter": 173,
       "chapterKey": "173",
       "chapterLabel": "173-eng-li",
@@ -7778,7 +7778,7 @@
       ]
     },
     {
-      "title": "174",
+      "title": "Chapter 174-eng-li",
       "chapter": 174,
       "chapterKey": "174",
       "chapterLabel": "174-eng-li",
@@ -7876,7 +7876,7 @@
       ]
     },
     {
-      "title": "175",
+      "title": "Chapter 175-eng-li",
       "chapter": 175,
       "chapterKey": "175",
       "chapterLabel": "175-eng-li",
@@ -7971,7 +7971,7 @@
       ]
     },
     {
-      "title": "176",
+      "title": "Chapter 176-eng-li",
       "chapter": 176,
       "chapterKey": "176",
       "chapterLabel": "176-eng-li",
@@ -8065,7 +8065,7 @@
       ]
     },
     {
-      "title": "177",
+      "title": "Chapter 177-eng-li",
       "chapter": 177,
       "chapterKey": "177",
       "chapterLabel": "177-eng-li",
@@ -8159,7 +8159,7 @@
       ]
     },
     {
-      "title": "178",
+      "title": "Chapter 178-eng-li",
       "chapter": 178,
       "chapterKey": "178",
       "chapterLabel": "178-eng-li",
@@ -8250,7 +8250,7 @@
       ]
     },
     {
-      "title": "179",
+      "title": "Chapter 179-eng-li",
       "chapter": 179,
       "chapterKey": "179",
       "chapterLabel": "179-eng-li",
@@ -8353,7 +8353,7 @@
       ]
     },
     {
-      "title": "180",
+      "title": "Chapter 180-eng-li",
       "chapter": 180,
       "chapterKey": "180",
       "chapterLabel": "180-eng-li",
@@ -8463,7 +8463,7 @@
       ]
     },
     {
-      "title": "181",
+      "title": "Chapter 181-eng-li",
       "chapter": 181,
       "chapterKey": "181",
       "chapterLabel": "181-eng-li",
@@ -8563,7 +8563,7 @@
       ]
     },
     {
-      "title": "182",
+      "title": "Chapter 182-eng-li",
       "chapter": 182,
       "chapterKey": "182",
       "chapterLabel": "182-eng-li",
@@ -8665,7 +8665,7 @@
       ]
     },
     {
-      "title": "183",
+      "title": "Chapter 183-eng-li",
       "chapter": 183,
       "chapterKey": "183",
       "chapterLabel": "183-eng-li",
@@ -8766,7 +8766,7 @@
       ]
     },
     {
-      "title": "184",
+      "title": "Chapter 184-eng-li",
       "chapter": 184,
       "chapterKey": "184",
       "chapterLabel": "184-eng-li",
@@ -8858,7 +8858,7 @@
       ]
     },
     {
-      "title": "185",
+      "title": "Chapter 185-eng-li",
       "chapter": 185,
       "chapterKey": "185",
       "chapterLabel": "185-eng-li",
@@ -8948,7 +8948,7 @@
       ]
     },
     {
-      "title": "186",
+      "title": "Chapter 186-eng-li",
       "chapter": 186,
       "chapterKey": "186",
       "chapterLabel": "186-eng-li",
@@ -9046,7 +9046,7 @@
       ]
     },
     {
-      "title": "187",
+      "title": "Chapter 187-eng-li",
       "chapter": 187,
       "chapterKey": "187",
       "chapterLabel": "187-eng-li",
@@ -9139,7 +9139,7 @@
       ]
     },
     {
-      "title": "188",
+      "title": "Chapter 188-eng-li",
       "chapter": 188,
       "chapterKey": "188",
       "chapterLabel": "188-eng-li",
@@ -9231,7 +9231,7 @@
       ]
     },
     {
-      "title": "189",
+      "title": "Chapter 189-eng-li",
       "chapter": 189,
       "chapterKey": "189",
       "chapterLabel": "189-eng-li",
@@ -9320,7 +9320,7 @@
       ]
     },
     {
-      "title": "190",
+      "title": "Chapter 190-eng-li",
       "chapter": 190,
       "chapterKey": "190",
       "chapterLabel": "190-eng-li",
@@ -9414,7 +9414,7 @@
       ]
     },
     {
-      "title": "191",
+      "title": "Chapter 191-eng-li",
       "chapter": 191,
       "chapterKey": "191",
       "chapterLabel": "191-eng-li",
@@ -9505,7 +9505,7 @@
       ]
     },
     {
-      "title": "192",
+      "title": "Chapter 192-eng-li",
       "chapter": 192,
       "chapterKey": "192",
       "chapterLabel": "192-eng-li",
@@ -9592,7 +9592,7 @@
       ]
     },
     {
-      "title": "193",
+      "title": "Chapter 193-eng-li",
       "chapter": 193,
       "chapterKey": "193",
       "chapterLabel": "193-eng-li",
@@ -9683,7 +9683,7 @@
       ]
     },
     {
-      "title": "194",
+      "title": "Chapter 194-eng-li",
       "chapter": 194,
       "chapterKey": "194",
       "chapterLabel": "194-eng-li",
@@ -9779,7 +9779,7 @@
       ]
     },
     {
-      "title": "195",
+      "title": "Chapter 195-eng-li",
       "chapter": 195,
       "chapterKey": "195",
       "chapterLabel": "195-eng-li",
@@ -9881,7 +9881,7 @@
       ]
     },
     {
-      "title": "196",
+      "title": "Chapter 196-eng-li",
       "chapter": 196,
       "chapterKey": "196",
       "chapterLabel": "196-eng-li",
@@ -9975,7 +9975,7 @@
       ]
     },
     {
-      "title": "197",
+      "title": "Chapter 197-eng-li",
       "chapter": 197,
       "chapterKey": "197",
       "chapterLabel": "197-eng-li",
@@ -10068,7 +10068,7 @@
       ]
     },
     {
-      "title": "198",
+      "title": "Chapter 198-eng-li",
       "chapter": 198,
       "chapterKey": "198",
       "chapterLabel": "198-eng-li",
@@ -10163,7 +10163,7 @@
       ]
     },
     {
-      "title": "199",
+      "title": "Chapter 199-eng-li",
       "chapter": 199,
       "chapterKey": "199",
       "chapterLabel": "199-eng-li",
@@ -10255,7 +10255,7 @@
       ]
     },
     {
-      "title": "200",
+      "title": "Chapter 200-eng-li",
       "chapter": 200,
       "chapterKey": "200",
       "chapterLabel": "200-eng-li",
@@ -10353,7 +10353,7 @@
       ]
     },
     {
-      "title": "201",
+      "title": "Chapter 201-eng-li",
       "chapter": 201,
       "chapterKey": "201",
       "chapterLabel": "201-eng-li",
@@ -10449,7 +10449,7 @@
       ]
     },
     {
-      "title": "202",
+      "title": "Chapter 202-eng-li",
       "chapter": 202,
       "chapterKey": "202",
       "chapterLabel": "202-eng-li",
@@ -10548,7 +10548,7 @@
       ]
     },
     {
-      "title": "203",
+      "title": "Chapter 203-eng-li",
       "chapter": 203,
       "chapterKey": "203",
       "chapterLabel": "203-eng-li",
@@ -10649,7 +10649,7 @@
       ]
     },
     {
-      "title": "204",
+      "title": "Chapter 204-eng-li",
       "chapter": 204,
       "chapterKey": "204",
       "chapterLabel": "204-eng-li",
@@ -10744,7 +10744,7 @@
       ]
     },
     {
-      "title": "205",
+      "title": "Chapter 205-eng-li",
       "chapter": 205,
       "chapterKey": "205",
       "chapterLabel": "205-eng-li",
@@ -10842,7 +10842,7 @@
       ]
     },
     {
-      "title": "206",
+      "title": "Chapter 206-eng-li",
       "chapter": 206,
       "chapterKey": "206",
       "chapterLabel": "206-eng-li",
@@ -10937,7 +10937,7 @@
       ]
     },
     {
-      "title": "207",
+      "title": "Chapter 207-eng-li",
       "chapter": 207,
       "chapterKey": "207",
       "chapterLabel": "207-eng-li",
@@ -11036,7 +11036,7 @@
       ]
     },
     {
-      "title": "208",
+      "title": "Chapter 208-eng-li",
       "chapter": 208,
       "chapterKey": "208",
       "chapterLabel": "208-eng-li",
@@ -11139,7 +11139,7 @@
       ]
     },
     {
-      "title": "209",
+      "title": "Chapter 209-eng-li",
       "chapter": 209,
       "chapterKey": "209",
       "chapterLabel": "209-eng-li",
@@ -11185,7 +11185,7 @@
       ]
     },
     {
-      "title": "210",
+      "title": "Chapter 210-eng-li",
       "chapter": 210,
       "chapterKey": "210",
       "chapterLabel": "210-eng-li",
@@ -11231,7 +11231,7 @@
       ]
     },
     {
-      "title": "211",
+      "title": "Chapter 211-eng-li",
       "chapter": 211,
       "chapterKey": "211",
       "chapterLabel": "211-eng-li",
@@ -11275,7 +11275,7 @@
       ]
     },
     {
-      "title": "212",
+      "title": "Chapter 212-eng-li",
       "chapter": 212,
       "chapterKey": "212",
       "chapterLabel": "212-eng-li",
@@ -11321,7 +11321,7 @@
       ]
     },
     {
-      "title": "213",
+      "title": "Chapter 213-eng-li",
       "chapter": 213,
       "chapterKey": "213",
       "chapterLabel": "213-eng-li",
@@ -11366,7 +11366,7 @@
       ]
     },
     {
-      "title": "214",
+      "title": "Chapter 214-eng-li",
       "chapter": 214,
       "chapterKey": "214",
       "chapterLabel": "214-eng-li",
@@ -11417,7 +11417,7 @@
       ]
     },
     {
-      "title": "215",
+      "title": "Chapter 215-eng-li",
       "chapter": 215,
       "chapterKey": "215",
       "chapterLabel": "215-eng-li",
@@ -11461,7 +11461,7 @@
       ]
     },
     {
-      "title": "216",
+      "title": "Chapter 216-eng-li",
       "chapter": 216,
       "chapterKey": "216",
       "chapterLabel": "216-eng-li",
@@ -11507,7 +11507,7 @@
       ]
     },
     {
-      "title": "217",
+      "title": "Chapter 217-eng-li",
       "chapter": 217,
       "chapterKey": "217",
       "chapterLabel": "217-eng-li",
@@ -11551,7 +11551,7 @@
       ]
     },
     {
-      "title": "218",
+      "title": "Chapter 218-eng-li",
       "chapter": 218,
       "chapterKey": "218",
       "chapterLabel": "218-eng-li",
@@ -11596,7 +11596,7 @@
       ]
     },
     {
-      "title": "219",
+      "title": "Chapter 219-eng-li",
       "chapter": 219,
       "chapterKey": "219",
       "chapterLabel": "219-eng-li",
@@ -11644,7 +11644,7 @@
       ]
     },
     {
-      "title": "220",
+      "title": "Chapter 220-eng-li",
       "chapter": 220,
       "chapterKey": "220",
       "chapterLabel": "220-eng-li",
@@ -11688,7 +11688,7 @@
       ]
     },
     {
-      "title": "221",
+      "title": "Chapter 221-eng-li",
       "chapter": 221,
       "chapterKey": "221",
       "chapterLabel": "221-eng-li",
@@ -11711,7 +11711,7 @@
       ]
     },
     {
-      "title": "222",
+      "title": "Chapter 222-eng-li",
       "chapter": 222,
       "chapterKey": "222",
       "chapterLabel": "222-eng-li",
@@ -11795,7 +11795,7 @@
       ]
     },
     {
-      "title": "223",
+      "title": "Chapter 223-eng-li",
       "chapter": 223,
       "chapterKey": "223",
       "chapterLabel": "223-eng-li",
@@ -11881,7 +11881,7 @@
       ]
     },
     {
-      "title": "224",
+      "title": "Chapter 224-eng-li",
       "chapter": 224,
       "chapterKey": "224",
       "chapterLabel": "224-eng-li",
@@ -11968,7 +11968,7 @@
       ]
     },
     {
-      "title": "225",
+      "title": "Chapter 225-eng-li",
       "chapter": 225,
       "chapterKey": "225",
       "chapterLabel": "225-eng-li",
@@ -12052,7 +12052,7 @@
       ]
     },
     {
-      "title": "226",
+      "title": "Chapter 226-eng-li",
       "chapter": 226,
       "chapterKey": "226",
       "chapterLabel": "226-eng-li",
@@ -12134,7 +12134,7 @@
       ]
     },
     {
-      "title": "227",
+      "title": "Chapter 227-eng-li",
       "chapter": 227,
       "chapterKey": "227",
       "chapterLabel": "227-eng-li",
@@ -12222,7 +12222,7 @@
       ]
     },
     {
-      "title": "228",
+      "title": "Chapter 228-eng-li",
       "chapter": 228,
       "chapterKey": "228",
       "chapterLabel": "228-eng-li",
@@ -12303,7 +12303,7 @@
       ]
     },
     {
-      "title": "229",
+      "title": "Chapter 229-eng-li",
       "chapter": 229,
       "chapterKey": "229",
       "chapterLabel": "229-eng-li",
@@ -12388,7 +12388,7 @@
       ]
     },
     {
-      "title": "230",
+      "title": "Chapter 230-eng-li",
       "chapter": 230,
       "chapterKey": "230",
       "chapterLabel": "230-eng-li",
@@ -12470,7 +12470,7 @@
       ]
     },
     {
-      "title": "231",
+      "title": "Chapter 231-eng-li",
       "chapter": 231,
       "chapterKey": "231",
       "chapterLabel": "231-eng-li",
@@ -12555,7 +12555,7 @@
       ]
     },
     {
-      "title": "232",
+      "title": "Chapter 232-eng-li",
       "chapter": 232,
       "chapterKey": "232",
       "chapterLabel": "232-eng-li",
@@ -12639,7 +12639,7 @@
       ]
     },
     {
-      "title": "233",
+      "title": "Chapter 233-eng-li",
       "chapter": 233,
       "chapterKey": "233",
       "chapterLabel": "233-eng-li",
@@ -12723,7 +12723,7 @@
       ]
     },
     {
-      "title": "234",
+      "title": "Chapter 234-eng-li",
       "chapter": 234,
       "chapterKey": "234",
       "chapterLabel": "234-eng-li",
@@ -12817,7 +12817,7 @@
       ]
     },
     {
-      "title": "235",
+      "title": "Chapter 235-eng-li",
       "chapter": 235,
       "chapterKey": "235",
       "chapterLabel": "235-eng-li",
@@ -12921,7 +12921,7 @@
       ]
     },
     {
-      "title": "236",
+      "title": "Chapter 236-eng-li",
       "chapter": 236,
       "chapterKey": "236",
       "chapterLabel": "236-eng-li",
@@ -13014,7 +13014,7 @@
       ]
     },
     {
-      "title": "237",
+      "title": "Chapter 237-eng-li",
       "chapter": 237,
       "chapterKey": "237",
       "chapterLabel": "237-eng-li",
@@ -13102,7 +13102,7 @@
       ]
     },
     {
-      "title": "238",
+      "title": "Chapter 238-eng-li",
       "chapter": 238,
       "chapterKey": "238",
       "chapterLabel": "238-eng-li",
@@ -13207,7 +13207,7 @@
       ]
     },
     {
-      "title": "239",
+      "title": "Chapter 239-eng-li",
       "chapter": 239,
       "chapterKey": "239",
       "chapterLabel": "239-eng-li",
@@ -13299,7 +13299,7 @@
       ]
     },
     {
-      "title": "240",
+      "title": "Chapter 240-eng-li",
       "chapter": 240,
       "chapterKey": "240",
       "chapterLabel": "240-eng-li",
@@ -13439,7 +13439,7 @@
       ]
     },
     {
-      "title": "241",
+      "title": "Chapter 241-eng-li",
       "chapter": 241,
       "chapterKey": "241",
       "chapterLabel": "241-eng-li",
@@ -13538,7 +13538,7 @@
       ]
     },
     {
-      "title": "242",
+      "title": "Chapter 242-eng-li",
       "chapter": 242,
       "chapterKey": "242",
       "chapterLabel": "242-eng-li",
@@ -13666,7 +13666,7 @@
       ]
     },
     {
-      "title": "243",
+      "title": "Chapter 243-eng-li",
       "chapter": 243,
       "chapterKey": "243",
       "chapterLabel": "243-eng-li",
@@ -13761,7 +13761,7 @@
       ]
     },
     {
-      "title": "244",
+      "title": "Chapter 244-eng-li",
       "chapter": 244,
       "chapterKey": "244",
       "chapterLabel": "244-eng-li",
@@ -13852,7 +13852,7 @@
       ]
     },
     {
-      "title": "245",
+      "title": "Chapter 245-eng-li",
       "chapter": 245,
       "chapterKey": "245",
       "chapterLabel": "245-eng-li",
@@ -13951,7 +13951,7 @@
       ]
     },
     {
-      "title": "246",
+      "title": "Chapter 246-eng-li",
       "chapter": 246,
       "chapterKey": "246",
       "chapterLabel": "246-eng-li",
@@ -14047,7 +14047,7 @@
       ]
     },
     {
-      "title": "247",
+      "title": "Chapter 247-eng-li",
       "chapter": 247,
       "chapterKey": "247",
       "chapterLabel": "247-eng-li",
@@ -14152,7 +14152,7 @@
       ]
     },
     {
-      "title": "248",
+      "title": "Chapter 248-eng-li",
       "chapter": 248,
       "chapterKey": "248",
       "chapterLabel": "248-eng-li",
@@ -14243,7 +14243,7 @@
       ]
     },
     {
-      "title": "249",
+      "title": "Chapter 249-eng-li",
       "chapter": 249,
       "chapterKey": "249",
       "chapterLabel": "249-eng-li",
@@ -14360,7 +14360,7 @@
       ]
     },
     {
-      "title": "250",
+      "title": "Chapter 250-eng-li",
       "chapter": 250,
       "chapterKey": "250",
       "chapterLabel": "250-eng-li",
@@ -14445,7 +14445,7 @@
       ]
     },
     {
-      "title": "251",
+      "title": "Chapter 251-eng-li",
       "chapter": 251,
       "chapterKey": "251",
       "chapterLabel": "251-eng-li",
@@ -14535,7 +14535,7 @@
       ]
     },
     {
-      "title": "252",
+      "title": "Chapter 252-eng-li",
       "chapter": 252,
       "chapterKey": "252",
       "chapterLabel": "252-eng-li",
@@ -14626,7 +14626,7 @@
       ]
     },
     {
-      "title": "253",
+      "title": "Chapter 253-eng-li",
       "chapter": 253,
       "chapterKey": "253",
       "chapterLabel": "253-eng-li",
@@ -14706,7 +14706,7 @@
       ]
     },
     {
-      "title": "254",
+      "title": "Chapter 254-eng-li",
       "chapter": 254,
       "chapterKey": "254",
       "chapterLabel": "254-eng-li",
@@ -14730,7 +14730,7 @@
       ]
     },
     {
-      "title": "255",
+      "title": "Chapter 255-eng-li",
       "chapter": 255,
       "chapterKey": "255",
       "chapterLabel": "255-eng-li",
@@ -14755,7 +14755,7 @@
       ]
     },
     {
-      "title": "256",
+      "title": "Chapter 256-eng-li",
       "chapter": 256,
       "chapterKey": "256",
       "chapterLabel": "256-eng-li",
@@ -14777,7 +14777,7 @@
       ]
     },
     {
-      "title": "257",
+      "title": "Chapter 257-eng-li",
       "chapter": 257,
       "chapterKey": "257",
       "chapterLabel": "257-eng-li",
@@ -14800,7 +14800,7 @@
       ]
     },
     {
-      "title": "258",
+      "title": "Chapter 258-eng-li",
       "chapter": 258,
       "chapterKey": "258",
       "chapterLabel": "258-eng-li",
@@ -14824,7 +14824,7 @@
       ]
     },
     {
-      "title": "259",
+      "title": "Chapter 259-eng-li",
       "chapter": 259,
       "chapterKey": "259",
       "chapterLabel": "259-eng-li",
@@ -14847,7 +14847,7 @@
       ]
     },
     {
-      "title": "260",
+      "title": "Chapter 260-eng-li",
       "chapter": 260,
       "chapterKey": "260",
       "chapterLabel": "260-eng-li",
@@ -14871,7 +14871,7 @@
       ]
     },
     {
-      "title": "261",
+      "title": "Chapter 261-eng-li",
       "chapter": 261,
       "chapterKey": "261",
       "chapterLabel": "261-eng-li",
@@ -14894,7 +14894,7 @@
       ]
     },
     {
-      "title": "262",
+      "title": "Chapter 262-eng-li",
       "chapter": 262,
       "chapterKey": "262",
       "chapterLabel": "262-eng-li",
@@ -14917,7 +14917,7 @@
       ]
     },
     {
-      "title": "263",
+      "title": "Chapter 263-eng-li",
       "chapter": 263,
       "chapterKey": "263",
       "chapterLabel": "263-eng-li",
@@ -14940,7 +14940,7 @@
       ]
     },
     {
-      "title": "264",
+      "title": "Chapter 264-eng-li",
       "chapter": 264,
       "chapterKey": "264",
       "chapterLabel": "264-eng-li",
@@ -14964,7 +14964,7 @@
       ]
     },
     {
-      "title": "265",
+      "title": "Chapter 265-eng-li",
       "chapter": 265,
       "chapterKey": "265",
       "chapterLabel": "265-eng-li",
@@ -14984,7 +14984,7 @@
       ]
     },
     {
-      "title": "266",
+      "title": "Chapter 266-eng-li",
       "chapter": 266,
       "chapterKey": "266",
       "chapterLabel": "266-eng-li",
@@ -15008,7 +15008,7 @@
       ]
     },
     {
-      "title": "267",
+      "title": "Chapter 267-eng-li",
       "chapter": 267,
       "chapterKey": "267",
       "chapterLabel": "267-eng-li",
@@ -15031,7 +15031,7 @@
       ]
     },
     {
-      "title": "268",
+      "title": "Chapter 268-eng-li",
       "chapter": 268,
       "chapterKey": "268",
       "chapterLabel": "268-eng-li",
@@ -15055,7 +15055,7 @@
       ]
     },
     {
-      "title": "269",
+      "title": "Chapter 269-eng-li",
       "chapter": 269,
       "chapterKey": "269",
       "chapterLabel": "269-eng-li",
@@ -15078,7 +15078,7 @@
       ]
     },
     {
-      "title": "270",
+      "title": "Chapter 270-eng-li",
       "chapter": 270,
       "chapterKey": "270",
       "chapterLabel": "270-eng-li",
@@ -15095,6 +15095,770 @@
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-270/6.jpg",
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-270/7.jpg",
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-270/8.jpg"
+      ]
+    },
+    {
+      "title": "Chapter 271-eng-li",
+      "chapter": 271,
+      "chapterKey": "271",
+      "chapterLabel": "271-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-271-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-271-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-271/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 272-eng-li",
+      "chapter": 272,
+      "chapterKey": "272",
+      "chapterLabel": "272-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-272-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-272-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-272/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 273-eng-li",
+      "chapter": 273,
+      "chapterKey": "273",
+      "chapterLabel": "273-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-273-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-273-eng-li/",
+      "total": 18,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/12.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/13.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/14.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/15.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-273/16.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 274-eng-li",
+      "chapter": 274,
+      "chapterKey": "274",
+      "chapterLabel": "274-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-274-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-274-eng-li/",
+      "total": 14,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-274/12.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 275-eng-li",
+      "chapter": 275,
+      "chapterKey": "275",
+      "chapterLabel": "275-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-275-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-275-eng-li/",
+      "total": 15,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/12.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-275/13.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 276-eng-li",
+      "chapter": 276,
+      "chapterKey": "276",
+      "chapterLabel": "276-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-276-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-276-eng-li/",
+      "total": 78,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/12.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/13.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/14.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/15.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/16.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/17.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/18.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/19.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/20.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/21.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/22.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/23.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/24.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/25.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/26.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/27.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/28.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/29.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/30.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/31.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/32.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/33.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/34.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/35.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/36.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/37.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/38.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/39.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/40.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/41.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/42.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/43.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/44.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/45.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/46.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/47.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/48.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/49.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/50.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/51.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/52.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/53.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/54.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/55.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/56.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/57.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/58.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/59.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/60.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/61.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/62.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/63.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/64.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/65.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/66.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/67.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/68.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/69.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/70.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/71.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/72.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/73.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/74.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/75.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-276/76.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 277-eng-li",
+      "chapter": 277,
+      "chapterKey": "277",
+      "chapterLabel": "277-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-277-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-277-eng-li/",
+      "total": 102,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/1.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/2.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/3.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/4.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/5.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/6.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/7.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/8.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/9.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/10.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/11.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/12.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/13.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/14.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/15.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/16.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/17.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/18.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/19.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/20.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/21.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/22.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/23.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/24.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/25.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/26.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/27.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/28.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/29.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/30.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/31.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/32.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/33.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/34.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/35.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/36.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/37.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/38.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/39.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/40.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/41.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/42.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/43.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/44.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/45.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/46.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/47.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/48.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/49.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/50.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/51.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/52.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/53.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/54.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/55.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/56.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/57.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/58.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/59.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/60.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/61.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/62.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/63.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/64.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/65.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/66.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/67.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/68.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/69.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/70.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/71.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/72.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/73.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/74.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/75.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/76.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/77.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/78.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/79.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/80.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/81.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/82.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/83.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/84.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/85.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/86.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/87.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/88.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/89.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/90.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/91.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/92.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/93.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/94.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/95.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/96.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/97.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/98.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/99.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/100.jpg",
+        "https://imgsrv4.com/sv2/comic/2529/chapter-277/101.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 278-eng-li",
+      "chapter": 278,
+      "chapterKey": "278",
+      "chapterLabel": "278-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-278-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-278-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-278/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 279-eng-li",
+      "chapter": 279,
+      "chapterKey": "279",
+      "chapterLabel": "279-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-279-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-279-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-279/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 280-eng-li",
+      "chapter": 280,
+      "chapterKey": "280",
+      "chapterLabel": "280-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-280-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-280-eng-li/",
+      "total": 12,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-280/10.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 281-eng-li",
+      "chapter": 281,
+      "chapterKey": "281",
+      "chapterLabel": "281-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-281-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-281-eng-li/",
+      "total": 12,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-281/10.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 282-eng-li",
+      "chapter": 282,
+      "chapterKey": "282",
+      "chapterLabel": "282-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-282-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-282-eng-li/",
+      "total": 14,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-282/12.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 283-eng-li",
+      "chapter": 283,
+      "chapterKey": "283",
+      "chapterLabel": "283-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-283-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-283-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-283/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 284-eng-li",
+      "chapter": 284,
+      "chapterKey": "284",
+      "chapterLabel": "284-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-284-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-284-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-284/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 285-eng-li",
+      "chapter": 285,
+      "chapterKey": "285",
+      "chapterLabel": "285-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-285-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-285-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-285/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 286-eng-li",
+      "chapter": 286,
+      "chapterKey": "286",
+      "chapterLabel": "286-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-286-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-286-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-286/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 287-eng-li",
+      "chapter": 287,
+      "chapterKey": "287",
+      "chapterLabel": "287-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-287-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-287-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-287/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 288-eng-li",
+      "chapter": 288,
+      "chapterKey": "288",
+      "chapterLabel": "288-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-288-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-288-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-288/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 289-eng-li",
+      "chapter": 289,
+      "chapterKey": "289",
+      "chapterLabel": "289-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-289-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-289-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-289/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 290-eng-li",
+      "chapter": 290,
+      "chapterKey": "290",
+      "chapterLabel": "290-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-290-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-290-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-290/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 291-eng-li",
+      "chapter": 291,
+      "chapterKey": "291",
+      "chapterLabel": "291-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-291-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-291-eng-li/",
+      "total": 14,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-291/12.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 292-eng-li",
+      "chapter": 292,
+      "chapterKey": "292",
+      "chapterLabel": "292-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-292-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-292-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-292/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 293-eng-li",
+      "chapter": 293,
+      "chapterKey": "293",
+      "chapterLabel": "293-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-293-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-293-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-293/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 294-eng-li",
+      "chapter": 294,
+      "chapterKey": "294",
+      "chapterLabel": "294-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-294-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-294-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-294/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 295-eng-li",
+      "chapter": 295,
+      "chapterKey": "295",
+      "chapterLabel": "295-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-295-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-295-eng-li/",
+      "total": 15,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/11.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/12.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/13.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
       ]
     }
   ]
