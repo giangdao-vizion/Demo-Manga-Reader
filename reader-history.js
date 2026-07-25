@@ -1,8 +1,11 @@
 /**
  * Comic Hub — lưu vị trí đọc (localStorage) để resume từ trang Home.
+ * Đồng thời ghi danh sách bộ đã đọc gần đây (không bị xóa khi bấm Home).
  */
 (function (global) {
   const KEY = "comic-hub-reading-history-v1";
+  const RECENT_KEY = "comic-hub-recent-series-v1";
+  const RECENT_MAX = 24;
   const INTENT_HOME_KEY = "comic-hub-intent-home";
   const CID = global.ComicHubChapterId;
 
@@ -54,6 +57,91 @@
       };
     } catch {
       return null;
+    }
+  }
+
+  function listRecent(limit) {
+    const max =
+      Number.isFinite(Number(limit)) && Number(limit) > 0
+        ? Math.min(100, Math.floor(Number(limit)))
+        : RECENT_MAX;
+    try {
+      const raw = localStorage.getItem(RECENT_KEY);
+      if (!raw) return [];
+      const j = JSON.parse(raw);
+      if (!Array.isArray(j)) return [];
+      const out = [];
+      const seen = new Set();
+      for (let i = 0; i < j.length; i++) {
+        const row = j[i];
+        if (!row || typeof row !== "object") continue;
+        const dataFile = normalizeDataFile(row.dataFile);
+        if (!dataFile || seen.has(dataFile)) continue;
+        seen.add(dataFile);
+        const chapterId =
+          row.chapterId != null && String(row.chapterId).trim()
+            ? normalizeChapterId(row.chapterId)
+            : Number.isFinite(Number(row.chapter))
+              ? normalizeChapterId(String(row.chapter))
+              : "";
+        const readAt = Number(row.readAt) || Number(row.updatedAt) || 0;
+        out.push({
+          dataFile,
+          chapterId: chapterId || null,
+          readAt,
+        });
+      }
+      out.sort(function (a, b) {
+        return (b.readAt || 0) - (a.readAt || 0);
+      });
+      return out.slice(0, max);
+    } catch {
+      return [];
+    }
+  }
+
+  function touchRecent(dataFile, chapterId) {
+    const file = normalizeDataFile(dataFile);
+    const id = normalizeChapterId(chapterId);
+    if (!file || !id) return;
+    let list = [];
+    try {
+      const raw = localStorage.getItem(RECENT_KEY);
+      if (raw) {
+        const j = JSON.parse(raw);
+        if (Array.isArray(j)) list = j;
+      }
+    } catch {
+      list = [];
+    }
+    const next = [];
+    next.push({
+      dataFile: file,
+      chapterId: id,
+      readAt: now(),
+    });
+    for (let i = 0; i < list.length; i++) {
+      const row = list[i];
+      if (!row || typeof row !== "object") continue;
+      const f = normalizeDataFile(row.dataFile);
+      if (!f || f === file) continue;
+      const cid =
+        row.chapterId != null && String(row.chapterId).trim()
+          ? normalizeChapterId(row.chapterId)
+          : Number.isFinite(Number(row.chapter))
+            ? normalizeChapterId(String(row.chapter))
+            : "";
+      next.push({
+        dataFile: f,
+        chapterId: cid || null,
+        readAt: Number(row.readAt) || Number(row.updatedAt) || 0,
+      });
+      if (next.length >= RECENT_MAX) break;
+    }
+    try {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(next));
+    } catch {
+      /* quota */
     }
   }
 
@@ -143,6 +231,7 @@
       payload.useMainScroll = metrics.useMainScroll === true;
     }
     save(payload);
+    touchRecent(dataFile, id);
   }
 
   function getResumeForReader(dataFile, chapterId) {
@@ -276,11 +365,14 @@
 
   global.ComicHubHistory = {
     KEY,
+    RECENT_KEY,
     get,
     save,
     clear,
     saveDetail,
     saveReader,
+    touchRecent,
+    listRecent,
     getResumeForReader,
     pickDetailChapter,
     tryRedirectFromHome,

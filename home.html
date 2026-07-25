@@ -406,6 +406,9 @@
     .favorites-empty.hidden {
       display: none;
     }
+    .recent-section {
+      margin-top: 10px;
+    }
     .catalog-main-label {
       margin-top: 4px;
     }
@@ -568,6 +571,13 @@
         <p class="favorites-empty hidden" id="favoritesEmpty">Chưa có truyện yêu thích. Nhấn biểu tượng trái tim trên bìa truyện để thêm.</p>
         <p class="favorites-empty hidden" id="favoritesNoMatch">Không có truyện yêu thích khớp tìm kiếm.</p>
       </section>
+      <section class="catalog-section recent-section" id="recentSection" hidden>
+        <div class="chapter-grid-label">Mới xem gần đây</div>
+        <div class="favorites-scroll" id="recentScroll">
+          <div id="recentGrid" class="favorites-scroll__track" aria-label="Truyện mới xem gần đây"></div>
+        </div>
+        <p class="favorites-empty hidden" id="recentNoMatch">Không có truyện gần đây khớp tìm kiếm.</p>
+      </section>
       <div class="chapter-grid-label catalog-main-label" id="catalogMainLabel" hidden>Danh sách truyện</div>
       <div class="catalog-toolbar glass catalog-toolbar--controls" id="catalogToolbar" hidden>
         <div>
@@ -635,6 +645,9 @@
       const favoritesGrid = document.getElementById("favoritesGrid");
       const favoritesEmpty = document.getElementById("favoritesEmpty");
       const favoritesNoMatch = document.getElementById("favoritesNoMatch");
+      const recentSection = document.getElementById("recentSection");
+      const recentGrid = document.getElementById("recentGrid");
+      const recentNoMatch = document.getElementById("recentNoMatch");
       const catalogMainLabel = document.getElementById("catalogMainLabel");
       const catalogSearchWrap = document.getElementById("catalogSearchWrap");
 
@@ -643,6 +656,7 @@
       let currentPage = 1;
       let searchDebounce = 0;
       let favoriteOrder = [];
+      let recentEntries = [];
       let lastSearchMatchCount = 0;
 
       const LS_FAVORITES = "reader-home-favorites-v1";
@@ -735,6 +749,46 @@
         return Number.isFinite(t) ? t : 0;
       }
 
+      function formatRelativeDayLabel(ms, prefix) {
+        const p = prefix == null ? "Updated " : String(prefix);
+        if (!ms) return p ? p.replace(/\s+$/, "") + " —" : "—";
+        const then = new Date(ms);
+        const now = new Date();
+        const thenDay = new Date(then.getFullYear(), then.getMonth(), then.getDate());
+        const nowDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        const diffDays = Math.round((nowDay - thenDay) / 86400000);
+        if (diffDays <= 0) return p + "today";
+        if (diffDays === 1) return p + "yesterday";
+        if (diffDays >= 2 && diffDays <= 7) return p + diffDays + " days ago";
+        return (
+          p +
+          then.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          })
+        );
+      }
+
+      function formatSeriesUpdatedLabel(item) {
+        return formatRelativeDayLabel(seriesUpdatedAtMs(item), "Updated ");
+      }
+
+      function formatRecentReadLabel(entry) {
+        const ch = entry && entry.chapterId != null ? String(entry.chapterId).trim() : "";
+        const when = formatRelativeDayLabel(entry && entry.readAt, "");
+        if (ch && when) return "Ch." + ch + " · " + when;
+        if (ch) return "Ch." + ch;
+        return when || "—";
+      }
+
+      function loadRecentEntries() {
+        if (window.ComicHubHistory && ComicHubHistory.listRecent) {
+          return ComicHubHistory.listRecent(24);
+        }
+        return [];
+      }
+
       function compareSeries(a, b, sortKey) {
         const ta = seriesTitle(a);
         const tb = seriesTitle(b);
@@ -792,6 +846,7 @@
         }
         renderCatalogPage();
         renderFavoritesSection();
+        renderRecentSection();
       }
 
       function pageSize() {
@@ -854,7 +909,51 @@
         }
       }
 
-      function renderCatalogCard(item) {
+      function renderRecentSection() {
+        if (!recentSection || !recentGrid) return;
+        recentNoMatch.classList.add("hidden");
+        recentGrid.innerHTML = "";
+        if (!allSeries.length) {
+          recentSection.hidden = true;
+          return;
+        }
+        recentEntries = loadRecentEntries();
+        if (!recentEntries.length) {
+          recentSection.hidden = true;
+          return;
+        }
+        const q = norm(catalogSearch.value.trim());
+        const byFile = new Map();
+        allSeries.forEach(function (s) {
+          const k = String(s.dataFile || "").trim();
+          if (k) byFile.set(k, s);
+        });
+        const items = [];
+        recentEntries.forEach(function (entry) {
+          const row = byFile.get(String(entry.dataFile || "").trim());
+          if (!row) return;
+          if (!itemMatchesQuery(row, q)) return;
+          items.push({ item: row, entry: entry });
+        });
+        recentSection.hidden = false;
+        if (!items.length) {
+          if (q) recentNoMatch.classList.remove("hidden");
+          return;
+        }
+        items.forEach(function (row) {
+          recentGrid.appendChild(
+            renderCatalogCard(row.item, {
+              metaText: formatRecentReadLabel(row.entry),
+              metaTitle: row.entry.readAt
+                ? new Date(row.entry.readAt).toISOString()
+                : "",
+            })
+          );
+        });
+      }
+
+      function renderCatalogCard(item, opts) {
+        const options = opts && typeof opts === "object" ? opts : {};
         const dataFile = String(item.dataFile || "").trim();
         const favorited = favoritesHas(dataFile);
 
@@ -918,7 +1017,15 @@
         h3.textContent = item.displayTitle || item.title || item.dataFile;
         const meta = document.createElement("p");
         meta.className = "catalog-card__meta";
-        meta.textContent = item.subtitle || item.dataFile;
+        meta.textContent =
+          options.metaText != null && String(options.metaText).trim()
+            ? String(options.metaText)
+            : formatSeriesUpdatedLabel(item);
+        if (options.metaTitle) {
+          meta.title = String(options.metaTitle);
+        } else if (item.contentUpdatedAt) {
+          meta.title = String(item.contentUpdatedAt);
+        }
         body.appendChild(h3);
         body.appendChild(meta);
         const chips = document.createElement("div");
@@ -1024,9 +1131,11 @@
         catalogStats.hidden = true;
         catalogPager.hidden = true;
         favoritesSection.hidden = true;
+        if (recentSection) recentSection.hidden = true;
         catalogMainLabel.hidden = true;
         favoritesEmpty.classList.add("hidden");
         favoritesNoMatch.classList.add("hidden");
+        if (recentNoMatch) recentNoMatch.classList.add("hidden");
 
         try {
           const res = await fetch(resolveCatalogUrl(), {
