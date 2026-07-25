@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T07:16:28.285Z",
+  "updatedAt": "2026-07-25T16:32:19.437Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -2140,6 +2140,34 @@
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/steel-eating-player.411627.webp",
       "featured": true,
       "contentUpdatedAt": "2026-07-25T07:16:28.285Z"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "tower-of-god.json",
+      "title": "Tower of God",
+      "displayTitle": "Tower of God",
+      "subtitle": "Ch. 0-729 · tower-of-god.json",
+      "source": "mgeko",
+      "fromChapter": 0,
+      "toChapter": 729,
+      "chapterCount": 655,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/tower-of-god-7810.png"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "the-god-of-high-school.json",
+      "title": "The God of High School",
+      "displayTitle": "The God of High School",
+      "subtitle": "Ch. 1-572 · the-god-of-high-school.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 572,
+      "chapterCount": 574,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/7237.jpg"
     }
   ]
 }
