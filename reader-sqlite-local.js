@@ -620,14 +620,13 @@
         let nextSchedule = 0;
         let inFlight = 0;
         const completed = new Set();
+        const settled = new Set();
         let prefetchNextStarted = false;
 
         function tryPrefetchNextChapterIfComplete() {
           if (prefetchNextStarted || token !== sequentialToken) return;
           const total = images.length;
-          const done = completed.size;
-          const anyErr = pages.querySelector(".page-slot.is-error") !== null;
-          if (done < total || inFlight > 0 || anyErr) return;
+          if (settled.size < total || inFlight > 0) return;
           if (getPrefetchChaptersAhead() <= 0) return;
           if (!data || activeIndex + 1 >= data.chapters.length) return;
           prefetchNextStarted = true;
@@ -641,27 +640,26 @@
         function updateProgressUI() {
           const total = images.length;
           const done = completed.size;
-          const pct = total ? Math.min(100, (done / total) * 100) : 0;
+          const settledCount = settled.size;
+          const pct = total ? Math.min(100, (settledCount / total) * 100) : 0;
           fill.style.width = pct + "%";
           const anyErr = pages.querySelector(".page-slot.is-error") !== null;
           const stillGoing =
-            inFlight > 0 || (nextSchedule < total && done < total);
+            inFlight > 0 || (nextSchedule < total && settledCount < total);
 
-          if (done >= total && inFlight === 0 && !anyErr) {
+          if (settledCount >= total && inFlight === 0) {
             progressWrap.classList.remove("is-loading");
-            progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            if (anyErr) {
+              progressLabel.textContent =
+                "Đã " +
+                done +
+                " / " +
+                total +
+                " trang — có lỗi, bấm Tải lại tại trang đó";
+            } else {
+              progressLabel.textContent = "Đã tải xong " + total + " trang.";
+            }
             tryPrefetchNextChapterIfComplete();
-            return;
-          }
-
-          if (anyErr && !stillGoing && done < total) {
-            progressWrap.classList.remove("is-loading");
-            progressLabel.textContent =
-              "Đã " +
-              done +
-              " / " +
-              total +
-              " trang — có lỗi, bấm Tải lại tại trang đó";
             return;
           }
 
@@ -669,16 +667,12 @@
           if (stillGoing) {
             progressLabel.textContent =
               "Đang tải · " +
-              done +
+              settledCount +
               " / " +
               total +
               " trang xong · tối đa " +
               maxC +
               " ảnh cùng lúc";
-          } else if (done >= total) {
-            progressWrap.classList.remove("is-loading");
-            progressLabel.textContent = "Đã tải xong " + total + " trang.";
-            tryPrefetchNextChapterIfComplete();
           }
         }
 
@@ -694,6 +688,8 @@
         function startLoadAt(index, imageUrl) {
           if (token !== sequentialToken) return;
           inFlight++;
+          completed.delete(index);
+          settled.delete(index);
 
           const slot = pages.children[index];
           if (!slot) {
@@ -721,6 +717,7 @@
             if (token !== sequentialToken) return;
             inFlight--;
             completed.add(index);
+            settled.add(index);
             if (shimmer) shimmer.style.display = "none";
             img.classList.add("is-visible");
             updateProgressUI();
@@ -729,6 +726,7 @@
           img.onerror = function () {
             if (token !== sequentialToken) return;
             inFlight--;
+            settled.add(index);
             slot.classList.add("is-error");
             img.classList.remove("is-visible");
             if (shimmer) shimmer.style.display = "none";
@@ -789,6 +787,7 @@
         nextSchedule = 0;
         inFlight = 0;
         completed.clear();
+        settled.clear();
         scheduleNext();
       }
 
