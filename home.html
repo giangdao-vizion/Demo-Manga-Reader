@@ -303,9 +303,11 @@
     .catalog-card-wrap {
       position: relative;
       border-radius: var(--radius);
+      height: 100%;
     }
     .catalog-card-wrap > button.catalog-card {
       width: 100%;
+      height: 100%;
     }
     .catalog-card__fav {
       position: absolute;
@@ -379,6 +381,7 @@
       flex: 0 0 auto;
       width: min(34vw, 118px);
       max-width: 118px;
+      height: auto;
       scroll-snap-align: start;
     }
     .favorites-scroll .catalog-card__inner {
@@ -389,9 +392,10 @@
     }
     .favorites-scroll .catalog-card__title {
       font-size: 0.72rem;
+      min-height: calc(1.35em * 2);
     }
     .favorites-scroll .catalog-card__meta {
-      font-size: 0.62rem;
+      font-size: 0.56rem;
     }
     .favorites-scroll .catalog-card__chip {
       font-size: 0.58rem;
@@ -444,6 +448,7 @@
       font-weight: 700;
       line-height: 1.35;
       letter-spacing: -0.02em;
+      min-height: calc(1.35em * 2);
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
@@ -451,13 +456,16 @@
     }
     .catalog-card__meta {
       margin: 0;
-      font-size: 0.7rem;
+      font-size: 0.62rem;
       color: var(--text-muted);
-      line-height: 1.4;
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .catalog-card__chips {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 4px;
       margin-top: auto;
       padding-top: 4px;
@@ -1030,17 +1038,17 @@
         body.appendChild(meta);
         const chips = document.createElement("div");
         chips.className = "catalog-card__chips";
-        if (item.chapterCount != null) {
+        const latestChapter =
+          item.toChapter != null && String(item.toChapter).trim() !== ""
+            ? item.toChapter
+            : item.chapterCount != null
+              ? item.chapterCount
+              : null;
+        if (latestChapter != null) {
           const c1 = document.createElement("span");
           c1.className = "catalog-card__chip";
-          c1.textContent = item.chapterCount + " ch";
+          c1.textContent = "Ch." + latestChapter;
           chips.appendChild(c1);
-        }
-        if (item.fromChapter != null && item.toChapter != null) {
-          const c2 = document.createElement("span");
-          c2.className = "catalog-card__chip";
-          c2.textContent = "Ch." + item.fromChapter + "–" + item.toChapter;
-          chips.appendChild(c2);
         }
         if (chips.children.length) {
           body.appendChild(chips);
