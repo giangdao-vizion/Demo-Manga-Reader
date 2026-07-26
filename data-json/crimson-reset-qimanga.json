@@ -4,7 +4,7 @@
   "title": "Crimson Reset",
   "fromChapter": 0,
   "toChapter": 53,
-  "fetchedAt": "2026-07-25T19:16:49.502Z",
+  "fetchedAt": "2026-07-26T01:18:21.193Z",
   "source": "qimanga",
   "seriesSlug": "crimson-reset",
   "chapters": [
@@ -890,9 +890,21 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/crimson-reset/chapter-25",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-25"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/18HdYfBN2x/12.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -901,9 +913,19 @@
       "chapterLabel": "26",
       "url": "https://qimanga.com/series/crimson-reset/chapter-26",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-26",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-26"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/kMV7v8Jb9j/10.webp"
+      ]
     },
     {
       "title": "Chapter 27",
@@ -912,9 +934,19 @@
       "chapterLabel": "27",
       "url": "https://qimanga.com/series/crimson-reset/chapter-27",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-27",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-27"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/aQW50M7hyJ/10.webp"
+      ]
     },
     {
       "title": "Chapter 28",
@@ -923,9 +955,20 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/crimson-reset/chapter-28",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-28"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Elt7Wf9yqZ/11.webp"
+      ]
     },
     {
       "title": "Chapter 29",
@@ -934,9 +977,18 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/crimson-reset/chapter-29",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-29"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/Oaqm3UZxpj/09.webp"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -945,9 +997,21 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/crimson-reset/chapter-30",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-30"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/pEu8ei2whG/12.webp"
+      ]
     },
     {
       "title": "Chapter 31",
@@ -956,9 +1020,30 @@
       "chapterLabel": "31",
       "url": "https://qimanga.com/series/crimson-reset/chapter-31",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-31",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-31"
+      "total": 21,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/18.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/19.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/20.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/TP7397aI6b/21.webp"
+      ]
     },
     {
       "title": "Chapter 32",
@@ -967,9 +1052,20 @@
       "chapterLabel": "32",
       "url": "https://qimanga.com/series/crimson-reset/chapter-32",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-32",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-32"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/D6R0cnMgz7/11.webp"
+      ]
     },
     {
       "title": "Chapter 33",
@@ -978,9 +1074,20 @@
       "chapterLabel": "33",
       "url": "https://qimanga.com/series/crimson-reset/chapter-33",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-33",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-33"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/m6lvru8d8U/11.webp"
+      ]
     },
     {
       "title": "Chapter 34",
@@ -989,9 +1096,20 @@
       "chapterLabel": "34",
       "url": "https://qimanga.com/series/crimson-reset/chapter-34",
       "finalUrl": "https://qimanga.com/series/crimson-reset/chapter-34",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/crimson-reset/chapters/chapter-34"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/crimson-reset/8MLq6ATZjZ/11.webp"
+      ]
     },
     {
       "title": "Chapter 35",

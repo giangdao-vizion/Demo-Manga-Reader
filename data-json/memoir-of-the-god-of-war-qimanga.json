@@ -4,7 +4,7 @@
   "title": "Memoir of the God of War",
   "fromChapter": 1,
   "toChapter": 255,
-  "fetchedAt": "2026-07-25T17:45:36.425Z",
+  "fetchedAt": "2026-07-26T01:30:49.072Z",
   "source": "qimanga",
   "seriesSlug": "memoir-of-the-god-of-war",
   "chapters": [
@@ -497,9 +497,17 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-25",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-25"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/51ogwD3dCY/08.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -508,9 +516,17 @@
       "chapterLabel": "26",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-26",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-26",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-26"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/KNdkRiExss/08.webp"
+      ]
     },
     {
       "title": "Chapter 27",
@@ -519,9 +535,17 @@
       "chapterLabel": "27",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-27",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-27",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-27"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wLgzMcluXf/08.webp"
+      ]
     },
     {
       "title": "Chapter 28",
@@ -530,9 +554,16 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-28",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-28"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9wyoRjW3Ns/07.webp"
+      ]
     },
     {
       "title": "Chapter 29",
@@ -541,9 +572,17 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-29",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-29"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GvVYWr8ExG/08.webp"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -552,9 +591,17 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-30",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-30"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/uBCvuxfFSS/08.webp"
+      ]
     },
     {
       "title": "Chapter 31",
@@ -563,9 +610,16 @@
       "chapterLabel": "31",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-31",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-31",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-31"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/iZVjQpYUEQ/07.webp"
+      ]
     },
     {
       "title": "Chapter 32",
@@ -574,9 +628,17 @@
       "chapterLabel": "32",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-32",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-32",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-32"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4iDsONpJHM/08.webp"
+      ]
     },
     {
       "title": "Chapter 33",
@@ -1753,9 +1815,22 @@
       "chapterLabel": "85",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-85",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-85",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-85"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/jmrImDTH2H/13.webp"
+      ]
     },
     {
       "title": "Chapter 86",
@@ -1764,9 +1839,21 @@
       "chapterLabel": "86",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-86",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-86",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-86"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/3xRb3T7W8t/12.webp"
+      ]
     },
     {
       "title": "Chapter 87",
@@ -1775,9 +1862,23 @@
       "chapterLabel": "87",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-87",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-87",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-87"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/Qm7Y55ABkS/14.webp"
+      ]
     },
     {
       "title": "Chapter 88",
@@ -1786,9 +1887,23 @@
       "chapterLabel": "88",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-88",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-88",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-88"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/ffW6aD05je/14.webp"
+      ]
     },
     {
       "title": "Chapter 89",
@@ -1797,9 +1912,23 @@
       "chapterLabel": "89",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-89",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-89",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-89"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4ZcWyfMtzK/14.webp"
+      ]
     },
     {
       "title": "Chapter 90",
@@ -1808,9 +1937,23 @@
       "chapterLabel": "90",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-90",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-90",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-90"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/tukKHf0ndA/14.webp"
+      ]
     },
     {
       "title": "Chapter 91",
@@ -1819,9 +1962,22 @@
       "chapterLabel": "91",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-91",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-91",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-91"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/YoSOwBoCDC/13.webp"
+      ]
     },
     {
       "title": "Chapter 92",
@@ -1830,9 +1986,21 @@
       "chapterLabel": "92",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-92",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-92",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-92"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/4fdOg1A9Za/12.webp"
+      ]
     },
     {
       "title": "Chapter 93",
@@ -3156,9 +3324,22 @@
       "chapterLabel": "145",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-145",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-145",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-145"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/l88zruhmVL/13.webp"
+      ]
     },
     {
       "title": "Chapter 146",
@@ -3167,9 +3348,23 @@
       "chapterLabel": "146",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-146",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-146",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-146"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/s7SPjTM6v5/14.webp"
+      ]
     },
     {
       "title": "Chapter 147",
@@ -3178,9 +3373,21 @@
       "chapterLabel": "147",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-147",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-147",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-147"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/L7CjgS9tPP/12.webp"
+      ]
     },
     {
       "title": "Chapter 148",
@@ -3189,9 +3396,22 @@
       "chapterLabel": "148",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-148",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-148",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-148"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/SoJq8GCw01/13.webp"
+      ]
     },
     {
       "title": "Chapter 149",
@@ -3200,9 +3420,23 @@
       "chapterLabel": "149",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-149",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-149",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-149"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2qGqNvCw6l/14.webp"
+      ]
     },
     {
       "title": "Chapter 150",
@@ -3211,9 +3445,25 @@
       "chapterLabel": "150",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-150",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-150",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-150"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/mWsbg6GPgh/16.webp"
+      ]
     },
     {
       "title": "Chapter 151",
@@ -3222,9 +3472,25 @@
       "chapterLabel": "151",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-151",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-151",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-151"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/2NTTkxaJTR/16.webp"
+      ]
     },
     {
       "title": "Chapter 152",
@@ -3233,9 +3499,25 @@
       "chapterLabel": "152",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-152",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-152",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-152"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/9DaluqmoBC/16.webp"
+      ]
     },
     {
       "title": "Chapter 153",
@@ -4535,9 +4817,23 @@
       "chapterLabel": "204",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-204",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-204",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-204"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/26hXKbWtEW/14.webp"
+      ]
     },
     {
       "title": "Chapter 205",
@@ -4570,9 +4866,24 @@
       "chapterLabel": "206",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-206",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-206",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-206"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/vyTsR00xrd/15.webp"
+      ]
     },
     {
       "title": "Chapter 207",
@@ -4581,9 +4892,24 @@
       "chapterLabel": "207",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-207",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-207",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-207"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/wGzBZT2sOW/15.webp"
+      ]
     },
     {
       "title": "Chapter 208",
@@ -4592,9 +4918,25 @@
       "chapterLabel": "208",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-208",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-208",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-208"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/kOzyD1ZO9e/16.webp"
+      ]
     },
     {
       "title": "Chapter 209",
@@ -4603,9 +4945,23 @@
       "chapterLabel": "209",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-209",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-209",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-209"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/cvBQVsoBdi/14.webp"
+      ]
     },
     {
       "title": "Chapter 210",
@@ -4614,9 +4970,25 @@
       "chapterLabel": "210",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-210",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-210",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-210"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/hiDyxCI7YG/16.webp"
+      ]
     },
     {
       "title": "Chapter 211",
@@ -4625,9 +4997,23 @@
       "chapterLabel": "211",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-211",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-211",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-211"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/VZmO2ZqQns/14.webp"
+      ]
     },
     {
       "title": "Chapter 212",
@@ -4636,9 +5022,27 @@
       "chapterLabel": "212",
       "url": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-212",
       "finalUrl": "https://qimanga.com/series/memoir-of-the-god-of-war/chapter-212",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/memoir-of-the-god-of-war/chapters/chapter-212"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/memoir-of-the-god-of-war/GTVgZj78W3/18.webp"
+      ]
     },
     {
       "title": "Chapter 213",

@@ -4,7 +4,7 @@
   "title": "Yuan Zun",
   "fromChapter": 1,
   "toChapter": 652.5,
-  "fetchedAt": "2026-07-25T18:11:05.629Z",
+  "fetchedAt": "2026-07-26T01:39:42.232Z",
   "source": "qimanga",
   "seriesSlug": "yuan-zun",
   "chapters": [
@@ -1474,9 +1474,25 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/yuan-zun/chapter-28",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-28"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-28/15.webp"
+      ]
     },
     {
       "title": "Chapter 28.5",
@@ -1507,9 +1523,25 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/yuan-zun/chapter-29",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-29"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29/15.webp"
+      ]
     },
     {
       "title": "Chapter 29.5",
@@ -1518,9 +1550,20 @@
       "chapterLabel": "29.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-29.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-29.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-29.5"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-29.5/10.webp"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -1529,9 +1572,25 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/yuan-zun/chapter-30",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-30"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30/15.webp"
+      ]
     },
     {
       "title": "Chapter 30.5",
@@ -1540,9 +1599,20 @@
       "chapterLabel": "30.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-30.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-30.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-30.5"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-30.5/10.webp"
+      ]
     },
     {
       "title": "Chapter 31",
@@ -1551,9 +1621,25 @@
       "chapterLabel": "31",
       "url": "https://qimanga.com/series/yuan-zun/chapter-31",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-31",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-31"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31/15.webp"
+      ]
     },
     {
       "title": "Chapter 31.5",
@@ -1562,9 +1648,20 @@
       "chapterLabel": "31.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-31.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-31.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-31.5"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-31.5/10.webp"
+      ]
     },
     {
       "title": "Chapter 32",
@@ -1573,9 +1670,24 @@
       "chapterLabel": "32",
       "url": "https://qimanga.com/series/yuan-zun/chapter-32",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-32",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-32"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-32/14.webp"
+      ]
     },
     {
       "title": "Chapter 32.5",
@@ -2958,9 +3070,25 @@
       "chapterLabel": "63",
       "url": "https://qimanga.com/series/yuan-zun/chapter-63",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-63",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-63"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-63/15.webp"
+      ]
     },
     {
       "title": "Chapter 63.1",
@@ -3011,9 +3139,25 @@
       "chapterLabel": "64",
       "url": "https://qimanga.com/series/yuan-zun/chapter-64",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-64",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-64"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64/15.webp"
+      ]
     },
     {
       "title": "Chapter 64.1",
@@ -3022,9 +3166,19 @@
       "chapterLabel": "64.1",
       "url": "https://qimanga.com/series/yuan-zun/chapter-64.1",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-64.1",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-64.1"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-64.1/9.webp"
+      ]
     },
     {
       "title": "Chapter 64.2",
@@ -3054,9 +3208,25 @@
       "chapterLabel": "65",
       "url": "https://qimanga.com/series/yuan-zun/chapter-65",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-65",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-65"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65/15.webp"
+      ]
     },
     {
       "title": "Chapter 65.1",
@@ -3065,9 +3235,19 @@
       "chapterLabel": "65.1",
       "url": "https://qimanga.com/series/yuan-zun/chapter-65.1",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-65.1",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-65.1"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.1/9.webp"
+      ]
     },
     {
       "title": "Chapter 65.2",
@@ -3076,9 +3256,19 @@
       "chapterLabel": "65.2",
       "url": "https://qimanga.com/series/yuan-zun/chapter-65.2",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-65.2",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-65.2"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-65.2/9.webp"
+      ]
     },
     {
       "title": "Chapter 66",
@@ -3087,9 +3277,25 @@
       "chapterLabel": "66",
       "url": "https://qimanga.com/series/yuan-zun/chapter-66",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-66",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-66"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66/15.webp"
+      ]
     },
     {
       "title": "Chapter 66.1",
@@ -3098,9 +3304,19 @@
       "chapterLabel": "66.1",
       "url": "https://qimanga.com/series/yuan-zun/chapter-66.1",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-66.1",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-66.1"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-66.1/9.webp"
+      ]
     },
     {
       "title": "Chapter 66.2",
@@ -4343,9 +4559,17 @@
       "chapterLabel": "89.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-89.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-89.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-89.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-89.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 90",
@@ -4354,9 +4578,17 @@
       "chapterLabel": "90",
       "url": "https://qimanga.com/series/yuan-zun/chapter-90",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-90",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-90"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90/7.webp"
+      ]
     },
     {
       "title": "Chapter 90.5",
@@ -4365,9 +4597,16 @@
       "chapterLabel": "90.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-90.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-90.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-90.5"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-90.5/6.webp"
+      ]
     },
     {
       "title": "Chapter 91",
@@ -4376,9 +4615,25 @@
       "chapterLabel": "91",
       "url": "https://qimanga.com/series/yuan-zun/chapter-91",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-91",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-91"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91/15.webp"
+      ]
     },
     {
       "title": "Chapter 91.5",
@@ -4387,9 +4642,21 @@
       "chapterLabel": "91.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-91.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-91.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-91.5"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-91.5/11.webp"
+      ]
     },
     {
       "title": "Chapter 92",
@@ -4398,9 +4665,25 @@
       "chapterLabel": "92",
       "url": "https://qimanga.com/series/yuan-zun/chapter-92",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-92",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-92"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92/15.webp"
+      ]
     },
     {
       "title": "Chapter 92.5",
@@ -4409,9 +4692,21 @@
       "chapterLabel": "92.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-92.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-92.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-92.5"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-92.5/11.webp"
+      ]
     },
     {
       "title": "Chapter 93.5",
@@ -4420,9 +4715,21 @@
       "chapterLabel": "93.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-93.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-93.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-93.5"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-93.5/11.webp"
+      ]
     },
     {
       "title": "Chapter 94",
@@ -5743,9 +6050,17 @@
       "chapterLabel": "126.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-126.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-126.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-126.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-126.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 127",
@@ -5754,9 +6069,17 @@
       "chapterLabel": "127",
       "url": "https://qimanga.com/series/yuan-zun/chapter-127",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-127",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-127"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127/7.webp"
+      ]
     },
     {
       "title": "Chapter 127.5",
@@ -5765,9 +6088,17 @@
       "chapterLabel": "127.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-127.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-127.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-127.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-127.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 128",
@@ -5776,9 +6107,17 @@
       "chapterLabel": "128",
       "url": "https://qimanga.com/series/yuan-zun/chapter-128",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-128",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-128"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128/7.webp"
+      ]
     },
     {
       "title": "Chapter 128.5",
@@ -5787,9 +6126,17 @@
       "chapterLabel": "128.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-128.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-128.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-128.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-128.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 129",
@@ -5798,9 +6145,17 @@
       "chapterLabel": "129",
       "url": "https://qimanga.com/series/yuan-zun/chapter-129",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-129",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-129"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129/7.webp"
+      ]
     },
     {
       "title": "Chapter 129.5",
@@ -5809,9 +6164,17 @@
       "chapterLabel": "129.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-129.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-129.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-129.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-129.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 130",
@@ -5820,9 +6183,17 @@
       "chapterLabel": "130",
       "url": "https://qimanga.com/series/yuan-zun/chapter-130",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-130",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-130"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-130/7.webp"
+      ]
     },
     {
       "title": "Chapter 130.5",
@@ -6931,9 +7302,17 @@
       "chapterLabel": "160",
       "url": "https://qimanga.com/series/yuan-zun/chapter-160",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-160",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-160"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160/7.webp"
+      ]
     },
     {
       "title": "Chapter 160.5",
@@ -6942,9 +7321,17 @@
       "chapterLabel": "160.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-160.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-160.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-160.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-160.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 161",
@@ -6972,9 +7359,17 @@
       "chapterLabel": "161.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-161.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-161.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-161.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-161.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 162",
@@ -6983,9 +7378,17 @@
       "chapterLabel": "162",
       "url": "https://qimanga.com/series/yuan-zun/chapter-162",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-162",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-162"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-162/7.webp"
+      ]
     },
     {
       "title": "Chapter 162.5",
@@ -7013,9 +7416,17 @@
       "chapterLabel": "163",
       "url": "https://qimanga.com/series/yuan-zun/chapter-163",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-163",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-163"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163/7.webp"
+      ]
     },
     {
       "title": "Chapter 163.5",
@@ -7024,9 +7435,17 @@
       "chapterLabel": "163.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-163.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-163.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-163.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-163.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 164",
@@ -7035,9 +7454,17 @@
       "chapterLabel": "164",
       "url": "https://qimanga.com/series/yuan-zun/chapter-164",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-164",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-164"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164/7.webp"
+      ]
     },
     {
       "title": "Chapter 164.5",
@@ -7046,9 +7473,17 @@
       "chapterLabel": "164.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-164.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-164.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-164.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-164.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 165",
@@ -8198,9 +8633,17 @@
       "chapterLabel": "195.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-195.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-195.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-195.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-195.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 196",
@@ -8209,9 +8652,17 @@
       "chapterLabel": "196",
       "url": "https://qimanga.com/series/yuan-zun/chapter-196",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-196",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-196"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196/7.webp"
+      ]
     },
     {
       "title": "Chapter 196.5",
@@ -8220,9 +8671,17 @@
       "chapterLabel": "196.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-196.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-196.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-196.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-196.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 197",
@@ -8231,9 +8690,17 @@
       "chapterLabel": "197",
       "url": "https://qimanga.com/series/yuan-zun/chapter-197",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-197",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-197"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197/7.webp"
+      ]
     },
     {
       "title": "Chapter 197.5",
@@ -8242,9 +8709,17 @@
       "chapterLabel": "197.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-197.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-197.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-197.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-197.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 198",
@@ -8253,9 +8728,17 @@
       "chapterLabel": "198",
       "url": "https://qimanga.com/series/yuan-zun/chapter-198",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-198",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-198"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198/7.webp"
+      ]
     },
     {
       "title": "Chapter 198.5",
@@ -8264,9 +8747,17 @@
       "chapterLabel": "198.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-198.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-198.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-198.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-198.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 199",
@@ -8275,9 +8766,17 @@
       "chapterLabel": "199",
       "url": "https://qimanga.com/series/yuan-zun/chapter-199",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-199",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-199"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-199/7.webp"
+      ]
     },
     {
       "title": "Chapter 199.5",
@@ -9445,9 +9944,18 @@
       "chapterLabel": "229.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-229.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-229.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-229.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-229.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 230",
@@ -9456,9 +9964,17 @@
       "chapterLabel": "230",
       "url": "https://qimanga.com/series/yuan-zun/chapter-230",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-230",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-230"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230/7.webp"
+      ]
     },
     {
       "title": "Chapter 230.5",
@@ -9467,9 +9983,18 @@
       "chapterLabel": "230.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-230.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-230.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-230.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-230.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 231",
@@ -9478,9 +10003,17 @@
       "chapterLabel": "231",
       "url": "https://qimanga.com/series/yuan-zun/chapter-231",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-231",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-231"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231/7.webp"
+      ]
     },
     {
       "title": "Chapter 231.5",
@@ -9489,9 +10022,18 @@
       "chapterLabel": "231.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-231.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-231.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-231.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-231.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 232",
@@ -9500,9 +10042,17 @@
       "chapterLabel": "232",
       "url": "https://qimanga.com/series/yuan-zun/chapter-232",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-232",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-232"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232/7.webp"
+      ]
     },
     {
       "title": "Chapter 232.5",
@@ -9511,9 +10061,17 @@
       "chapterLabel": "232.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-232.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-232.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-232.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-232.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 233",
@@ -9522,9 +10080,17 @@
       "chapterLabel": "233",
       "url": "https://qimanga.com/series/yuan-zun/chapter-233",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-233",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-233"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-233/7.webp"
+      ]
     },
     {
       "title": "Chapter 233.5",
@@ -10660,9 +11226,17 @@
       "chapterLabel": "264.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-264.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-264.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-264.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-264.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 265",
@@ -10671,9 +11245,17 @@
       "chapterLabel": "265",
       "url": "https://qimanga.com/series/yuan-zun/chapter-265",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-265",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-265"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265/7.webp"
+      ]
     },
     {
       "title": "Chapter 265.5",
@@ -10682,9 +11264,17 @@
       "chapterLabel": "265.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-265.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-265.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-265.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-265.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 266",
@@ -10693,9 +11283,17 @@
       "chapterLabel": "266",
       "url": "https://qimanga.com/series/yuan-zun/chapter-266",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-266",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-266"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266/7.webp"
+      ]
     },
     {
       "title": "Chapter 266.5",
@@ -10704,9 +11302,17 @@
       "chapterLabel": "266.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-266.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-266.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-266.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-266.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 267",
@@ -10715,9 +11321,17 @@
       "chapterLabel": "267",
       "url": "https://qimanga.com/series/yuan-zun/chapter-267",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-267",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-267"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-267/7.webp"
+      ]
     },
     {
       "title": "Chapter 267.5",
@@ -10745,9 +11359,17 @@
       "chapterLabel": "268",
       "url": "https://qimanga.com/series/yuan-zun/chapter-268",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-268",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-268"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268/7.webp"
+      ]
     },
     {
       "title": "Chapter 268.5",
@@ -10756,9 +11378,17 @@
       "chapterLabel": "268.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-268.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-268.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-268.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-268.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 269",
@@ -11893,9 +12523,17 @@
       "chapterLabel": "300",
       "url": "https://qimanga.com/series/yuan-zun/chapter-300",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-300",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-300"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-300/7.webp"
+      ]
     },
     {
       "title": "Chapter 300.5",
@@ -11923,9 +12561,19 @@
       "chapterLabel": "301",
       "url": "https://qimanga.com/series/yuan-zun/chapter-301",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-301",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-301"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301/9.webp"
+      ]
     },
     {
       "title": "Chapter 301.5",
@@ -11934,9 +12582,19 @@
       "chapterLabel": "301.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-301.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-301.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-301.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-301.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 302",
@@ -11945,9 +12603,17 @@
       "chapterLabel": "302",
       "url": "https://qimanga.com/series/yuan-zun/chapter-302",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-302",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-302"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302/7.webp"
+      ]
     },
     {
       "title": "Chapter 302.5",
@@ -11956,9 +12622,17 @@
       "chapterLabel": "302.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-302.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-302.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-302.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-302.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 303",
@@ -11967,9 +12641,19 @@
       "chapterLabel": "303",
       "url": "https://qimanga.com/series/yuan-zun/chapter-303",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-303",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-303"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303/9.webp"
+      ]
     },
     {
       "title": "Chapter 303.5",
@@ -11978,9 +12662,20 @@
       "chapterLabel": "303.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-303.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-303.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-303.5"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/9.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-303.5/10.webp"
+      ]
     },
     {
       "title": "Chapter 304",
@@ -11989,9 +12684,17 @@
       "chapterLabel": "304",
       "url": "https://qimanga.com/series/yuan-zun/chapter-304",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-304",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-304"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-304/7.webp"
+      ]
     },
     {
       "title": "Chapter 304.5",
@@ -13179,9 +13882,19 @@
       "chapterLabel": "334",
       "url": "https://qimanga.com/series/yuan-zun/chapter-334",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-334",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-334"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-334/9.webp"
+      ]
     },
     {
       "title": "Chapter 334.5",
@@ -13211,9 +13924,19 @@
       "chapterLabel": "335",
       "url": "https://qimanga.com/series/yuan-zun/chapter-335",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-335",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-335"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335/9.webp"
+      ]
     },
     {
       "title": "Chapter 335.5",
@@ -13222,9 +13945,19 @@
       "chapterLabel": "335.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-335.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-335.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-335.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-335.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 336",
@@ -13233,9 +13966,19 @@
       "chapterLabel": "336",
       "url": "https://qimanga.com/series/yuan-zun/chapter-336",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-336",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-336"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336/9.webp"
+      ]
     },
     {
       "title": "Chapter 336.5",
@@ -13244,9 +13987,19 @@
       "chapterLabel": "336.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-336.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-336.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-336.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-336.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 337",
@@ -13255,9 +14008,19 @@
       "chapterLabel": "337",
       "url": "https://qimanga.com/series/yuan-zun/chapter-337",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-337",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-337"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337/9.webp"
+      ]
     },
     {
       "title": "Chapter 337.5",
@@ -13266,9 +14029,19 @@
       "chapterLabel": "337.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-337.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-337.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-337.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-337.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 338",
@@ -13277,9 +14050,19 @@
       "chapterLabel": "338",
       "url": "https://qimanga.com/series/yuan-zun/chapter-338",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-338",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-338"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-338/9.webp"
+      ]
     },
     {
       "title": "Chapter 338.5",
@@ -14498,9 +15281,19 @@
       "chapterLabel": "364.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-364.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-364.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-364.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-364.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 365",
@@ -14509,9 +15302,19 @@
       "chapterLabel": "365",
       "url": "https://qimanga.com/series/yuan-zun/chapter-365",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-365",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-365"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365/9.webp"
+      ]
     },
     {
       "title": "Chapter 365.5",
@@ -14520,9 +15323,19 @@
       "chapterLabel": "365.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-365.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-365.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-365.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-365.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 366",
@@ -14531,9 +15344,19 @@
       "chapterLabel": "366",
       "url": "https://qimanga.com/series/yuan-zun/chapter-366",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-366",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-366"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-366/9.webp"
+      ]
     },
     {
       "title": "Chapter 366.5",
@@ -14563,9 +15386,19 @@
       "chapterLabel": "367",
       "url": "https://qimanga.com/series/yuan-zun/chapter-367",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-367",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-367"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367/9.webp"
+      ]
     },
     {
       "title": "Chapter 367.5",
@@ -14574,9 +15407,19 @@
       "chapterLabel": "367.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-367.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-367.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-367.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-367.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 368",
@@ -14585,9 +15428,19 @@
       "chapterLabel": "368",
       "url": "https://qimanga.com/series/yuan-zun/chapter-368",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-368",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-368"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368/9.webp"
+      ]
     },
     {
       "title": "Chapter 368.5",
@@ -14596,9 +15449,19 @@
       "chapterLabel": "368.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-368.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-368.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-368.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-368.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 369",
@@ -15827,9 +16690,18 @@
       "chapterLabel": "399",
       "url": "https://qimanga.com/series/yuan-zun/chapter-399",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-399",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-399"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399/8.webp"
+      ]
     },
     {
       "title": "Chapter 399.5",
@@ -15838,9 +16710,18 @@
       "chapterLabel": "399.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-399.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-399.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-399.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-399.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 400",
@@ -15849,9 +16730,18 @@
       "chapterLabel": "400",
       "url": "https://qimanga.com/series/yuan-zun/chapter-400",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-400",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-400"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400/8.webp"
+      ]
     },
     {
       "title": "Chapter 400.5",
@@ -15860,9 +16750,18 @@
       "chapterLabel": "400.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-400.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-400.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-400.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-400.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 401",
@@ -15871,9 +16770,18 @@
       "chapterLabel": "401",
       "url": "https://qimanga.com/series/yuan-zun/chapter-401",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-401",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-401"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401/8.webp"
+      ]
     },
     {
       "title": "Chapter 401.5",
@@ -15882,9 +16790,18 @@
       "chapterLabel": "401.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-401.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-401.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-401.5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-401.5/8.webp"
+      ]
     },
     {
       "title": "Chapter 402",
@@ -15893,9 +16810,19 @@
       "chapterLabel": "402",
       "url": "https://qimanga.com/series/yuan-zun/chapter-402",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-402",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-402"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402/9.webp"
+      ]
     },
     {
       "title": "Chapter 402.5",
@@ -15904,9 +16831,19 @@
       "chapterLabel": "402.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-402.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-402.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-402.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-402.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 403",
@@ -17169,9 +18106,19 @@
       "chapterLabel": "433.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-433.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-433.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-433.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-433.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 434",
@@ -17180,9 +18127,19 @@
       "chapterLabel": "434",
       "url": "https://qimanga.com/series/yuan-zun/chapter-434",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-434",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-434"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434/9.webp"
+      ]
     },
     {
       "title": "Chapter 434.5",
@@ -17191,9 +18148,19 @@
       "chapterLabel": "434.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-434.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-434.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-434.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-434.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 435",
@@ -17202,9 +18169,19 @@
       "chapterLabel": "435",
       "url": "https://qimanga.com/series/yuan-zun/chapter-435",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-435",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-435"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435/9.webp"
+      ]
     },
     {
       "title": "Chapter 435.5",
@@ -17213,9 +18190,19 @@
       "chapterLabel": "435.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-435.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-435.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-435.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-435.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 436",
@@ -17224,9 +18211,19 @@
       "chapterLabel": "436",
       "url": "https://qimanga.com/series/yuan-zun/chapter-436",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-436",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-436"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436/9.webp"
+      ]
     },
     {
       "title": "Chapter 436.5",
@@ -17235,9 +18232,19 @@
       "chapterLabel": "436.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-436.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-436.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-436.5"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-436.5/9.webp"
+      ]
     },
     {
       "title": "Chapter 437",
@@ -17246,9 +18253,19 @@
       "chapterLabel": "437",
       "url": "https://qimanga.com/series/yuan-zun/chapter-437",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-437",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-437"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/7.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/8.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-437/9.webp"
+      ]
     },
     {
       "title": "Chapter 437.5",
@@ -18447,9 +19464,17 @@
       "chapterLabel": "468",
       "url": "https://qimanga.com/series/yuan-zun/chapter-468",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-468",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-468"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468/7.webp"
+      ]
     },
     {
       "title": "Chapter 468.5",
@@ -18458,9 +19483,17 @@
       "chapterLabel": "468.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-468.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-468.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-468.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-468.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 469",
@@ -18469,9 +19502,17 @@
       "chapterLabel": "469",
       "url": "https://qimanga.com/series/yuan-zun/chapter-469",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-469",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-469"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469/7.webp"
+      ]
     },
     {
       "title": "Chapter 469.5",
@@ -18480,9 +19521,17 @@
       "chapterLabel": "469.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-469.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-469.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-469.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-469.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 470",
@@ -18491,9 +19540,17 @@
       "chapterLabel": "470",
       "url": "https://qimanga.com/series/yuan-zun/chapter-470",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-470",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-470"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470/7.webp"
+      ]
     },
     {
       "title": "Chapter 470.5",
@@ -18502,9 +19559,17 @@
       "chapterLabel": "470.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-470.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-470.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-470.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-470.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 471",
@@ -18513,9 +19578,17 @@
       "chapterLabel": "471",
       "url": "https://qimanga.com/series/yuan-zun/chapter-471",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-471",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-471"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471/7.webp"
+      ]
     },
     {
       "title": "Chapter 471.5",
@@ -18524,9 +19597,17 @@
       "chapterLabel": "471.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-471.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-471.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-471.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-471.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 472",
@@ -19675,9 +20756,17 @@
       "chapterLabel": "502",
       "url": "https://qimanga.com/series/yuan-zun/chapter-502",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-502",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-502"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502/7.webp"
+      ]
     },
     {
       "title": "Chapter 502.5",
@@ -19686,9 +20775,17 @@
       "chapterLabel": "502.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-502.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-502.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-502.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-502.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 503",
@@ -19697,9 +20794,17 @@
       "chapterLabel": "503",
       "url": "https://qimanga.com/series/yuan-zun/chapter-503",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-503",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-503"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503/7.webp"
+      ]
     },
     {
       "title": "Chapter 503.5",
@@ -19708,9 +20813,17 @@
       "chapterLabel": "503.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-503.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-503.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-503.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-503.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 504",
@@ -19719,9 +20832,17 @@
       "chapterLabel": "504",
       "url": "https://qimanga.com/series/yuan-zun/chapter-504",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-504",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-504"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-504/7.webp"
+      ]
     },
     {
       "title": "Chapter 505",
@@ -19730,9 +20851,17 @@
       "chapterLabel": "505",
       "url": "https://qimanga.com/series/yuan-zun/chapter-505",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-505",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-505"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505/7.webp"
+      ]
     },
     {
       "title": "Chapter 505.5",
@@ -19741,9 +20870,17 @@
       "chapterLabel": "505.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-505.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-505.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-505.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-505.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 506",
@@ -19752,9 +20889,17 @@
       "chapterLabel": "506",
       "url": "https://qimanga.com/series/yuan-zun/chapter-506",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-506",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-506"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-506/7.webp"
+      ]
     },
     {
       "title": "Chapter 506.5",
@@ -20907,9 +22052,17 @@
       "chapterLabel": "538",
       "url": "https://qimanga.com/series/yuan-zun/chapter-538",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-538",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-538"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538/7.webp"
+      ]
     },
     {
       "title": "Chapter 538.5",
@@ -20918,9 +22071,17 @@
       "chapterLabel": "538.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-538.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-538.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-538.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-538.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 539",
@@ -20929,9 +22090,17 @@
       "chapterLabel": "539",
       "url": "https://qimanga.com/series/yuan-zun/chapter-539",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-539",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-539"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539/7.webp"
+      ]
     },
     {
       "title": "Chapter 539.5",
@@ -20940,9 +22109,17 @@
       "chapterLabel": "539.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-539.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-539.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-539.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-539.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 540",
@@ -20951,9 +22128,17 @@
       "chapterLabel": "540",
       "url": "https://qimanga.com/series/yuan-zun/chapter-540",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-540",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-540"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540/7.webp"
+      ]
     },
     {
       "title": "Chapter 540.5",
@@ -20962,9 +22147,17 @@
       "chapterLabel": "540.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-540.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-540.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-540.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-540.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 541",
@@ -20973,9 +22166,17 @@
       "chapterLabel": "541",
       "url": "https://qimanga.com/series/yuan-zun/chapter-541",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-541",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-541"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541/7.webp"
+      ]
     },
     {
       "title": "Chapter 541.5",
@@ -20984,9 +22185,17 @@
       "chapterLabel": "541.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-541.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-541.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-541.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-541.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 542",
@@ -22136,9 +23345,17 @@
       "chapterLabel": "572",
       "url": "https://qimanga.com/series/yuan-zun/chapter-572",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-572",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-572"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572/7.webp"
+      ]
     },
     {
       "title": "Chapter 572.5",
@@ -22147,9 +23364,17 @@
       "chapterLabel": "572.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-572.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-572.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-572.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-572.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 573",
@@ -22158,9 +23383,17 @@
       "chapterLabel": "573",
       "url": "https://qimanga.com/series/yuan-zun/chapter-573",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-573",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-573"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573/7.webp"
+      ]
     },
     {
       "title": "Chapter 573.5",
@@ -22169,9 +23402,17 @@
       "chapterLabel": "573.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-573.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-573.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-573.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-573.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 574",
@@ -22180,9 +23421,17 @@
       "chapterLabel": "574",
       "url": "https://qimanga.com/series/yuan-zun/chapter-574",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-574",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-574"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574/7.webp"
+      ]
     },
     {
       "title": "Chapter 574.5",
@@ -22191,9 +23440,17 @@
       "chapterLabel": "574.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-574.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-574.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-574.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-574.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 575",
@@ -22202,9 +23459,17 @@
       "chapterLabel": "575",
       "url": "https://qimanga.com/series/yuan-zun/chapter-575",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-575",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-575"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575/7.webp"
+      ]
     },
     {
       "title": "Chapter 575.5",
@@ -22213,9 +23478,17 @@
       "chapterLabel": "575.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-575.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-575.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-575.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-575.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 576",
@@ -23364,9 +24637,17 @@
       "chapterLabel": "606",
       "url": "https://qimanga.com/series/yuan-zun/chapter-606",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-606",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-606"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606/7.webp"
+      ]
     },
     {
       "title": "Chapter 606.5",
@@ -23375,9 +24656,17 @@
       "chapterLabel": "606.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-606.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-606.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-606.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-606.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 607",
@@ -23386,9 +24675,17 @@
       "chapterLabel": "607",
       "url": "https://qimanga.com/series/yuan-zun/chapter-607",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-607",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-607"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607/7.webp"
+      ]
     },
     {
       "title": "Chapter 607.5",
@@ -23397,9 +24694,17 @@
       "chapterLabel": "607.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-607.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-607.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-607.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-607.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 608",
@@ -23408,9 +24713,17 @@
       "chapterLabel": "608",
       "url": "https://qimanga.com/series/yuan-zun/chapter-608",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-608",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-608"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608/7.webp"
+      ]
     },
     {
       "title": "Chapter 608.5",
@@ -23419,9 +24732,17 @@
       "chapterLabel": "608.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-608.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-608.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-608.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-608.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 609",
@@ -23430,9 +24751,17 @@
       "chapterLabel": "609",
       "url": "https://qimanga.com/series/yuan-zun/chapter-609",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-609",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-609"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609/7.webp"
+      ]
     },
     {
       "title": "Chapter 609.5",
@@ -23441,9 +24770,17 @@
       "chapterLabel": "609.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-609.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-609.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-609.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-609.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 610",
@@ -24592,9 +25929,17 @@
       "chapterLabel": "640.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-640.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-640.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-640.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-640.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 641",
@@ -24603,9 +25948,17 @@
       "chapterLabel": "641",
       "url": "https://qimanga.com/series/yuan-zun/chapter-641",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-641",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-641"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641/7.webp"
+      ]
     },
     {
       "title": "Chapter 641.5",
@@ -24614,9 +25967,17 @@
       "chapterLabel": "641.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-641.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-641.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-641.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-641.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 642",
@@ -24625,9 +25986,17 @@
       "chapterLabel": "642",
       "url": "https://qimanga.com/series/yuan-zun/chapter-642",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-642",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-642"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642/7.webp"
+      ]
     },
     {
       "title": "Chapter 642.5",
@@ -24636,9 +26005,17 @@
       "chapterLabel": "642.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-642.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-642.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-642.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-642.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 643",
@@ -24647,9 +26024,17 @@
       "chapterLabel": "643",
       "url": "https://qimanga.com/series/yuan-zun/chapter-643",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-643",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-643"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643/7.webp"
+      ]
     },
     {
       "title": "Chapter 643.5",
@@ -24658,9 +26043,17 @@
       "chapterLabel": "643.5",
       "url": "https://qimanga.com/series/yuan-zun/chapter-643.5",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-643.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-643.5"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-643.5/7.webp"
+      ]
     },
     {
       "title": "Chapter 644",
@@ -24669,9 +26062,17 @@
       "chapterLabel": "644",
       "url": "https://qimanga.com/series/yuan-zun/chapter-644",
       "finalUrl": "https://qimanga.com/series/yuan-zun/chapter-644",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/yuan-zun/chapters/chapter-644"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/0.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/1.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/2.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/3.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/4.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/5.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/6.webp",
+        "https://media.qimanhwa.com/file/qiscans/scraper/yuan-zun/ch-644/7.webp"
+      ]
     },
     {
       "title": "Chapter 644.5",

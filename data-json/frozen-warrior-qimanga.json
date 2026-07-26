@@ -4,7 +4,7 @@
   "title": "Frozen Warrior",
   "fromChapter": 1,
   "toChapter": 38,
-  "fetchedAt": "2026-07-25T19:05:57.645Z",
+  "fetchedAt": "2026-07-26T01:20:07.120Z",
   "source": "qimanga",
   "seriesSlug": "frozen-warrior",
   "chapters": [
@@ -366,9 +366,41 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-13",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-13"
+      "total": 32,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/18.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/19.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/20.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/21.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/22.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/23.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/24.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/25.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/26.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/27.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/28.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/29.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/30.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/ca8df5eb-c96a-4de5-914f-2a4e66503e9f/31.jpg"
+      ]
     },
     {
       "title": "Chapter 14",
@@ -377,9 +409,24 @@
       "chapterLabel": "14",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-14",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-14",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-14"
+      "total": 15,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/7192b46a-2c2b-44f4-9458-48ba751d2044/14.jpg"
+      ]
     },
     {
       "title": "Chapter 15",
@@ -388,9 +435,24 @@
       "chapterLabel": "15",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-15",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-15",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-15"
+      "total": 15,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/80308e64-2847-431d-af99-e9894d3f41e0/14.jpg"
+      ]
     },
     {
       "title": "Chapter 16",
@@ -399,9 +461,23 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-16",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-16",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-16"
+      "total": 14,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e8a5fd95-b01a-4158-8d49-e8d147ffaa17/13.jpg"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -410,9 +486,37 @@
       "chapterLabel": "17",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-17",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-17",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-17"
+      "total": 28,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/18.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/19.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/20.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/21.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/22.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/23.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/24.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/25.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/26.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/c7877151-f471-4be4-a507-2f99c1064ff1/27.jpg"
+      ]
     },
     {
       "title": "Chapter 18",
@@ -421,9 +525,26 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-18",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-18",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-18"
+      "total": 17,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/d702531c-d407-42b4-9c80-323963fedbcb/16.jpg"
+      ]
     },
     {
       "title": "Chapter 19",
@@ -432,9 +553,22 @@
       "chapterLabel": "19",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-19",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-19",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-19"
+      "total": 13,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/65b01447-ac48-4a48-b92b-934423712e30/12.jpg"
+      ]
     },
     {
       "title": "Chapter 20",
@@ -443,9 +577,20 @@
       "chapterLabel": "20",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-20",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-20",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-20"
+      "total": 11,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/fb3957c1-464c-43a6-96d9-f555e0e44faa/10.jpg"
+      ]
     },
     {
       "title": "Chapter 21",
@@ -454,9 +599,21 @@
       "chapterLabel": "21",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-21",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-21",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-21"
+      "total": 12,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/e5804db7-a089-4190-80a7-baa8cd2977c2/11.jpg"
+      ]
     },
     {
       "title": "Chapter 22",
@@ -465,9 +622,22 @@
       "chapterLabel": "22",
       "url": "https://qimanga.com/series/frozen-warrior/chapter-22",
       "finalUrl": "https://qimanga.com/series/frozen-warrior/chapter-22",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/frozen-warrior/chapters/chapter-22"
+      "total": 13,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/frozen-warrior/304e0ae7-8071-474a-ae2c-912015ad76f5/12.jpg"
+      ]
     },
     {
       "title": "Chapter 23",

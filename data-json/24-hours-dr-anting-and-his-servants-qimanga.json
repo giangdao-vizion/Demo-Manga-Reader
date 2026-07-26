@@ -4,7 +4,7 @@
   "title": "24 Hours! Dr. Anting and his servants",
   "fromChapter": 1,
   "toChapter": 7,
-  "fetchedAt": "2026-07-25T18:50:24.755Z",
+  "fetchedAt": "2026-07-26T01:10:51.732Z",
   "source": "qimanga",
   "seriesSlug": "24-hours-dr-anting-and-his-servants",
   "chapters": [
@@ -52,9 +52,10 @@
       "chapterLabel": "4",
       "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-4",
       "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-4",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/24-hours-dr-anting-and-his-servants/chapters/chapter-4"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/0msYfDLKDQ/01 copy.jpg"
+      ]
     },
     {
       "title": "Chapter 5",

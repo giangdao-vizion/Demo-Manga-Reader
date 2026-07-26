@@ -4,7 +4,7 @@
   "title": "Santa Industries",
   "fromChapter": 1,
   "toChapter": 62,
-  "fetchedAt": "2026-07-25T19:22:26.896Z",
+  "fetchedAt": "2026-07-26T01:31:58.183Z",
   "source": "qimanga",
   "seriesSlug": "santa-industries",
   "chapters": [
@@ -2217,9 +2217,21 @@
       "chapterLabel": "61",
       "url": "https://qimanga.com/series/santa-industries/chapter-61",
       "finalUrl": "https://qimanga.com/series/santa-industries/chapter-61",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/santa-industries/chapters/chapter-61"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/CgdllogbOG/12.webp"
+      ]
     },
     {
       "title": "Chapter 62",
@@ -2228,9 +2240,15 @@
       "chapterLabel": "62",
       "url": "https://qimanga.com/series/santa-industries/chapter-62",
       "finalUrl": "https://qimanga.com/series/santa-industries/chapter-62",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/santa-industries/chapters/chapter-62"
+      "total": 6,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/santa-industries/yAOba2STyN/06.webp"
+      ]
     }
   ]
 }

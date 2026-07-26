@@ -4,7 +4,7 @@
   "title": "Resurrected Demon King",
   "fromChapter": 1,
   "toChapter": 60,
-  "fetchedAt": "2026-07-25T19:21:11.332Z",
+  "fetchedAt": "2026-07-26T01:31:52.929Z",
   "source": "qimanga",
   "seriesSlug": "resurrected-demon-king",
   "chapters": [
@@ -1042,7 +1042,7 @@
       "finalUrl": "https://qimanga.com/series/resurrected-demon-king/chapter-59",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/resurrected-demon-king/chapters/chapter-59"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 60",

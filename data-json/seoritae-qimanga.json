@@ -4,7 +4,7 @@
   "title": "Seoritae",
   "fromChapter": 1,
   "toChapter": 12.5,
-  "fetchedAt": "2026-07-25T18:51:59.278Z",
+  "fetchedAt": "2026-07-26T01:32:01.840Z",
   "source": "qimanga",
   "seriesSlug": "seoritae",
   "chapters": [
@@ -253,9 +253,21 @@
       "chapterLabel": "10",
       "url": "https://qimanga.com/series/seoritae/chapter-10",
       "finalUrl": "https://qimanga.com/series/seoritae/chapter-10",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/seoritae/chapters/chapter-10"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/TXRDrZnIye/11.webp"
+      ]
     },
     {
       "title": "Chapter 11",
@@ -264,9 +276,24 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/seoritae/chapter-11",
       "finalUrl": "https://qimanga.com/series/seoritae/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/seoritae/chapters/chapter-11"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/QFjwe2jZWi/14.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -275,9 +302,26 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/seoritae/chapter-12",
       "finalUrl": "https://qimanga.com/series/seoritae/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/seoritae/chapters/chapter-12"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/BYIen5Ixxd/16.webp"
+      ]
     },
     {
       "title": "Chapter 12.5",
@@ -286,9 +330,10 @@
       "chapterLabel": "12.5",
       "url": "https://qimanga.com/series/seoritae/chapter-12.5",
       "finalUrl": "https://qimanga.com/series/seoritae/chapter-12.5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/seoritae/chapters/chapter-12.5"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/seoritae/PdDzzEwAYn/01 Remake Notice.webp"
+      ]
     }
   ]
 }

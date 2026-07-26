@@ -4,7 +4,7 @@
   "title": "Star Prison",
   "fromChapter": 0,
   "toChapter": 43,
-  "fetchedAt": "2026-07-25T17:12:31.148Z",
+  "fetchedAt": "2026-07-26T01:13:01.977Z",
   "source": "qimanga",
   "seriesSlug": "4190634673-star-prison",
   "chapters": [
@@ -980,9 +980,26 @@
       "chapterLabel": "42",
       "url": "https://qimanga.com/series/4190634673-star-prison/8781815493-star-prison-chapter-42",
       "finalUrl": "https://qimanga.com/series/4190634673-star-prison/8781815493-star-prison-chapter-42",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-star-prison/chapters/8781815493-star-prison-chapter-42"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_007.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_008.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_009.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_010.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_011.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_012.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_013.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_014.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_015.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_016.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-27021/page_017.jpg"
+      ]
     },
     {
       "title": "Chapter 43",
@@ -991,9 +1008,30 @@
       "chapterLabel": "43",
       "url": "https://qimanga.com/series/4190634673-star-prison/8781815493-star-prison-chapter-43",
       "finalUrl": "https://qimanga.com/series/4190634673-star-prison/8781815493-star-prison-chapter-43",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-star-prison/chapters/8781815493-star-prison-chapter-43"
+      "total": 21,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_007.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_008.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_009.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_010.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_011.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_012.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_013.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_014.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_015.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_016.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_017.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_018.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_019.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_020.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-star-prison/wp-28403/page_021.jpg"
+      ]
     }
   ]
 }

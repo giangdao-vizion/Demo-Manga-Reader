@@ -4,7 +4,7 @@
   "title": "Library of Heaven's Path",
   "fromChapter": 0,
   "toChapter": 324,
-  "fetchedAt": "2026-07-25T20:00:51.282Z",
+  "fetchedAt": "2026-07-26T01:23:00.894Z",
   "source": "qimanga",
   "seriesSlug": "library-of-heavens-path",
   "chapters": [
@@ -321,9 +321,14 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-16",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-16",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-16"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-16/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-16/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-16/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-16/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-16/4.webp"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -332,9 +337,15 @@
       "chapterLabel": "17",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-17",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-17",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-17"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-17/5.webp"
+      ]
     },
     {
       "title": "Chapter 18",
@@ -343,9 +354,15 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-18",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-18",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-18"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-18/5.webp"
+      ]
     },
     {
       "title": "Chapter 19",
@@ -354,9 +371,15 @@
       "chapterLabel": "19",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-19",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-19",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-19"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-19/5.webp"
+      ]
     },
     {
       "title": "Chapter 20",
@@ -365,9 +388,14 @@
       "chapterLabel": "20",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-20",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-20",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-20"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-20/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-20/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-20/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-20/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-20/4.webp"
+      ]
     },
     {
       "title": "Chapter 21",
@@ -376,9 +404,16 @@
       "chapterLabel": "21",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-21",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-21",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-21"
+      "total": 7,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-21/6.webp"
+      ]
     },
     {
       "title": "Chapter 22",
@@ -387,9 +422,14 @@
       "chapterLabel": "22",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-22",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-22",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-22"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-22/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-22/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-22/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-22/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-22/4.webp"
+      ]
     },
     {
       "title": "Chapter 23",
@@ -398,9 +438,14 @@
       "chapterLabel": "23",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-23",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-23",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-23"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-23/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-23/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-23/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-23/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-23/4.webp"
+      ]
     },
     {
       "title": "Chapter 24",
@@ -409,9 +454,14 @@
       "chapterLabel": "24",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-24",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-24",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-24"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-24/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-24/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-24/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-24/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-24/4.webp"
+      ]
     },
     {
       "title": "Chapter 25",
@@ -420,9 +470,14 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-25",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-25"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-25/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-25/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-25/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-25/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-25/4.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -914,9 +969,14 @@
       "chapterLabel": "56",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-56",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-56",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-56"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-56/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-56/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-56/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-56/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-56/4.webp"
+      ]
     },
     {
       "title": "Chapter 57",
@@ -925,9 +985,14 @@
       "chapterLabel": "57",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-57",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-57",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-57"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-57/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-57/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-57/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-57/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-57/4.webp"
+      ]
     },
     {
       "title": "Chapter 58",
@@ -936,9 +1001,14 @@
       "chapterLabel": "58",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-58",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-58",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-58"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-58/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-58/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-58/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-58/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-58/4.webp"
+      ]
     },
     {
       "title": "Chapter 59",
@@ -947,9 +1017,14 @@
       "chapterLabel": "59",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-59",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-59",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-59"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-59/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-59/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-59/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-59/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-59/4.webp"
+      ]
     },
     {
       "title": "Chapter 60",
@@ -958,9 +1033,15 @@
       "chapterLabel": "60",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-60",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-60",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-60"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-60/5.webp"
+      ]
     },
     {
       "title": "Chapter 61",
@@ -969,9 +1050,14 @@
       "chapterLabel": "61",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-61",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-61",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-61"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-61/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-61/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-61/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-61/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-61/4.webp"
+      ]
     },
     {
       "title": "Chapter 62",
@@ -980,9 +1066,14 @@
       "chapterLabel": "62",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-62",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-62",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-62"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-62/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-62/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-62/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-62/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-62/4.webp"
+      ]
     },
     {
       "title": "Chapter 63",
@@ -991,9 +1082,14 @@
       "chapterLabel": "63",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-63",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-63",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-63"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-63/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-63/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-63/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-63/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-63/4.webp"
+      ]
     },
     {
       "title": "Chapter 64",
@@ -1002,9 +1098,14 @@
       "chapterLabel": "64",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-64",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-64",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-64"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-64/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-64/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-64/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-64/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-64/4.webp"
+      ]
     },
     {
       "title": "Chapter 65",
@@ -1013,9 +1114,15 @@
       "chapterLabel": "65",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-65",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-65",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-65"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-65/5.webp"
+      ]
     },
     {
       "title": "Chapter 66",
@@ -2037,9 +2144,13 @@
       "chapterLabel": "128",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-128",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-128",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-128"
+      "total": 4,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-128/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-128/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-128/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-128/3.webp"
+      ]
     },
     {
       "title": "Chapter 129",
@@ -2048,9 +2159,12 @@
       "chapterLabel": "129",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-129",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-129",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-129"
+      "total": 3,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-129/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-129/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-129/2.webp"
+      ]
     },
     {
       "title": "Chapter 130",
@@ -2059,9 +2173,14 @@
       "chapterLabel": "130",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-130",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-130",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-130"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-130/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-130/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-130/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-130/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-130/4.webp"
+      ]
     },
     {
       "title": "Chapter 131",
@@ -2070,9 +2189,15 @@
       "chapterLabel": "131",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-131",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-131",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-131"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-131/5.webp"
+      ]
     },
     {
       "title": "Chapter 132",
@@ -2081,9 +2206,14 @@
       "chapterLabel": "132",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-132",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-132",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-132"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-132/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-132/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-132/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-132/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-132/4.webp"
+      ]
     },
     {
       "title": "Chapter 133",
@@ -2092,9 +2222,14 @@
       "chapterLabel": "133",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-133",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-133",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-133"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-133/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-133/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-133/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-133/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-133/4.webp"
+      ]
     },
     {
       "title": "Chapter 134",
@@ -2103,9 +2238,14 @@
       "chapterLabel": "134",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-134",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-134",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-134"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-134/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-134/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-134/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-134/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-134/4.webp"
+      ]
     },
     {
       "title": "Chapter 135",
@@ -2114,9 +2254,15 @@
       "chapterLabel": "135",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-135",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-135",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-135"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-135/5.webp"
+      ]
     },
     {
       "title": "Chapter 136",
@@ -2125,9 +2271,14 @@
       "chapterLabel": "136",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-136",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-136",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-136"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-136/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-136/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-136/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-136/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-136/4.webp"
+      ]
     },
     {
       "title": "Chapter 137",
@@ -2136,9 +2287,15 @@
       "chapterLabel": "137",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-137",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-137",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-137"
+      "total": 6,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-137/5.webp"
+      ]
     },
     {
       "title": "Chapter 138",
@@ -3151,9 +3308,14 @@
       "chapterLabel": "198",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-198",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-198",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-198"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-198/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-198/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-198/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-198/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-198/4.webp"
+      ]
     },
     {
       "title": "Chapter 199",
@@ -3162,9 +3324,24 @@
       "chapterLabel": "199",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-199",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-199",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-199"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-199/14.webp"
+      ]
     },
     {
       "title": "Chapter 200",
@@ -3173,9 +3350,24 @@
       "chapterLabel": "200",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-200",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-200",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-200"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-200/14.webp"
+      ]
     },
     {
       "title": "Chapter 201",
@@ -3184,9 +3376,24 @@
       "chapterLabel": "201",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-201",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-201",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-201"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-201/14.webp"
+      ]
     },
     {
       "title": "Chapter 202",
@@ -3195,9 +3402,16 @@
       "chapterLabel": "202",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-202",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-202",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-202"
+      "total": 7,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-202/6.webp"
+      ]
     },
     {
       "title": "Chapter 203",
@@ -3206,9 +3420,25 @@
       "chapterLabel": "203",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-203",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-203",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-203"
+      "total": 16,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-203/15.webp"
+      ]
     },
     {
       "title": "Chapter 204",
@@ -3217,9 +3447,14 @@
       "chapterLabel": "204",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-204",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-204",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-204"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-204/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-204/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-204/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-204/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-204/4.webp"
+      ]
     },
     {
       "title": "Chapter 205",
@@ -3228,9 +3463,16 @@
       "chapterLabel": "205",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-205",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-205",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-205"
+      "total": 7,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-205/6.webp"
+      ]
     },
     {
       "title": "Chapter 206",
@@ -3239,9 +3481,24 @@
       "chapterLabel": "206",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-206",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-206",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-206"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-206/14.webp"
+      ]
     },
     {
       "title": "Chapter 207",
@@ -3250,9 +3507,16 @@
       "chapterLabel": "207",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-207",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-207",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-207"
+      "total": 7,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-207/6.webp"
+      ]
     },
     {
       "title": "Chapter 208",
@@ -4321,9 +4585,21 @@
       "chapterLabel": "267",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-267",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-267",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-267"
+      "total": 12,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-267/11.webp"
+      ]
     },
     {
       "title": "Chapter 268",
@@ -4348,9 +4624,14 @@
       "chapterLabel": "269",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-269",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-269",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-269"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-269/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-269/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-269/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-269/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-269/4.webp"
+      ]
     },
     {
       "title": "Chapter 270",
@@ -4359,9 +4640,14 @@
       "chapterLabel": "270",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-270",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-270",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-270"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-270/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-270/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-270/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-270/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-270/4.webp"
+      ]
     },
     {
       "title": "Chapter 271",
@@ -4370,9 +4656,13 @@
       "chapterLabel": "271",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-271",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-271",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-271"
+      "total": 4,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-271/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-271/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-271/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-271/3.webp"
+      ]
     },
     {
       "title": "Chapter 272",
@@ -4381,9 +4671,13 @@
       "chapterLabel": "272",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-272",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-272",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-272"
+      "total": 4,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-272/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-272/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-272/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-272/3.webp"
+      ]
     },
     {
       "title": "Chapter 273",
@@ -4392,9 +4686,13 @@
       "chapterLabel": "273",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-273",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-273",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-273"
+      "total": 4,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-273/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-273/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-273/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-273/3.webp"
+      ]
     },
     {
       "title": "Chapter 274",
@@ -4403,9 +4701,13 @@
       "chapterLabel": "274",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-274",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-274",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-274"
+      "total": 4,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-274/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-274/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-274/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-274/3.webp"
+      ]
     },
     {
       "title": "Chapter 275",
@@ -4414,9 +4716,14 @@
       "chapterLabel": "275",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-275",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-275",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-275"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-275/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-275/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-275/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-275/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-275/4.webp"
+      ]
     },
     {
       "title": "Chapter 276",
@@ -4425,9 +4732,14 @@
       "chapterLabel": "276",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-276",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-276",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-276"
+      "total": 5,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-276/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-276/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-276/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-276/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-276/4.webp"
+      ]
     },
     {
       "title": "Chapter 277",
@@ -4436,9 +4748,21 @@
       "chapterLabel": "277",
       "url": "https://qimanga.com/series/library-of-heavens-path/chapter-277",
       "finalUrl": "https://qimanga.com/series/library-of-heavens-path/chapter-277",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/library-of-heavens-path/chapters/chapter-277"
+      "total": 12,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/library-of-heavens-path/ch-277/11.webp"
+      ]
     },
     {
       "title": "Chapter 278",

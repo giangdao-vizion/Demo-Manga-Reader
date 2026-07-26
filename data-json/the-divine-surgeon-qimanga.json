@@ -4,7 +4,7 @@
   "title": "The Divine Surgeon",
   "fromChapter": 1,
   "toChapter": 211,
-  "fetchedAt": "2026-07-25T19:45:33.627Z",
+  "fetchedAt": "2026-07-26T01:35:39.228Z",
   "source": "qimanga",
   "seriesSlug": "the-divine-surgeon",
   "chapters": [
@@ -37,9 +37,19 @@
       "chapterLabel": "2",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-2",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-2",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-2"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/BzvMNeGP1n/10.webp"
+      ]
     },
     {
       "title": "Chapter 3",
@@ -69,9 +79,19 @@
       "chapterLabel": "4",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-4",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-4",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-4"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AgpG2Ms2G8/10.webp"
+      ]
     },
     {
       "title": "Chapter 5",
@@ -80,9 +100,18 @@
       "chapterLabel": "5",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-5",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-5"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pYxTdBpBMQ/09.webp"
+      ]
     },
     {
       "title": "Chapter 6",
@@ -91,9 +120,21 @@
       "chapterLabel": "6",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-6",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-6",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-6"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/4xJISA0LjE/12.webp"
+      ]
     },
     {
       "title": "Chapter 7",
@@ -102,9 +143,20 @@
       "chapterLabel": "7",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-7",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-7",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-7"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/PblF0Frtb4/11.webp"
+      ]
     },
     {
       "title": "Chapter 8",
@@ -137,9 +189,20 @@
       "chapterLabel": "9",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-9",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-9",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-9"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/3WXubctkFM/11.webp"
+      ]
     },
     {
       "title": "Chapter 10",
@@ -148,9 +211,20 @@
       "chapterLabel": "10",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-10",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-10",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-10"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/eWVJsQp1mh/11.webp"
+      ]
     },
     {
       "title": "Chapter 11",
@@ -159,9 +233,19 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-11",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-11"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/HvywBeWNzJ/10.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -170,9 +254,19 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-12",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-12"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Q09jMs5wbD/10.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -181,9 +275,18 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-13",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-13"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/ICH8yFuNbN/09.webp"
+      ]
     },
     {
       "title": "Chapter 14",
@@ -1446,9 +1549,20 @@
       "chapterLabel": "74",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-74",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-74",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-74"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/mhPJ4hSSJa/11.webp"
+      ]
     },
     {
       "title": "Chapter 75",
@@ -1457,9 +1571,19 @@
       "chapterLabel": "75",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-75",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-75",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-75"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WiP4GnzIDz/10.webp"
+      ]
     },
     {
       "title": "Chapter 76",
@@ -1468,9 +1592,20 @@
       "chapterLabel": "76",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-76",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-76",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-76"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vIChKx6z7K/11.webp"
+      ]
     },
     {
       "title": "Chapter 77",
@@ -1479,9 +1614,21 @@
       "chapterLabel": "77",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-77",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-77",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-77"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/esr9gVot4G/12.webp"
+      ]
     },
     {
       "title": "Chapter 78",
@@ -1490,9 +1637,19 @@
       "chapterLabel": "78",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-78",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-78",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-78"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/jQu8Gb9QR9/10.webp"
+      ]
     },
     {
       "title": "Chapter 79",
@@ -1501,9 +1658,19 @@
       "chapterLabel": "79",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-79",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-79",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-79"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/WvPPxBnq9r/10.webp"
+      ]
     },
     {
       "title": "Chapter 80",
@@ -1512,9 +1679,19 @@
       "chapterLabel": "80",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-80",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-80",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-80"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/55AbSiEZBc/10.webp"
+      ]
     },
     {
       "title": "Chapter 81",
@@ -1523,9 +1700,19 @@
       "chapterLabel": "81",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-81",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-81",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-81"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/pNFk8zNUPj/10.webp"
+      ]
     },
     {
       "title": "Chapter 82",
@@ -1534,9 +1721,20 @@
       "chapterLabel": "82",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-82",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-82",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-82"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/klJYTGSBqr/11.webp"
+      ]
     },
     {
       "title": "Chapter 83",
@@ -1545,9 +1743,19 @@
       "chapterLabel": "83",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-83",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-83",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-83"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/W2Z390m8qQ/10.webp"
+      ]
     },
     {
       "title": "Chapter 84",
@@ -2857,9 +3065,19 @@
       "chapterLabel": "144",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-144",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-144",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-144"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/DO0pQp0UKI/10.webp"
+      ]
     },
     {
       "title": "Chapter 145",
@@ -2868,9 +3086,20 @@
       "chapterLabel": "145",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-145",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-145",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-145"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/fGKvCTRQ9Y/11.webp"
+      ]
     },
     {
       "title": "Chapter 146",
@@ -2879,9 +3108,19 @@
       "chapterLabel": "146",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-146",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-146",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-146"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Ni4IWM26Qc/10.webp"
+      ]
     },
     {
       "title": "Chapter 147",
@@ -2890,9 +3129,20 @@
       "chapterLabel": "147",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-147",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-147",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-147"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/EzTnMO7ncG/11.webp"
+      ]
     },
     {
       "title": "Chapter 148",
@@ -2901,9 +3151,20 @@
       "chapterLabel": "148",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-148",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-148",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-148"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/9b9NLKJOOe/11.webp"
+      ]
     },
     {
       "title": "Chapter 149",
@@ -2912,9 +3173,20 @@
       "chapterLabel": "149",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-149",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-149",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-149"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/Z4xu7s3ve1/11.webp"
+      ]
     },
     {
       "title": "Chapter 150",
@@ -2923,9 +3195,20 @@
       "chapterLabel": "150",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-150",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-150",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-150"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/vOYkp7MoLI/11.webp"
+      ]
     },
     {
       "title": "Chapter 151",
@@ -2934,9 +3217,19 @@
       "chapterLabel": "151",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-151",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-151",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-151"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/VX3SEZ3HYb/10.webp"
+      ]
     },
     {
       "title": "Chapter 152",
@@ -2945,9 +3238,20 @@
       "chapterLabel": "152",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-152",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-152",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-152"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/AENDwqg4bS/11.webp"
+      ]
     },
     {
       "title": "Chapter 153",
@@ -2956,9 +3260,20 @@
       "chapterLabel": "153",
       "url": "https://qimanga.com/series/the-divine-surgeon/chapter-153",
       "finalUrl": "https://qimanga.com/series/the-divine-surgeon/chapter-153",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-divine-surgeon/chapters/chapter-153"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-divine-surgeon/R3PeyOMEy7/11.webp"
+      ]
     },
     {
       "title": "Chapter 154",

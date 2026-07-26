@@ -1,0 +1,1010 @@
+{
+  "fetchedAt": "2026-07-26T01:39:43.857Z",
+  "seriesProcessed": 125,
+  "targets": 2350,
+  "fixed": 2311,
+  "lockedNow": 36,
+  "stillBad": 3,
+  "results": [
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/24-hours-dr-anting-and-his-servants-qimanga.json",
+      "title": "24 Hours! Dr. Anting and his servants",
+      "targets": 1,
+      "fixed": 1,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-all-attributes-in-martial-arts-qimanga.json",
+      "title": "All-Attributes in Martial Arts",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-apocalyptic-super-farm-qimanga.json",
+      "title": "Apocalyptic Super Farm",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-beast-familiar-for-all-beginning-awakening-of-mythical-talents-qimanga.json",
+      "title": "Beast Familiar For All: Beginning Awakening of Mythical Talents",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-clever-cleaning-life-of-the-returned-genius-hunter-qimanga.json",
+      "title": "Clever Cleaning Life of the Returned Genius Hunter",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-crazy-leveling-system-qimanga.json",
+      "title": "Crazy Leveling System",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-eleceed-qimanga.json",
+      "title": "Eleceed",
+      "targets": 70,
+      "fixed": 70,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-global-killing-awakening-sss-level-talent-at-the-beginning-qimanga.json",
+      "title": "Global Killing: Awakening SSS-Level Talent at the Beginning!",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-goblins-night-qimanga.json",
+      "title": "Goblin’s Night",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-i-can-summon-god-redone-qimanga.json",
+      "title": "I Can Summon God [Redone]",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-i-level-up-by-absorbing-everything-qimanga.json",
+      "title": "I Level Up By Absorbing Everything",
+      "targets": 7,
+      "fixed": 7,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-mixed-fantasy-my-journey-to-become-invincible-from-big-spending-begins-qimanga.json",
+      "title": "Mixed Fantasy – My Journey To Become Invincible From Big-Spending Begins!",
+      "targets": 19,
+      "fixed": 19,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-my-daughter-is-a-dragon-qimanga.json",
+      "title": "My Daughter Is a Dragon!",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-rebirth-back-to-1983-to-be-a-millionaire-qimanga.json",
+      "title": "Rebirth: Back to 1983 to Be a Millionaire",
+      "targets": 40,
+      "fixed": 40,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-shincons-one-coin-clear-qimanga.json",
+      "title": "Shincon’s One Coin Clear",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-star-prison-qimanga.json",
+      "title": "Star Prison",
+      "targets": 2,
+      "fixed": 2,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-subscribed-to-the-transcendental-channel-qimanga.json",
+      "title": "Subscribed To The Transcendental Channels",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-sword-breaker-qimanga.json",
+      "title": "Sword Breaker",
+      "targets": 4,
+      "fixed": 4,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-tales-of-a-shining-sword-qimanga.json",
+      "title": "Tales of A Shining Sword",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-mysterious-worlds-greatest-martial-artist-little-prince-qimanga.json",
+      "title": "The Mysterious World’s Greatest Martial Artist Little Prince",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-precious-girl-does-not-shed-tears-qimanga.json",
+      "title": "The Precious Girl Does Not Shed Tears",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-regressors-retirement-life-qimanga.json",
+      "title": "The Regressor’s Retirement Life",
+      "targets": 20,
+      "fixed": 17,
+      "lockedNow": 3,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-roaring-dragons-emblem-qimanga.json",
+      "title": "The Roaring Dragon’s Emblem",
+      "targets": 9,
+      "fixed": 9,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-yakuza-cleaner-qimanga.json",
+      "title": "Yakuza Cleaner",
+      "targets": 9,
+      "fixed": 9,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673st-century-retrogression-qimanga.json",
+      "title": "21st Century Retrogression",
+      "targets": 6,
+      "fixed": 6,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/a-wimp-s-strategy-guide-to-conquer-the-tower-qimanga.json",
+      "title": "A Wimp’s Strategy Guide To Conquer The Tower",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/a-world-of-gold-to-you-qimanga.json",
+      "title": "A World of Gold to You",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/accidentally-became-famous-throughout-history-qimanga.json",
+      "title": "Accidentally Became Famous Throughout History",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/apotheosis-qimanga.json",
+      "title": "Apotheosis",
+      "targets": 136,
+      "fixed": 136,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/becoming-the-swordmaster-rank-young-lord-of-the-sichuan-tang-family-qimanga.json",
+      "title": "Becoming the Swordmaster Rank Young Lord of the Sichuan Tang Family",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/black-koi-qimanga.json",
+      "title": "Black Koi",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/black-serpent-qimanga.json",
+      "title": "Black Serpent",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/blade-of-retribution-qimanga.json",
+      "title": "Blade of Retribution",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/celestial-phenomenon-qimanga.json",
+      "title": "Celestial Phenomenon",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/crimson-reset-qimanga.json",
+      "title": "Crimson Reset",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/dark-and-light-martial-emperor-qimanga.json",
+      "title": "Dark and Light Martial Emperor",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/demonize-qimanga.json",
+      "title": "Demonize",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/devil-and-ice-qimanga.json",
+      "title": "Devil & Ice",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/do-you-need-salvation-qimanga.json",
+      "title": "Do You Need Salvation?",
+      "targets": 1,
+      "fixed": 0,
+      "lockedNow": 0,
+      "stillBad": 1
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/fight-monsters-with-monsters-qimanga.json",
+      "title": "Fight Monsters with Monsters",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/forced-to-become-the-heavenly-demon-at-swordpoint-qimanga.json",
+      "title": "Forced To Become The Heavenly Demon At Swordpoint",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/formless-form-qimanga.json",
+      "title": "Formless Form",
+      "targets": 50,
+      "fixed": 50,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/frozen-warrior-qimanga.json",
+      "title": "Frozen Warrior",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/full-actor-unrivaled-revenge-with-the-skills-i-acquired-qimanga.json",
+      "title": "Full Actor: Unrivaled Revenge with the Skills I Acquired",
+      "targets": 9,
+      "fixed": 9,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ghostly-highschooler-qimanga.json",
+      "title": "Ghostly Highschooler",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/guide-to-be-king-of-the-dead-qimanga.json",
+      "title": "Guide to be King of the Dead",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/half-blood-qimanga.json",
+      "title": "Half-Blood",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/heavenly-demon-wants-to-be-a-chef-qimanga.json",
+      "title": "Heavenly Demon Wants to Be A Chef",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/high-martiality-with-one-hand-i-single-handedly-repel-three-thousand-emperors-qimanga.json",
+      "title": "High Martiality: With One Hand, I Single-Handedly Repel Three Thousand Emperors!",
+      "targets": 6,
+      "fixed": 4,
+      "lockedNow": 2,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/honestly-this-13th-regression-is-getting-tough-qimanga.json",
+      "title": "Honestly, This 13th Regression is Getting Tough",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-am-with-the-music-immortals-qimanga.json",
+      "title": "I am with the music immortals",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-bastard-genius-of-the-noble-dark-clan-qimanga.json",
+      "title": "I Became The Bastard Genius Of The Noble Dark Clan ",
+      "targets": 4,
+      "fixed": 4,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-scoundrel-of-the-cheon-family-qimanga.json",
+      "title": "I Became the Scoundrel of the Cheon Family",
+      "targets": 4,
+      "fixed": 4,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-youngest-member-of-top-idol-qimanga.json",
+      "title": "I Became the Youngest Member of Top Idol ",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-kidnapped-the-youngest-daughter-of-the-sichuan-tang-clan-qimanga.json",
+      "title": "I Kidnapped the Youngest Daughter of the Sichuan Tang Clan",
+      "targets": 5,
+      "fixed": 3,
+      "lockedNow": 2,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-regressed-but-the-world-didnt-fall-apart-qimanga.json",
+      "title": "I Regressed but the World Didn’t Fall Apart",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/im-an-evil-god-qimanga.json",
+      "title": "I'm an Evil God",
+      "targets": 80,
+      "fixed": 80,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/island-of-stars-and-chains-qimanga.json",
+      "title": "Island of Stars and Chains",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/kalli-the-champion-qimanga.json",
+      "title": "Kalli the Champion",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/library-of-heavens-path-qimanga.json",
+      "title": "Library of Heaven's Path",
+      "targets": 50,
+      "fixed": 50,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/martial-peak-qimanga.json",
+      "title": "Martial Peak",
+      "targets": 456,
+      "fixed": 456,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/maxed-out-leveling-qimanga.json",
+      "title": "Maxed Out Leveling",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/memoir-of-the-god-of-war-qimanga.json",
+      "title": "Memoir of the God of War",
+      "targets": 32,
+      "fixed": 32,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/mount-hua-sects-greatest-genius-qimanga.json",
+      "title": "Mount Hua Sect's Greatest Genius",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/my-avatars-path-to-greatness-qimanga.json",
+      "title": "My Avatars’ Path to Greatness",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/once-i-possess-the-system-i-will-become-the-creator-qimanga.json",
+      "title": "Once I Possess The System I Will Become The Creator",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/only-i-have-an-ex-grade-summon-qimanga.json",
+      "title": "Only I Have an EX-Grade Summon",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/oversummoned-overpowered-and-over-it-qimanga.json",
+      "title": "Oversummoned, Overpowered, and Over It!",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/prosecutor-kim-seo-jin-qimanga.json",
+      "title": "Prosecutor Kim Seo-jin",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ranker-who-lives-a-second-life-qimanga.json",
+      "title": "Ranker Who Lives a Second Life",
+      "targets": 40,
+      "fixed": 39,
+      "lockedNow": 0,
+      "stillBad": 1
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/reincarnated-with-a-metal-bat-surviving-the-monochrome-madness-qimanga.json",
+      "title": "Reincarnated With a Metal Bat ~Surviving the Monochrome Madness~",
+      "targets": 10,
+      "fixed": 0,
+      "lockedNow": 10,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/resurrected-demon-king-qimanga.json",
+      "title": "Resurrected Demon King",
+      "targets": 1,
+      "fixed": 0,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/return-of-the-frozen-player-qimanga.json",
+      "title": "Return of the Frozen Player ",
+      "targets": 30,
+      "fixed": 30,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/santa-industries-qimanga.json",
+      "title": "Santa Industries",
+      "targets": 2,
+      "fixed": 2,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/saving-the-doomed-idols-with-my-touch-qimanga.json",
+      "title": "Saving the Doomed Idols with My Touch",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/saving-the-world-through-a-game-qimanga.json",
+      "title": "Saving the World Through a Game",
+      "targets": 8,
+      "fixed": 4,
+      "lockedNow": 4,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/seoritae-qimanga.json",
+      "title": "Seoritae",
+      "targets": 4,
+      "fixed": 4,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/shadow-master-a-legend-of-unrivaled-power-under-the-moonlight-qimanga.json",
+      "title": "Shadow Master - A Legend of Unrivaled Power Under the Moonlight",
+      "targets": 7,
+      "fixed": 7,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/shindorim-qimanga.json",
+      "title": "Shindorim",
+      "targets": 9,
+      "fixed": 5,
+      "lockedNow": 4,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/spirit-farmer-qimanga.json",
+      "title": "Spirit Farmer",
+      "targets": 24,
+      "fixed": 24,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/sss-rank-invincible-war-god-qimanga.json",
+      "title": "SSS-Rank Invincible War God",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/surviving-as-a-wandering-knight-qimanga.json",
+      "title": "Surviving As A Wandering Knight",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/surviving-the-apocalypse-qimanga.json",
+      "title": "Surviving the Apocalypse",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-18-year-old-demon-king-qimanga.json",
+      "title": "The 18-Year-Old Demon King",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-anxious-demon-sect-leader-qimanga.json",
+      "title": "The Anxious Demon Cult Leader",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-archmage-returns-after-4000-years-qimanga.json",
+      "title": "The Archmage Returns After 4000 Years",
+      "targets": 32,
+      "fixed": 32,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-archmages-restaurant-qimanga.json",
+      "title": "The Archmage's Restaurant",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-beginning-after-the-end-qimanga.json",
+      "title": "The Beginning After the End",
+      "targets": 40,
+      "fixed": 40,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-black-haired-us-army-general-qimanga.json",
+      "title": "The Black-Haired U.S. Army General ",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-corrupt-official-hid-the-status-window-qimanga.json",
+      "title": "The Corrupt Official Hid the Status Window",
+      "targets": 9,
+      "fixed": 9,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-demon-king-dad-and-his-hero-daughter-qimanga.json",
+      "title": "The Demon King Dad and His Hero Daughter",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-demon-king-overrun-by-heroes-qimanga.json",
+      "title": "The Demon King Overrun by Heroes",
+      "targets": 4,
+      "fixed": 3,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-dignity-of-a-chaebol-qimanga.json",
+      "title": "The Dignity of a Chaebol",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-divine-demon-s-grand-ascension-qimanga.json",
+      "title": "The Divine Demon’s Grand Ascension",
+      "targets": 11,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 1
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-divine-surgeon-qimanga.json",
+      "title": "The Divine Surgeon",
+      "targets": 30,
+      "fixed": 30,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-extra-is-too-strong-qimanga.json",
+      "title": "The Extra is Too Strong",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-fist-king-s-rebirth-qimanga.json",
+      "title": "The Fist King's Rebirth",
+      "targets": 2,
+      "fixed": 1,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-genius-blacksmith-s-game-qimanga.json",
+      "title": "Genius Blacksmith’s Game",
+      "targets": 4,
+      "fixed": 3,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-hunter-lives-in-a-rented-apartment-qimanga.json",
+      "title": "The Hunter Lives In A rented Apartment",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-luoyang-branch-of-the-heavenly-demon-cult-qimanga.json",
+      "title": "The Luoyang Branch of the Heavenly Demon Cult",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-mad-dog-of-the-dukes-estate-qimanga.json",
+      "title": "The Mad Dog of the Duke’s Estate",
+      "targets": 8,
+      "fixed": 7,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-margraves-worthless-mage-qimanga.json",
+      "title": "The Margrave’s Worthless Mage",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-nis-rookie-qimanga.json",
+      "title": "The NIS Rookie",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-only-new-game-hardcore-gamer-im-so-overpowered-i-shattered-the-games-balance-qimanga.json",
+      "title": "The Only New Game+ Hardcore Gamer ~I'm So Overpowered, I Shattered the Game's Balance~",
+      "targets": 16,
+      "fixed": 16,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-politician-who-sees-the-future-qimanga.json",
+      "title": "The Politician Who Sees the Future",
+      "targets": 6,
+      "fixed": 5,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-returned-c-rank-tank-wont-die-qimanga.json",
+      "title": "The Returned C-Rank Tank Won't Die!",
+      "targets": 4,
+      "fixed": 3,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-returnees-hidden-strategy-stream-qimanga.json",
+      "title": "The Returnee’s Hidden Strategy Stream",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-school-life-of-the-earth-leader-qimanga.json",
+      "title": "The School Life of the Earth Leader",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-shepherd-wizard-qimanga.json",
+      "title": "The Shepherd Wizard",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-strongest-tamer-returned-from-another-world-with-his-childhood-friend-as-his-familiar-qimanga.json",
+      "title": "The Strongest Tamer Returned from Another World with his Childhood Friend as his Familiar",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-tale-of-the-skeleton-messenger-qimanga.json",
+      "title": "The Tale Of The Skeleton Messenger",
+      "targets": 5,
+      "fixed": 4,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-top-rankers-aspiring-writer-life-manual-qimanga.json",
+      "title": "The Top Ranker's Aspiring Writer Life Manual",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-unparalleled-hidden-rank-equipment-qimanga.json",
+      "title": "The Unparalleled Hidden Rank Equipment",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-weakest-adventurer-s-99th-life-the-fastest-path-from-weakest-to-strongest-qimanga.json",
+      "title": "The Weakest Adventurer’s 99th Life: The Fastest Path from Weakest to Strongest",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-worn-and-torn-newbie-qimanga.json",
+      "title": "The Worn and Torn Newbie",
+      "targets": 24,
+      "fixed": 24,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-youngest-son-of-the-eunhae-merchant-group-qimanga.json",
+      "title": "The Youngest Son of the Eunhae Merchant Group",
+      "targets": 8,
+      "fixed": 7,
+      "lockedNow": 1,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/themagic-theory-of-the-regressed-sword-saint-qimanga.json",
+      "title": "The Magic Theory of the Regressed Sword Saint",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/tow-truck-driver-qimanga.json",
+      "title": "Tow Truck Driver",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/transmigrated-as-a-barbarian-conquering-another-world-starting-from-a-defeated-battle-qimanga.json",
+      "title": "Transmigrated as a Barbarian! Conquering Another World Starting from a Defeated Battle",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/war-of-the-corpses-qimanga.json",
+      "title": "War Of The Corpses",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/weak-teacher-qimanga.json",
+      "title": "Weak Teacher",
+      "targets": 20,
+      "fixed": 20,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/whats-our-hero-doing-qimanga.json",
+      "title": "What's Our Hero Doing?",
+      "targets": 10,
+      "fixed": 8,
+      "lockedNow": 2,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/wild-ranker-qimanga.json",
+      "title": "WILD RANKER",
+      "targets": 8,
+      "fixed": 8,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/yuan-zun-qimanga.json",
+      "title": "Yuan Zun",
+      "targets": 152,
+      "fixed": 152,
+      "lockedNow": 0,
+      "stillBad": 0
+    },
+    {
+      "file": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/zephyr-impact-war-qimanga.json",
+      "title": "Zephyr Impact War",
+      "targets": 10,
+      "fixed": 10,
+      "lockedNow": 0,
+      "stillBad": 0
+    }
+  ]
+}

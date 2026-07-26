@@ -4,7 +4,7 @@
   "title": "The Archmage's Restaurant",
   "fromChapter": 1,
   "toChapter": 143,
-  "fetchedAt": "2026-07-25T19:42:27.052Z",
+  "fetchedAt": "2026-07-26T01:33:07.544Z",
   "source": "qimanga",
   "seriesSlug": "the-archmages-restaurant",
   "chapters": [
@@ -1747,9 +1747,21 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-29",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-29"
+      "total": 12,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/80a0cb13-d125-4f97-8c01-6e5e59901003/11.jpg"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -1758,9 +1770,21 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-30",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-30"
+      "total": 12,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/f4c1f7bf-13a2-4c45-abf8-97da4dd390f3/11.jpg"
+      ]
     },
     {
       "title": "Chapter 31",
@@ -1769,9 +1793,26 @@
       "chapterLabel": "31",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-31",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-31",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-31"
+      "total": 17,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/6fce22ae-fdaa-4aa1-a149-dcdd20653e42/16.jpg"
+      ]
     },
     {
       "title": "Chapter 32",
@@ -1780,9 +1821,28 @@
       "chapterLabel": "32",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-32",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-32",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-32"
+      "total": 19,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/3cab02cc-5846-444e-9c48-e009f874bf04/18.jpg"
+      ]
     },
     {
       "title": "Chapter 33",
@@ -1791,9 +1851,29 @@
       "chapterLabel": "33",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-33",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-33",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-33"
+      "total": 20,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/18.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/ded18bac-9c9f-4b4e-80ee-c1f099dbfe01/19.jpg"
+      ]
     },
     {
       "title": "Chapter 34",
@@ -1802,9 +1882,31 @@
       "chapterLabel": "34",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-34",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-34",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-34"
+      "total": 22,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/18.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/19.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/20.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/00079682-63ee-48d9-adff-9112dfbec5c5/21.jpg"
+      ]
     },
     {
       "title": "Chapter 35",
@@ -1813,9 +1915,23 @@
       "chapterLabel": "35",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-35",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-35",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-35"
+      "total": 14,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/7fd2adb9-bfe3-468e-82fd-5e569b0406bf/13.jpg"
+      ]
     },
     {
       "title": "Chapter 36",
@@ -1824,9 +1940,30 @@
       "chapterLabel": "36",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-36",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-36",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-36"
+      "total": 21,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/18.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/19.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/88b36019-1de2-48b1-827e-6b59f576baaf/20.jpg"
+      ]
     },
     {
       "title": "Chapter 37",
@@ -1835,9 +1972,22 @@
       "chapterLabel": "37",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-37",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-37",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-37"
+      "total": 13,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/2c32abf1-2056-437e-b347-2f859aacab62/12.jpg"
+      ]
     },
     {
       "title": "Chapter 38",
@@ -1846,9 +1996,22 @@
       "chapterLabel": "38",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-38",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-38",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-38"
+      "total": 13,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/the-archmages-restaurant/549d2c40-7275-4004-bf1e-5ff46403cd75/12.jpg"
+      ]
     },
     {
       "title": "Chapter 39",
@@ -3684,9 +3847,24 @@
       "chapterLabel": "99",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-99",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-99",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-99"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/ALO3OpvHGI/14.webp"
+      ]
     },
     {
       "title": "Chapter 100",
@@ -3695,9 +3873,24 @@
       "chapterLabel": "100",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-100",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-100",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-100"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/nTp8RplFM4/15.webp"
+      ]
     },
     {
       "title": "Chapter 101",
@@ -3706,9 +3899,23 @@
       "chapterLabel": "101",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-101",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-101",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-101"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dgRrq8XOEn/14.webp"
+      ]
     },
     {
       "title": "Chapter 102",
@@ -3717,9 +3924,22 @@
       "chapterLabel": "102",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-102",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-102",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-102"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/dG7138k6XN/13.webp"
+      ]
     },
     {
       "title": "Chapter 103",
@@ -3728,9 +3948,23 @@
       "chapterLabel": "103",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-103",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-103",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-103"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/1XUzu0q9j1/14.webp"
+      ]
     },
     {
       "title": "Chapter 104",
@@ -3739,9 +3973,22 @@
       "chapterLabel": "104",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-104",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-104",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-104"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/9LQzg192Lh/13.webp"
+      ]
     },
     {
       "title": "Chapter 105",
@@ -3750,9 +3997,24 @@
       "chapterLabel": "105",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-105",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-105",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-105"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/Sllxg1675k/15.webp"
+      ]
     },
     {
       "title": "Chapter 106",
@@ -3761,9 +4023,22 @@
       "chapterLabel": "106",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-106",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-106",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-106"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-archmages-restaurant/0B2liHBnJ6/13.webp"
+      ]
     },
     {
       "title": "Chapter 107",
@@ -3772,9 +4047,21 @@
       "chapterLabel": "107",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-107",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-107",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-107"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/b4nfSRTDYI/12.webp"
+      ]
     },
     {
       "title": "Chapter 108",
@@ -3783,9 +4070,21 @@
       "chapterLabel": "108",
       "url": "https://qimanga.com/series/the-archmages-restaurant/chapter-108",
       "finalUrl": "https://qimanga.com/series/the-archmages-restaurant/chapter-108",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-archmages-restaurant/chapters/chapter-108"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-archmages-restaurant/IhTqf6b5Zf/12.webp"
+      ]
     },
     {
       "title": "Chapter 109",

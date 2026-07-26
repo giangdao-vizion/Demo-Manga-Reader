@@ -4,7 +4,7 @@
   "title": "The Fist King's Rebirth",
   "fromChapter": 1,
   "toChapter": 62,
-  "fetchedAt": "2026-07-25T19:21:49.269Z",
+  "fetchedAt": "2026-07-26T01:35:41.070Z",
   "source": "qimanga",
   "seriesSlug": "the-fist-king's-rebirth",
   "chapters": [
@@ -1667,9 +1667,25 @@
       "chapterLabel": "61",
       "url": "https://qimanga.com/series/the-fist-king's-rebirth/chapter-61",
       "finalUrl": "https://qimanga.com/series/the-fist-king's-rebirth/chapter-61",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-fist-king's-rebirth/chapters/chapter-61"
+      "total": 16,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/CC2LZzKJxC/LKoKeS/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/7KL2TDn__j/fyTnGe/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/ooXHcEC3v5/i3TFH6/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/ZdHgzMRv-u/Wce53L/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/JDwuZBsK_H/sdV7M1/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/Ldxq2qX_B5/qTknad/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/g7wj7x3_6p/x3HipZ/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/DRGO1MwuT9/hVce9H/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/h0SfTWpTnW/GppW2o/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/S_NCNIhCUB/IM8CrU/09.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/ICajBtrhdi/ATr8Ce/10.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/noJHCtOOOU/x9xN6T/11.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/xwglURpx18/D98Gfh/12.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/3khXdtJbDx/yDJMHd/13.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/j7Ocuhiv-I/3Ihd6G/14.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/the-fist-king's-rebirth/XDnqCk18d6/_BlIKl/15.webp"
+      ]
     },
     {
       "title": "Chapter 62",
@@ -1680,7 +1696,7 @@
       "finalUrl": "https://qimanga.com/series/the-fist-king's-rebirth/chapter-62",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-fist-king's-rebirth/chapters/chapter-62"
+      "error": "Requires purchase / locked"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "title": "Shindorim",
   "fromChapter": 0,
   "toChapter": 20,
-  "fetchedAt": "2026-07-25T18:55:22.946Z",
+  "fetchedAt": "2026-07-26T01:32:04.573Z",
   "source": "qimanga",
   "seriesSlug": "shindorim",
   "chapters": [
@@ -230,9 +230,18 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/shindorim/chapter-11",
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-11"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_11/09.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -241,9 +250,17 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/shindorim/chapter-12",
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-12"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_12/08.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -252,9 +269,17 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/shindorim/chapter-13",
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-13"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/hUCNkaYkET/chapter_13/08.webp"
+      ]
     },
     {
       "title": "Chapter 14",
@@ -281,9 +306,17 @@
       "chapterLabel": "15",
       "url": "https://qimanga.com/series/shindorim/chapter-15",
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-15",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-15"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_15/08.webp"
+      ]
     },
     {
       "title": "Chapter 16",
@@ -292,9 +325,16 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/shindorim/chapter-16",
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-16",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-16"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/shindorim/xkz0Yd9tNo/chapter_16/07.webp"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -305,7 +345,7 @@
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-17",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-17"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 18",
@@ -316,7 +356,7 @@
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-18",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-18"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 19",
@@ -327,7 +367,7 @@
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-19",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-19"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 20",
@@ -338,7 +378,7 @@
       "finalUrl": "https://qimanga.com/series/shindorim/chapter-20",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/shindorim/chapters/chapter-20"
+      "error": "Requires purchase / locked"
     }
   ]
 }

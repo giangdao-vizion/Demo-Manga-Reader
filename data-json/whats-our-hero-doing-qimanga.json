@@ -4,7 +4,7 @@
   "title": "What's Our Hero Doing?",
   "fromChapter": 1,
   "toChapter": 60,
-  "fetchedAt": "2026-07-25T19:19:57.110Z",
+  "fetchedAt": "2026-07-26T01:37:51.319Z",
   "source": "qimanga",
   "seriesSlug": "whats-our-hero-doing",
   "chapters": [
@@ -1154,9 +1154,28 @@
       "chapterLabel": "40",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-40",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-40",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-40"
+      "total": 19,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/11.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/12.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/13.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/14.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/15.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/16.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/17.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1fdebda3-66a6-4833-9787-49c6074c08a0/18.jpg"
+      ]
     },
     {
       "title": "Chapter 41",
@@ -1165,9 +1184,19 @@
       "chapterLabel": "41",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-41",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-41",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-41"
+      "total": 10,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/1100f16a-18b0-4c4c-a360-c887d1f9dd6f/9.jpg"
+      ]
     },
     {
       "title": "Chapter 42",
@@ -1176,9 +1205,21 @@
       "chapterLabel": "42",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-42",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-42",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-42"
+      "total": 12,
+      "images": [
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/0.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/1.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/2.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/3.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/4.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/5.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/6.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/7.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/8.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/9.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/10.jpg",
+        "https://media.quantumscans.org/file/13VSBnk1m/uploads/series/whats-our-hero-doing/03bc9722-1a4a-482d-99af-6e108ccc067b/11.jpg"
+      ]
     },
     {
       "title": "Chapter 43",
@@ -1187,9 +1228,20 @@
       "chapterLabel": "43",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-43",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-43",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-43"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/6cy1I62RMe/11.webp"
+      ]
     },
     {
       "title": "Chapter 44",
@@ -1198,9 +1250,19 @@
       "chapterLabel": "44",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-44",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-44",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-44"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/pQBaqvQTpa/10.webp"
+      ]
     },
     {
       "title": "Chapter 45",
@@ -1209,9 +1271,20 @@
       "chapterLabel": "45",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-45",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-45",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-45"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/whats-our-hero-doing/mkkScPiTpT/11.webp"
+      ]
     },
     {
       "title": "Chapter 46",
@@ -1220,9 +1293,20 @@
       "chapterLabel": "46",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-46",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-46",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-46"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/nDmSm9uZH6/11.webp"
+      ]
     },
     {
       "title": "Chapter 47",
@@ -1231,9 +1315,20 @@
       "chapterLabel": "47",
       "url": "https://qimanga.com/series/whats-our-hero-doing/chapter-47",
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-47",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-47"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/whats-our-hero-doing/NEtomctB2u/11.webp"
+      ]
     },
     {
       "title": "Chapter 48",
@@ -1244,7 +1339,7 @@
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-48",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-48"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 49",
@@ -1255,7 +1350,7 @@
       "finalUrl": "https://qimanga.com/series/whats-our-hero-doing/chapter-49",
       "total": 0,
       "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/whats-our-hero-doing/chapters/chapter-49"
+      "error": "Requires purchase / locked"
     },
     {
       "title": "Chapter 50",

@@ -4,7 +4,7 @@
   "title": "The Margrave’s Worthless Mage",
   "fromChapter": 1,
   "toChapter": 20,
-  "fetchedAt": "2026-07-25T18:54:43.473Z",
+  "fetchedAt": "2026-07-26T01:35:47.930Z",
   "source": "qimanga",
   "seriesSlug": "the-margraves-worthless-mage",
   "chapters": [
@@ -15,9 +15,37 @@
       "chapterLabel": "1",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-1",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-1",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-1"
+      "total": 28,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/nN38X0A3EQ/9RfzTG/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/LSpNyv2Edf/1KDSs5/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZaOneAqe8n/Uo8o-l/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/bZTrsvgvq3/v_oPN6/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/BD75rVN6Sw/QlhfqP/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/JbvEz3SCii/p-HDqI/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/y2ijn_gPo7/QZGeiC/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZMRn7Ja_DR/gXe9_3/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/YkdpVsHxG8/pPhtD1/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/cQQrGBaaqF/B8YgxF/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/YCQ64201QH/jigo1a/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/KpkSozwKlK/CNHpnk/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/cJgWG6nwcl/CttIAH/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/o13pXDPsV5/hmmo2u/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZmZOrxL8gZ/g774QB/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ocsd7fn9Ah/mhoVN7/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/6nGGZNxsJw/0tdMC5/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/BCJ7FUBIhd/zOOCX7/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/7zoOI4mzsk/uY7KYT/18.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/PnrfKSswqm/5mzcVj/19.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/qAOcaz-ewm/hAuKgY/20.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/E5fsfkiCKU/KsL02y/21.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/fUIE3XTZAK/tQmUZy/22.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/45OsXJ7hGT/2zu0sJ/23.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ipysWftyB3/sh742h/24.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/5In0mmWSBQ/922CyL/25.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/QIGpIZhwe4/wTxjZf/26.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ETBbhSHX98/85XLim/27.webp"
+      ]
     },
     {
       "title": "Chapter 2",
@@ -26,9 +54,26 @@
       "chapterLabel": "2",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-2",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-2",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-2"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/JLdfKVvu2l/JArv_a/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/d68sZXQfbe/vbr1uC/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/OqdM5JMecS/zNtFtA/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZVit7TRa0G/uK4D13/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/24sQ4xysc0/bw8nge/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/GREia_MUPg/CDAtEi/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZOOo2JwohC/1Rh9XI/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/vYy6mm5Wx2/B3_RJq/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/_zwnB_zA1Z/5a_Bse/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/f9D112eoPE/gdtq5T/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Fw1RP-zGIO/VXgoI7/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/TjL7JCH4jS/7yvoZ_/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/aCu6x_cwGL/EKZOxW/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/OXCvK4hlbZ/G76Rhu/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/RM9LcLuEQS/zlDK0f/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/FytKoVLNlp/iBh0qT/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/vQ_mO-zmfJ/ngAWKw/16.webp"
+      ]
     },
     {
       "title": "Chapter 3",
@@ -65,9 +110,29 @@
       "chapterLabel": "4",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-4",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-4",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-4"
+      "total": 20,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/TSngdn1wfR/WmmQWz/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/mFguZe1pnq/Kld64c/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/W0DkZ_kwQb/ogLLhX/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Rv87vU7gDF/M0eSdi/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/M_GCISA58A/pxIwf-/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/eOHIAYv-uY/ygEc2U/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/g_bDbkmEf2/pmDgQ_/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/TExQDqM8fj/lmBDQ3/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/sytv7rODH8/uNCG5t/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/H1OdX4CDcO/DluksJ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/qj0MF7selm/PDZUgI/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/khk51l4UF-/RHsMoq/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/oCvSEyJx7f/NutO7I/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/lXDTXL4hwq/6cxJD3/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/g2JmLHxvAP/ttz459/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/juM9-J8d6s/-_9pqH/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/zMiUFg29DF/d1o-Y6/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/wT0Q0I55Ke/kfFJyL/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/iB7v4JWwHA/-uHKil/18.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Ktekw57onf/Gzi-RC/19.webp"
+      ]
     },
     {
       "title": "Chapter 5",
@@ -108,9 +173,26 @@
       "chapterLabel": "6",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-6",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-6",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-6"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Xy1elqCLal/TxQR7W/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/lb7X1Q8I1j/THfBZR/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/kcluHzcH7L/Ybuy_u/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZETAo0HFOd/XkIApT/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/rS-mzsh_uV/-BHTAL/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/2RUiZUBju9/q-Rd-m/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ZxBGzhjFnc/_jEbw_/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/o_veqyEAeT/J-cIlS/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ODJnspd52K/1x6bni/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/G7VodkSd_E/NPgeDR/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/wFT4vBc78w/spQkEp/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/XJoFL647JX/jWKF4G/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/M0yJMSKDgi/NHmExl/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/PCFqEJCRC4/m8O8gj/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/LbyTiIdglM/DjB4VY/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/OZffQdy5GN/XdHLMo/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/83hd_PUyjG/fa2RgJ/16.webp"
+      ]
     },
     {
       "title": "Chapter 7",
@@ -119,9 +201,22 @@
       "chapterLabel": "7",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-7",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-7",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-7"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/_abLjhBhLN/XGI2Qg/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/93fZ-qnKZH/GxgWgK/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/e8fFqim6Od/QwL8D8/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Z6xRuaDA8Q/C33Tn_/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/7fpRGf1G8Y/LluHH1/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/2EI7-2BHwB/QFFWh3/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/QOkOIge8hG/vVpsZA/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/wzxnfoKOiN/ZVIHjb/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/yb3uEXX0-P/5wBMWk/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/QhmA1LObrZ/JI3AFn/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/oNZwg9uEA-/DtOGsE/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/2VkLGwoooz/TBNlME/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/LQehDZS-1C/XkWvGb/12.webp"
+      ]
     },
     {
       "title": "Chapter 8",
@@ -130,9 +225,26 @@
       "chapterLabel": "8",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-8",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-8",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-8"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/yvefOh8rmh/7kITQ9/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/nvAvG6mXsR/Tlubtg/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/MWAzUxxL2R/pqfTxq/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/fR-Igwe4Qv/mizDH8/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/OgNJjVZzSR/ut6_8r/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/UG0hNOq14L/hlC7wL/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/yFtiljA1yw/inY-gy/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/X7pCH3GieD/H0_pFi/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/6Ew8-nyBcM/feaWlQ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/37ORtF1CPc/8BZsG9/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/GB9w0hK4ds/ivwhPm/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/DMRj939kXF/iFvRQB/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/MEWCVxtQGc/hZXGej/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/W11Y_l0j61/H10bsM/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/zJ_2Gpw2n2/jlO0mr/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/_kWTQGO6ul/vZd3dn/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/HPLXvxCQT5/2o0L2a/16.webp"
+      ]
     },
     {
       "title": "Chapter 9",
@@ -141,9 +253,23 @@
       "chapterLabel": "9",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-9",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-9",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-9"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Wphe62bfGx/Sy8JE9/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/5DvKh9Wobw/LlnP2G/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/fBRWlFVi1Z/2kEaKn/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/6yvJUs3JMC/H_Nt6o/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/gFS3Nzc4cf/5PMz_y/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/d9222Fl7ty/Pb88mO/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/T0jhBdH-A7/9TzY8C/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/eqxFTNmh45/2tbK3x/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ebZkx6hx4i/H1DUxw/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/dgu5zvJVb4/rLxkpf/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/x-F_Orxfua/N7VHzp/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/r96s7Zx625/xARUvH/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/EV1bcthqTj/6_UFLD/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/yjyn-aecwJ/ySmn-g/13.webp"
+      ]
     },
     {
       "title": "Chapter 10",
@@ -178,9 +304,23 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-11",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-11"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/EQu1P1L94E/dD2Gp1/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/F19uy38hTG/-v8DPJ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/BiyIOSGPk9/04eQLa/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/-W7n0JiQH6/mTpzOG/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Xknfak0bRY/qYI5Mo/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/csqTRPOChP/ViwHUk/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Q6ejuFyxD3/zqoTEK/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/dPfvRUEu4Z/JCSKvL/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/6iyihiy91T/8fbzgd/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/lh_912nUvZ/bm1D8k/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/o4VLa398Oq/5SE1Ng/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/tLNKz_0VyC/fwAKir/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/5XuAmIiXh6/PrOtgg/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Ap_poVfOYw/XmF-Ac/13.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -189,9 +329,23 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-12",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-12"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Bu07j1EYM5/vHVlyh/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/QJEq8t2NKo/HmtAAX/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/SotK1u238l/upzh_f/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/SD7Kb878UV/Tx2gwR/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/4n_qM_Ubw2/_Zxa03/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/0DPon6cwNr/CX4dp-/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/8w5VLiXOV7/2Q9q-t/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/vT954oJMUf/aYjh6K/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/Yult8CeXyn/vKquIi/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/zQEi_TYIlL/VvJqYt/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/T3SvJprJ-3/OVAfx1/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/zbNbAILNS9/1EHmTK/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/e2o_9TvHCy/i7KYwV/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/4xCjowFIoP/0va7an/13.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -200,9 +354,22 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-13",
       "finalUrl": "https://qimanga.com/series/the-margraves-worthless-mage/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-margraves-worthless-mage/chapters/chapter-13"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/fBQyKZNqZ0/oFotZy/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/XNUv1kOpL8/ZzL1BT/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/RxxNVU1b6Q/4HQan2/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/OaP9_El6AQ/EL0mqb/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/rZvNtLmI-7/5V7iG-/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/xSU6x3uFBj/TFXTPU/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/ePvD_tknsr/vkVNBT/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/gAY6wI-cRB/FluKa8/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/8ScHcER8bm/SK14CB/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/vOjNNa9dSm/lQf-qc/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/3AWmazOhEA/O-R3vE/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/y03ZHM2gRG/GMZASd/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-margraves-worthless-mage/NI4D3DcbL4/xn95yE/12.webp"
+      ]
     },
     {
       "title": "Chapter 14",

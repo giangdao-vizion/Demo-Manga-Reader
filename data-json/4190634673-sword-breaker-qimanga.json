@@ -4,7 +4,7 @@
   "title": "Sword Breaker",
   "fromChapter": 1,
   "toChapter": 55,
-  "fetchedAt": "2026-07-25T17:16:26.918Z",
+  "fetchedAt": "2026-07-26T01:13:03.910Z",
   "source": "qimanga",
   "seriesSlug": "4190634673-sword-breaker",
   "chapters": [
@@ -1351,9 +1351,25 @@
       "chapterLabel": "49",
       "url": "https://qimanga.com/series/4190634673-sword-breaker/8781815493-sword-breaker-chapter-49",
       "finalUrl": "https://qimanga.com/series/4190634673-sword-breaker/8781815493-sword-breaker-chapter-49",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-sword-breaker/chapters/8781815493-sword-breaker-chapter-49"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-94832/page_016.webp"
+      ]
     },
     {
       "title": "Chapter 50",
@@ -1439,9 +1455,24 @@
       "chapterLabel": "53",
       "url": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-53",
       "finalUrl": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-53",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-sword-breaker/chapters/sword-breaker-chapter-53"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-99725/page_015.webp"
+      ]
     },
     {
       "title": "Chapter 54",
@@ -1450,9 +1481,23 @@
       "chapterLabel": "54",
       "url": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-54",
       "finalUrl": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-54",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-sword-breaker/chapters/sword-breaker-chapter-54"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-101196/page_014.webp"
+      ]
     },
     {
       "title": "Chapter 55",
@@ -1461,9 +1506,26 @@
       "chapterLabel": "55",
       "url": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-55",
       "finalUrl": "https://qimanga.com/series/4190634673-sword-breaker/sword-breaker-chapter-55",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-sword-breaker/chapters/sword-breaker-chapter-55"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-sword-breaker/wp-102107/page_017.webp"
+      ]
     }
   ]
 }

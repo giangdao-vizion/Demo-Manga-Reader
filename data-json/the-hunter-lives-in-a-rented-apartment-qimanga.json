@@ -4,7 +4,7 @@
   "title": "The Hunter Lives In A rented Apartment",
   "fromChapter": 1,
   "toChapter": 34,
-  "fetchedAt": "2026-07-25T19:04:02.009Z",
+  "fetchedAt": "2026-07-26T01:35:43.310Z",
   "source": "qimanga",
   "seriesSlug": "the-hunter-lives-in-a-rented-apartment",
   "chapters": [
@@ -528,9 +528,22 @@
       "chapterLabel": "21",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-21",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-21",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-21"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/KMQFlfK1D2/12.webp"
+      ]
     },
     {
       "title": "Chapter 22",
@@ -539,9 +552,21 @@
       "chapterLabel": "22",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-22",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-22",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-22"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/XfPzYbviNR/11.webp"
+      ]
     },
     {
       "title": "Chapter 23",
@@ -550,9 +575,25 @@
       "chapterLabel": "23",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-23",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-23",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-23"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/1Ymx2Nltfz/15.webp"
+      ]
     },
     {
       "title": "Chapter 24",
@@ -561,9 +602,24 @@
       "chapterLabel": "24",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-24",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-24",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-24"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/the-hunter-lives-in-a-rented-apartment/BuaG7WWbiy/14.webp"
+      ]
     },
     {
       "title": "Chapter 25",
@@ -572,9 +628,27 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-25",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-25"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/Ip18Y2nlNO/18.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -583,9 +657,20 @@
       "chapterLabel": "26",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-26",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-26",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-26"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/2d6ProVW6c/11.webp"
+      ]
     },
     {
       "title": "Chapter 27",
@@ -594,9 +679,20 @@
       "chapterLabel": "27",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-27",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-27",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-27"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/the-hunter-lives-in-a-rented-apartment/ZX1GvSxYQk/11.webp"
+      ]
     },
     {
       "title": "Chapter 28",
@@ -605,9 +701,21 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-28",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-28"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/NgACXOxsiV/12.webp"
+      ]
     },
     {
       "title": "Chapter 29",
@@ -616,9 +724,21 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-29",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-29"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/hiWRSXkif1/12.webp"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -627,9 +747,20 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-30",
       "finalUrl": "https://qimanga.com/series/the-hunter-lives-in-a-rented-apartment/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-hunter-lives-in-a-rented-apartment/chapters/chapter-30"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-hunter-lives-in-a-rented-apartment/cCO1knCkJZ/11.webp"
+      ]
     },
     {
       "title": "Chapter 31",

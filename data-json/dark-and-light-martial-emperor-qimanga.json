@@ -4,7 +4,7 @@
   "title": "Dark and Light Martial Emperor",
   "fromChapter": 1,
   "toChapter": 53,
-  "fetchedAt": "2026-07-25T19:16:13.885Z",
+  "fetchedAt": "2026-07-26T01:18:22.984Z",
   "source": "qimanga",
   "seriesSlug": "dark-and-light-martial-emperor",
   "chapters": [
@@ -228,9 +228,24 @@
       "chapterLabel": "9",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-9-activating-the-four-gods",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-9-activating-the-four-gods",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-9-activating-the-four-gods"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-9/14.webp"
+      ]
     },
     {
       "title": "Chapter 10",
@@ -239,9 +254,27 @@
       "chapterLabel": "10",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-10-the-properties-of-ki",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-10-the-properties-of-ki",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-10-the-properties-of-ki"
+      "total": 18,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/15.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/16.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-10/17.webp"
+      ]
     },
     {
       "title": "Chapter 11",
@@ -250,9 +283,25 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-11-the-gathering-of-the-successors",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-11-the-gathering-of-the-successors",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-11-the-gathering-of-the-successors"
+      "total": 16,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-11/15.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -261,9 +310,22 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-12-confirming-process",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-12-confirming-process",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-12-confirming-process"
+      "total": 13,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-12/12.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -272,9 +334,24 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-13-three-way-encounter",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-13-three-way-encounter",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-13-three-way-encounter"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-13/14.webp"
+      ]
     },
     {
       "title": "Chapter 14",
@@ -283,9 +360,21 @@
       "chapterLabel": "14",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-14-defense",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-14-defense",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-14-defense"
+      "total": 12,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-14/11.webp"
+      ]
     },
     {
       "title": "Chapter 15",
@@ -294,9 +383,26 @@
       "chapterLabel": "15",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-15-the-lightning-knight-chooseong",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-15-the-lightning-knight-chooseong",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-15-the-lightning-knight-chooseong"
+      "total": 17,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/15.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-15/16.webp"
+      ]
     },
     {
       "title": "Chapter 16",
@@ -305,9 +411,25 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-16-three-strikes",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-16-three-strikes",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-16-three-strikes"
+      "total": 16,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-16/15.webp"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -316,9 +438,28 @@
       "chapterLabel": "17",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-17-reason-to-fight-1",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-17-reason-to-fight-1",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-17-reason-to-fight-1"
+      "total": 19,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/14.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/15.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/16.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/17.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-17/18.webp"
+      ]
     },
     {
       "title": "Chapter 18",
@@ -327,9 +468,24 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-18-reason-to-fight-2",
       "finalUrl": "https://qimanga.com/series/dark-and-light-martial-emperor/chapter-18-reason-to-fight-2",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/dark-and-light-martial-emperor/chapters/chapter-18-reason-to-fight-2"
+      "total": 15,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/0.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/1.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/2.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/3.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/4.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/5.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/6.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/7.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/8.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/9.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/10.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/11.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/12.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/13.webp",
+        "https://media.qimanga.com/file/qiscans/scraper/dark-and-light-martial-emperor/ch-18/14.webp"
+      ]
     },
     {
       "title": "Chapter 19",

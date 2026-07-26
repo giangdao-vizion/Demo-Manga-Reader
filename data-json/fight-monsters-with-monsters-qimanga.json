@@ -4,7 +4,7 @@
   "title": "Fight Monsters with Monsters",
   "fromChapter": 1,
   "toChapter": 34,
-  "fetchedAt": "2026-07-25T19:03:23.407Z",
+  "fetchedAt": "2026-07-26T01:19:12.435Z",
   "source": "qimanga",
   "seriesSlug": "fight-monsters-with-monsters",
   "chapters": [
@@ -455,9 +455,24 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-18",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-18",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-18"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/8c66XLH3zW/b3KGP-/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/dqAJUZjxXU/hSks9s/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/PaPmk5Fq-u/QqbXg-/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/vYMsSdWE83/6I_o05/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/V5G1tIdHFd/HwaJUm/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/oH2_r4q8uO/oMJKiX/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/IdvNg9WESf/AU8W_0/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/WKItOaFl8b/SmYGm0/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/Le5Od6Yvko/arjv1i/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/E9YMWsjE_B/vKHH7U/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/HbeOs1V_Mx/hBPiWv/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/bDtUTKyaon/bLJ3UE/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/3wY3iga19E/KlVsId/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/lupAZ6l9t2/REnaGY/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/US9lV-bH2k/F24n6K/14.webp"
+      ]
     },
     {
       "title": "Chapter 19",
@@ -489,9 +504,22 @@
       "chapterLabel": "20",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-20",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-20",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-20"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/6FdjlHD7ck/WBTKqz/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/_eXeY2gMAL/QJx6sM/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/-GvFoWIp6e/skcUtM/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/UTb7P1OHQ-/wJMrac/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/0jdavFTAv2/MDCJxL/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/WA1gUrY6R-/E9ZTMw/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/FTKOKOD8bH/15L0dl/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/y4uXSmWGiA/-Acbt_/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/b1ZLof9P7t/roGOwP/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/vL6uJl_HAs/2hix-C/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/LNV-rU98jq/WvyewX/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/rIOvlhAVoX/lXHkhz/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/38RGECLNIa/2gVUl3/12.webp"
+      ]
     },
     {
       "title": "Chapter 21",
@@ -500,9 +528,22 @@
       "chapterLabel": "21",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-21",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-21",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-21"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/wqlQiJv3Cn/8N1NnA/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/XIjYhGQoin/DXTJih/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/pwkMvsQq9r/X3WFv1/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/ZKCZgMgmeV/LQdtHz/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/5UuXt_5aXf/QHbYDi/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/Wn3CGV5JC6/HBJg8_/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/yqQ4Fte9Ob/Prmkfo/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/yEARdHJmkS/Ewj7TS/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/x8za82l0jP/tP73c3/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/mkGNKDSI1M/imIwCp/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/79fvJb4oif/DRS4o-/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/r7NbL2bqpf/iAygb9/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/lSoC4HAzi9/x7Z3RN/12.webp"
+      ]
     },
     {
       "title": "Chapter 22",
@@ -511,9 +552,24 @@
       "chapterLabel": "22",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-22",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-22",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-22"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/zWMZGbNOwu/7TBzlk/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/lWeBEWEmC3/tQZXgq/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/k8IACsbg3o/SG7S7p/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/S_AXc_CxDc/6OMpNl/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/nDVCJfXzJp/cnAAHl/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/qp3_4SxjrV/QDiIt3/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/UR4AJHiRgp/4A-AVd/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/wg_h48aSh1/6aLNfn/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/zhi4yEG_sB/YWCzgE/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/9cmH7fxOBa/2lZH0y/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/W1U2OjN1tZ/xjD9eL/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/cOBdlF6X3h/-11Not/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/ZwDPdf-pUp/VhP0ts/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/3lQmtEh2Rm/y6C15P/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/ZZo_eyaabz/BJm-ms/14.webp"
+      ]
     },
     {
       "title": "Chapter 23",
@@ -522,9 +578,23 @@
       "chapterLabel": "23",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-23",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-23",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-23"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/uVdRbyRExM/QGz2Py/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/-YnwkRqzOa/_V5AjZ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/2KI7OTlaBH/Ir35sf/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/LoTuoQtDvI/QxAB9h/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/00R-Z62CKD/fsHfbW/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/_n-YmtdV-U/BpqWmC/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/AMLnen_7Lr/Qi_Y0Z/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/kaGXoT3A0z/VmJcwb/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/BC_t9M_4sn/HjGAne/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/SQVwIN4CKl/15577e/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/N1jGgqZ6X4/tkCfWC/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/XRUBmTmYbz/MpEt0i/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/5qZZ8GQRMq/UrD9jn/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/BdzewIqd9T/N169sU/13.webp"
+      ]
     },
     {
       "title": "Chapter 24",
@@ -533,9 +603,23 @@
       "chapterLabel": "24",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-24",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-24",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-24"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/svAZ0Z5Ctc/1ceUu2/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/AK7jpwpkWT/E9QH5z/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/54ltllPp5K/8MmnUL/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/YgXv4G1yXx/mEeKai/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/Mz7ipkTUVg/HpgyBh/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/9_q3qBV7y1/TskWDk/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/91eAQ65BzY/HVeEk2/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/5gvOVANRpF/5XDd6P/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/2InpNdyRaG/A4W3yA/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/gEkl46eXdR/dGiUsk/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/ANN3cyC53d/eYCNts/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/uFOUjbK1RZ/lEfNvA/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/d3-7oW9tcv/4b4QNP/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/cbhgysxZb_/vGTBfx/13.webp"
+      ]
     },
     {
       "title": "Chapter 25",
@@ -544,9 +628,22 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-25",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-25"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/KwLoVJd8gN/zQYV4w/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/uEFRyIoI7m/pEKAgu/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/K8PPX_xs39/0z6tFa/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/FmzcqYalnY/RHrxpX/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/TU18CaYaG-/410p0N/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/PvzOhUFGmr/7Glzu5/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/TSDUrrf_Vg/h6rz8v/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/u7EoPiu4Qc/4drLmN/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/0pRpVanYLc/6C5dFI/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/t1YNs3Aadd/kLbjeY/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/ZCYWbHbfpJ/fgu0Lj/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/SICz9OjqAa/D8JQNn/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/x71XDbc7GT/wQC1hj/12.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -555,9 +652,23 @@
       "chapterLabel": "26",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-26",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-26",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-26"
+      "total": 14,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/2026/06/12/1781285876736-PAFxm1-new_up_to-copy-3.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/lOGybB2183/8U7Emy/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/AqxIbf7LhM/vdvqpq/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/4erT1ZizZf/BkdgBX/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/NZ4fnwiyap/9izS08/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/Xv2aYTPEbY/K0WCto/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/lMUJCQqua1/TmKxBS/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/8dbY9vWeqQ/rWjEi7/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/hQKzyYw5XF/GcQ2Tg/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/T6pmPxkxUt/qcKy1m/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/rjOG6BSnfC/L82xEf/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/xuTe6h5ydB/cW67oV/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/TxgRAbMsCU/39xb1k/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/fight-monsters-with-monsters/rXdnBsHFvl/xL80rI/12.webp"
+      ]
     },
     {
       "title": "Chapter 27",
@@ -566,9 +677,23 @@
       "chapterLabel": "27",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-27",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-27",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-27"
+      "total": 14,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/FAbzqNRRxk/m02DV3/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/-JzAcrNtHv/uU5opn/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/1C5Ph6AzFd/EydikD/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/71Qwyj0hWU/7qeuT1/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/dix2aeuhum/AUA6EC/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/iBEmWsMAHE/Mmm9Hn/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/R7oTYxGTC4/8B8Ggb/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/sbpHannCqT/vuAWGd/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/Av2GlCoCw-/yVAHAm/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/UtjLdGh-j3/bnL18O/09.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/UHCEy9PMLz/6CX-r0/10.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/_jerJXMxBP/HmP52C/11.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/vKhnDfybez/1wT-Es/12.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/7jK8djMH7s/V6ACq0/13.webp"
+      ]
     },
     {
       "title": "Chapter 28",
@@ -577,9 +702,23 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-28",
       "finalUrl": "https://qimanga.com/series/fight-monsters-with-monsters/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/fight-monsters-with-monsters/chapters/chapter-28"
+      "total": 14,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/MZfKd9ZQg_/p90s3e/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/JLkeZifewM/vJP6wh/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/Z6br_qypMF/qSuGGR/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/Xir0zq1BgJ/XzC-9B/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/MBHvAy284v/XOklpL/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/LIyDe4ZDU7/Vn6Bk7/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/3c6d3PNv_5/YGGnUd/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/3vm1Zon3xC/u3dPOl/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/P_H8xwyOkf/aJ3lsl/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/b69H-RS5x7/sORNDm/09.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/OkVd19MkAF/RSm4nh/10.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/pfDtlpKxcC/gRG5Pr/11.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/AeVP_kf7LP/81iwNE/12.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/fight-monsters-with-monsters/SAK64paxyP/csytQ1/13.webp"
+      ]
     },
     {
       "title": "Chapter 29",

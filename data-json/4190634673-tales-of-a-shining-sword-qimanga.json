@@ -4,7 +4,7 @@
   "title": "Tales of A Shining Sword",
   "fromChapter": 1,
   "toChapter": 129,
-  "fetchedAt": "2026-07-25T19:38:45.110Z",
+  "fetchedAt": "2026-07-26T01:13:07.088Z",
   "source": "qimanga",
   "seriesSlug": "4190634673-tales-of-a-shining-sword",
   "chapters": [
@@ -188,9 +188,15 @@
       "chapterLabel": "10",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shining-sword-chapter-10",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shining-sword-chapter-10",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shining-sword-chapter-10"
+      "total": 6,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28019/page_006.jpg"
+      ]
     },
     {
       "title": "Chapter 11",
@@ -250,9 +256,16 @@
       "chapterLabel": "14",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shining-sword-chapter-14",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shining-sword-chapter-14",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shining-sword-chapter-14"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28112/page_008.jpg"
+      ]
     },
     {
       "title": "Chapter 15",
@@ -261,9 +274,17 @@
       "chapterLabel": "15",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-15",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-15",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-15"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_007.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28131/page_008.jpg"
+      ]
     },
     {
       "title": "Chapter 16",
@@ -272,9 +293,17 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-16",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-16",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-16"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_007.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28877/page_008.jpg"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -283,9 +312,16 @@
       "chapterLabel": "17",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-17",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-17",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-17"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28885/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 18",
@@ -294,9 +330,16 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-18",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-18",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-18"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28886/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 19",
@@ -305,9 +348,16 @@
       "chapterLabel": "19",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-19",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-19",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-19"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-28887/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 20",
@@ -316,9 +366,16 @@
       "chapterLabel": "20",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-20",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-20",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-20"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29381/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 21",
@@ -327,9 +384,16 @@
       "chapterLabel": "21",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-21",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-21",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-21"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29387/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 22",
@@ -338,9 +402,16 @@
       "chapterLabel": "22",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-22",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/8781815493-tales-of-a-shinning-sword-chapter-22",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/8781815493-tales-of-a-shinning-sword-chapter-22"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_001.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_002.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_003.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_004.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_005.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_006.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-29389/page_007.jpg"
+      ]
     },
     {
       "title": "Chapter 23",
@@ -2245,9 +2316,32 @@
       "chapterLabel": "82",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-82",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-82",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-82"
+      "total": 23,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_018.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_019.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_020.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_021.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_022.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112438/page_023.webp"
+      ]
     },
     {
       "title": "Chapter 83",
@@ -2256,9 +2350,30 @@
       "chapterLabel": "83",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-83",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-83",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-83"
+      "total": 21,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_018.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_019.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_020.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-112968/page_021.webp"
+      ]
     },
     {
       "title": "Chapter 84",
@@ -2267,9 +2382,26 @@
       "chapterLabel": "84",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-84",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-84",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-84"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113142/page_017.webp"
+      ]
     },
     {
       "title": "Chapter 85",
@@ -2278,9 +2410,28 @@
       "chapterLabel": "85",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-85",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-85",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-85"
+      "total": 19,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_018.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113320/page_019.webp"
+      ]
     },
     {
       "title": "Chapter 86",
@@ -2289,9 +2440,25 @@
       "chapterLabel": "86",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-86",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-86",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-86"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-113865/page_016.webp"
+      ]
     },
     {
       "title": "Chapter 87",
@@ -2300,9 +2467,26 @@
       "chapterLabel": "87",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-87",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-87",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-87"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-114084/page_017.webp"
+      ]
     },
     {
       "title": "Chapter 88",
@@ -2311,9 +2495,26 @@
       "chapterLabel": "88",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-88",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-88",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-88"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115014/page_017.webp"
+      ]
     },
     {
       "title": "Chapter 89",
@@ -2322,9 +2523,27 @@
       "chapterLabel": "89",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-89",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-89",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-89"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115033/page_018.webp"
+      ]
     },
     {
       "title": "Chapter 90",
@@ -2333,9 +2552,27 @@
       "chapterLabel": "90",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-90",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-90",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-90"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-115990/page_018.webp"
+      ]
     },
     {
       "title": "Chapter 91",
@@ -2344,9 +2581,27 @@
       "chapterLabel": "91",
       "url": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-91",
       "finalUrl": "https://qimanga.com/series/4190634673-tales-of-a-shining-sword/tales-of-a-shining-sword-chapter-91",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673-tales-of-a-shining-sword/chapters/tales-of-a-shining-sword-chapter-91"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_017.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/4190634673-tales-of-a-shining-sword/wp-116490/page_018.webp"
+      ]
     },
     {
       "title": "Chapter 92",

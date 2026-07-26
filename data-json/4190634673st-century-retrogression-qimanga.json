@@ -4,7 +4,7 @@
   "title": "21st Century Retrogression",
   "fromChapter": 0,
   "toChapter": 65,
-  "fetchedAt": "2026-07-25T19:24:58.626Z",
+  "fetchedAt": "2026-07-26T01:14:47.127Z",
   "source": "qimanga",
   "seriesSlug": "4190634673st-century-retrogression",
   "chapters": [
@@ -1528,9 +1528,10 @@
       "chapterLabel": "60",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-60",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-60",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-60"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/8aXQkrwFwi/21Century_Chapter 60_01.webp"
+      ]
     },
     {
       "title": "Chapter 61",
@@ -1539,9 +1540,10 @@
       "chapterLabel": "61",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-61",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-61",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-61"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/5rgmO72IoT/chapter_61/21Century_Chapter 61_01.webp"
+      ]
     },
     {
       "title": "Chapter 62",
@@ -1550,9 +1552,10 @@
       "chapterLabel": "62",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-62",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-62",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-62"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/5rgmO72IoT/chapter_62/21Century_Chapter 62_01.webp"
+      ]
     },
     {
       "title": "Chapter 63",
@@ -1561,9 +1564,10 @@
       "chapterLabel": "63",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-63",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-63",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-63"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/5rgmO72IoT/chapter_63/21Century_Chapter 63_01.webp"
+      ]
     },
     {
       "title": "Chapter 64",
@@ -1572,9 +1576,10 @@
       "chapterLabel": "64",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-64",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-64",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-64"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/5rgmO72IoT/chapter_64/21Century_Chapter 64_01.webp"
+      ]
     },
     {
       "title": "Chapter 65",
@@ -1583,9 +1588,10 @@
       "chapterLabel": "65",
       "url": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-65",
       "finalUrl": "https://qimanga.com/series/4190634673st-century-retrogression/chapter-65",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/4190634673st-century-retrogression/chapters/chapter-65"
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/21st-century-retrogression/5rgmO72IoT/chapter_65/21Century_Chapter 65_01.webp"
+      ]
     }
   ]
 }

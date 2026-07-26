@@ -4,7 +4,7 @@
   "title": "Demonize",
   "fromChapter": 1,
   "toChapter": 42,
-  "fetchedAt": "2026-07-25T19:08:32.157Z",
+  "fetchedAt": "2026-07-26T01:18:24.724Z",
   "source": "qimanga",
   "seriesSlug": "demonize",
   "chapters": [
@@ -67,9 +67,11 @@
       "chapterLabel": "3",
       "url": "https://qimanga.com/series/demonize/chapter-3",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-3",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-3"
+      "total": 2,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/1CRWSz2hSv/00 DemonizeCred.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/1CRWSz2hSv/3-01.webp"
+      ]
     },
     {
       "title": "Chapter 4",
@@ -208,9 +210,18 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/demonize/chapter-11",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-11"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/q1YEOvT3hH/08.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -219,9 +230,18 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/demonize/chapter-12",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-12"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/7F3M6gAtlY/08.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -230,9 +250,17 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/demonize/chapter-13",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-13"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/UhO0I2CxDc/07.webp"
+      ]
     },
     {
       "title": "Chapter 14",
@@ -241,9 +269,17 @@
       "chapterLabel": "14",
       "url": "https://qimanga.com/series/demonize/chapter-14",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-14",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-14"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/demonize/lF45x5Dltd/07.webp"
+      ]
     },
     {
       "title": "Chapter 15",
@@ -252,9 +288,18 @@
       "chapterLabel": "15",
       "url": "https://qimanga.com/series/demonize/chapter-15",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-15",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-15"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/54AdlnLbOU/08.webp"
+      ]
     },
     {
       "title": "Chapter 16",
@@ -263,9 +308,16 @@
       "chapterLabel": "16",
       "url": "https://qimanga.com/series/demonize/chapter-16",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-16",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-16"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/rM6UxmpR10/07.webp"
+      ]
     },
     {
       "title": "Chapter 17",
@@ -274,9 +326,17 @@
       "chapterLabel": "17",
       "url": "https://qimanga.com/series/demonize/chapter-17",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-17",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-17"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F5xv43yb8h/08.webp"
+      ]
     },
     {
       "title": "Chapter 18",
@@ -285,9 +345,17 @@
       "chapterLabel": "18",
       "url": "https://qimanga.com/series/demonize/chapter-18",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-18",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-18"
+      "total": 8,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/F0V2CtSjiV/08.webp"
+      ]
     },
     {
       "title": "Chapter 19",
@@ -296,9 +364,16 @@
       "chapterLabel": "19",
       "url": "https://qimanga.com/series/demonize/chapter-19",
       "finalUrl": "https://qimanga.com/series/demonize/chapter-19",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/demonize/chapters/chapter-19"
+      "total": 7,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/demonize/WwkSl8Cqdt/07.webp"
+      ]
     },
     {
       "title": "Chapter 20",

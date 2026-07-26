@@ -4,7 +4,7 @@
   "title": "War Of The Corpses",
   "fromChapter": 1,
   "toChapter": 76,
-  "fetchedAt": "2026-07-25T19:28:47.491Z",
+  "fetchedAt": "2026-07-26T01:37:46.659Z",
   "source": "qimanga",
   "seriesSlug": "war-of-the-corpses",
   "chapters": [
@@ -1223,9 +1223,18 @@
       "chapterLabel": "53",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-53",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-53",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-53"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/01.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/02.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/03.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/04.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/08.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ly89U86sFr/09.webp"
+      ]
     },
     {
       "title": "Chapter 54",
@@ -1254,9 +1263,19 @@
       "chapterLabel": "55",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-55",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-55",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-55"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jGIFCgIlsA/10.webp"
+      ]
     },
     {
       "title": "Chapter 56",
@@ -1265,9 +1284,21 @@
       "chapterLabel": "56",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-56",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-56",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-56"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/2026/04/30/1777562922263-htR0tt-01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/biY3SDzlVO/11.webp"
+      ]
     },
     {
       "title": "Chapter 57",
@@ -1276,9 +1307,18 @@
       "chapterLabel": "57",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-57",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-57",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-57"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/NxNnUh9ZJw/09.webp"
+      ]
     },
     {
       "title": "Chapter 58",
@@ -1287,9 +1327,18 @@
       "chapterLabel": "58",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-58",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-58",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-58"
+      "total": 9,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/msFbL09g57/09.webp"
+      ]
     },
     {
       "title": "Chapter 59",
@@ -1298,9 +1347,20 @@
       "chapterLabel": "59",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-59",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-59",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-59"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/2026/05/20/1779285731094-t5IlyP-24594.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/rrB2kApr4M/mDRvha/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/f89CkMYoyU/KJR4rc/01.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Bdla2JjIQ9/bILtFF/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/2WlTLM1N7l/TnOD0s/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/S7F02YGO5n/oBx1oS/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/B0pMRCrmXG/qZubsR/05.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/VxCFlGVLwQ/4gHuwC/06.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/yjJPyAKBLy/cLBoOG/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/UJVJYrW2Bq/MTsUGB/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Mksjogdz4Q/Edgz5o/09.webp"
+      ]
     },
     {
       "title": "Chapter 60",
@@ -1309,9 +1369,19 @@
       "chapterLabel": "60",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-60",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-60",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-60"
+      "total": 10,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/2026/05/20/1779285752194-RTV-Uu-24594.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/jPtw-GUHtL/gJbwuI/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/E_Mt8e3vpw/Ik9l9i/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/qxQWe4_XXb/IectJD/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Antilh1_Oi/oaK1J_/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ZEAmhqZU4E/MSD-PU/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/e3QSnw7CZs/tADrO7/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/ZqG3LUTxEn/lZ4IUx/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/SQzykpUbhO/F7V5Oo/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/vCqpf03F_j/55gom1/08.webp"
+      ]
     },
     {
       "title": "Chapter 61",
@@ -1320,9 +1390,20 @@
       "chapterLabel": "61",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-61",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-61",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-61"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/2026/06/05/1780694516042-eb4Bw8-35500.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Wq7Y2xBYHy/OHe22m/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/fBQe23M58n/GsmXVe/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/qSRwZqFO65/Y-9kJl/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/YNC0Ct8Bv9/IZLZEV/03.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/zrE20N3FAY/2thla0/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/xtMxpIL210/l1BLPl/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/9NkjEELiSt/wDUMLi/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/pUukpSWCk_/IgijMO/07.jpg",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/0UtDf-BRZ6/7LqTEw/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/9SRRX8ImeL/EXaHIH/09.webp"
+      ]
     },
     {
       "title": "Chapter 62",
@@ -1331,9 +1412,21 @@
       "chapterLabel": "62",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-62",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-62",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-62"
+      "total": 12,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/2026/06/11/1781190048278-oeQpXm-new_up_to-copy-3.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Z3mkInhtRq/lab6o0/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/XMeAzOLXBt/xpNcJi/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/TmP1zkSpL3/RiVIKu/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/3RL_UkqTW9/OzGhvP/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/YpweHeJ8a5/fzPhox/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/YFgdiZi628/ZxiPQZ/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/5STMd0NlOo/WOGotM/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/hDTMM6o8Yf/ELAjLJ/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/O1Lr51k-s3/bvOSJM/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/PBjsssEk0n/SZtiqa/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/B81WgPgODL/Uuwmm2/10.webp"
+      ]
     },
     {
       "title": "Chapter 63",
@@ -1342,9 +1435,20 @@
       "chapterLabel": "63",
       "url": "https://qimanga.com/series/war-of-the-corpses/chapter-63",
       "finalUrl": "https://qimanga.com/series/war-of-the-corpses/chapter-63",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/war-of-the-corpses/chapters/chapter-63"
+      "total": 11,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/2026/06/15/1781542091686-RD-23J-38927.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/pyAxbgmL8l/eC3paN/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/p-INZQCZTo/4e3EWp/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/Yb3r9YAd8F/0oLJyi/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/aRPXXYHpA7/tQbPCg/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/PYFyUBcyN1/s_AzIU/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/AEctwzlDp_/B2U4YP/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/pl-DwO6n7E/45PtIv/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/O4ks25JIWS/7eWpvo/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/HiywdX0a5z/PgQMLW/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/war-of-the-corpses/9nFAt6B84Q/RxU0_n/09.webp"
+      ]
     },
     {
       "title": "Chapter 64",

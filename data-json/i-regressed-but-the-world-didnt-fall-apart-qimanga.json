@@ -4,7 +4,7 @@
   "title": "I Regressed but the World Didn’t Fall Apart",
   "fromChapter": 1,
   "toChapter": 54,
-  "fetchedAt": "2026-07-25T17:15:12.133Z",
+  "fetchedAt": "2026-07-26T01:21:09.278Z",
   "source": "qimanga",
   "seriesSlug": "i-regressed-but-the-world-didnt-fall-apart",
   "chapters": [
@@ -754,9 +754,25 @@
       "chapterLabel": "25",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-25",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-25",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-25"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/015.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/k7lIrRDkEF/016.webp"
+      ]
     },
     {
       "title": "Chapter 26",
@@ -765,9 +781,26 @@
       "chapterLabel": "26",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-26",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-26",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-26"
+      "total": 17,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/000.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/015.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/LUkznd9zwU/016.webp"
+      ]
     },
     {
       "title": "Chapter 27",
@@ -776,9 +809,25 @@
       "chapterLabel": "27",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-27",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-27",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-27"
+      "total": 16,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/000.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OzFTOWdxCY/015.webp"
+      ]
     },
     {
       "title": "Chapter 28",
@@ -787,9 +836,27 @@
       "chapterLabel": "28",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-28",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-28",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-28"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/015.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/016.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/017.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/OF14AIj6QV/018.webp"
+      ]
     },
     {
       "title": "Chapter 29",
@@ -798,9 +865,28 @@
       "chapterLabel": "29",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-29",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-29",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-29"
+      "total": 19,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/015.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/016.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/017.webp",
+        "https://media.qimanhwa.com/file/qiscans/public/upload/series/i-regressed-but-the-world-didnt-fall-apart/IbG6C9aX95/018.webp"
+      ]
     },
     {
       "title": "Chapter 30",
@@ -809,9 +895,27 @@
       "chapterLabel": "30",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-30",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-30",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-30"
+      "total": 18,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/000.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/014.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/015.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/016.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/NGCEHQfM5w/017.webp"
+      ]
     },
     {
       "title": "Chapter 31",
@@ -820,9 +924,23 @@
       "chapterLabel": "31",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-31",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-31",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-31"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/7JPBP4mmY3/14.webp"
+      ]
     },
     {
       "title": "Chapter 32",
@@ -831,9 +949,24 @@
       "chapterLabel": "32",
       "url": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-32",
       "finalUrl": "https://qimanga.com/series/i-regressed-but-the-world-didnt-fall-apart/chapter-32",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/i-regressed-but-the-world-didnt-fall-apart/chapters/chapter-32"
+      "total": 15,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/upload/series/i-regressed-but-the-world-didnt-fall-apart/b6ygyoHagC/15.webp"
+      ]
     },
     {
       "title": "Chapter 33",

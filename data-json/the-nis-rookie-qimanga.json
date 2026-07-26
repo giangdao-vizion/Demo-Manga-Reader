@@ -4,7 +4,7 @@
   "title": "The NIS Rookie",
   "fromChapter": 1,
   "toChapter": 15,
-  "fetchedAt": "2026-07-25T18:52:42.067Z",
+  "fetchedAt": "2026-07-26T01:35:49.589Z",
   "source": "qimanga",
   "seriesSlug": "the-nis-rookie",
   "chapters": [
@@ -64,9 +64,22 @@
       "chapterLabel": "2",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-2",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-2",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-2"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/nis-entry-level-employee/YEqRJNpHxs/013.webp"
+      ]
     },
     {
       "title": "Chapter 3",
@@ -75,9 +88,21 @@
       "chapterLabel": "3",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-3",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-3",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-3"
+      "total": 12,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/InzXgkUazM/012.webp"
+      ]
     },
     {
       "title": "Chapter 4",
@@ -111,9 +136,23 @@
       "chapterLabel": "5",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-5",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-5",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-5"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/013.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/23L7fDiWHO/014.webp"
+      ]
     },
     {
       "title": "Chapter 6",
@@ -122,9 +161,22 @@
       "chapterLabel": "6",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-6",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-6",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-6"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/002.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/003.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/004.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/005.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/006.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/007.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/008.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/009.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/010.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/011.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/012.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GfHJLon3JD/013.webp"
+      ]
     },
     {
       "title": "Chapter 7",
@@ -133,9 +185,22 @@
       "chapterLabel": "7",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-7",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-7",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-7"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/55-cHo2w8m/vAcXxy/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/ymgV1jiQBd/aqfP0_/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/WB9KIv-OZH/WvFFoz/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/e2rm0nQ4cX/mlNy6S/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/Y_A7kSIn2R/VJPJ4h/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/rAg79Fix4P/oDGTcS/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/sBpt2lqnvr/EuBaqD/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/BWdxIse-il/nNHOXu/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/FTyz88wqFu/_FdLIX/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/3aWbKepHXQ/g2Aokr/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/EBCzCxc3QX/EIU-NX/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/YGLRGOUmnM/8ek5_v/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/shsJBVyOvB/u5alXe/12.webp"
+      ]
     },
     {
       "title": "Chapter 8",
@@ -144,9 +209,22 @@
       "chapterLabel": "8",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-8",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-8",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-8"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/XvMSblK2Zg/0Jsigl/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/P8bJ3ynNKQ/w8aAPf/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/prz_9cTEVz/VKQTNF/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/CGo02HbaaK/4mjo9T/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/t3FrMdYk7H/Kdu-4l/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/J5IEqVvKFy/lxKu9w/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/aLK4v2UXOR/GlKziN/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/xRxsIpCUSt/Lk_g6i/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/qgFSWlSp-5/c70S2u/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/gJQRuGND0s/UvbB3z/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/TrpjWglFY1/tSJblx/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/oBxkY9Joo7/6tindD/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/Ac23sefo-g/ELK9pc/12.webp"
+      ]
     },
     {
       "title": "Chapter 9",
@@ -155,9 +233,22 @@
       "chapterLabel": "9",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-9",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-9",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-9"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/X1JFIzE3lR/J-Czon/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/TMW8uuW0mH/8p5KW6/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/F7nlAnoIhc/8Psy_7/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/D-MPYLhJLw/d4Bfpi/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/C_ok7QCqkx/buf4ln/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/82PbbOhkXH/tFQFGX/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/j-JpIeFcOg/VY2XAj/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/kvaQmp1mnB/UB_VaI/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/C0beu43arG/He6og3/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/bqF6yHqaED/zo8foo/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/5SEuoFaS3t/CK-0t7/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/qUE_2tZ0un/hr0YnJ/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/SCTlQeMIuE/JEqxaY/12.webp"
+      ]
     },
     {
       "title": "Chapter 10",
@@ -189,9 +280,22 @@
       "chapterLabel": "11",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-11",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-11",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-11"
+      "total": 13,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/PeduO7_NnI/fxygQg/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/2ybQiWEmny/bqDttD/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/GKVeuYvIr0/yAJsTn/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/XVgMsnxtVO/NwQkxq/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/qCNrPbE-Tc/4TX-Th/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/PO0bmmLpGk/GTygKh/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/wVYkzf66Qc/UCYwUA/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/7AtG2-S57y/QhQioj/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/T2B1w9dIWK/FT36wm/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/peEtXZyVvu/jfD8N5/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/yIa0DlTeW9/ZaB8ic/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/KTiUJKLdXy/nvb0Dr/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/lCf2e5z-l7/7o81hR/12.webp"
+      ]
     },
     {
       "title": "Chapter 12",
@@ -200,9 +304,23 @@
       "chapterLabel": "12",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-12",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-12",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-12"
+      "total": 14,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/piB-waWxLw/xSbt1m/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/LkKr2dxXC0/4KBZSQ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/bIZPHU9-z4/fkWVp1/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/mFUuZN_x5E/pS0Uyk/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/PQrg4cngMP/MD4Jo7/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/pg7ZvFbepR/cbFz7h/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/BE8BmgHLmP/ghqHVv/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/s08ogL6OrV/5Xvfoz/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/mv-PDNk37x/KjDpfx/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/oQKS5Drapp/VaZS6S/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/RkByxEgKSN/EqDbdo/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/3pW-wmm-B4/lKhKNk/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/6lNZDl5jUN/Cj2a7n/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/MGOHyWF_ur/B7DozH/13.webp"
+      ]
     },
     {
       "title": "Chapter 13",
@@ -211,9 +329,20 @@
       "chapterLabel": "13",
       "url": "https://qimanga.com/series/the-nis-rookie/chapter-13",
       "finalUrl": "https://qimanga.com/series/the-nis-rookie/chapter-13",
-      "total": 0,
-      "images": [],
-      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/the-nis-rookie/chapters/chapter-13"
+      "total": 11,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/crRuqe5d6R/sCao1n/00.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/tN2MLD40ef/-Bq6FQ/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/qjVil8Zx_t/Z6SNF7/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/-gFR8Yao_K/aFqdbm/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/nypSCzpVs7/Jn7w3l/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/zhXU_nFtlv/Oo54Bo/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/15NJVNwnSZ/-J36Xc/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/77tgqVz-ZH/dJvoGz/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/T2a91QYdFL/yCX9Vx/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/2kDvv2uOTU/GxTwVc/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/the-nis-rookie/tBc7k_TL74/z6Syay/10.webp"
+      ]
     },
     {
       "title": "Chapter 14",
