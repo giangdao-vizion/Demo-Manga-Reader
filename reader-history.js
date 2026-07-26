@@ -145,6 +145,35 @@
     }
   }
 
+  /** Xóa một bộ khỏi danh sách mới xem gần đây; clear resume nếu đang trỏ bộ đó. */
+  function removeRecent(dataFile) {
+    const file = normalizeDataFile(dataFile);
+    if (!file) return false;
+    let list = [];
+    try {
+      const raw = localStorage.getItem(RECENT_KEY);
+      if (raw) {
+        const j = JSON.parse(raw);
+        if (Array.isArray(j)) list = j;
+      }
+    } catch {
+      list = [];
+    }
+    const next = list.filter(function (row) {
+      if (!row || typeof row !== "object") return false;
+      return normalizeDataFile(row.dataFile) !== file;
+    });
+    try {
+      if (next.length) localStorage.setItem(RECENT_KEY, JSON.stringify(next));
+      else localStorage.removeItem(RECENT_KEY);
+    } catch {
+      /* quota */
+    }
+    const h = get();
+    if (h && h.dataFile === file) clear();
+    return true;
+  }
+
   function save(entry) {
     const dataFile = normalizeDataFile(entry && entry.dataFile);
     if (!dataFile) return;
@@ -373,6 +402,7 @@
     saveReader,
     touchRecent,
     listRecent,
+    removeRecent,
     getResumeForReader,
     pickDetailChapter,
     tryRedirectFromHome,

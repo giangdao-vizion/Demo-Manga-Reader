@@ -354,6 +354,88 @@
       fill: #e53935;
       stroke: #e53935;
     }
+    .recent-section .catalog-card__more {
+      top: calc(min(34vw, 118px) * 4 / 3 - 38px);
+      bottom: auto;
+      right: 6px;
+    }
+    .catalog-card__more {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      z-index: 4;
+      width: 32px;
+      height: 32px;
+      padding: 0;
+      margin: 0;
+      border: none;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: #fff;
+      font-size: 1.05rem;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .catalog-card__more:hover {
+      background: rgba(0, 0, 0, 0.65);
+      transform: scale(1.06);
+    }
+    .catalog-card__more:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .catalog-card__more[aria-expanded="true"] {
+      background: rgba(0, 0, 0, 0.75);
+    }
+    .catalog-card__menu {
+      position: absolute;
+      top: calc(min(34vw, 118px) * 4 / 3 - 6px);
+      right: 6px;
+      z-index: 6;
+      min-width: 148px;
+      padding: 4px;
+      margin: 0;
+      list-style: none;
+      border-radius: 10px;
+      border: 1px solid var(--stroke);
+      background: rgba(22, 22, 28, 0.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+    }
+    .catalog-card__menu[hidden] {
+      display: none;
+    }
+    .catalog-card__menu button {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 10px 12px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+      color: var(--text);
+      font: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+    }
+    .catalog-card__menu button:hover,
+    .catalog-card__menu button:focus-visible {
+      background: rgba(255, 255, 255, 0.08);
+      outline: none;
+    }
+    .catalog-card__menu button.is-danger {
+      color: #ff8a80;
+    }
 
     .catalog-section {
       margin-bottom: 22px;
@@ -783,11 +865,7 @@
       }
 
       function formatRecentReadLabel(entry) {
-        const ch = entry && entry.chapterId != null ? String(entry.chapterId).trim() : "";
-        const when = formatRelativeDayLabel(entry && entry.readAt, "");
-        if (ch && when) return "Ch." + ch + " · " + when;
-        if (ch) return "Ch." + ch;
-        return when || "—";
+        return formatRelativeDayLabel(entry && entry.readAt, "") || "Đã xem";
       }
 
       function loadRecentEntries() {
@@ -795,6 +873,22 @@
           return ComicHubHistory.listRecent(24);
         }
         return [];
+      }
+
+      function removeRecentSeries(dataFile) {
+        if (window.ComicHubHistory && ComicHubHistory.removeRecent) {
+          ComicHubHistory.removeRecent(dataFile);
+        }
+        renderRecentSection();
+      }
+
+      function closeAllRecentMenus(exceptMenu) {
+        document.querySelectorAll(".catalog-card__menu").forEach(function (menu) {
+          if (exceptMenu && menu === exceptMenu) return;
+          menu.hidden = true;
+          const btn = menu._moreBtn;
+          if (btn) btn.setAttribute("aria-expanded", "false");
+        });
       }
 
       function compareSeries(a, b, sortKey) {
@@ -949,12 +1043,18 @@
           return;
         }
         items.forEach(function (row) {
+          const readCh =
+            row.entry && row.entry.chapterId != null
+              ? String(row.entry.chapterId).trim()
+              : "";
           recentGrid.appendChild(
             renderCatalogCard(row.item, {
               metaText: formatRecentReadLabel(row.entry),
               metaTitle: row.entry.readAt
                 ? new Date(row.entry.readAt).toISOString()
                 : "",
+              chipChapter: readCh || null,
+              showRecentMenu: true,
             })
           );
         });
@@ -983,6 +1083,50 @@
           favoritesToggle(dataFile);
         });
         wrap.appendChild(favBtn);
+
+        if (options.showRecentMenu) {
+          const moreBtn = document.createElement("button");
+          moreBtn.type = "button";
+          moreBtn.className = "catalog-card__more";
+          moreBtn.setAttribute("aria-label", "Thêm thao tác");
+          moreBtn.setAttribute("aria-haspopup", "menu");
+          moreBtn.setAttribute("aria-expanded", "false");
+          moreBtn.textContent = "⋯";
+
+          const menu = document.createElement("ul");
+          menu.className = "catalog-card__menu";
+          menu.setAttribute("role", "menu");
+          menu.hidden = true;
+          menu._moreBtn = moreBtn;
+
+          const li = document.createElement("li");
+          li.setAttribute("role", "none");
+          const removeBtn = document.createElement("button");
+          removeBtn.type = "button";
+          removeBtn.className = "is-danger";
+          removeBtn.setAttribute("role", "menuitem");
+          removeBtn.textContent = "Xoá khỏi danh sách";
+          removeBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            closeAllRecentMenus();
+            removeRecentSeries(dataFile);
+          });
+          li.appendChild(removeBtn);
+          menu.appendChild(li);
+
+          moreBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const willOpen = menu.hidden;
+            closeAllRecentMenus(willOpen ? menu : null);
+            menu.hidden = !willOpen;
+            moreBtn.setAttribute("aria-expanded", willOpen ? "true" : "false");
+          });
+
+          wrap.appendChild(moreBtn);
+          wrap.appendChild(menu);
+        }
 
         const btn = document.createElement("button");
         btn.type = "button";
@@ -1038,16 +1182,18 @@
         body.appendChild(meta);
         const chips = document.createElement("div");
         chips.className = "catalog-card__chips";
-        const latestChapter =
-          item.toChapter != null && String(item.toChapter).trim() !== ""
-            ? item.toChapter
-            : item.chapterCount != null
-              ? item.chapterCount
-              : null;
-        if (latestChapter != null) {
+        const chipChapter =
+          options.chipChapter != null && String(options.chipChapter).trim() !== ""
+            ? String(options.chipChapter).trim()
+            : item.toChapter != null && String(item.toChapter).trim() !== ""
+              ? item.toChapter
+              : item.chapterCount != null
+                ? item.chapterCount
+                : null;
+        if (chipChapter != null) {
           const c1 = document.createElement("span");
           c1.className = "catalog-card__chip";
-          c1.textContent = "Ch." + latestChapter;
+          c1.textContent = "Ch." + chipChapter;
           chips.appendChild(c1);
         }
         if (chips.children.length) {
@@ -1186,6 +1332,15 @@
       catalogPageSize.addEventListener("change", function () {
         currentPage = 1;
         applyFilterAndSort();
+      });
+      document.addEventListener("click", function (e) {
+        if (e.target && e.target.closest && e.target.closest(".catalog-card__more, .catalog-card__menu")) {
+          return;
+        }
+        closeAllRecentMenus();
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeAllRecentMenus();
       });
 
       void loadManhwaCatalog();
