@@ -1711,15 +1711,26 @@
 
         el.main.appendChild(pages);
 
-        if (activeIndex < data.chapters.length - 1) {
+        {
           const footer = document.createElement("div");
           footer.className = "chapter-footer glass";
           const nextBtn = document.createElement("button");
           nextBtn.type = "button";
-          const nextCh = data.chapters[activeIndex + 1];
-          const nn = nextCh.chapter != null ? nextCh.chapter : activeIndex + 2;
-          nextBtn.textContent = "Chương tiếp — Ch." + nn;
-          nextBtn.addEventListener("click", () => setActive(activeIndex + 1));
+          if (activeIndex < data.chapters.length - 1) {
+            const nextCh = data.chapters[activeIndex + 1];
+            const nn = nextCh.chapter != null ? nextCh.chapter : activeIndex + 2;
+            nextBtn.textContent = "Chương tiếp — Ch." + nn;
+            nextBtn.addEventListener("click", () => setActive(activeIndex + 1));
+          } else {
+            nextBtn.textContent = "Quay về home";
+            nextBtn.addEventListener("click", function () {
+              if (window.ComicHubHistory && ComicHubHistory.clearAndNavigate) {
+                ComicHubHistory.clearAndNavigate("home.html");
+              } else {
+                location.href = "home.html";
+              }
+            });
+          }
           footer.appendChild(nextBtn);
           el.main.appendChild(footer);
         }
