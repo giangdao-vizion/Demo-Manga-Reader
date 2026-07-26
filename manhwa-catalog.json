@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T20:09:54.470Z",
+  "updatedAt": "2026-07-26T11:42:12.501Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5512,6 +5512,36 @@
       "coverUrl": "https://media.qimanga.com/file/qiscans/upload/2026/07/17/1784327775613-8LlWxD-51515.webp",
       "homeUrl": "https://qimanga.com/series/im-an-evil-god",
       "seriesSlug": "im-an-evil-god"
+    },
+    {
+      "dataFile": "hiep-khach-giang-ho-14771-dilib.json",
+      "title": "Hiệp khách giang hồ",
+      "displayTitle": "Hiệp khách giang hồ",
+      "subtitle": "Ch. 1–760 · hiep-khach-giang-ho-14771-dilib.json",
+      "source": "dilib",
+      "fromChapter": 1,
+      "toChapter": 760,
+      "chapterCount": 760,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn dilib.vn.",
+      "coverUrl": "https://dilib.vn/img/news/2024/03/larger/14771-hiep-khach-giang-ho-1.webp?v=8153",
+      "featured": false
+    },
+    {
+      "dataFile": "kingdom-vuong-gia-thien-ha-16176-dilib.json",
+      "title": "KINGDOM - VƯƠNG GIẢ THIÊN HẠ",
+      "displayTitle": "KINGDOM - VƯƠNG GIẢ THIÊN HẠ",
+      "subtitle": "Ch. 1–898 · kingdom-vuong-gia-thien-ha-16176-dilib.json",
+      "source": "dilib",
+      "fromChapter": 1,
+      "toChapter": 898,
+      "chapterCount": 898,
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn dilib.vn.",
+      "coverUrl": "https://dilib.vn/img/news/2024/08/larger/16176-kingdom-vuong-gia-thien-ha-1.webp?v=2373",
+      "featured": false
     }
   ]
 }
