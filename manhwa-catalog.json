@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T12:38:56.641Z",
+  "updatedAt": "2026-07-26T17:29:26.015Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -2167,7 +2167,7 @@
       "fromChapter": 1,
       "toChapter": 572,
       "chapterCount": 574,
-      "coverUrl": "https://www.mgeko.cc/media/manga_covers/7237.jpg"
+      "coverUrl": "https://imgsrv4.com/avatar/288x412/media/manga_covers/7237.jpg"
     },
     {
       "sqliteSeriesId": null,
