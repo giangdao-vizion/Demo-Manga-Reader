@@ -1,0 +1,135 @@
+{
+  "sampleUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-1",
+  "homeUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator",
+  "title": "Chronicles of the Yokai-Slaying Cultivator",
+  "fromChapter": 1,
+  "toChapter": 6,
+  "fetchedAt": "2026-07-25T18:49:45.522Z",
+  "source": "qimanga",
+  "seriesSlug": "chronicles-of-the-yokai-slaying-cultivator",
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "chapter": 1,
+      "chapterKey": "1",
+      "chapterLabel": "1",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-1",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-1",
+      "total": 16,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/WEF9R4d2ci/HpXmk0/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/wGXCJFEyda/MPG0qk/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/nTVV2uRMkG/gXwLHo/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/Uh9gQH5mFP/kvsblv/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/sevUHHrCge/6yPxMO/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/ldtiTsqDUL/tupRjO/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/P4Ds4mYmTE/BCNMy_/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/MLRZzDdssR/O-3gzj/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/5NhZnoLzc-/mmh6ro/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/AQ5s3djLZr/Vad7BW/09.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/ZR-wcdF0Tq/ytu8bJ/10.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/3SWK861DWe/nO61Sp/11.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/NG27Pctvzd/FSAwvO/12.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/ZvCaPEyK49/m8Aswe/13.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/fSas4n8_T6/KriCPq/14.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/EVxM2F_yq4/eODH2f/15.webp"
+      ]
+    },
+    {
+      "title": "Chapter 2",
+      "chapter": 2,
+      "chapterKey": "2",
+      "chapterLabel": "2",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-2",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-2",
+      "total": 10,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/2CiF8bTc8t/WnFz2r/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/XCnNDHQA2Y/umYthx/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/MuAC5DIS8L/W_nfG9/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/xWeoRTnLCv/onF_YV/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/uLBWyitBFR/qvVEPZ/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/gFfpiR7w2H/l1b5uD/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/4tE2zFCfgz/GAJQR4/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/v__A9gLUQS/pAuggH/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/zMQwjHfKwn/9NXVMl/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/PZ4oGhJkdk/2DkliC/09.webp"
+      ]
+    },
+    {
+      "title": "Chapter 3",
+      "chapter": 3,
+      "chapterKey": "3",
+      "chapterLabel": "3",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-3",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-3",
+      "total": 10,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/01H9-5ojHf/yX4FP7/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/yDJNzRoAxE/lw5zy3/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/aKlcIIUqNg/GwQ6Tm/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/r4jtmgk2T0/6MExrQ/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/4bHwJ1VSQz/ZoPPPH/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/0ye_XAM2tA/dVbnwi/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/KUW1aOVkZ8/4KEXpN/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/tq-wNtPBnR/dI9UX8/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/-3UPNukuvX/9db3Jl/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/lr4DXLi5-B/oAs-Uq/09.webp"
+      ]
+    },
+    {
+      "title": "Chapter 4",
+      "chapter": 4,
+      "chapterKey": "4",
+      "chapterLabel": "4",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-4",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-4",
+      "total": 10,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/Se9-QzzW46/gZwybZ/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/7Wo3md9exb/DW1XgX/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/JD5FZHa-5U/LdymIo/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/zEhLIe8pbX/te2B6E/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/dlSOSOQKRZ/8thWZv/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/lxD-iXidql/TSvHWG/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/yTx-PSKNyh/KPdCEc/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/iHM4--us0q/yChZG2/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/4gCDq2XLJ8/J1Cg99/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-demon-slaying-cultivator/sw8Diy8buT/8-7Wnm/09.webp"
+      ]
+    },
+    {
+      "title": "Chapter 5",
+      "chapter": 5,
+      "chapterKey": "5",
+      "chapterLabel": "5",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-5",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-5",
+      "total": 11,
+      "images": [
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/kQrMmZ49GZ/F-_rek/00.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/HU33JfnLVs/AIVDbI/01.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/qZla4KGZBY/X3-h-1/02.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/N2s73HWrpM/i8ujpF/03.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/1y1i9yTzXi/5d1U8_/04.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/AxsZOsr4OS/268AZV/05.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/bqp-e_RQOy/1-k3ko/06.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/hR2CKqCNGI/45UR2f/07.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/djhOSpAYej/nyJOg0/08.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/cxmOID7SWK/RKEl0b/09.webp",
+        "https://media.qimanga.com/file/qiscans/upload/series/chronicles-of-the-yokai-slaying-cultivator/ARAANJ0qAT/hWoTrr/10.webp"
+      ]
+    },
+    {
+      "title": "Chapter 6",
+      "chapter": 6,
+      "chapterKey": "6",
+      "chapterLabel": "6",
+      "url": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-6",
+      "finalUrl": "https://qimanga.com/series/chronicles-of-the-yokai-slaying-cultivator/chapter-6",
+      "total": 0,
+      "images": [],
+      "error": "Requires purchase / locked"
+    }
+  ]
+}

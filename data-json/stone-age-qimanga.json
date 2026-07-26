@@ -1,0 +1,60 @@
+{
+  "sampleUrl": "https://qimanga.com/series/stone-age/chapter-1",
+  "homeUrl": "https://qimanga.com/series/stone-age",
+  "title": "Stone Age",
+  "fromChapter": 0,
+  "toChapter": 1,
+  "fetchedAt": "2026-07-25T18:49:36.070Z",
+  "source": "qimanga",
+  "seriesSlug": "stone-age",
+  "chapters": [
+    {
+      "title": "Chapter 0",
+      "chapter": 0,
+      "chapterKey": "0",
+      "chapterLabel": "0",
+      "url": "https://qimanga.com/series/stone-age/chapter-0",
+      "finalUrl": "https://qimanga.com/series/stone-age/chapter-0",
+      "total": 4,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/gbiNTKJMWB/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/gbiNTKJMWB/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/gbiNTKJMWB/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/gbiNTKJMWB/04.webp"
+      ]
+    },
+    {
+      "title": "Chapter 1",
+      "chapter": 1,
+      "chapterKey": "1",
+      "chapterLabel": "1",
+      "url": "https://qimanga.com/series/stone-age/chapter-1",
+      "finalUrl": "https://qimanga.com/series/stone-age/chapter-1",
+      "total": 22,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/04.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/05.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/06.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/07.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/08.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/09.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/10.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/11.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/12.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/13.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/14.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/15.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/16.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/17.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/18.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/19.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/20.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/21.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/stone-age/ABkMKKUJBK/22.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1601 @@
+{
+  "fetchedAt": "2026-07-25T20:09:54.473Z",
+  "results": [
+    {
+      "ok": false,
+      "index": 1,
+      "slug": "death-return:-strongest-by-contract",
+      "error": "Không có chapter: death-return:-strongest-by-contract"
+    },
+    {
+      "ok": true,
+      "index": 2,
+      "slug": "annihilation-of-the-heavenly-way",
+      "title": "Annihilation of the Heavenly Way",
+      "chapters": 1,
+      "withImages": 1,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/annihilation-of-the-heavenly-way-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 3,
+      "slug": "the-strongest-in-hell-mak-geum-gang",
+      "title": "The Strongest in Hell, Mak Geum-gang",
+      "chapters": 1,
+      "withImages": 1,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-strongest-in-hell-mak-geum-gang-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 4,
+      "slug": "devils-capital",
+      "title": "Devil Capital ",
+      "chapters": 1,
+      "withImages": 1,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/devils-capital-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 5,
+      "slug": "im-a-lackey-in-the-underworld",
+      "title": "I'm a lackey in the underworld ",
+      "chapters": 1,
+      "withImages": 1,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/im-a-lackey-in-the-underworld-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 6,
+      "slug": "stone-age",
+      "title": "Stone Age",
+      "chapters": 2,
+      "withImages": 2,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/stone-age-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 7,
+      "slug": "the-31st-piece-turns-the-tables",
+      "title": "The 31st Piece Turns the Tables",
+      "chapters": 3,
+      "withImages": 3,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-31st-piece-turns-the-tables-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 8,
+      "slug": "fight-me-one-round",
+      "title": "Fight Me One Round",
+      "chapters": 3,
+      "withImages": 3,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/fight-me-one-round-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 9,
+      "slug": "goblin-corporation",
+      "title": "Goblin Corporation",
+      "chapters": 5,
+      "withImages": 4,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/goblin-corporation-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 10,
+      "slug": "a-dragon-lives-in-kunlun",
+      "title": "A Dragon Lives in Kunlun",
+      "chapters": 6,
+      "withImages": 4,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/a-dragon-lives-in-kunlun-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 11,
+      "slug": "chronicles-of-the-yokai-slaying-cultivator",
+      "title": "Chronicles of the Yokai-Slaying Cultivator",
+      "chapters": 6,
+      "withImages": 5,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/chronicles-of-the-yokai-slaying-cultivator-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 12,
+      "slug": "immune-to-corruption-i-start-with-a-disaster-class-demonic-sword",
+      "title": "Immune to Corruption, I Start with a Disaster-Class Demonic Sword",
+      "chapters": 6,
+      "withImages": 4,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/immune-to-corruption-i-start-with-a-disaster-class-demonic-sword-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 13,
+      "slug": "girl-salvation-agency",
+      "title": "Girl × Salvation Agency",
+      "chapters": 6,
+      "withImages": 6,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/girl-salvation-agency-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 14,
+      "slug": "beating-my-boss",
+      "title": "Beating My Boss",
+      "chapters": 6,
+      "withImages": 6,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/beating-my-boss-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 15,
+      "slug": "cartel",
+      "title": "Cartel",
+      "chapters": 7,
+      "withImages": 7,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/cartel-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 16,
+      "slug": "24-hours-dr-anting-and-his-servants",
+      "title": "24 Hours! Dr. Anting and his servants",
+      "chapters": 7,
+      "withImages": 6,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/24-hours-dr-anting-and-his-servants-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 17,
+      "slug": "whats-wrong-with-taking-advantage-of-others-in-the-bizarre-world",
+      "title": "What's Wrong With Taking Advantage of Others in the Bizarre World?",
+      "chapters": 7,
+      "withImages": 7,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/whats-wrong-with-taking-advantage-of-others-in-the-bizarre-world-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 18,
+      "slug": "ovcharka",
+      "title": "Ovcharka ",
+      "chapters": 8,
+      "withImages": 8,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ovcharka-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 19,
+      "slug": "healing-agency",
+      "title": "Healing Agency",
+      "chapters": 8,
+      "withImages": 7,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/healing-agency-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 20,
+      "slug": "transcendence-due-to-a-system-error",
+      "title": "Transcendence Due To A System Error",
+      "chapters": 9,
+      "withImages": 7,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/transcendence-due-to-a-system-error-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 21,
+      "slug": "global-ghosts-warden-i-have-100-million-contracted-ghosts",
+      "title": "Global Ghosts Warden I have 100 million contracted Ghosts",
+      "chapters": 10,
+      "withImages": 9,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/global-ghosts-warden-i-have-100-million-contracted-ghosts-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 22,
+      "slug": "becoming-a-binary-god",
+      "title": "Becoming A Binary God",
+      "chapters": 10,
+      "withImages": 10,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/becoming-a-binary-god-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 23,
+      "slug": "worlds-strongest-straight-punch",
+      "title": "World's Strongest Straight Punch",
+      "chapters": 11,
+      "withImages": 10,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/worlds-strongest-straight-punch-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 24,
+      "slug": "the-black-haired-knight-king",
+      "title": "The Black Haired Knight King",
+      "chapters": 11,
+      "withImages": 11,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-black-haired-knight-king-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 25,
+      "slug": "to-hell-with-the-status-window",
+      "title": "To Hell With the Status Window",
+      "chapters": 11,
+      "withImages": 11,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/to-hell-with-the-status-window-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 26,
+      "slug": "i-kidnapped-the-youngest-daughter-of-the-sichuan-tang-clan",
+      "title": "I Kidnapped the Youngest Daughter of the Sichuan Tang Clan",
+      "chapters": 12,
+      "withImages": 6,
+      "errors": 6,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-kidnapped-the-youngest-daughter-of-the-sichuan-tang-clan-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 27,
+      "slug": "the-yandere-character-i-drew-became-what",
+      "title": "The Yandere Character I Drew Became what...?",
+      "chapters": 12,
+      "withImages": 12,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-yandere-character-i-drew-became-what-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 28,
+      "slug": "record-of-lodoss-war",
+      "title": "Record of Lodoss War",
+      "chapters": 13,
+      "withImages": 12,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/record-of-lodoss-war-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 29,
+      "slug": "artisans-district",
+      "title": "Artisan’s District",
+      "chapters": 13,
+      "withImages": 13,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/artisans-district-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 30,
+      "slug": "against-the-gods",
+      "title": "Against The Gods",
+      "chapters": 13,
+      "withImages": 13,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/against-the-gods-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 31,
+      "slug": "seoritae",
+      "title": "Seoritae",
+      "chapters": 13,
+      "withImages": 9,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/seoritae-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 32,
+      "slug": "the-seventh-prince-wants-to-bail",
+      "title": "The Seventh Prince Wants to Bail",
+      "chapters": 14,
+      "withImages": 13,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-seventh-prince-wants-to-bail-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 33,
+      "slug": "debtbound-by-blood",
+      "title": "Debtbound by Blood",
+      "chapters": 14,
+      "withImages": 14,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/debtbound-by-blood-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 34,
+      "slug": "yaksha",
+      "title": "Yaksha",
+      "chapters": 14,
+      "withImages": 14,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/yaksha-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 35,
+      "slug": "war-of-the-stray-dogs",
+      "title": "War of the Stray Dogs",
+      "chapters": 15,
+      "withImages": 15,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/war-of-the-stray-dogs-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 36,
+      "slug": "the-nis-rookie",
+      "title": "The NIS Rookie",
+      "chapters": 15,
+      "withImages": 4,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-nis-rookie-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 37,
+      "slug": "beware-the-gentleman",
+      "title": "Beware the Gentleman",
+      "chapters": 15,
+      "withImages": 15,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/beware-the-gentleman-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 38,
+      "slug": "upon-the-great-path",
+      "title": "Above the Great Dao",
+      "chapters": 15,
+      "withImages": 15,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/upon-the-great-path-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 39,
+      "slug": "lord-of-the-mysteries-(remake)",
+      "title": "Lord of the Mysteries (Remake)",
+      "chapters": 15,
+      "withImages": 15,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/lord-of-the-mysteries-remake-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 40,
+      "slug": "i-became-the-scoundrel-of-the-cheon-family",
+      "title": "I Became the Scoundrel of the Cheon Family",
+      "chapters": 17,
+      "withImages": 13,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-scoundrel-of-the-cheon-family-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 41,
+      "slug": "crawler",
+      "title": "crawler",
+      "chapters": 17,
+      "withImages": 17,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/crawler-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 42,
+      "slug": "the-last-rebel-the-savior-android-changes-the-future-by-leveling-up",
+      "title": "The Last Rebel The Savior Android Changes The Future By Leveling Up",
+      "chapters": 17,
+      "withImages": 17,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-last-rebel-the-savior-android-changes-the-future-by-leveling-up-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 43,
+      "slug": "the-great-villain-of-gods-and-demons-i-set-up-the-chosen-one",
+      "title": "The Great Villain of Gods and Demons: I Set Up the Chosen One",
+      "chapters": 17,
+      "withImages": 17,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-great-villain-of-gods-and-demons-i-set-up-the-chosen-one-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 44,
+      "slug": "the-corrupt-official-hid-the-status-window",
+      "title": "The Corrupt Official Hid the Status Window",
+      "chapters": 18,
+      "withImages": 9,
+      "errors": 9,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-corrupt-official-hid-the-status-window-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 45,
+      "slug": "global-job-change-summoning-the-goddess-of-death-at-the-start",
+      "title": "Global Job Change: Summoning the Goddess of Death at the Start",
+      "chapters": 18,
+      "withImages": 18,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/global-job-change-summoning-the-goddess-of-death-at-the-start-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 46,
+      "slug": "the-genius-martial-artist-who-remembers-everything",
+      "title": "The Genius Martial Artist Who Remembers Everything",
+      "chapters": 19,
+      "withImages": 18,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-genius-martial-artist-who-remembers-everything-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 47,
+      "slug": "the-misfit-of-the-martial-world",
+      "title": "The Misfit of the Martial World",
+      "chapters": 20,
+      "withImages": 16,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-misfit-of-the-martial-world-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 48,
+      "slug": "the-margraves-worthless-mage",
+      "title": "The Margrave’s Worthless Mage",
+      "chapters": 20,
+      "withImages": 8,
+      "errors": 12,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-margraves-worthless-mage-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 49,
+      "slug": "battle-aristocracy",
+      "title": "Battle Aristocracy",
+      "chapters": 20,
+      "withImages": 20,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/battle-aristocracy-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 50,
+      "slug": "i-will-become-a-god",
+      "title": " I Will Become a God",
+      "chapters": 21,
+      "withImages": 21,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-will-become-a-god-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 51,
+      "slug": "shindorim",
+      "title": "Shindorim",
+      "chapters": 21,
+      "withImages": 12,
+      "errors": 9,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/shindorim-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 52,
+      "slug": "ninja-royale-the-legendary-ninja-reborn-after-500-years",
+      "title": "Ninja Royale: The Legendary Ninja Reborn After 500 Years",
+      "chapters": 22,
+      "withImages": 22,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ninja-royale-the-legendary-ninja-reborn-after-500-years-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 53,
+      "slug": "the-guiding-adventurer:-the-shortest-route-to-becoming-the-strongest",
+      "title": "The Guiding Adventurer: The Shortest Route to Becoming the Strongest",
+      "chapters": 22,
+      "withImages": 22,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-guiding-adventurer-the-shortest-route-to-becoming-the-strongest-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 54,
+      "slug": "the-politician-who-sees-the-future",
+      "title": "The Politician Who Sees the Future",
+      "chapters": 22,
+      "withImages": 16,
+      "errors": 6,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-politician-who-sees-the-future-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 55,
+      "slug": "the-ruler-of-darkness",
+      "title": "The Ruler Of Darkness",
+      "chapters": 23,
+      "withImages": 22,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-ruler-of-darkness-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 56,
+      "slug": "living-as-the-immortal-lord",
+      "title": "Living as the Immortal Lord",
+      "chapters": 23,
+      "withImages": 22,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/living-as-the-immortal-lord-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 57,
+      "slug": "full-actor:-unrivaled-revenge-with-the-skills-i-acquired",
+      "title": "Full Actor: Unrivaled Revenge with the Skills I Acquired",
+      "chapters": 23,
+      "withImages": 14,
+      "errors": 9,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/full-actor-unrivaled-revenge-with-the-skills-i-acquired-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 58,
+      "slug": "the-berserker's-second-playthrough",
+      "title": "The Berserker’s Second Playthrough",
+      "chapters": 24,
+      "withImages": 24,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-berserker-s-second-playthrough-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 59,
+      "slug": "the-abyssal-game-architect",
+      "title": "The Game Architect of the Abyss",
+      "chapters": 24,
+      "withImages": 24,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-abyssal-game-architect-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 60,
+      "slug": "once-i-possess-the-system-i-will-become-the-creator",
+      "title": "Once I Possess The System I Will Become The Creator",
+      "chapters": 24,
+      "withImages": 14,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/once-i-possess-the-system-i-will-become-the-creator-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 61,
+      "slug": "the-demon-kings-awakening",
+      "title": "The Awakening of the Demon King",
+      "chapters": 25,
+      "withImages": 25,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-demon-kings-awakening-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 62,
+      "slug": "handgun-class",
+      "title": "Handgun Class",
+      "chapters": 25,
+      "withImages": 25,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/handgun-class-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 63,
+      "slug": "the-weakest-adventurer's-99th-life:-the-fastest-path-from-weakest-to-strongest",
+      "title": "The Weakest Adventurer’s 99th Life: The Fastest Path from Weakest to Strongest",
+      "chapters": 25,
+      "withImages": 11,
+      "errors": 14,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-weakest-adventurer-s-99th-life-the-fastest-path-from-weakest-to-strongest-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 64,
+      "slug": "blood-rain-zero",
+      "title": "Blood Rain Zero",
+      "chapters": 25,
+      "withImages": 25,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/blood-rain-zero-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 65,
+      "slug": "the-gods-chosen-god-of-the-infected",
+      "title": "The God’s Chosen ~ god of the Infected~",
+      "chapters": 25,
+      "withImages": 25,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-gods-chosen-god-of-the-infected-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 66,
+      "slug": "transmigrated-as-a-barbarian!-conquering-another-world-starting-from-a-defeated-battle",
+      "title": "Transmigrated as a Barbarian! Conquering Another World Starting from a Defeated Battle",
+      "chapters": 26,
+      "withImages": 8,
+      "errors": 18,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/transmigrated-as-a-barbarian-conquering-another-world-starting-from-a-defeated-battle-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 67,
+      "slug": "demon-town-museum-remake",
+      "title": "Demon Town Museum (Remake)",
+      "chapters": 27,
+      "withImages": 27,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/demon-town-museum-remake-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 68,
+      "slug": "shadow-master-a-legend-of-unrivaled-power-under-the-moonlight",
+      "title": "Shadow Master - A Legend of Unrivaled Power Under the Moonlight",
+      "chapters": 27,
+      "withImages": 20,
+      "errors": 7,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/shadow-master-a-legend-of-unrivaled-power-under-the-moonlight-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 69,
+      "slug": "sword-master-leaps-through-time",
+      "title": "Sword Master Leaps Through Time",
+      "chapters": 27,
+      "withImages": 27,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/sword-master-leaps-through-time-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 70,
+      "slug": "demonic-beast-hunter-survival-guide",
+      "title": "Demonic Beast Hunter Survival Guide",
+      "chapters": 28,
+      "withImages": 27,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/demonic-beast-hunter-survival-guide-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 71,
+      "slug": "the-shepherd-wizard",
+      "title": "The Shepherd Wizard",
+      "chapters": 28,
+      "withImages": 17,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-shepherd-wizard-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 72,
+      "slug": "the-god-of-ad-libs",
+      "title": "The God of Ad-Libs",
+      "chapters": 28,
+      "withImages": 27,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-god-of-ad-libs-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 73,
+      "slug": "tow-truck-driver",
+      "title": "Tow Truck Driver",
+      "chapters": 29,
+      "withImages": 19,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/tow-truck-driver-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 74,
+      "slug": "national-power-level-labyrinth-designer",
+      "title": "National Power Level Labyrinth Designer",
+      "chapters": 30,
+      "withImages": 29,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/national-power-level-labyrinth-designer-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 75,
+      "slug": "arm-of-the-abomination",
+      "title": "Arm Of The Abomination",
+      "chapters": 30,
+      "withImages": 30,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/arm-of-the-abomination-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 76,
+      "slug": "ghostly-highschooler",
+      "title": "Ghostly Highschooler",
+      "chapters": 31,
+      "withImages": 21,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ghostly-highschooler-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 77,
+      "slug": "world-saving-is-a-skill",
+      "title": "World-Saving is a Skill",
+      "chapters": 31,
+      "withImages": 31,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/world-saving-is-a-skill-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 78,
+      "slug": "themagic-theory-of-the-regressed-sword-saint",
+      "title": "The Magic Theory of the Regressed Sword Saint",
+      "chapters": 32,
+      "withImages": 21,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/themagic-theory-of-the-regressed-sword-saint-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 79,
+      "slug": "moonlight-talk",
+      "title": "Tales of the Moonlit Night",
+      "chapters": 32,
+      "withImages": 32,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/moonlight-talk-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 80,
+      "slug": "only-i-have-an-ex-grade-summon",
+      "title": "Only I Have an EX-Grade Summon",
+      "chapters": 33,
+      "withImages": 22,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/only-i-have-an-ex-grade-summon-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 81,
+      "slug": "surviving-the-inverted-world-with-omnipotent-skills",
+      "title": "Surviving the Inverted World with Omnipotent Skills",
+      "chapters": 33,
+      "withImages": 31,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/surviving-the-inverted-world-with-omnipotent-skills-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 82,
+      "slug": "fight-monsters-with-monsters",
+      "title": "Fight Monsters with Monsters",
+      "chapters": 34,
+      "withImages": 23,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/fight-monsters-with-monsters-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 83,
+      "slug": "the-return-of-the-unrivaled-genius-ranker",
+      "title": "The Return of the Unrivaled Genius Ranker",
+      "chapters": 34,
+      "withImages": 33,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-return-of-the-unrivaled-genius-ranker-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 84,
+      "slug": "the-hunter-lives-in-a-rented-apartment",
+      "title": "The Hunter Lives In A rented Apartment",
+      "chapters": 34,
+      "withImages": 24,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-hunter-lives-in-a-rented-apartment-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 85,
+      "slug": "breaker",
+      "title": "Breaker",
+      "chapters": 34,
+      "withImages": 34,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/breaker-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 86,
+      "slug": "zephyr-impact-war",
+      "title": "Zephyr Impact War",
+      "chapters": 36,
+      "withImages": 26,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/zephyr-impact-war-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 87,
+      "slug": "sichuans-supreme-king",
+      "title": "Sichuan's Supreme King",
+      "chapters": 37,
+      "withImages": 36,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/sichuans-supreme-king-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 88,
+      "slug": "a-wimp's-strategy-guide-to-conquer-the-tower",
+      "title": "A Wimp’s Strategy Guide To Conquer The Tower",
+      "chapters": 39,
+      "withImages": 26,
+      "errors": 13,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/a-wimp-s-strategy-guide-to-conquer-the-tower-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 89,
+      "slug": "starting-a-livestream-in-the-underworld-who-dares-to-join-the-livestream",
+      "title": "Starting a livestream in the underworld who dares to join the livestream",
+      "chapters": 38,
+      "withImages": 30,
+      "errors": 8,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/starting-a-livestream-in-the-underworld-who-dares-to-join-the-livestream-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 90,
+      "slug": "frozen-warrior",
+      "title": "Frozen Warrior",
+      "chapters": 38,
+      "withImages": 28,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/frozen-warrior-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 91,
+      "slug": "the-regressor-can-make-them-all",
+      "title": "The Regressor Can Make Them All",
+      "chapters": 39,
+      "withImages": 38,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-regressor-can-make-them-all-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 92,
+      "slug": "the-returnees-hidden-strategy-stream",
+      "title": "The Returnee’s Hidden Strategy Stream",
+      "chapters": 39,
+      "withImages": 28,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-returnees-hidden-strategy-stream-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 93,
+      "slug": "the-demon-king-overrun-by-heroes",
+      "title": "The Demon King Overrun by Heroes",
+      "chapters": 40,
+      "withImages": 36,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-demon-king-overrun-by-heroes-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 94,
+      "slug": "the-immortal-drunken-master",
+      "title": "The Immortal Drunken Master",
+      "chapters": 40,
+      "withImages": 30,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-immortal-drunken-master-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 95,
+      "slug": "honestly-this-13th-regression-is-getting-tough",
+      "title": "Honestly, This 13th Regression is Getting Tough",
+      "chapters": 40,
+      "withImages": 30,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/honestly-this-13th-regression-is-getting-tough-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 96,
+      "slug": "demon-god",
+      "title": "The Demon God",
+      "chapters": 41,
+      "withImages": 40,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/demon-god-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 97,
+      "slug": "demonize",
+      "title": "Demonize",
+      "chapters": 42,
+      "withImages": 25,
+      "errors": 17,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/demonize-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 98,
+      "slug": "the-tale-of-the-skeleton-messenger",
+      "title": "The Tale Of The Skeleton Messenger",
+      "chapters": 42,
+      "withImages": 37,
+      "errors": 5,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-tale-of-the-skeleton-messenger-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 99,
+      "slug": "revenge-of-the-bottom-tier-scavenger",
+      "title": "Revenge of the Bottom-tier Scavenger",
+      "chapters": 42,
+      "withImages": 42,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/revenge-of-the-bottom-tier-scavenger-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 100,
+      "slug": "the-black-haired-us-army-general",
+      "title": "The Black-Haired U.S. Army General ",
+      "chapters": 43,
+      "withImages": 32,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-black-haired-us-army-general-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 101,
+      "slug": "dan-the-bat-wielding-knight",
+      "title": "Dan, the Bat-Wielding Knight",
+      "chapters": 43,
+      "withImages": 42,
+      "errors": 1,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/dan-the-bat-wielding-knight-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 102,
+      "slug": "black-koi",
+      "title": "Black Koi",
+      "chapters": 43,
+      "withImages": 21,
+      "errors": 22,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/black-koi-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 103,
+      "slug": "prosecutor-kim-seo-jin",
+      "title": "Prosecutor Kim Seo-jin",
+      "chapters": 43,
+      "withImages": 32,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/prosecutor-kim-seo-jin-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 104,
+      "slug": "i-shall-seal-the-heavens",
+      "title": "I Shall Seal The Heavens",
+      "chapters": 44,
+      "withImages": 44,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-shall-seal-the-heavens-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 105,
+      "slug": "sss-rank-invincible-war-god",
+      "title": "SSS-Rank Invincible War God",
+      "chapters": 45,
+      "withImages": 33,
+      "errors": 12,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/sss-rank-invincible-war-god-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 106,
+      "slug": "saving-the-world-through-a-game",
+      "title": "Saving the World Through a Game",
+      "chapters": 45,
+      "withImages": 37,
+      "errors": 8,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/saving-the-world-through-a-game-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 107,
+      "slug": "i-became-the-rogue-first-prince",
+      "title": "I Became The Rogue First Prince",
+      "chapters": 46,
+      "withImages": 46,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-rogue-first-prince-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 108,
+      "slug": "devil-and-ice",
+      "title": "Devil & Ice",
+      "chapters": 47,
+      "withImages": 36,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/devil-and-ice-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 109,
+      "slug": "the-18-year-old-demon-king",
+      "title": "The 18-Year-Old Demon King",
+      "chapters": 48,
+      "withImages": 37,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-18-year-old-demon-king-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 110,
+      "slug": "reborn-on-the-demonic-cult-battlefield",
+      "title": "Reborn on the Demonic Cult Battlefield ",
+      "chapters": 50,
+      "withImages": 48,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/reborn-on-the-demonic-cult-battlefield-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 111,
+      "slug": "surviving-as-a-wandering-knight",
+      "title": "Surviving As A Wandering Knight",
+      "chapters": 51,
+      "withImages": 40,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/surviving-as-a-wandering-knight-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 112,
+      "slug": "forced-to-become-the-heavenly-demon-at-swordpoint",
+      "title": "Forced To Become The Heavenly Demon At Swordpoint",
+      "chapters": 52,
+      "withImages": 41,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/forced-to-become-the-heavenly-demon-at-swordpoint-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 113,
+      "slug": "high-martiality:-with-one-hand-i-single-handedly-repel-three-thousand-emperors!",
+      "title": "High Martiality: With One Hand, I Single-Handedly Repel Three Thousand Emperors!",
+      "chapters": 52,
+      "withImages": 46,
+      "errors": 6,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/high-martiality-with-one-hand-i-single-handedly-repel-three-thousand-emperors-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 114,
+      "slug": "return-of-the-sacred-monk",
+      "title": "Return of The Sacred Monk",
+      "chapters": 52,
+      "withImages": 40,
+      "errors": 12,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/return-of-the-sacred-monk-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 115,
+      "slug": "dark-and-light-martial-emperor",
+      "title": "Dark and Light Martial Emperor",
+      "chapters": 53,
+      "withImages": 43,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/dark-and-light-martial-emperor-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 116,
+      "slug": "crimson-reset",
+      "title": "Crimson Reset",
+      "chapters": 54,
+      "withImages": 43,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/crimson-reset-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 117,
+      "slug": "half-blood",
+      "title": "Half-Blood",
+      "chapters": 54,
+      "withImages": 43,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/half-blood-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 118,
+      "slug": "hero-of-the-heart-sword",
+      "title": "Hero of the Sword Heart",
+      "chapters": 55,
+      "withImages": 55,
+      "errors": 0,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/hero-of-the-heart-sword-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 119,
+      "slug": "black-serpent",
+      "title": "Black Serpent",
+      "chapters": 56,
+      "withImages": 46,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/black-serpent-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 120,
+      "slug": "the-divine-demon's-grand-ascension",
+      "title": "The Divine Demon’s Grand Ascension",
+      "chapters": 58,
+      "withImages": 46,
+      "errors": 12,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-divine-demon-s-grand-ascension-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 121,
+      "slug": "guide-to-be-king-of-the-dead",
+      "title": "Guide to be King of the Dead",
+      "chapters": 59,
+      "withImages": 49,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/guide-to-be-king-of-the-dead-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 122,
+      "slug": "whats-our-hero-doing",
+      "title": "What's Our Hero Doing?",
+      "chapters": 60,
+      "withImages": 39,
+      "errors": 21,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/whats-our-hero-doing-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 123,
+      "slug": "reincarnated-with-a-metal-bat-surviving-the-monochrome-madness",
+      "title": "Reincarnated With a Metal Bat ~Surviving the Monochrome Madness~",
+      "chapters": 60,
+      "withImages": 46,
+      "errors": 14,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/reincarnated-with-a-metal-bat-surviving-the-monochrome-madness-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 124,
+      "slug": "resurrected-demon-king",
+      "title": "Resurrected Demon King",
+      "chapters": 60,
+      "withImages": 45,
+      "errors": 15,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/resurrected-demon-king-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 125,
+      "slug": "the-fist-king's-rebirth",
+      "title": "The Fist King's Rebirth",
+      "chapters": 62,
+      "withImages": 60,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-fist-king-s-rebirth-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 126,
+      "slug": "santa-industries",
+      "title": "Santa Industries",
+      "chapters": 62,
+      "withImages": 60,
+      "errors": 2,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/santa-industries-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 127,
+      "slug": "the-returned-c-rank-tank-wont-die",
+      "title": "The Returned C-Rank Tank Won't Die!",
+      "chapters": 64,
+      "withImages": 60,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-returned-c-rank-tank-wont-die-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 128,
+      "slug": "the-genius-blacksmith's-game",
+      "title": "Genius Blacksmith’s Game",
+      "chapters": 64,
+      "withImages": 60,
+      "errors": 4,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-genius-blacksmith-s-game-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 129,
+      "slug": "i-became-the-bastard-genius-of-the-noble-dark-clan",
+      "title": "I Became The Bastard Genius Of The Noble Dark Clan ",
+      "chapters": 64,
+      "withImages": 59,
+      "errors": 5,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/i-became-the-bastard-genius-of-the-noble-dark-clan-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 130,
+      "slug": "4190634673st-century-retrogression",
+      "title": "21st Century Retrogression",
+      "chapters": 66,
+      "withImages": 60,
+      "errors": 6,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673st-century-retrogression-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 131,
+      "slug": "the-mad-dog-of-the-dukes-estate",
+      "title": "The Mad Dog of the Duke’s Estate",
+      "chapters": 68,
+      "withImages": 60,
+      "errors": 8,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-mad-dog-of-the-dukes-estate-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 132,
+      "slug": "the-youngest-son-of-the-eunhae-merchant-group",
+      "title": "The Youngest Son of the Eunhae Merchant Group",
+      "chapters": 68,
+      "withImages": 60,
+      "errors": 8,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-youngest-son-of-the-eunhae-merchant-group-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 133,
+      "slug": "the-top-rankers-aspiring-writer-life-manual",
+      "title": "The Top Ranker's Aspiring Writer Life Manual",
+      "chapters": 72,
+      "withImages": 62,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-top-rankers-aspiring-writer-life-manual-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 134,
+      "slug": "the-strongest-tamer-returned-from-another-world-with-his-childhood-friend-as-his-familiar",
+      "title": "The Strongest Tamer Returned from Another World with his Childhood Friend as his Familiar",
+      "chapters": 72,
+      "withImages": 60,
+      "errors": 12,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-strongest-tamer-returned-from-another-world-with-his-childhood-friend-as-his-familiar-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 135,
+      "slug": "island-of-stars-and-chains",
+      "title": "Island of Stars and Chains",
+      "chapters": 73,
+      "withImages": 59,
+      "errors": 14,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/island-of-stars-and-chains-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 136,
+      "slug": "war-of-the-corpses",
+      "title": "War Of The Corpses",
+      "chapters": 76,
+      "withImages": 58,
+      "errors": 18,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/war-of-the-corpses-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 137,
+      "slug": "a-world-of-gold-to-you",
+      "title": "A World of Gold to You",
+      "chapters": 76,
+      "withImages": 51,
+      "errors": 25,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/a-world-of-gold-to-you-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 138,
+      "slug": "my-avatars-path-to-greatness",
+      "title": "My Avatars’ Path to Greatness",
+      "chapters": 89,
+      "withImages": 78,
+      "errors": 11,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/my-avatars-path-to-greatness-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 139,
+      "slug": "the-unparalleled-hidden-rank-equipment",
+      "title": "The Unparalleled Hidden Rank Equipment",
+      "chapters": 90,
+      "withImages": 80,
+      "errors": 10,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-unparalleled-hidden-rank-equipment-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 140,
+      "slug": "mount-hua-sects-greatest-genius",
+      "title": "Mount Hua Sect's Greatest Genius",
+      "chapters": 92,
+      "withImages": 69,
+      "errors": 23,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/mount-hua-sects-greatest-genius-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 141,
+      "slug": "celestial-phenomenon",
+      "title": "Celestial Phenomenon",
+      "chapters": 96,
+      "withImages": 78,
+      "errors": 18,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/celestial-phenomenon-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 142,
+      "slug": "the-only-new-game-hardcore-gamer-im-so-overpowered-i-shattered-the-games-balance",
+      "title": "The Only New Game+ Hardcore Gamer ~I'm So Overpowered, I Shattered the Game's Balance~",
+      "chapters": 100,
+      "withImages": 84,
+      "errors": 16,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-only-new-game-hardcore-gamer-im-so-overpowered-i-shattered-the-games-balance-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 143,
+      "slug": "surviving-the-apocalypse",
+      "title": "Surviving the Apocalypse",
+      "chapters": 104,
+      "withImages": 88,
+      "errors": 16,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/surviving-the-apocalypse-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 144,
+      "slug": "4190634673-the-regressors-retirement-life",
+      "title": "The Regressor’s Retirement Life",
+      "chapters": 107,
+      "withImages": 86,
+      "errors": 21,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-regressors-retirement-life-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 145,
+      "slug": "the-dignity-of-a-chaebol",
+      "title": "The Dignity of a Chaebol",
+      "chapters": 127,
+      "withImages": 111,
+      "errors": 16,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-dignity-of-a-chaebol-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 146,
+      "slug": "4190634673-clever-cleaning-life-of-the-returned-genius-hunter",
+      "title": "Clever Cleaning Life of the Returned Genius Hunter",
+      "chapters": 130,
+      "withImages": 106,
+      "errors": 24,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-clever-cleaning-life-of-the-returned-genius-hunter-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 147,
+      "slug": "4190634673-tales-of-a-shining-sword",
+      "title": "Tales of A Shining Sword",
+      "chapters": 130,
+      "withImages": 110,
+      "errors": 20,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-tales-of-a-shining-sword-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 148,
+      "slug": "weak-teacher",
+      "title": "Weak Teacher",
+      "chapters": 136,
+      "withImages": 116,
+      "errors": 20,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/weak-teacher-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 149,
+      "slug": "4190634673-the-mysterious-worlds-greatest-martial-artist-little-prince",
+      "title": "The Mysterious World’s Greatest Martial Artist Little Prince",
+      "chapters": 138,
+      "withImages": 105,
+      "errors": 33,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-the-mysterious-worlds-greatest-martial-artist-little-prince-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 150,
+      "slug": "the-archmages-restaurant",
+      "title": "The Archmage's Restaurant",
+      "chapters": 143,
+      "withImages": 121,
+      "errors": 22,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-archmages-restaurant-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 151,
+      "slug": "accidentally-became-famous-throughout-history",
+      "title": "Accidentally Became Famous Throughout History",
+      "chapters": 162,
+      "withImages": 139,
+      "errors": 23,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/accidentally-became-famous-throughout-history-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 152,
+      "slug": "the-divine-surgeon",
+      "title": "The Divine Surgeon",
+      "chapters": 211,
+      "withImages": 179,
+      "errors": 32,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-divine-surgeon-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 153,
+      "slug": "the-archmage-returns-after-4000-years",
+      "title": "The Archmage Returns After 4000 Years",
+      "chapters": 214,
+      "withImages": 182,
+      "errors": 32,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-archmage-returns-after-4000-years-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 154,
+      "slug": "return-of-the-frozen-player",
+      "title": "Return of the Frozen Player ",
+      "chapters": 223,
+      "withImages": 193,
+      "errors": 30,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/return-of-the-frozen-player-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 155,
+      "slug": "ranker-who-lives-a-second-life",
+      "title": "Ranker Who Lives a Second Life",
+      "chapters": 242,
+      "withImages": 202,
+      "errors": 40,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/ranker-who-lives-a-second-life-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 156,
+      "slug": "the-beginning-after-the-end",
+      "title": "The Beginning After the End",
+      "chapters": 301,
+      "withImages": 261,
+      "errors": 40,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/the-beginning-after-the-end-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 157,
+      "slug": "formless-form",
+      "title": "Formless Form",
+      "chapters": 323,
+      "withImages": 255,
+      "errors": 68,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/formless-form-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 158,
+      "slug": "library-of-heavens-path",
+      "title": "Library of Heaven's Path",
+      "chapters": 325,
+      "withImages": 275,
+      "errors": 50,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/library-of-heavens-path-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 159,
+      "slug": "4190634673-eleceed",
+      "title": "Eleceed",
+      "chapters": 392,
+      "withImages": 322,
+      "errors": 70,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/4190634673-eleceed-qimanga.json"
+    },
+    {
+      "ok": true,
+      "index": 160,
+      "slug": "im-an-evil-god",
+      "title": "I'm an Evil God",
+      "chapters": 568,
+      "withImages": 488,
+      "errors": 80,
+      "outPath": "/Users/GiangDao/Desktop/VIZION/code/node-comic-crawler-images/data-json/im-an-evil-god-qimanga.json"
+    }
+  ]
+}

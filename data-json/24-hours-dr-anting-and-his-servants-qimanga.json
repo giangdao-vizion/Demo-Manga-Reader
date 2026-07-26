@@ -1,0 +1,99 @@
+{
+  "sampleUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-1",
+  "homeUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants",
+  "title": "24 Hours! Dr. Anting and his servants",
+  "fromChapter": 1,
+  "toChapter": 7,
+  "fetchedAt": "2026-07-25T18:50:24.755Z",
+  "source": "qimanga",
+  "seriesSlug": "24-hours-dr-anting-and-his-servants",
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "chapter": 1,
+      "chapterKey": "1",
+      "chapterLabel": "1",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-1",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-1",
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/YtbaWQ1QPX/01.webp"
+      ]
+    },
+    {
+      "title": "Chapter 2",
+      "chapter": 2,
+      "chapterKey": "2",
+      "chapterLabel": "2",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-2",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-2",
+      "total": 2,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/DGQ8AsCSz1/01 copy.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/DGQ8AsCSz1/02 copy.webp"
+      ]
+    },
+    {
+      "title": "Chapter 3",
+      "chapter": 3,
+      "chapterKey": "3",
+      "chapterLabel": "3",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-3",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-3",
+      "total": 1,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/VTvGoUiYUU/01 copy.webp"
+      ]
+    },
+    {
+      "title": "Chapter 4",
+      "chapter": 4,
+      "chapterKey": "4",
+      "chapterLabel": "4",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-4",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-4",
+      "total": 0,
+      "images": [],
+      "error": "HTTP 429 https://api.qimanga.com/api/v1/series/24-hours-dr-anting-and-his-servants/chapters/chapter-4"
+    },
+    {
+      "title": "Chapter 5",
+      "chapter": 5,
+      "chapterKey": "5",
+      "chapterLabel": "5",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-5",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-5",
+      "total": 2,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/M4Fv4Uoshk/001 copy.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/M4Fv4Uoshk/002 copy.webp"
+      ]
+    },
+    {
+      "title": "Chapter 6",
+      "chapter": 6,
+      "chapterKey": "6",
+      "chapterLabel": "6",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-6",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-6",
+      "total": 2,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/uXmGzqaA00/001.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/uXmGzqaA00/002.webp"
+      ]
+    },
+    {
+      "title": "Chapter 7",
+      "chapter": 7,
+      "chapterKey": "7",
+      "chapterLabel": "7",
+      "url": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-7",
+      "finalUrl": "https://qimanga.com/series/24-hours-dr-anting-and-his-servants/chapter-7",
+      "total": 2,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/vYqa6a1JNo/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/24-hours-dr-anting-and-his-servants/vYqa6a1JNo/02.webp"
+      ]
+    }
+  ]
+}

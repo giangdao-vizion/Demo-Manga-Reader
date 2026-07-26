@@ -1,0 +1,27 @@
+{
+  "sampleUrl": "https://qimanga.com/series/im-a-lackey-in-the-underworld/chapter-1",
+  "homeUrl": "https://qimanga.com/series/im-a-lackey-in-the-underworld",
+  "title": "I'm a lackey in the underworld ",
+  "fromChapter": 0,
+  "toChapter": 0,
+  "fetchedAt": "2026-07-25T18:49:34.265Z",
+  "source": "qimanga",
+  "seriesSlug": "im-a-lackey-in-the-underworld",
+  "chapters": [
+    {
+      "title": "Chapter 0",
+      "chapter": 0,
+      "chapterKey": "0",
+      "chapterLabel": "0",
+      "url": "https://qimanga.com/series/im-a-lackey-in-the-underworld/chapter-0",
+      "finalUrl": "https://qimanga.com/series/im-a-lackey-in-the-underworld/chapter-0",
+      "total": 4,
+      "images": [
+        "https://media.qimanhwa.com/file/qiscans/upload/series/im-a-lackey-in-the-underworld/lB1CKDEl8M/01.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/im-a-lackey-in-the-underworld/lB1CKDEl8M/02.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/im-a-lackey-in-the-underworld/lB1CKDEl8M/03.webp",
+        "https://media.qimanhwa.com/file/qiscans/upload/series/im-a-lackey-in-the-underworld/lB1CKDEl8M/04.webp"
+      ]
+    }
+  ]
+}
