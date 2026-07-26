@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T11:42:12.501Z",
+  "updatedAt": "2026-07-26T12:38:56.641Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5542,6 +5542,20 @@
       "contentSyncNote": "Nguồn dilib.vn.",
       "coverUrl": "https://dilib.vn/img/news/2024/08/larger/16176-kingdom-vuong-gia-thien-ha-1.webp?v=2373",
       "featured": false
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "ruler-of-the-land.json",
+      "title": "Ruler of the land",
+      "displayTitle": "Ruler of the land",
+      "subtitle": "Ch. 1-721 · ruler-of-the-land.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 721,
+      "chapterCount": 663,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/7322.jpg"
     }
   ]
 }
