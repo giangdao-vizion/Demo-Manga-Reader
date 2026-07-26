@@ -396,7 +396,8 @@
     }
     .catalog-card__menu {
       position: absolute;
-      top: calc(min(34vw, 118px) * 4 / 3 - 6px);
+      /* Nằm trong vùng cover, phía trên nút ⋯ — tránh bị scroll clip */
+      top: calc(min(34vw, 118px) * 4 / 3 - 86px);
       right: 6px;
       z-index: 6;
       min-width: 148px;
