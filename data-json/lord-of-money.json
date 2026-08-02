@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/lord-of-money/",
   "title": "Lord of Money",
   "fromChapter": 1,
-  "toChapter": 295,
-  "fetchedAt": "2026-07-25T07:15:52.925Z",
+  "toChapter": 299,
+  "fetchedAt": "2026-08-02T11:05:15.388Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -15858,6 +15858,101 @@
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/11.jpg",
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/12.jpg",
         "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-295/13.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 296-eng-li",
+      "chapter": 296,
+      "chapterKey": "296",
+      "chapterLabel": "296-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-296-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-296-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-296/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 297-eng-li",
+      "chapter": 297,
+      "chapterKey": "297",
+      "chapterLabel": "297-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-297-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-297-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-297/11.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 298-eng-li",
+      "chapter": 298,
+      "chapterKey": "298",
+      "chapterLabel": "298-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-298-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-298-eng-li/",
+      "total": 12,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-298/10.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 299-eng-li",
+      "chapter": 299,
+      "chapterKey": "299",
+      "chapterLabel": "299-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-299-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-299-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/0.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/1.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/2.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/3.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/4.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/5.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/6.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/7.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/8.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/9.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/10.jpg",
+        "https://imgsrv4.com/sv2/comic/lord-of-money/chapter-299/11.jpg",
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }

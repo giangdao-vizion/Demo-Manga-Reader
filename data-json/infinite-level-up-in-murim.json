@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/infinite-level-up-in-murim/",
   "title": "Infinite Level Up in Murim",
   "fromChapter": 1,
-  "toChapter": 276,
-  "fetchedAt": "2026-07-25T07:15:58.321Z",
+  "toChapter": 277,
+  "fetchedAt": "2026-08-02T11:05:20.022Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -11226,6 +11226,36 @@
         "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-276/12.jpg",
         "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-276/13.jpg",
         "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-276/14.jpg",
+        "https://imgsrv4.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 277-eng-li",
+      "chapter": 277,
+      "chapterKey": "277",
+      "chapterLabel": "277-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/infinite-level-up-in-murim-chapter-277-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/infinite-level-up-in-murim-chapter-277-eng-li/",
+      "total": 19,
+      "images": [
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/0.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/1.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/2.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/3.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/4.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/5.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/6.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/7.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/8.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/9.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/10.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/11.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/12.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/13.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/14.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/15.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/16.jpg",
+        "https://imgsrv4.com/sv2/comic/infinite-level-up-in-murim/chapter-277/17.jpg",
         "https://imgsrv4.com/credits-mgeko.png"
       ]
     }

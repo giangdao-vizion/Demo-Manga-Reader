@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/reincarnator-1d35e5bd",
   "title": "Reincarnator",
   "fromChapter": 0,
-  "toChapter": 143,
-  "fetchedAt": "2026-07-25T07:15:08.336Z",
+  "toChapter": 144,
+  "fetchedAt": "2026-08-02T11:04:32.492Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165.webp",
   "chapters": [
@@ -3495,6 +3495,36 @@
         "https://cdn.asurascans.com/asura-images/chapters/reincarnator/143/87095c.webp?v=1784538395",
         "https://cdn.asurascans.com/asura-images/chapters/reincarnator/143/fa9219.webp?v=1784538395",
         "https://cdn.asurascans.com/asura-images/chapters/reincarnator/143/2a0b13.webp?v=1784538395"
+      ]
+    },
+    {
+      "title": "Chapter 144",
+      "chapter": 144,
+      "url": "https://asurascans.com/comics/reincarnator-1d35e5bd/chapter/144",
+      "finalUrl": "https://asurascans.com/comics/reincarnator-059befe1/chapter/144",
+      "total": 21,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/7e9b12.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/ebc6fe.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/0753ff.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/ec83a8.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/f48b5d.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/9314bb.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/129b00.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/c8f2c0.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/c07158.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/baae46.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/58d540.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/a5f5a1.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/00cb8d.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/7085b6.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/56fd27.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/a72524.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/36cb92.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/6479d3.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/1e89ad.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/baedcb.webp?v=1785100505",
+        "https://cdn.asurascans.com/asura-images/chapters/reincarnator/144/a3d1d8.webp?v=1785100505"
       ]
     }
   ]

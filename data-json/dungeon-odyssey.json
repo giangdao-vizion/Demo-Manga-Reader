@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/dungeon-odyssey-1d35e5bd",
   "title": "Dungeon Odyssey",
   "fromChapter": 1,
-  "toChapter": 162,
-  "fetchedAt": "2026-07-25T07:14:40.192Z",
+  "toChapter": 163,
+  "fetchedAt": "2026-08-02T11:04:02.023Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586.webp",
   "chapters": [
@@ -3290,6 +3290,31 @@
         "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/162/386f74.webp?v=1784915828",
         "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/162/0109ee.webp?v=1784915828",
         "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/162/4ec63f.webp?v=1784915828"
+      ]
+    },
+    {
+      "title": "Chapter 163",
+      "chapter": 163,
+      "url": "https://asurascans.com/comics/dungeon-odyssey-1d35e5bd/chapter/163",
+      "finalUrl": "https://asurascans.com/comics/dungeon-odyssey-059befe1/chapter/163",
+      "total": 16,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/075c2a.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/f96f48.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/4642d4.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/d520b2.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/04453f.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/a1e0d8.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/9d3024.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/aed0ad.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/e51a79.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/d68b0e.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/61db95.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/6c4804.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/075bd4.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/90a6dd.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/50b639.webp?v=1785608731",
+        "https://cdn.asurascans.com/asura-images/chapters/dungeon-odyssey/163/26019a.webp?v=1785608731"
       ]
     }
   ]

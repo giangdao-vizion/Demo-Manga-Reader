@@ -3,8 +3,8 @@
   "homeUrl": "https://truyen-one-piece.com/",
   "title": "One Piece",
   "fromChapter": 1,
-  "toChapter": 1188,
-  "fetchedAt": "2026-07-25T07:16:00.034Z",
+  "toChapter": 1189,
+  "fetchedAt": "2026-08-02T11:05:21.805Z",
   "source": "truyenonepiece",
   "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
   "chapters": [
@@ -34516,6 +34516,33 @@
         "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_011-5.jpg",
         "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_012-5.jpg",
         "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_013-5.jpg"
+      ]
+    },
+    {
+      "title": "1189",
+      "chapter": 1189,
+      "chapterKey": "1189",
+      "chapterLabel": "1189",
+      "url": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1189/",
+      "finalUrl": "https://truyen-one-piece.com/doc-truyen-tranh-one-piece-dao-hai-tac-chapter-1189/",
+      "total": 16,
+      "images": [
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_001-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_002-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_003-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_004-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_005-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_006-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_007-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_008-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_009-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_010-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_011-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_012-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_013-6.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_014-5.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_016-5.jpg",
+        "https://truyen-one-piece.com/wp-content/uploads/2026/03/page_017-5.jpg"
       ]
     }
   ]
