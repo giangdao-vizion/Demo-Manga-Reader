@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T11:06:10.518Z",
+  "updatedAt": "2026-08-05T11:54:19.446Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5556,6 +5556,36 @@
       "toChapter": 721,
       "chapterCount": 663,
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/7322.jpg"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "fog-land.json",
+      "title": "Fog Land",
+      "displayTitle": "Fog Land",
+      "subtitle": "Ch. 0-51 · fog-land.json",
+      "source": "mgeko",
+      "fromChapter": 0,
+      "toChapter": 51,
+      "chapterCount": 52,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/1759933224-68e67328e1755-fogland.jpg",
+      "featured": true
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "absolute-dominion.json",
+      "title": "Absolute Dominion",
+      "displayTitle": "Absolute Dominion",
+      "subtitle": "Ch. 0-103 · absolute-dominion.json",
+      "source": "mgeko",
+      "fromChapter": 0,
+      "toChapter": 103,
+      "chapterCount": 105,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/Absolute-Dominion-193x278.webp",
+      "featured": true
     }
   ]
 }
