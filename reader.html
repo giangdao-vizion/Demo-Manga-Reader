@@ -778,6 +778,28 @@
       opacity: 0.35;
       cursor: not-allowed;
     }
+    .reader-settings-home {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 10px 0 0;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--stroke);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text);
+      font: inherit;
+      font-size: 0.75rem;
+      font-weight: 650;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .reader-settings-home:hover {
+      background: rgba(122, 242, 255, 0.12);
+      border-color: var(--accent-dim);
+      color: var(--accent);
+    }
   </style>
   <!--
     Static hosting (không cần backend):
@@ -913,6 +935,7 @@
         </button>
       </div>
     </div>
+    <a class="reader-settings-home" id="readerSettingsHome" href="home.html">Về Home</a>
   </div>
   <script src="chapter-id.js"></script>
   <script src="reader-history.js"></script>
@@ -1052,6 +1075,7 @@
         settingsBtn: document.getElementById("readerSettingsBtn"),
         settingsPopup: document.getElementById("readerSettingsPopup"),
         settingsClose: document.getElementById("readerSettingsClose"),
+        settingsHome: document.getElementById("readerSettingsHome"),
         zoomOutBtn: document.getElementById("zoomOutBtn"),
         zoomInBtn: document.getElementById("zoomInBtn"),
         zoomValue: document.getElementById("readerZoomValue"),
@@ -1340,6 +1364,17 @@
         el.settingsClose.addEventListener("click", function () {
           closeReaderSettings();
           if (el.settingsBtn) el.settingsBtn.focus();
+        });
+      }
+      if (el.settingsHome) {
+        el.settingsHome.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          if (window.ComicHubHistory && ComicHubHistory.clearAndNavigate) {
+            ComicHubHistory.clearAndNavigate("home.html");
+          } else {
+            location.href = "home.html";
+          }
         });
       }
       if (el.settingsPopup) {
