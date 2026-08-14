@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/wandering-warrior-of-wudang-1d35e5bd",
   "title": "Wandering Warrior Of Wudang",
   "fromChapter": 1,
-  "toChapter": 172,
-  "fetchedAt": "2026-08-02T11:05:08.075Z",
+  "toChapter": 173,
+  "fetchedAt": "2026-08-14T14:42:30.600Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.9fb55b.webp",
   "chapters": [
@@ -3666,6 +3666,27 @@
         "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/172/08c42c.webp?v=1785641277",
         "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/172/906ac6.webp?v=1785641277",
         "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/172/534762.webp?v=1785641277"
+      ]
+    },
+    {
+      "title": "Chapter 173",
+      "chapter": 173,
+      "url": "https://asurascans.com/comics/wandering-warrior-of-wudang-1d35e5bd/chapter/173",
+      "finalUrl": "https://asurascans.com/comics/wandering-warrior-of-wudang-7e1f454a/chapter/173",
+      "total": 12,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/a877fb.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/113b49.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/11de0e.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/a34570.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/e12947.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/d4d248.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/d9ed35.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/f9ae0c.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/ae48a9.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/69b776.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/ebf3ce.webp?v=1786329257",
+        "https://cdn.asurascans.com/asura-images/chapters/wandering-warrior-of-wudang/173/b5aee3.webp?v=1786329257"
       ]
     }
   ]

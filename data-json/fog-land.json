@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/fog-land/",
   "title": "Fog Land",
   "fromChapter": 0,
-  "toChapter": 51,
-  "fetchedAt": "2026-08-05T11:51:37.807Z",
+  "toChapter": 52,
+  "fetchedAt": "2026-08-14T14:43:17.717Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -1683,6 +1683,39 @@
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-51/15.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-51/16.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-51/17.jpg"
+      ]
+    },
+    {
+      "title": "Chapter 52-eng-li",
+      "chapter": 52,
+      "chapterKey": "52",
+      "chapterLabel": "52-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/fog-land-chapter-52-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/fog-land-chapter-52-eng-li/",
+      "total": 22,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/0.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/1.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/2.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/3.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/4.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/5.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/6.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/7.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/8.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/9.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/10.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/11.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/12.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/13.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/14.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/15.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/16.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/17.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/18.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/19.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-52/20.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
   ]
