@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/heavenly-demon-cultivation-simulation-mg1/",
   "title": "Heavenly Demon Cultivation Simulation",
   "fromChapter": 1,
-  "toChapter": 194,
-  "fetchedAt": "2026-08-14T14:41:05.820Z",
+  "toChapter": 195,
+  "fetchedAt": "2026-08-20T14:47:04.384Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -9271,6 +9271,38 @@
         "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-194/151.jpg",
         "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-194/152.jpg",
         "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-194/153.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 195-eng-li",
+      "chapter": 195,
+      "chapterKey": "195",
+      "chapterLabel": "195-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-195-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-195-eng-li/",
+      "total": 8,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/0.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/1.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/2.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/3.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/4.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/5.jpg",
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195/6.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 195-5-eng-li",
+      "chapter": 195,
+      "chapterKey": "195-5",
+      "chapterLabel": "195-5-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-195-5-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/heavenly-demon-cultivation-simulation-mg1-chapter-195-5-eng-li/",
+      "total": 2,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/heavenly-demon-cultivation-simulation-mg1/chapter-195-5/0.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
