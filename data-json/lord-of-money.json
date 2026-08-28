@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/lord-of-money/",
   "title": "Lord of Money",
   "fromChapter": 1,
-  "toChapter": 307,
-  "fetchedAt": "2026-08-20T14:47:37.148Z",
+  "toChapter": 308,
+  "fetchedAt": "2026-08-28T11:36:03.387Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -16117,6 +16117,30 @@
         "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-307/10.jpg",
         "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-307/11.jpg",
         "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-307/12.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 308-eng-li",
+      "chapter": 308,
+      "chapterKey": "308",
+      "chapterLabel": "308-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-308-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/lord-of-money-chapter-308-eng-li/",
+      "total": 13,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/0.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/1.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/2.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/3.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/4.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/5.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/6.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/7.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/8.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/9.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/10.jpg",
+        "https://imgsrv5.com/sv2/comic/lord-of-money/chapter-308/11.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
