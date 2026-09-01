@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/fog-land/",
   "title": "Fog Land",
   "fromChapter": 0,
-  "toChapter": 53,
-  "fetchedAt": "2026-08-28T11:36:17.430Z",
+  "toChapter": 54,
+  "fetchedAt": "2026-09-01T16:32:44.824Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -1745,6 +1745,34 @@
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-53/15.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-53/16.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-53/17.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 54-eng-li",
+      "chapter": 54,
+      "chapterKey": "54",
+      "chapterLabel": "54-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/fog-land-chapter-54-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/fog-land-chapter-54-eng-li/",
+      "total": 17,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/0.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/1.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/2.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/3.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/4.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/5.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/6.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/7.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/8.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/9.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/10.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/11.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/12.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/13.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/14.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-54/15.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
