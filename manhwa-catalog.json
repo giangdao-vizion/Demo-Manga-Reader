@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:00:19.184Z",
+  "updatedAt": "2026-09-04T18:18:25.589Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5588,6 +5588,53 @@
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/Absolute-Dominion-193x278.webp",
       "featured": true,
       "contentUpdatedAt": "2026-09-01T16:32:45.699Z"
+    },
+    {
+      "dataFile": "the-crown-prince-that-sells-medicine.json",
+      "title": "The Crown Prince That Sells Medicine",
+      "displayTitle": "The Crown Prince That Sells Medicine",
+      "subtitle": "Ch. 1–122 · the-crown-prince-that-sells-medicine.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 122,
+      "chapterCount": 122,
+      "contentSyncNote": "Asura ch.1–52; MGEKO từ ch.56+ (featured sync).",
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/the-crown-prince-that-sells-medicine.png",
+      "featured": true,
+      "contentUpdatedAt": "2026-09-04T18:15:32.052Z",
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn mgeko.cc (EN).",
+      "dataFile": "the-scholars-reincarnation.json",
+      "title": "The Scholar's Reincarnation",
+      "displayTitle": "The Scholar's Reincarnation",
+      "subtitle": "Ch. 1–214 · the-scholars-reincarnation.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 214,
+      "chapterCount": 217,
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/lars-reincnaton.jpg",
+      "featured": true,
+      "contentUpdatedAt": "2026-09-04T18:18:25.589Z"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": "Nguồn mgeko.cc (EN).",
+      "dataFile": "reality-quest.json",
+      "title": "Reality Quest",
+      "displayTitle": "Reality Quest",
+      "subtitle": "Ch. 1–220 · reality-quest.json",
+      "source": "mgeko",
+      "fromChapter": 1,
+      "toChapter": 220,
+      "chapterCount": 237,
+      "featured": true,
+      "contentUpdatedAt": "2026-09-04T18:18:25.589Z"
     }
   ]
 }
