@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:08:05.189Z",
+  "updatedAt": "2026-09-04T18:12:30.469Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5593,15 +5593,15 @@
       "dataFile": "the-crown-prince-that-sells-medicine.json",
       "title": "The Crown Prince That Sells Medicine",
       "displayTitle": "The Crown Prince That Sells Medicine",
-      "subtitle": "Ch. 1–52 · the-crown-prince-that-sells-medicine.json",
-      "source": "asura",
+      "subtitle": "Ch. 1–122 · the-crown-prince-that-sells-medicine.json",
+      "source": "mgeko",
       "fromChapter": 1,
-      "toChapter": 52,
-      "chapterCount": 52,
-      "contentSyncNote": "Nguồn asurascans.com.",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-crown-prince-that-sells-medicine.98e160.webp",
+      "toChapter": 122,
+      "chapterCount": 121,
+      "contentSyncNote": "Nguồn mgeko.cc (EN).",
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/the-crown-prince-that-sells-medicine.png",
       "featured": true,
-      "contentUpdatedAt": "2026-09-04T18:08:05.189Z",
+      "contentUpdatedAt": "2026-09-04T18:12:30.469Z",
       "sqliteSeriesId": null,
       "contentSyncComplete": false
     }
