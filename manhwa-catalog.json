@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:12:30.469Z",
+  "updatedAt": "2026-09-04T18:15:32.052Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5597,11 +5597,11 @@
       "source": "mgeko",
       "fromChapter": 1,
       "toChapter": 122,
-      "chapterCount": 121,
-      "contentSyncNote": "Nguồn mgeko.cc (EN).",
+      "chapterCount": 122,
+      "contentSyncNote": "Asura ch.1–52; MGEKO từ ch.56+ (featured sync).",
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/the-crown-prince-that-sells-medicine.png",
       "featured": true,
-      "contentUpdatedAt": "2026-09-04T18:12:30.469Z",
+      "contentUpdatedAt": "2026-09-04T18:15:32.052Z",
       "sqliteSeriesId": null,
       "contentSyncComplete": false
     }
