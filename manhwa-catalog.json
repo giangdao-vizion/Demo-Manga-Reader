@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:00:19.184Z",
+  "updatedAt": "2026-09-04T18:08:05.189Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5588,6 +5588,22 @@
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/Absolute-Dominion-193x278.webp",
       "featured": true,
       "contentUpdatedAt": "2026-09-01T16:32:45.699Z"
+    },
+    {
+      "dataFile": "the-crown-prince-that-sells-medicine.json",
+      "title": "The Crown Prince That Sells Medicine",
+      "displayTitle": "The Crown Prince That Sells Medicine",
+      "subtitle": "Ch. 1–52 · the-crown-prince-that-sells-medicine.json",
+      "source": "asura",
+      "fromChapter": 1,
+      "toChapter": 52,
+      "chapterCount": 52,
+      "contentSyncNote": "Nguồn asurascans.com.",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-crown-prince-that-sells-medicine.98e160.webp",
+      "featured": true,
+      "contentUpdatedAt": "2026-09-04T18:08:05.189Z",
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false
     }
   ]
 }
