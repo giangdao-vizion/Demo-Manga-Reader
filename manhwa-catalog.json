@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:18:25.589Z",
+  "updatedAt": "2026-09-05T07:36:50.905Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5635,6 +5635,23 @@
       "chapterCount": 237,
       "featured": true,
       "contentUpdatedAt": "2026-09-04T18:18:25.589Z"
+    },
+    {
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false,
+      "contentSyncNote": null,
+      "dataFile": "ministry-of-strategy-and-finance-qimanga.json",
+      "title": "Ministry of Strategy and Finance",
+      "displayTitle": "Ministry of Strategy and Finance",
+      "subtitle": "Ch. 1-60 · ministry-of-strategy-and-finance-qimanga.json",
+      "source": "qimanga",
+      "fromChapter": 1,
+      "toChapter": 60,
+      "chapterCount": 60,
+      "coverUrl": "https://media.qimanhwa.com/file/qiscans/upload/rezo/2025/08/03/349d5954-ac32-4575-ac23-73f81ca8807d.webp",
+      "homeUrl": "https://qimanga.com/series/ministry-of-strategy-and-finance",
+      "seriesSlug": "ministry-of-strategy-and-finance",
+      "featured": true
     }
   ]
 }
