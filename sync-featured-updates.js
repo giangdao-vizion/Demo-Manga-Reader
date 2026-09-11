@@ -67,6 +67,7 @@ function normalizeSource(source) {
   if (s === "onepunchmanmau" || s === "one-punch-man-mau") return "onepunchmanmau";
   if (s === "truyenonepiece" || s === "truyen-one-piece") return "truyenonepiece";
   if (s === "dilib") return "dilib";
+  if (s === "qimanga" || s === "qimanhwa" || s === "qiscans") return "qimanga";
   return s;
 }
 
@@ -291,11 +292,13 @@ function ingestCrawlerLine(line, result) {
   if (!raw) return;
 
   if (
-    /^Fetch (series|chapter|reader|home)/i.test(raw) ||
-    /^Merge mode:/i.test(raw) ||
+    /^Fetch (series|chapter|reader|home|\d)/i.test(raw) ||
+    /^Merge(?: mode)?:/i.test(raw) ||
     /^Cần fetch/i.test(raw) ||
-    /^Không có chương mới cần tải/i.test(raw) ||
-    /^--merge:/i.test(raw)
+    /^Không có chương mới/i.test(raw) ||
+    /^--merge:/i.test(raw) ||
+    /^=== Qi Manga/i.test(raw) ||
+    /^Chapter list:/i.test(raw)
   ) {
     result.sourceOk = true;
   }
@@ -748,6 +751,47 @@ async function main() {
         ]);
         const mtimeAfter = await fileMtimeMs(dataAbs);
         const jsonWasWritten = crawl.wrote || (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
+        doc = await readJson(dataAbs);
+        const newLabels = jsonWasWritten
+          ? findNewChapterLabels(beforeDoc, doc)
+          : [];
+        const added = newLabels.length;
+        if (added > 0) {
+          seriesChanged = true;
+          touchedSeries++;
+          totalAdded += added;
+        }
+        finalizeCrawlerReport(report, beforeDoc, doc, crawl, jsonWasWritten);
+      } else if (source === "qimanga") {
+        const sample = String(doc.sampleUrl || s.sampleUrl || "").trim();
+        const home = String(doc.homeUrl || s.homeUrl || "").trim();
+        const seriesSlug = String(doc.seriesSlug || s.seriesSlug || "").trim();
+        const seriesUrl = home || sample || seriesSlug;
+        if (!seriesUrl) {
+          report.error = "thiếu homeUrl / sampleUrl / seriesSlug";
+          logSeriesSyncReport(report);
+          skipped++;
+          continue;
+        }
+        if (args.dryRun) {
+          report.sourceOk = true;
+          logSeriesSyncReport(report);
+          continue;
+        }
+        const mtimeBefore = await fileMtimeMs(dataAbs);
+        const crawl = await runNodeScript([
+          "crawl-qimanga-series.js",
+          seriesUrl,
+          "--out",
+          `data-json/${dataFile}`,
+          "--no-catalog",
+          "--concurrency",
+          String(args.concurrency),
+        ]);
+        const mtimeAfter = await fileMtimeMs(dataAbs);
+        const jsonWasWritten =
+          crawl.wrote ||
+          (mtimeBefore != null && mtimeAfter != null && mtimeAfter > mtimeBefore);
         doc = await readJson(dataAbs);
         const newLabels = jsonWasWritten
           ? findNewChapterLabels(beforeDoc, doc)

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T08:57:17.249Z",
+  "updatedAt": "2026-09-11T14:52:27.826Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1750,16 +1750,16 @@
       "dataFile": "trash-of-the-counts-family.json",
       "title": "Trash Of The Counts Family",
       "displayTitle": "Trash Of The Counts Family",
-      "subtitle": "Ch. 0–187 · trash-of-the-counts-family.json",
+      "subtitle": "Ch. 0–188 · trash-of-the-counts-family.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 187,
-      "chapterCount": 188,
+      "toChapter": 188,
+      "chapterCount": 189,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa.webp",
-      "contentUpdatedAt": "2026-09-08T12:47:23.409Z",
+      "contentUpdatedAt": "2026-09-11T14:51:38.926Z",
       "featured": true
     },
     {
@@ -1958,17 +1958,17 @@
       "dataFile": "one-piece-dao-hai-tac-truyen-one-piece.json",
       "title": "One Piece",
       "displayTitle": "One Piece",
-      "subtitle": "Ch. 1–1190 · one-piece-dao-hai-tac-truyen-one-piece.json",
+      "subtitle": "Ch. 1–1192 · one-piece-dao-hai-tac-truyen-one-piece.json",
       "source": "truyenonepiece",
       "fromChapter": 1,
-      "toChapter": 1190,
-      "chapterCount": 1190,
+      "toChapter": 1192,
+      "chapterCount": 1192,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": null,
       "coverUrl": "https://truyen-one-piece.com/wp-content/uploads/2026/01/tieu_thuyet_one_piece_film_red_bia_ao_-1-1422x2048.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-08-14T14:42:56.371Z"
+      "contentUpdatedAt": "2026-09-11T14:51:59.192Z"
     },
     {
       "dataFile": "one-punch-man-mgeko-eng.json",

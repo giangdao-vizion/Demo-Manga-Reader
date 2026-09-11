@@ -292,4 +292,5 @@ export const SOURCE_LABELS = {
   onepunchmanmau: "OnePunchManMau.com",
   truyenonepiece: "Truyen-One-Piece.com",
   dilib: "dilib.vn",
+  qimanga: "Qi Manga",
 };

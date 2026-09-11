@@ -378,17 +378,24 @@ async function crawlOneSeries(seriesArg, args) {
     targets.push(item);
   }
 
-  if (skipped > 0) console.error(`Merge: giữ ${skipped} chapter đã có ảnh.`);
+  if (skipped > 0) {
+    console.error(`Merge mode: giữ lại ${skipped} chapter đã có ảnh.`);
+  }
   if (!targets.length) {
-    console.error(`Không có chương mới (${skipped}/${ordered.length} đã có).`);
+    console.error(
+      `Không có chương mới cần tải (${skipped}/${ordered.length} chương đã có trong JSON).`
+    );
     if (existing?.chapters?.length) {
+      console.error("Skip write: không có chương mới cần cập nhật JSON.");
       if (args.updateCatalog) {
         await upsertFromDoc(args, existing, outPath, title, coverUrl, homeUrl, seriesSlug);
       }
       return { slug: seriesSlug, title, chapters: existing.chapters.length, skipped: true };
     }
   } else {
-    console.error(`Fetch ${targets.length}/${ordered.length} (concurrency=${args.concurrency})`);
+    console.error(
+      `Cần fetch ${targets.length}/${ordered.length} chapter (concurrency=${args.concurrency}).`
+    );
   }
 
   const fetched = await runParallel(args.concurrency, targets, async (item, idx) => {
@@ -463,6 +470,7 @@ async function crawlOneSeries(seriesArg, args) {
     chapters: finalChapters,
   };
   await writeFile(outPath, JSON.stringify(doc, null, 2) + "\n", "utf8");
+  console.log(`Wrote ${finalChapters.length} chapter(s) -> ${outPath}`);
   console.error(
     `Wrote ${finalChapters.length} chapter(s) (${withImages} có ảnh, ${errors} lỗi) -> ${outPath}`
   );
