@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/i-am-the-fated-villain-1d35e5bd",
   "title": "I Am the Fated Villain",
   "fromChapter": 1,
-  "toChapter": 354,
-  "fetchedAt": "2026-09-04T18:00:16.907Z",
+  "toChapter": 356,
+  "fetchedAt": "2026-09-11T08:57:12.592Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-am-the-fated-villain.e8d6b3.webp",
   "chapters": [
@@ -6775,6 +6775,40 @@
         "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/354/aab577.webp?v=1788259687",
         "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/354/6aec67.webp?v=1788259687",
         "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/354/84d423.webp?v=1788259687"
+      ]
+    },
+    {
+      "title": "Chapter 355",
+      "chapter": 355,
+      "url": "https://asurascans.com/comics/i-am-the-fated-villain-1d35e5bd/chapter/355",
+      "finalUrl": "https://asurascans.com/comics/i-am-the-fated-villain-53fc8424/chapter/355",
+      "total": 8,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/8f894e.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/977a2a.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/223ad3.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/439bab.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/8a5e6f.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/3db0e7.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/2c1b8e.webp?v=1788885121",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/355/b0762b.webp?v=1788885121"
+      ]
+    },
+    {
+      "title": "Chapter 356",
+      "chapter": 356,
+      "url": "https://asurascans.com/comics/i-am-the-fated-villain-1d35e5bd/chapter/356",
+      "finalUrl": "https://asurascans.com/comics/i-am-the-fated-villain-53fc8424/chapter/356",
+      "total": 8,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/3d5cb4.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/eb1275.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/31963f.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/2bdb9f.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/845f7d.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/d697c3.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/e38b12.webp?v=1788937048",
+        "https://cdn.asurascans.com/asura-images/chapters/i-am-the-fated-villain/356/0846c5.webp?v=1788937048"
       ]
     }
   ]
