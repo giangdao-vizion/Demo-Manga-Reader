@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T14:52:27.826Z",
+  "updatedAt": "2026-09-15T15:13:53.542Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5652,6 +5652,22 @@
       "homeUrl": "https://qimanga.com/series/ministry-of-strategy-and-finance",
       "seriesSlug": "ministry-of-strategy-and-finance",
       "featured": true
+    },
+    {
+      "dataFile": "artifact-devouring-player.json",
+      "title": "Artifact-Devouring Player",
+      "displayTitle": "Artifact-Devouring Player",
+      "subtitle": "Ch. 0–52 · artifact-devouring-player.json",
+      "source": "asura",
+      "fromChapter": 0,
+      "toChapter": 52,
+      "chapterCount": 53,
+      "contentSyncNote": "Nguồn asurascans.com.",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/artifact-devouring-player.1f483f.webp",
+      "featured": true,
+      "contentUpdatedAt": "2026-09-15T15:13:53.542Z",
+      "sqliteSeriesId": null,
+      "contentSyncComplete": false
     }
   ]
 }
