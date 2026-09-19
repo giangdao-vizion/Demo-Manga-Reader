@@ -800,6 +800,88 @@
       border-color: var(--accent-dim);
       color: var(--accent);
     }
+    .reader-settings-autoscroll {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      margin: 8px 0 0;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--stroke);
+      background: rgba(122, 242, 255, 0.1);
+      color: var(--accent);
+      font: inherit;
+      font-size: 0.75rem;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    .reader-settings-autoscroll:hover {
+      background: rgba(122, 242, 255, 0.18);
+      border-color: var(--accent-dim);
+    }
+    .reader-settings-autoscroll svg {
+      display: block;
+      flex-shrink: 0;
+    }
+    .reader-autoscroll-bar {
+      position: fixed;
+      z-index: 171;
+      left: max(12px, calc(env(safe-area-inset-left, 0px) + 4px));
+      bottom: max(62px, calc(env(safe-area-inset-bottom, 0px) + 56px));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+    }
+    .reader-autoscroll-bar[hidden] {
+      display: none !important;
+    }
+    .reader-autoscroll-btn {
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      padding: 0;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(11, 13, 18, 0.88);
+      backdrop-filter: saturate(1.15) blur(14px);
+      -webkit-backdrop-filter: saturate(1.15) blur(14px);
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+      color: var(--accent);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: auto;
+    }
+    .reader-autoscroll-btn svg {
+      display: block;
+      flex-shrink: 0;
+    }
+    .reader-autoscroll-btn:hover {
+      background: rgba(122, 242, 255, 0.14);
+      border-color: var(--accent-dim);
+    }
+    .reader-autoscroll-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .reader-autoscroll-speed {
+      margin: 0;
+      padding: 2px 0 0;
+      font-size: 0.62rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.04em;
+      color: var(--text-dim);
+      pointer-events: none;
+      text-align: center;
+      min-width: 40px;
+    }
   </style>
   <!--
     Static hosting (không cần backend):
@@ -935,7 +1017,72 @@
         </button>
       </div>
     </div>
+    <button
+      type="button"
+      class="reader-settings-autoscroll"
+      id="readerAutoScrollStartBtn"
+      title="Tự cuộn xuống"
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M8 5.14v13.72L19 12 8 5.14z" />
+      </svg>
+      <span>Play · Tự cuộn</span>
+    </button>
     <a class="reader-settings-home" id="readerSettingsHome" href="home.html">Về Home</a>
+  </div>
+  <div class="reader-autoscroll-bar" id="readerAutoScrollBar" hidden>
+    <button
+      type="button"
+      class="reader-autoscroll-btn"
+      id="autoScrollSpeedUpBtn"
+      aria-label="Tăng tốc độ cuộn"
+      title="Tăng tốc"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M13 19V5M5 12l7-7 7 7"
+        />
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="reader-autoscroll-btn"
+      id="autoScrollPlayPauseBtn"
+      aria-label="Tạm dừng tự cuộn"
+      title="Pause"
+      data-state="playing"
+    >
+      <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M7 5h3v14H7V5zm7 0h3v14h-3V5z" />
+      </svg>
+      <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" hidden>
+        <path fill="currentColor" d="M8 5.14v13.72L19 12 8 5.14z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="reader-autoscroll-btn"
+      id="autoScrollSpeedDownBtn"
+      aria-label="Giảm tốc độ cuộn"
+      title="Giảm tốc"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 5v14M5 12l7 7 7-7"
+        />
+      </svg>
+    </button>
+    <div class="reader-autoscroll-speed" id="autoScrollSpeedLabel" aria-live="polite">1.0×</div>
   </div>
   <script src="chapter-id.js"></script>
   <script src="reader-history.js"></script>
@@ -1076,6 +1223,12 @@
         settingsPopup: document.getElementById("readerSettingsPopup"),
         settingsClose: document.getElementById("readerSettingsClose"),
         settingsHome: document.getElementById("readerSettingsHome"),
+        autoScrollStartBtn: document.getElementById("readerAutoScrollStartBtn"),
+        autoScrollBar: document.getElementById("readerAutoScrollBar"),
+        autoScrollPlayPauseBtn: document.getElementById("autoScrollPlayPauseBtn"),
+        autoScrollSpeedUpBtn: document.getElementById("autoScrollSpeedUpBtn"),
+        autoScrollSpeedDownBtn: document.getElementById("autoScrollSpeedDownBtn"),
+        autoScrollSpeedLabel: document.getElementById("autoScrollSpeedLabel"),
         zoomOutBtn: document.getElementById("zoomOutBtn"),
         zoomInBtn: document.getElementById("zoomInBtn"),
         zoomValue: document.getElementById("readerZoomValue"),
@@ -1377,6 +1530,217 @@
           }
         });
       }
+
+      const AUTO_SCROLL_SPEED_MIN = 0.4;
+      const AUTO_SCROLL_SPEED_MAX = 3;
+      const AUTO_SCROLL_SPEED_STEP = 0.2;
+      const AUTO_SCROLL_BASE_PX_PER_SEC = 55;
+      const AUTO_SCROLL_IDLE_HIDE_MS = 15000;
+      let autoScrollSpeed = 1;
+      let autoScrollPlaying = false;
+      let autoScrollRaf = 0;
+      let autoScrollLastTs = 0;
+      let autoScrollHideTimer = 0;
+
+      function isAutoScrollBarVisible() {
+        return !!(el.autoScrollBar && !el.autoScrollBar.hidden);
+      }
+
+      function clearAutoScrollHideTimer() {
+        if (autoScrollHideTimer) {
+          clearTimeout(autoScrollHideTimer);
+          autoScrollHideTimer = 0;
+        }
+      }
+
+      function updateAutoScrollSpeedLabel() {
+        if (!el.autoScrollSpeedLabel) return;
+        el.autoScrollSpeedLabel.textContent = autoScrollSpeed.toFixed(1).replace(/\.0$/, "") + "×";
+      }
+
+      function setAutoScrollPlayPauseUi(playing) {
+        if (!el.autoScrollPlayPauseBtn) return;
+        const pauseIcon = el.autoScrollPlayPauseBtn.querySelector(".icon-pause");
+        const playIcon = el.autoScrollPlayPauseBtn.querySelector(".icon-play");
+        el.autoScrollPlayPauseBtn.dataset.state = playing ? "playing" : "paused";
+        el.autoScrollPlayPauseBtn.setAttribute(
+          "aria-label",
+          playing ? "Tạm dừng tự cuộn" : "Tiếp tục tự cuộn"
+        );
+        el.autoScrollPlayPauseBtn.title = playing ? "Pause" : "Play";
+        if (pauseIcon) pauseIcon.hidden = !playing;
+        if (playIcon) playIcon.hidden = playing;
+      }
+
+      function stopAutoScrollLoop() {
+        if (autoScrollRaf) {
+          cancelAnimationFrame(autoScrollRaf);
+          autoScrollRaf = 0;
+        }
+        autoScrollLastTs = 0;
+      }
+
+      function getAutoScrollMaxTop() {
+        const main = el.main;
+        const mainMax = Math.max(0, main.scrollHeight - main.clientHeight);
+        const docEl = document.documentElement;
+        const body = document.body;
+        const winMax = Math.max(
+          0,
+          Math.max(docEl.scrollHeight, body.scrollHeight) - window.innerHeight
+        );
+        return { mainMax: mainMax, winMax: winMax };
+      }
+
+      function tickAutoScroll(ts) {
+        if (!autoScrollPlaying) {
+          autoScrollRaf = 0;
+          return;
+        }
+        if (!autoScrollLastTs) autoScrollLastTs = ts;
+        const dt = Math.min(64, Math.max(0, ts - autoScrollLastTs));
+        autoScrollLastTs = ts;
+        const delta = (AUTO_SCROLL_BASE_PX_PER_SEC * autoScrollSpeed * dt) / 1000;
+        const limits = getAutoScrollMaxTop();
+        let moved = false;
+        if (limits.mainMax > 1) {
+          const next = Math.min(limits.mainMax, el.main.scrollTop + delta);
+          if (next > el.main.scrollTop + 0.1) {
+            el.main.scrollTop = next;
+            moved = true;
+          }
+          if (el.main.scrollTop >= limits.mainMax - 1) {
+            pauseAutoScroll({ armHideTimer: true });
+            return;
+          }
+        } else if (limits.winMax > 1) {
+          const cur = window.scrollY || docScrollTop();
+          const next = Math.min(limits.winMax, cur + delta);
+          if (next > cur + 0.1) {
+            window.scrollTo(0, next);
+            moved = true;
+          }
+          if ((window.scrollY || docScrollTop()) >= limits.winMax - 1) {
+            pauseAutoScroll({ armHideTimer: true });
+            return;
+          }
+        } else {
+          pauseAutoScroll({ armHideTimer: true });
+          return;
+        }
+        if (!moved) {
+          pauseAutoScroll({ armHideTimer: true });
+          return;
+        }
+        autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+      }
+
+      function docScrollTop() {
+        return (
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop ||
+          0
+        );
+      }
+
+      function showAutoScrollBar() {
+        if (!el.autoScrollBar) return;
+        el.autoScrollBar.hidden = false;
+        updateAutoScrollSpeedLabel();
+      }
+
+      function hideAutoScrollBar() {
+        clearAutoScrollHideTimer();
+        stopAutoScrollLoop();
+        autoScrollPlaying = false;
+        if (el.autoScrollBar) el.autoScrollBar.hidden = true;
+        setAutoScrollPlayPauseUi(false);
+      }
+
+      function armAutoScrollHideTimer() {
+        clearAutoScrollHideTimer();
+        autoScrollHideTimer = setTimeout(function () {
+          autoScrollHideTimer = 0;
+          if (!autoScrollPlaying) hideAutoScrollBar();
+        }, AUTO_SCROLL_IDLE_HIDE_MS);
+      }
+
+      function startAutoScroll() {
+        clearAutoScrollHideTimer();
+        showAutoScrollBar();
+        autoScrollPlaying = true;
+        setAutoScrollPlayPauseUi(true);
+        stopAutoScrollLoop();
+        autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+      }
+
+      function pauseAutoScroll(opts) {
+        autoScrollPlaying = false;
+        stopAutoScrollLoop();
+        setAutoScrollPlayPauseUi(false);
+        if (!opts || opts.armHideTimer !== false) armAutoScrollHideTimer();
+      }
+
+      function resumeAutoScrollFromControls() {
+        clearAutoScrollHideTimer();
+        startAutoScroll();
+      }
+
+      function bumpAutoScrollSpeed(dir) {
+        autoScrollSpeed = Math.round(
+          Math.min(
+            AUTO_SCROLL_SPEED_MAX,
+            Math.max(AUTO_SCROLL_SPEED_MIN, autoScrollSpeed + dir * AUTO_SCROLL_SPEED_STEP)
+          ) * 10
+        ) / 10;
+        updateAutoScrollSpeedLabel();
+      }
+
+      if (el.autoScrollStartBtn) {
+        el.autoScrollStartBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          closeReaderSettings();
+          startAutoScroll();
+        });
+      }
+      if (el.autoScrollPlayPauseBtn) {
+        el.autoScrollPlayPauseBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          if (!isAutoScrollBarVisible()) return;
+          if (autoScrollPlaying) pauseAutoScroll({ armHideTimer: true });
+          else resumeAutoScrollFromControls();
+        });
+      }
+      if (el.autoScrollSpeedUpBtn) {
+        el.autoScrollSpeedUpBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          if (!isAutoScrollBarVisible()) return;
+          bumpAutoScrollSpeed(1);
+        });
+      }
+      if (el.autoScrollSpeedDownBtn) {
+        el.autoScrollSpeedDownBtn.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          ev.stopPropagation();
+          if (!isAutoScrollBarVisible()) return;
+          bumpAutoScrollSpeed(-1);
+        });
+      }
+      if (el.autoScrollBar) {
+        el.autoScrollBar.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+        });
+      }
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden && autoScrollPlaying) {
+          pauseAutoScroll({ armHideTimer: true });
+        }
+      });
+
       if (el.settingsPopup) {
         el.settingsPopup.addEventListener("click", function (ev) {
           ev.stopPropagation();
@@ -1386,7 +1750,10 @@
         closeReaderSettings();
       });
       document.addEventListener("keydown", function (ev) {
-        if (ev.key === "Escape") closeReaderSettings();
+        if (ev.key === "Escape") {
+          closeReaderSettings();
+          if (autoScrollPlaying) pauseAutoScroll({ armHideTimer: true });
+        }
       });
 
       if (el.zoomOutBtn) {
@@ -1585,6 +1952,9 @@
 
       function setActive(index, opts) {
         if (!data || index < 0 || index >= data.chapters.length) return;
+        if (isAutoScrollBarVisible() || autoScrollPlaying) {
+          hideAutoScrollBar();
+        }
         activeIndex = index;
         const chOpen = data.chapters[index];
         readChaptersMarkRead(dataFileName, chapterIdOf(chOpen, index));
