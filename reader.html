@@ -857,6 +857,11 @@
       align-items: center;
       justify-content: center;
       pointer-events: auto;
+      font: inherit;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1;
+      -webkit-tap-highlight-color: transparent;
     }
     .reader-autoscroll-btn svg {
       display: block;
@@ -865,9 +870,12 @@
     .reader-autoscroll-btn svg[hidden] {
       display: none !important;
     }
-    .reader-autoscroll-btn:hover {
-      background: rgba(122, 242, 255, 0.14);
-      border-color: var(--accent-dim);
+    .reader-autoscroll-btn:hover,
+    .reader-autoscroll-btn:active,
+    .reader-autoscroll-btn:focus {
+      background: rgba(11, 13, 18, 0.88);
+      border-color: var(--stroke);
+      color: var(--accent);
     }
     .reader-autoscroll-btn:focus-visible {
       outline: 2px solid var(--accent);
@@ -1037,20 +1045,11 @@
     <button
       type="button"
       class="reader-autoscroll-btn"
-      id="autoScrollSpeedUpBtn"
-      aria-label="Tăng tốc độ cuộn"
-      title="Tăng tốc"
+      id="autoScrollSpeedDownBtn"
+      aria-label="Giảm tốc độ cuộn"
+      title="Giảm tốc"
     >
-      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M13 19V5M5 12l7-7 7 7"
-        />
-      </svg>
+      −
     </button>
     <button
       type="button"
@@ -1070,20 +1069,11 @@
     <button
       type="button"
       class="reader-autoscroll-btn"
-      id="autoScrollSpeedDownBtn"
-      aria-label="Giảm tốc độ cuộn"
-      title="Giảm tốc"
+      id="autoScrollSpeedUpBtn"
+      aria-label="Tăng tốc độ cuộn"
+      title="Tăng tốc"
     >
-      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M12 5v14M5 12l7 7 7-7"
-        />
-      </svg>
+      +
     </button>
     <div class="reader-autoscroll-speed" id="autoScrollSpeedLabel" aria-live="polite">50px/s</div>
   </div>
