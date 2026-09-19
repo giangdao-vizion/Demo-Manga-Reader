@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T08:02:39.658Z",
+  "updatedAt": "2026-09-19T08:03:22.236Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
       "title": "A Returner's Magic Should Be Special",
       "displayTitle": "A Returner's Magic Should Be Special",
-      "subtitle": "Ch. 60–269 · a-returners-magic.json",
+      "subtitle": "Ch. 1–269 · a-returners-magic.json",
       "source": "mgeko",
-      "fromChapter": 60,
+      "fromChapter": 1,
       "toChapter": 269,
-      "chapterCount": 210,
+      "chapterCount": 269,
       "sqliteSeriesId": null,
-      "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn mgeko.cc (chuyển từ mangasis).",
-      "coverUrl": "https://www.mangasis.com/wp-content/uploads/A-Returners-Magic-Should-Be-Special-464x722.jpg",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "contentSyncComplete": true,
+      "contentSyncNote": "Nguồn mgeko.cc (chuyển từ mangasis; đủ 1–269).",
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/a-returner-s-magic-should-be-speci.png",
+      "contentUpdatedAt": "2026-09-19T08:03:22.224Z",
       "featured": true
     },
     {

@@ -484,6 +484,26 @@ async function main() {
     chapter: Number.isFinite(item.chapterNumber) ? item.chapterNumber : idx + 1,
   }));
 
+  // Prefer the first listing when mgeko exposes variants (e.g. 244-eng vs 244-full-eng).
+  {
+    const seen = new Set();
+    const deduped = [];
+    for (const item of ordered) {
+      const n = item.chapter;
+      if (Number.isFinite(n)) {
+        if (seen.has(n)) continue;
+        seen.add(n);
+      }
+      deduped.push(item);
+    }
+    if (deduped.length !== ordered.length) {
+      console.error(
+        `Deduped chapter numbers: ${ordered.length} → ${deduped.length} (bỏ bản trùng số).`
+      );
+    }
+    ordered = deduped;
+  }
+
   if (args.limitChapters != null && Number.isFinite(args.limitChapters) && args.limitChapters > 0) {
     ordered = ordered.slice(0, Math.floor(args.limitChapters));
     console.error(`--limit-chapters ${ordered.length}: chỉ crawl ${ordered.length} chapter đầu.`);
