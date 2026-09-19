@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T08:03:22.236Z",
+  "updatedAt": "2026-09-19T08:07:03.033Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -16,7 +16,7 @@
       "contentSyncNote": "Nguồn mgeko.cc (chuyển từ mangasis; đủ 1–269).",
       "coverUrl": "https://www.mgeko.cc/media/manga_covers/a-returner-s-magic-should-be-speci.png",
       "contentUpdatedAt": "2026-09-19T08:03:22.224Z",
-      "featured": true
+      "featured": false
     },
     {
       "dataFile": "absolute-sword-sense-ch01-164.json",
