@@ -591,7 +591,7 @@
     }
     .reader-bottom-cluster {
       position: fixed;
-      z-index: 170;
+      z-index: 400;
       left: max(12px, calc(env(safe-area-inset-left, 0px) + 4px));
       bottom: max(14px, calc(env(safe-area-inset-bottom, 0px) + 8px));
       display: flex;
@@ -657,7 +657,7 @@
     }
     .reader-settings-popup {
       position: fixed;
-      z-index: 175;
+      z-index: 410;
       left: max(12px, calc(env(safe-area-inset-left, 0px) + 4px));
       bottom: max(62px, calc(env(safe-area-inset-bottom, 0px) + 56px));
       width: min(248px, calc(100vw - 24px));
@@ -827,7 +827,7 @@
     }
     .reader-autoscroll-bar {
       position: fixed;
-      z-index: 171;
+      z-index: 405;
       left: max(12px, calc(env(safe-area-inset-left, 0px) + 4px));
       bottom: max(62px, calc(env(safe-area-inset-bottom, 0px) + 56px));
       display: flex;
@@ -1534,17 +1534,23 @@
         });
       }
 
+      /*
+        Nguyên tắc tự cuộn:
+        Mỗi ~32ms, cộng thêm (pxPerSec * elapsedSeconds) vào vị trí cuộn dọc của trang
+        bằng window.scrollBy — giống người kéo trang từ từ xuống.
+        Mặc định 50px/s; mỗi lần tăng/giảm tốc ±20px/s (50 → 70 → 90...).
+      */
       const AUTO_SCROLL_PX_MIN = 20;
       const AUTO_SCROLL_PX_MAX = 200;
       const AUTO_SCROLL_PX_STEP = 20;
       const AUTO_SCROLL_PX_DEFAULT = 50;
+      const AUTO_SCROLL_TICK_MS = 32;
       const AUTO_SCROLL_IDLE_HIDE_MS = 15000;
       let autoScrollPxPerSec = AUTO_SCROLL_PX_DEFAULT;
       let autoScrollPlaying = false;
-      let autoScrollRaf = 0;
+      let autoScrollTimer = 0;
       let autoScrollLastTs = 0;
       let autoScrollHideTimer = 0;
-      let autoScrollCarry = 0;
 
       function isAutoScrollBarVisible() {
         return !!(el.autoScrollBar && !el.autoScrollBar.hidden);
@@ -1577,80 +1583,74 @@
       }
 
       function stopAutoScrollLoop() {
-        if (autoScrollRaf) {
-          cancelAnimationFrame(autoScrollRaf);
-          autoScrollRaf = 0;
+        if (autoScrollTimer) {
+          clearInterval(autoScrollTimer);
+          autoScrollTimer = 0;
         }
         autoScrollLastTs = 0;
-        autoScrollCarry = 0;
       }
 
-      function getAutoScrollScroller() {
-        const ex = getScrollExtents();
-        if (ex.useMain && ex.mainMax > 1) {
-          return { el: el.main, max: ex.mainMax, kind: "main" };
-        }
-        const root = document.scrollingElement || document.documentElement;
-        return { el: root, max: Math.max(ex.docMax, ex.maxScroll), kind: "document" };
+      function getDocumentScrollMax() {
+        const doc = document.scrollingElement || document.documentElement;
+        const total = Math.max(
+          doc.scrollHeight,
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight
+        );
+        return Math.max(0, total - window.innerHeight);
       }
 
-      function applyAutoScrollDelta(delta) {
-        const target = getAutoScrollScroller();
-        if (target.max <= 1) return { moved: false, atEnd: false, waiting: true };
+      function getDocumentScrollY() {
+        const doc = document.scrollingElement || document.documentElement;
+        return (
+          window.scrollY ||
+          window.pageYOffset ||
+          doc.scrollTop ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop ||
+          0
+        );
+      }
 
-        const before = target.el.scrollTop || 0;
-        if (before >= target.max - 1) {
-          return { moved: false, atEnd: true, waiting: false };
-        }
-
-        autoScrollCarry += delta;
-        const step = autoScrollCarry;
-        if (Math.abs(step) < 0.25) {
-          return { moved: false, atEnd: false, waiting: false };
-        }
-        autoScrollCarry = 0;
-
-        const next = Math.min(target.max, before + step);
-        target.el.scrollTop = next;
-        if (target.kind === "document") {
-          window.scrollTo(0, next);
+      function nudgePageDown(deltaPx) {
+        if (!(deltaPx > 0)) return;
+        const before = getDocumentScrollY();
+        window.scrollBy(0, deltaPx);
+        if (Math.abs(getDocumentScrollY() - before) < 0.2) {
+          const next = before + deltaPx;
+          const root = document.scrollingElement || document.documentElement;
+          root.scrollTop = next;
           document.documentElement.scrollTop = next;
           document.body.scrollTop = next;
         }
-
-        const after = target.el.scrollTop || 0;
-        const moved = after > before + 0.2;
-        const atEnd = after >= target.max - 1;
-        return { moved: moved, atEnd: atEnd, waiting: false };
+        if (el.main && el.main.scrollHeight > el.main.clientHeight + 4) {
+          el.main.scrollTop += deltaPx;
+        }
       }
 
-      function tickAutoScroll(ts) {
-        if (!autoScrollPlaying) {
-          autoScrollRaf = 0;
-          return;
-        }
+      function tickAutoScroll() {
+        if (!autoScrollPlaying) return;
+        const now = performance.now();
         if (!autoScrollLastTs) {
-          autoScrollLastTs = ts;
-          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+          autoScrollLastTs = now;
           return;
         }
-        const dt = Math.min(50, Math.max(0, ts - autoScrollLastTs));
-        autoScrollLastTs = ts;
-        if (dt < 1) {
-          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
-          return;
-        }
-        const delta = (autoScrollPxPerSec * dt) / 1000;
-        const result = applyAutoScrollDelta(delta);
-        if (result.waiting) {
-          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
-          return;
-        }
-        if (result.atEnd) {
+        const dtSec = Math.min(0.1, Math.max(0, (now - autoScrollLastTs) / 1000));
+        autoScrollLastTs = now;
+        if (dtSec <= 0) return;
+
+        const maxY = getDocumentScrollMax();
+        const y = getDocumentScrollY();
+        if (maxY <= 1) return;
+        if (y >= maxY - 1) {
           pauseAutoScroll({ armHideTimer: true });
           return;
         }
-        autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+
+        nudgePageDown(autoScrollPxPerSec * dtSec);
+        if (getDocumentScrollY() >= getDocumentScrollMax() - 1) {
+          pauseAutoScroll({ armHideTimer: true });
+        }
       }
 
       function showAutoScrollBar() {
@@ -1681,7 +1681,8 @@
         autoScrollPlaying = true;
         setAutoScrollPlayPauseUi(true);
         stopAutoScrollLoop();
-        autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+        autoScrollLastTs = performance.now();
+        autoScrollTimer = setInterval(tickAutoScroll, AUTO_SCROLL_TICK_MS);
       }
 
       function pauseAutoScroll(opts) {
