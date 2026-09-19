@@ -1580,16 +1580,24 @@
         autoScrollLastTs = 0;
       }
 
-      function getAutoScrollMaxTop() {
-        const main = el.main;
-        const mainMax = Math.max(0, main.scrollHeight - main.clientHeight);
-        const docEl = document.documentElement;
-        const body = document.body;
-        const winMax = Math.max(
-          0,
-          Math.max(docEl.scrollHeight, body.scrollHeight) - window.innerHeight
-        );
-        return { mainMax: mainMax, winMax: winMax };
+      function applyAutoScrollDelta(delta) {
+        const ex = getScrollExtents();
+        if (ex.maxScroll <= 1) return { moved: false, atEnd: false, waiting: true };
+        const next = Math.min(ex.maxScroll, ex.scrollPos + delta);
+        if (next <= ex.scrollPos + 0.05) {
+          return { moved: false, atEnd: ex.scrollPos >= ex.maxScroll - 1, waiting: false };
+        }
+        if (ex.useMain) {
+          el.main.scrollTop = next;
+        } else {
+          window.scrollTo(0, next);
+          document.documentElement.scrollTop = next;
+          document.body.scrollTop = next;
+        }
+        const after = getScrollExtents();
+        const moved = after.scrollPos > ex.scrollPos + 0.05;
+        const atEnd = after.scrollPos >= after.maxScroll - 1;
+        return { moved: moved, atEnd: atEnd, waiting: false };
       }
 
       function tickAutoScroll(ts) {
@@ -1597,51 +1605,33 @@
           autoScrollRaf = 0;
           return;
         }
-        if (!autoScrollLastTs) autoScrollLastTs = ts;
+        if (!autoScrollLastTs) {
+          autoScrollLastTs = ts;
+          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+          return;
+        }
         const dt = Math.min(64, Math.max(0, ts - autoScrollLastTs));
         autoScrollLastTs = ts;
+        if (dt < 1) {
+          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+          return;
+        }
         const delta = (AUTO_SCROLL_BASE_PX_PER_SEC * autoScrollSpeed * dt) / 1000;
-        const limits = getAutoScrollMaxTop();
-        let moved = false;
-        if (limits.mainMax > 1) {
-          const next = Math.min(limits.mainMax, el.main.scrollTop + delta);
-          if (next > el.main.scrollTop + 0.1) {
-            el.main.scrollTop = next;
-            moved = true;
-          }
-          if (el.main.scrollTop >= limits.mainMax - 1) {
-            pauseAutoScroll({ armHideTimer: true });
-            return;
-          }
-        } else if (limits.winMax > 1) {
-          const cur = window.scrollY || docScrollTop();
-          const next = Math.min(limits.winMax, cur + delta);
-          if (next > cur + 0.1) {
-            window.scrollTo(0, next);
-            moved = true;
-          }
-          if ((window.scrollY || docScrollTop()) >= limits.winMax - 1) {
-            pauseAutoScroll({ armHideTimer: true });
-            return;
-          }
-        } else {
+        const result = applyAutoScrollDelta(delta);
+        if (result.waiting) {
+          // Ảnh/layout chưa đủ cao — chờ thêm thay vì tắt ngay.
+          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
+          return;
+        }
+        if (result.atEnd) {
           pauseAutoScroll({ armHideTimer: true });
           return;
         }
-        if (!moved) {
-          pauseAutoScroll({ armHideTimer: true });
+        if (!result.moved) {
+          autoScrollRaf = requestAnimationFrame(tickAutoScroll);
           return;
         }
         autoScrollRaf = requestAnimationFrame(tickAutoScroll);
-      }
-
-      function docScrollTop() {
-        return (
-          window.pageYOffset ||
-          document.documentElement.scrollTop ||
-          document.body.scrollTop ||
-          0
-        );
       }
 
       function showAutoScrollBar() {
