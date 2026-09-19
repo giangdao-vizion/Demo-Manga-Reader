@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/fog-land/",
   "title": "Fog Land",
   "fromChapter": 0,
-  "toChapter": 55,
-  "fetchedAt": "2026-09-08T12:47:35.141Z",
+  "toChapter": 56,
+  "fetchedAt": "2026-09-19T07:55:48.484Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -1797,6 +1797,25 @@
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-55/9.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-55/10.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-55/11.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 56-eng-li",
+      "chapter": 56,
+      "chapterKey": "56",
+      "chapterLabel": "56-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/fog-land-chapter-56-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/fog-land-chapter-56-eng-li/",
+      "total": 8,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_001.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_002.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_003.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_004.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_005.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_006.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_007.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }

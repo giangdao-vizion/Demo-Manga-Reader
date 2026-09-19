@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/mangaptaos-123xmj/",
   "title": "One-Punch Man",
   "fromChapter": 1,
-  "toChapter": 237,
-  "fetchedAt": "2026-08-14T14:42:58.051Z",
+  "toChapter": 239,
+  "fetchedAt": "2026-09-19T07:55:42.628Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -11290,6 +11290,66 @@
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-237/19.jpg",
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-237/20.jpg",
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-237/21.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 238-eng-li",
+      "chapter": 238,
+      "chapterKey": "238",
+      "chapterLabel": "238-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-238-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-238-eng-li/",
+      "total": 19,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/1.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/2.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/3.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/4.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/5.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/6.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/7.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/8.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/9.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/10.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/11.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/12.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/13.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/14.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/15.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/16.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/17.jpg",
+        "https://imgsrv5.com/sv2/comic/8328/chapter-238/18.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 239-eng-li",
+      "chapter": 239,
+      "chapterKey": "239",
+      "chapterLabel": "239-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-239-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-239-eng-li/",
+      "total": 19,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/0.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/1.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/2.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/3.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/4.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/5.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/6.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/7.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/8.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/9.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/10.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/11.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/12.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/13.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/14.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/15.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/16.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-239/17.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
