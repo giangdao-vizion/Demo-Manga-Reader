@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T08:07:03.033Z",
+  "updatedAt": "2026-09-20T10:21:00.809Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1757,9 +1757,9 @@
       "chapterCount": 190,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (slug 6f7fe6eb). Refresh ảnh hỏng: ch.121,123,135,145,153,154,157,166,168,185.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa.webp",
-      "contentUpdatedAt": "2026-09-19T07:55:32.629Z",
+      "contentUpdatedAt": "2026-09-20T10:20:50.974Z",
       "featured": true
     },
     {
