@@ -350,7 +350,10 @@ async function readJsonIfExists(path) {
 function existingChapterLookup(existingDoc) {
   const byUrl = new Map();
   const byKey = new Map();
-  if (!existingDoc || !Array.isArray(existingDoc.chapters)) return { byUrl, byKey };
+  const byNum = new Map();
+  if (!existingDoc || !Array.isArray(existingDoc.chapters)) {
+    return { byUrl, byKey, byNum };
+  }
   for (const ch of existingDoc.chapters) {
     if (ch && ch.url) byUrl.set(normalizeUrl(ch.url), ch);
     if (ch && ch.finalUrl) byUrl.set(normalizeUrl(ch.finalUrl), ch);
@@ -359,8 +362,11 @@ function existingChapterLookup(existingDoc) {
       const { chapterKey } = chapterInfoFromUrl(ch.url);
       if (chapterKey) byKey.set(chapterKey, ch);
     }
+    const n = Number(ch && ch.chapter);
+    // Keep first hit so prior merge picks (e.g. mangoasis) are not overwritten.
+    if (Number.isFinite(n) && !byNum.has(n)) byNum.set(n, ch);
   }
-  return { byUrl, byKey };
+  return { byUrl, byKey, byNum };
 }
 
 function runParallel(limit, items, worker) {
@@ -471,12 +477,32 @@ async function main() {
   const dataFile = existingDataFile || guessedDataFile;
   const outPath = resolve(process.cwd(), args.outPath || `data-json/${dataFile}`);
   const existing = args.force ? null : await readJsonIfExists(outPath);
-  const { byUrl, byKey } = existingChapterLookup(existing);
+  const { byUrl, byKey, byNum } = existingChapterLookup(existing);
 
   let ordered = chapterList.map((item, idx) => ({
     ...item,
     chapter: Number.isFinite(item.chapterNumber) ? item.chapterNumber : idx + 1,
   }));
+
+  // Prefer the first listing when mgeko exposes variants (e.g. 244-eng vs 244-full-eng).
+  {
+    const seen = new Set();
+    const deduped = [];
+    for (const item of ordered) {
+      const n = item.chapter;
+      if (Number.isFinite(n)) {
+        if (seen.has(n)) continue;
+        seen.add(n);
+      }
+      deduped.push(item);
+    }
+    if (deduped.length !== ordered.length) {
+      console.error(
+        `Deduped chapter numbers: ${ordered.length} → ${deduped.length} (bỏ bản trùng số).`
+      );
+    }
+    ordered = deduped;
+  }
 
   if (args.limitChapters != null && Number.isFinite(args.limitChapters) && args.limitChapters > 0) {
     ordered = ordered.slice(0, Math.floor(args.limitChapters));
@@ -488,7 +514,11 @@ async function main() {
   const carry = new Map();
   for (const item of ordered) {
     const keyUrl = normalizeUrl(item.url);
-    const old = byUrl.get(keyUrl) || byKey.get(item.chapterKey) || null;
+    const old =
+      byUrl.get(keyUrl) ||
+      byKey.get(item.chapterKey) ||
+      (Number.isFinite(item.chapter) ? byNum.get(item.chapter) : null) ||
+      null;
     if (!args.force && old && Array.isArray(old.images) && old.images.length > 0) {
       skipped++;
       carry.set(item.url, old);
@@ -553,6 +583,7 @@ async function main() {
 
   const fetchedByUrl = new Map(fetched.map((c) => [normalizeUrl(c.url), c]));
   const finalChapters = [];
+  const seenNums = new Set();
   for (const item of ordered) {
     const keyUrl = normalizeUrl(item.url);
     const take = fetchedByUrl.get(keyUrl) || carry.get(item.url);
@@ -564,6 +595,24 @@ async function main() {
       chapterKey: item.chapterKey,
       chapterLabel: item.label,
       url: item.url,
+    });
+    if (Number.isFinite(item.chapter)) seenNums.add(item.chapter);
+  }
+
+  // Keep local-only chapters (e.g. missing on mgeko list) when merging.
+  if (existing && Array.isArray(existing.chapters)) {
+    for (const ch of existing.chapters) {
+      const n = Number(ch && ch.chapter);
+      if (!Number.isFinite(n) || seenNums.has(n)) continue;
+      if (!Array.isArray(ch.images) || ch.images.length === 0) continue;
+      finalChapters.push(ch);
+      seenNums.add(n);
+    }
+    finalChapters.sort((a, b) => {
+      const na = Number(a.chapter);
+      const nb = Number(b.chapter);
+      if (Number.isFinite(na) && Number.isFinite(nb) && na !== nb) return na - nb;
+      return String(a.title || "").localeCompare(String(b.title || ""));
     });
   }
 
