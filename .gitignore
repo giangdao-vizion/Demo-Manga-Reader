@@ -6,3 +6,6 @@ catalog/db/*.sqlite
 catalog/db/*.sqlite-*
 catalog/db/.catalog-content.lock
 .cache/
+
+# CodeGraph local index
+.codegraph/
