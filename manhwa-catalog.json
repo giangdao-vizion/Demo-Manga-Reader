@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T13:51:38.163Z",
+  "updatedAt": "2026-09-24T13:09:39.029Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -909,9 +909,9 @@
       "chapterCount": 140,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (slug 05c7df14). Force refresh toàn bộ ảnh vì Asura rehash CDN (ch.3: 023.webp→d1545e.webp; nhiều chap khác 404).",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242.webp",
-      "contentUpdatedAt": "2026-09-22T12:19:54.444Z",
+      "contentUpdatedAt": "2026-09-24T13:08:11.888Z",
       "featured": true
     },
     {
