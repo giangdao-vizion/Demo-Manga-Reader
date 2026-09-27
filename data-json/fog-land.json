@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/fog-land/",
   "title": "Fog Land",
   "fromChapter": 0,
-  "toChapter": 56,
-  "fetchedAt": "2026-09-19T07:55:48.484Z",
+  "toChapter": 57,
+  "fetchedAt": "2026-09-27T11:37:36.536Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -1816,6 +1816,34 @@
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_005.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_006.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-56/img_007.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 57-eng-li",
+      "chapter": 57,
+      "chapterKey": "57",
+      "chapterLabel": "57-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/fog-land-chapter-57-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/fog-land-chapter-57-eng-li/",
+      "total": 17,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/0.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/1.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/2.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/3.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/4.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/5.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/6.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/7.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/8.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/9.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/10.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/11.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/12.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/13.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/14.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-57/15.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }

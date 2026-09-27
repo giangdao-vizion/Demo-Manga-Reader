@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/star-embracing-swordmaster-1d35e5bd",
   "title": "Star Embracing Swordmaster",
   "fromChapter": 1,
-  "toChapter": 138,
-  "fetchedAt": "2026-09-19T07:55:19.785Z",
+  "toChapter": 139,
+  "fetchedAt": "2026-09-27T11:37:14.738Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222.webp",
   "chapters": [
@@ -3448,6 +3448,32 @@
         "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/138/59e7d2.webp?v=1789568026",
         "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/138/4275cb.webp?v=1789568026",
         "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/138/0108e8.webp?v=1789568026"
+      ]
+    },
+    {
+      "title": "Chapter 139",
+      "chapter": 139,
+      "url": "https://asurascans.com/comics/star-embracing-swordmaster-1d35e5bd/chapter/139",
+      "finalUrl": "https://asurascans.com/comics/star-embracing-swordmaster-05c7df14/chapter/139",
+      "total": 17,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/331511.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/f8ce12.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/ad5804.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/713cb2.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/0f2788.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/38c3e7.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/f5b4e8.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/d17c66.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/bc9051.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/fd99cd.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/d701bb.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/38d7b5.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/d4efe6.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/261368.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/fd82b6.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/1cd007.webp?v=1790101786",
+        "https://cdn.asurascans.com/asura-images/chapters/star-embracing-swordmaster/139/08c0dc.webp?v=1790101786"
       ]
     }
   ]
