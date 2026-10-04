@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/pick-me-up-infinite-gacha-1d35e5bd",
   "title": "Pick Me Up Infinite Gacha",
   "fromChapter": 1,
-  "toChapter": 220,
-  "fetchedAt": "2026-09-27T11:37:05.791Z",
+  "toChapter": 221,
+  "fetchedAt": "2026-10-04T06:48:30.531Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.3ebe61.webp",
   "chapters": [
@@ -4744,6 +4744,29 @@
         "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/220/c9f2e1.webp?v=1790172792",
         "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/220/b958ae.webp?v=1790172792",
         "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/220/56444a.webp?v=1790172792"
+      ]
+    },
+    {
+      "title": "Chapter 221",
+      "chapter": 221,
+      "url": "https://asurascans.com/comics/pick-me-up-infinite-gacha-1d35e5bd/chapter/221",
+      "finalUrl": "https://asurascans.com/comics/pick-me-up-infinite-gacha-3ec3b16f/chapter/221",
+      "total": 14,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/e8e2ad.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/9708e5.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/5cf64a.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/5c1553.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/26c2f6.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/948444.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/4b501a.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/c7533b.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/7c572c.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/8a83a8.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/aadae5.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/ea6a27.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/0a3e6a.webp?v=1790783711",
+        "https://cdn.asurascans.com/asura-images/chapters/pick-me-up-infinite-gacha/221/923455.webp?v=1790783711"
       ]
     }
   ]
