@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/the-crown-prince-that-sells-medicine/",
   "title": "The Crown Prince That Sells Medicine",
   "fromChapter": 1,
-  "toChapter": 126,
-  "fetchedAt": "2026-10-07T05:07:57.969Z",
+  "toChapter": 127,
+  "fetchedAt": "2026-10-10T07:33:32.208Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -4202,6 +4202,28 @@
         "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-126/84.jpg",
         "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-126/85.jpg",
         "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-126/86.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 127-eng-li",
+      "chapter": 127,
+      "chapterKey": "127",
+      "chapterLabel": "127-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/the-crown-prince-that-sells-medicine-chapter-127-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/the-crown-prince-that-sells-medicine-chapter-127-eng-li/",
+      "total": 11,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/0.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/1.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/2.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/3.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/4.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/5.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/6.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/7.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/8.jpg",
+        "https://imgsrv5.com/sv2/comic/the-crown-prince-that-sells-medicine/chapter-127/9.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
