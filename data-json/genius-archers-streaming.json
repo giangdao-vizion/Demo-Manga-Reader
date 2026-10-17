@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/genius-archers-streaming-1d35e5bd",
   "title": "Genius Archers Streaming",
   "fromChapter": 1,
-  "toChapter": 112,
-  "fetchedAt": "2026-10-10T07:33:02.788Z",
+  "toChapter": 113,
+  "fetchedAt": "2026-10-17T13:54:47.298Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.fda7ec.webp",
   "chapters": [
@@ -3249,6 +3249,33 @@
         "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/112/3dd034.webp?v=1791573046",
         "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/112/c84037.webp?v=1791573046",
         "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/112/d9f825.webp?v=1791573046"
+      ]
+    },
+    {
+      "title": "Chapter 113",
+      "chapter": 113,
+      "url": "https://asurascans.com/comics/genius-archers-streaming-1d35e5bd/chapter/113",
+      "finalUrl": "https://asurascans.com/comics/genius-archers-streaming-1bb35e56/chapter/113",
+      "total": 18,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/005b4d.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/2a5bcb.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/5062d5.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/e873be.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/c31c30.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/b05923.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/cb5719.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/929cf6.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/c5dc9e.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/9378c9.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/c7e5b6.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/748a03.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/a314f7.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/9e3b02.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/094cf4.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/efedb3.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/a54049.webp?v=1792205110",
+        "https://cdn.asurascans.com/asura-images/chapters/genius-archers-streaming/113/5f0ed5.webp?v=1792205110"
       ]
     }
   ]

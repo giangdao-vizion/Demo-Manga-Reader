@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/mangaptaos-123xmj/",
   "title": "One-Punch Man",
   "fromChapter": 1,
-  "toChapter": 240,
-  "fetchedAt": "2026-09-27T11:37:30.802Z",
+  "toChapter": 241,
+  "fetchedAt": "2026-10-17T13:55:47.101Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -9888,6 +9888,31 @@
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-240/13.jpg",
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-240/14.jpg",
         "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-240/15.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 241-eng-li",
+      "chapter": 241,
+      "chapterKey": "241",
+      "chapterLabel": "241-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-241-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/mangaptaos-123xmj-chapter-241-eng-li/",
+      "total": 14,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/0.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/1.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/2.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/3.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/4.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/5.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/6.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/7.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/8.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/9.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/10.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/11.jpg",
+        "https://imgsrv5.com/sv2/comic/mangaptaos-123xmj/chapter-241/12.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }

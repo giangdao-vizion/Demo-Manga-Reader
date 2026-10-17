@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/nano-machine-1d35e5bd",
   "title": "Nano Machine",
   "fromChapter": 1,
-  "toChapter": 333,
-  "fetchedAt": "2026-10-12T16:25:36.719Z",
+  "toChapter": 334,
+  "fetchedAt": "2026-10-17T13:55:01.010Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb.webp",
   "chapters": [
@@ -6630,6 +6630,32 @@
         "https://cdn.asurascans.com/asura-images/chapters/nano-machine/333/d277e3.webp?v=1791646150",
         "https://cdn.asurascans.com/asura-images/chapters/nano-machine/333/ac9ee0.webp?v=1791646150",
         "https://cdn.asurascans.com/asura-images/chapters/nano-machine/333/c1c898.webp?v=1791646150"
+      ]
+    },
+    {
+      "title": "Chapter 334",
+      "chapter": 334,
+      "url": "https://asurascans.com/comics/nano-machine-1d35e5bd/chapter/334",
+      "finalUrl": "https://asurascans.com/comics/nano-machine-1bb35e56/chapter/334",
+      "total": 17,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/69e16f.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/a9dbaa.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/cad226.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/904a20.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/47253b.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/b1e89e.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/6f8d98.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/a4c686.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/fb4039.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/4da017.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/0507af.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/d72357.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/e0e486.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/874ee4.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/4dbfd3.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/3afc06.webp?v=1791994334",
+        "https://cdn.asurascans.com/asura-images/chapters/nano-machine/334/2b522b.webp?v=1791994334"
       ]
     }
   ]

@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/villain-to-kill-1d35e5bd",
   "title": "Villain To Kill",
   "fromChapter": 0,
-  "toChapter": 255,
-  "fetchedAt": "2026-10-10T07:33:18.811Z",
+  "toChapter": 256,
+  "fetchedAt": "2026-10-17T13:55:38.223Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.e7589f.webp",
   "chapters": [
@@ -6146,6 +6146,32 @@
         "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/255/2b86ce.webp?v=1791380577",
         "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/255/da1c6d.webp?v=1791380577",
         "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/255/803408.webp?v=1791380577"
+      ]
+    },
+    {
+      "title": "Chapter 256",
+      "chapter": 256,
+      "url": "https://asurascans.com/comics/villain-to-kill-1d35e5bd/chapter/256",
+      "finalUrl": "https://asurascans.com/comics/villain-to-kill-1bb35e56/chapter/256",
+      "total": 17,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/a09367.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/97f6c6.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/1f8ab2.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/6ec6f5.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/83cf40.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/4b5afe.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/30d2e0.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/a06836.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/033ae5.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/a2b412.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/25f0a1.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/45b509.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/a7a0d5.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/8a3be8.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/f59621.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/e35985.webp?v=1791982431",
+        "https://cdn.asurascans.com/asura-images/chapters/villain-to-kill/256/54879c.webp?v=1791982431"
       ]
     }
   ]
