@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T03:14:23.972Z",
+  "updatedAt": "2026-10-24T08:48:01.568Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1654,16 +1654,16 @@
       "dataFile": "the-return-of-the-crazy-demon.json",
       "title": "The Return Of The Crazy Demon",
       "displayTitle": "The Return Of The Crazy Demon",
-      "subtitle": "Ch. 1–217 · the-return-of-the-crazy-demon.json",
+      "subtitle": "Ch. 1–218 · the-return-of-the-crazy-demon.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 217,
-      "chapterCount": 217,
+      "toChapter": 218,
+      "chapterCount": 218,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (slug 11fe7da3). Force refresh toàn bộ ảnh vì CDN rehash (nhiều chap 404).",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.2a8522.webp",
-      "contentUpdatedAt": "2026-10-12T16:26:16.598Z",
+      "contentUpdatedAt": "2026-10-24T08:47:18.950Z",
       "featured": true
     },
     {
