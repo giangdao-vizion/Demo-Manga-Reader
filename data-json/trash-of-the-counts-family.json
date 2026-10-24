@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/trash-of-the-counts-family-1d35e5bd",
   "title": "Trash Of The Counts Family",
   "fromChapter": 0,
-  "toChapter": 192,
-  "fetchedAt": "2026-10-17T13:55:36.377Z",
+  "toChapter": 193,
+  "fetchedAt": "2026-10-24T10:52:14.783Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa.webp",
   "chapters": [
@@ -4801,6 +4801,31 @@
         "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/192/a0def3.webp?v=1792198078",
         "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/192/3ae2fc.webp?v=1792198078",
         "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/192/0e19e5.webp?v=1792198078"
+      ]
+    },
+    {
+      "title": "Chapter 193",
+      "chapter": 193,
+      "url": "https://asurascans.com/comics/trash-of-the-counts-family-6f7fe6eb/chapter/193",
+      "finalUrl": "https://asurascans.com/comics/trash-of-the-counts-family-11fe7da3/chapter/193",
+      "total": 16,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/900f16.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/0b513e.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/1c733a.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/b4126f.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/852708.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/0a01ee.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/c5be95.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/354d8b.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/446feb.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/5f2a70.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/24dc35.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/9af0e8.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/2830ac.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/995df0.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/cd1ac5.webp?v=1792762009",
+        "https://cdn.asurascans.com/asura-images/chapters/trash-of-the-counts-family/193/997369.webp?v=1792762009"
       ]
     }
   ]

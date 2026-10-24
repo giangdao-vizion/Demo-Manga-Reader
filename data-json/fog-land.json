@@ -3,8 +3,8 @@
   "homeUrl": "https://www.mgeko.cc/manga/fog-land/",
   "title": "Fog Land",
   "fromChapter": 0,
-  "toChapter": 60,
-  "fetchedAt": "2026-10-14T16:58:07.832Z",
+  "toChapter": 61,
+  "fetchedAt": "2026-10-24T10:52:36.947Z",
   "source": "mgeko",
   "chapters": [
     {
@@ -1919,6 +1919,35 @@
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-60/10.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-60/11.jpg",
         "https://imgsrv5.com/sv2/comic/fog-land/chapter-60/12.jpg",
+        "https://imgsrv5.com/credits-mgeko.png"
+      ]
+    },
+    {
+      "title": "Chapter 61-eng-li",
+      "chapter": 61,
+      "chapterKey": "61",
+      "chapterLabel": "61-eng-li",
+      "url": "https://www.mgeko.cc/reader/en/fog-land-chapter-61-eng-li/",
+      "finalUrl": "https://www.mgeko.cc/reader/en/fog-land-chapter-61-eng-li/",
+      "total": 18,
+      "images": [
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/0.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/1.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/2.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/3.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/4.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/5.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/6.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/7.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/8.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/9.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/10.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/11.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/12.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/13.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/14.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/15.jpg",
+        "https://imgsrv5.com/sv2/comic/fog-land/chapter-61/16.jpg",
         "https://imgsrv5.com/credits-mgeko.png"
       ]
     }
