@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/infinite-mage-1d35e5bd",
   "title": "Infinite Mage",
   "fromChapter": 1,
-  "toChapter": 191,
-  "fetchedAt": "2026-10-24T10:51:18.623Z",
+  "toChapter": 192,
+  "fetchedAt": "2026-10-29T13:55:59.413Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed.webp",
   "chapters": [
@@ -4696,6 +4696,41 @@
         "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/191/04561e.webp?v=1792571807",
         "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/191/088e0a.webp?v=1792571807",
         "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/191/d02792.webp?v=1792571807"
+      ]
+    },
+    {
+      "title": "Chapter 192",
+      "chapter": 192,
+      "url": "https://asurascans.com/comics/infinite-mage-1d35e5bd/chapter/192",
+      "finalUrl": "https://asurascans.com/comics/infinite-mage-3ebcc5a9/chapter/192",
+      "total": 26,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/4e8942.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/ff32d3.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/c97664.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/abb188.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/7a98af.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/ab6d1e.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/ba443d.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/ea7c55.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/24b22e.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/3f6019.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/401e3f.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/5ba9d7.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/5d2760.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/ea75fb.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/000c28.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/075563.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/c0e797.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/b0e772.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/21408c.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/75e2f4.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/35eaf2.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/e79bab.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/f03923.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/2b2f68.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/0fc2f0.webp?v=1793113943",
+        "https://cdn.asurascans.com/asura-images/chapters/infinite-mage/192/5d5052.webp?v=1793113943"
       ]
     }
   ]

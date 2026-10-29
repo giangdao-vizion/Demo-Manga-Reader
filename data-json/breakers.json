@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/breakers-6f7fe6eb",
   "title": "Breakers",
   "fromChapter": 1,
-  "toChapter": 124,
-  "fetchedAt": "2026-10-24T10:52:49.203Z",
+  "toChapter": 126,
+  "fetchedAt": "2026-10-29T13:58:21.242Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/breakers.7f8d96.webp",
   "chapters": [
@@ -2754,6 +2754,58 @@
         "https://cdn.asurascans.com/asura-images/chapters/breakers/124/4f0bba.webp?v=1792521337",
         "https://cdn.asurascans.com/asura-images/chapters/breakers/124/6b1927.webp?v=1792521337",
         "https://cdn.asurascans.com/asura-images/chapters/breakers/124/17ce2c.webp?v=1792521337"
+      ]
+    },
+    {
+      "title": "Chapter 125",
+      "chapter": 125,
+      "url": "https://asurascans.com/comics/breakers-6f7fe6eb/chapter/125",
+      "finalUrl": "https://asurascans.com/comics/breakers-3ebcc5a9/chapter/125",
+      "total": 16,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/da8397.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/30e26b.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/d1d945.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/00fe18.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/e11bbb.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/d6bac4.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/e512dd.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/f49f64.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/30f5ba.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/bb2519.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/7b986e.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/5db3c2.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/2e6575.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/61b83e.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/4fd8a6.webp?v=1792942774",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/125/57bad0.webp?v=1792942774"
+      ]
+    },
+    {
+      "title": "Chapter 126",
+      "chapter": 126,
+      "url": "https://asurascans.com/comics/breakers-6f7fe6eb/chapter/126",
+      "finalUrl": "https://asurascans.com/comics/breakers-3ebcc5a9/chapter/126",
+      "total": 18,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/54fd32.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/0ac381.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/a421d5.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/fa471f.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/9c2618.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/c379d0.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/9bb721.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/07a4b0.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/835328.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/9152cd.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/531941.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/8ff30d.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/228f74.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/e39c1c.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/a6ef44.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/82e162.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/7ce430.webp?v=1793139444",
+        "https://cdn.asurascans.com/asura-images/chapters/breakers/126/d47213.webp?v=1793139444"
       ]
     }
   ]
