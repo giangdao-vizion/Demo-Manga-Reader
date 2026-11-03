@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/the-return-of-the-crazy-demon-11fe7da3",
   "title": "The Return Of The Crazy Demon",
   "fromChapter": 1,
-  "toChapter": 218,
-  "fetchedAt": "2026-10-24T08:47:18.950Z",
+  "toChapter": 219,
+  "fetchedAt": "2026-11-03T05:40:43.199Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.2a8522.webp",
   "chapters": [
@@ -4745,6 +4745,30 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/218/07c354.webp?v=1792504698",
         "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/218/a82d2a.webp?v=1792504698",
         "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/218/e80f10.webp?v=1792504698"
+      ]
+    },
+    {
+      "title": "Chapter 219",
+      "chapter": 219,
+      "url": "https://asurascans.com/comics/the-return-of-the-crazy-demon-11fe7da3/chapter/219",
+      "finalUrl": "https://asurascans.com/comics/the-return-of-the-crazy-demon-ab39de10/chapter/219",
+      "total": 15,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/1d67dc.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/2afc1e.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/46be66.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/3894e7.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/0ca3b8.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/eb2be7.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/60eaac.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/76de27.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/98ade3.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/f105f0.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/fcd5be.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/01f8f1.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/35b70f.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/687aa0.webp?v=1793475957",
+        "https://cdn.asurascans.com/asura-images/chapters/the-return-of-the-crazy-demon/219/687aa0-credits.webp?v=1793475957"
       ]
     }
   ]

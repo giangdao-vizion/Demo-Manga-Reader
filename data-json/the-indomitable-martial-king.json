@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/the-indomitable-martial-king-1d35e5bd",
   "title": "The Indomitable Martial King",
   "fromChapter": 1,
-  "toChapter": 157,
-  "fetchedAt": "2026-10-29T13:56:48.390Z",
+  "toChapter": 158,
+  "fetchedAt": "2026-11-03T05:40:34.705Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7.webp",
   "chapters": [
@@ -3898,6 +3898,31 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/157/0e0e60.webp?v=1793127154",
         "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/157/6bc8eb.webp?v=1793127154",
         "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/157/c47d16.webp?v=1793127154"
+      ]
+    },
+    {
+      "title": "Chapter 158",
+      "chapter": 158,
+      "url": "https://asurascans.com/comics/the-indomitable-martial-king-1d35e5bd/chapter/158",
+      "finalUrl": "https://asurascans.com/comics/the-indomitable-martial-king-ab39de10/chapter/158",
+      "total": 16,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/0d533e.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/e890b6.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/4054fc.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/5781ac.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/e8cb52.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/a7b67a.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/457fc3.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/802dfa.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/536e07.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/1bbd37.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/1e193f.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/b82505.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/add824.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/54581b.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/52df95.webp?v=1793649923",
+        "https://cdn.asurascans.com/asura-images/chapters/the-indomitable-martial-king/158/67a2d4.webp?v=1793649923"
       ]
     }
   ]
