@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T05:41:20.339Z",
+  "updatedAt": "2026-11-03T07:40:12.529Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -5634,7 +5634,8 @@
       "toChapter": 227,
       "chapterCount": 227,
       "featured": true,
-      "contentUpdatedAt": "2026-10-24T10:52:40.571Z"
+      "contentUpdatedAt": "2026-10-24T10:52:40.571Z",
+      "coverUrl": "assets/covers/reality-quest.webp"
     },
     {
       "sqliteSeriesId": null,
