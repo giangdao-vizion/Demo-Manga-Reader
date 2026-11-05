@@ -297,8 +297,31 @@
           const preferredChapter = window.ComicHubHistory
             ? ComicHubHistory.pickDetailChapter(dataFile, j.chapters, readChaptersLoadMap())
             : null;
+          function chapterSortKey(ch, i) {
+            if (ch && ch.chapter != null && Number.isFinite(Number(ch.chapter))) {
+              return Number(ch.chapter);
+            }
+            const raw = String(
+              (ch && (ch.chapterKey || ch.chapterLabel)) || ""
+            ).trim();
+            if (raw) {
+              const n = parseFloat(raw.replace("-", "."));
+              if (Number.isFinite(n)) return n;
+            }
+            return i + 1;
+          }
+          // Newest chapters first on the list (keep original index for stable chapter IDs).
+          const chaptersNewestFirst = j.chapters
+            .map(function (ch, i) {
+              return { ch: ch, i: i };
+            })
+            .sort(function (a, b) {
+              return chapterSortKey(b.ch, b.i) - chapterSortKey(a.ch, a.i);
+            });
           let selected = false;
-          j.chapters.forEach(function (ch, i) {
+          chaptersNewestFirst.forEach(function (entry) {
+            const ch = entry.ch;
+            const i = entry.i;
             const readId = chapterIdOf(ch, i);
             const chapterLabel = String(ch.chapterKey || "").trim() || readId;
             const read = readChaptersIsRead(dataFile, readId);
