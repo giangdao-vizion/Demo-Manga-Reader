@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T08:16:19.467Z",
+  "updatedAt": "2026-11-07T14:33:15.787Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -134,16 +134,16 @@
       "dataFile": "chronicles-of-the-demon-faction.json",
       "title": "Chronicles Of The Demon Faction",
       "displayTitle": "Chronicles Of The Demon Faction",
-      "subtitle": "Ch. 1–195 · chronicles-of-the-demon-faction.json",
+      "subtitle": "Ch. 1–196 · chronicles-of-the-demon-faction.json",
       "source": "asura",
       "fromChapter": 1,
-      "toChapter": 195,
-      "chapterCount": 195,
+      "toChapter": 196,
+      "chapterCount": 196,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.d4dcb8.webp",
-      "contentUpdatedAt": "2026-11-03T05:39:42.107Z",
+      "contentUpdatedAt": "2026-11-07T14:32:06.447Z",
       "featured": true
     },
     {
@@ -646,16 +646,16 @@
       "dataFile": "mr-devourer-please-act-like-a-final-boss.json",
       "title": "Mr Devourer Please Act Like A Final Boss",
       "displayTitle": "Mr Devourer Please Act Like A Final Boss",
-      "subtitle": "Ch. 0–149 · mr-devourer-please-act-like-a-final-boss.json",
+      "subtitle": "Ch. 0–150 · mr-devourer-please-act-like-a-final-boss.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 149,
-      "chapterCount": 150,
+      "toChapter": 150,
+      "chapterCount": 151,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6.webp",
-      "contentUpdatedAt": "2026-11-03T05:39:56.452Z",
+      "contentUpdatedAt": "2026-11-07T14:32:16.874Z",
       "featured": true
     },
     {
