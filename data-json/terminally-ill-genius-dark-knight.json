@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/terminally-ill-genius-dark-knight-1d35e5bd",
   "title": "Terminally Ill Genius Dark Knight",
   "fromChapter": 1,
-  "toChapter": 171,
-  "fetchedAt": "2026-11-03T05:40:23.342Z",
+  "toChapter": 172,
+  "fetchedAt": "2026-11-08T00:05:13.050Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916.webp",
   "chapters": [
@@ -4386,6 +4386,47 @@
         "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/171/3e87ff.webp?v=1793334641",
         "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/171/76fce1.webp?v=1793334641",
         "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/171/3d0812.webp?v=1793334641"
+      ]
+    },
+    {
+      "title": "Chapter 172",
+      "chapter": 172,
+      "url": "https://asurascans.com/comics/terminally-ill-genius-dark-knight-1d35e5bd/chapter/172",
+      "finalUrl": "https://asurascans.com/comics/terminally-ill-genius-dark-knight-ab39de10/chapter/172",
+      "total": 32,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/a58993.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/5ffe4d.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/664307.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/0ca413.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/26446f.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/3472d9.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/118922.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/8e54bf.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/abef95.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/d13ffc.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/e7f94a.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/c831fc.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/5b952e.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/2a489b.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/e7e55f.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/4594a5.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/8454fe.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/c24a4e.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/d22cf6.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/2d2899.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/18dd54.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/ca75c3.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/7fc6df.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/d3c5bd.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/03ea1b.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/b0f59f.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/9a6f7c.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/6852e6.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/3ebe17.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/d23dd0.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/655f2a.webp?v=1794060318",
+        "https://cdn.asurascans.com/asura-images/chapters/terminally-ill-genius-dark-knight/172/0f9802.webp?v=1794060318"
       ]
     }
   ]
