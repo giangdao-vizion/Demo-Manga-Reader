@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T00:03:46.339Z",
+  "updatedAt": "2026-11-15T11:52:50.945Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -670,7 +670,7 @@
       "sqliteSeriesId": 70,
       "contentSyncComplete": true,
       "contentSyncNote": "250 tải OK, 0 đã có trong DB, 0 lỗi / 250 ch trong scope",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.0fd151-400.webp",
+      "coverUrl": "https://www.mgeko.cc/media/manga_covers/854669655_29393509203671855_6886954002404884693_n.png",
       "featured": true,
       "contentUpdatedAt": "2026-06-01T11:00:00.000Z"
     },
@@ -958,7 +958,7 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.e2dfe7.webp",
+      "coverUrl": "assets/covers/regressor-instruction-manual.webp",
       "contentUpdatedAt": "2026-11-14T00:02:10.572Z",
       "featured": true
     },
@@ -1710,7 +1710,7 @@
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
       "contentSyncNote": "Nguồn asurascans.com.",
-      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.a9f424.webp",
+      "coverUrl": "assets/covers/the-tutorial-is-too-hard.webp",
       "contentUpdatedAt": "2026-11-10T00:02:48.601Z",
       "featured": true
     },
