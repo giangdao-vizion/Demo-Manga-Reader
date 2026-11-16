@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/doctors-rebirth-1d35e5bd",
   "title": "Doctors Rebirth",
   "fromChapter": 1,
-  "toChapter": 250,
-  "fetchedAt": "2026-11-08T00:04:46.627Z",
+  "toChapter": 251,
+  "fetchedAt": "2026-11-16T00:03:10.686Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.283895.webp",
   "chapters": [
@@ -5368,6 +5368,34 @@
         "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/250/fa140e.webp?v=1794071455",
         "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/250/8a8ccc.webp?v=1794071455",
         "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/250/67b7e5.webp?v=1794071455"
+      ]
+    },
+    {
+      "title": "Chapter 251",
+      "chapter": 251,
+      "url": "https://asurascans.com/comics/doctors-rebirth-1d35e5bd/chapter/251",
+      "finalUrl": "https://asurascans.com/comics/doctors-rebirth-7ba78ec7/chapter/251",
+      "total": 19,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/f6e341.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/44c277.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/e7a655.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/bd054a.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/44fbf6.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/5d9361.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/38aa4a.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/f3a3af.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/f28a30.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/088515.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/b160a8.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/25e881.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/b3003d.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/e43b09.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/bac4a7.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/9bfe7a.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/7de745.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/79a018.webp?v=1794703002",
+        "https://cdn.asurascans.com/asura-images/chapters/doctors-rebirth/251/7e81e5.webp?v=1794703002"
       ]
     }
   ]
