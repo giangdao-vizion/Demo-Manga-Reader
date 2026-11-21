@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T00:05:12.014Z",
+  "updatedAt": "2026-11-21T12:52:02.420Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1181,10 +1181,10 @@
       "chapterCount": 286,
       "sqliteSeriesId": 5,
       "contentSyncComplete": true,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (slug 7ba78ec7). Refresh toàn bộ URL ảnh chapter (CDN rehash / ?v=).",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-11-15T00:02:54.590Z"
+      "contentUpdatedAt": "2026-11-21T12:52:02.413Z"
     },
     {
       "dataFile": "spirit-farmer.json",
