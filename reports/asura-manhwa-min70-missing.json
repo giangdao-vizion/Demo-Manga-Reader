@@ -1,0 +1,2922 @@
+{
+  "source": "asura",
+  "filter": "type=manhwa&min_chapters=70",
+  "browseUrl": "https://asurascans.com/browse?type=manhwa&min_chapters=70",
+  "fetchedAt": "2026-11-21T17:47:35.242Z",
+  "totalReported": 181,
+  "browsedCount": 181,
+  "pagesFetched": 10,
+  "catalogCount": 361,
+  "existingCount": 126,
+  "missingCount": 55,
+  "missingChaptersApprox": 5447,
+  "missing": [
+    {
+      "title": "Survival Story of a Sword King in a Fantasy World",
+      "chapterCount": 309,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/survival-story-of-a-sword-king-in-a-fantasy-world-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/survival-story-of-a-sword-king-in-a-fantasy-world-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/survival-story-of-a-sword-king-in-a-fantasy-world.4a944e-400.webp"
+    },
+    {
+      "title": "Ranker's Return (Remake)",
+      "chapterCount": 267,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/rankers-return-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/rankers-return-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rankers-return.d5b97e-400.webp"
+    },
+    {
+      "title": "I Became the Tyrant of a Defense Game",
+      "chapterCount": 195,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/i-became-the-tyrant-of-a-defense-game-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-became-the-tyrant-of-a-defense-game-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-the-tyrant-of-a-defense-game.1360dc-400.webp"
+    },
+    {
+      "title": "Leveling With The Gods",
+      "chapterCount": 169,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/leveling-with-the-gods-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/leveling-with-the-gods-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/level-up-with-the-gods.1defc0-400.webp"
+    },
+    {
+      "title": "Regressing as the Reincarnated Bastard of the Sword Clan",
+      "chapterCount": 121,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/regressing-as-the-reincarnated-bastard-of-the-swor-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/regressing-as-the-reincarnated-bastard-of-the-swor-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-as-the-reincarnated-bastard-of-the-swor.2afccc-400.webp"
+    },
+    {
+      "title": "The Legendary Hero is an Academy Honors Student",
+      "chapterCount": 114,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/the-legendary-hero-is-an-academy-honors-student-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-legendary-hero-is-an-academy-honors-student-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-legendary-hero-is-an-academy-honors-student.9b782a-400.webp"
+    },
+    {
+      "title": "The Dark Mage's Return to Enlistment",
+      "chapterCount": 113,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/the-dark-mages-return-to-enlistment-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-dark-mages-return-to-enlistment-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-mages-return-to-enlistment.a2b893-400.webp"
+    },
+    {
+      "title": "A Dragonslayer's Peerless Regression",
+      "chapterCount": 111,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/a-dragonslayers-peerless-regression-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/a-dragonslayers-peerless-regression-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-dragonslayers-peerless-regression.gif"
+    },
+    {
+      "title": "Bad Born Blood",
+      "chapterCount": 110,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/bad-born-blood-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/bad-born-blood-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bad-born-blood.3008f6-400.webp"
+    },
+    {
+      "title": "The Ultimate Shut-In",
+      "chapterCount": 106,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/the-ultimate-shut-in-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-ultimate-shut-in-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-ultimate-shut-in.062072-400.webp"
+    },
+    {
+      "title": "The Academy’s Sashimi Sword Master",
+      "chapterCount": 105,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/the-academys-sashimi-sword-master-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-academys-sashimi-sword-master-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-academys-sashimi-sword-master.7f20f6-400.webp"
+    },
+    {
+      "title": "The Heavenly Demon Wants a Quiet Life",
+      "chapterCount": 104,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-heavenly-demon-wants-a-quiet-life-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-heavenly-demon-wants-a-quiet-life-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-wants-a-quiet-life.b91da3-400.webp"
+    },
+    {
+      "title": "Genius Prismatic Mage",
+      "chapterCount": 103,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/genius-prismatic-mage-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/genius-prismatic-mage-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-prismatic-mage.cd6e06-400.webp"
+    },
+    {
+      "title": "Damn Reincarnation",
+      "chapterCount": 102,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/damn-reincarnation-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/damn-reincarnation-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/damn-reincarnation.d3e33a-400.webp"
+    },
+    {
+      "title": "I'm Gonna Annihilate This Land",
+      "chapterCount": 102,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/im-gonna-annihilate-this-land-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/im-gonna-annihilate-this-land-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-gonna-annihilate-this-land.5316fe-400.webp"
+    },
+    {
+      "title": "Surviving as a Genius on Borrowed Time",
+      "chapterCount": 101,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/surviving-as-a-genius-on-borrowed-time-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/surviving-as-a-genius-on-borrowed-time-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-as-a-genius-on-borrowed-time.38738c-400.webp"
+    },
+    {
+      "title": "Barbarian Quest",
+      "chapterCount": 100,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/barbarian-quest-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/barbarian-quest-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/barbarian-quest.078924-400.webp"
+    },
+    {
+      "title": "I Grow Stronger By Eating!",
+      "chapterCount": 100,
+      "status": "Chs.",
+      "rating": 8.7,
+      "seriesPath": "/comics/i-grow-stronger-by-eating-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-grow-stronger-by-eating-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-grow-stronger-by-eating.3eafec-400.webp"
+    },
+    {
+      "title": "The Newbie is Too Strong",
+      "chapterCount": 98,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/the-newbie-is-too-strong-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-newbie-is-too-strong-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-newbie-is-too-strong.9e5b6b-400.webp"
+    },
+    {
+      "title": "Return of the Apocalypse-Class Death Knight",
+      "chapterCount": 97,
+      "status": "Chs.",
+      "rating": 8.3,
+      "seriesPath": "/comics/return-of-the-apocalypse-class-death-knight-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-apocalypse-class-death-knight-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-apocalypse-class-death-knight.805cf1-400.webp"
+    },
+    {
+      "title": "Absolute Necromancer",
+      "chapterCount": 96,
+      "status": "Chs.",
+      "rating": 7.6,
+      "seriesPath": "/comics/absolute-necromancer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/absolute-necromancer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-necromancer.a758a2-400.webp"
+    },
+    {
+      "title": "Emperor of Solo Play",
+      "chapterCount": 93,
+      "status": "Chs.",
+      "rating": 8.1,
+      "seriesPath": "/comics/emperor-of-solo-play-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/emperor-of-solo-play-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/emperor-of-solo-play.0d7530-400.webp"
+    },
+    {
+      "title": "What a Bountiful Harvest, Demon Lord!",
+      "chapterCount": 93,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/what-a-bountiful-harvest-demon-lord-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/what-a-bountiful-harvest-demon-lord-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/what-a-bountiful-harvest-demon-lord.f2cc33-400.webp"
+    },
+    {
+      "title": "The Terminally Ill Young Master of the Baek Clan",
+      "chapterCount": 92,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/the-terminally-ill-young-master-of-the-baek-clan-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-terminally-ill-young-master-of-the-baek-clan-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-terminally-ill-young-master-of-the-baek-clan.337a5c-400.webp"
+    },
+    {
+      "title": "Reincarnated Escort Warrior",
+      "chapterCount": 91,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/reincarnated-escort-warrior-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reincarnated-escort-warrior-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnated-escort-warrior.2b6f01-400.webp"
+    },
+    {
+      "title": "The Max-Level Player's 100th Regression",
+      "chapterCount": 90,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/the-max-level-players-100th-regression-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-max-level-players-100th-regression-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-players-100th-regression.8a12aa-400.webp"
+    },
+    {
+      "title": "I Regressed to My Ruined Family",
+      "chapterCount": 89,
+      "status": "Chs.",
+      "rating": 8.7,
+      "seriesPath": "/comics/i-regressed-to-my-ruined-family-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-regressed-to-my-ruined-family-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-regressed-to-my-ruined-family.7edb05-400.webp"
+    },
+    {
+      "title": "Trait Hoarder",
+      "chapterCount": 88,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/trait-hoarder-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/trait-hoarder-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trait-hoarder.0f3cd3-400.webp"
+    },
+    {
+      "title": "I Shall Live As a Prince",
+      "chapterCount": 88,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/i-shall-live-as-a-prince-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-shall-live-as-a-prince-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-shall-live-as-a-prince.e666a1-400.webp"
+    },
+    {
+      "title": "To Hell With Being A Saint, I'm A Doctor",
+      "chapterCount": 87,
+      "status": "Chs.",
+      "rating": 8.9,
+      "seriesPath": "/comics/to-hell-with-being-a-saint-im-a-doctor-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/to-hell-with-being-a-saint-im-a-doctor-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/to-hell-with-being-a-saint-im-a-doctor.e82ff3-400.webp"
+    },
+    {
+      "title": "Solo Spell Caster",
+      "chapterCount": 87,
+      "status": "Chs.",
+      "rating": 8.1,
+      "seriesPath": "/comics/solo-spell-caster-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/solo-spell-caster-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-spell-caster.a3f315-400.webp"
+    },
+    {
+      "title": "Ending Maker",
+      "chapterCount": 85,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/ending-maker-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/ending-maker-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ending-maker.cfbf53-400.webp"
+    },
+    {
+      "title": "The Illegitimate Who Devours Weapons",
+      "chapterCount": 84,
+      "status": "Chs.",
+      "rating": 8,
+      "seriesPath": "/comics/the-illegitimate-who-devours-weapons-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-illegitimate-who-devours-weapons-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-illegitimate-who-devours-weapons.b82388-400.webp"
+    },
+    {
+      "title": "F-Class Destiny Hunter",
+      "chapterCount": 84,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/f-class-destiny-hunter-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/f-class-destiny-hunter-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/f-class-destiny-hunter.72be9e-400.webp"
+    },
+    {
+      "title": "The Executioner",
+      "chapterCount": 83,
+      "status": "Chs.",
+      "rating": 7.8,
+      "seriesPath": "/comics/the-executioner-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-executioner-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-executioner.9144ef-400.webp"
+    },
+    {
+      "title": "Devil Returns To School Days",
+      "chapterCount": 83,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/devil-returns-to-school-days-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/devil-returns-to-school-days-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/devil-returns-to-school-days.dae4b0-400.webp"
+    },
+    {
+      "title": "Return of the 8th Class Magician",
+      "chapterCount": 81,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/return-of-the-8th-class-magician-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-8th-class-magician-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-8th-class-magician.3c03f3-400.webp"
+    },
+    {
+      "title": "The Priest of Corruption",
+      "chapterCount": 79,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/the-priest-of-corruption-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-priest-of-corruption-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-priest-of-corruption.b888c9-400.webp"
+    },
+    {
+      "title": "Reincarnation of the Fist King",
+      "chapterCount": 78,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/reincarnation-of-the-fist-king-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reincarnation-of-the-fist-king-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-fist-king.8fbafd-400.webp"
+    },
+    {
+      "title": "Children of the Rune",
+      "chapterCount": 77,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/children-of-the-rune-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/children-of-the-rune-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/children-of-the-rune.fa7285-400.webp"
+    },
+    {
+      "title": "The Demonic Cult Instructor Returns",
+      "chapterCount": 76,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/the-demonic-cult-instructor-returns-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-demonic-cult-instructor-returns-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demonic-cult-instructor-returns.3bde6c-400.webp"
+    },
+    {
+      "title": "The Cold-Blooded Warrior",
+      "chapterCount": 76,
+      "status": "Chs.",
+      "rating": 7.2,
+      "seriesPath": "/comics/the-cold-blooded-warrior-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-cold-blooded-warrior-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-cold-blooded-warrior.334bcd-400.webp"
+    },
+    {
+      "title": "Barbarian’s Adventure in a Fantasy World",
+      "chapterCount": 75,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/barbarian-s-adventure-in-a-fantasy-world-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/barbarian-s-adventure-in-a-fantasy-world-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/barbarian-s-adventure-in-a-fantasy-world.36f8ec-400.webp"
+    },
+    {
+      "title": "Rise of the Fallen Kingdom's Third Prince",
+      "chapterCount": 75,
+      "status": "Chs.",
+      "rating": 8.6,
+      "seriesPath": "/comics/rise-of-the-fallen-kingdoms-third-prince-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/rise-of-the-fallen-kingdoms-third-prince-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/rise-of-the-fallen-kingdoms-third-prince.b27676-400.webp"
+    },
+    {
+      "title": "The Demon Faction’s Return",
+      "chapterCount": 75,
+      "status": "Chs.",
+      "rating": 8.4,
+      "seriesPath": "/comics/the-demon-factions-return-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-demon-factions-return-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-demon-factions-return.15ac10-400.webp"
+    },
+    {
+      "title": "Dungeon Architect",
+      "chapterCount": 74,
+      "status": "Chs.",
+      "rating": 7.3,
+      "seriesPath": "/comics/dungeon-architect-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/dungeon-architect-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-architect.681a91-400.webp"
+    },
+    {
+      "title": "Starting Today, I’m a Player",
+      "chapterCount": 74,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/starting-today-im-a-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/starting-today-im-a-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/starting-today-im-a-player.549afe-400.webp"
+    },
+    {
+      "title": "A Villain's Will to Survive",
+      "chapterCount": 73,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/a-villains-will-to-survive-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/a-villains-will-to-survive-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-villains-will-to-survive.a6afc7-400.webp"
+    },
+    {
+      "title": "Chronicles of the Lazy Sovereign",
+      "chapterCount": 73,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/chronicles-of-the-lazy-sovereign-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/chronicles-of-the-lazy-sovereign-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-lazy-sovereign.651b35-400.webp"
+    },
+    {
+      "title": "The Magic Tower's Problem Child",
+      "chapterCount": 71,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-magic-towers-problem-child-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-magic-towers-problem-child-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-magic-towers-problem-child.8a924b-400.webp"
+    },
+    {
+      "title": "A Cadet Becomes a Prophet?!",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/a-cadet-becomes-a-prophet-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/a-cadet-becomes-a-prophet-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/a-cadet-becomes-a-prophet.104726-400.webp"
+    },
+    {
+      "title": "The Tang Clan Chronicles",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 8.5,
+      "seriesPath": "/comics/the-tang-clan-chronicles-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-tang-clan-chronicles-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tang-clan-chronicles.ffb78e-400.webp"
+    },
+    {
+      "title": "The Genius Assassin Who Takes it All",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/the-genius-assassin-who-takes-it-all-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-genius-assassin-who-takes-it-all-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-genius-assassin-who-takes-it-all.e563ed-400.webp"
+    },
+    {
+      "title": "Updater",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/updater-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/updater-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/updater.046cd1-400.webp"
+    },
+    {
+      "title": "Demon Lord's Martial Arts Ascension",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/demon-lords-martial-arts-ascension-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/demon-lords-martial-arts-ascension-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/demon-lords-martial-arts-ascension.ee4b41-400.webp"
+    }
+  ],
+  "existing": [
+    {
+      "title": "Overgeared",
+      "chapterCount": 350,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/overgeared-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/overgeared-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overgeared.905990-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Overgeared",
+          "dataFile": "overgeared-ch250-316.json",
+          "source": "asurascans",
+          "chapterCount": 331,
+          "toChapter": 330
+        }
+      ]
+    },
+    {
+      "title": "Nano Machine",
+      "chapterCount": 339,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/nano-machine-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/nano-machine-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Nano Machine",
+          "dataFile": "nano-machine.json",
+          "source": "asura",
+          "chapterCount": 339,
+          "toChapter": 339
+        }
+      ]
+    },
+    {
+      "title": "Omniscient Reader’s Viewpoint",
+      "chapterCount": 312,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/omniscient-readers-viewpoint-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/omniscient-readers-viewpoint-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/omniscient-readers-viewpoint.c29ced-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Omniscient Readers Viewpoint",
+          "dataFile": "omniscient-readers-viewpoint.json",
+          "source": "asura",
+          "chapterCount": 312,
+          "toChapter": 311
+        }
+      ]
+    },
+    {
+      "title": "The Tutorial is Too Hard",
+      "chapterCount": 298,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-tutorial-is-too-hard-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-tutorial-is-too-hard-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-is-too-hard.11d4d4-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Tutorial Is Too Hard",
+          "dataFile": "the-tutorial-is-too-hard.json",
+          "source": "asura",
+          "chapterCount": 298,
+          "toChapter": 297
+        }
+      ]
+    },
+    {
+      "title": "Solo Max-Level Newbie",
+      "chapterCount": 287,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/solo-max-level-newbie-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/solo-max-level-newbie-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-max-level-newbie.bac83f-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Solo Max-Level Newbie",
+          "dataFile": "solo-max-level-newbie-ch180-252.json",
+          "source": "asura",
+          "chapterCount": 286,
+          "toChapter": 285
+        }
+      ]
+    },
+    {
+      "title": "The Great Mage Returns After 4000 Years",
+      "chapterCount": 283,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-great-mage-returns-after-4000-years-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-great-mage-returns-after-4000-years-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-great-mage-returns-after-4000-years.c5b622-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Great Mage Returns After 4000 Years",
+          "dataFile": "the-great-mage-returns-after-4000-years.json",
+          "source": "asura",
+          "chapterCount": 283,
+          "toChapter": 283
+        }
+      ]
+    },
+    {
+      "title": "Villain To Kill",
+      "chapterCount": 262,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/villain-to-kill-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/villain-to-kill-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/villain-to-kill.e7589f-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Villain To Kill",
+          "dataFile": "villain-to-kill.json",
+          "source": "asura",
+          "chapterCount": 262,
+          "toChapter": 261
+        }
+      ]
+    },
+    {
+      "title": "The World After The End",
+      "chapterCount": 260,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/the-world-after-the-end-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-world-after-the-end-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-world-after-the-end.dade11-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The World After The End",
+          "dataFile": "the-world-after-the-end-ch150-225.json",
+          "source": "asura",
+          "chapterCount": 260,
+          "toChapter": 259
+        }
+      ]
+    },
+    {
+      "title": "The Max Level Hero has Returned!",
+      "chapterCount": 254,
+      "status": "Chs.",
+      "rating": 7.5,
+      "seriesPath": "/comics/the-max-level-hero-has-returned-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-max-level-hero-has-returned-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.9cc9f9-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Max Level Hero Has Returned",
+          "dataFile": "the-max-level-hero-has-returned.json",
+          "source": "asura",
+          "chapterCount": 254,
+          "toChapter": 254
+        }
+      ]
+    },
+    {
+      "title": "Murim Login",
+      "chapterCount": 254,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/murim-login-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/murim-login-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/murim-login.407650-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Murim Login",
+          "dataFile": "murim-login.json",
+          "source": "mgeko",
+          "chapterCount": 253,
+          "toChapter": 250
+        }
+      ]
+    },
+    {
+      "title": "Doctor’s Rebirth",
+      "chapterCount": 252,
+      "status": "Chs.",
+      "rating": 8.9,
+      "seriesPath": "/comics/doctors-rebirth-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/doctors-rebirth-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/doctors-rebirth.283895-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Doctors Rebirth",
+          "dataFile": "doctors-rebirth.json",
+          "source": "asura",
+          "chapterCount": 251,
+          "toChapter": 251
+        }
+      ]
+    },
+    {
+      "title": "Player Who Can't Level Up",
+      "chapterCount": 252,
+      "status": "Chs.",
+      "rating": 7.9,
+      "seriesPath": "/comics/player-who-cant-level-up-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/player-who-cant-level-up-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-cant-level-up.970ad4-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Player Who Cant Level Up",
+          "dataFile": "player-who-cant-level-up.json",
+          "source": "asura",
+          "chapterCount": 252,
+          "toChapter": 252
+        }
+      ]
+    },
+    {
+      "title": "Reality Quest",
+      "chapterCount": 239,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/reality-quest-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reality-quest-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reality-quest.0aec27-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Reality Quest",
+          "dataFile": "reality-quest.json",
+          "source": "mgeko",
+          "chapterCount": 227,
+          "toChapter": 227
+        }
+      ]
+    },
+    {
+      "title": "Pick Me Up, Infinite Gacha",
+      "chapterCount": 228,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/pick-me-up-infinite-gacha-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/pick-me-up-infinite-gacha-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/pick-me-up-infinite-gacha.3ebe61-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Pick Me Up Infinite Gacha",
+          "dataFile": "pick-me-up-infinite-gacha.json",
+          "source": "asura",
+          "chapterCount": 228,
+          "toChapter": 228
+        }
+      ]
+    },
+    {
+      "title": "Return of The Unrivaled Spear Knight",
+      "chapterCount": 223,
+      "status": "Chs.",
+      "rating": 7,
+      "seriesPath": "/comics/return-of-the-unrivaled-spear-knight-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-unrivaled-spear-knight-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-unrivaled-spear-knight.f4e89f-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return Of The Unrivaled Spear Knight",
+          "dataFile": "return-of-the-unrivaled-spear-knight.json",
+          "source": "asura",
+          "chapterCount": 223,
+          "toChapter": 223
+        }
+      ]
+    },
+    {
+      "title": "The Greatest Estate Developer",
+      "chapterCount": 223,
+      "status": "Chs.",
+      "rating": 9.9,
+      "seriesPath": "/comics/the-greatest-estate-developer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-greatest-estate-developer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-greatest-estate-developer.ad682d-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Greatest Estate Developer",
+          "dataFile": "the-greatest-estate-developer.json",
+          "source": "asura",
+          "chapterCount": 223,
+          "toChapter": 223
+        }
+      ]
+    },
+    {
+      "title": "Swordmaster’s Youngest Son",
+      "chapterCount": 222,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/swordmasters-youngest-son-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/swordmasters-youngest-son-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/swordmasters-youngest-son.c550f1-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Swordmasters Youngest Son",
+          "dataFile": "swordmasters-youngest-son.json",
+          "source": "asura",
+          "chapterCount": 201,
+          "toChapter": 201
+        }
+      ]
+    },
+    {
+      "title": "The Return of the Crazy Demon",
+      "chapterCount": 221,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/the-return-of-the-crazy-demon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-return-of-the-crazy-demon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-return-of-the-crazy-demon.2a8522-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Return Of The Crazy Demon",
+          "dataFile": "the-return-of-the-crazy-demon.json",
+          "source": "asura",
+          "chapterCount": 220,
+          "toChapter": 220
+        }
+      ]
+    },
+    {
+      "title": "The Heavenly Demon Can't Live a Normal Life",
+      "chapterCount": 215,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/the-heavenly-demon-cant-live-a-normal-life-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-heavenly-demon-cant-live-a-normal-life-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-heavenly-demon-cant-live-a-normal-life.e3f13a-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "The Heavenly Demon Cant Live A Normal Life",
+          "dataFile": "the-heavenly-demon-cant-live-a-normal-life.json",
+          "source": "asura",
+          "chapterCount": 215,
+          "toChapter": 215
+        }
+      ]
+    },
+    {
+      "title": "Death Is the Only Ending for the Villainess",
+      "chapterCount": 214,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/death-is-the-only-ending-for-the-villainess-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/death-is-the-only-ending-for-the-villainess-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/death-is-the-only-ending-for-the-villainess.af9ab0-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Death Is The Only Ending For The Villainess",
+          "dataFile": "death-is-the-only-ending-for-the-villainess.json",
+          "source": "asura",
+          "chapterCount": 214,
+          "toChapter": 214
+        }
+      ]
+    },
+    {
+      "title": "Regressor Instruction Manual",
+      "chapterCount": 213,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/regressor-instruction-manual-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/regressor-instruction-manual-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-instruction-manual.60f991-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Regressor Instruction Manual",
+          "dataFile": "regressor-instruction-manual.json",
+          "source": "asura",
+          "chapterCount": 212,
+          "toChapter": 212
+        }
+      ]
+    },
+    {
+      "title": "Absolute Sword Sense",
+      "chapterCount": 210,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/absolute-sword-sense-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/absolute-sword-sense-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.09c12f-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Absolute Sword Sense",
+          "dataFile": "absolute-sword-sense-ch01-164.json",
+          "source": "asura",
+          "chapterCount": 210,
+          "toChapter": 210
+        }
+      ]
+    },
+    {
+      "title": "The Dark Magician Transmigrates After 66666 Years",
+      "chapterCount": 205,
+      "status": "Chs.",
+      "rating": 8.9,
+      "seriesPath": "/comics/the-dark-magician-transmigrates-after-66666-years-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-dark-magician-transmigrates-after-66666-years-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-dark-magician-transmigrates-after-66666-years.0800e8-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Dark Magician Transmigrates After 66666 Years",
+          "dataFile": "the-dark-magician-transmigrates-after-66666-years.json",
+          "source": "asura",
+          "chapterCount": 205,
+          "toChapter": 205
+        }
+      ]
+    },
+    {
+      "title": "Standard of Reincarnation",
+      "chapterCount": 203,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/standard-of-reincarnation-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/standard-of-reincarnation-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/standard-of-reincarnation.32ce34-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Standard Of Reincarnation",
+          "dataFile": "standard-of-reincarnation.json",
+          "source": "asura",
+          "chapterCount": 203,
+          "toChapter": 203
+        }
+      ]
+    },
+    {
+      "title": "Solo Leveling",
+      "chapterCount": 201,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/solo-leveling-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/solo-leveling-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Solo Leveling",
+          "dataFile": "solo-leveling-ch01-202.json",
+          "source": "asura",
+          "chapterCount": 203,
+          "toChapter": 202
+        }
+      ]
+    },
+    {
+      "title": "Return of the SSS-Class Ranker",
+      "chapterCount": 200,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/return-of-the-sss-class-ranker-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-sss-class-ranker-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-sss-class-ranker.5c938f-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return Of The Sss Class Ranker",
+          "dataFile": "return-of-the-sss-class-ranker.json",
+          "source": "asura",
+          "chapterCount": 186,
+          "toChapter": 186
+        }
+      ]
+    },
+    {
+      "title": "Chronicles of the Demon Faction",
+      "chapterCount": 198,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/chronicles-of-the-demon-faction-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/chronicles-of-the-demon-faction-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-demon-faction.d4dcb8-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Chronicles Of The Demon Faction",
+          "dataFile": "chronicles-of-the-demon-faction.json",
+          "source": "asura",
+          "chapterCount": 197,
+          "toChapter": 197
+        }
+      ]
+    },
+    {
+      "title": "Return of the Disaster-Class Hero",
+      "chapterCount": 198,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/return-of-the-disaster-class-hero-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-disaster-class-hero-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-disaster-class-hero.e23831-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return Of The Disaster Class Hero",
+          "dataFile": "return-of-the-disaster-class-hero.json",
+          "source": "asura",
+          "chapterCount": 198,
+          "toChapter": 197
+        }
+      ]
+    },
+    {
+      "title": "Trash of the Count’s Family",
+      "chapterCount": 197,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/trash-of-the-counts-family-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/trash-of-the-counts-family-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/trash-of-the-counts-family.b543fa-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Trash Of The Counts Family",
+          "dataFile": "trash-of-the-counts-family.json",
+          "source": "asura",
+          "chapterCount": 196,
+          "toChapter": 195
+        }
+      ]
+    },
+    {
+      "title": "I Obtained a Mythic Item",
+      "chapterCount": 196,
+      "status": "Chs.",
+      "rating": 8.6,
+      "seriesPath": "/comics/i-obtained-a-mythic-item-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-obtained-a-mythic-item-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-obtained-a-mythic-item.64dea7-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "I Obtained A Mythic Item",
+          "dataFile": "i-obtained-a-mythic-item.json",
+          "source": "asura",
+          "chapterCount": 195,
+          "toChapter": 194
+        }
+      ]
+    },
+    {
+      "title": "Return of the Mount Hua Sect",
+      "chapterCount": 194,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/return-of-the-mount-hua-sect-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-mount-hua-sect-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-mount-hua-sect.c0cbf9-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return Of The Mount Hua Sect",
+          "dataFile": "return-of-the-mount-hua-sect.json",
+          "source": "asura",
+          "chapterCount": 188,
+          "toChapter": 188
+        }
+      ]
+    },
+    {
+      "title": "Infinite Mage",
+      "chapterCount": 194,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/infinite-mage-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/infinite-mage-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/infinite-mage.e79aed-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Infinite Mage",
+          "dataFile": "infinite-mage.json",
+          "source": "asura",
+          "chapterCount": 194,
+          "toChapter": 194
+        }
+      ]
+    },
+    {
+      "title": "Heavenly Grand Archive's Young Master",
+      "chapterCount": 192,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/heavenly-grand-archives-young-master-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/heavenly-grand-archives-young-master-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-grand-archives-young-master.725738-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Heavenly Grand Archives Young Master",
+          "dataFile": "heavenly-grand-archives-young-master.json",
+          "source": "asura",
+          "chapterCount": 173,
+          "toChapter": 173
+        }
+      ]
+    },
+    {
+      "title": "The S-Classes That I Raised",
+      "chapterCount": 190,
+      "status": "Chs.",
+      "rating": 8.7,
+      "seriesPath": "/comics/the-s-classes-that-i-raised-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-s-classes-that-i-raised-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-s-classes-that-i-raised.494ef4-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The S Classes That I Raised",
+          "dataFile": "the-s-classes-that-i-raised.json",
+          "source": "asura",
+          "chapterCount": 190,
+          "toChapter": 190
+        }
+      ]
+    },
+    {
+      "title": "Revenge of the Iron-Blooded Sword Hound",
+      "chapterCount": 189,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/revenge-of-the-iron-blooded-sword-hound-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/revenge-of-the-iron-blooded-sword-hound-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/revenge-of-the-iron-blooded-sword-hound.41b6fb-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Revenge Of The Iron Blooded Sword Hound",
+          "dataFile": "revenge-of-the-iron-blooded-sword-hound.json",
+          "source": "asura",
+          "chapterCount": 189,
+          "toChapter": 189
+        }
+      ]
+    },
+    {
+      "title": "The Knight King Who Returned with a God",
+      "chapterCount": 186,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-knight-king-who-returned-with-a-god-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-knight-king-who-returned-with-a-god-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-knight-king-who-returned-with-a-god.04a2c1-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Knight King Who Returned With A God",
+          "dataFile": "the-knight-king-who-returned-with-a-god.json",
+          "source": "asura",
+          "chapterCount": 186,
+          "toChapter": 186
+        }
+      ]
+    },
+    {
+      "title": "The Novel’s Extra",
+      "chapterCount": 180,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/the-novels-extra-remake-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-novels-extra-remake-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-novels-extra-remake.8d8ec7-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "The Novels Extra Remake",
+          "dataFile": "the-novels-extra-remake.json",
+          "source": "asura",
+          "chapterCount": 180,
+          "toChapter": 180
+        }
+      ]
+    },
+    {
+      "title": "The Hero Returns",
+      "chapterCount": 179,
+      "status": "Chs.",
+      "rating": 7,
+      "seriesPath": "/comics/the-hero-returns-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-hero-returns-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.0d6e91-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Hero Returns",
+          "dataFile": "the-hero-returns.json",
+          "source": "asura",
+          "chapterCount": 179,
+          "toChapter": 179
+        }
+      ]
+    },
+    {
+      "title": "Return of The Frozen Player",
+      "chapterCount": 178,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/return-of-the-frozen-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-frozen-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-frozen-player.8ab639-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return of the Frozen Player ",
+          "dataFile": "return-of-the-frozen-player-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 223,
+          "toChapter": 220
+        }
+      ]
+    },
+    {
+      "title": "Dungeon Odyssey",
+      "chapterCount": 178,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/dungeon-odyssey-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/dungeon-odyssey-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dungeon-odyssey.f39586-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Dungeon Odyssey",
+          "dataFile": "dungeon-odyssey.json",
+          "source": "asura",
+          "chapterCount": 178,
+          "toChapter": 178
+        }
+      ]
+    },
+    {
+      "title": "Boundless Necromancer",
+      "chapterCount": 177,
+      "status": "Chs.",
+      "rating": 8.2,
+      "seriesPath": "/comics/boundless-necromancer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/boundless-necromancer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/boundless-necromancer.a3e502-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Boundless Necromancer",
+          "dataFile": "boundless-necromancer.json",
+          "source": "asura",
+          "chapterCount": 177,
+          "toChapter": 177
+        }
+      ]
+    },
+    {
+      "title": "The Tutorial Tower of the Advanced Player",
+      "chapterCount": 177,
+      "status": "Chs.",
+      "rating": 8.6,
+      "seriesPath": "/comics/the-tutorial-tower-of-the-advanced-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-tutorial-tower-of-the-advanced-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-tutorial-tower-of-the-advanced-player.82e053-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Tutorial Tower Of The Advanced Player",
+          "dataFile": "the-tutorial-tower-of-the-advanced-player.json",
+          "source": "asura",
+          "chapterCount": 177,
+          "toChapter": 177
+        }
+      ]
+    },
+    {
+      "title": "Terminally-Ill Genius Dark Knight",
+      "chapterCount": 174,
+      "status": "Chs.",
+      "rating": 8.6,
+      "seriesPath": "/comics/terminally-ill-genius-dark-knight-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/terminally-ill-genius-dark-knight-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/terminally-ill-genius-dark-knight.a0e916-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Terminally Ill Genius Dark Knight",
+          "dataFile": "terminally-ill-genius-dark-knight.json",
+          "source": "asura",
+          "chapterCount": 173,
+          "toChapter": 173
+        }
+      ]
+    },
+    {
+      "title": "Wandering Warrior of Wudang",
+      "chapterCount": 174,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/wandering-warrior-of-wudang-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/wandering-warrior-of-wudang-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/wandering-warrior-of-wudang.9fb55b-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Wandering Warrior Of Wudang",
+          "dataFile": "wandering-warrior-of-wudang.json",
+          "source": "asura",
+          "chapterCount": 174,
+          "toChapter": 174
+        }
+      ]
+    },
+    {
+      "title": "Surviving The Game as a Barbarian",
+      "chapterCount": 170,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/surviving-the-game-as-a-barbarian-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/surviving-the-game-as-a-barbarian-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/surviving-the-game-as-a-barbarian.86af24-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Surviving The Game As A Barbarian",
+          "dataFile": "surviving-the-game-as-a-barbarian.json",
+          "source": "asura",
+          "chapterCount": 152,
+          "toChapter": 152
+        }
+      ]
+    },
+    {
+      "title": "Chronicles Of The Martial God's Return",
+      "chapterCount": 170,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/chronicles-of-the-martial-gods-return-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/chronicles-of-the-martial-gods-return-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/chronicles-of-the-martial-gods-return.74ef01-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Chronicles Of The Martial Gods Return",
+          "dataFile": "chronicles-of-the-martial-gods-return.json",
+          "source": "asura",
+          "chapterCount": 170,
+          "toChapter": 170
+        }
+      ]
+    },
+    {
+      "title": "Reformation of the Deadbeat Noble",
+      "chapterCount": 169,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/reformation-of-the-deadbeat-noble-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reformation-of-the-deadbeat-noble-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.214565-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Reformation Of The Deadbeat Noble",
+          "dataFile": "reformation-of-the-deadbeat-noble.json",
+          "source": "asura",
+          "chapterCount": 168,
+          "toChapter": 168
+        }
+      ]
+    },
+    {
+      "title": "Star Instructor, Master Baek",
+      "chapterCount": 169,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/star-instructor-master-baek-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/star-instructor-master-baek-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-instructor-master-baek.f79c8a-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Star Instructor Master Baek",
+          "dataFile": "star-instructor-master-baek.json",
+          "source": "asura",
+          "chapterCount": 169,
+          "toChapter": 169
+        }
+      ]
+    },
+    {
+      "title": "Regressing with the King’s Power",
+      "chapterCount": 168,
+      "status": "Chs.",
+      "rating": 7,
+      "seriesPath": "/comics/regressing-with-the-kings-power-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/regressing-with-the-kings-power-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressing-with-the-kings-power.91b28f-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Regressing With The Kings Power",
+          "dataFile": "regressing-with-the-kings-power.json",
+          "source": "asura",
+          "chapterCount": 167,
+          "toChapter": 167
+        }
+      ]
+    },
+    {
+      "title": "Academy’s Undercover Professor",
+      "chapterCount": 168,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/academys-undercover-professor-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/academys-undercover-professor-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-undercover-professor.ee6a42-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Academys Undercover Professor",
+          "dataFile": "academys-undercover-professor.json",
+          "source": "asura",
+          "chapterCount": 163,
+          "toChapter": 163
+        }
+      ]
+    },
+    {
+      "title": "Player Who Returned 10,000 Years Later",
+      "chapterCount": 167,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/player-who-returned-10000-years-later-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/player-who-returned-10000-years-later-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/player-who-returned-10000-years-later.6f8776-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Player Who Returned 10,000 Years Later",
+          "dataFile": "player-return-10000-years-later.json",
+          "source": "asurascans",
+          "chapterCount": 151,
+          "toChapter": 151
+        }
+      ]
+    },
+    {
+      "title": "The Live",
+      "chapterCount": 167,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/the-live-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-live-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-live.30e95c-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Live",
+          "dataFile": "the-live.json",
+          "source": "asura",
+          "chapterCount": 167,
+          "toChapter": 167
+        }
+      ]
+    },
+    {
+      "title": "Academy's Genius Swordmaster",
+      "chapterCount": 163,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/academys-genius-swordmaster-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/academys-genius-swordmaster-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/academys-genius-swordmaster.1aecaa-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Academys Genius Swordmaster",
+          "dataFile": "academys-genius-swordmaster.json",
+          "source": "asura",
+          "chapterCount": 163,
+          "toChapter": 163
+        }
+      ]
+    },
+    {
+      "title": "Reincarnator",
+      "chapterCount": 161,
+      "status": "Chs.",
+      "rating": 8.4,
+      "seriesPath": "/comics/reincarnator-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reincarnator-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnator.f10165-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Reincarnator",
+          "dataFile": "reincarnator.json",
+          "source": "asura",
+          "chapterCount": 161,
+          "toChapter": 160
+        }
+      ]
+    },
+    {
+      "title": "The Constellation That Returned From Hell",
+      "chapterCount": 161,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/the-constellation-that-returned-from-hell-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-constellation-that-returned-from-hell-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-constellation-that-returned-from-hell.2d73e8-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Constellation That Returned From Hell",
+          "dataFile": "the-constellation-that-returned-from-hell.json",
+          "source": "asura",
+          "chapterCount": 161,
+          "toChapter": 161
+        }
+      ]
+    },
+    {
+      "title": "SSS-Class Suicide Hunter",
+      "chapterCount": 160,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/sss-class-suicide-hunter-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/sss-class-suicide-hunter-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sss-class-suicide-hunter.021e06-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Sss Class Suicide Hunter",
+          "dataFile": "sss-class-suicide-hunter.json",
+          "source": "asura",
+          "chapterCount": 151,
+          "toChapter": 151
+        }
+      ]
+    },
+    {
+      "title": "The Indomitable Martial King",
+      "chapterCount": 160,
+      "status": "Chs.",
+      "rating": 8.1,
+      "seriesPath": "/comics/the-indomitable-martial-king-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-indomitable-martial-king-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-indomitable-martial-king.17e0b7-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Indomitable Martial King",
+          "dataFile": "the-indomitable-martial-king.json",
+          "source": "asura",
+          "chapterCount": 160,
+          "toChapter": 160
+        }
+      ]
+    },
+    {
+      "title": "Regressor of the Fallen family",
+      "chapterCount": 160,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/regressor-of-the-fallen-family-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/regressor-of-the-fallen-family-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/regressor-of-the-fallen-family.a4d950-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Regressor Of The Fallen Family",
+          "dataFile": "regressor-of-the-fallen-family.json",
+          "source": "asura",
+          "chapterCount": 160,
+          "toChapter": 160
+        }
+      ]
+    },
+    {
+      "title": "Spirit Farmer",
+      "chapterCount": 160,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/spirit-farmer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/spirit-farmer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/spirit-farmer.6081c0-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Spirit Farmer",
+          "dataFile": "spirit-farmer.json",
+          "source": "asura",
+          "chapterCount": 160,
+          "toChapter": 160
+        },
+        {
+          "via": "title",
+          "title": "Spirit Farmer",
+          "dataFile": "spirit-farmer-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 194,
+          "toChapter": 192
+        }
+      ]
+    },
+    {
+      "title": "Worn and Torn Newbie",
+      "chapterCount": 160,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/worn-and-torn-newbie-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/worn-and-torn-newbie-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worn-and-torn-newbie.f39912-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Worn And Torn Newbie",
+          "dataFile": "worn-and-torn-newbie.json",
+          "source": "asura",
+          "chapterCount": 160,
+          "toChapter": 159
+        }
+      ]
+    },
+    {
+      "title": "Killer Pietro",
+      "chapterCount": 158,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/killer-pietro-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/killer-pietro-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/killer-pietro.391509-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Killer Pietro",
+          "dataFile": "killer-pietro.json",
+          "source": "asura",
+          "chapterCount": 157,
+          "toChapter": 157
+        }
+      ]
+    },
+    {
+      "title": "Solo Farming In The Tower",
+      "chapterCount": 154,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/solo-farming-in-the-tower-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/solo-farming-in-the-tower-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Solo Farming In The Tower",
+          "dataFile": "solo-farming-in-the-tower.json",
+          "source": "asura",
+          "chapterCount": 152,
+          "toChapter": 152
+        }
+      ]
+    },
+    {
+      "title": "The Regressed Son of a Duke is an Assassin",
+      "chapterCount": 153,
+      "status": "Chs.",
+      "rating": 8.5,
+      "seriesPath": "/comics/the-regressed-son-of-a-duke-is-an-assassin-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-regressed-son-of-a-duke-is-an-assassin-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-son-of-a-duke-is-an-assassin.b4385d-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Regressed Son Of A Duke Is An Assassin",
+          "dataFile": "the-regressed-son-of-a-duke-is-an-assassin.json",
+          "source": "asura",
+          "chapterCount": 153,
+          "toChapter": 153
+        }
+      ]
+    },
+    {
+      "title": "Genius of the Unique Lineage",
+      "chapterCount": 153,
+      "status": "Chs.",
+      "rating": 7.7,
+      "seriesPath": "/comics/genius-of-the-unique-lineage-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/genius-of-the-unique-lineage-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-of-the-unique-lineage.25732d-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Genius Of The Unique Lineage",
+          "dataFile": "genius-of-the-unique-lineage.json",
+          "source": "asura",
+          "chapterCount": 153,
+          "toChapter": 152
+        }
+      ]
+    },
+    {
+      "title": "Heavenly Inquisition Sword",
+      "chapterCount": 153,
+      "status": "Chs.",
+      "rating": 7.8,
+      "seriesPath": "/comics/heavenly-inquisition-sword-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/heavenly-inquisition-sword-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-inquisition-sword.4fa29b-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Heavenly Inquisition Sword",
+          "dataFile": "heavenly-inquisition-sword.json",
+          "source": "asura",
+          "chapterCount": 153,
+          "toChapter": 153
+        }
+      ]
+    },
+    {
+      "title": "Talent-Swallowing Magician",
+      "chapterCount": 152,
+      "status": "Chs.",
+      "rating": 8.9,
+      "seriesPath": "/comics/talent-swallowing-magician-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/talent-swallowing-magician-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/talent-swallowing-magician.5877c0-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Talent Swallowing Magician",
+          "dataFile": "talent-swallowing-magician.json",
+          "source": "asura",
+          "chapterCount": 138,
+          "toChapter": 137
+        }
+      ]
+    },
+    {
+      "title": "Mr Devourer, Please Act Like a Final Boss",
+      "chapterCount": 151,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/mr-devourer-please-act-like-a-final-boss-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/mr-devourer-please-act-like-a-final-boss-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mr-devourer-please-act-like-a-final-boss.0212f6-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Mr Devourer Please Act Like A Final Boss",
+          "dataFile": "mr-devourer-please-act-like-a-final-boss.json",
+          "source": "asura",
+          "chapterCount": 151,
+          "toChapter": 150
+        }
+      ]
+    },
+    {
+      "title": "Superhuman Battlefield",
+      "chapterCount": 151,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/superhuman-battlefield-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/superhuman-battlefield-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Superhuman Battlefield",
+          "dataFile": "superhuman-battlefield.json",
+          "source": "asura",
+          "chapterCount": 151,
+          "toChapter": 151
+        }
+      ]
+    },
+    {
+      "title": "Reborn As The Heavenly Demon",
+      "chapterCount": 150,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/reborn-as-the-heavenly-demon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reborn-as-the-heavenly-demon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Reincarnated Murim Lord",
+          "dataFile": "reborn-as-the-heavenly-demon.json",
+          "source": "asura",
+          "chapterCount": 148,
+          "toChapter": 148
+        }
+      ]
+    },
+    {
+      "title": "The Player Hides His Past",
+      "chapterCount": 147,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/the-player-hides-his-past-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-player-hides-his-past-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-player-hides-his-past.2d550d-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Player Hides His Past",
+          "dataFile": "the-player-hides-his-past.json",
+          "source": "asura",
+          "chapterCount": 147,
+          "toChapter": 147
+        }
+      ]
+    },
+    {
+      "title": "My Exclusive Tower Guide",
+      "chapterCount": 146,
+      "status": "Chs.",
+      "rating": 7.9,
+      "seriesPath": "/comics/my-exclusive-tower-guide-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/my-exclusive-tower-guide-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-exclusive-tower-guide.9e49f7-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "My Exclusive Tower Guide",
+          "dataFile": "my-exclusive-tower-guide.json",
+          "source": "asura",
+          "chapterCount": 146,
+          "toChapter": 146
+        }
+      ]
+    },
+    {
+      "title": "Star-Embracing Swordmaster",
+      "chapterCount": 146,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/star-embracing-swordmaster-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/star-embracing-swordmaster-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/star-embracing-swordmaster.6b1222-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Star Embracing Swordmaster",
+          "dataFile": "star-embracing-swordmaster.json",
+          "source": "asura",
+          "chapterCount": 146,
+          "toChapter": 146
+        }
+      ]
+    },
+    {
+      "title": "Youngest Scion of the Mages",
+      "chapterCount": 144,
+      "status": "Chs.",
+      "rating": 7,
+      "seriesPath": "/comics/youngest-scion-of-the-mages-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/youngest-scion-of-the-mages-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/youngest-scion-of-the-mages.2c9bc0-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Youngest Scion Of The Mages",
+          "dataFile": "youngest-scion-of-the-mages.json",
+          "source": "asura",
+          "chapterCount": 123,
+          "toChapter": 123
+        }
+      ]
+    },
+    {
+      "title": "Overpowered Sword",
+      "chapterCount": 144,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/overpowered-sword-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/overpowered-sword-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/overpowered-sword.6a7fc2-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Overpowered Sword",
+          "dataFile": "overpowered-sword.json",
+          "source": "asura",
+          "chapterCount": 144,
+          "toChapter": 144
+        }
+      ]
+    },
+    {
+      "title": "I Killed an Academy Player",
+      "chapterCount": 141,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/i-killed-an-academy-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-killed-an-academy-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-killed-an-academy-player.9aa03c-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "I Killed An Academy Player",
+          "dataFile": "i-killed-an-academy-player.json",
+          "source": "asura",
+          "chapterCount": 141,
+          "toChapter": 141
+        }
+      ]
+    },
+    {
+      "title": "Helmut: The Forsaken Child",
+      "chapterCount": 140,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/helmut-the-forsaken-child-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/helmut-the-forsaken-child-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/helmut-the-forsaken-child.7e9442-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Helmut The Forsaken Child",
+          "dataFile": "helmut-the-forsaken-child.json",
+          "source": "asura",
+          "chapterCount": 128,
+          "toChapter": 128
+        }
+      ]
+    },
+    {
+      "title": "The Nebula's Civilization",
+      "chapterCount": 140,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/the-nebulas-civilization-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-nebulas-civilization-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Nebula's Civilization",
+          "dataFile": "nebulas-civilization-ch01-122.json",
+          "source": "asura",
+          "chapterCount": 140,
+          "toChapter": 140
+        }
+      ]
+    },
+    {
+      "title": "The Lord's Coins Aren't Decreasing?!",
+      "chapterCount": 139,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/the-lords-coins-arent-decreasing-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-lords-coins-arent-decreasing-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-lords-coins-arent-decreasing.f13242-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "The Lords Coins Arent Decreasing",
+          "dataFile": "the-lords-coins-arent-decreasing.json",
+          "source": "asura",
+          "chapterCount": 139,
+          "toChapter": 139
+        }
+      ]
+    },
+    {
+      "title": "Dragon-Devouring Mage",
+      "chapterCount": 138,
+      "status": "Chs.",
+      "rating": 8.3,
+      "seriesPath": "/comics/dragon-devouring-mage-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/dragon-devouring-mage-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/dragon-devouring-mage.83a703-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Dragon Devouring Mage",
+          "dataFile": "dragon-devouring-mage.json",
+          "source": "asura",
+          "chapterCount": 138,
+          "toChapter": 138
+        }
+      ]
+    },
+    {
+      "title": "Return to Player",
+      "chapterCount": 138,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/return-to-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-to-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return To Player",
+          "dataFile": "return-to-player.json",
+          "source": "asura",
+          "chapterCount": 138,
+          "toChapter": 138
+        }
+      ]
+    },
+    {
+      "title": "Reaper of the Drifting Moon",
+      "chapterCount": 136,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/reaper-of-the-drifting-moon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reaper-of-the-drifting-moon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reaper-of-the-drifting-moon.d67783-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Reaper Of The Drifting Moon",
+          "dataFile": "reaper-of-the-drifting-moon.json",
+          "source": "asura",
+          "chapterCount": 134,
+          "toChapter": 133
+        }
+      ]
+    },
+    {
+      "title": "Genius Martial Arts Trainer",
+      "chapterCount": 135,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/genius-martial-arts-trainer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/genius-martial-arts-trainer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-martial-arts-trainer.7a9f27-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Genius Martial Arts Trainer",
+          "dataFile": "genius-martial-arts-trainer.json",
+          "source": "asura",
+          "chapterCount": 135,
+          "toChapter": 135
+        }
+      ]
+    },
+    {
+      "title": "Martial God Regressed to Level 2",
+      "chapterCount": 135,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/martial-god-regressed-to-level-2-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/martial-god-regressed-to-level-2-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/martial-god-regressed-to-level-2.2a1f51-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Martial God Regressed To Level 2",
+          "dataFile": "martial-god-regressed-to-level-2.json",
+          "source": "asura",
+          "chapterCount": 135,
+          "toChapter": 135
+        }
+      ]
+    },
+    {
+      "title": "The Extra’s Academy Survival Guide",
+      "chapterCount": 134,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/the-extras-academy-survival-guide-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-extras-academy-survival-guide-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-extras-academy-survival-guide.18d91e-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "The Extras Academy Survival Guide",
+          "dataFile": "the-extras-academy-survival-guide.json",
+          "source": "asura",
+          "chapterCount": 133,
+          "toChapter": 132
+        }
+      ]
+    },
+    {
+      "title": "Margrave’s Bastard Son was The Emperor",
+      "chapterCount": 134,
+      "status": "Chs.",
+      "rating": 8,
+      "seriesPath": "/comics/margraves-bastard-son-was-the-emperor-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/margraves-bastard-son-was-the-emperor-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/margraves-bastard-son-was-the-emperor.190eca-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Margraves Bastard Son Was The Emperor",
+          "dataFile": "margraves-bastard-son-was-the-emperor.json",
+          "source": "asura",
+          "chapterCount": 134,
+          "toChapter": 134
+        }
+      ]
+    },
+    {
+      "title": "Legend of Asura – The Venom Dragon",
+      "chapterCount": 134,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/legend-of-asura-the-venom-dragon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/legend-of-asura-the-venom-dragon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legend-of-asura-the-venom-dragon.ee9db7-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Legend Of Asura The Venom Dragon",
+          "dataFile": "legend-of-asura-the-venom-dragon.json",
+          "source": "asura",
+          "chapterCount": 134,
+          "toChapter": 133
+        }
+      ]
+    },
+    {
+      "title": "Breakers",
+      "chapterCount": 133,
+      "status": "Chs.",
+      "rating": 7,
+      "seriesPath": "/comics/breakers-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/breakers-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/breakers.7f8d96-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Breakers",
+          "dataFile": "breakers.json",
+          "source": "asura",
+          "chapterCount": 132,
+          "toChapter": 132
+        }
+      ]
+    },
+    {
+      "title": "Life of a Magic Academy Mage",
+      "chapterCount": 133,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/life-of-a-magic-academy-mage-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/life-of-a-magic-academy-mage-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/life-of-a-magic-academy-mage.123b03-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Life Of A Magic Academy Mage",
+          "dataFile": "life-of-a-magic-academy-mage.json",
+          "source": "asura",
+          "chapterCount": 130,
+          "toChapter": 133
+        }
+      ]
+    },
+    {
+      "title": "Duke Pendragon",
+      "chapterCount": 131,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/duke-pendragon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/duke-pendragon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/duke-pendragon.d42626-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Duke Pendragon",
+          "dataFile": "duke-pendragon.json",
+          "source": "asura",
+          "chapterCount": 131,
+          "toChapter": 131
+        }
+      ]
+    },
+    {
+      "title": "Sword Fanatic Wanders Through The Night",
+      "chapterCount": 131,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/sword-fanatic-wanders-through-the-night-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/sword-fanatic-wanders-through-the-night-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sword-fanatic-wanders-through-the-night.2ffbcd-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Sword Fanatic Wanders Through The Night",
+          "dataFile": "sword-fanatic-wanders-through-the-night.json",
+          "source": "asura",
+          "chapterCount": 131,
+          "toChapter": 131
+        }
+      ]
+    },
+    {
+      "title": "Absolute Regression",
+      "chapterCount": 128,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/absolute-regression-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/absolute-regression-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-regression.5742b2-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Absolute Regression",
+          "dataFile": "absolute-regression.json",
+          "source": "asura",
+          "chapterCount": 128,
+          "toChapter": 128
+        }
+      ]
+    },
+    {
+      "title": "My Daughter is the Final Boss",
+      "chapterCount": 128,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/my-daughter-is-the-final-boss-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/my-daughter-is-the-final-boss-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-daughter-is-the-final-boss.7276ba-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "My Daughter Is The Final Boss",
+          "dataFile": "my-daughter-is-the-final-boss.json",
+          "source": "asura",
+          "chapterCount": 128,
+          "toChapter": 128
+        }
+      ]
+    },
+    {
+      "title": "I Reincarnated As The Crazed Heir",
+      "chapterCount": 128,
+      "status": "Chs.",
+      "rating": 8.7,
+      "seriesPath": "/comics/i-reincarnated-as-the-crazed-heir-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-reincarnated-as-the-crazed-heir-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-reincarnated-as-the-crazed-heir.1770cb-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "I Reincarnated As The Crazed Heir",
+          "dataFile": "i-reincarnated-as-the-crazed-heir.json",
+          "source": "asura",
+          "chapterCount": 128,
+          "toChapter": 127
+        },
+        {
+          "via": "title",
+          "title": "I Reincarnated As The Crazed Heir",
+          "dataFile": "i-reincarnated-as-the-crazed-heir-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 18,
+          "toChapter": 169
+        }
+      ]
+    },
+    {
+      "title": "I'm Not That Kind of Talent",
+      "chapterCount": 127,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/im-not-that-kind-of-talent-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/im-not-that-kind-of-talent-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/im-not-that-kind-of-talent.cfca35-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Im Not That Kind Of Talent",
+          "dataFile": "im-not-that-kind-of-talent.json",
+          "source": "asura",
+          "chapterCount": 118,
+          "toChapter": 118
+        }
+      ]
+    },
+    {
+      "title": "Taming Master",
+      "chapterCount": 127,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/taming-master-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/taming-master-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/taming-master.988f49-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Taming Master",
+          "dataFile": "taming-master.json",
+          "source": "asura",
+          "chapterCount": 127,
+          "toChapter": 127
+        }
+      ]
+    },
+    {
+      "title": "Myst, Might, Mayhem",
+      "chapterCount": 125,
+      "status": "Chs.",
+      "rating": 9.8,
+      "seriesPath": "/comics/myst-might-mayhem-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/myst-might-mayhem-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/myst-might-mayhem.78970c-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Myst Might Mayhem",
+          "dataFile": "myst-might-mayhem.json",
+          "source": "asura",
+          "chapterCount": 109,
+          "toChapter": 109
+        }
+      ]
+    },
+    {
+      "title": "The Last Adventurer",
+      "chapterCount": 121,
+      "status": "Chs.",
+      "rating": 8.6,
+      "seriesPath": "/comics/the-last-adventurer-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-last-adventurer-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-last-adventurer.021ac2-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Last Adventurer",
+          "dataFile": "the-last-adventurer.json",
+          "source": "asura",
+          "chapterCount": 117,
+          "toChapter": 116
+        }
+      ]
+    },
+    {
+      "title": "I’ll Be Taking A Break For Personal Reasons",
+      "chapterCount": 121,
+      "status": "Chs.",
+      "rating": 8.1,
+      "seriesPath": "/comics/ill-be-taking-a-break-for-personal-reasons-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/ill-be-taking-a-break-for-personal-reasons-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/ill-be-taking-a-break-for-personal-reasons.2df5d4-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Ill Be Taking A Break For Personal Reasons",
+          "dataFile": "ill-be-taking-a-break-for-personal-reasons.json",
+          "source": "asura",
+          "chapterCount": 121,
+          "toChapter": 120
+        }
+      ]
+    },
+    {
+      "title": "Return Of The Shattered Constellation",
+      "chapterCount": 120,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/return-of-the-shattered-constellation-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/return-of-the-shattered-constellation-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-of-the-shattered-constellation.61c903-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Return Of The Shattered Constellation",
+          "dataFile": "return-of-the-shattered-constellation.json",
+          "source": "asura",
+          "chapterCount": 120,
+          "toChapter": 120
+        }
+      ]
+    },
+    {
+      "title": "Steel-Eating Player",
+      "chapterCount": 119,
+      "status": "Chs.",
+      "rating": 7.9,
+      "seriesPath": "/comics/steel-eating-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/steel-eating-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/steel-eating-player.411627-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Steel-Eating Player",
+          "dataFile": "steel-eating-player.json",
+          "source": "asura",
+          "chapterCount": 119,
+          "toChapter": 119
+        }
+      ]
+    },
+    {
+      "title": "Sleeping Ranker",
+      "chapterCount": 119,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/sleeping-ranker-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/sleeping-ranker-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/sleeping-ranker.75d9e0-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Sleeping Ranker",
+          "dataFile": "sleeping-ranker.json",
+          "source": "asura",
+          "chapterCount": 119,
+          "toChapter": 119
+        }
+      ]
+    },
+    {
+      "title": "Max Level Returner",
+      "chapterCount": 118,
+      "status": "Chs.",
+      "rating": 8.7,
+      "seriesPath": "/comics/max-level-returner-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/max-level-returner-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/max-level-returner.226ded-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Max Level Returner",
+          "dataFile": "max-level-returner.json",
+          "source": "asura",
+          "chapterCount": 118,
+          "toChapter": 117
+        }
+      ]
+    },
+    {
+      "title": "Genius Archer’s Streaming",
+      "chapterCount": 117,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/genius-archers-streaming-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/genius-archers-streaming-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.fda7ec-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Genius Archers Streaming",
+          "dataFile": "genius-archers-streaming.json",
+          "source": "asura",
+          "chapterCount": 116,
+          "toChapter": 116
+        }
+      ]
+    },
+    {
+      "title": "The Regressed Mercenary's Machinations",
+      "chapterCount": 116,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/the-regressed-mercenarys-machinations-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-regressed-mercenarys-machinations-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-regressed-mercenarys-machinations.3ba589-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Regressed Mercenary's Machinations",
+          "dataFile": "the-regressed-mercenarys-machinations.json",
+          "source": "asura",
+          "chapterCount": 115,
+          "toChapter": 115
+        }
+      ]
+    },
+    {
+      "title": "Eternally Regressing Knight",
+      "chapterCount": 116,
+      "status": "Chs.",
+      "rating": 9.9,
+      "seriesPath": "/comics/eternally-regressing-knight-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/eternally-regressing-knight-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/eternally-regressing-knight.ef0006-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Eternally Regressing Knight",
+          "dataFile": "eternally-regressing-knight.json",
+          "source": "asura",
+          "chapterCount": 105,
+          "toChapter": 104
+        }
+      ]
+    },
+    {
+      "title": "I Became a Renowned Family's Sword Prodigy",
+      "chapterCount": 116,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/i-became-a-renowned-familys-sword-prodigy-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/i-became-a-renowned-familys-sword-prodigy-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/i-became-a-renowned-familys-sword-prodigy.e34982-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "I Became A Renowned Familys Sword Prodigy",
+          "dataFile": "i-became-a-renowned-familys-sword-prodigy.json",
+          "source": "asura",
+          "chapterCount": 116,
+          "toChapter": 116
+        }
+      ]
+    },
+    {
+      "title": "Childhood Friend of the Zenith",
+      "chapterCount": 115,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/childhood-friend-of-the-zenith-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/childhood-friend-of-the-zenith-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/childhood-friend-of-the-zenith.6c0f26-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Childhood Friend Of The Zenith",
+          "dataFile": "childhood-friend-of-the-zenith.json",
+          "source": "asura",
+          "chapterCount": 100,
+          "toChapter": 100
+        }
+      ]
+    },
+    {
+      "title": "Kill The Dragon",
+      "chapterCount": 115,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/kill-the-dragon-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/kill-the-dragon-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/kill-the-dragon.b0ff28-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Kill The Dragon",
+          "dataFile": "kill-the-dragon.json",
+          "source": "asura",
+          "chapterCount": 115,
+          "toChapter": 114
+        }
+      ]
+    },
+    {
+      "title": "Insanely-Talented Player",
+      "chapterCount": 113,
+      "status": "Chs.",
+      "rating": 8.5,
+      "seriesPath": "/comics/insanely-talented-player-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/insanely-talented-player-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/insanely-talented-player.b6be28-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Insanely Talented Player",
+          "dataFile": "insanely-talented-player.json",
+          "source": "asura",
+          "chapterCount": 113,
+          "toChapter": 113
+        }
+      ]
+    },
+    {
+      "title": "My School Life Pretending To Be a Worthless Person",
+      "chapterCount": 113,
+      "status": "Chs.",
+      "rating": 8,
+      "seriesPath": "/comics/my-school-life-pretending-to-be-a-worthless-person-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/my-school-life-pretending-to-be-a-worthless-person-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/my-school-life-pretending-to-be-a-worthless-person.42f2f3-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "My School Life Pretending To Be A Worthless Person",
+          "dataFile": "my-school-life-pretending-to-be-a-worthless-person.json",
+          "source": "asura",
+          "chapterCount": 113,
+          "toChapter": 113
+        }
+      ]
+    },
+    {
+      "title": "How To Live As a Villain",
+      "chapterCount": 112,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/how-to-live-as-a-villain-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/how-to-live-as-a-villain-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/how-to-live-as-a-villain.24847b-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "How To Live As A Villain",
+          "dataFile": "how-to-live-as-a-villain.json",
+          "source": "asura",
+          "chapterCount": 112,
+          "toChapter": 112
+        }
+      ]
+    },
+    {
+      "title": "The Second Coming of Gluttony",
+      "chapterCount": 109,
+      "status": "Chs.",
+      "rating": 9,
+      "seriesPath": "/comics/the-second-coming-of-gluttony-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-second-coming-of-gluttony-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-second-coming-of-gluttony.e4b752-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Second Coming Of Gluttony",
+          "dataFile": "the-second-coming-of-gluttony.json",
+          "source": "asura",
+          "chapterCount": 109,
+          "toChapter": 109
+        }
+      ]
+    },
+    {
+      "title": "Worthless Regression",
+      "chapterCount": 107,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/worthless-regression-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/worthless-regression-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/worthless-regression.af1f85-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Worthless Regression",
+          "dataFile": "worthless-regression.json",
+          "source": "asura",
+          "chapterCount": 106,
+          "toChapter": 106
+        }
+      ]
+    },
+    {
+      "title": "Archmage Transcending Through Regression",
+      "chapterCount": 107,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/archmage-transcending-through-regression-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/archmage-transcending-through-regression-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/archmage-transcending-through-regression.b63f09-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Archmage Transcending Through Regression",
+          "dataFile": "archmage-transcending-through-regression.json",
+          "source": "asura",
+          "chapterCount": 107,
+          "toChapter": 107
+        }
+      ]
+    },
+    {
+      "title": "Of All Things, I Became a Crow",
+      "chapterCount": 107,
+      "status": "Chs.",
+      "rating": 9.6,
+      "seriesPath": "/comics/of-all-things-i-became-a-crow-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/of-all-things-i-became-a-crow-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/of-all-things-i-became-a-crow.2e439b-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Of All Things I Became A Crow",
+          "dataFile": "of-all-things-i-became-a-crow.json",
+          "source": "asura",
+          "chapterCount": 107,
+          "toChapter": 107
+        }
+      ]
+    },
+    {
+      "title": "Heavenly Demon Instructor",
+      "chapterCount": 105,
+      "status": "Chs.",
+      "rating": 8.4,
+      "seriesPath": "/comics/heavenly-demon-instructor-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/heavenly-demon-instructor-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/heavenly-demon-instructor.88073a-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Heavenly Demon Instructor",
+          "dataFile": "heavenly-demon-instructor.json",
+          "source": "asura",
+          "chapterCount": 105,
+          "toChapter": 105
+        }
+      ]
+    },
+    {
+      "title": "Magic Academy's Genius Blinker",
+      "chapterCount": 102,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/magic-academys-genius-blinker-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/magic-academys-genius-blinker-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/magic-academys-genius-blinker.f89bce-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Magic Academy's Genius Blinker",
+          "dataFile": "magic-academys-genius-blinker.json",
+          "source": "asura",
+          "chapterCount": 102,
+          "toChapter": 102
+        }
+      ]
+    },
+    {
+      "title": "Reincarnation of the Suicidal Battle God",
+      "chapterCount": 102,
+      "status": "Chs.",
+      "rating": 9.7,
+      "seriesPath": "/comics/reincarnation-of-the-suicidal-battle-god-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/reincarnation-of-the-suicidal-battle-god-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reincarnation-of-the-suicidal-battle-god.773541-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Reincarnation Of The Suicidal Battle God",
+          "dataFile": "reincarnation-of-the-suicidal-battle-god.json",
+          "source": "asura",
+          "chapterCount": 101,
+          "toChapter": 101
+        }
+      ]
+    },
+    {
+      "title": "The Reincarnated Assassin is a Genius Swordsman",
+      "chapterCount": 101,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/the-reincarnated-assassin-is-a-genius-swordsman-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-reincarnated-assassin-is-a-genius-swordsman-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-reincarnated-assassin-is-a-genius-swordsman.7b391a-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Reincarnated Assassin is a Genius Swordsman",
+          "dataFile": "the-reincarnated-assassin-is-a-genius-swordsman.json",
+          "source": "asura",
+          "chapterCount": 101,
+          "toChapter": 101
+        }
+      ]
+    },
+    {
+      "title": "Bloodhound's Regression Instinct",
+      "chapterCount": 100,
+      "status": "Chs.",
+      "rating": 9.2,
+      "seriesPath": "/comics/bloodhounds-regression-instinct-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/bloodhounds-regression-instinct-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/bloodhounds-regression-instinct.e13bfc-400.webp",
+      "matches": [
+        {
+          "via": "slug",
+          "title": "Bloodhounds Regression Instinct",
+          "dataFile": "bloodhounds-regression-instinct.json",
+          "source": "asura",
+          "chapterCount": 100,
+          "toChapter": 100
+        }
+      ]
+    },
+    {
+      "title": "Legendary Youngest Son of the Marquis House",
+      "chapterCount": 92,
+      "status": "Chs.",
+      "rating": 8.3,
+      "seriesPath": "/comics/legendary-youngest-son-of-the-marquis-house-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/legendary-youngest-son-of-the-marquis-house-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/legendary-youngest-son-of-the-marquis-house.e01086-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Legendary Youngest Son of the Marquis House",
+          "dataFile": "legendary-youngest-son-of-the-marquis-house.json",
+          "source": "asura",
+          "chapterCount": 92,
+          "toChapter": 92
+        }
+      ]
+    },
+    {
+      "title": "Mount Hua Sect's Genius Phantom Swordsman",
+      "chapterCount": 86,
+      "status": "Chs.",
+      "rating": 9.1,
+      "seriesPath": "/comics/mount-hua-sects-genius-phantom-swordsman-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/mount-hua-sects-genius-phantom-swordsman-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/mount-hua-sects-genius-phantom-swordsman.ff7339-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Mount Hua Sect's Genius Phantom Swordsman",
+          "dataFile": "mount-hua-sects-genius-phantom-swordsman.json",
+          "source": "asura",
+          "chapterCount": 86,
+          "toChapter": 86
+        }
+      ]
+    },
+    {
+      "title": "The Youngest Son of the Eunhae Merchant Group",
+      "chapterCount": 85,
+      "status": "Chs.",
+      "rating": 8.8,
+      "seriesPath": "/comics/the-youngest-son-of-the-eunhae-merchant-group-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-youngest-son-of-the-eunhae-merchant-group-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-youngest-son-of-the-eunhae-merchant-group.f3d45e-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Youngest Son of the Eunhae Merchant Group",
+          "dataFile": "the-youngest-son-of-the-eunhae-merchant-group-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 68,
+          "toChapter": 68
+        }
+      ]
+    },
+    {
+      "title": "The Divine Demon’s Grand Ascension",
+      "chapterCount": 74,
+      "status": "Chs.",
+      "rating": 9.4,
+      "seriesPath": "/comics/the-divine-demons-grand-ascension-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/the-divine-demons-grand-ascension-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-divine-demons-grand-ascension.306205-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "The Divine Demon’s Grand Ascension",
+          "dataFile": "the-divine-demon-s-grand-ascension-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 58,
+          "toChapter": 58
+        }
+      ]
+    },
+    {
+      "title": "Solo Leveling: Ragnarok",
+      "chapterCount": 73,
+      "status": "Chs.",
+      "rating": 9.5,
+      "seriesPath": "/comics/solo-leveling-ragnarok-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/solo-leveling-ragnarok-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling-ragnarok.9ead3a-400.webp",
+      "matches": [
+        {
+          "via": "slug-fuzzy",
+          "title": "Solo Leveling",
+          "dataFile": "solo-leveling-ch01-202.json",
+          "source": "asura",
+          "chapterCount": 203,
+          "toChapter": 202
+        }
+      ]
+    },
+    {
+      "title": "Crimson Reset",
+      "chapterCount": 70,
+      "status": "Chs.",
+      "rating": 9.3,
+      "seriesPath": "/comics/crimson-reset-7ba78ec7",
+      "seriesUrl": "https://asurascans.com/comics/crimson-reset-7ba78ec7",
+      "coverUrl": "https://cdn.asurascans.com/asura-images/covers/crimson-reset.a8cb99-400.webp",
+      "matches": [
+        {
+          "via": "title",
+          "title": "Crimson Reset",
+          "dataFile": "crimson-reset-qimanga.json",
+          "source": "qimanga",
+          "chapterCount": 54,
+          "toChapter": 53
+        }
+      ]
+    }
+  ]
+}
