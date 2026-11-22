@@ -1293,12 +1293,46 @@
         if (recentNoMatch) recentNoMatch.classList.add("hidden");
 
         try {
-          const res = await fetch(resolveCatalogUrl(), {
-            credentials: "same-origin",
-            cache: "no-store",
-          });
-          if (!res.ok) {
-            throw new Error("HTTP " + res.status);
+          // GitHub Pages có thể trả 502/503 tạm thời khi đang rebuild sau push.
+          const maxAttempts = 4;
+          let res = null;
+          let lastErr = null;
+          for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+            try {
+              res = await fetch(resolveCatalogUrl(), {
+                credentials: "same-origin",
+                cache: "no-store",
+              });
+              if (res.ok) break;
+              lastErr = new Error("HTTP " + res.status);
+              if (![502, 503, 504].includes(res.status) || attempt === maxAttempts) {
+                throw lastErr;
+              }
+            } catch (fetchErr) {
+              lastErr = fetchErr;
+              const transient =
+                !res ||
+                (fetchErr &&
+                  typeof fetchErr.message === "string" &&
+                  /HTTP 50[234]|Failed to fetch|NetworkError|Load failed/i.test(
+                    fetchErr.message
+                  ));
+              if (!transient || attempt === maxAttempts) throw fetchErr;
+            }
+            const msg = document.getElementById("catalogLoadMessage");
+            if (msg) {
+              msg.textContent =
+                "Máy chủ đang cập nhật danh mục, thử lại lần " +
+                (attempt + 1) +
+                "…";
+            }
+            await new Promise(function (r) {
+              setTimeout(r, 600 * attempt);
+            });
+            res = null;
+          }
+          if (!res || !res.ok) {
+            throw lastErr || new Error("HTTP ?");
           }
           const catalog = JSON.parse(await res.text());
           if (!catalog || !Array.isArray(catalog.series)) {
