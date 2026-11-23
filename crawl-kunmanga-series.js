@@ -25,6 +25,7 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 import { BROWSER_HEADERS, fetchKunMangaImagesFromUrl } from "./extract.mjs";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const DEFAULT_ORIGIN = "https://www.kunmanga.online";
 const DEFAULT_DELAY_MS = 400;
@@ -169,6 +170,7 @@ async function updateCatalogFile(catalogPath, seriesEntry) {
   }
   cat.updatedAt = new Date().toISOString();
   await writeFile(abs, JSON.stringify(cat, null, 2) + "\n", "utf8");
+  await writeBrowserAssetVersion(cat.updatedAt);
 }
 
 async function main() {

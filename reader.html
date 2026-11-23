@@ -1077,6 +1077,7 @@
     </button>
     <div class="reader-autoscroll-speed" id="autoScrollSpeedLabel" aria-live="polite">50px/s</div>
   </div>
+  <script src="asset-version.js"></script>
   <script src="chapter-id.js"></script>
   <script src="reader-history.js"></script>
   <script>
@@ -1824,10 +1825,13 @@
         }
         const base = getManifestBaseDir();
         const safe = name.split(/[/\\]/).pop() || name;
+        let url;
         if (!safe) {
-          return new URL(DATA_JSON_DIR, base).href;
+          url = new URL(DATA_JSON_DIR, base).href;
+        } else {
+          url = new URL(DATA_JSON_DIR + safe, base).href;
         }
-        return new URL(DATA_JSON_DIR + safe, base).href;
+        return window.ComicHubAssets ? ComicHubAssets.withVersion(url) : url;
       }
 
       function getDataFileFromUrl() {

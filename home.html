@@ -700,6 +700,7 @@
 
   </div>
 
+  <script src="asset-version.js"></script>
   <script src="reader-history.js"></script>
   <script>
     (function () {
@@ -721,7 +722,8 @@
       }
 
       function resolveCatalogUrl() {
-        return new URL("manhwa-catalog.json", getManifestBaseDir()).href;
+        const url = new URL("manhwa-catalog.json", getManifestBaseDir()).href;
+        return window.ComicHubAssets ? ComicHubAssets.withVersion(url) : url;
       }
 
       const catalogToolbar = document.getElementById("catalogToolbar");

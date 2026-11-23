@@ -18,6 +18,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { openCatalogDb } from "./catalog/lib/db.js";
+import { writeBrowserAssetVersionSync } from "./catalog/lib/sync-asset-version.js";
 import {
   catalogDirFromMainDbPath,
   resolveSeriesDbPath,
@@ -378,6 +379,7 @@ function rebuildManhwaCatalog({ outDir, catalogPath, mapping, catalogDb, dryRun 
 
   if (!dryRun) {
     writeJson(catalogPath, catalog);
+    writeBrowserAssetVersionSync(catalog.updatedAt);
   }
   console.log(
     `manhwa-catalog: ${series.length} series → ${resolve(catalogPath)}${dryRun ? " (dry-run)" : ""}`

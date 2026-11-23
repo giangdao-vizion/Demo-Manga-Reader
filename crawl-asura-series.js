@@ -15,6 +15,7 @@ import {
   buildAsuraChapterUrl,
   extractChapterNumbersFromSeriesHtml,
 } from "./catalog/lib/asura-chapter-index.js";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const DEFAULT_CONCURRENCY = 5;
 const DEFAULT_SOURCE = "asura";
@@ -241,6 +242,7 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
 
   catalog.updatedAt = new Date().toISOString();
   await writeFile(catalogAbs, JSON.stringify(catalog, null, 2) + "\n", "utf8");
+  await writeBrowserAssetVersion(catalog.updatedAt);
 }
 
 async function main() {

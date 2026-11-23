@@ -175,6 +175,7 @@
     <div id="chapterGrid" class="chapter-grid"></div>
     <p id="state" class="load-state">Đang tải danh sách chương…</p>
   </div>
+  <script src="asset-version.js"></script>
   <script src="chapter-id.js"></script>
   <script src="reader-history.js"></script>
   <script>
@@ -209,7 +210,8 @@
       }
 
       function resolveSeriesJsonUrl(fileName) {
-        return new URL("data-json/" + fileName, getManifestBaseDir()).href;
+        const url = new URL("data-json/" + fileName, getManifestBaseDir()).href;
+        return window.ComicHubAssets ? ComicHubAssets.withVersion(url) : url;
       }
 
       function readChaptersLoadMap() {

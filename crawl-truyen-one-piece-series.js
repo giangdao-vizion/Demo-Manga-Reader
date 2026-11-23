@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 import { BROWSER_HEADERS, collectArticleImageUrls } from "./extract.mjs";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const DEFAULT_CONCURRENCY = 5;
 const DEFAULT_SOURCE = "truyenonepiece";
@@ -325,6 +326,7 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
   else catalog.series.push(entry);
   catalog.updatedAt = new Date().toISOString();
   await writeFile(catalogAbs, JSON.stringify(catalog, null, 2) + "\n", "utf8");
+  await writeBrowserAssetVersion(catalog.updatedAt);
 }
 
 async function main() {

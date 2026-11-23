@@ -12,6 +12,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const API = "https://api.qimanga.com/api/v1";
 const SITE = "https://qimanga.com";
@@ -285,6 +286,7 @@ async function upsertCatalog(catalogPath, entry) {
 
     cat.updatedAt = new Date().toISOString();
     await writeFile(abs, JSON.stringify(cat, null, 2) + "\n", "utf8");
+    await writeBrowserAssetVersion(cat.updatedAt);
   };
 
   const next = catalogWriteChain.then(run, run);

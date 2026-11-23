@@ -11,6 +11,7 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 import { BROWSER_HEADERS, collectImageUrls } from "./extract.mjs";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const DEFAULT_CONCURRENCY = 5;
 const DEFAULT_SOURCE = "dilib";
@@ -325,6 +326,7 @@ async function upsertCatalog(catalogAbs, outFileName, doc, opts) {
 
   catalog.updatedAt = new Date().toISOString();
   await writeFile(catalogAbs, JSON.stringify(catalog, null, 2) + "\n", "utf8");
+  await writeBrowserAssetVersion(catalog.updatedAt);
 }
 
 function normalizeSourceForMatch(source) {

@@ -13,6 +13,7 @@ import {
   logSeriesHeader,
   logSeriesSyncReport,
 } from "./sync-log.mjs";
+import { writeBrowserAssetVersion } from "./catalog/lib/sync-asset-version.js";
 
 const DEFAULT_CONCURRENCY = 5;
 const DEFAULT_DELAY_MS = 450;
@@ -831,6 +832,7 @@ async function main() {
   if (!args.dryRun && catalogDirty) {
     catalog.updatedAt = new Date().toISOString();
     await writeJson(catalogAbs, catalog);
+    await writeBrowserAssetVersion(catalog.updatedAt);
     logLine("");
     logLine(`  Đã lưu ${args.catalogPath}`);
   } else if (!args.dryRun) {
