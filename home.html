@@ -1143,6 +1143,8 @@
         const coverUrl = item.coverUrl != null && String(item.coverUrl).trim();
         if (coverUrl) {
           const img = document.createElement("img");
+          // Asura CDN chặn hotlink theo Referer (GitHub Pages → 403); reader đã dùng no-referrer.
+          img.referrerPolicy = "no-referrer";
           img.src = coverUrl;
           img.alt = "";
           img.loading = "lazy";

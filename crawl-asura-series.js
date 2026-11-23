@@ -117,27 +117,31 @@ function extractSeriesMeta(html, baseUrl) {
       .split("|")[0]
       .trim();
   }
+  // Ưu tiên CDN /covers/ — og:image (asurascans.com/og/…) bị Cloudflare chặn
+  // khi load từ GitHub Pages / host khác.
   let coverUrl = "";
-  const og = String($("meta[property='og:image']").attr("content") || "").trim();
-  if (og) {
-    try {
-      coverUrl = new URL(og, baseUrl).href;
-    } catch {
-      /* ignore */
-    }
-  }
-  if (!coverUrl) {
-    $("img").each((_, el) => {
-      if (coverUrl) return;
-      const src = String($(el).attr("src") || "").trim();
-      if (/\/covers\//i.test(src)) {
-        try {
-          coverUrl = new URL(src, baseUrl).href;
-        } catch {
-          /* ignore */
-        }
+  $("img").each((_, el) => {
+    if (coverUrl) return;
+    const src = String(
+      $(el).attr("src") || $(el).attr("data-src") || $(el).attr("data-lazy-src") || ""
+    ).trim();
+    if (/cdn\.asurascans\.com\/asura-images\/covers\//i.test(src) || /\/covers\//i.test(src)) {
+      try {
+        coverUrl = new URL(src, baseUrl).href;
+      } catch {
+        /* ignore */
       }
-    });
+    }
+  });
+  if (!coverUrl) {
+    const og = String($("meta[property='og:image']").attr("content") || "").trim();
+    if (og && !/\/og\/comics\//i.test(og)) {
+      try {
+        coverUrl = new URL(og, baseUrl).href;
+      } catch {
+        /* ignore */
+      }
+    }
   }
   return { title, coverUrl };
 }
