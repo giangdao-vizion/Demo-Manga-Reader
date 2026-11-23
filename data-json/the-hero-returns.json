@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/the-hero-returns-1d35e5bd",
   "title": "The Hero Returns",
   "fromChapter": 1,
-  "toChapter": 179,
-  "fetchedAt": "2026-11-17T00:05:42.608Z",
+  "toChapter": 180,
+  "fetchedAt": "2026-11-23T00:05:47.816Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-hero-returns.87c539.webp",
   "chapters": [
@@ -4370,6 +4370,43 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/179/b9c05f.webp?v=1794871638",
         "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/179/ad24e0.webp?v=1794871638",
         "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/179/6ba336.webp?v=1794871638"
+      ]
+    },
+    {
+      "title": "Chapter 180",
+      "chapter": 180,
+      "url": "https://asurascans.com/comics/the-hero-returns-1d35e5bd/chapter/180",
+      "finalUrl": "https://asurascans.com/comics/the-hero-returns-7de80a82/chapter/180",
+      "total": 28,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/6cff6a.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/f7a8b1.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/ac83d5.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/e423be.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/309ae1.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/eb33e9.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/17acb3.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/e4c56d.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/2084b3.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/4942a3.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/0e5510.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/9b56d7.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/9f0e6b.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/032d6d.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/75cf56.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/cc6b8d.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/59c1fb.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/d23f8e.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/423d4b.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/6725b2.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/8fecc9.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/a26c5a.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/a11a2c.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/dba1ea.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/aa702d.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/0f1888.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/25d444.webp?v=1795389463",
+        "https://cdn.asurascans.com/asura-images/chapters/the-hero-returns/180/6d69e2.webp?v=1795389463"
       ]
     }
   ]
