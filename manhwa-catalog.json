@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T00:07:05.089Z",
+  "updatedAt": "2026-11-24T13:06:06.252Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -1581,9 +1581,9 @@
       "chapterCount": 254,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (slug 7de80a82). Refresh toàn bộ URL ảnh chapter (chapters-merged / ?v=).",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.9cc9f9.webp",
-      "contentUpdatedAt": "2026-11-18T00:04:57.053Z",
+      "contentUpdatedAt": "2026-11-24T13:06:06.247Z",
       "featured": true
     },
     {
