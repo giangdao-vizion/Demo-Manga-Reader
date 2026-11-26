@@ -3,8 +3,8 @@
   "homeUrl": "https://asurascans.com/comics/the-max-level-hero-has-returned-7de80a82",
   "title": "The Max Level Hero Has Returned",
   "fromChapter": 1,
-  "toChapter": 254,
-  "fetchedAt": "2026-11-24T13:06:06.247Z",
+  "toChapter": 255,
+  "fetchedAt": "2026-11-26T00:01:46.720Z",
   "source": "asura",
   "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-max-level-hero-has-returned.9cc9f9.webp",
   "chapters": [
@@ -5250,6 +5250,29 @@
         "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/254/65bf9b.webp?v=1794910569",
         "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/254/c55c7b.webp?v=1794910569",
         "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/254/3b2882.webp?v=1794910569"
+      ]
+    },
+    {
+      "title": "Chapter 255",
+      "chapter": 255,
+      "url": "https://asurascans.com/comics/the-max-level-hero-has-returned-7de80a82/chapter/255",
+      "finalUrl": "https://asurascans.com/comics/the-max-level-hero-has-returned-7de80a82/chapter/255",
+      "total": 14,
+      "images": [
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/e22839.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/4b2836.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/675303.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/29baf0.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/6a3b23.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/7d96c7.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/b04368.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/644b4d.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/89c68f.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/dddc2e.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/03b2a2.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/66fd3e.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/82cb46.webp?v=1795552946",
+        "https://cdn.asurascans.com/asura-images/chapters/the-max-level-hero-has-returned/255/e2806e.webp?v=1795552946"
       ]
     }
   ]
