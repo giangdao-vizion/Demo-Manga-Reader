@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T15:11:34.003Z",
+  "updatedAt": "2026-11-26T15:30:29.356Z",
   "series": [
     {
       "dataFile": "a-returners-magic.json",
@@ -29,9 +29,9 @@
       "chapterCount": 211,
       "sqliteSeriesId": 30,
       "contentSyncComplete": true,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (absolute-sword-sense-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/absolute-sword-sense.136aa2.webp",
-      "contentUpdatedAt": "2026-11-24T00:05:36.384Z",
+      "contentUpdatedAt": "2026-11-26T15:29:40.645Z",
       "featured": true
     },
     {
@@ -285,9 +285,9 @@
       "chapterCount": 117,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (genius-archers-streaming-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/genius-archers-streaming.fda7ec.webp",
-      "contentUpdatedAt": "2026-11-22T00:10:16.355Z",
+      "contentUpdatedAt": "2026-11-26T15:28:16.449Z",
       "featured": true
     },
     {
@@ -765,10 +765,10 @@
       "chapterCount": 339,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (nano-machine-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/nano-machine.e31bdb.webp",
       "featured": true,
-      "contentUpdatedAt": "2026-11-21T00:04:09.892Z"
+      "contentUpdatedAt": "2026-11-26T15:28:32.463Z"
     },
     {
       "dataFile": "of-all-things-i-became-a-crow.json",
@@ -909,9 +909,9 @@
       "chapterCount": 148,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com (slug 05c7df14). Force refresh toàn bộ ảnh vì Asura rehash CDN (ch.3: 023.webp→d1545e.webp; nhiều chap khác 404).",
+      "contentSyncNote": "Nguồn asurascans.com (reborn-as-the-heavenly-demon-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reborn-as-the-heavenly-demon.aec242.webp",
-      "contentUpdatedAt": "2026-11-20T00:03:01.651Z",
+      "contentUpdatedAt": "2026-11-26T15:28:39.481Z",
       "featured": true
     },
     {
@@ -925,9 +925,9 @@
       "chapterCount": 169,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (reformation-of-the-deadbeat-noble-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/reformation-of-the-deadbeat-noble.35b8e9.webp",
-      "contentUpdatedAt": "2026-11-22T00:10:30.071Z",
+      "contentUpdatedAt": "2026-11-26T15:28:49.118Z",
       "featured": true
     },
     {
@@ -1101,9 +1101,9 @@
       "chapterCount": 138,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": null,
+      "contentSyncNote": "Nguồn asurascans.com (return-to-player-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/return-to-player.df2f2e-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "contentUpdatedAt": "2026-11-26T15:29:06.425Z",
       "featured": false
     },
     {
@@ -1149,25 +1149,25 @@
       "chapterCount": 153,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (solo-farming-in-the-tower-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-farming-in-the-tower.d60872.webp",
-      "contentUpdatedAt": "2026-11-22T00:10:42.147Z",
+      "contentUpdatedAt": "2026-11-26T15:29:15.929Z",
       "featured": true
     },
     {
       "dataFile": "solo-leveling-ch01-202.json",
       "title": "Solo Leveling",
       "displayTitle": "Solo Leveling",
-      "subtitle": "Ch. 0–202 · solo-leveling-ch01-202.json",
+      "subtitle": "Ch. 0–200 · solo-leveling-ch01-202.json",
       "source": "asura",
       "fromChapter": 0,
-      "toChapter": 202,
-      "chapterCount": 203,
+      "toChapter": 200,
+      "chapterCount": 201,
       "sqliteSeriesId": 94,
       "contentSyncComplete": true,
-      "contentSyncNote": "26 tải OK, 175 đã có trong DB, 0 lỗi / 201 ch trong scope",
+      "contentSyncNote": "Nguồn asurascans.com (solo-leveling-7de80a82). Refresh toàn bộ URL ảnh chapter. Ch.201–202 không còn trên Asura và ảnh cũ 404, đã bỏ.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/solo-leveling.c27830-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "contentUpdatedAt": "2026-11-26T15:30:02.848Z",
       "featured": false
     },
     {
@@ -1277,9 +1277,9 @@
       "chapterCount": 151,
       "sqliteSeriesId": null,
       "contentSyncComplete": false,
-      "contentSyncNote": null,
+      "contentSyncNote": "Nguồn asurascans.com (superhuman-battlefield-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/superhuman-battlefield.c8e9c9-400.webp",
-      "contentUpdatedAt": "2026-06-01T11:00:00.000Z",
+      "contentUpdatedAt": "2026-11-26T15:29:30.096Z",
       "featured": false
     },
     {
@@ -1597,9 +1597,9 @@
       "chapterCount": 140,
       "sqliteSeriesId": 52,
       "contentSyncComplete": false,
-      "contentSyncNote": "Nguồn asurascans.com.",
+      "contentSyncNote": "Nguồn asurascans.com (the-nebulas-civilization-7de80a82). Refresh toàn bộ URL ảnh chapter.",
       "coverUrl": "https://cdn.asurascans.com/asura-images/covers/the-nebulas-civilization.243e12.webp",
-      "contentUpdatedAt": "2026-08-02T11:04:55.365Z",
+      "contentUpdatedAt": "2026-11-26T15:29:47.747Z",
       "featured": true
     },
     {
