@@ -3,7 +3,7 @@
  * Bump whenever catalog/content is published — see catalog/lib/sync-asset-version.js.
  */
 (function (global) {
-  var VERSION = "2026-11-27T00:03:25.312Z";
+  var VERSION = "2026-11-28T00:02:39.749Z";
 
   function withVersion(url) {
     var v = VERSION || "";
